@@ -61,15 +61,13 @@ e_yucatan = {
 			#		lacandon = "Tsi'iibil Chaltun"
 			#		quichean = "T'ajiktuj Aktun"
 			#		cholano = "Tsi'iibil Chaltun"
-				}
+			#	 }
 
 			#	b_cholul_YU = {
 			#		yucateco = "Che' Luul"
 			#		lacandon = "Che' Luul"
 			#		quichean = "Che' Luul"
 			#		cholano = "Che' Luul"
-				}
-
 			}
 			c_motul = {  #4
 				color={ 91 127 0 }
@@ -480,7 +478,7 @@ e_yucatan = {
 				b_muna_YU = {}
 				b_oxkutzcab_YU = {}
 				b_santa_elena_YU = {}
-				b_chapab_YU
+				b_chapab_YU = {}
 	
 			}
 			
