@@ -1,0 +1,27 @@
+# test
+technology={
+	titles={
+		d_merida
+		d_puuc
+		d_izamal
+		d_valladolid
+	}
+
+	768={
+		military=1.8
+		economy=2.5
+		culture=1.8
+		TECH_TRADE_PRACTICES=3.0
+		TECH_CONSTRUCTION=3.0
+		TECH_NAVAL=1.5
+	}
+
+	2666={
+		military=1.8
+		economy=2.5
+		culture=1.8
+		TECH_TRADE_PRACTICES=4.0
+		TECH_CONSTRUCTION=4.0
+		TECH_NAVAL=2.5
+	}
+}
