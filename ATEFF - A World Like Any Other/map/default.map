@@ -21,11 +21,8 @@ seasons = "seasons.txt"
 #Pacific	
 	sea_zones = {18 19 }
 
-#Lakes
-	sea_zones = {149}
-
-#Artic Ocean
-	sea_zones = {155}
+#Lakes & Artic
+	sea_zones = { 20 21 }
 
 ocean_region = {	
 	sea_zones = { 1 2 } # Atlantic -Pacific Ocean
