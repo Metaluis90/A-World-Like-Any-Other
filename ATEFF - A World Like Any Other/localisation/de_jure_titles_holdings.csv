@@ -1,8 +1,33 @@
 ###ÄNSI
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 e_yucatan;Yucatán;Yucatán;Yucatán;Yucatán;;;;;;;;;x
+e_yucatan_adj;Yucatanense;Yucatanense;Yucatanense;Yucatanense;;;;;;;;;x
 k_yucatan;Yucatán;Yucatán;Yucatán;Yucatán;;;;;;;;;x
+k_yucatan_adj;Yucateco;Yucateco;Yucateco;Yucateco;;;;;;;;;x
 d_merida;Mérida;Mérida;Mérida;Mérida;;;;;;;;;x
+d_merida_adj;Meridense;Meridense;Meridense;Meridense;;;;;;;;;x
+d_puuc;Puuc;Puuc;Puuc;Puuc;;;;;;;;;x
+d_puuc_adj;Puuc;Puuc;Puuc;Puuc;;;;;;;;;x
+c_maxcanu_adj;Maxcanuense;Maxcanuense;Maxcanuense;Maxcanuense;;;;;;;;;x
+c_ticul_adj;Ticuleño;Ticuleño;Ticuleño;Ticuleño;;;;;;;;;x
+c_tekax_adj;Tekaxeño;Tekaxeño;Tekaxeño;Tekaxeño;;;;;;;;;x
+d_valladolid;Valladolid;Valladolid;Valladolid;Valladolid;;;;;;;;;x
+d_valladolid_adj;Vallisoletano;Vallisoletano;Vallisoletano;Vallisoletano;;;;;;;;;x
+c_valladolid_adj;Valladolidense;Valladolidense;Valladolidense;Valladolidense;;;;;;;;;x
+c_holbox_adj;Holboxense;Holboxense;Holboxense;Holboxense;;;;;;;;;x
+c_tizimin_adj;Tizimeño;Tizimeño;Tizimeño;Tizimeño;;;;;;;;;x
+c_tinum_adj;Tinumense;Tinumense;Tinumense;Tinumense;;;;;;;;;x
+d_izamal;Izamal;Izamal;Izamal;Izamal;;;;;;;;;x
+d_izamal_adj;Izamaleño;Izamaleño;Izamaleño;Izamaleño;;;;;;;;;x
+c_izamal_adj;Izamaleño;Izamaleño;Izamaleño;Izamaleño;;;;;;;;;x
+c_celestun_adj;Celestunense;Celestunense;Celestunense;Celestunense;;;;;;;;;x
+c_hunucma_adj;Hunucmaense;Hunucmaense;Hunucmaense;Hunucmaense;;;;;;;;;x
+c_tecoh_adj;Tecohense;Tecohense;Tecohense;Tecohense;;;;;;;;;x
+c_motul_adj;Motuleño;Motuleño;Motuleño;Motuleño;;;;;;;;;x
+c_merida_adj;Meridano;Meridano;Meridano;Meridano;;;;;;;;;x
+c_dzilam_adj;Dzilamense;Dzilamense;Dzilamense;Dzilamense;;;;;;;;;x
+
+###holdings
 b_merida_YU;Mérida;Mérida;Mérida;Mérida;;;;;;;;;x
 b_kanasin_YU;Kanasín;Kanasín;Kanasín;Kanasín;;;;;;;;;x
 b_progreso_YU;Progreso;Progreso;Progreso;Progreso;;;;;;;;;x
@@ -39,7 +64,6 @@ b_el_palmar_YU;El Palmar;El Palmar;El Palmar;El Palmar;;;;;;;;;x
 b_isla_arena_YU;Isla Arena;Isla Arena;Isla Arena;Isla Arena;;;;;;;;;x
 b_crucero_YU;Crucero;Crucero;Crucero;Crucero;;;;;;;;;x
 b_jaina_YU;Jaina;Jaina;Jaina;Jaina;;;;;;;;;x
-d_izamal;Izamal;Izamal;Izamal;Izamal;;;;;;;;;x
 b_kantunil_YU;Kantunil;Kantunil;Kantunil;Kantunil;;;;;;;;;x
 b_teya_YU;Teya;Teya;Teya;Teya;;;;;;;;;x
 b_izamal_YU;Izamal;Izamal;Izamal;Izamal;;;;;;;;;x
@@ -61,7 +85,7 @@ b_dzidzantun_YU;Dzidzantún;Dzidzantún;Dzidzantún;Dzidzantún;;;;;;;;;x
 b_dzilam_gonzalez_YU;Dzilam González;Dzilam González;Dzilam González;Dzilam González;;;;;;;;;x
 b_cansahcab_YU;Cansahcab;Cansahcab;Cansahcab;Cansahcab;;;;;;;;;x
 b_dzoncauich_YU;Dzoncauich;Dzoncauich;Dzoncauich;Dzoncauich;;;;;;;;;x
-d_valladolid;Valladolid;Valladolid;Valladolid;Valladolid;;;;;;;;;x
+
 b_tinum_YU;Tinúm;Tinúm;Tinúm;Tinúm;;;;;;;;;x
 b_piste_YU;Pisté;Pisté;Pisté;Pisté;;;;;;;;;x
 b_chichen_itza_YU;Chichén Itzá;Chichén Itzá;Chichén Itzá;Chichén Itzá;;;;;;;;;x
@@ -90,7 +114,6 @@ b_holbox_QR3;Holbox 3;Holbox 3;Holbox 3;Holbox 3;;;;;;;;;x
 b_holbox_QR4;Holbox 4;Holbox 4;Holbox 4;Holbox 4;;;;;;;;;x
 b_holbox_QR5;Holbox 5;Holbox 5;Holbox 5;Holbox 5;;;;;;;;;x
 b_holbox_QR6;Holbox 6;Holbox 6;Holbox 6;Holbox 6;;;;;;;;;x
-d_puuc;Puuc;Puuc;Puuc;Puuc;;;;;;;;;x
 b_tekax_YU;Tekax;Tekax;Tekax;Tekax;;;;;;;;;x
 b_peto_YU;Peto;Peto;Peto;Peto;;;;;;;;;x
 b_tzucacab_YU;Tzucacab;Tzucacab;Tzucacab;Tzucacab;;;;;;;;;x
