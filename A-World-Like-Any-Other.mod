@@ -11,6 +11,11 @@ replace_path = "history/characters"
 replace_path = "common/landed_titles"
 replace_path = "common/trade_routes"
 replace_path = "common/province_setup"
+replace_path = "common/alternate_start"
+replace_path = "common/bloodlines"
+replace_path = "common/dynasties"
+replace_path = "common/offmap_powers"
+
 
 dependencies=
 	{
