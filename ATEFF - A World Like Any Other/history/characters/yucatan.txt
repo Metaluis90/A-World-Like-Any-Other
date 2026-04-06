@@ -14,7 +14,7 @@
 	trait= arbitrary
 	trait= craven
 	trait= indulgent_wastrel
-	trait= sympathy_mesoamerican_gods
+#	trait= sympathy_mesoamerican_gods
 #	father= 6900650
 	2600.12.12={birth=yes
 		#culture=yucatanense	
