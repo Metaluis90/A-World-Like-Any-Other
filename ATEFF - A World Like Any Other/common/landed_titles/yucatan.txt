@@ -208,7 +208,7 @@ e_yucatan = {
 		
 		d_izamal = {
 			color = { 0 0 0 }
-			color2 = { 255 555 255 }
+			color2 = { 255 255 255 }
 			
 			capital = 9 #c_izamal
  		
