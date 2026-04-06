@@ -16,9 +16,9 @@
 	trait= indulgent_wastrel
 #	trait= sympathy_mesoamerican_gods
 #	father= 6900650
-	2600.12.12={birth=yes
+	1000.12.12={birth=yes
 		#culture=yucatanense	
 	}
 	#2661.1.1={effect = { add_rival = 1431100}}
-	2668.1.1 = {death = yes }	
+	1069.1.1 = {death = yes }	
 }

@@ -1,12 +1,12 @@
 ###ÄNSI
 
 mexicano = {
-	graphical_cultures = { centralmexicangfx mexicangfx muslimgfx }
+	graphical_cultures = { centralmexicangfx mexicangfx westerngfx }
 	
 	
 	yucatanense = {
-		graphical_cultures = { yucatanensegfx caribenogfx mexicangfx}
-		unit_graphical_cultures = { southerngfx occitangfx }
+		graphical_cultures = { yucatanensegfx caribenogfx westerngfx}
+		unit_graphical_cultures = { southerngfx westerngfx }
 		color = { 0.9921 0.82745 0.45098 }
 		
 		male_names = {
