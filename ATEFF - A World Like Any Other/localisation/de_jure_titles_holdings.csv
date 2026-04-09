@@ -1,5 +1,7 @@
 ###ÄNSI
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#Mexico
 e_yucatan;Yucatán;Yucatán;Yucatán;Yucatán;;;;;;;;;x
 e_yucatan_adj;Yucatanense;Yucatanense;Yucatanense;Yucatanense;;;;;;;;;x
 k_yucatan;Yucatán;Yucatán;Yucatán;Yucatán;;;;;;;;;x
@@ -26,6 +28,15 @@ c_tecoh_adj;Tecohense;Tecohense;Tecohense;Tecohense;;;;;;;;;x
 c_motul_adj;Motuleño;Motuleño;Motuleño;Motuleño;;;;;;;;;x
 c_merida_adj;Meridano;Meridano;Meridano;Meridano;;;;;;;;;x
 c_dzilam_adj;Dzilamense;Dzilamense;Dzilamense;Dzilamense;;;;;;;;;x
+
+
+#Patagonia
+e_patagonia;Patagonia;Patagonie;Patagonien;Patagonia;;;;;;;;;x
+k_tierra_del_fuego;Tierra del Fuego;Terre de Feu;Feuerland;Tierra del Fuego;;;;;;;;;x
+c_cabo_de_hornos;Cape Horn;Cap Horn;Kap Hoorn;Cabo de Hornos;;;;;;;;;x
+
+
+
 
 ###holdings
 b_merida_YU;Mérida;Mérida;Mérida;Mérida;;;;;;;;;x
@@ -135,3 +146,12 @@ b_kopoma_YU;Kopomá;Kopomá;Kopomá;Kopomá;;;;;;;;;x
 b_sanakte_YU;Sanakté;Sanakté;Sanakté;Sanakté;;;;;;;;;x
 b_anya_YU;Anya;Anya;Anya;Anya;;;;;;;;;x
 b_lazaro_cardenas_YU;Lázaro Cárdenas;Lázaro Cárdenas;Lázaro Cárdenas;Lázaro Cárdenas;;;;;;;;;x
+
+
+b_navarino_TF;Navarino;Navarin;Navarino;Navarino;;;;;;;;;x
+b_puerto_williams_TF;Puerto Williams;Puerto Williams;Puerto Williams;Puerto Williams;;;;;;;;;x
+b_mejillones_TF;Mejillones;Mejillones;Mejillones;Mejillones;;;;;;;;;x
+b_wollaston_TF;Wollaston;Wollaston;Wollaston;Wollaston;;;;;;;;;x
+b_lennox_TF;Lennox;Lennox;Lennox;Lennox;;;;;;;;;x
+b_hermite_TF;Hermite;Hermite;Hermite;Hermite;;;;;;;;;x
+b_isla_hornos_TF;Horn Island;Île Horn;Horn-Insel;Isla Hornos;;;;;;;;;x

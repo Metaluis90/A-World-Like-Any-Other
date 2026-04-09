@@ -1,0 +1,25 @@
+e_patagonia = {
+	color = { 255 31 39 }
+	color2 = { 255 255 255 }
+	
+	capital = 23 # placeholder
+
+	k_tierra_del_fuego = {
+		color = { 255 61 90 }
+		color2 = { 255 255 255 }
+		
+		capital = 23 # placeholder
+		
+		c_cabo_de_hornos = { #23
+			color = { 239 67 90 }
+			color2 = { 255 255 255 }
+			
+			b_navarino_TF = {}
+			b_puerto_williams_TF = {}
+			b_mejillones_TF = {}
+			b_wollaston_TF = {}
+			b_lennox_TF = {}
+			b_hermite_TF = {}
+			b_isla_hornos_TF = {}
+	}
+}

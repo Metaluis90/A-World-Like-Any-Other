@@ -1,0 +1,15 @@
+# County Title
+title = c_cabo_de_hornos
+
+# Settlements
+max_settlements = 3
+
+b_navarino_TF = tribal
+# b_puerto_williams_TF = city
+# b_mejillones_TF = temple
+
+# Misc
+culture = yucatanense
+religion = catholic
+
+#History
