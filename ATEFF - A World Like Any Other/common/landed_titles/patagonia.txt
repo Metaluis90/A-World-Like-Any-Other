@@ -8,18 +8,88 @@ e_patagonia = {
 		color = { 255 61 90 }
 		color2 = { 255 255 255 }
 		
-		capital = 23 # placeholder
+		capital = 25 # c_ushaia
 		
-		c_cabo_de_hornos = { #23
-			color = { 239 67 90 }
+		d_isla_del_fuego = {	
+			color = { 170 60 90 }
 			color2 = { 255 255 255 }
 			
-			b_navarino_TF = {}
-			b_puerto_williams_TF = {}
-			b_mejillones_TF = {}
-			b_wollaston_TF = {}
-			b_lennox_TF = {}
-			b_hermite_TF = {}
-			b_isla_hornos_TF = {}
+			capital = 25 #c_ushaia
+			
+			c_ushaia = { #23
+				color = {  168 55 85 }
+				color2 = { 255 255 255 }
+				
+				b_ushaia_TF = {}
+				b_puerto_almanza_TF = {}
+				b_paso_garibaldi_TF  = {}
+				b_comandante_portillo_TF  = {}
+				b_puerto_remolino_TF = {}
+				b_bahia_tethis_TF = {}
+				b_san_juan_salvamento_TF = {}
+			
+			}
+			
+			c_rio_grande_del_fuego = { #26
+				color = { 234 75 117 }
+				color2 = { 255 255 255 }
+				
+				b_rio_grande_TF = {}
+				b_tolhuin_TF = {}
+				b_san_pablo_TF = {}
+				b_cullen_TF = {}
+				b_yehuin_TF = {}
+				b_castillo_TF = {}
+				b_san_justo_TF = {}
+			}
+			
+			c_timakuel = { #27
+				color = { 196 64 99 }
+				color2 = { 255 255 255 }
+				
+				b_cameron_TF = {}
+				b_porvenir_TF  = {}
+				b_cerro_sombrero_TF = {}
+				b_munizaga_TF = {}
+				b_san_martin_TF = {}
+				b_caleta_rosario_TF = {}
+				b_kovacic_TF = {}
+			#	b_puerto_yartou_TF = {}
+			}	
+		}
+		
+		d_yaganes = { 
+			color = { 240 30 90 }
+			color2 = { 255 255 255 }
+			
+			capital = 23 # c_navarino
+		
+			c_navarino = { #23
+				color = { 239 67 90 }
+				color2 = { 255 255 255 }
+				
+				b_navarino_TF = {}
+				b_puerto_williams_TF = {}
+				b_mejillones_TF = {}
+				b_wollaston_TF = {}
+				b_lennox_TF = {}
+				b_hermite_TF = {}
+				b_isla_hornos_TF = {}
+			}
+			
+			c_hornos = { #24
+				color = { 237 31 65 }
+				color2 = { 255 255 255 }
+				
+				b_puerto_harris_TF = {}
+				b_yendegaia_TF = {}
+				b_almirante_schroeders_TF = {}
+				b_agostini_TF = {}
+				b_monte_darwin_TF = {}
+				b_dawson_TF = {}
+				b_wickham_TF = {}
+			}
+		}
 	}
+		
 }
