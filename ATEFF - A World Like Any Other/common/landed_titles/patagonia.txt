@@ -91,5 +91,61 @@ e_patagonia = {
 			}
 		}
 	}
+	
+	k_malvinas = { #loc as Falkand to any british or european culture
+		color = { 175 28 42 }
+		color2 = { 255 255 255 }
 		
+		capital =  29 # c_isla_soledad
+	
+		d_malvinas = { #one-duchy kingdom
+			color = { 173 69 79 }
+			color2 = { 255 255 255 }
+			
+			capital = 29 #c_isla_soledad
+			
+			c_isla_soledad = { #29
+				color = { 175 57 42 }
+				color2 = { 255 255 255 }
+				
+				b_puerto_argentino_MV = { #loc as Stanley to any british culture 
+				}
+				b_monte_agradable_MV = { #mount pleasant
+				}
+				b_puerto_soledad_MV = { #port louis
+				}
+				b_san_carlos_MV = {}
+				b_puerto_johnson_MV = {}
+				b_salvador_MV = {}
+				b_escampado_verde_MV = { # Green Patch
+				}
+			}
+			
+			c_lafonia = { #30 #Rincon del Toro
+				color = { 244 97 78 }
+				color2 = { 255 255 255 }
+				
+				
+				b_darwin_MV = {}
+				b_goose_MV = {}
+				b_port_king_MV = {}
+				b_north_arm_MV = {}
+				b_egg_harbour_MV = {}
+				b_arroyo_walker_MV = {}
+				b_lively_MV = {}
+			}
+			c_gran_malvina = { #28
+				color = { 247 66 40 }
+				color2 = { 255 255 255 }
+
+				b_howard_MV = {}
+				b_albemarle_MV = {}
+				b_chartres_MV = {}
+				b_dunnose_head_MV = {}
+				b_fox_bay_MV = {}
+				b_stephens_MV = {}
+				b_hill_cove_MV = {}
+			}
+		}
+	}
 }
