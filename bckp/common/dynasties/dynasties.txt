@@ -1,0 +1,10 @@
+# This file is to add dynasties that are canon to AtE, SoA, JAtE or AoS
+# use 1 through whatever number 
+# any dynasty not present in those mods should go in a new file
+
+1 ={
+	name="Montejo"
+	culture="yucatanense"
+	religion="catholic"
+	used_for_random=no
+}

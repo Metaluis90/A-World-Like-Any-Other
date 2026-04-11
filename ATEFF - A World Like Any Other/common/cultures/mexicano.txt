@@ -1,0 +1,114 @@
+###ÄNSI
+
+mexicano = {
+	graphical_cultures = { centralmexicangfx mexicangfx westerngfx }
+	
+	
+	yucatanense = {
+		graphical_cultures = { yucatanensegfx caribenogfx westerngfx}
+		unit_graphical_cultures = { southerngfx westerngfx }
+		color = { 0.9921 0.82745 0.45098 }
+		
+		male_names = {
+			"Gonzalo Guerrero"
+			Adrián_Adrian Andrónico_Andronicus Alexis_Alexius Alejo_Alexius Aznar Arcángel Abraham_Abraham Abel_Abel
+			Alberto_Albert Alejandro_Alexander Ángel_Angel Armando_Herman Aurelio_Aurelius Álvaro Agustín_Augustus 
+			Antonio_Anthony Alfredo_Alfred Alonzo_Alphons Alonso_Alphons Ambrosio_Ambrose Andrés_Andrew Aníbal_Hannibal
+			Apolinar_Apollinaris
+			Baltazar_Balthazar Braulio
+			Calixto_Callistus Crispín_Crispin Cipriano_Ciprianus Cornelio Claudio_Claudius Celso Camilo_Camillus 
+			Cecilio_Cecilius Carlos_Charles Cristóbal_Christopher César_Caesar Crescencio Cristian_Christian Caballero
+			Crisanto_Chrysanthus Ciro_Cyrus
+			Domingo_Dominick Daniel_Daniel Diego_Tiago Damián_Damian 
+			Esteban_Stephen Eleazar Emiliano_Emilianus Emilio_Aemilius Eligio Ernesto_Ernest Eladio Eliseo_Elysius 
+			Enrique_Henry Eduardo_Edward
+			Flavio_Flavius Flaviano_Flavianus Fabricio_Fabricius Fabián_Fabius Fabio_Fabius Félix_Felix Florentín_Florentin Florencio_Florence Francisco_Francis Fausto_Faust Federico_Frederick Fermín_Firmin 					Fernando_Ferdinand Felipe_Phillip
+			Gonzalo_Gonzalo Guerrero Guillén_William Gabriel_Gabriel Gaspar_Caspar Genaro_Januarius Guillermo_William 
+			Gustavo_Gustav Gilberto_Gilbert Graciliano_Gracilianus Gregorio_Gregory
+			Horacio_Horatius Hermenegildo_Hermenegild  Héctor_Hector Hermilo Humberto_Humbert
+			Hilario_Hilarius Ignacio_Ignatius Isidoro_Isidore Israel Inocencio_Innocentius
+			Jovián_Jovian Javier_Xavier Jerónimo_Gerónimo Jacinto_Hyacinth Jahir_Yahir Jacobo_Jacob Jaime_James 
+			Jesús_Jesus Jorge_George José_Joseph Juan_John Julio_Julius Julián_Julian Joaquín_Joachim
+			Kevin
+			Lucrecio_Lucretius Livio_Livius  Luciano_Lucien Lucas_Luke Luis_Louis Lorenzo_Lawrence Laureano_Lawrence Liborio
+			Lino Leonardo_Leonard Leoncio_Leontius León_Leo 
+			Majencio_Maxentius Martín_Martin Marcio_Marcial Manlio Marcelo_Marcellus Marcelino_Marcellus 
+			Marciano_Marcianus Magno_Magnus Marino_Marinus Martín_Martin Melchor Macedonio Manuel_Emmanuel Marcial Marcos_Mark 
+			Mario_Marius Mariano_Marius Maximón_Maximus Miguel_Michael Montejo Mauricio_Maurice
+			Noé_Noah Nicolás_Nicholas Norberto_Norbert Néstor
+			Octavio_Octavius Olegario Orlando_Roland Onésimo
+			Prisco_Priscus Póstumo_Posthumus Pompeyo_Pompeius Paulino Porfirio Pericles Pío_Pius Pancracio Patricio_Patrick Pascual_Pascal Pérez Plácido Policarpo Primitivo Pablo_Paul Pastor Pánfilo_Pamphilus Pelayo_Pelagius
+			Quinto_Quintus Quintiliano_Quintus
+			Rústico Rufino_Rufus Rufo_Rufus Régulo Rodrigo_Roderick Roque_Rocco Rolando_Roland Rodolfo_Rudolf
+			Ricardo_Richard Rafael_Raphael Ramiro Ramón_Raymond Raúl_Ralph Reyes Román_Roman Roberto_Robert
+			Roger_Roger Rogerio_Roger
+			Severo_Severus Severino Sergio_Sergius Septimio_Septimus Saturnino Sabino Simón_Simon Santos Salazar 
+			Salvador_Salvador Santiago_Tiago Sebastián_Sebastian Serafín Silvestre Soberón
+			Timón Teofilacto Tomás_Thomas Teodosio Teodoro_Theodore Tiburcio Timoteo_Timothy Tito_Titus
+			Vito Vinicio Virgilio Valeriano_Valerius Valerio_Valerius Valente_Valens Valentín_Valens Valentino_Valens Valentiniano Víctor_Victor Vicente_Vincent Victoriano_Victorian Victorino_Victorian
+			Wilbert_Wilbert Wilberto_Wilbert Wilfredo Wálter_Walter Walterio_Walter
+			
+		}
+
+		female_names = { 
+			"Ana María" "Ana Beatriz" "Ana Gabriela" "Ana Esther" "Ana Leonor" "Ana Julia" "Ana Josefina" "Ana Elena" "Ana Irene" "Ana Belén"
+			Lol-Bé_Lolbe
+			"Leidi Diana" "Leidi María" 
+			"Olivia Elena" 
+			"Reyna Ana" "Reyna Maria" 
+
+			"Rosa Isabel" 
+			"Zazil Há"
+			Alitzel Abigail_Abigail Abril Ada Adalberta Adela_Adele Adelaida Adelina  Ágata_Agatha 
+			Alicia_Alice Alejandra_Alexandra Allisson_Alison Álison_Alison Alina_Aline 	Alitzel
+			Alma Amada Amaité Amanda Amalia Ambrosia Amelia Amparo 
+			Amor Ana_Anna Anabel_Anabelle Anabela_Anabelle  
+			Anayansi Anel Andrea_Andrea Ángela_Angela Ángelica_Angelique Angelina Ángeles Anairam Airam Amaité  
+			Aracely_Araceli Ariana_Arianne Aurora_Aurora Aparición Antonia_Antonia Arabela_Arabelle 
+			Ariadna_Ariadne Aruma Aventia Aurelia Ava Azalea Azucena 
+			Balduina Bárbara_Barbara Basilia Beata Beatriz Begoña_Begonia Begonia_Begonia Belén Belinda 
+			Benita Berenice Bernardina Berta_Bertha Betania Blanca_Blanca Bonifacia Brenda 
+			Brígida_Briget Briseida  
+			Camila Calipso_Calypso Camelia Candelaria Cara Caridad Carla_Charlotte Carlota_Charlotte Carmela Carmen Carolina_Caroline Casandra_Cassandra Catalina Cecilia Celeste Celestina Celia Celina Chayito "María del Rosario" Charo Constanza_Constance Cristina_Christina Claudia Cloé_Chloe Clotilde Concepción_Conception Consolación Consuelo Coral Crispina_Crispine
+			Dafne_Daphne Dagoberta Dalia Dalila Dámaris_Damaris Damaris Damiana_Damiane Dana Daniela_Danielle Daria Daría_Daria Dayami Débora Delfina Delia Delila_Delilah Denise Deyanira Diana Dolores Donata Dora Doris Dorotea Dulce_Dulce Dunia
+			Edmunda Edelina Edelmira Edith Edna Efigenia Egidia Elaine_Helen Elena_Helen Elba Elda Eleuia Eleónor_Leonor Elia Eligia Elisa_Elise Elisia Elvira Ema_Emma Emelia_Amelia Emma Emiliana Enriqueta Epifania Erenia Érica_Erica Érika_Erica Ermelinda Ermina_Ermine Erminia_Ermine Esmeralda Esperanza Estebana Estrella Esther Eufemia Eugenia Eulalia Eumelia Eustolia Eustoquia  Eva_Eve Evelia 
+			Florencia_Florence Fabia Fabiana Fabiola Fabricia Faina Fátima Faustina Fayna Felicia Felipa_Philippa Fidelia Fidencia Fina Filis_Phyllis Filomena Flavia Flor_Flor Florentina Floria Floriana Florinda  Francisca_Frances Franca_Frances Frida Fulvia
+			Gabriela_Gabriele Gabina Galatea Galiana Gardenia Gea Georgia Georgina Génesis_Genesis Genoveva Geraldina_Geraldine Gisela_Giselle Gilda_Hilda Gina Ginebra_Guinevere Gladis_Gladis Gladys_Gladis Gloria Gracia Graciela_Gracielle Graciella_Gracielle Greta Grisela_Griselle Griselda_Griselle Guadalupe Guillermina Güendolina_Wendy 
+			Haidée_Haydy Helena_Helen Hilda_Hilda Hilda Honoria Hortensia 
+			Ingrid  Ioana_Joan Irene_Irene Isabel_Isabelle Isabella_Isabelle Ivana_Joan Itzel 
+			Ixchel Itzae Izel Itzia Itzé Itzayana_Itzae Itzamara_Itzamara Itzamaray_Itzamara Izamal
+			Jacinta Jennifer Jessica_Jessica Jordana Jorgina_Georgina Juana_Jane Josefina_Josephine Juanita_Jane Julia_Julia Julieta_Juliet Juliza_Juliet Justina_Justine  
+			Karla_Charlotte Karen
+			Laila Lara Laura Laurencia_Lauren Lea_Leah Leandra Lenora_Leonor Leonor Leonora_Leonor 
+			Leonilde Leticia Lina Lía Liberia Liana Libia Licia 
+			Lida_Lidia Lidia Ligia Liliana Lilí_Liliana Linda Liria Livia Litza Lola Loredana 
+			Lorena Lorna Lourdes Lurdes_Lourdes Luisa Lucila Luci_Luciana Lucinia Luscinda Luz Lolbé_Lolbe Lydia_Lidia
+			Macarena Mactzil Magdelena María_Mary Maritza_Marisa Marta Martha_Marta Martina_Martina Maryam_Mary Manuela Mar Mara Marcela Marcia Margarita_Margaret Marian Mariana_Marian Marianela Maribel Maricruz Mariela Marilén_Marilen Marilena_Marilen Marina Marisa_Marisa Marisol Marlene Maura Mayra Melania Melinda Melisa Melisenda Merced Mercedes Mía_Mia Milagros Mildred_Mildreth Mildreda_Mildreth Minerva Miranda Mireya Miriam_Mary Mirna Misericordia Modesta Mónica_Monica Monserrat
+			Nadia Nancy Natalia_Natalia Neli Nelly_Neli Nelli_Neli Nelia Nina Ninfa Noelia
+			Noemí_Naomi Norma Nicté_Nicte Nikté_Nicte Nicte-Ha_Nicteha
+			Octavia Olivia Ofelia Ornella_Ornela Ornela
+			Pamela Paloma Paula_Paula Paulina Penélope Perla Perpetua Petronia Petronila Piedad Pilar Pomponia Priscila Procopia Prosperina Prudencia Purificación
+			Quintila Quintiliana
+			Rafaela Raquel_Rachel Rebeca_Rebecca Renata Rita_Margarita Reina Ramona Reyna_Reina Rigoberta Rocío Rosa_Rose Rosalina_Rosalind Ruth Romana Romina Rosalba Rosalía Rosana Roxana_Rosana_Rosana Rut_Ruth
+			Sáasil_Zazil Sásil_Zazil Sasil-Há_Zazilha Saasil-Há_Zazilha Sabina Sacnité_Sacnite Sac-Nicté_Sacnite Sabrina Salma Salomé Salva Sandra_Aexandra Sebastiana Selina Serena Severina Sibila Silvana Silvia Silvina Simona Simeona_Simona Simeone_Simona Simplicia Sofía_Sophia Soco_Socorro Socorro Sol Soledad Solemnia Sonia Soraya Susana_Susan Sylvia_Silvia
+			Taciana Talía Tamara Tatiana Tea Telma Terencia Tertulia Ticiana Tomasa Tranquilina Trinidad Teresa_Theresa Teresita_Theresa Tonali_Tonalli Tonalli
+			Urraca Ursina Úrsula
+ 			Valentina_Valentina Valeria Vanesa_Vanesa Vanessa_Vanesa Vera Veriana Verónica_Veronica Victoria Vigilia Violeta Virginia Viridiana Viviana_Vivien Vitelia  
+			Yolanda_Violent Yénifer_Jennifer
+			Zoé_Zoe Zazilhá_Zazilha Zazil-Há_Zazilha Zac-Nicté_Sacnite Zamora Zeltzin Zyanya Zulia Zoraida
+		}
+
+		from_dynasty_prefix = "de "
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+}
