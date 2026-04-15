@@ -15,20 +15,23 @@ geographical_region = "geographical_region.txt"
 static = "statics"
 seasons = "seasons.txt"
 
-# Atlantic
+# Atlantic #1
 	sea_zones = {15 17}
 
-#Pacific	
+#Pacific #2	 
 	sea_zones = {18 19 }
 
-#Lakes & Artic
+#Lakes & Artic #3
 	sea_zones = { 20 21 }
+	
+#Strait of Magallanes  #4
+	sea_zones = { 89 98 }
 
 ocean_region = {	
-	sea_zones = { 1 2 } # Atlantic -Pacific Ocean
+	sea_zones = { 1 2 4 } # Atlantic -Pacific Ocean
 }
 ocean_region = { 
-	sea_zones = {4 } #Artic Ocean
+	sea_zones = { 3 } #Artic Ocean
 }
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
