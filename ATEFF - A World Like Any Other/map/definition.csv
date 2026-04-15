@@ -38,9 +38,9 @@ province;red;green;blue;x;x
 37;255;105;94;Adelaida;x
 38;255;34;18;O Higgins;x
 39;255;119;35;Magallanes;x
-40;0;4;15;Dummy40;x
-41;0;4;16;Dummy41;x
-42;0;4;17;Dummy42;x
+40;165;56;13;Carbonera;x
+41;165;88;58;Guer Aike;x
+42;168;74;36;Gallegos;x
 43;0;4;18;Dummy43;x
 44;0;4;19;Dummy44;x
 45;0;4;20;Dummy45;x
@@ -97,5 +97,6 @@ province;red;green;blue;x;x
 96;224;244;249;Skyring Sound;x
 97;170;229;229;Cape Hornos;x
 98;155;188;188;Strait of Magallanes;x
-99;2;4;74;Dummy99;x
-100;0;4;75;Dummy100;x
+99;144;161;165;Beagle Channel;x
+100;174;226;255;Strait of La Maire;x
+101;17;26;25;Dummy101;x
