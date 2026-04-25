@@ -49,7 +49,6 @@ PROV47;Santa Cruz;Santa Cruz;Santa Cruz;Santa Cruz;;;;;;;;;x
 
 PROV87;Bahía Desengaño;Baie Desengaño;Bucht Desengaño;Bahía Desengaño;;;;;;;;;x
 PROV88;Whiteside Channel;Canal Whiteside;Whiteside-Kanal;Canal Whiteside;;;;;;;;;x
-
 PROV89;Beagle Channel;Canal Beagle;Beagle-Kanal;Canal Beagle;;;;;;;;;x
 PROV90;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
 PROV91;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
@@ -62,7 +61,14 @@ PROV97;Cape Horn;Cap Horn;Kap Hoorn;Cabo de Hornos;;;;;;;;;x
 PROV98;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
 PROV99;Beagle Channel;Canal Beagle;Beagle-Kanal;Canal Beagle;;;;;;;;;x
 PROV100;Strait of Le Maire;Détroit de Le Maire;Le-Maire-Straße;Estrecho de Le Maire;;;;;;;;;x
-
+PROV101;Argentine Sea;Mer d'Argentine;Argentinisches Meer;Mar Argentino;;;;;;;;;x
+PROV102;Coast of Tierra del Fuego;Côte de la Terre de Feu;Küste von Feuerland;Costa de Tierra del Fuego;;;;;;;;;x
+PROV103;Coast of the Malvinas;Côte des Malouines;Küste der Malwinen;Costa de las Malvinas;;;;;;;;;x
+PROV104;Coast of the Malvinas;Côte des Malouines;Küste der Malwinen;Costa de las Malvinas;;;;;;;;;x
+PROV105;Coast of Patagonia;Côte de Patagonie;Küste Patagoniens;Costa de la Patagonia;;;;;;;;;x
+PROV106;Dummy106;Dummy106;Dummy106;Dummy106;;;;;;;;;x
+PROV107;Northern Argentine Sea;Mer d'Argentine septentrionale;Nördliches Argentinisches Meer;Mar Argentino Septentrional;;;;;;;;;x
+PROV108;Gulf of Saint George;Golfe Saint-Georges;Sankt-Georgs-Golf;Golfo de San Jorge;;;;;;;;;x
 
 PROV149;Fagnano Lake;Lac Fagnano;Fagnano-See;Lago Fagnano;;;;;;;;;x
 PROV150;Yehuin Lake;Lac Yehuin;Yehuin-See;Lago Yehuin;;;;;;;;;x

@@ -84,7 +84,7 @@ province;red;green;blue;x;x
 83;0;4;58;Dummy83;x
 84;0;4;59;Dummy84;x
 85;0;4;60;Dummy85;x
-86;0;4;61;Dummy86;x
+86;172;236;224;Strait of Magallanes;x
 87;186;244;249;Bahia Desengano;x
 88;172;181;183;Whiteside Channel;x
 89;201;203;204;Beagle Channnel;x
@@ -103,10 +103,10 @@ province;red;green;blue;x;x
 102;112;226;255;Coast of Tierra del Fuego;x
 103;147;186;186;Coast of Malvinas;x
 104;201;188;188;Coast of Malvinas;x
-105;0;4;80;Dummy105;x
+105;122;186;186;Coast of Patagonia;x
 106;0;4;81;Dummy106;x
 107;0;4;82;Dummy107;x
-108;0;4;83;Dummy108;x
+108;159;186;186;Gulf of San Jorge;x
 109;0;4;84;Dummy109;x
 110;0;4;85;Dummy110;x
 111;0;4;86;Dummy111;x
