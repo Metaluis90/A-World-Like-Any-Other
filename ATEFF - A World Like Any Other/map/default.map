@@ -25,7 +25,7 @@ seasons = "seasons.txt"
 	sea_zones = { 20 21 }
 	
 #Strait of Magallanes  #4
-	sea_zones = { 87 100 }
+	sea_zones = { 87 108 }
 	
 #South American Lakes	
 	sea_zones = { 149 153 }

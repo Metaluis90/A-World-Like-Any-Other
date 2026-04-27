@@ -45,12 +45,12 @@ province;red;green;blue;x;x
 44;255;82;20;Leona;x
 45;255;105;56;Chalten;x
 46;216;14;0;Corpen;x
-47;256;70;56;Puerto Santa Cruz;x
-48;0;4;23;Dummy48;x
-49;0;4;24;Dummy49;x
-50;0;4;25;Dummy50;x
-51;0;4;26;Dummy51;x
-52;0;4;27;Dummy52;x
+47;255;70;56;Puerto Santa Cruz;x
+48;196;28;28;Puerto San Julian;x
+49;193;0;0;Puerto Deseado;x
+50;255;38;38;Cordon Alto;x
+51;255;0;0;Caleta Olivia;x
+52;255;61;61;El Pedrero;x
 53;0;4;28;Dummy53;x
 54;0;4;29;Dummy54;x
 55;0;4;30;Dummy55;x
@@ -103,7 +103,7 @@ province;red;green;blue;x;x
 102;112;226;255;Coast of Tierra del Fuego;x
 103;147;186;186;Coast of Malvinas;x
 104;201;188;188;Coast of Malvinas;x
-105;122;186;186;Coast of Patagonia;x
+105;126;186;186;Coast of Patagonia;x
 106;0;4;81;Dummy106;x
 107;0;4;82;Dummy107;x
 108;159;186;186;Gulf of San Jorge;x
