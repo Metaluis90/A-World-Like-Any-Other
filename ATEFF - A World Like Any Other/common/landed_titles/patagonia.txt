@@ -148,4 +148,318 @@ e_patagonia = {
 			}
 		}
 	}
+k_santa_cruz = { # Santa Cruz
+    color = { 105 133 166 }
+    color2 = { 255 255 255 }
+
+    capital = 47 # Puerto Santa Cruz
+
+    d_glaciares = {
+        color = { 98 135 178 }
+        color2 = { 255 255 255 }
+
+        capital = 43 # Calafate
+
+        c_calafate = {
+            color = { 103 140 183 }
+            color2 = { 255 255 255 }
+
+            b_el_calafate_SC = { }
+            b_bandera_SC = { }
+            b_nibepo_aike_SC = { }
+            b_alice_SC = { }
+            b_rio_bote_SC = { }
+            b_charles_fuhr_SC = { }
+            b_quien_sabe_SC = { }
+        } # end of c_calafate
+
+        c_chalten = {
+            color = { 91 128 171 }
+            color2 = { 255 255 255 }
+
+            b_chalten = { }
+            b_chalten_2 = { }
+            b_chalten_3 = { }
+            b_chalten_4 = { }
+            b_chalten_5 = { }
+            b_chalten_6 = { }
+            b_chalten_7 = { }
+        } # end of c_chalten
+
+        c_leona = {
+            color = { 111 145 185 }
+            color2 = { 255 255 255 }
+
+            b_leona = { }
+            b_leona_2 = { }
+            b_leona_3 = { }
+            b_leona_4 = { }
+            b_leona_5 = { }
+            b_leona_6 = { }
+            b_leona_7 = { }
+        } # end of c_leona
+    } # end of d_glaciares
+
+    d_aike = {
+        color = { 112 140 171 }
+        color2 = { 255 255 255 }
+
+        capital = 42 # Gallegos
+
+        c_carbonera = {
+            color = { 116 144 176 }
+            color2 = { 255 255 255 }
+
+            b_carbonera = { }
+            b_carbonera_2 = { }
+            b_carbonera_3 = { }
+            b_carbonera_4 = { }
+            b_carbonera_5 = { }
+            b_carbonera_6 = { }
+            b_carbonera_7 = { }
+        } # end of c_carbonera
+
+        c_pelque = {
+            color = { 105 134 166 }
+            color2 = { 255 255 255 }
+
+            b_pelque = { }
+            b_pelque_2 = { }
+            b_pelque_3 = { }
+            b_pelque_4 = { }
+            b_pelque_5 = { }
+            b_pelque_6 = { }
+            b_pelque_7 = { }
+        } # end of c_pelque
+
+        c_guer_aike = {
+            color = { 121 149 180 }
+            color2 = { 255 255 255 }
+
+            b_guer_aike = { }
+            b_guer_aike_2 = { }
+            b_guer_aike_3 = { }
+            b_guer_aike_4 = { }
+            b_guer_aike_5 = { }
+            b_guer_aike_6 = { }
+            b_guer_aike_7 = { }
+        } # end of c_guer_aike
+
+        c_gallegos = {
+            color = { 109 138 170 }
+            color2 = { 255 255 255 }
+
+            b_gallegos = { }
+            b_gallegos_2 = { }
+            b_gallegos_3 = { }
+            b_gallegos_4 = { }
+            b_gallegos_5 = { }
+            b_gallegos_6 = { }
+            b_gallegos_7 = { }
+        } # end of c_gallegos
+
+        c_santa_cruz = {
+            color = { 128 154 184 }
+            color2 = { 255 255 255 }
+
+            b_santa_cruz = { }
+            b_santa_cruz_2 = { }
+            b_santa_cruz_3 = { }
+            b_santa_cruz_4 = { }
+            b_santa_cruz_5 = { }
+            b_santa_cruz_6 = { }
+            b_santa_cruz_7 = { }
+        } # end of c_santa_cruz
+    } # end of d_aike
+
+    d_deseado = {
+        color = { 94 126 159 }
+        color2 = { 255 255 255 }
+
+        capital = 49 # Puerto Deseado
+
+        c_deseado = {
+            color = { 97 130 164 }
+            color2 = { 255 255 255 }
+
+            b_deseado = { }
+            b_deseado_2 = { }
+            b_deseado_3 = { }
+            b_deseado_4 = { }
+            b_deseado_5 = { }
+            b_deseado_6 = { }
+            b_deseado_7 = { }
+        } # end of c_deseado
+
+        c_san_julian = {
+            color = { 88 120 154 }
+            color2 = { 255 255 255 }
+
+            b_san_julian = { }
+            b_san_julian_2 = { }
+            b_san_julian_3 = { }
+            b_san_julian_4 = { }
+            b_san_julian_5 = { }
+            b_san_julian_6 = { }
+            b_san_julian_7 = { }
+        } # end of c_san_julian
+
+        c_olivia = {
+            color = { 103 134 166 }
+            color2 = { 255 255 255 }
+
+            b_olivia = { }
+            b_olivia_2 = { }
+            b_olivia_3 = { }
+            b_olivia_4 = { }
+            b_olivia_5 = { }
+            b_olivia_6 = { }
+            b_olivia_7 = { }
+        } # end of c_olivia
+
+        c_laura = {
+            color = { 83 115 149 }
+            color2 = { 255 255 255 }
+
+            b_laura = { }
+            b_laura_2 = { }
+            b_laura_3 = { }
+            b_laura_4 = { }
+            b_laura_5 = { }
+            b_laura_6 = { }
+            b_laura_7 = { }
+        } # end of c_laura
+
+        c_bosques_petrificados = {
+            color = { 109 138 169 }
+            color2 = { 255 255 255 }
+
+            b_bosques_petrificados = { }
+            b_bosques_petrificados_2 = { }
+            b_bosques_petrificados_3 = { }
+            b_bosques_petrificados_4 = { }
+            b_bosques_petrificados_5 = { }
+            b_bosques_petrificados_6 = { }
+            b_bosques_petrificados_7 = { }
+        } # end of c_bosques_petrificados
+    } # end of d_deseado
+
+    d_gregores = {
+        color = { 118 147 176 }
+        color2 = { 255 255 255 }
+
+        capital = 54 # Gregores
+
+        c_gregores = {
+            color = { 122 151 181 }
+            color2 = { 255 255 255 }
+
+            b_gregores = { }
+            b_gregores_2 = { }
+            b_gregores_3 = { }
+            b_gregores_4 = { }
+            b_gregores_5 = { }
+            b_gregores_6 = { }
+            b_gregores_7 = { }
+        } # end of c_gregores
+
+        c_cordon_alto = {
+            color = { 112 142 173 }
+            color2 = { 255 255 255 }
+
+            b_cordon_alto = { }
+            b_cordon_alto_2 = { }
+            b_cordon_alto_3 = { }
+            b_cordon_alto_4 = { }
+            b_cordon_alto_5 = { }
+            b_cordon_alto_6 = { }
+            b_cordon_alto_7 = { }
+        } # end of c_cordon_alto
+
+        c_pedrero = {
+            color = { 127 156 185 }
+            color2 = { 255 255 255 }
+
+            b_pedrero = { }
+            b_pedrero_2 = { }
+            b_pedrero_3 = { }
+            b_pedrero_4 = { }
+            b_pedrero_5 = { }
+            b_pedrero_6 = { }
+            b_pedrero_7 = { }
+        } # end of c_pedrero
+
+        c_moyano = {
+            color = { 106 136 168 }
+            color2 = { 255 255 255 }
+
+            b_moyano = { }
+            b_moyano_2 = { }
+            b_moyano_3 = { }
+            b_moyano_4 = { }
+            b_moyano_5 = { }
+            b_moyano_6 = { }
+            b_moyano_7 = { }
+        } # end of c_moyano
+
+        c_pampa_del_setenta = {
+            color = { 132 160 188 }
+            color2 = { 255 255 255 }
+
+            b_pampa_del_setenta = { }
+            b_pampa_del_setenta_2 = { }
+            b_pampa_del_setenta_3 = { }
+            b_pampa_del_setenta_4 = { }
+            b_pampa_del_setenta_5 = { }
+            b_pampa_del_setenta_6 = { }
+            b_pampa_del_setenta_7 = { }
+        } # end of c_pampa_del_setenta
+    } # end of d_gregores
+
+    d_moreno = {
+        color = { 86 116 152 }
+        color2 = { 255 255 255 }
+
+        capital = 53 # Perito Moreno
+
+        c_perito_moreno = {
+            color = { 90 121 157 }
+            color2 = { 255 255 255 }
+
+            b_perito_moreno = { }
+            b_perito_moreno_2 = { }
+            b_perito_moreno_3 = { }
+            b_perito_moreno_4 = { }
+            b_perito_moreno_5 = { }
+            b_perito_moreno_6 = { }
+            b_perito_moreno_7 = { }
+        } # end of c_perito_moreno
+
+        c_pampa_del_asador = {
+            color = { 81 112 148 }
+            color2 = { 255 255 255 }
+
+            b_pampa_del_asador = { }
+            b_pampa_del_asador_2 = { }
+            b_pampa_del_asador_3 = { }
+            b_pampa_del_asador_4 = { }
+            b_pampa_del_asador_5 = { }
+            b_pampa_del_asador_6 = { }
+            b_pampa_del_asador_7 = { }
+        } # end of c_pampa_del_asador
+
+        c_cardiel = {
+            color = { 96 127 162 }
+            color2 = { 255 255 255 }
+
+            b_cardiel = { }
+            b_cardiel_2 = { }
+            b_cardiel_3 = { }
+            b_cardiel_4 = { }
+            b_cardiel_5 = { }
+            b_cardiel_6 = { }
+            b_cardiel_7 = { }
+        } # end of c_cardiel
+    } # end of d_moreno
+} # end of k_santa_cruz	
 }

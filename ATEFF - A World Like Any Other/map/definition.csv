@@ -13,14 +13,14 @@ province;red;green;blue;x;x
 12;69;111;67;Ticul;x
 13;58;116;64;Tekax;x
 14;111;165;115;Sotuta;x
-15;225;211;211;North Atlantic Ocean;x
-16;194;217;236;Caribbean Sea;x
-17;224;188;188;South Atlantic Ocean;x
-18;194;217;255;South Pacific Ocean;x
-19;240;217;255;North Pacific Ocean;x
-20;240;217;182;Artic Ocean;x
-21;240;240;182;Lakes;x
-22;153;39;145;Holbox;x
+15;11;16;15;Dummy15;x
+15;181;96;158;Dummy16;x
+17;188;51;49;Bosques Petrificados;x
+18;12;169;185;Laura;x
+19;217;86;106;Shehuen;x 
+20;255;96;43;Dawson;x
+21;198;55;113;Isla de los Estados;x
+22;198;55;85;Agostini;x
 23;239;67;90;Navarino;x
 24;237;31;85;Cabo de Hornos;x
 25;168;55;85;Ushaia;x
@@ -50,37 +50,37 @@ province;red;green;blue;x;x
 49;193;0;0;Puerto Deseado;x
 50;255;38;38;Cordon Alto;x
 51;255;0;0;Caleta Olivia;x
-52;255;61;61;El Pedrero;x
-53;0;4;28;Dummy53;x
-54;0;4;29;Dummy54;x
-55;0;4;30;Dummy55;x
-56;0;4;31;Dummy56;x
-57;0;4;32;Dummy57;x
-58;0;4;33;Dummy58;x
-59;0;4;34;Dummy59;x
-60;0;4;35;Dummy60;x
-61;0;4;36;Dummy61;x
-62;0;4;37;Dummy62;x
-63;0;4;38;Dummy63;x
-64;0;4;39;Dummy64;x
-65;0;4;40;Dummy65;x
-66;0;4;41;Dummy66;x
-67;0;4;42;Dummy67;x
-68;0;4;43;Dummy68;x
-69;0;4;44;Dummy69;x
-70;0;4;45;Dummy70;x
-71;0;4;46;Dummy71;x
-72;0;4;47;Dummy72;x
-73;0;4;48;Dummy73;x
-74;0;4;49;Dummy74;x
-75;0;4;50;Dummy75;x
-76;0;4;51;Dummy76;x
-77;0;4;52;Dummy77;x
-78;0;4;53;Dummy78;x
-79;0;4;54;Dummy79;x
-80;0;4;55;Dummy80;x
-81;0;4;56;Dummy81;x
-82;0;4;57;Dummy82;x
+52;255;86;86;El Pedrero;x
+53;252;93;61;Perito Moreno;x
+54;219;61;26;Gregores;x
+55;255;61;61;Wellington;x
+56;255;116;55;Tortel;x
+57;225;116;18;Cochrane;x
+58;255;167;18;Chile Chico;x
+59;255;209;18;Aysen;x
+60;255;182;18;Guaitecas;x
+61;255;128;18;Rio Ibañez;x
+62;160;123;0;Coyhaique;x
+63;255;195;0;Lago Verde;x
+64;255;159;0;Cisnes;x
+65;232;25;80;Valdes;x
+66;229;50;53;Viedma;x
+67;229;50;97;Rawson;x
+68;255;56;79;Gaiman;x
+69;168;37;52;Ameghino;x
+70;191;59;49;Telsen;x
+71;193;33;74;Martires;x
+72;255;86;106;Escalante;x
+73;255;43;92;Sarmiento;x
+74;255;71;80;Senguer;x
+75;255;58;39;Mayo;x
+76;219;70;50;Paso de Indios;x
+77;228;78;79;Gastre;x
+78;198;88;58;Pelque;x
+79;255;80;61;Cardiel;x
+80;175;51;21;Pampa del Asador;x
+81;194;58;58;Moyano;x
+82;198;47;47;Pampa del Setenta;x
 83;0;4;58;Dummy83;x
 84;0;4;59;Dummy84;x
 85;0;4;60;Dummy85;x
@@ -104,8 +104,8 @@ province;red;green;blue;x;x
 103;147;186;186;Coast of Malvinas;x
 104;201;188;188;Coast of Malvinas;x
 105;126;186;186;Coast of Patagonia;x
-106;0;4;81;Dummy106;x
-107;0;4;82;Dummy107;x
+106;89;183;183;Coast of Deseado;x
+107;126;223;186;Mar Argentino;x
 108;159;186;186;Gulf of San Jorge;x
 109;0;4;84;Dummy109;x
 110;0;4;85;Dummy110;x
@@ -152,16 +152,16 @@ province;red;green;blue;x;x
 151;255;221;252;Blanco Lake;x
 152;228;221;252;Ofhidro Lake;x
 153;201;244;249;Blanca Lagoon;x
-154;20;21;225;Dummy154;x
-155;24;27;12;Dummy155;x
-156;0;4;131;Dummy156;x
-157;0;4;132;Dummy157;x
-158;0;4;133;Dummy158;x
-159;0;4;134;Dummy159;x
-160;0;4;135;Dummy160;x
-161;0;4;136;Dummy161;x
-162;0;4;137;Dummy162;x
-163;0;4;138;Dummy163;x
+154;229;61;255;San Martin Lake;x
+155;248;204;255;Nansen Lake;x
+156;237;127;255;Cardiel Lake;x
+157;244;173;255;Carrera Lake;x
+158;244;165;255;Pueyrredon Lake;x
+159;242;173;255;Viedma Lake;x
+160;204;232;255;Argentino Lake;x
+161;198;229;255;Argentino Lake;x
+162;255;221;209;Grey Lake;x
+163;255;221;182;El Toro Lake;x
 164;0;4;139;Dummy164;x
 165;0;4;140;Dummy165;x
 166;0;4;141;Dummy166;x
@@ -983,19 +983,20 @@ province;red;green;blue;x;x
 982;0;7;189;Dummy982;x
 983;0;7;190;Dummy983;x
 984;0;7;191;Dummy984;x
-985;0;7;192;Dummy985;x
-986;0;7;193;Dummy986;x
-987;0;7;194;Dummy987;x
-988;0;7;195;Dummy988;x
-989;0;7;196;Dummy989;x
+985;225;211;211;North Atlantic Ocean;x
+986;194;217;236;Caribbean Sea;x
+987;224;188;188;South Atlantic Ocean;x
+988;194;217;255;South Pacific Ocean;x
+989;240;217;255;North Pacific Ocean;x
 990;0;7;197;Dummy990;x
 991;0;7;198;Dummy991;x
 992;0;7;199;Dummy992;x
-993;0;7;200;Dummy993;x
-994;0;7;201;Dummy994;x
+993;240;217;182;Artic Ocean;x
+994;240;240;182;Lakes;x
 995;0;7;202;Dummy995;x
 996;0;7;203;Dummy996;x
 997;0;7;204;Dummy997;x
 998;0;7;205;Dummy998;x
 999;0;7;206;Dummy999;x
 1000;0;7;207;Dummy1000;x
+#22;153;39;145;Holbox;x

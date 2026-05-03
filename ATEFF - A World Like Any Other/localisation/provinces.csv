@@ -16,12 +16,12 @@ PROV13;Tekax;Tekax;Tekax;Tekax;;;;;;;;;x
 PROV14;Sotuta;Sotuta;Sotuta;Sotuta;;;;;;;;;x
 PROV15;North Atlantic Ocean;Océan Atlantique Nord;Nordatlantik;Océano Atlántico Norte;;;;;;;;;x
 PROV16;Caribbean Sea;Mer des Caraïbes;Karibisches Meer;Mar Caribe;;;;;;;;;x
-PROV17;South Atlantic Ocean;Océan Atlantique Sud;Südatlantik;Océano Atlántico Sur;;;;;;;;;x
-PROV18;South Pacific Ocean;Océan Pacifique Sud;Südpazifik;Océano Pacífico Sur;;;;;;;;;x
-PROV19;North Pacific Ocean;Océan Pacifique Nord;Nordpazifik;Océano Pacífico Norte;;;;;;;;;x
-PROV20;Artic Ocean;Océan Arctique;Arktischer Ozean;Océano Ártico;;;;;;;;;x
-PROV21;Lakes;Lacs;Seen;Lagos;;;;;;;;;x
-PROV22;Holbox;Holbox;Holbox;Holbox;;;;;;;;;x
+PROV17;Bosques Petrificados;Forêts Pétrifiées;Versteinerte Wälder;Bosques Petrificados;;;;;;;;;x
+PROV18;Laura;Laura;Laura;Laura;;;;;;;;;x
+PROV19;Shehuen;Shehuen;Shehuen;Shehuen;;;;;;;;;x
+PROV20;Dawson;Dawson;Dawson;Dawson;;;;;;;;;x
+PROV21;Staten Island;Île des États;Staateninsel;Isla de los Estados;;;;;;;;;x
+PROV22;Agostini;Agostini;Agostini;Agostini;;;;;;;;;x
 PROV23;Navarino;Navarino;Navarino;Navarino;;;;;;;;;x
 PROV24;Hornos;Hornos;Hornos;Hornos;;;;;;;;;x
 PROV25;Ushaia;Ushaia;Ushaia;Ushaia;;;;;;;;;x
@@ -52,7 +52,33 @@ PROV49;Deseado;Désiré;Deseado;Deseado;;;;;;;;;x
 PROV50;Cordón Alto;Cordon Alto;Hohe Kordillere;Cordón Alto;;;;;;;;;x
 PROV51;Olivia;Olivia;Olivia;Olivia;;;;;;;;;x
 PROV52;Pedrero;Pedrero;Pedrero;Pedrero;;;;;;;;;x
-
+PROV53;Perito Moreno;Perito Moreno;Perito Moreno;Perito Moreno;;;;;;;;;x
+PROV54;Gregores;Gregores;Gregores;Gregores;;;;;;;;;x
+PROV55;Wellington;Wellington;Wellington;Wellington;;;;;;;;;x
+PROV56;Tortel;Tortel;Tortel;Tortel;;;;;;;;;x
+PROV57;Cochrane;Cochrane;Cochrane;Cochrane;;;;;;;;;x
+PROV58;Chile Chico;Chile Chico;Chile Chico;Chile Chico;;;;;;;;;x
+PROV59;Aysén;Aysén;Aysén;Aysén;;;;;;;;;x
+PROV60;Guaitecas;Guaïtecas;Guaitecas;Guaitecas;;;;;;;;;x
+PROV61;Río Ibáñez;Río Ibáñez;Río Ibáñez;Río Ibáñez;;;;;;;;;x
+PROV62;Coyhaique;Coyhaique;Coyhaique;Coyhaique;;;;;;;;;x
+PROV63;Lago Verde;Lago Verde;Grüner See;Lago Verde;;;;;;;;;x
+PROV64;Cisnes;Cisnes;Cisnes;Cisnes;;;;;;;;;x
+PROV66;Viedma;Viedma;Viedma;Viedma;;;;;;;;;x
+PROV67;Rawson;Rawson;Rawson;Rawson;;;;;;;;;x
+PROV68;Gaiman;Gaiman;Gaiman;Gaiman;;;;;;;;;x
+PROV69;Ameghino;Ameghino;Ameghino;Ameghino;;;;;;;;;x
+PROV70;Telsen;Telsen;Telsen;Telsen;;;;;;;;;x
+PROV71;Mártires;Martyrs;Märtyrer;Mártires;;;;;;;;;x
+PROV72;Escalante;Escalante;Escalante;Escalante;;;;;;;;;x
+PROV73;Sarmiento;Sarmiento;Sarmiento;Sarmiento;;;;;;;;;x
+PROV74;Senguer;Senguer;Senguer;Senguer;;;;;;;;;x
+PROV75;Mayo;Mayo;Mayo;Mayo;;;;;;;;;x
+PROV78;Pelque;Pelque;Pelque;Pelque;;;;;;;;;x
+PROV79;Cardiel;Cardiel;Cardiel;Cardiel;;;;;;;;;x
+PROV80;Pampa del Asador;Pampa del Asador;Pampa del Asador;Pampa del Asador;;;;;;;;;x
+PROV81;Moyano;Moyano;Moyano;Moyano;;;;;;;;;x
+PROV82;Pampa del Setenta;Pampa del Setenta;Pampa del Setenta;Pampa del Setenta;;;;;;;;;x
 
 PROV86;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
 PROV87;Bahía Desengaño;Baie Desengaño;Bucht Desengaño;Bahía Desengaño;;;;;;;;;x
@@ -74,7 +100,7 @@ PROV102;Coast of Tierra del Fuego;Côte de la Terre de Feu;Küste von Feuerland;Co
 PROV103;Coast of the Malvinas;Côte des Malouines;Küste der Malwinen;Costa de las Malvinas;;;;;;;;;x
 PROV104;Coast of the Malvinas;Côte des Malouines;Küste der Malwinen;Costa de las Malvinas;;;;;;;;;x
 PROV105;Coast of Patagonia;Côte de Patagonie;Küste Patagoniens;Costa de la Patagonia;;;;;;;;;x
-PROV106;Dummy106;Dummy106;Dummy106;Dummy106;;;;;;;;;x
+PROV106;Coast of Deseado;Côte de Deseado;Küste der Deseado;Costa de Deseado;;;;;;;;;x
 PROV107;Northern Argentine Sea;Mer d'Argentine septentrionale;Nördliches Argentinisches Meer;Mar Argentino Septentrional;;;;;;;;;x
 PROV108;Gulf of Saint George;Golfe Saint-Georges;Sankt-Georgs-Golf;Golfo de San Jorge;;;;;;;;;x
 
@@ -83,3 +109,23 @@ PROV150;Yehuin Lake;Lac Yehuin;Yehuin-See;Lago Yehuin;;;;;;;;;x
 PROV151;White Lake;Lac Blanc;Weißer See;Lago Blanco;;;;;;;;;x
 PROV152;Ofhidro Lake;Lac Ofhidro;Ofhidro-See;Lago Ofhidro;;;;;;;;;x
 PROV153;White Lagoon;Lagune Blanche;Weiße Lagune;Laguna Blanca;;;;;;;;;x
+PROV154;San Martín Lake;Lac San Martín;San-Martín-See;Lago San Martín;;;;;;;;;x
+PROV155;Nansen Lake;Lac Nansen;Nansen-See;Lago Nansen;;;;;;;;;x
+PROV156;Cardiel Lake;Lac Cardiel;Cardiel-See;Lago Cardiel;;;;;;;;;x
+PROV157;Carrera Lake;Lac Carrera;Carrera-See;Lago Carrera;;;;;;;;;x
+PROV158;Pueyrredón Lake;Lac Pueyrredón;Pueyrredón-See;Lago Pueyrredón;;;;;;;;;x
+PROV159;Viedma Lake;Lac Viedma;Viedma-See;Lago Viedma;;;;;;;;;x
+PROV160;Argentino Lake;Lac Argentino;Argentino-See;Lago Argentino;;;;;;;;;x
+PROV161;Argentino Lake;Lac Argentino;Argentino-See;Lago Argentino;;;;;;;;;x
+PROV162;Grey Lake;Lac Grey;Grey-See;Lago Grey;;;;;;;;;x
+PROV163;Toro Lake;Lac Toro;Toro-See;Lago Toro;;;;;;;;;x
+
+
+PROV985;North Atlantic Ocean;Océan Atlantique Nord;Nordatlantik;Océano Atlántico Norte;;;;;;;;;x
+PROV986;Caribbean Sea;Mer des Caraïbes;Karibisches Meer;Mar Caribe;;;;;;;;;x
+PROV987;South Atlantic Ocean;Océan Atlantique Sud;Südatlantik;Océano Atlántico Sur;;;;;;;;;x
+PROV988;South Pacific Ocean;Océan Pacifique Sud;Südpazifik;Océano Pacífico Sur;;;;;;;;;x
+PROV989;North Pacific Ocean;Océan Pacifique Nord;Nordpazifik;Océano Pacífico Norte;;;;;;;;;x
+
+PROV993;Artic Ocean;Océan Arctique;Arktischer Ozean;Océano Ártico;;;;;;;;;x
+PROV994;Lakes;Lacs;Seen;Lagos;;;;;;;;;x
