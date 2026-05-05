@@ -1156,22 +1156,21 @@ spriteTypes = {
 		textureFile = "gfx\\interface\\icon_topbar_observe.tga"
 	}
 
+	
 	spriteType = {
 		name = "GFX_religion_icon_strip"
-		textureFile = "gfx\\interface\\religion_icon_strip.tga"
-		noOfFrames = 59
+		texturefile = "gfx\\interface\\religion_icon_strip.dds"
+		noOfFrames = 256
 	}
-
 	spriteType = {
 		name = "GFX_religion_icon_strip_small"
-		textureFile = "gfx\\interface\\religion_icon_strip_small.tga"
-		noOfFrames = 59
+		texturefile = "gfx\\interface\\religion_icon_strip_small.dds"
+		noOfFrames = 256
 	}
-
 	spriteType = {
 		name = "GFX_religion_icon_strip_big"
-		textureFile = "gfx\\interface\\religion_icon_strip_big.tga"
-		noOfFrames = 59
+		texturefile = "gfx\\interface\\religion_icon_strip_big.dds"
+		noOfFrames = 256
 	}
 
 	spriteType = {
