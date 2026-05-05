@@ -14,10 +14,10 @@ province;red;green;blue;x;x
 13;58;116;64;Tekax;x
 14;111;165;115;Sotuta;x
 15;11;16;15;Dummy15;x
-15;181;96;158;Dummy16;x
+16;248;96;28;Meseta del Colorado;x
 17;188;51;49;Bosques Petrificados;x
-18;12;169;185;Laura;x
-19;217;86;106;Shehuen;x 
+18;165;68;36;Laura;x
+19;217;83;106;Shehuen;x 
 20;255;96;43;Dawson;x
 21;198;55;113;Isla de los Estados;x
 22;198;55;85;Agostini;x
@@ -74,7 +74,7 @@ province;red;green;blue;x;x
 73;255;43;92;Sarmiento;x
 74;255;71;80;Senguer;x
 75;255;58;39;Mayo;x
-76;219;70;50;Paso de Indios;x
+76;219;50;70;Paso de Indios;x
 77;228;78;79;Gastre;x
 78;198;88;58;Pelque;x
 79;255;80;61;Cardiel;x
