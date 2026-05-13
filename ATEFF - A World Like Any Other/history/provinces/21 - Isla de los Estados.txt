@@ -1,0 +1,20 @@
+# County Title
+title = c_isla_de_los_estados
+
+# Settlements
+max_settlements = 1
+
+b_san_juan_salvamento_TF = tribal
+
+# Misc
+culture = fueguino #placeholder; should be an indigenous culture
+religion = catholic #placeholder; should be the pagan religion of the selknam
+
+#History
+
+#2666.1.1 = { culture = fueguino } #placeholder; should be changed to an indigenous culture: selknam?
+#2666.1.1 = { religion = sunni } #placeholder; in case that we want to convert the King of el Fuego t
+
+#in case we don't want it to be tribal anymore:
+	#2666..1.1 = { b_cabo_de_hornos_TF = castle }
+	

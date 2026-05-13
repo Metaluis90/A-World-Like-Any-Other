@@ -1,0 +1,25 @@
+# County Title
+title = c_hornos
+
+# Settlements
+max_settlements = 3
+
+b_cabo_de_hornos_TF = tribal
+#b_wollaston_TF = city
+#b_hermite_TF = temple
+#b_falso_cabo_TF = temple
+
+
+# Misc
+culture = fueguino #placeholder; should be an indigenous culture
+religion = catholic #placeholder; should be the pagan religion of the selknam
+
+#History
+
+#2666.1.1 = { culture = fueguino } #placeholder; should be changed to an indigenous culture: selknam?
+#2666.1.1 = { religion = sunni } #placeholder; in case that we want to convert the King of el Fuego t
+
+#in case we don't want it to be tribal anymore:
+	#2666..1.1 = { b_cabo_de_hornos_TF = castle }
+	#2666.1.1 = { b_falso_cabo_TF = temple }
+
