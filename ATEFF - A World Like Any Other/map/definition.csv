@@ -162,16 +162,16 @@ province;red;green;blue;x;x
 161;198;229;255;Argentino Lake;x
 162;255;221;209;Grey Lake;x
 163;255;221;182;El Toro Lake;x
-164;0;4;139;Dummy164;x
-165;0;4;140;Dummy165;x
-166;0;4;141;Dummy166;x
-167;0;4;142;Dummy167;x
-168;0;4;143;Dummy168;x
-169;0;4;144;Dummy169;x
-170;0;4;145;Dummy170;x
-171;0;4;146;Dummy171;x
-172;0;4;147;Dummy172;x
-173;0;4;148;Dummy173;x
+164;255;204;255;Plata-Fontana Lake;x
+165;216;183;255;Rosselot Lake;x
+166;215;204;255;Colhue-Huapi Lake;x
+167;228;211;255;Musters Lake;x
+168;211;198;255;Yelcho Lake;x
+169;232;204;255;Llanquihue Lake;x
+170;200;198;255;Todos Los Santos Lake;x
+171;222;214;255;Rupanco Lake;x
+172;230;216;255;Puyehue Lake;x
+173;231;219;255;Ranco Lake;x
 174;0;4;149;Dummy174;x
 175;0;4;150;Dummy175;x
 176;0;4;151;Dummy176;x
@@ -199,10 +199,10 @@ province;red;green;blue;x;x
 198;0;4;173;Dummy198;x
 199;0;4;174;Dummy199;x
 200;0;4;175;Dummy200;x
-201;0;4;176;Dummy201;x
-202;0;4;177;Dummy202;x
-203;0;4;178;Dummy203;x
-204;0;4;179;Dummy204;x
+201;86;46;0;Ancud;x
+202;128;46;0;Chiloe;x
+203;181;63;0;Quinchao;x
+204;84;63;39;Quellon;x
 205;0;4;180;Dummy205;x
 206;0;4;181;Dummy206;x
 207;0;4;182;Dummy207;x
