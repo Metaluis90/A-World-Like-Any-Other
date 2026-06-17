@@ -172,7 +172,7 @@ province;red;green;blue;x;x
 171;222;214;255;Rupanco Lake;x
 172;230;216;255;Puyehue Lake;x
 173;231;219;255;Ranco Lake;x
-174;0;4;149;Dummy174;x
+174;184;185;242;Palena Lake;x
 175;0;4;150;Dummy175;x
 176;0;4;151;Dummy176;x
 177;0;4;152;Dummy177;x
@@ -203,12 +203,12 @@ province;red;green;blue;x;x
 202;128;46;0;Chiloe;x
 203;181;63;0;Quinchao;x
 204;84;63;39;Quellon;x
-205;0;4;180;Dummy205;x
-206;0;4;181;Dummy206;x
-207;0;4;182;Dummy207;x
-208;0;4;183;Dummy208;x
-209;0;4;184;Dummy209;x
-210;0;4;185;Dummy210;x
+205;188;53;24;Calbuco;x
+206;239;71;0;Llanquihue;x
+207;239;93;31;Fresia;x
+208;239;136;31;Osorno;x
+209;237;147;56;San Juan de la Costa;x
+210;216;117;17;Entrelagos;x
 211;0;4;186;Dummy211;x
 212;0;4;187;Dummy212;x
 213;0;4;188;Dummy213;x
