@@ -1,0 +1,819 @@
+oldworld = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+
+	ai_convert_same_group = 2
+	ai_convert_other_group = 1
+
+	color = { 0.1 0.7 0.1 }
+
+	interface_skin = { oldworld_interface }
+
+	# Names given only to Old World characters (base names)
+	male_names = {
+		Filibuster Preamble Habeas Benzene Bessemer Stahlrich
+	}
+	female_names = {
+		Justice Columbia Benefactia Emancipata Eleutheria Industria Interdicta Libertas Liberalitas Majority Nullabona Nongrata Precedenta Respublia Subpoena Vindicta Stahlhilda
+	}
+
+	americanist = {
+		graphical_culture = hellenicgfx
+
+		icon = 4
+		heresy_icon = 5
+
+		color = { 0.3 0.3 0.8 }
+
+		interface_skin = { americanist_interface oldworld_interface }
+
+		crusade_name = INTERVENTION
+		scripture_name = THE_PAPERS
+		priest_title = JUDGE
+		piety_name = PATRIOTISM
+
+		high_god_name = GOD_THE_FOUNDERS
+
+		god_names = { # having both "the founding fathers" and "the founders" seemed highly redundant
+			GOD_THE_FOUNDERS GOD_WASHINGTON GOD_JEFFERSON GOD_THE_FLAG
+			GOD_ADAMS GOD_MADISON GOD_HAMILTON GOD_LINCOLN GOD_UNCLE_SAM
+		}
+		evil_god_names = { # replaced references to 90s conspiracies with good old fashioned Revolutionary War-inspired ones
+			THE_REDCOATS THE_TRAITOR THE_ILLUMINATI FASCISM COMMUNISM
+		}
+
+		#investiture = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		#allow_viking_invasion = yes
+		can_call_crusade = yes
+		can_grant_invasion_cb = invasion
+		allow_rivermovement = yes
+		#female_temple_holders = yes
+		#feminist = yes
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 11
+		religious_clothing_priest = 11
+
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+		
+		intermarry = falling_star
+		intermarry = xenoclast
+		intermarry = phantasmic
+		intermarry = renaissancist
+	}
+	hamiltonian = {
+		graphical_culture = hellenicgfx
+
+		parent = americanist
+
+		character_modifier = {
+			martial = 2
+		}
+
+		icon = 4
+		heresy_icon = 5
+
+		color = { 0.4 0.4 0.9 }
+
+		interface_skin = { americanist_interface oldworld_interface }
+
+		god_names = {
+			GOD_THE_FOUNDERS GOD_WASHINGTON GOD_THE_FLAG
+			GOD_ADAMS GOD_HAMILTON GOD_LINCOLN GOD_UNCLE_SAM
+		}
+
+		crusade_name = INTERVENTION
+		scripture_name = THE_DECLARATION
+		priest_title = JUDGE
+		piety_name = PATRIOTISM
+
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		allow_rivermovement = yes
+
+		priests_can_marry = yes
+
+		intermarry = americanist
+		intermarry = jeffersonian
+		intermarry = libertarian
+
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+		intermarry = falling_star
+		intermarry = xenoclast
+		intermarry = phantasmic
+		intermarry = renaissancist
+	}
+	jeffersonian = {
+		graphical_culture = hellenicgfx
+
+		parent = americanist
+
+		icon = 4
+		heresy_icon = 5
+
+		color = { 0.2 0.2 0.7 }
+
+		interface_skin = { americanist_interface oldworld_interface }
+
+		god_names = {
+			GOD_THE_FOUNDERS GOD_WASHINGTON GOD_JEFFERSON GOD_THE_FLAG
+			GOD_MADISON GOD_LINCOLN GOD_UNCLE_SAM
+		}
+
+		crusade_name = INTERVENTION
+		scripture_name = THE_PAPERS
+		priest_title = JUDGE
+		piety_name = PATRIOTISM
+
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		allow_rivermovement = yes
+
+		priests_can_marry = yes
+
+		aggression = 1.5 # ALL THE LAND IS HOLY
+
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = libertarian
+
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+		
+		intermarry = falling_star
+		intermarry = xenoclast
+		intermarry = phantasmic
+		intermarry = renaissancist
+	}
+	libertarian = {
+		graphical_culture = hellenicgfx
+
+		pacifist = yes # Makes the AI less likely to start wars, plots and factions
+		parent = americanist
+
+		icon = 4
+		heresy_icon = 5
+
+		color = { 0.4 0.4 0.4 }
+
+		interface_skin = { americanist_interface oldworld_interface }
+
+		crusade_name = INTERVENTION
+		scripture_name = THE_PAPERS
+		priest_title = JUDGE
+		piety_name = PATRIOTISM
+
+		high_god_name = GOD_LADY_LIBERTY
+
+		god_names = {
+			GOD_LADY_LIBERTY GOD_THE_PRESIDENTS GOD_THE_FLAG GOD_OUR_LADY
+		}
+
+		#investiture = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		feminist = yes
+
+		priests_can_marry = no
+		priests_can_inherit = no
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+		intermarry = falling_star
+		intermarry = xenoclast
+		intermarry = phantasmic
+		intermarry = renaissancist
+
+		religious_clothing_head = 11
+		religious_clothing_priest = 11
+	}
+	consumerist = {
+		graphical_culture = hellenicgfx
+
+		icon = 17
+		heresy_icon = 18
+
+		color = { 0.05 0.5 0.05 }
+
+		interface_skin = { consumerist_interface oldworld_interface }
+
+		crusade_name = MARKETING_CAMPAIGN
+		scripture_name = THE_CATALOG
+		priest_title = ENTREPENUER
+		piety_name = CAPITAL
+
+		high_god_name = GOD_THE_DOLLAR
+
+		god_names = {
+			GOD_THE_DOLLAR GOD_THE_INVISIBLE_HAND GOD_THE_FREE_MARKET GOD_THE_DIVINE_BULL GOD_MAMMON GOD_DOW_JONES
+		}
+		evil_god_names = {
+			COMMUNISM SOCIALISM MARX
+		}
+
+		can_grant_divorce = yes
+		allow_viking_invasion = yes
+		can_grant_invasion_cb = invasion
+		allow_rivermovement = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		max_wives = 4 # changed from max consorts
+		#divine_blood = yes
+		#can_hold_temples = yes
+		uses_jizya_tax = yes
+
+		religious_clothing_head = 18
+		religious_clothing_priest = 18
+
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+		intermarry = monetarist
+	}
+	monetarist = { #...
+		graphical_culture = hellenicgfx
+
+		icon = 17
+		heresy_icon = 18
+
+		color = { 0.1 0.4 0.1 }
+
+		interface_skin = { consumerist_interface oldworld_interface }
+
+		parent = consumerist
+
+		character_modifier = {
+			stewardship = 2
+		}
+
+		god_names = {
+			GOD_THE_DOLLAR GOD_THE_INVISIBLE_HAND GOD_THE_FREE_MARKET GOD_MAMMON
+		}
+
+		can_grant_divorce = yes
+		allow_viking_invasion = yes
+		can_grant_invasion_cb = invasion
+		allow_rivermovement = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		uses_jizya_tax = no
+		max_wives = 4
+
+		religious_clothing_head = 18
+		religious_clothing_priest = 18
+
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+		intermarry = consumerist
+	}
+	atomicist = {
+		graphical_culture = hellenicgfx
+
+		icon = 6
+		heresy_icon = 7
+
+		color = { 0.75 1.0 0.2 }
+
+		interface_skin = { atomicist_interface oldworld_interface }
+
+		high_god_name = GOD_ATOMOS
+
+		god_names = {
+			GOD_FAT_MAN GOD_LITTLE_BOY GOD_TSAR_BOMBA GOD_ATOMOS GOD_THE_ELEMENTS GOD_THE_PARTICLES
+		}
+		evil_god_names = {
+			THE_DEMON_CORE THE_VOID
+		}
+		crusade_name = FIRST_STRIKE
+		can_call_crusade = yes #overlooked this somehow
+		join_crusade_if_bordering_hostile = yes
+		scripture_name = THE_LECTURES
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		piety_name = ROENTGEN
+
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_retire_to_monastery = yes
+
+		defensive_attrition = yes
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = aphite
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+
+		intermarry = fidencista
+		intermarry = falling_star
+		intermarry = xenoclast
+	}
+	aphite = { #This Is Not A Place Of Honor
+		graphical_culture = hellenicgfx
+
+		parent = atomicist
+
+		icon = 6
+		heresy_icon = 7
+
+		character_modifier = {
+			learning = 1
+		}
+
+		color = { 0.6 0.4 0.2 }
+
+		interface_skin = { atomicist_interface oldworld_interface }
+
+		high_god_name = GOD_THE_ELEMENTS
+
+		god_names = { #Might want to rethink the god names, but this seems fine for now
+			GOD_THE_ELEMENTS GOD_THE_SHIELD
+		}
+		evil_god_names = {
+			GOD_ATOMOS THE_DEMON_CORE THE_VOID GOD_FAT_MAN GOD_LITTLE_BOY GOD_TSAR_BOMBA
+		}
+
+		unit_modifier = {
+			levy_size = 0.3
+
+			key = "OFF_RELIGION"
+		}
+
+		crusade_name = FIRST_STRIKE
+		#allow_viking_invasion = yes
+		scripture_name = THE_LECTURES
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		ignores_defensive_attrition = yes
+		raised_vassal_opinion_loss = no
+
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+
+		#defensive_attrition = yes
+		aggression = 2.0 # AI aggression factor
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = cetic
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+		intermarry = forester
+		intermarry = alurista
+		intermarry = falling_star
+		intermarry = xenoclast
+	}
+	rust_cultist = { # now in the OWC group!!
+		graphical_culture = hellenicgfx
+
+		icon = 19
+		heresy_icon = 13
+
+		color = { 0.7 0.35 0.2 }
+		interface_skin = { rust_cultist_interface oldworld_interface hellenic_interface }
+
+		high_god_name = GOD_THE_TITANS #removed this blatant 40k reference
+
+		god_names = {
+			GOD_THE_TITANS GOD_FATHER_FORD GOD_FATHER_BESSEMER GOD_FATHER_CARNEGIE GOD_VULCAN GOD_THE_MACHINE_SPIRITS
+		}
+		evil_god_names = {
+			THE_LORD_OF_RUST HE_WHO_RUSTS LUDD
+		}
+		crusade_name = INDUSTRIAL_ACTION
+		scripture_name = THE_BOOK_OF_RUST
+		priest_title = TECHPRIEST
+
+		can_call_crusade = yes
+		priests_can_marry = yes
+		priests_can_inherit = no
+		female_temple_holders = yes #I want to make the High Fabricator decision gender-neutral
+		allow_rivermovement = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		join_crusade_if_bordering_hostile = yes
+
+		religious_clothing_head = 18
+		religious_clothing_priest = 18
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = chrome_cultist
+		intermarry = phantasmic
+		intermarry = renaissancist
+	}
+	chrome_cultist = { # new heresy!
+		graphical_culture = hellenicgfx
+
+		parent = rust_cultist
+
+		icon = 19
+		heresy_icon = 13
+
+		color = { 0.7 0.7 0.62 } #seems appropriate
+		interface_skin = { rust_cultist_interface oldworld_interface hellenic_interface }
+
+		high_god_name = GOD_THE_MACHINE_SPIRITS
+
+		scripture_name = THE_CHROME_BOOK
+
+		god_names = {
+			GOD_FATHER_FORD GOD_THE_MACHINE_SPIRITS GOD_VULCAN GOD_FATHER_BESSEMER
+		}
+
+		character_modifier = {
+			learning = 2
+		}
+
+		can_call_crusade = no
+		can_grant_claim = no
+		feminist = yes #taking it to the next level
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = rust_cultist
+		intermarry = phantasmic
+		intermarry = renaissancist
+	}
+	glorian = {
+		graphical_culture = hellenicgfx
+
+		icon = 28
+		heresy_icon = 29
+
+		ai_convert_other_group = 0
+		ai_convert_same_group = 1
+
+		color = { 0.6 0.6 0.5 }
+
+		high_god_name = GOD_VICTORIA_GLORIANA
+
+		god_names = {
+			GOD_THE_QUEEN GOD_ALBION GOD_THE_MERRY_BARD GOD_THE_HOLY_LAMB GOD_KING_ARTHUR
+		}
+		evil_god_names = {
+			GOD_THE_RED_DRAGON GOD_THE_ENEMY GOD_ERIS
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_GREAT_CHARTER
+		priest_title = PRIEST
+		can_call_crusade = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		female_temple_holders = yes
+		allow_in_ruler_designer = no
+		raised_vassal_opinion_loss = no
+		peace_prestige_loss = yes
+
+		aggression = 2.0
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		intermarry = thelema
+		intermarry = orientalist
+		intermarry = misrist
+
+	}
+	thelema = {
+		graphical_culture = norsegfx
+
+		parent = glorian
+
+		icon = 28
+		heresy_icon = 29
+
+		ai_convert_other_group = 0
+		ai_convert_same_group = 1
+
+		color = { 0.6 0.6 0.5 }
+
+
+		interface_skin = { zun_interface pagan_interface }
+
+		high_god_name = GOD_THE_WILL
+
+		god_names = {
+			GOD_NUIT GOD_HADIT GOD_RA_HOOR_KHUIT GOD_SECKLER GOD_PARSONS
+		}
+		evil_god_names = {
+			GOD_JESUS GOD_GUNTHER
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = AA
+		priest_title = PRIEST
+		can_call_crusade = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		female_temple_holders = yes
+		max_consorts = 3
+
+		#aggression = 0.5 # AI aggression factor
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		intermarry = glorian
+		intermarry = orientalist
+		intermarry = misrist
+
+	}
+	falling_star = {
+		graphical_culture = hellenicgfx
+
+		icon = 39
+		heresy_icon = 75
+		
+		color = { 0.9 0.8 0.3 }
+
+		interface_skin = { atomicist_interface oldworld_interface }
+
+		high_god_name = GOD_THE_PRECURSORS
+		
+		god_names = {
+			GOD_XENU GOD_ASHTAR GOD_THE_PRECURSORS GOD_THE_FALLEN_STAR 
+		}
+		
+		evil_god_names = {
+			THE_HUNGERING_STAR 
+		}
+		
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = yes
+		ignores_defensive_attrition = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+
+		features = {
+			religion_astrology
+		}
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+
+		crusade_name = OUTER_INVASION
+		scripture_name = THE_CLASSIFIED_DOCUMENTS
+		priest_title = XENOLOGIST
+		
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+		intermarry = phantasmic
+		intermarry = renaissancist
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = xenoclast
+		intermarry = forester
+	}
+	xenoclast = { #offshoot of falling star
+		graphical_culture = hellenicgfx
+
+		icon = 39
+		heresy_icon = 75
+		
+		color = { 0.8 0.6 0.2 }
+		parent = falling_star
+
+		interface_skin = { atomicist_interface oldworld_interface }
+		
+		high_god_name = GOD_THE_PRECURSORS
+		
+		god_names = {
+			GOD_GOD GOD_THE_PRECURSORS
+		}
+		
+		evil_god_names = {
+			GOD_ASHTAR GOD_XENU GOD_THE_FALLEN_STAR
+		}
+		
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		allow_rivermovement = yes
+		ignores_defensive_attrition = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+
+		crusade_name = OUTER_INVASION
+		scripture_name = THE_CLASSIFIED_DOCUMENTS
+		priest_title = ASTRONOMER
+		
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+		intermarry = phantasmic
+		intermarry = renaissancist
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = falling_star
+		intermarry = forester
+	}
+    phantasmic = {
+        graphical_culture = hellenicgfx
+            
+		icon = 105
+		heresy_icon = 106
+        
+        color = { 0.44 0.82 0.96 }
+        
+        interface_skin = { americanist_interface oldworld_interface }
+        
+        crusade_name = WAR_EXPANSION
+        scripture_name = THE_ARCHIVES
+        priest_title = IMAGINEER
+        piety_name = PATRIOTISM
+        
+        high_god_name = GOD_AMERICA
+        
+        god_names = {
+            GOD_WALT GOD_NINE_OLD_MEN GOD_THE_DREAMER GOD_THE_LEGENDS GOD_THE_MOUSE
+        }
+        
+        evil_god_names = {
+            COMMUNISM
+        }
+        
+        #investiture = yes
+        can_excommunicate = yes
+        can_grant_claim = yes
+        can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = yes
+        allow_rivermovement = yes
+        female_temple_holders = yes
+        
+        priests_can_marry = no
+        priests_can_inherit = no
+        psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		has_heir_designation = yes
+        
+        religious_clothing_head = 11
+        religious_clothing_priest = 11
+        
+        intermarry = renaissancist
+		intermarry = falling_star
+		intermarry = xenoclast
+		intermarry = americanist
+		intermarry = jeffersonian
+		intermarry = hamiltonian
+		intermarry = libertarian
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+    }
+    renaissancist = {
+        graphical_culture = hellenicgfx
+            
+		icon = 59
+		heresy_icon = 60
+        parent = phantasmic
+        color = { 0.4 0.4 0.4 }
+        
+        interface_skin = { americanist_interface oldworld_interface }
+        
+        crusade_name = WAR_EXPANSION
+        scripture_name = THE_ARCHIVES
+        priest_title = IMAGINEER
+        piety_name = PATRIOTISM
+        
+        high_god_name = GOD_AMERICA
+        
+        god_names = {
+            GOD_EISNER GOD_THE_LEGENDS GOD_THE_MOUSE
+        }
+        
+        evil_god_names = {
+            GOD_IGER GOD_THE_DREAMER
+        }
+        
+        #investiture = yes
+        can_excommunicate = yes
+        can_grant_claim = yes
+        can_grant_divorce = yes
+        can_grant_invasion_cb = invasion
+        allow_rivermovement = yes
+        female_temple_holders = yes
+		#male_temple_holders = no
+		has_heir_designation = yes
+        priests_can_marry = no
+        priests_can_inherit = no
+		allow_viking_invasion = yes
+		allow_looting = yes
+		attacking_same_religion_piety_loss = yes
+
+		aggression = 2.0 # AI aggression factor
+        psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+        
+        religious_clothing_head = 11
+        religious_clothing_priest = 11
+        
+        intermarry = phantasmic
+		intermarry = falling_star
+		intermarry = xenoclast
+		intermarry = americanist
+		intermarry = jeffersonian
+		intermarry = hamiltonian
+		intermarry = libertarian
+		intermarry = rust_cultist
+		intermarry = chrome_cultist		
+
+		
+    }	
+}

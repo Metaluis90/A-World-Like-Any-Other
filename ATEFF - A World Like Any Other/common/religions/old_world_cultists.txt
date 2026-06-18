@@ -1,0 +1,515 @@
+old_world_cultists = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.1 0.7 0.1 }
+	
+	atomicistsoa = {
+		graphical_culture = muslimgfx
+
+		parent = aphitesoa
+
+		icon = 152
+		heresy_icon = 159
+		
+		color = { 0.75 1.0 0.2 }
+		
+		interface_skin = { atomicist_interface }
+
+		high_god_name = GOD_ATOMOS
+
+		god_names = {
+			GOD_ATOMOS GOD_FAT_MAN GOD_LITTLE_BOY GOD_TSAR_BOMBA GOD_THE_ELEMENTS
+		}
+		evil_god_names = {
+			THE_DEMON_CORE THE_VOID
+		}
+		crusade_name = GREAT_HOLY_WAR
+		allow_viking_invasion = yes
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+		
+		intermarry = aphitesoa
+	}
+	aphitesoa = { #Actually Posadist
+		graphical_culture = muslimgfx
+		
+		icon = 152
+		heresy_icon = 159
+		
+		color = { 0.6 0.4 0.2 }
+		
+		interface_skin = { atomicist_interface }
+
+		high_god_name = GOD_ATOMOS
+
+		god_names = { #Might want to rethink the god names, but this seems fine for now
+			GOD_POSADAS GOD_THE_FIRST_STRIKE GOD_THE_WISE_DOLPHIN GOD_METI
+		}
+		evil_god_names = {
+			GOD_THE_CAPITALIST GOD_THE_MEN_IN_BLACK
+		}
+		crusade_name = GREAT_HOLY_WAR
+		allow_viking_invasion = yes
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+		
+		intermarry = atomicistsoa
+		
+		parent = atomicistsoa
+	}
+	bandean = {
+		graphical_culture = muslimgfx
+		
+		icon = 153
+		heresy_icon = 160
+		
+		color = { 0.38 0.83 0.83 }
+		
+		scripture_name = OATH_OF_THE_THIRTY-THREE_ORIENTALS
+		
+		high_god_name = GOD_BANDA_ORIENTAL
+		
+		god_names = {
+			GOD_THE_THIRTY-THREE_ORIENTALS GOD_ARTIGAS GOD_DON_PEPE GOD_LUISI GOD_BLANCOS GOD_COLORADOS
+		}
+		
+		evil_god_names = {
+			GOD_THE_CROWN GOD_THE_LUSOS GOD_TUPAMAROS GOD_FA
+		}
+
+		}
+	artiguista = {
+		graphical_culture = muslimgfx
+		
+		icon = 153
+		heresy_icon = 160
+		
+		color = { 0.38 0.57 0.83 }
+		
+		scripture_name = INSTRUCTIONS_OF_THE_YEAR_XIII
+		
+		high_god_name = GOD_BANDA_ORIENTAL
+		
+		god_names = {
+			GOD_ARTIGAS GOD_PAINE GOD_DON_PEPE GOD_LUISI
+		}
+		
+		evil_god_names = {
+			GOD_BLANCOS GOD_COLORADOS
+		}
+
+		
+		parent = bandean
+	}
+	piriamano = {
+		graphical_culture = muslimgfx
+		
+		icon = 153
+		heresy_icon = 160
+		
+		color = { 0.34 0.38 0.74 }
+		
+		scripture_name = THE_ALCHEMISTS_TRIUMPH
+		
+		high_god_name = GOD_BANDA_ORIENTAL
+		
+		god_names = {
+			GOD_PIRIA GOD_BLANCOS GOD_THE_TREE_OF_LIFE
+		}
+		
+		evil_god_names = {
+			GOD_DON_PEPE GOD_COLORADOS
+		}
+		
+		parent = bandean
+	}
+	camino_estelar = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 154
+		heresy_icon = 161
+		
+		color = { 0.81 0.05 0.86}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = LAS_INSTRUCCIONES_CELESTIALES
+		priest_title = HERMANO
+		
+		high_god_name = GOD_NIBIRU
+		
+		god_names = {
+			GOD_ALMA GOD_ANNUNAKI GOD_AN GOD_ESO GOD_CHUG_CHUG GOD_CHIZA GOD_TUNUPA_TARAPACA
+		}
+		
+		evil_god_names = {
+			GOD_OSCURIDAD GOD_SOL_MUERTO GOD_SIRIUS
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		allow_rivermovement = yes
+		
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes
+		feminist = yes
+	}
+	obscurantist = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 154
+		heresy_icon = 161
+		
+		color = { 0.32 0.05 0.62}
+		parent = camino_estelar
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = LAS_INSTRUCCIONES_CELESTIALES
+		priest_title = KEEPER
+		
+		high_god_name = GOD_MANTO_CELESTIAL
+		
+		god_names = {
+			GOD_CHUG_CHUG GOD_CHIZA GOD_OSCURIDAD GOD_OZONO
+		}
+		
+		evil_god_names = {
+			GOD_NIBIRU GOD_ABISMO_BRILLANTE
+		}
+		
+		can_call_crusade = no
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		allow_rivermovement = yes
+		raised_vassal_opinion_loss = no
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes
+		feminist = yes
+	}
+	darwinist = {
+		graphical_culture = muslimgfx
+		
+		icon = 155
+		heresy_icon = 162
+
+		crusade_name = EXTINCTION_WAR
+		scripture_name = THE_ORIGIN_OF_THE_SPECIES
+		priest_title = NATURALIST
+		piety_name=APTITUDE
+		high_god_name = GOD_MOTHER_NATURE
+		
+		god_names = {
+			GOD_MOTHER_NATURE GOD_PROPHET_DARWIN GOD_THE_SELECTION GOD_THE_WILD
+		}
+		
+		evil_god_names = {
+			GOD_LORD_VULCAN GOD_ORTHO_GENESIS GOD_THE_MAN GOD_THE_ARTIFICE
+		}		
+
+
+
+		color = { 0.62 0.25 0.3 }
+	}
+	lamarckian = {
+		graphical_culture = muslimgfx
+		
+		icon = 155
+		heresy_icon = 162
+
+		crusade_name = EXTINCTION_WAR
+		scripture_name = PHILOSOPHIE_ZOOLOGIQUE
+		priest_title = NATURALIST
+		piety_name=DRIVE
+		high_god_name = GOD_ORTHO_GENESIS
+		
+		god_names = {
+			GOD_ORTHO_GENESIS GOD_FATHER_LAMARCK GOD_THE_DRIVING_FORCE GOD_THE_MAN
+		}
+		
+		evil_god_names = {
+			GOD_THE_WILD GOD_LORD_VULCAN
+		}	
+
+
+		color = { 0.85 0.25 0.3 }
+		parent = darwinist
+	}
+	farrapo = {
+		graphical_culture = norsegfx
+		
+		icon = 156
+		heresy_icon = 163
+		
+		color = { 0.4 0.6 0.57 }
+		
+		crusade_name = CAMPAIGN
+		scripture_name = PARTENON_LITERARIO
+		piety_name = TRADITION
+		priest_title = TROVADOR
+		
+		priests_can_marry = yes
+		
+		high_god_name = GOD_BENTO_GONCALVES
+		
+		god_names = {
+			GOD_NETTO GOD_GARIBALDI GOD_ANITTA GOD_CANABARRO GOD_TEIXEIRA_NUNES
+		}
+		
+		evil_god_names = {
+			CARAMURU TEINIAGUA
+		}
+		
+		allow_looting = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+
+		dislike_tribal_organization = yes
+
+		aggression = 1.5
+	
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+		
+		intermarry = gaucheria
+		intermarry = gaucheria_reformed
+		
+	}
+	vargist = {
+		graphical_culture = muslimgfx
+		
+		icon = 156
+		heresy_icon = 163
+		scripture_name = CARTA_TESTAMENTO
+		color = { 0.4 0.78 0.62 }
+		
+		high_god_name = GOD_VARGAS
+
+		
+		god_names = {
+			GOD_THE_BLACK_ANGEL GOD_J_K GOD_JANGO GOD_BRASILIDADE
+		}
+		
+		evil_god_names = {
+			TRIBUNA_DE_IMPRENSA GOD_AIB GOD_PEDRO_DE_TOLEDO GOD_PRESTES GOD_THE_KNIGHT
+		}
+		
+		parent = farrapo
+	}
+	platinean = {
+		graphical_culture = muslimgfx
+
+		icon = 157
+		heresy_icon = 164
+
+		color = { 0.4 0.95 1.0 }
+		
+		interface_skin = { atomicist_interface }
+
+		high_god_name = GOD_SAN_MARTIN
+
+		god_names = {
+			GOD_BELGRANO GOD_GUEMES GOD_MORENO GOD_MARADONA GOD_BROWN GOD_SARMIENTO
+		}
+		evil_god_names = {
+			GOD_THE_CROSS GOD_THE_CROWN GOD_THE_LUSOS GOD_THE_CIPAYO
+		}
+		crusade_name = CAMPAIGN
+		scripture_name = SILVER_BOOKS
+		priest_title = JUDGE
+		priests_can_marry = yes 
+		priests_can_inherit = yes
+		allow_rivermovement = yes
+		
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+
+		rel_head_defense = yes
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+	rosalian = {
+		graphical_culture = muslimgfx
+	
+		parent = platinean
+
+		icon = 157
+		heresy_icon = 164
+
+		color = { 0.75 1.0 0.2 }
+	
+		interface_skin = { atomicist_interface }
+
+		high_god_name = GOD_ROSAS
+
+		god_names = {
+			GOD_THE_RESTORER GOD_BELGRANO GOD_GUEMES GOD_MARADONA GOD_BROWN GOD_SAN_MARTIN GOD_LA_MAZORCA GOD_DORREGO GOD_QUIROGA
+		}
+		evil_god_names = {
+			GOD_THE_CROSS GOD_THE_CROWN GOD_THE_LUSOS GOD_THE_CIPAYO THE_UNITARIANS
+		}
+		crusade_name = CAMPAIGN
+		scripture_name = CRIMSON_BOOKS
+		priest_title = JUDGE
+		priests_can_marry = yes 
+		priests_can_inherit = yes
+		allow_rivermovement = yes
+		
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+
+		peace_prestige_loss = yes	
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+	modernists = { 
+		graphical_culture = muslimgfx
+	
+		icon = 190
+		heresy_icon = 191
+		
+		color = { 0.9 0.9 0.9 }
+		
+		interface_skin = { modernist_interface muslim_interface }
+		
+		high_god_name = GOD_THE_OLD_MASTERS
+		
+		god_names = {
+			GOD_THE_ARCHITECT GOD_BRASILEIROS GOD_NOVO_HOMEM
+		}
+		
+		evil_god_names = {
+			GOD_THE_GRINGO GOD_THE_DARKNESS GOD_THE_HEADLESS_MULE GOD_CUCA
+		}
+		
+		crusade_name = GREAT_VANGUARD
+		allow_in_ruler_designer= yes
+		allow_looting= yes
+		scripture_name= FLESH_AND_SOUL
+		piety_name= INOVATION
+		priest_title= EXPOSITOR
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_consorts = 1
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	
+	}
+	varedesian = { # A greater Sertão
+		graphical_culture = muslimgfx
+	
+		icon = 190
+		heresy_icon = 191
+		
+		color = { 0.9 0.78 0.64 }
+		
+		interface_skin = { muslim_interface }
+		
+		high_god_name = GOD_THE_ANCESTRAL_RACE
+		
+		parent = modernists
+		
+		god_names = {
+			GOD_BRASILEIROS GOD_REINALDO GOD_DIADORIM GOD_THE_RACE
+		}
+		
+		evil_god_names = {
+			GOD_THE_GRINGO THE_DEVIL GOD_THE_DROUGHT GOD_THE_JANGUNSUS
+		}
+		crusade_name = GREAT_WALK
+		allow_looting= yes
+		scripture_name= THE_SAGARANA
+		piety_name= VIGOR
+		priest_title= TELLER
+		priests_can_marry = yes
+		female_temple_holders = yes
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		peace_piety_gain = 1.0 #Varedesians 1 extra piety per month while at peace
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+	anthropofagian = {
+		graphical_culture = muslimgfx
+	
+		icon = 158
+		heresy_icon = 165
+		
+		color = { 0.9 0.78 0.64 }
+		
+		interface_skin = { muslim_interface }
+		
+		high_god_name = GOD_THE_ANCESTRAL_RACE
+		
+		parent = modernists
+		
+		god_names = {
+			GOD_ABAPORU GOD_ADAO GOD_EVA GOD_TUPI
+		}
+		
+		evil_god_names = {
+			GOD_GREAT_SNAKE GOD_THE_GRINGO GOD_THE_HEADLESS_MULE GOD_GRACCHI
+		}
+		crusade_name = GREAT_WALK
+		allow_looting= yes
+		scripture_name= MANIFESTO
+		piety_name= VIGOR
+		priest_title= TELLER
+		priests_can_marry = yes
+		female_temple_holders = yes
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		peace_piety_gain = 1.0 #Varedesians 1 extra piety per month while at peace
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+}	

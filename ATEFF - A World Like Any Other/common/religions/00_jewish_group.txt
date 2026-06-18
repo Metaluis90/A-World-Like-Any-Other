@@ -1,83 +1,185 @@
 jewish_group = {
-	graphical_culture = judaicgfx
-	color = { 0.1 0.7 1.0 }
-	interface_skin = { jews_interface }
-
+	graphical_culture = jewishgfx
 	crusade_cb = crusade
-
-	ai_convert_same_group = 2
-	ai_convert_other_group = 1
-
 	playable = yes
-	ai_peaceful = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1	# try to convert if ai_zeal is high
+
+	color = { 0.1 0.7 1.0 }
+
+	interface_skin = { jews_interface }
 
 	# Names given only to Jewish characters (base names)
 	male_names = {
-		Belet
-		Ezra
-		Hanukkah Hezekiah
-		Isaac
-		Levi
-		Manasseh
-		Nisi
-		Simeon
-		Yavdi
-		Zebulun
+		Abram Avraham Baruch Ezra David Yaakov Yonatan Moshe Natan Reuven Saul Shlomo Yitzhak Yisrael Yochanan
 	}
 
 	female_names = {
-		Adah Adinah Alte Asnat
-		Batya Bilha
-		Chana Chava
-		Devorah
-		Esther
-		Gisse
-		Hadassah
-		Leah
-		Machla Miriam
-		Puah Peninah
-		Rachel Rivkah Ruth
-		Sarah
-		Tamar Tirtzah Tzipporah Tziviah
-		Yael Yehudit Yiska Yocheved Yonah
+		Sarai Batzion Devorah Yehudit Miryam Rivka Rut Shoshana Sara Rachel Leah
 	}
 
 	jewish = {
-		graphical_culture = judaicgfx
+		graphical_culture = jewishgfx
 
-		icon = 38
-		heresy_icon = 39
+		icon = 66
+		heresy_icon = 67
 
 		color = { 0.1 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TORAH
+		priest_title = RABBI
+
+		high_god_name = GOD_HASHEM
+
+		god_names = {
+			GOD_GOD GOD_HASHEM
+		}
+		evil_god_names = {
+			YETZER_HARA
+		}
+
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		hard_to_convert = yes
 
 		religious_clothing_head = 7
 		religious_clothing_priest = 7
 
-		crusade_name = GREAT_HOLY_WAR
-		priest_title = RABBI
-		scripture_name = THE_TORAH
+		expel_modifier = expelled_jewish
+
+		intermarry = reform
+		intermarry = meshichist
+	}
+	reform = {
+		graphical_culture = jewishgfx
+
+		icon = 66
+		heresy_icon = 67
+
+		color = { 0.1 0.5 0.9 }
+
+		parent = jewish
 
 		high_god_name = GOD_GOD
 
 		god_names = {
-			ADONAI
-			GOD_GOD
-			GOD_THE_LORD
+			GOD_GOD GOD_THE_LORD ADONAI
 		}
 
-		evil_god_names = {
-			SATAN
-		}
+		crusade_name = GREAT_HOLY_WAR
 
-		intermarry = jewish_group
+		can_grant_divorce = yes
+		pacifist = yes
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		feminist = yes
+		priests_can_inherit = no
+		hard_to_convert = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
 
 		expel_modifier = expelled_jewish
 
-		can_call_crusade = yes
+		intermarry = jewish
+		intermarry = meshichist
+	}
+	meshichist = {
+		graphical_culture = jewishgfx
+
+		icon = 66
+		heresy_icon = 67
+
+		color = { 0.1 0.8 0.8 }
+
+		parent = jewish
+
+		god_names = {
+			GOD_GOD GOD_HASHEM PROPHET_MOSCHIACH
+		}
+
+		crusade_name = GREAT_HOLY_WAR
+
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
-		join_crusade_if_bordering_hostile = yes
+		allow_rivermovement = yes
 		priests_can_marry = yes
+		priests_can_inherit = yes
+		hard_to_convert = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+
+		expel_modifier = expelled_jewish
+
+		intermarry = jewish
+		intermarry = reform
+	}
+	jewishsoa = {
+		graphical_culture = jewishgfx
+		
+		icon = 150
+		heresy_icon = 151
+		
+		color = { 0.1 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TORAH
+		priest_title = RABBI
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD ADONAI
+		}
+		evil_god_names = {
+			SATAN
+		}
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		priests_can_marry = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+		
+		expel_modifier = expelled_jewish
+
+		intermarry = amazonian_jews
+	}
+	amazonian_jews = {
+		graphical_culture = jewishgfx
+		
+		icon = 150
+		heresy_icon = 151
+		
+		color = { 0.1 0.8 0.8 }
+		
+		parent = jewishsoa
+		
+		crusade_name = GREAT_HOLY_WAR
+
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		priests_can_marry = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+		
+		expel_modifier = expelled_jewish
+
+		intermarry = jewishsoa
 	}
 
 	karaite = {

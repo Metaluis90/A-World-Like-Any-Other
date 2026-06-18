@@ -1,0 +1,521 @@
+cult_of_saints= {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	#crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	#hostile_within_group = yes
+
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+
+	color = { 0.8 0.2 0.1 }
+
+	male_names = {
+		Jesús Cristóbal Cristián "Juan Diego" Guadalupe
+	}
+	female_names = {
+		María Guadalupe Magdalena Fátima Lourdes
+	}
+
+	#default interface
+
+	mama_tatda = {
+	icon = 116
+		high_god_name = GOD_DIOS
+		god_names = {
+			GOD_MAMA GOD_MARIA_VIRGEN GOD_JESUCRISTO  GOD_TATA
+		}
+		evil_god_names = {
+			EL_DIABLO WHITE_MAN
+		}
+		color = { 0.1 0.5 0.3 }
+		unit_modifier = {				#Special features are added via reformation. If HF is not installed, default features are applied on reformed religion by event.
+			garrison_size = 0.3
+			levy_size = 0.2
+
+			key = "DEF_RELIGION"
+		}
+		# unit_home_modifier = {
+			# land_morale = 0.8
+			# light_infantry_defensive = 0.8
+			# heavy_infantry_defensive = 0.8
+			# pikemen_defensive = 0.8
+			# light_cavalry_defensive = 0.8
+			# knights_defensive = 0.8
+			# archers_defensive = 0.8
+			# horse_archers_defensive = 0.8
+			# camel_cavalry_defensive = 0.8
+			# war_elephants_defensive = 0.8
+			# mushers_defensive = 0.8
+			# ballestero_defensive = 0.8
+			# cossacks_defensive = 0.8
+			# cowboys_defensive = 0.8
+			# pike_cavalry_defensive = 0.8
+			# samurai_defensive = 0.8
+# 
+			# garrison_size = 0.4
+# 
+			# key = "DEF_RELIGION_HOME_TERRITORY"
+		# }
+
+		can_grant_divorce = yes
+		female_temple_holders = yes
+		priests_can_inherit = yes
+		priests_can_marry = no
+		allow_rivermovement = yes
+		allow_looting = yes
+		uses_jizya_tax = yes
+
+		defensive_attrition = yes
+		aggression = 0.5
+		hard_to_convert = yes
+		features = {
+		#	religion_matriarchal
+			religion_beatification
+		}
+
+	}
+	Gregorian = {
+		graphical_culture = gregoriangfx
+
+		icon = 99
+		heresy_icon = 100
+
+		color = { 220 52 59 }
+
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_SCRIPTURES
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_UNKNOWN_SOLDIER GOD_LADY_VICTORY GOD_FALLEN_SAINTS GOD_HOST GOD_SAVIOR
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		has_heir_designation = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		#can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_viking_invasion = yes # Allows the "Prepare Invasion" diplo action
+		allow_looting = yes
+
+		
+		attacking_same_religion_piety_loss = yes
+		raised_vassal_opinion_loss = no
+		aggression = 2.0
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		
+		intermarry = norse_pagan
+		intermarry = norse_pagan_reformed
+		intermarry = exovedate
+		intermarry = peyotist
+		intermarry = Gregorian
+		intermarry = nonconformist
+		intermarry = angeline
+		
+		features = {
+			religion_patron_saint_stub
+			}
+	}
+	sacred_heart = {
+		graphical_culture = westerngfx
+
+		icon = 32
+		heresy_icon = 90
+
+		color = { 0.8 0.1 0.2 }
+
+		high_god_name = GOD_DIOS
+
+		god_names = {
+			GOD_JESUCRISTO GOD_DIOSITO GOD_THE_LORD GOD_VIRGENCITA GOD_THE_SAINTS
+		}
+
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER
+		}
+
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = no
+		allow_rivermovement = yes
+		autocephaly = yes # may have issues with localization...
+		can_excommunicate = yes
+
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PADRE
+
+		intermarry = patria_grande
+		intermarry = reformista
+		intermarry = cristo_rey
+		intermarry = lamanita
+		intermarry = furiegi
+		intermarry = moravian
+		intermarry = penitente
+		intermarry = purificador
+		intermarry = navegante
+		intermarry = fidencista
+		intermarry = celeste
+		intermarry = conclavist
+		intermarry = nazarene
+		intermarry = true_cross
+		####intermarry = la_hermandad
+
+		intermarry = qabantajik
+	}
+	patria_grande = {
+		graphical_culture = westerngfx
+
+		icon = 52
+		heresy_icon = 52
+
+		color = { 0.1 0.4 0.7 }
+
+		high_god_name = GOD_DIOS
+
+		god_names = {
+			GOD_DIVINO_NINO GOD_SAN_BOLIVAR GOD_SANTANDER GOD_MANUELITA
+		}
+
+		evil_god_names = {
+			SATAN PEPE_BOTELLA
+		}
+
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = no
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		crusade_name = LIBERATION_WAR
+		scripture_name = THE_COLOMBEIA
+		priest_title = PADRE
+
+		intermarry = sacred_heart
+
+		intermarry = celeste
+		intermarry = conclavist
+		intermarry = nazarene
+		intermarry = true_cross
+		####intermarry = la_hermandad
+
+		intermarry = reformista
+		intermarry = cristo_rey
+		intermarry = lamanita
+		intermarry = furiegi
+		intermarry = moravian
+		intermarry = penitente
+		intermarry = purificador
+		intermarry = navegante
+		intermarry = fidencista
+
+		intermarry = qabantajik
+	}
+	fidencista = {
+		graphical_culture = westerngfx
+
+		icon = 98
+
+		color = { 0.1 0.4 0.7 }
+
+		high_god_name = GOD_DIOSITO
+
+		god_names = {
+			GOD_SANTO_NINO GOD_CHUYITO GOD_JESUCRISTO GOD_VIRGENCITA GOD_THE_SAINTS
+		}
+
+		evil_god_names = {
+			EL_CHAMUCO SATAN
+		}
+
+		priests_can_marry = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		raised_vassal_opinion_loss = no
+		peace_prestige_loss = yes
+		female_temple_holders = yes
+
+		religious_clothing_head = 19
+		religious_clothing_priest = 19
+
+		crusade_name = CRISTIADA
+		scripture_name = THE_SCRIPTURES
+		priest_title = MATERIA
+
+		intermarry = sacred_heart
+		intermarry = patria_grande
+		intermarry = navegante
+
+		intermarry = celeste
+		intermarry = moravian
+		intermarry = penitente
+		intermarry = purificador
+		intermarry = conclavist
+		intermarry = edenite
+		intermarry = reformista
+		intermarry = cristo_rey
+		intermarry = sedevacantist
+		intermarry = latinate
+		intermarry = nestorian
+		intermarry = neognostic
+		intermarry = nazarene
+		####intermarry = la_hermandad
+
+		intermarry = atomicist
+
+		intermarry = qabantajik
+	}
+	navegante = {
+		graphical_culture = norsegfx
+
+		icon = 97
+		heresy_icon = 97
+
+		color = { 176 173 203 }
+
+		high_god_name = GOD_YAHVE
+
+		god_names = {
+			GOD_YAHVE GOD_ICHTYS GOD_JONAS GOD_LIVING_WATER GOD_SALVADOR_GAVIOTA GOD_APOSTLE_PETER
+		}
+		evil_god_names = {
+			EL_DIABLO GOD_TEMPEST GOD_EL_MECHUDO GOD_DAG_GADOL
+		}
+
+		scripture_name = THE_GOSPEL
+		priest_title = PADRE
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_viking_invasion = no
+		allow_looting = yes
+		female_temple_holders = yes
+		max_wives = 4
+		seafarer = yes
+		defensive_attrition = yes
+
+		# unit_home_modifier = {
+			# land_morale = 0.8
+			# light_infantry_defensive = 0.8
+			# heavy_infantry_defensive = 0.8
+			# pikemen_defensive = 0.8
+			# archers_defensive = 0.8
+			# key = "DEF_RELIGION_HOME_TERRITORY"
+		# }
+		
+		religious_clothing_head = 20
+		religious_clothing_priest = 20
+
+		intermarry = sacred_heart
+		intermarry = patria_grande
+		intermarry = fidencista
+
+		intermarry = celeste
+		intermarry = brethren
+		intermarry = qingzhen
+		intermarry = lamanita
+		intermarry = nazarene
+		intermarry = reformista
+		intermarry = edenite
+		intermarry = furiegi
+		intermarry = mictlantec
+		intermarry = sol_invicta
+		intermarry = alurista
+		intermarry = qabantajik
+		####intermarry = la_hermandad
+		intermarry = cetic
+		intermarry = imamite
+	}
+	chicha = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 139
+		
+		color = { 1.0 0.5 0.16 }
+		
+		scripture_name = THE_BIBLE
+		
+		high_god_name = GOD_DIOS 
+		
+		god_names = {
+			GOD_CHACALON GOD_JESUS GOD_HOLY_SPIRIT
+		}
+		
+		evil_god_names = {
+			THE_DEVIL GREED SATAN LUCIFER
+		}
+	}
+	santa_diablada = {
+		graphical_culture = westerngfx
+
+		icon = 140
+		
+		color = { 0.8 0.1 0.2 }
+
+		high_god_name = GOD_EL_TIO
+		
+		god_names = {
+			GOD_JESUS GOD_THE_BLESSED_VIRGIN GOD_EKEKO GOD_EL_TATA GOD_SAN_ERNESTO GOD_JICHI GOD_COQUENA GOD_JERERE
+		}
+		
+		evil_god_names = {
+			MANDINGA SATAN SUPAY LUCIFER
+		}
+		
+		can_grant_divorce = yes
+		autocephaly = yes
+		priests_can_inherit = no
+		priests_can_marry = no
+		allow_rivermovement = yes
+		hard_to_convert = yes
+
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PADRE
+		
+		intermarry = synodal
+		intermarry = pachamama
+	}
+	folclorista = {
+		graphical_culture = westerngfx
+		
+		icon = 141
+		
+		color = { 0.77 0.63 0.85 }
+		
+		scripture_name = THE_BIBLE
+		
+		high_god_name = GOD_DIOS
+		
+		god_names = {
+			GOD_GAUCHITO GOD_JESUS GOD_SANTOS_VEGAS GOD_SAN_BALTASAR 
+		}
+		
+		evil_god_names = {
+			GOD_SAN_LA_MUERTE GOD_NAHUELITO
+		}
+	}
+	patria_grandesoa = {
+		graphical_culture = westerngfx
+
+		icon = 142
+		heresy_icon = 142
+		
+		color = { 0.1 0.4 0.7 }
+
+		high_god_name = GOD_DIVINO_NINO
+		
+		god_names = {
+			GOD_BOLIVAR GOD_SANTANDER GOD_MANUELITA
+		}
+		
+		evil_god_names = {
+			SATAN PEPE_BOTELLA
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = no
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		crusade_name = LIBERATION_WAR
+		scripture_name = THE_COLOMBEIA
+		priest_title = PADRE
+	}
+	angel_cult = {
+		graphical_culture = westerngfx
+
+		icon = 188
+
+		scripture_name = THE_BIBLE
+
+		high_god_name = GOD_ARCANJO_MIGUEL
+		
+		god_names = {
+			GOD_ARCANJO_URIEL GOD_ARCANJO_GABRIEL GOD_ARCANJO_RAFAEL GOD_ANJO_DA_GUARDA GOD_CUPIDO
+		}
+		
+		evil_god_names = {
+			GOD_LUCIFER GOD_THE_DEVIL THE_BELZEBU GOD_DIABLO GOD_ASMODEUS GOD_MAMMON GOD_PAIMON GOD_CUCA GOD_PEREIRA
+		}
+		
+		color = { 0.88 0.63 0.0 }
+	}
+	sebastianist = {
+		graphical_culture = westerngfx
+		
+		icon = 189
+		
+		scripture_name = MENSAGEM
+		priest_title = PADRE
+		crusade_name = CRUSADE
+		
+		high_god_name = GOD_DEUS
+		
+		god_names = {
+			GOD_SEBASTIAN GOD_DOM_PEDRO GOD_DESIRED GOD_ENCOBERTO GOD_ISABEL
+		}
+		
+		evil_god_names = {
+			THE_DEVIL REPUBLICANISM
+		}
+		
+		color = { 0.68 0.1 0.2 }
+	}
+	archipelagic = {
+		graphical_culture = westerngfx
+		
+		icon = 200
+		
+		color = { 0.3 0.7 0.55 }
+		
+		scripture_name = THE_BIBLE
+		priest_title = CURA
+		
+		high_god_name = GOD_DIOS 
+		
+		god_names = {
+			GOD_DIOS GOD_JESUS GOD_HOLY_SPIRIT GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			THE_DEVIL TRAUCO FIURA
+		}
+		
+		
+	}
+
+}

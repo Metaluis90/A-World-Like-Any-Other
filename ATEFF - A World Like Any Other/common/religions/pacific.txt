@@ -1,0 +1,249 @@
+pacific = {
+	has_coa_on_barony_only = yes
+	graphical_culture = indiangfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
+
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 1 # try to convert if ai_zeal is high
+
+	color = { 0.6 0.1 0.5 }
+
+	interface_skin = { indian_interface muslim_interface }
+
+	cetic = {
+		graphical_culture = chinesegfx
+
+
+		icon = 44
+		heresy_icon = 44
+
+		color = { 0.7 0.52 0.90 }
+
+		interface_skin = { cetic_interface taoist_interface indian_interface muslim_interface }
+
+		high_god_name = GOD_THE_EMPEROR
+
+		god_names = {
+			GOD_THE_EMPEROR GOD_BUDDHA GOD_CHRIST GOD_HUBBARD GOD_MUHAMMAD
+		}
+
+		evil_god_names = {
+			THE_UNENLIGHTENED MOLOCH GOD_MAMMON
+		}
+
+		can_grant_divorce = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		has_heir_designation = yes
+
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_WRITINGS
+		priest_title = GURU
+		piety_name = KARMA
+
+		intermarry = gaian
+		intermarry = imamite
+		intermarry = shinto
+		intermarry = nousthreskeia
+		intermarry = neognostic
+		intermarry = aphite
+		intermarry = qingzhen
+		intermarry = nazarene
+		intermarry = navegante
+		intermarry = forester
+		intermarry = alurista
+	}
+	gaian = {
+		graphical_culture = buddhistgfx
+
+		icon = 15
+
+		color = { 0.3 0.7 0.4 }
+
+		interface_skin = { gaian_interface indian_interface muslim_interface }
+
+		high_god_name = GOD_GAIA
+
+		god_names = {
+			GOD_GAIA GOD_THE_GODDESS GOD_EARTH_MOTHER GOD_HER_WHO_IS GOD_THE_SPIRITS
+		}
+		evil_god_names = {
+			THE_SICKNESS GOD_THE_SMOKE_SERPENT THE_ROT
+		}
+
+		feminist = yes
+		men_can_take_consorts = no
+		women_can_take_consorts = yes
+		max_consorts = 3
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_HOLISTIC_RIDDLES
+		priest_title = DRUID
+		piety_name = PURITY
+
+		peace_piety_gain = 2.0
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		raised_vassal_opinion_loss = no
+
+		religious_clothing_head = 16
+		religious_clothing_priest = 16
+
+		intermarry = cetic
+		intermarry = shinto
+		intermarry = nousthreskeia
+		intermarry = neognostic
+		intermarry = forester
+		intermarry = alurista
+	}
+	shinto = {
+		graphical_culture = chinesegfx
+
+
+		icon = 47
+		heresy_icon = 47
+
+		color = { 0.9 0.65 0.65 }
+
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+
+		high_god_name = GOD_THE_EMPEROR
+
+		god_names = {
+			GOD_THE_EMPEROR GOD_AMATERASU GOD_TSUKUYOMI GOD_SUSANOO GOD_UZUME GOD_INARI GOD_TENJIN GOD_EBISU GOD_RYUJIN GOD_JIZO
+		}
+
+		evil_god_names = {
+			GOD_THE_YOKAI
+		}
+
+		can_grant_divorce = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		max_consorts = 3 #can take concubines
+
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		crusade_name = CRUSADE
+		scripture_name = THE_KOJIKI
+		priest_title = PRIEST
+		piety_name = PURITY
+
+		intermarry = gaian
+		intermarry = cetic
+		intermarry = nousthreskeia
+		intermarry = forester
+		intermarry = alurista
+	}
+	nousthreskeia = {
+		graphical_culture = buddhistgfx
+
+		icon = 71
+		heresy_icon = 71
+
+		color = { 0.44 0.39 0.33 }
+
+		interface_skin = { nousthreskeia_interface gaian_interface indian_interface muslim_interface } #placeholder
+
+		high_god_name = GOD_THE_NOOSPHERE
+
+		god_names = {
+			GOD_MONOLITH GOD_THE_WISH_GRANTER GOD_THE_GOLDEN_SPHERE
+		}
+
+		evil_god_names = {
+			DENEB THE_DARK_ONES
+		}
+
+		can_grant_divorce = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		can_excommunicate = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+
+		max_consorts = 3 #can take concubines
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = COSMOGENESIS
+		priest_title = PREACHER
+		piety_name = CONSCIOUSNESS
+
+		intermarry = gaian
+		intermarry = cetic
+		intermarry = shinto
+		intermarry = forester
+		intermarry = alurista	
+	}
+	forester = {
+		graphical_culture = buddhistgfx
+
+		icon = 107
+		heresy_icon = 107
+		
+		color = { 0 88 38 }
+		
+		interface_skin = { gaian_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_THE_WILD
+		
+		god_names = {
+			 GOD_JOHN_MOUNTAIN GOD_OLD_FAITHFUL GOD_MOTHER_EARTH GOD_WOHELO GOD_SMOKEY
+		}
+		evil_god_names = {
+			GOD_FELLERS GOD_THE_GREAT_FIRE GOD_TERMITES GOD_THE_DARK_CICADA
+		}
+		
+		men_can_take_consorts = yes
+		women_can_take_consorts = yes
+		max_consorts = 3
+		pacifist = yes # I think this is what disables holy wars
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = SCOUTS_GUIDE
+		priest_title = FIRE_TENDER
+			
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		hard_to_convert = yes
+
+		religious_clothing_head = 15
+		religious_clothing_priest = 15
+		
+		intermarry = cetic
+		intermarry = gaian
+		intermarry = shinto
+		intermarry = nousthreskeia
+		
+		intermarry = primevalist
+		intermarry = primevalist_reformed
+		intermarry = trailwalker
+		intermarry = trailwalker_reformed
+		
+		intermarry = neognostic
+		intermarry = edenite
+		intermarry = aphite
+		intermarry = qingzhen
+		intermarry = xenoclast
+		intermarry = falling_star
+		intermarry = alurista
+		
+		intermarry = peyotist
+		intermarry = orthodox
+		intermarry = exovedate
+	}	
+	
+}

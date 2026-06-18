@@ -1,9 +1,7 @@
 muslim = {
-	has_coa_on_barony_only = no
-	graphical_culture = islamicgfx
-
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
 	crusade_cb = crusade
-
 	playable = yes
 	hostile_within_group = yes
 
@@ -11,36 +9,552 @@ muslim = {
 	ai_convert_other_group = 1
 	ai_fabricate_claims = no
 
-	color = { 0 0.6 0 }
+	color = { 0 0.7 0 }
 
 	interface_skin = { muslim_interface }
 
-	# Names given only to Muslim characters (base names)
+	# Names given only to Muslims
+	# the way this works is that it looks at all the names in a particular culture's name list and only assigns certain names to them if they follow the appropriate religion.
+	# i was rather confused about this myself for a while.
+	# this can be used to, say, add way more explicitly Muslim names to Motowners that only show up if they are Muslim.
+	# i can still get why Neomoors need to be their own culture, the system only works on a religion group rather than an individual religion basis.
 	male_names = {
-		Abbas Abdul Abdullah Abolhassan Abu-Bakr Ahmad Akbar Allahyar Ali Ali-Fay Ali-Kolon Ali-Zalil
-		Hasan Hossein Hussayn
-		Ismail
-		Mahmud Mohammed Muammar Muhammad
+		Abbas Abdul Abdullah Abolhassan Abu-Bakr Ahmad Akbar Allahyar Ali Ali-Fay Ali-Kolon Ali-Zalil Hasan Hossein Hussayn Ismail Mahmud Mohammed Muammar Muhammad
 	}
-
-	# Names given only to Muslim characters (base names)
 	female_names = {
-		Ayesha Abrar Afifah Anabia
-		Hijrah Hind Hareem
-		Iqra
-		Judi
-		Karida Khadijah Khalidah Khawlah
-		Madeeha Maryam Mariyah Maymunah Mariam Mina
-		Nuwwarrah
-		Qismah
-		Ruqayyah
-		Saba Safaa Safiyyah Salma Shahrazad Sirin Sumaiyah
-		Thuwaibah
-		Umamah
-		Zainab Zubaidah
+		Ayesha Abrar Afifah Anabia Hijrah Hind Hareem Iqra Judi Karida Khadijah Khalidah Khawlah Madeeha Maryam Mariyah Maymunah Mariam Mina Nuwwarrah Qismah Ruqayyah Saba Safaa Safiyyah Salma Shahrazad Sirin Sumaiyah Thuwaibah Umamah Zainab Zubaidah
 	}
 
-	# Ibadi Group
+	traditionalist = {
+		graphical_culture = muslimgfx
+
+		icon = 76
+		heresy_icon = 79
+
+		color = { 0 0.5 0 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+
+		high_god_name = GOD_ALLAH
+
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		allow_rivermovement = yes
+		attacking_same_religion_piety_loss = yes
+		hard_to_convert = yes
+		uses_jizya_tax = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		matrilineal_marriages = no
+		max_wives = 4
+		peace_piety_gain = 2.0 #Gains 2 extra piety per month while at peace
+		autocephaly = yes # may have issues with localization...
+
+		intermarry = imamite
+		intermarry = revivalist
+		intermarry = transcendentalist
+		intermarry = qingzhen
+		intermarry = alawiyya
+		intermarry = orientalist #???
+		intermarry = misrist #???
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+	revivalist = {
+		graphical_culture = muslimgfx
+
+		icon = 76
+		heresy_icon = 79
+
+		parent = traditionalist
+		color = { 0.4 0.9 0 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+
+		high_god_name = GOD_ALLAH
+
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+
+		can_call_crusade = yes
+		allow_rivermovement = yes
+
+		attacking_same_religion_piety_loss = yes
+		uses_jizya_tax = yes
+
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		matrilineal_marriages = no
+		max_wives = 4
+
+		defensive_attrition = yes
+		aggression = 2.0 # AI aggression factor
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		allow_looting = yes
+
+		intermarry = imamite
+		intermarry = traditionalist
+		intermarry = transcendentalist
+		intermarry = qingzhen
+		intermarry = alawiyya
+		intermarry = orientalist
+		intermarry = misrist
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+	transcendentalist = {
+		graphical_culture = muslimgfx
+
+		icon = 76
+		heresy_icon = 79
+
+		parent = traditionalist
+		color = { 0.3 0.8 0.1 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+
+		high_god_name = GOD_ALLAH
+
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST GOD_THE_UNSEEN GOD_THE_ALL_KNOWING GOD_THE_ALL_POWERFUL GOD_THE_MERCIFUL GOD_THE_CONQUEROR GOD_THE_MANY_NAMED_GOD
+		}
+		evil_god_names = {
+			GOD_IBLIS GOD_THE_DECEIVER ABU_MURRAH
+		}
+
+		can_call_crusade = yes
+		allow_rivermovement = yes
+
+		attacking_same_religion_piety_loss = yes
+		uses_jizya_tax = yes
+
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		matrilineal_marriages = no
+		max_wives = 4
+
+		pacifist = yes
+		peace_piety_gain = 1.0 #Gains 1 extra piety per month while at peace
+		aggression = 0.5 # AI aggression factor
+
+		intermarry = imamite
+		intermarry = traditionalist
+		intermarry = revivalist
+		intermarry = qingzhen
+		intermarry = alawiyya
+		intermarry = orientalist
+		intermarry = misrist
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+ 	imamite = {
+		graphical_culture = muslimgfx
+
+		icon = 77
+		heresy_icon = 80
+
+		color = { 0 0.8 0 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+
+		high_god_name = GOD_ALLAH
+
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+
+		can_call_crusade = yes
+		allow_rivermovement = yes
+		attacking_same_religion_piety_loss = yes
+		hard_to_convert = yes
+		uses_jizya_tax = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		has_heir_designation = no
+
+		intermarry = traditionalist
+		intermarry = revivalist
+		intermarry = transcendentalist
+		intermarry = qingzhen
+		intermarry = alawiyya
+		intermarry = orientalist
+		intermarry = misrist
+		intermarry = cetic
+		intermarry = nazarene
+		intermarry = alurista
+		intermarry = navegante
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+ 	qingzhen = {
+		graphical_culture = muslimgfx
+
+		icon = 77
+		heresy_icon = 80
+
+		parent = imamite
+		color = { 0 0.66 0.42 }
+		crusade_name = JIHAD
+		scripture_name = THE_REVEALED_PATHS
+		priest_title = IMAM
+
+		high_god_name = GOD_ALLAH
+		character_modifier = {
+			stewardship = 2
+		}
+
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST GOD_TIAN GOD_ZHENZHU
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+
+		can_call_crusade = no #disabled for now
+		allow_rivermovement = yes
+		attacking_same_religion_piety_loss = yes
+		hard_to_convert = yes
+		uses_jizya_tax = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		has_heir_designation = yes
+		max_consorts = 3 #Im working on it...
+
+		intermarry = traditionalist
+		intermarry = revivalist
+		intermarry = transcendentalist
+		intermarry = alawiyya
+		intermarry = orientalist
+		intermarry = misrist
+		intermarry = imamite
+		intermarry = cetic
+		intermarry = forester
+		intermarry = nazarene
+		intermarry = alurista
+		intermarry = navegante
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+ 	alawiyya = {
+		graphical_culture = muslimgfx
+
+		icon = 77
+		heresy_icon = 80
+
+		parent = imamite
+		color = { 0 0.88 0.42 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+
+		high_god_name = GOD_ALLAH
+
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+
+		can_call_crusade = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		hard_to_convert = yes
+		uses_jizya_tax = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		has_heir_designation = no
+		max_wives = 4
+
+		intermarry = traditionalist
+		intermarry = transcendentalist
+		intermarry = imamite
+		intermarry = revivalist
+		intermarry = qingzhen
+		intermarry = orientalist
+		intermarry = misrist
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+ 	orientalist = {
+		graphical_culture = muslimgfx
+
+		icon = 78
+		heresy_icon = 81
+		color = { 0 0.7 0.5 }
+		crusade_name = JIHAD
+		scripture_name = THE_ALCORAN
+		priest_title = GENIE
+
+		high_god_name = GOD_ALLAH
+
+		god_names = {
+			GOD_ALLAH GOD_MUHAMMAD PROPHET_ALI_BABA GOD_THE_CRESCENT PROPHET_ALADDIN PROPHET_ALKHADER
+		}
+		evil_god_names = {
+			SATAN GOD_THE_DARK_DJINN GOD_YAKUB
+		}
+
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		allow_rivermovement = yes
+		attacking_same_religion_piety_loss = yes
+		uses_jizya_tax = yes
+		allow_looting = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		rel_head_defense = yes
+
+
+		intermarry = imamite
+		intermarry = qingzhen
+		intermarry = alawiyya
+		intermarry = traditionalist
+		intermarry = revivalist
+		intermarry = transcendentalist
+		intermarry = misrist
+		intermarry = occultist
+		intermarry = occultist_reformed
+
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+ 	misrist = { # changed to be more consistent
+		graphical_culture = muslimgfx
+
+		icon = 78
+		heresy_icon = 81
+
+		parent = orientalist
+		color = { 0 0.7 0.5 }
+		crusade_name = JIHAD
+		scripture_name = THE_ALCORAN
+		priest_title = PRIEST
+
+		high_god_name = GOD_AMUN_ALLAH
+
+		god_names = {
+			GOD_THE_GREATEST GOD_MUHAMMAD PROPHET_ALI_BABA GOD_THE_UNDYING_SUN_AND_MOON PROPHET_ALADDIN PROPHET_AKHNATEN
+		}
+		evil_god_names = {
+			SATAN GOD_THE_DARK_DJINN GOD_YAKUB
+		}
+
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		allow_rivermovement = yes
+		uses_jizya_tax = yes
+		allow_looting = yes
+
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		peace_piety_gain = 1.0 #Gains 1 extra piety per month while at peace
+		rel_head_defense = yes
+
+		intermarry = imamite
+		intermarry = qingzhen
+		intermarry = alawiyya
+		intermarry = traditionalist
+		intermarry = revivalist
+		intermarry = transcendentalist
+		intermarry = orientalist
+		intermarry = occultist
+		intermarry = occultist_reformed
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+	herderos = {
+	
+		graphical_culture = muslimgfx
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		icon = 146
+		heresy_icon = 148
+		
+		color = { 0.39 0.73 0.32 }
+	}
+	valentes = {
+	
+		graphical_culture = muslimgfx
+		
+		icon = 146
+		heresy_icon = 148
+		
+		color = { 0.76 0.36 0.34 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		parent = herderos
+	}
+	conservante = {
+	
+		graphical_culture = muslimgfx
+		
+		icon = 146
+		heresy_icon = 148
+		
+		color = { 0.33 0.74 0.38 }
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		parent = herderos
+	}
+	traditionalistsoa = {
+		graphical_culture = muslimgfx
+		
+		icon = 147
+		heresy_icon = 149
+
+		color = { 0 0.5 0 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		allow_rivermovement = yes
+		attacking_same_religion_piety_loss = yes
+		hard_to_convert = yes
+		uses_jizya_tax = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		matrilineal_marriages = no
+		max_wives = 4
+		peace_piety_gain = 2.0 #Gains 2 extra piety per month while at peace
+		autocephaly = yes # may have issues with localization...
+	
+		intermarry = imamitesoa
+		intermarry = herderos
+		intermarry = valentes
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+	imamitesoa = {
+		graphical_culture = muslimgfx
+		
+		icon = 147
+		heresy_icon = 149
+
+		color = { 0 0.8 0 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		can_call_crusade = yes
+		allow_rivermovement = yes
+		attacking_same_religion_piety_loss = yes
+		hard_to_convert = yes
+		uses_jizya_tax = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		has_heir_designation = yes 
+		defensive_attrition = yes
+	
+		intermarry = traditionalistsoa
+		intermarry = herderos
+		intermarry = valentes
+
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+
 	ibadi = {
 		graphical_culture = ibadigfx
 
@@ -77,6 +591,7 @@ muslim = {
 
 		intermarry = muslim
 	}
+
 	kharijite = {
 		alternate_start = {
 			has_alternate_start_parameter = {
@@ -110,7 +625,6 @@ muslim = {
 		uses_jizya_tax = yes
 	}
 
-	# Shiite Group
 	shiite = {
 		graphical_culture = shiitegfx
 
@@ -148,6 +662,7 @@ muslim = {
 		uses_decadence = yes
 		uses_jizya_tax = yes
 	}
+
 	druze = {
 		alternate_start = {
 			has_alternate_start_parameter = {
@@ -180,6 +695,7 @@ muslim = {
 		uses_decadence = yes
 		uses_jizya_tax = yes
 	}
+
 	hurufi = {
 		alternate_start = {
 			has_alternate_start_parameter = {
@@ -210,6 +726,7 @@ muslim = {
 		uses_decadence = yes
 		uses_jizya_tax = yes
 	}
+
 	qarmatian = {
 		alternate_start = {
 			has_alternate_start_parameter = {
@@ -249,7 +766,6 @@ muslim = {
 		uses_jizya_tax = no
 	}
 
-	# Sunni Group
 	sunni = {
 		graphical_culture = sunnigfx
 
@@ -287,6 +803,7 @@ muslim = {
 		uses_decadence = yes
 		uses_jizya_tax = yes
 	}
+
 	yazidi = {
 		alternate_start = {
 			has_alternate_start_parameter = {
@@ -333,6 +850,7 @@ muslim = {
 		uses_decadence = yes
 		uses_jizya_tax = yes
 	}
+
 	zikri = {
 		alternate_start = {
 			has_alternate_start_parameter = {

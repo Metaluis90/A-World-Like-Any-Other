@@ -1,0 +1,282 @@
+mesoamerican_gods = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	#crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
+
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+
+	color = { 0.8 0.6 0.1 }
+
+	interface_skin = { mesoamerican_gods_interface pagan_interface }
+
+	# Names given only to Mesoamerican characters (base names)
+	#Mixtec Calendar Names
+	male_names = {
+		Cachi Caco Cacuaa Cacuane Cacuau Cacuii Cacusi Cahua Cahuaco Cahuidzu Cahuiyo Camahu Camau Canuu Caqhi Caque Caquevui Casa Casayu Catuta Cayo Cochi Coco Cocuaa Cocuane Cocuau Cocuii Cocusi Cohua Cohuaco Cohuidzu Cohuiyo Comahu Comau Conuu Coqhi Coque Coquevui Cosa Cosayu Cotuta Coyo Cuchi Cuco Cucuaa Cucuane Cucuau Cucuii Cucusi Cuhua Cuhuaco Cuhuidzu Cuhuiyo Cumahu Cumau Cunuu Cuqhi Cuque Cuquevui Cusa Cusayu Cututa Cuyo
+		Nachi Naco Nacuaa Nacuane Nacuau Nacuii Nacusi Nahua Nahuaco Nahuidzu Nahuiyo Namahu Namau Nanuu Naqhi Naque Naquevui Nasa Nasayu Natuta Nayo Nuchi Nuco Nucuaa Nucuane Nucuau Nucuii Nucusi Nuhua Nuhuaco Nuhuidzu Nuhuiyo Numahu Numau Nunuu Nuqhi Nuque Nuquevui Nusa Nusayu Nututa Nuyo
+		Qchi Qco Qcuaa Qcuane Qcuau Qcuii Qcusi Qhua Qhuaco Qhuidzu Qhuiyo Qmahu Qmau Qnuu Qqhi Qque Qquevui Qsa Qsayu Qtuta Quchi Quco Qucuaa Qucuane Qucuau Qucuii Qucusi Quhua Quhuaco Quhuidzu Quhuiyo Quichi Quico Quicuaa Quicuane Quicuau Quicuii Quicusi Quihua Quihuaco Quihuidzu Quihuiyo Quimahu Quimau Quinuu Quiqhi Quique Quiquevui Quisa Quisayu Quituta Quiyo Qumahu Qumau Qunuu Quqhi Quque Ququevui Qusa Qusayu Qututa Quyo Qyo
+		Sachi Saco Sacuaa Sacuane Sacuau Sacuii Sacusi Sahua Sahuaco Sahuidzu Sahuiyo Samahu Samau Sanuu Saqhi Saque Saquevui Sasa Sasayu Satuta Sayo Sichi Sico Sicuaa Sicuane Sicuau Sicuii Sicusi Sihua Sihuaco Sihuidzu Sihuiyo Siichi Siico Siicuaa Siicuane Siicuau Siicuii Siicusi Siihua Siihuaco Siihuidzu Siihuiyo Siimahu Siimau Siinuu Siiqhi Siique Siiquevui Siisa Siisayu Siituta Siiyo Simahu Simau Sinuu Siqhi Sique Siquevui Sisa Sisayu Situta Siyo
+	}
+
+
+	# Names given only to Mesoamerican characters (base names)
+	#Mixtec Calendar Names
+	female_names = {
+		Cachi Caco Cacuaa Cacuane Cacuau Cacuii Cacusi Cahua Cahuaco Cahuidzu Cahuiyo Camahu Camau Canuu Caqhi Caque Caquevui Casa Casayu Catuta Cayo Cochi Coco Cocuaa Cocuane Cocuau Cocuii Cocusi Cohua Cohuaco Cohuidzu Cohuiyo Comahu Comau Conuu Coqhi Coque Coquevui Cosa Cosayu Cotuta Coyo Cuchi Cuco Cucuaa Cucuane Cucuau Cucuii Cucusi Cuhua Cuhuaco Cuhuidzu Cuhuiyo Cumahu Cumau Cunuu Cuqhi Cuque Cuquevui Cusa Cusayu Cututa Cuyo
+		Nachi Naco Nacuaa Nacuane Nacuau Nacuii Nacusi Nahua Nahuaco Nahuidzu Nahuiyo Namahu Namau Nanuu Naqhi Naque Naquevui Nasa Nasayu Natuta Nayo Nuchi Nuco Nucuaa Nucuane Nucuau Nucuii Nucusi Nuhua Nuhuaco Nuhuidzu Nuhuiyo Numahu Numau Nunuu Nuqhi Nuque Nuquevui Nusa Nusayu Nututa Nuyo
+		Qchi Qco Qcuaa Qcuane Qcuau Qcuii Qcusi Qhua Qhuaco Qhuidzu Qhuiyo Qmahu Qmau Qnuu Qqhi Qque Qquevui Qsa Qsayu Qtuta Quchi Quco Qucuaa Qucuane Qucuau Qucuii Qucusi Quhua Quhuaco Quhuidzu Quhuiyo Quichi Quico Quicuaa Quicuane Quicuau Quicuii Quicusi Quihua Quihuaco Quihuidzu Quihuiyo Quimahu Quimau Quinuu Quiqhi Quique Quiquevui Quisa Quisayu Quituta Quiyo Qumahu Qumau Qunuu Quqhi Quque Ququevui Qusa Qusayu Qututa Quyo Qyo
+		Sachi Saco Sacuaa Sacuane Sacuau Sacuii Sacusi Sahua Sahuaco Sahuidzu Sahuiyo Samahu Samau Sanuu Saqhi Saque Saquevui Sasa Sasayu Satuta Sayo Sichi Sico Sicuaa Sicuane Sicuau Sicuii Sicusi Sihua Sihuaco Sihuidzu Sihuiyo Siichi Siico Siicuaa Siicuane Siicuau Siicuii Siicusi Siihua Siihuaco Siihuidzu Siihuiyo Siimahu Siimau Siinuu Siiqhi Siique Siiquevui Siisa Siisayu Siituta Siiyo Simahu Simau Sinuu Siqhi Sique Siquevui Sisa Sisayu Situta Siyo
+	}
+
+	mictlantec = {
+		graphical_culture = mesoamericangfx
+
+		secondary_event_pictures = mesoamerican
+		#saint/god traits: Dueños, Santos, Entidades
+		icon = 36
+		heresy_icon = 35
+
+		color = { 0.9 0.5 0.0 }
+
+		interface_skin = { mesoamerican_gods_interface pagan_interface }
+
+		high_god_name = GOD_DIOS_NUNCA_MUERE
+
+		god_names = {
+			GOD_DUENOS GOD_NAGUALES GOD_LOS_SANTOS GOD_LORD_RAIN
+		}
+
+		evil_god_names = {
+			GOD_CATRINES GOD_OWL_MAN
+		}
+
+		unit_modifier = {				#Special features are added via reformation. If HF is not installed, default features are applied on reformed religion by event.
+			garrison_size = 0.2
+			levy_size = 0.2
+
+			key = "DEF_RELIGION"
+		}
+		# unit_home_modifier = {
+			# land_morale = 0.8
+			# light_infantry_defensive = 0.8
+			# heavy_infantry_defensive = 0.8
+			# pikemen_defensive = 0.8
+			# light_cavalry_defensive = 0.8
+			# knights_defensive = 0.8
+			# archers_defensive = 0.8
+			# horse_archers_defensive = 0.8
+			# camel_cavalry_defensive = 0.8
+			# war_elephants_defensive = 0.8
+			# mushers_defensive = 0.8
+			# ballestero_defensive = 0.8
+			# cossacks_defensive = 0.8
+			# cowboys_defensive = 0.8
+			# pike_cavalry_defensive = 0.8
+			# samurai_defensive = 0.8
+# 
+			# garrison_size = 0.4
+# 
+			# key = "DEF_RELIGION_HOME_TERRITORY"
+		# }
+
+		can_grant_divorce = yes
+		female_temple_holders = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		can_demand_religious_conversion = no
+
+		defensive_attrition = yes
+		aggression = 0.5
+		hard_to_convert = yes
+
+		crusade_name = CRUSADE
+		scripture_name = HUEHUETLATOLLI ###LIBANA-Zapoteco
+		priest_title = SHAMAN
+		piety_name = REVERENCE
+
+		religious_clothing_head = 13
+		religious_clothing_priest = 13
+
+		intermarry = sol_invicta
+		intermarry = neomayan
+		intermarry = qabantajik
+		intermarry = navegante
+		intermarry = sacred_heart
+		intermarry = alurista
+	}
+	sol_invicta = { # Now called Sol Invicto
+		graphical_culture = mesoamericangfx
+
+		secondary_event_pictures = mesoamerican
+		icon = 35
+		heresy_icon = 84
+
+		color = { 1.0 0.9 0.2 }
+
+		high_god_name = GOD_SOL_INVICTA
+
+		god_names = {
+			GOD_EL_ALTISIMO GOD_THE_TRINITY GOD_TATAROQUITO GOD_ELIAS GOD_JESUCRISTO
+		}
+
+		evil_god_names = {
+			GOD_THE_DARKNESS GOD_THE_SERPENT GOD_THE_PHARISEES
+		}
+
+		unit_modifier = {				#Special features are added via reformation. If HF is not installed, default features are applied on reformed religion by event.
+			garrison_size = 0.2
+			levy_size = 0.2
+
+			key = "DEF_RELIGION"
+		}
+		# unit_home_modifier = {
+			# land_morale = 0.8
+			# light_infantry_defensive = 0.8
+			# heavy_infantry_defensive = 0.8
+			# pikemen_defensive = 0.8
+			# light_cavalry_defensive = 0.8
+			# knights_defensive = 0.8
+			# archers_defensive = 0.8
+			# horse_archers_defensive = 0.8
+			# camel_cavalry_defensive = 0.8
+			# war_elephants_defensive = 0.8
+			# mushers_defensive = 0.8
+			# ballestero_defensive = 0.8
+			# cossacks_defensive = 0.8
+			# cowboys_defensive = 0.8
+			# pike_cavalry_defensive = 0.8
+			# samurai_defensive = 0.8
+# 
+			# garrison_size = 0.4
+# 
+			# key = "DEF_RELIGION_HOME_TERRITORY"
+		# }
+
+		can_grant_divorce = yes
+		female_temple_holders = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		attacking_same_religion_piety_loss = yes
+
+		crusade_name = ILUMINACION
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+
+		scripture_name = EL_ULTIMO_TESTAMENTO
+		priest_title = PASTOR
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 2
+
+		intermarry = mictlantec
+		intermarry = neomayan
+		intermarry = qabantajik
+		intermarry = navegante
+
+		intermarry = sacred_heart
+		intermarry = alurista
+		intermarry = moravian
+		intermarry = penitente
+		intermarry = purificador
+	}
+	qabantajik = {
+		graphical_culture = mesoamericangfx
+
+		secondary_event_pictures = mesoamerican
+		#saint/god traits: Votan, Cruzob, Yaxche, Hero Twins
+		icon = 37
+		heresy_icon = 37
+
+		color = { 0.2 0.5 0.2 }
+
+		high_god_name = GOD_HUNAB_KU
+
+		god_names = {
+			GOD_HUNAB_KU GOD_AJAW_NAHUAL GOD_JESUCRISTO_NAHUAL GOD_KIICHPAM_KOLEL GOD_CROSS GOD_MAXIMON GOD_TWINS
+		}
+
+		evil_god_names = {
+			GOD_XIBALBA GOD_KABRAKAN
+		}
+
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+
+		crusade_name = CRUSADE
+		scripture_name = THE_CHILAM_BALAM
+		priest_title = PRIEST
+
+		religious_clothing_head = 22
+		religious_clothing_priest = 22
+
+		intermarry = mictlantec
+		intermarry = neomayan
+		intermarry = sol_invicta
+		intermarry = lamanita
+		intermarry = furiegi
+		intermarry = moravian
+		intermarry = penitente
+		intermarry = navegante
+		intermarry = fidencista
+		intermarry = sacred_heart
+		intermarry = patria_grande
+		####intermarry = la_hermandad
+	}
+	neomayan = {
+		graphical_culture = mesoamericangfx
+		#saint/god traits: Hunab Ku, Saint Germain, Salvador
+		secondary_event_pictures = mesoamerican
+
+		icon = 38
+		heresy_icon = 38
+
+		color = { 0.3 0.9 0.5 }
+
+		high_god_name = GOD_HUNAB_KU
+
+		god_names = {
+			GOD_HUNAB_KU GOD_TOLTEC GOD_CELESTINE GOD_AQUARIUS GOD_PACAL_VOTAN GOD_VALUM_VOTAN
+		}
+
+		evil_god_names = {
+			GOD_THE_DARKNESS GOD_ARES GOD_PISCES GOD_THE_DECEIVER
+		}
+
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		feminist = yes
+		peace_piety_gain = 1.0 #Gains 1 extra piety per month while at peace
+
+		crusade_name = CRUSADE
+		scripture_name = THE_DREAMSPELL
+		priest_title = PRIEST
+		piety_name = CONSCIOUSNESS
+
+		religious_clothing_head = 21
+		religious_clothing_priest = 21
+
+		intermarry = mictlantec
+		intermarry = sol_invicta
+		intermarry = qabantajik
+		intermarry = furiegi
+		intermarry = lamanita
+	}
+}

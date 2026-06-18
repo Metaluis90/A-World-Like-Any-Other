@@ -1,24 +1,69 @@
 indian_group = {
-	color = { 0.8 0.4 0.0 }
-	graphical_culture = dharmicgfx
-
-	ai_peaceful = yes
-	has_coa_on_barony_only = no
-	hostile_within_group = yes
+	#has_coa_on_barony_only = no
+	graphical_culture = indiangfx
 	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
 
-	ai_convert_same_group = 1
-	ai_convert_other_group = 2
+	ai_convert_same_group = 2 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2	# always try to convert
 
-	interface_skin = {
-		indian_interface
-		muslim_interface
-	}
+	color = { 0.8 0.4 0.0 }
+
+	interface_skin = { indian_interface muslim_interface }
 
 	# Names given only to Indian characters (base names)
-	male_names = {}
+	male_names = {
+		Ananta Arijit Bhishma Bodhi Chakradhar Daman Ganesh Hari Krishna Manu Narasimha Prakash Rajesh Shiva Srihari Vishnu
+	}
+	female_names = {
+		Aditi Asha Chandra Devi Divya Durga Ganga Gita Jaya Kali Kamala Lakshmi Lalita Maheshwari Parvati Rama Sita Subhadra
+	}
 
-	female_names = {}
+	hindu = {
+		graphical_culture = hindugfx
+
+
+		icon = 65
+		heresy_icon = 65
+
+		color = { 1.0 0.0 0.0 }
+
+		high_god_name = GOD_AUM
+
+		god_names = {
+			GOD_AUM GOD_VISHNU GOD_SHIVA KALI GOD_HANUMAN GOD_RAMA GOD_KRISHNA GOD_DURGA
+		}
+
+		evil_god_names = {
+			THE_VINAYAKAS THE_RAKSHASAS THE_ASURAS
+		}
+
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 3
+		#caste_opinions = yes
+		#castes = yes
+		allow_rivermovement = yes
+
+		unit_modifier = {
+			land_morale = 0.3
+			key = "OFF_RELIGION"
+		}
+
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_VEDAS
+		priest_title = GURU
+		piety_name = KARMA
+
+		intermarry = espiritista
+		intermarry = candomble
+		intermarry = alurista
+	}
 
 	buddhist = {
 		has_coa_on_barony_only = yes
@@ -72,58 +117,6 @@ indian_group = {
 		feminist = yes
 		has_heir_designation = yes
 		priests_can_inherit = no
-	}
-
-	hindu = {
-		graphical_culture = hindugfx
-		secondary_event_pictures = sunni
-
-		icon = 44
-		heresy_icon = 45
-
-		color = { 1.0 0.0 0.0 }
-
-		religious_clothing_head = 8
-		religious_clothing_priest = 8
-
-		piety_name = KARMA
-		priest_title = PUJARI
-		scripture_name = THE_MAHABHARATA
-
-		high_god_name = GOD_BRAHMA
-
-		god_names = {
-			GOD_BRAHMA
-			GOD_SHIVA
-			GOD_THE_LORD
-			GOD_THE_SUPREME
-		}
-
-		evil_god_names = {
-			THE_VINAYAKAS
-		}
-
-		intermarry = jain
-		intermarry = buddhist
-		intermarry = zun_pagan
-		intermarry = zun_pagan_reformed
-		intermarry = bon_pagan
-		intermarry = bon_pagan_reformed
-
-		unit_modifier = {
-			land_morale = 0.30
-
-			key = "OFF_RELIGION"
-		}
-
-		max_consorts = 3
-
-		allow_looting = yes
-		can_grant_divorce = yes
-		caste_opinions = yes
-		castes = yes
-		priests_can_inherit = no
-		priests_can_marry = yes
 	}
 
 	jain = {

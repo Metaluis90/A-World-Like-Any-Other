@@ -2,7 +2,7 @@
 	name="Francisco"
 	dynasty=1
 	culture=yucatanense #guero
-	religion=catholic #cristo_rey
+	religion=cristo_rey #cristo_rey
 	martial=3
 	diplomacy=9
 	stewardship=1

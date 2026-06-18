@@ -1,0 +1,176 @@
+afro_syncretic = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx #to ensure it works with new African shields
+	playable = yes
+
+	ai_convert_same_group = 0
+	ai_convert_other_group = 1
+
+	color = { 0.5 0.4 0.3 }
+
+	#each religion besides Rasta has the interface defined separately, because that's the easiest way to allow Rasta to use default
+
+	rastafarian = {
+		graphical_culture = africangfx
+
+
+		icon = 14
+		#heresy_icon = 35
+
+		color = { 0.8 0.4 0.0 }
+
+		#uses default interface to reflect its Christian roots
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_PROMISED_KEY
+		#priest_title = SHAMAN
+
+		high_god_name = GOD_JAH
+
+		god_names = {
+			GOD_JAH GOD_RASTAFARI PROPHET_GARVEY
+		}
+		evil_god_names = {
+			BABYLON
+		}
+
+		priests_can_marry = yes
+		female_temple_holders = no
+		allow_looting = yes
+		#can_hold_temples = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+
+		religious_clothing_head = 19
+		religious_clothing_priest = 19
+		intermarry = voodoo
+		intermarry = santeria
+		intermarry = candomble
+		intermarry = espiritista
+	}
+	voodoo = {
+		graphical_culture = africangfx
+
+
+		icon = 16
+		#heresy_icon = 35
+
+		color = { 0.3 0.5 0.2 }
+
+		interface_skin = { afro_syncretic_interface zoroastrian_interface muslim_interface }
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TAROT
+		#priest_title = SHAMAN
+
+		high_god_name = BONDYE
+
+		god_names = {
+			GOD_PAPA_LEGBA GOD_ERZULIE_FREDA GOD_BARON_SAMEDI
+		}
+		evil_god_names = {
+			GOD_KALFU
+		}
+
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		intermarry = rastafarian
+		intermarry = santeria
+		intermarry = candomble
+		intermarry = espiritista
+		intermarry = brethren
+		intermarry = furiegi
+
+		####intermarry = insular
+		intermarry = revelationist
+		intermarry = revelationist_reformed
+	}
+	santeria = {
+		graphical_culture = africangfx
+
+
+		icon = 48
+		#heresy_icon = 35
+
+		color = { 0.6 0.75 0.0 }
+
+		interface_skin = { afro_syncretic_interface zoroastrian_interface muslim_interface }
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = PATAKI
+		#priest_title = SHAMAN
+
+		high_god_name = GOD_OLODUMARE
+
+		god_names = {
+			GOD_CHANGO GOD_OBATALA GOD_OCHUN GOD_MARTI GOD_YEMAYA
+		}
+		evil_god_names = {
+			ECHU
+		}
+
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		piety_name = ASHE
+		intermarry = rastafarian
+		intermarry = voodoo
+		intermarry = candomble
+		intermarry = espiritista
+		intermarry = furiegi
+
+		####intermarry = insular
+		intermarry = revelationist
+		intermarry = revelationist_reformed
+	}
+	espiritista = {
+		graphical_culture = africangfx
+
+		icon = 50
+		heresy_icon = 70
+
+		color = { 0.7 0.4 0.5 }
+
+		interface_skin = { afro_syncretic_interface zoroastrian_interface muslim_interface }
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST_MEDIUM
+		piety_name = REVERENCE
+
+		high_god_name = GOD_THE_SUPREME
+		god_names = {
+			GOD_THE_THREE_POWERS GOD_THE_SAINTS GOD_THE_SPIRITS GOD_MARIA_LIONZA GOD_BOLIVAR GOD_GUAICAIPURO GOD_JOSE_GREGORIO
+		}
+		evil_god_names = {
+			GOD_THE_EVIL_SPIRITS GOD_THE_DOUBTER GOD_SILBON
+		}
+
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		intermarry = rastafarian
+		intermarry = voodoo
+		intermarry = santeria
+		intermarry = candomble
+		intermarry = hindu
+		intermarry = furiegi
+
+		####intermarry = insular
+	}
+}

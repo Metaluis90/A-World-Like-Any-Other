@@ -1,0 +1,395 @@
+american_native = {
+	has_coa_on_barony_only = yes
+	graphical_culture = mesoamericangfx #westerngfx
+	#crusade_cb = crusade
+	playable = yes
+
+	ai_convert_same_group = 0
+	ai_convert_other_group = 1 # Only if zealous
+
+	color = { 0.2 0.6 0.7 }
+
+	interface_skin = { american_native_interface pagan_interface }
+
+	midewiwin_reformed = {
+		graphical_culture = mesoamericangfx #norsegfx
+
+		icon = 62
+		heresy_icon = 63
+
+		ai_convert_other_group = 0
+		ai_convert_same_group = 0
+
+		color = { 0.85 0.60 0.24 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_GREAT_WAMPUM_BELT
+		priest_title = SHAMAN
+		piety_name = REVERENCE
+
+		high_god_name = GOD_GITCHE_MANITOU
+
+		god_names = {
+			GOD_GITCHE_MANITOU GOD_NANABOZHO GOD_GLOOSCAP GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		pacifist = yes
+		peace_piety_gain = 1.0
+		allow_in_ruler_designer = no
+
+		aggression = 0.1
+
+		religious_clothing_head = 15
+		religious_clothing_priest = 15
+		intermarry = raven_tales
+		intermarry = raven_tales_reformed
+		intermarry = peyotist
+		intermarry = exovedate
+		intermarry = midewiwin
+		intermarry = orthodox
+
+		alternate_start = { always = no }
+	}
+	midewiwin = {
+		graphical_culture = mesoamericangfx #norsegfx
+
+		icon = 40
+		heresy_icon = 63
+
+		color = { 0.65 0.40 0.04 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_VISIONS
+		priest_title = SHAMAN
+		piety_name = REVERENCE
+
+		high_god_name = GOD_GITCHE_MANITOU
+
+		god_names = {
+			GOD_GITCHE_MANITOU GOD_NANABOZHO GOD_GLOOSCAP GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+
+		unit_modifier = {
+			garrison_size = 0.3
+			levy_size = 0.1
+
+			key = "DEF_RELIGION"
+		}
+		# unit_home_modifier = {
+			# land_morale = 0.8
+			# light_infantry_defensive = 0.8
+			# heavy_infantry_defensive = 0.8
+			# pikemen_defensive = 0.8
+			# light_cavalry_defensive = 0.8
+			# knights_defensive = 0.8
+			# archers_defensive = 0.8
+			# horse_archers_defensive = 0.8
+			# camel_cavalry_defensive = 0.8
+			# war_elephants_defensive = 0.8
+			# mushers_defensive = 0.8
+			# ballestero_defensive = 0.8
+			# cossacks_defensive = 0.8
+			# cowboys_defensive = 0.8
+			# pike_cavalry_defensive = 0.8
+			# samurai_defensive = 0.8
+# 
+			# garrison_size = 0.4
+# 
+			# key = "DEF_RELIGION_HOME_TERRITORY"
+		# }
+
+		defensive_attrition = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		can_demand_religious_conversion = no
+
+		reformed = midewiwin_reformed
+
+		religious_clothing_head = 15
+		religious_clothing_priest = 15
+		intermarry = raven_tales
+		intermarry = raven_tales_reformed
+		intermarry = peyotist
+		intermarry = exovedate
+		intermarry = midewiwin_reformed
+		intermarry = orthodox
+	}
+	raven_tales_reformed = {
+		graphical_culture = mesoamericangfx #norsegfx
+		interface_skin = { haida_interface american_native_interface pagan_interface }
+
+		icon = 55
+		heresy_icon = 56
+
+		color = { 0.7 0 0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_GREAT_TOTEM
+		priest_title = SHAMAN
+		piety_name = REVERENCE
+
+		high_god_name = GOD_XHUUYEE
+
+		god_names = {
+			GOD_TAXET GOD_TIA GOD_GYHLDEPTIS GOD_LAGUA GOD_DZALARHONS GOD_KAITI
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+
+		can_call_crusade = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		allow_in_ruler_designer = no
+
+		religious_clothing_head = 15
+		religious_clothing_priest = 15
+		intermarry = peyotist
+		intermarry = midewiwin
+		intermarry = midewiwin_reformed
+		intermarry = exovedate
+		intermarry = raven_tales
+		intermarry = orthodox
+
+		alternate_start = { always = no }
+	}
+	raven_tales = {
+		graphical_culture = mesoamericangfx #norsegfx
+		interface_skin = { haida_interface american_native_interface pagan_interface }
+
+		icon = 46
+		heresy_icon = 56
+
+		color = { 0.5 0.1 0.1 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TALES
+		priest_title = SHAMAN
+		piety_name = REVERENCE
+
+		high_god_name = GOD_XHUUYEE
+
+		god_names = {
+			GOD_TAXET GOD_TIA GOD_GYHLDEPTIS GOD_LAGUA
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+
+		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		max_consorts = 2
+		priests_can_marry = yes
+		can_demand_religious_conversion = no
+
+		reformed = raven_tales_reformed
+
+		religious_clothing_head = 15
+		religious_clothing_priest = 15
+		intermarry = peyotist
+		intermarry = midewiwin
+		intermarry = midewiwin_reformed
+		intermarry = exovedate
+		intermarry = raven_tales_reformed
+		intermarry = orthodox
+	}
+	nguillatun={
+		graphical_culture = mesoamericangfx #norsegfx
+		
+		icon = 121
+		
+		color = { 0.08 0.65 0.82 }
+		crusade_name = WEICHAN
+		scripture_name = ADMAPU
+		priest_title = MACHI
+		piety_name = AM
+
+		high_god_name = GOD_NGENECHEN
+		
+		god_names = {
+			GOD_ANTU GOD_KUYEN GOD_PERIPILLAN GOD_TRENTREN GOD_CAICAI GOD_EPUNAMUN
+		}
+		evil_god_names = {
+			GOD_WEKUFES GOD_KALKUS
+		}
+
+		allow_viking_invasion = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		rel_head_defense = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		male_temple_holders = no
+		intermarry = calafatist
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 3
+	}
+	xoon={
+		graphical_culture = mesoamericangfx #norsegfx
+		
+		icon = 124
+		
+		color = { 0.9 0.2 0.2 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = SHOON
+		priest_title = XOON
+		piety_name = MIU
+
+		high_god_name = GOD_TEMAUKEL
+		
+		god_names = {
+			GOD_TEMAUKEL GOD_KENOS GOD_KWANYIP GOD_CENUKE GOD_KOJH GOD_KREN GOD_KRE GOD_JOSH GOD_SHENRR
+		}
+		evil_god_names = {
+			GOD_XALPEN GOD_SOORTES
+		}
+
+		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		max_consorts = 3
+		ignores_defensive_attrition = yes
+		priests_can_marry = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 3
+	}
+	pachamama={
+		graphical_culture = mesoamericangfx #norsegfx
+		
+		icon = 123
+		
+		color = { 0.28 0.8 0.06 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = SUMAK_KAWSAY
+		priest_title = YATIRI
+		piety_name = HARMONY
+
+		high_god_name = GOD_PACHAMAMA
+		
+		god_names = {
+			GOD_PACHAMAMA GOD_WORLD_MOTHER GOD_MOTHER_EARTH GOD_INTI GOD_QUILLA
+		}
+		evil_god_names = {
+			GOD_SUPAY GOD_POLLUTION
+		}
+
+		allow_rivermovement = yes
+		allow_looting = yes
+		max_consorts = 3
+		defensive_attrition = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		has_heir_designation = yes
+		feminist = yes
+		pacifist = yes
+		female_temple_holders = yes	
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_grant_invasion_cb = invasion
+
+		intermarry = inti
+		intermarry = inkarri
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 3
+	}
+	jerovia = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 117
+		
+		color = { 1.0 0.0 0.1 }
+		
+		scripture_name = THE_STORIES
+		
+		high_god_name = GOD_TUPA
+		
+		god_names = {
+			GOD_ARASY GOD_RUPAVE GOD_SYPAVE GOD_THE_CELESTIAL_JAGUAR
+		}
+		
+		evil_god_names = {
+			GOD_TAU GOD_AO_AO GOD_KURUPI GOD_LUISON GOD_POMBERO
+		}
+	}
+	inti = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 118
+		
+		color = { 0.25 0.45 0.45 }
+		
+		scripture_name = THE_TRADITIONS
+		
+		high_god_name = GOD_INTI
+		
+		god_names = {
+			GOD_INTI GOD_PACHAMAMA GOD_QHOA GOD_ILLAPA GOD_WORLD_MOTHER GOD_MOTHER_EARTH 
+		}
+		
+		evil_god_names = {
+			GOD_SUPAY 
+		}
+		
+	}
+	inkarri = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 119
+		
+		color = { 0.9 0.58 0.06 }
+		
+		scripture_name = THE_MYTH
+		
+		high_god_name = GOD_INTI
+		
+		god_names = {
+			GOD_INTI GOD_INKARRI GOD_WORLD_MOTHER GOD_MOTHER_EARTH GOD_TUPAC_AMARU
+
+		}
+		
+		evil_god_names = {
+			GOD_SUPAY GOD_THE_CROWN
+		}
+	}
+	hekura = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 120
+		
+		color = { 0.5 0.0 0.0 }
+		
+		scripture_name = THE_STORIES
+		
+		high_god_name = GOD_HEDU
+		
+		god_names = {
+			GOD_BUHII GOD_BORE GOD_MOAMO GOD_NORESHI
+		}
+		
+		evil_god_names = {
+			GOD_JAGUAR
+		}
+	}
+}
