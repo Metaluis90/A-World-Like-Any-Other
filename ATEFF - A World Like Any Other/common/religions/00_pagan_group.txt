@@ -812,8 +812,8 @@ pagan_group = {
 			GOD_NSOGOI GOD_PICHAKCHIK
 		}
 			
-		icon = 194
-		heresy_icon = 196
+		icon = 195
+		heresy_icon = 197
 	}
 	dreamtime = {
 		graphical_culture = mesoamericangfx
@@ -832,8 +832,8 @@ pagan_group = {
 			GOD_NSOGOI GOD_PICHAKCHIK
 		}
 		
-		icon = 194
-		heresy_icon = 196
+		icon = 195
+		heresy_icon = 197
 		
 		reformed = dreamtime_reformed
 	}
@@ -843,8 +843,8 @@ pagan_group = {
 		
 		color = { 0.87 0.63 0.33 }	
 		
-		icon = 170
-		heresy_icon = 171
+		icon = 171
+		heresy_icon = 172
 		
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_FIERRO_TOMES
@@ -886,8 +886,8 @@ pagan_group = {
 		
 		color = { 0.70 0.51 0.28 }	
 			
-		icon = 169
-		heresy_icon = 171
+		icon = 170
+		heresy_icon = 172
 		
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_FIERRO_TOMES
@@ -929,8 +929,8 @@ pagan_group = {
 		graphical_culture = norsegfx
 		alternate_start = { always = no }
 		
-		icon = 173
-		heresy_icon = 174
+		icon = 174
+		heresy_icon = 175
 		
 		color = { 0.23 0.64 0.8 }
 			
@@ -967,8 +967,8 @@ pagan_group = {
 	calafatist = {
 		graphical_culture = norsegfx
 		
-		icon = 172
-		heresy_icon = 174
+		icon = 173
+		heresy_icon = 175
 		
 		color = { 0.42 0.65 0.76 }
 				
@@ -1035,8 +1035,8 @@ pagan_group = {
 		graphical_culture = mongolgfx
 		alternate_start = { always = no }
 		
-		icon = 176
-		heresy_icon = 177
+		icon = 177
+		heresy_icon = 178
 		
 		color = { 0.95 0.39 0.0 }
 		
@@ -1077,8 +1077,8 @@ pagan_group = {
 	manredebu = {
 		graphical_culture = mongolgfx
 		
-		icon = 175
-		heresy_icon = 177
+		icon = 176
+		heresy_icon = 178
 		
 		color = { 0.93 0.65 0.0 }
 		
@@ -1118,8 +1118,8 @@ pagan_group = {
 		graphical_culture = pagangfx
 		alternate_start = { always = no }
 		
-		icon =	179
-		heresy_icon = 180
+		icon =	180
+		heresy_icon = 181
 		
 		color = { 0.53 0.25 0.02 }
 		
@@ -1153,8 +1153,8 @@ pagan_group = {
 	terra_benta = {
 		graphical_culture = pagangfx
 		
-		icon = 178
-		heresy_icon = 180
+		icon = 179
+		heresy_icon = 181
 		
 		color = { 0.53 0.25 0.02 }
 		

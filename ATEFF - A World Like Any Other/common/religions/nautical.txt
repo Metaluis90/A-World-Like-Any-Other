@@ -108,7 +108,7 @@ nautical = {
 	brethrensoa = { # pirates!
 		graphical_culture = norsegfx
 
-		icon = 185
+		icon = 186
 		
 		color = { 0.3 0.2 0.2 }
 

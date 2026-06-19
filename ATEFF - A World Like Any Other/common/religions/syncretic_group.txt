@@ -14,7 +14,7 @@ syncretic_group = {
 		graphical_culture = africangfx
 		secondary_event_pictures = west_african_pagan
 
-		icon = 181
+		icon = 182
 		
 		color = { 0.6 0.75 0.2 }
 		
@@ -47,7 +47,7 @@ syncretic_group = {
 	kardecists = {
 		graphical_culture = westerngfx
 		
-		icon = 182
+		icon = 183
 		
 		color = { 0.8 0.57 0.0 }
 		
@@ -67,7 +67,7 @@ syncretic_group = {
 		graphical_culture = mesoamericangfx
 		secondary_event_pictures = west_african_pagan
 
-		icon = 183
+		icon = 184
 		
 		color = { 0.35 0.43 0.35 }
 		
@@ -101,7 +101,7 @@ syncretic_group = {
 		graphical_culture = africangfx
         secondary_event_pictures = west_african_pagan
 		
-		icon = 184
+		icon = 185
 		
 		color = { 0.83 0.0 0.76 }
 
@@ -122,8 +122,8 @@ syncretic_group = {
 	israelite = {
 		graphical_culture = jewishgfx
 		
-		icon = 192
-		heresy_icon = 192
+		icon = 193
+		heresy_icon = 193
 		
 		color = { 0.1 0.1 1.0 }
 		crusade_name = MAQANAKUY
@@ -154,8 +154,8 @@ syncretic_group = {
 	jurema = {
         graphical_culture = africangfx
 
-        icon = 197
-        heresy_icon = 197
+        icon = 198
+        heresy_icon = 198
 
         color = { 0.1 0.7 0.3 }
         crusade_name = GREAT_HOLY_WAR
@@ -186,8 +186,8 @@ syncretic_group = {
         graphical_culture = africangfx
         secondary_event_pictures = west_african_pagan
 
-        icon = 199
-		heresy_icon = 199
+        icon = 200
+		heresy_icon = 200
 
         color = { 0.5 0.35 0.15 }
 
@@ -221,7 +221,7 @@ syncretic_group = {
 		graphical_culture = africangfx
 
 		
-		icon = 198
+		icon = 199
 		#heresy_icon = 35
 		
 		color = { 0.8 0.4 0.0 }

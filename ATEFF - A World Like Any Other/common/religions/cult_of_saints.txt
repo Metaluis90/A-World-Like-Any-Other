@@ -353,7 +353,7 @@ cult_of_saints= {
 	chicha = {
 		graphical_culture = mesoamericangfx
 		
-		icon = 139
+		icon = 140
 		
 		color = { 1.0 0.5 0.16 }
 		
@@ -372,7 +372,7 @@ cult_of_saints= {
 	santa_diablada = {
 		graphical_culture = westerngfx
 
-		icon = 140
+		icon = 141
 		
 		color = { 0.8 0.1 0.2 }
 
@@ -406,7 +406,7 @@ cult_of_saints= {
 	folclorista = {
 		graphical_culture = westerngfx
 		
-		icon = 141
+		icon = 142
 		
 		color = { 0.77 0.63 0.85 }
 		
@@ -425,8 +425,8 @@ cult_of_saints= {
 	patria_grandesoa = {
 		graphical_culture = westerngfx
 
-		icon = 142
-		heresy_icon = 142
+		icon = 143
+		heresy_icon = 143
 		
 		color = { 0.1 0.4 0.7 }
 
@@ -458,7 +458,7 @@ cult_of_saints= {
 	angel_cult = {
 		graphical_culture = westerngfx
 
-		icon = 188
+		icon = 189
 
 		scripture_name = THE_BIBLE
 
@@ -477,7 +477,7 @@ cult_of_saints= {
 	sebastianist = {
 		graphical_culture = westerngfx
 		
-		icon = 189
+		icon = 190
 		
 		scripture_name = MENSAGEM
 		priest_title = PADRE
@@ -498,7 +498,7 @@ cult_of_saints= {
 	archipelagic = {
 		graphical_culture = westerngfx
 		
-		icon = 200
+		icon = 201
 		
 		color = { 0.3 0.7 0.55 }
 		

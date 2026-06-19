@@ -124,8 +124,8 @@ jewish_group = {
 	jewishsoa = {
 		graphical_culture = jewishgfx
 		
-		icon = 150
-		heresy_icon = 151
+		icon = 151
+		heresy_icon = 152
 		
 		color = { 0.1 0.7 1.0 }
 		crusade_name = GREAT_HOLY_WAR
@@ -158,8 +158,8 @@ jewish_group = {
 	amazonian_jews = {
 		graphical_culture = jewishgfx
 		
-		icon = 150
-		heresy_icon = 151
+		icon = 151
+		heresy_icon = 152
 		
 		color = { 0.1 0.8 0.8 }
 		
