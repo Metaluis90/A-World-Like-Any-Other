@@ -106,7 +106,7 @@ eastern_group = {
 		piety_name = KARMA
 
 		intermarry = theosophist
-		intermarry = buddhism
+		intermarry = buddhist
 		intermarry = espiritista
 		intermarry = candomble
 		intermarry = alurista
@@ -151,7 +151,7 @@ eastern_group = {
 		intermarry = platinean
 		intermarry = jewishsoa
 		intermarry = hindusoa
-		intermarry = buddhism
+		intermarry = buddhist
 	}
 	johrei = {
 		has_coa_on_barony_only = yes
