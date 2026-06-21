@@ -15,7 +15,7 @@ eastern_group = {
 	female_names = {
 	}
 	
-	buddhism = {
+	buddhist = {
 		has_coa_on_barony_only = yes
 		graphical_culture = buddhistgfx
 		secondary_event_pictures = sunni
@@ -55,8 +55,18 @@ eastern_group = {
 
 		intermarry = hindusoa
 		intermarry = theosophist
+
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = bon_pagan
+		intermarry = bon_pagan_reformed
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+		intermarry = nestorian
 	}
-	hindusoa = {
+	hindu = {
 		graphical_culture = hindugfx
 		secondary_event_pictures = sunni
 
@@ -97,6 +107,9 @@ eastern_group = {
 
 		intermarry = theosophist
 		intermarry = buddhism
+		intermarry = espiritista
+		intermarry = candomble
+		intermarry = alurista
 	}
 	theosophist = {
 		has_coa_on_barony_only = yes

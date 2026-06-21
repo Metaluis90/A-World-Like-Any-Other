@@ -422,39 +422,6 @@ cult_of_saints= {
 			GOD_SAN_LA_MUERTE GOD_NAHUELITO
 		}
 	}
-	patria_grandesoa = {
-		graphical_culture = westerngfx
-
-		icon = 143
-		heresy_icon = 143
-		
-		color = { 0.1 0.4 0.7 }
-
-		high_god_name = GOD_DIVINO_NINO
-		
-		god_names = {
-			GOD_BOLIVAR GOD_SANTANDER GOD_MANUELITA
-		}
-		
-		evil_god_names = {
-			SATAN PEPE_BOTELLA
-		}
-		
-		can_grant_divorce = yes
-		priests_can_inherit = no
-		priests_can_marry = no
-		allow_rivermovement = yes
-		has_heir_designation = yes
-		can_call_crusade = yes
-		join_crusade_if_bordering_hostile = yes
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-
-		crusade_name = LIBERATION_WAR
-		scripture_name = THE_COLOMBEIA
-		priest_title = PADRE
-	}
 	angel_cult = {
 		graphical_culture = westerngfx
 
