@@ -41,6 +41,31 @@ is_catholic_trigger = {
 	}
 }
 
+is_protestant_trigger = {
+	OR = {
+		religion = evangelical
+		religion = evangelicalsoa #unsure what 2 do abt it yet
+		religion = antinomian
+		religion = pentecostal
+		religion = universal
+		religion = anabaptist
+		religion = batenburger
+		religion = postadventist
+		religion = high_church
+		religion = moravian
+		religion = purificador
+		religion = nonconformist
+		AND = {
+			religion = nazarene
+			#todo trait = protestant_nazarene_trait #I forgot the name for this one too
+		}
+		religion = true_cross
+		religion = montane
+		religion = mucker
+		#I think I'm forgetting something
+	}
+}
+
 chivalric_religion = { #religion with knighthood mechanics
 	OR = {
 		religion = evangelical

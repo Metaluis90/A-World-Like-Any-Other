@@ -555,16 +555,13 @@ narrative_event = {
 				add_trait = baptized_by_bishop
 			}
 
-			# AND Crowned by Bishop if Catholic/Fraticelli
+			# AND Crowned by Bishop if Catholic
 			if = {
 				limit = {
 					higher_real_tier_than = DUKE
 
 					event_target:sponsoring_king = {
-						OR = {
-							religion = catholic
-							religion = fraticelli
-						}
+						is_catholic_trigger = yes
 					}
 				}
 
@@ -1462,7 +1459,7 @@ letter_event = {
 
 			mult_modifier = {
 				factor = 0.75
-				event_target:sponsoring_king = { religion = catholic }
+				event_target:sponsoring_king = { religion_group = christian }
 			}
 
 			mult_modifier = {
@@ -8420,6 +8417,11 @@ character_event = {
 					trait = baptized_by_bishop
 				}
 			}
+			AND = {
+				is_protestant_trigger = yes #Protestants shouldn't baptize kids
+				NOT = { religion = high_church } #anglicans do baptize
+			}
+			#todo check if Moravian should be allowed to do child batpsim
 		}
 	}
 
@@ -8429,11 +8431,7 @@ character_event = {
 
 		if = {
 			limit = {
-				OR = {
-					religion = catholic
-					religion = fraticelli
-					religion = orthodox
-				}
+				has_religion_head_excommunication = yes
 
 				rightful_religious_head_scope = {
 					controls_religion = yes
@@ -8518,7 +8516,7 @@ character_event = {
 		}
 	}
 
-	option = { # Papal Baptism
+	option = { # Head of Faith Baptism
 		name = {
 			text = EVTOPTAHF20100_A
 			trigger = {
