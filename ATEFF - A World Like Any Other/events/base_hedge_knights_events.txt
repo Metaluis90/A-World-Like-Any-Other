@@ -16,13 +16,14 @@ character_event = {
 	is_triggered_only = yes # on_yearly_pulse, random_events
 
 	only_playable = yes
-	religion = catholic
 	min_age = 16
 	prisoner = no
 	war = no
 	in_command = no
 
 	trigger = {
+		chivalric_religion = yes
+
 		job_chancellor = { always = yes }
 
 		in_seclusion = no
@@ -656,12 +657,13 @@ character_event = {
 	is_triggered_only = yes # on_yearly_pulse, random_events
 
 	only_playable = yes
-	religion = catholic
 	prisoner = no
 	war = no
 	in_command = no
 
 	trigger = {
+		chivalric_religion = yes
+	
 		job_marshal = { always = yes }
 
 		NOT = { has_character_flag = hedge_knights_visiting }

@@ -1,0 +1,72 @@
+###################################
+# Scripted Triggers for religions #
+###################################
+
+is_catholic_trigger = {
+	OR = {
+		religion = catholic
+		#religion = neognostic 
+		religion = sedevacantist
+		religion = latinate
+		religion = ursuline
+		religion = angeline
+		religion = penitente
+		AND = {
+			religion = moravian
+			#trait = catholic_moravian_trait #I forgot the name for it lol
+		}
+		#religion = high_church #perhaps?
+		religion = anglo_catholic
+		AND = {
+			religion = nazarene
+			#trait = catholic_nazarene_trait #I forgot the name for it too
+		}
+		religion = cristo_rey
+		religion = reformista
+		religion = la_hermandad
+		religion = artiga
+		religion = alurista
+		religion = charismatic
+		religion = ultramontane
+		religion = peterite
+		religion = synodal
+		religion = orthodoxist
+		religion = liberationist
+		religion = celeste
+		religion = cicerite
+		religion = seladite
+		religion = holy_spirit
+		religion = tridentine
+		religion = mysticalist
+	}
+}
+
+chivalric_religion = { #religion with knighthood mechanics
+	OR = {
+		religion = evangelical
+		religion = antinomian
+		religion = charismatic
+		religion = celeste
+		#perhaps add all of the catholics?
+	}
+}
+
+has_religion_head_excommunication = {
+	#This is essentially for all the religions which have excommunication mechanics and an independent religous head, most Catholics are here, as are the Evangelicals, but not the Antinomians or the Charismatics, for example. This is for events that require the character to be excommunicated by their religious head, so it won't work for religions without a religious head or without excommunication mechanics. If they have autocephaly without a religious head, they won't be here either, as those events depend on a single relHead to trigger.
+	OR = {
+		religion = catholic
+		religion = ursuline
+		religion = moravian
+		religion = high_church
+		religion = cristo_rey
+		# religion = reformista #I don't remember if they had their own hof
+		religion = synodal
+		religion = orthodoxist
+		religion = celeste
+		religion = cicerite
+		# religion = seladite
+		religion = tridentine
+		religion = mysticalist
+		religion = evangelical
+	}
+}

@@ -1186,7 +1186,7 @@ character_event = {
 		clr_character_flag = suspected_of_incest
 
 		if = {
-			limit = { religion = catholic }
+			limit = { has_religion_head_excommunication = yes }
 
 			random = {
 				chance = 25
@@ -3953,12 +3953,12 @@ character_event = {
 	is_triggered_only = yes # on_yearly_pulse, random_events, rumour_events
 
 	only_rulers = yes
-	religion = catholic
 	has_character_flag = flag_unchristian
 	only_capable = yes
 	prisoner = no
 
 	trigger = {
+		has_religion_head_excommunication = yes
 		piety < 100
 	}
 

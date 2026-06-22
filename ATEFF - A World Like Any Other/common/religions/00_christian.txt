@@ -968,7 +968,7 @@ christian = {
 		intermarry = Gregorian
 		intermarry = qabantajik
 	}
-		high_church = {
+	high_church = {
 		graphical_culture = westerngfx
 
 		icon = 68

@@ -304,12 +304,15 @@ character_event = {
 	is_triggered_only = yes # on_yearly_pulse, random_events
 
 	only_playable = yes
-	religion = catholic
 	min_age = 16
 	prisoner = no
 	in_command = no
 
 	trigger = {
+		OR = {
+			is_catholic_trigger = yes
+			religion_group = cult_of_saints
+		}
 		any_vassal = {
 			is_theocracy = yes
 			tier = BARON
