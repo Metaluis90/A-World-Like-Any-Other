@@ -11908,7 +11908,6 @@ character_event = {
 
 	is_triggered_only = yes # on_yearly_childhood_pulse, random_events
 
-	religion = catholic
 	min_age = 11
 	lacks_dlc = "Conclave"
 	prisoner = no
@@ -11919,16 +11918,16 @@ character_event = {
 		personality_traits < 5
 
 		guardian = {
-			religion = catholic
+			is_catholic_trigger = yes
 
 			OR = {
 				any_current_enemy = {
-					religion = catholic
+					is_catholic_trigger = yes
 				}
 
 				any_liege = {
 					any_current_enemy = {
-						religion = catholic
+						is_catholic_trigger = yes
 					}
 				}
 			}
@@ -12194,6 +12193,66 @@ character_event = {
 			factor = 10
 
 			trigger = { trait = paranoid }
+		}
+	}
+
+	option = {
+		name = EVTOPTD38214 # They have turned towards heresy
+
+		trigger = {
+			OR = {
+				any_current_enemy = {
+					is_catholic_trigger = yes
+					NOT = { religion = ROOT }
+				}
+
+				any_liege = {
+					any_current_enemy = {
+						is_catholic_trigger = yes
+						NOT = { religion = ROOT }
+					}
+				}
+			}
+		}
+
+		FROM = {
+			show_scope_change = no
+
+			random_list = {
+				75 = {
+					trigger = {
+						NOT = { trait = zealous }
+					}
+
+					add_trait_fully_zealous_effect = yes
+
+					ROOT = {
+						character_event = { id = 38169 } # Notify guardian
+					}
+				}
+
+				35 = { }
+			}
+		}
+
+		ai_chance = {
+			factor = 10
+
+			mult_modifier = {
+				factor = 10
+				OR = {
+					religion = tridentine
+					religion = mysticalist
+					trait = zealous
+				}
+			}
+
+			mult_modifier = {
+				factor = 0.5
+				OR = {
+					trait = cynical
+				}
+			}
 		}
 	}
 }

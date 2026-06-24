@@ -15,12 +15,12 @@ eastern_group = {
 	female_names = {
 	}
 	
-	buddhism = {
+	buddhist = {
 		has_coa_on_barony_only = yes
 		graphical_culture = buddhistgfx
 		secondary_event_pictures = sunni
 
-		icon = 143
+		icon = 144
 		
 		color = { 0.8 0.4 0.0 }
 		
@@ -55,12 +55,22 @@ eastern_group = {
 
 		intermarry = hindusoa
 		intermarry = theosophist
+
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = bon_pagan
+		intermarry = bon_pagan_reformed
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+		intermarry = nestorian
 	}
-	hindusoa = {
+	hindu = {
 		graphical_culture = hindugfx
 		secondary_event_pictures = sunni
 
-		icon = 144
+		icon = 145
 		
 		color = { 1.0 0.0 0.0 }
 		
@@ -96,14 +106,17 @@ eastern_group = {
 		piety_name = KARMA
 
 		intermarry = theosophist
-		intermarry = buddhism
+		intermarry = buddhist
+		intermarry = espiritista
+		intermarry = candomble
+		intermarry = alurista
 	}
 	theosophist = {
 		has_coa_on_barony_only = yes
 		#graphical_culture = buddhistgfx
 		secondary_event_pictures = sunni
 
-		icon = 145
+		icon = 146
 		
 		color = { 0.7 0.2 0.3 }
 		
@@ -138,14 +151,14 @@ eastern_group = {
 		intermarry = platinean
 		intermarry = jewishsoa
 		intermarry = hindusoa
-		intermarry = buddhism
+		intermarry = buddhist
 	}
 	johrei = {
 		has_coa_on_barony_only = yes
 		graphical_culture = chinesegfx
 		secondary_event_pictures = sunni
 
-		icon = 193
+		icon = 194
 		
 		color = { 0.2 0.65 0.3 }
 		

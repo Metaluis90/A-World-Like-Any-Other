@@ -968,7 +968,7 @@ christian = {
 		intermarry = Gregorian
 		intermarry = qabantajik
 	}
-		high_church = {
+	high_church = {
 		graphical_culture = westerngfx
 
 		icon = 68
@@ -1761,8 +1761,8 @@ christian = {
 	charismatic = {
 		graphical_culture = westerngfx
 		
-		icon = 126
-		heresy_icon = 133
+		icon = 127
+		heresy_icon = 134
 	
 		color = { 1.0 1.0 0.5 }
 		
@@ -1821,8 +1821,8 @@ christian = {
 	ultramontane = {
 		graphical_culture = westerngfx
 		
-		icon = 126
-		heresy_icon = 133
+		icon = 127
+		heresy_icon = 134
 		
 		color = { 0.75 0.42 0.6 }
 		
@@ -1871,8 +1871,8 @@ christian = {
 	peterite = {
 		graphical_culture = westerngfx
 		
-		icon = 126
-		heresy_icon = 133
+		icon = 127
+		heresy_icon = 134
 		
 		color = { 0.8 0.8 0.1 }
 		
@@ -1926,8 +1926,8 @@ christian = {
 	synodal = {
 		graphical_culture = westerngfx
 
-		icon = 127
-		heresy_icon = 134
+		icon = 128
+		heresy_icon = 135
 		
 		color = { 0.8 0.8 0.6 }
 		
@@ -1989,8 +1989,8 @@ christian = {
 	orthodoxist = {
 		graphical_culture = westerngfx
 		
-		icon = 127
-		heresy_icon = 134
+		icon = 128
+		heresy_icon = 135
 		
 		color = { 0.85 0.32 0.65 }
 	
@@ -2021,8 +2021,8 @@ christian = {
 	liberationist = {
 		graphical_culture = westerngfx
 
-		icon = 127
-		heresy_icon = 134
+		icon = 128
+		heresy_icon = 135
 		
 		color = { 1.0 0.93 0.34 }  
 		parent = synodal
@@ -2067,8 +2067,8 @@ christian = {
 	celeste = {
 		graphical_culture = westerngfx 
 		
-		icon = 128
-		heresy_icon = 135
+		icon = 129
+		heresy_icon = 136
 		
 		color = { 0.2 0.55 0.15 }
 		
@@ -2121,8 +2121,8 @@ christian = {
 	mucker = {
 		graphical_culture = westerngfx 
 		
-		icon = 128
-		heresy_icon = 135
+		icon = 129
+		heresy_icon = 136
 		
 		female_temple_holders = yes
 		#male_temple_holders = no
@@ -2149,8 +2149,8 @@ christian = {
 	cicerite = {
 		graphical_culture = westerngfx 
 		
-		icon = 129
-		heresy_icon = 136
+		icon = 130
+		heresy_icon = 137
 		
 		color = { 1.0 0.9 0.4 }
 		
@@ -2205,8 +2205,8 @@ christian = {
 	seladite = {
 		graphical_culture = westerngfx
 	
-		icon = 129
-		heresy_icon = 136
+		icon = 130
+		heresy_icon = 137
 	
 		color = { 0.85 0.76 0.33 }
 		
@@ -2259,8 +2259,8 @@ christian = {
 	evangelicalsoa = {
 		graphical_culture = westerngfx
 		
-		icon = 131
-		heresy_icon = 138
+		icon = 132
+		heresy_icon = 139
 		
 		color = { 0.47 0.38 1.0 }
 		
@@ -2300,8 +2300,8 @@ christian = {
 	universal = {
 		graphical_culture = westerngfx
 		
-		icon = 131
-		heresy_icon = 138
+		icon = 132
+		heresy_icon = 139
 		
 		color = { 0.64 0.6 0.82 }
 		
@@ -2344,8 +2344,8 @@ christian = {
 	jehovah = {
 		graphical_culture = jewishgfx
 		
-		icon = 131
-		heresy_icon = 138
+		icon = 132
+		heresy_icon = 139
 		
 		color = { 0.3 0.42 0.65 }
 		
@@ -2375,8 +2375,8 @@ christian = {
 	holy_spirit = {
 		graphical_culture = westerngfx
 		
-		icon = 130
-		heresy_icon = 137
+		icon = 131
+		heresy_icon = 138
 		
 		color = { 1.0 0.62 0.1 }
 		
@@ -2415,8 +2415,8 @@ christian = {
 	xabaxai_xagi = {
 		graphical_culture = westerngfx
 		
-		icon = 130
-		heresy_icon = 137
+		icon = 131
+		heresy_icon = 138
 		
 		color = { 0.7 0.62 0.1 }
 		
@@ -2457,8 +2457,8 @@ christian = {
 	tridentine = {
 		graphical_culture = westerngfx
 		
-		icon = 186
-		heresy_icon = 187
+		icon = 187
+		heresy_icon = 188
 		
 		color = { 0.85 0.8 0.45 }
 		
@@ -2512,8 +2512,8 @@ christian = {
 	mysticalist = {
 		graphical_culture = westerngfx
 		
-		icon = 186
-		heresy_icon = 187
+		icon = 187
+		heresy_icon = 188
 		parent = tridentine
 		
 		high_god_name = GOD_GOD

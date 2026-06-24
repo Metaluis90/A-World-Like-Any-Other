@@ -1,0 +1,47 @@
+select_nearby_christian_religion_source_effect = {
+	clear_event_target = nearby_christian_religion_source
+
+	if = {
+		limit = {
+			any_province = {
+				religion_group = christian
+			}
+		}
+
+		random_province = {
+			limit = {
+				religion_group = christian
+			}
+
+			preferred_limit = {
+				distance = {
+					who = ROOT
+					value < 100
+				}
+			}
+
+			preferred_limit = {
+				distance = {
+					who = ROOT
+					value < 250
+				}
+			}
+
+			preferred_limit = {
+				distance = {
+					who = ROOT
+					value < 500
+				}
+			}
+
+			preferred_limit = {
+				distance = {
+					who = ROOT
+					value < 1000
+				}
+			}
+
+			save_event_target_as = nearby_christian_religion_source
+		}
+	}
+}

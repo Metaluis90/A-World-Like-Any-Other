@@ -211,7 +211,7 @@ american_native = {
 	nguillatun={
 		graphical_culture = mesoamericangfx #norsegfx
 		
-		icon = 121
+		icon = 122
 		
 		color = { 0.08 0.65 0.82 }
 		crusade_name = WEICHAN
@@ -245,7 +245,7 @@ american_native = {
 	xoon={
 		graphical_culture = mesoamericangfx #norsegfx
 		
-		icon = 124
+		icon = 125
 		
 		color = { 0.9 0.2 0.2 }
 		
@@ -276,7 +276,7 @@ american_native = {
 	pachamama={
 		graphical_culture = mesoamericangfx #norsegfx
 		
-		icon = 123
+		icon = 124
 		
 		color = { 0.28 0.8 0.06 }
 		
@@ -317,7 +317,7 @@ american_native = {
 	jerovia = {
 		graphical_culture = mesoamericangfx
 		
-		icon = 117
+		icon = 118
 		
 		color = { 1.0 0.0 0.1 }
 		
@@ -336,7 +336,7 @@ american_native = {
 	inti = {
 		graphical_culture = mesoamericangfx
 		
-		icon = 118
+		icon = 119
 		
 		color = { 0.25 0.45 0.45 }
 		
@@ -356,7 +356,7 @@ american_native = {
 	inkarri = {
 		graphical_culture = mesoamericangfx
 		
-		icon = 119
+		icon = 120
 		
 		color = { 0.9 0.58 0.06 }
 		
@@ -376,7 +376,7 @@ american_native = {
 	hekura = {
 		graphical_culture = mesoamericangfx
 		
-		icon = 120
+		icon = 121
 		
 		color = { 0.5 0.0 0.0 }
 		

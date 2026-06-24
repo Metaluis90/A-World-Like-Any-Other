@@ -178,7 +178,6 @@ character_event = {
 
 	is_triggered_only = yes # on_yearly_pulse, random_events
 
-	religion = catholic
 	is_married = yes
 	only_men = yes
 	max_age = 60
@@ -186,6 +185,8 @@ character_event = {
 	prisoner = no
 
 	trigger = {
+		is_catholic_trigger = yes
+
 		has_children = yes
 
 		any_child = {

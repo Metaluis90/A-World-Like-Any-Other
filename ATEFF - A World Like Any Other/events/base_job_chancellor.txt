@@ -277,7 +277,7 @@ character_event = {
 									# Not the Pope
 									trigger_if = {
 										limit = { controls_religion = yes }
-										religion = catholic
+										has_religion_head_excommunication = yes
 									}
 								}
 							}
@@ -299,7 +299,7 @@ character_event = {
 										# Not the Pope
 										trigger_if = {
 											limit = { controls_religion = yes }
-											religion = catholic
+											has_religion_head_excommunication = yes
 										}
 									}
 								}
@@ -327,7 +327,7 @@ character_event = {
 										# Not the Pope
 										trigger_if = {
 											limit = { controls_religion = yes }
-											religion = catholic
+											has_religion_head_excommunication = yes
 										}
 									}
 								}

@@ -464,13 +464,19 @@ character_event = {
 	is_triggered_only = yes # on_bi_yearly_pulse, random_events, fingerbone
 
 	ai = no
-	religion = catholic
+	religion_group = christian
 	has_dlc = "Sons of Abraham"
 	min_age = 16
 	only_capable = yes
 	prisoner = no
 
 	trigger = {
+		OR = {
+			is_catholic_trigger = yes
+			religion = high_church
+			religion = orthodox
+		}
+		#todo Perhaps make this event compatible with Sagrado Corazon/Vernacular religions; For vernacular it might be good to create a different event option
 		NOR = {
 			has_character_modifier = defied_church
 			has_character_modifier = church_appreciates
@@ -1030,11 +1036,16 @@ character_event = {
 	is_triggered_only = yes # on_bi_yearly_pulse, random_events, miracles
 
 	only_playable = yes
-	religion = catholic
+	religion_group = christian
 	has_dlc = "Sons of Abraham"
 	min_age = 16
 	only_capable = yes
 	prisoner = no
+
+	trigger = {
+		is_catholic_trigger = yes	]
+		#todo Perhaps make this event compatible with Sagrado Corazon/Vernacular religions or even with all Christians;
+	}
 
 	weight_multiplier = {
 		factor = 1
@@ -1077,11 +1088,16 @@ character_event = {
 	is_triggered_only = yes # on_bi_yearly_pulse, random_events, miracles
 
 	only_playable = yes
-	religion = catholic
+	religion_group = christian
 	has_dlc = "Sons of Abraham"
 	min_age = 16
 	only_capable = yes
 	prisoner = no
+	
+	trigger = {
+		is_catholic_trigger = yes
+		#todo Perhaps make this event compatible with Sagrado Corazon/Vernacular religions or even with all Christians;
+	}
 
 	weight_multiplier = {
 		factor = 1

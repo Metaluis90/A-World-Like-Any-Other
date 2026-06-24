@@ -16,6 +16,7 @@ namespace = LoR
 # Provincia Syria Palaestina
 narrative_event = {
 	id = LoR.1
+	is_triggered_only = yes
 	title = EVTNAMELoR.1
 	desc = EVTDESCLoR.1
 	picture = GFX_evt_victory_arch_byzantine
@@ -67,6 +68,7 @@ narrative_event = {
 # Provincia Aegyptus
 narrative_event = {
 	id = LoR.2
+	is_triggered_only = yes
 	title = EVTNAMELoR.2
 	desc = EVTDESCLoR.2
 	picture = GFX_evt_victory_arch_byzantine
@@ -117,6 +119,7 @@ narrative_event = {
 # Provincia Cyrenaica
 narrative_event = {
 	id = LoR.3
+	is_triggered_only = yes
 	title = EVTNAMELoR.3
 	desc = EVTDESCLoR.3
 	picture = GFX_evt_victory_arch_byzantine
@@ -161,6 +164,7 @@ narrative_event = {
 # Provincia Africa
 narrative_event = {
 	id = LoR.4
+	is_triggered_only = yes
 	title = EVTNAMELoR.4
 	desc = EVTDESCLoR.4
 	picture = GFX_evt_victory_arch_byzantine
@@ -208,6 +212,7 @@ narrative_event = {
 # Provincia Illyricum
 narrative_event = {
 	id = LoR.5
+	is_triggered_only = yes
 	title = EVTNAMELoR.5
 	desc = EVTDESCLoR.5
 	picture = GFX_evt_victory_arch_byzantine
@@ -264,6 +269,7 @@ narrative_event = {
 # Provincia Italia
 narrative_event = {
 	id = LoR.6
+	is_triggered_only = yes
 	title = EVTNAMELoR.6
 	desc = EVTDESCLoR.6
 	picture = GFX_evt_victory_arch_byzantine
@@ -335,6 +341,7 @@ narrative_event = {
 # Provincia Gallia
 narrative_event = {
 	id = LoR.7
+	is_triggered_only = yes
 	title = EVTNAMELoR.7
 	desc = EVTDESCLoR.7
 	picture = GFX_evt_victory_arch_byzantine
@@ -406,6 +413,7 @@ narrative_event = {
 # Provincia Germania
 narrative_event = {
 	id = LoR.8
+	is_triggered_only = yes
 	title = EVTNAMELoR.8
 	desc = EVTDESCLoR.8
 	picture = GFX_evt_victory_arch_byzantine
@@ -499,6 +507,7 @@ narrative_event = {
 # Provincia Britannia
 narrative_event = {
 	id = LoR.9
+	is_triggered_only = yes
 	title = EVTNAMELoR.9
 	desc = EVTDESCLoR.9
 	picture = GFX_evt_victory_arch_byzantine
@@ -559,6 +568,7 @@ narrative_event = {
 # Provincia Hispania
 narrative_event = {
 	id = LoR.10
+	is_triggered_only = yes
 	title = EVTNAMELoR.10
 	desc = EVTDESCLoR.10
 	picture = GFX_evt_victory_arch_byzantine
@@ -636,6 +646,7 @@ narrative_event = {
 # Provincia Mauretania
 narrative_event = {
 	id = LoR.11
+	is_triggered_only = yes
 	title = EVTNAMELoR.11
 	desc = EVTDESCLoR.11
 	picture = GFX_evt_victory_arch_byzantine
@@ -684,6 +695,7 @@ narrative_event = {
 # Provincia Mesopotamia
 narrative_event = {
 	id = LoR.12
+	is_triggered_only = yes
 	title = EVTNAMELoR.12
 	desc = EVTDESCLoR.12
 	picture = GFX_evt_victory_arch_byzantine
@@ -742,6 +754,7 @@ narrative_event = {
 # Provincia Caledonia
 narrative_event = {
 	id = LoR.13
+	is_triggered_only = yes
 	title = EVTNAMELoR.13
 	desc = EVTDESCLoR.13
 	picture = GFX_evt_victory_arch_byzantine
@@ -791,6 +804,7 @@ narrative_event = {
 # Provincia Hibernia
 narrative_event = {
 	id = LoR.14
+	is_triggered_only = yes
 	title = EVTNAMELoR.14
 	desc = EVTDESCLoR.14
 	picture = GFX_evt_victory_arch_byzantine
@@ -1128,6 +1142,7 @@ character_event = {
 # Roman Borders
 narrative_event = {
 	id = LoR.40
+	is_triggered_only = yes
 	title = EVTNAMELoR.40
 	picture = GFX_evt_rome_restored_byzantine
 

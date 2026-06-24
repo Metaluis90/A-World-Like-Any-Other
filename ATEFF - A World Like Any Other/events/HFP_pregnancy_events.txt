@@ -296,8 +296,8 @@ character_event = {
 			if = {
 				limit = {
 					OR = {
-						religion = catholic
-						religion = orthodox
+						is_catholic_trigger = yes
+						religion = high_church
 					}
 
 					is_married = yes
@@ -12736,6 +12736,7 @@ character_event = {
 }
 
 # Mother thinks about her son/daughter being the son/daughter of the Pope
+# Todo potentially fire this for characters with a religious HOF
 character_event = {
 	id = HFP.20598
 	desc = EVTDESCHFPA20598
@@ -14943,7 +14944,8 @@ character_event = {
 
 	trigger = {
 		OR = {
-			religion = catholic
+			is_catholic_trigger = yes
+			religion = high_church
 			religion = orthodox
 		}
 

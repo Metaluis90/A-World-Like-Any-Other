@@ -69,6 +69,8 @@ muslim = {
 		intermarry = alawiyya
 		intermarry = orientalist #???
 		intermarry = misrist #???
+		intermarry = herderos
+		intermarry = valentes
 
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
@@ -207,6 +209,8 @@ muslim = {
 		intermarry = alawiyya
 		intermarry = orientalist
 		intermarry = misrist
+		intermarry = herderos
+		intermarry = valentes
 		intermarry = cetic
 		intermarry = nazarene
 		intermarry = alurista
@@ -421,8 +425,8 @@ muslim = {
 			GOD_SHAYTAN GOD_IBLIS
 		}
 		
-		icon = 146
-		heresy_icon = 148
+		icon = 147
+		heresy_icon = 149
 		
 		color = { 0.39 0.73 0.32 }
 	}
@@ -430,8 +434,8 @@ muslim = {
 	
 		graphical_culture = muslimgfx
 		
-		icon = 146
-		heresy_icon = 148
+		icon = 147
+		heresy_icon = 149
 		
 		color = { 0.76 0.36 0.34 }
 		crusade_name = JIHAD
@@ -453,8 +457,8 @@ muslim = {
 	
 		graphical_culture = muslimgfx
 		
-		icon = 146
-		heresy_icon = 148
+		icon = 147
+		heresy_icon = 149
 		
 		color = { 0.33 0.74 0.38 }
 		scripture_name = THE_QURAN
@@ -470,89 +474,6 @@ muslim = {
 		}
 		
 		parent = herderos
-	}
-	traditionalistsoa = {
-		graphical_culture = muslimgfx
-		
-		icon = 147
-		heresy_icon = 149
-
-		color = { 0 0.5 0 }
-		crusade_name = JIHAD
-		scripture_name = THE_QURAN
-		priest_title = IMAM
-	
-		high_god_name = GOD_ALLAH
-		
-		god_names = {
-			GOD_ALLAH GOD_THE_GREATEST
-		}
-		evil_god_names = {
-			GOD_SHAYTAN GOD_IBLIS
-		}
-		
-		can_excommunicate = yes
-		can_grant_divorce = yes
-		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
-		can_call_crusade = no
-		allow_rivermovement = yes
-		attacking_same_religion_piety_loss = yes
-		hard_to_convert = yes
-		uses_jizya_tax = yes
-		priests_can_marry = yes
-		priests_can_inherit = yes
-		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
-		matrilineal_marriages = no
-		max_wives = 4
-		peace_piety_gain = 2.0 #Gains 2 extra piety per month while at peace
-		autocephaly = yes # may have issues with localization...
-	
-		intermarry = imamitesoa
-		intermarry = herderos
-		intermarry = valentes
-
-		religious_clothing_head = 5
-		religious_clothing_priest = 5
-	}
-	imamitesoa = {
-		graphical_culture = muslimgfx
-		
-		icon = 147
-		heresy_icon = 149
-
-		color = { 0 0.8 0 }
-		crusade_name = JIHAD
-		scripture_name = THE_QURAN
-		priest_title = IMAM
-	
-		high_god_name = GOD_ALLAH
-		
-		god_names = {
-			GOD_ALLAH GOD_THE_GREATEST
-		}
-		evil_god_names = {
-			GOD_SHAYTAN GOD_IBLIS
-		}
-		
-		can_call_crusade = yes
-		allow_rivermovement = yes
-		attacking_same_religion_piety_loss = yes
-		hard_to_convert = yes
-		uses_jizya_tax = yes
-		priests_can_marry = yes
-		priests_can_inherit = yes
-		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
-		has_heir_designation = yes 
-		defensive_attrition = yes
-	
-		intermarry = traditionalistsoa
-		intermarry = herderos
-		intermarry = valentes
-
-
-		religious_clothing_head = 5
-		religious_clothing_priest = 5
 	}
 
 	ibadi = {

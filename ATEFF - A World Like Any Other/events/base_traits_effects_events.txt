@@ -427,7 +427,6 @@ character_event = {
 	is_triggered_only = yes # on_bi_yearly_pulse, random_events
 
 	only_playable = yes
-	religion = catholic
 	min_age = 16
 	only_capable = yes
 	prisoner = no
@@ -435,6 +434,7 @@ character_event = {
 	in_command = no
 
 	trigger = {
+		has_religion_head_excommunication = yes
 		trait = chaste
 		controls_religion = no
 		NOT = { trait = excommunicated }
@@ -537,7 +537,6 @@ character_event = {
 	is_triggered_only = yes # on_bi_yearly_pulse, random_events
 
 	ai = no
-	religion = catholic
 	min_age = 16
 	only_capable = yes
 	prisoner = no
@@ -545,6 +544,8 @@ character_event = {
 	in_command = no
 
 	trigger = {
+		has_religion_head_excommunication = yes
+
 		trait = chaste
 		piety >= 25
 
@@ -11429,10 +11430,12 @@ character_event = {
 	}
 
 	immediate = {
+		select_nearby_christian_religion_source_effect = yes
+
 		create_random_priest = {
 			random_traits = yes
 			dynasty = random
-			culture = anglo-saxon
+			culture = random
 			religion = catholic
 			female = no
 			age = 35
@@ -11440,7 +11443,19 @@ character_event = {
 
 		new_character = {
 			save_event_target_as = christian_priest
+
+			if = {
+				limit = {
+					event_target:nearby_christian_religion_source = {
+						always = yes
+					}
+				}
+
+				religion = event_target:nearby_christian_religion_source
+			}
 		}
+
+		clear_event_target = nearby_christian_religion_source
 	}
 
 	option = {
