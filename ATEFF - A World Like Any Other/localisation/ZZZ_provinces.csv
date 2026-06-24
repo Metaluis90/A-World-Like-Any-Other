@@ -1,19 +1,6 @@
 ###ÄNSI
 #CODE;ENGLISH;FRENCH;GERMAN;SPANISH;;;;;;;;;x
-PROV1;Celestún;Celestún;Celestún;Celestún;;;;;;;;;x
-PROV2;Hunucmá;Hunucmá;Hunucmá;Hunucmá;;;;;;;;;x
-PROV3;Mérida;Mérida;Mérida;Mérida;;;;;;;;;x
-PROV4;Motul;Motul;Motul;Motul;;;;;;;;;x
-PROV5;Dzilam;Dzilam;Dzilam;Dzilam;;;;;;;;;x
-PROV6;Tizimín;Tizimín;Tizimín;Tizimín;;;;;;;;;x
-PROV7;Valladolid;Valladolid;Valladolid;Valladolid;;;;;;;;;x
-PROV8;Tinum;Tinum;Tinum;Tinum;;;;;;;;;x
-PROV9;Izamal;Izamal;Izamal;Izamal;;;;;;;;;x
-PROV10;Tecoh;Tecoh;Tecoh;Tecoh;;;;;;;;;x
-PROV11;Maxcanú;Maxcanú;Maxcanú;Maxcanú;;;;;;;;;x
-PROV12;Ticul;Ticul;Ticul;Ticul;;;;;;;;;x
-PROV13;Tekax;Tekax;Tekax;Tekax;;;;;;;;;x
-PROV14;Sotuta;Sotuta;Sotuta;Sotuta;;;;;;;;;x
+
 PROV15;North Atlantic Ocean;Océan Atlantique Nord;Nordatlantik;Océano Atlántico Norte;;;;;;;;;x
 PROV16;Meseta del Colorado;Meseta del Colorado;Colorado-Hochebene;Meseta del Colorado;;;;;;;;;x
 PROV17;Bosques Petrificados;Forêts Pétrifiées;Versteinerte Wälder;Bosques Petrificados;;;;;;;;;x
@@ -82,30 +69,62 @@ PROV79;Cardiel;Cardiel;Cardiel;Cardiel;;;;;;;;;x
 PROV80;Pampa del Asador;Pampa del Asador;Pampa del Asador;Pampa del Asador;;;;;;;;;x
 PROV81;Moyano;Moyano;Moyano;Moyano;;;;;;;;;x
 PROV82;Pampa del Setenta;Pampa del Setenta;Pampa del Setenta;Pampa del Setenta;;;;;;;;;x
+PROV83;Mayer;Mayer;Mayer;Mayer;;;;;;;;;x
+PROV84;Chalia;Chalia;Chalia;Chalia;;;;;;;;;x
+PROV85;Pastos Blancos;Pastos Blancos;Pastos Blancos;Pastos Blancos;;;;;;;;;x
+PROV86;Viedma;Viedma;Viedma;Viedma;;;;;;;;;x
+PROV87;Alsina;Alsina;Alsina;Alsina;;;;;;;;;x
+PROV88;Conesa;Conesa;Conesa;Conesa;;;;;;;;;x
+PROV89;San Antonio;San Antonio;San Antonio;San Antonio;;;;;;;;;x
+PROV90;Sierra Grande;Sierra Grande;Sierra Grande;Sierra Grande;;;;;;;;;x
+PROV91;Gualicho;Gualicho;Gualicho;Gualicho;;;;;;;;;x
+PROV92;Somuncurá;Somuncurá;Somuncurá;Somuncurá;;;;;;;;;x
+PROV93;Sierra Colorada;Sierra Colorada;Sierra Colorada;Sierra Colorada;;;;;;;;;x
+PROV94;Valcheta;Valcheta;Valcheta;Valcheta;;;;;;;;;x
+PROV95;Mitre;Mitre;Mitre;Mitre;;;;;;;;;x
+PROV96;Choele Choel;Choele Choel;Choele Choel;Choele Choel;;;;;;;;;x
+PROV97;Zorrilla;Zorrilla;Zorrilla;Zorrilla;;;;;;;;;x
+PROV98;Pichi Mahuida;Pichi Mahuida;Pichi Mahuida;Pichi Mahuida;;;;;;;;;x
+PROV99;Bariloche;Bariloche;Bariloche;Bariloche;;;;;;;;;x
+PROV100;Ñorquinco;Ñorquinco;Ñorquinco;Ñorquinco;;;;;;;;;x
+PROV101;Pilcaniyeu;Pilcaniyeu;Pilcaniyeu;Pilcaniyeu;;;;;;;;;x
+PROV102;Jacobacci;Jacobacci;Jacobacci;Jacobacci;;;;;;;;;x
+PROV103;Maquinchao;Maquinchao;Maquinchao;Maquinchao;;;;;;;;;x
+PROV104;Roca;Roca;Roca;Roca;;;;;;;;;x
+PROV105;Mexía;Mexía;Mexía;Mexía;;;;;;;;;x
+PROV106;Catriel;Catriel;Catriel;Catriel;;;;;;;;;x
+PROV107;Cuy;Cuy;Cuy;Cuy;;;;;;;;;x
+PROV108;Neuquén;Neuquén;Neuquén;Neuquén;;;;;;;;;x
+PROV109;Confluencia;Confluencia;Confluencia;Confluencia;;;;;;;;;x
+PROV110;Picún Leufú;Picún Leufú;Picún Leufú;Picún Leufú;;;;;;;;;x
+PROV111;Collón Curá;Collón Curá;Collón Curá;Collón Curá;;;;;;;;;x
+PROV112;Lácar;Lácar;Lácar;Lácar;;;;;;;;;x
+PROV113;Nahuel Huapi;Nahuel Huapi;Nahuel Huapi;Nahuel Huapi;;;;;;;;;x
+PROV114;Añelo;Añelo;Añelo;Añelo;;;;;;;;;x
+PROV115;Pehuenches;Pehuenches;Pehuenches;Pehuenches;;;;;;;;;x
+PROV116;Zapala;Zapala;Zapala;Zapala;;;;;;;;;x
+PROV117;Catán Lil;Catán Lil;Catán Lil;Catán Lil;;;;;;;;;x
+PROV118;Huiliches;Huiliches;Huiliches;Huiliches;;;;;;;;;x
+PROV119;Aluminé;Aluminé;Aluminé;Aluminé;;;;;;;;;x
+PROV120;Picunches;Picunches;Picunches;Picunches;;;;;;;;;x
+PROV121;Loncopué;Loncopué;Loncopué;Loncopué;;;;;;;;;x
+PROV122;Ñorquín;Ñorquín;Ñorquín;Ñorquín;;;;;;;;;x
 
-PROV86;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
-PROV87;Bahía Desengaño;Baie Desengaño;Bucht Desengaño;Bahía Desengaño;;;;;;;;;x
-PROV88;Whiteside Channel;Canal Whiteside;Whiteside-Kanal;Canal Whiteside;;;;;;;;;x
-PROV89;Beagle Channel;Canal Beagle;Beagle-Kanal;Canal Beagle;;;;;;;;;x
-PROV90;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
-PROV91;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
-PROV92;Beagle Channel;Canal Beagle;Beagle-Kanal;Canal Beagle;;;;;;;;;x
-PROV93;Drake Passage;Passage de Drake;Drakepassage;Pasaje de Drake;;;;;;;;;x
-PROV94;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
-PROV95;Otway Sound;Seno Otway;Otway-Sund;Seno Otway;;;;;;;;;x
-PROV96;Skyring Sound;Seno Skyring;Skyring-Sund;Seno Skyring;;;;;;;;;x
-PROV97;Cape Horn;Cap Horn;Kap Hoorn;Cabo de Hornos;;;;;;;;;x
-PROV98;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
-PROV99;Beagle Channel;Canal Beagle;Beagle-Kanal;Canal Beagle;;;;;;;;;x
-PROV100;Strait of Le Maire;Détroit de Le Maire;Le-Maire-Straße;Estrecho de Le Maire;;;;;;;;;x
-PROV101;Argentine Sea;Mer d'Argentine;Argentinisches Meer;Mar Argentino;;;;;;;;;x
-PROV102;Coast of Tierra del Fuego;Côte de la Terre de Feu;Küste von Feuerland;Costa de Tierra del Fuego;;;;;;;;;x
-PROV103;Coast of the Malvinas;Côte des Malouines;Küste der Malwinen;Costa de las Malvinas;;;;;;;;;x
-PROV104;Coast of the Malvinas;Côte des Malouines;Küste der Malwinen;Costa de las Malvinas;;;;;;;;;x
-PROV105;Coast of Patagonia;Côte de Patagonie;Küste Patagoniens;Costa de la Patagonia;;;;;;;;;x
-PROV106;Coast of Deseado;Côte de Deseado;Küste der Deseado;Costa de Deseado;;;;;;;;;x
-PROV107;Northern Argentine Sea;Mer d'Argentine septentrionale;Nördliches Argentinisches Meer;Mar Argentino Septentrional;;;;;;;;;x
-PROV108;Gulf of Saint George;Golfe Saint-Georges;Sankt-Georgs-Golf;Golfo de San Jorge;;;;;;;;;x
+PROV125;Adela;Adela;Adela;Adela;;;;;;;;;x
+PROV126;Hucal;Hucal;Hucal;Hucal;;;;;;;;;x
+PROV127;Duval;Duval;Duval;Duval;;;;;;;;;x
+PROV128;Curacó;Curacó;Curacó;Curacó;;;;;;;;;x
+PROV129;Casa de Piedra;Casa de Piedra;Casa de Piedra;Casa de Piedra;;;;;;;;;x
+PROV130;Guatraché;Guatraché;Guatraché;Guatraché;;;;;;;;;x
+PROV131;Lihuel Calel;Lihuel Calel;Lihuel Calel;Lihuel Calel;;;;;;;;;x
+PROV132;Utracán;Utracán;Utracán;Utracán;;;;;;;;;x
+PROV133;Santa Rosa;Santa Rosa;Santa Rosa;Santa Rosa;;;;;;;;;x
+PROV134;Pico;Pico;Pico;Pico;;;;;;;;;x
+PROV135;Loventué;Loventué;Loventué;Loventué;;;;;;;;;x
+PROV135;Loventué;Loventué;Loventué;Loventué;;;;;;;;;x
+PROV136;Chalileo;Chalileo;Chalileo;Chalileo;;;;;;;;;x
+PROV137;Limay Mahuida;Limay Mahuida;Limay Mahuida;Limay Mahuida;;;;;;;;;x
+PROV138;Puelén;Puelén;Puelén;Puelén;;;;;;;;;x
 
 PROV149;Fagnano Lake;Lac Fagnano;Fagnano-See;Lago Fagnano;;;;;;;;;x
 PROV150;Yehuin Lake;Lac Yehuin;Yehuin-See;Lago Yehuin;;;;;;;;;x
@@ -132,7 +151,7 @@ PROV170;Todos Los Santos Lake;Lac Todos los Santos;Todos-los-Santos-See;Lago Tod
 PROV171;Rupanco Lake;Lac Rupanco;Rupanco-See;Lago Rupanco;;;;;;;;;x
 PROV172;Puyehue Lake;Lac Puyehue;Puyehue-See;Lago Puyehue;;;;;;;;;x
 PROV173;Ranco Lake;Lac Ranco;Ranco-See;Lago Ranco;;;;;;;;;x
-
+PROV174;Palena Lake;Lac Palena;Palena-See;Lago Palena;;;;;;;;;x
 
 PROV201;Ancud;Ancud;Ancud;Ancud;;;;;;;;;x
 PROV202;Chiloé;Chiloé;Chiloé;Chiloé;;;;;;;;;x
@@ -145,6 +164,31 @@ PROV208;Osorno;Osorno;Osorno;Osorno;;;;;;;;;x
 PROV209;San Juan de la Costa;Saint Jean-de-la-Côte;San Juan de la Costa;San Juan de la Costa;;;;;;;;;x
 PROV210;Entrelagos;Entrelagos;Entrelagos;Entrelagos;;;;;;;;;x
 
+
+PROV900;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
+PROV901;Bahía Desengaño;Baie Desengaño;Bucht Desengaño;Bahía Desengaño;;;;;;;;;x
+PROV902;Whiteside Channel;Canal Whiteside;Whiteside-Kanal;Canal Whiteside;;;;;;;;;x
+PROV903;Beagle Channel;Canal Beagle;Beagle-Kanal;Canal Beagle;;;;;;;;;x
+PROV904;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
+PROV905;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
+PROV906;Beagle Channel;Canal Beagle;Beagle-Kanal;Canal Beagle;;;;;;;;;x
+PROV907;Drake Passage;Passage de Drake;Drakepassage;Pasaje de Drake;;;;;;;;;x
+PROV908;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
+PROV909;Otway Sound;Seno Otway;Otway-Sund;Seno Otway;;;;;;;;;x
+PROV910;Skyring Sound;Seno Skyring;Skyring-Sund;Seno Skyring;;;;;;;;;x
+PROV911;Cape Horn;Cap Horn;Kap Hoorn;Cabo de Hornos;;;;;;;;;x
+PROV912;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
+PROV913;Beagle Channel;Canal Beagle;Beagle-Kanal;Canal Beagle;;;;;;;;;x
+PROV914;Strait of Le Maire;Détroit de Le Maire;Le-Maire-Straße;Estrecho de Le Maire;;;;;;;;;x
+PROV915;Argentine Sea;Mer d'Argentine;Argentinisches Meer;Mar Argentino;;;;;;;;;x
+PROV916;Coast of Tierra del Fuego;Côte de la Terre de Feu;Küste von Feuerland;Costa de Tierra del Fuego;;;;;;;;;x
+PROV917;Coast of the Malvinas;Côte des Malouines;Küste der Malwinen;Costa de las Malvinas;;;;;;;;;x
+PROV918;Coast of the Malvinas;Côte des Malouines;Küste der Malwinen;Costa de las Malvinas;;;;;;;;;x
+PROV919;Coast of Patagonia;Côte de Patagonie;Küste Patagoniens;Costa de la Patagonia;;;;;;;;;x
+PROV920;Coast of Deseado;Côte de Deseado;Küste der Deseado;Costa de Deseado;;;;;;;;;x
+PROV921;Northern Argentine Sea;Mer d'Argentine septentrionale;Nördliches Argentinisches Meer;Mar Argentino Septentrional;;;;;;;;;x
+PROV922;Gulf of Saint George;Golfe Saint-Georges;Sankt-Georgs-Golf;Golfo de San Jorge;;;;;;;;;x
+
 PROV985;North Atlantic Ocean;Océan Atlantique Nord;Nordatlantik;Océano Atlántico Norte;;;;;;;;;x
 PROV986;Caribbean Sea;Mer des Caraïbes;Karibisches Meer;Mar Caribe;;;;;;;;;x
 PROV987;South Atlantic Ocean;Océan Atlantique Sud;Südatlantik;Océano Atlántico Sur;;;;;;;;;x
@@ -153,3 +197,19 @@ PROV989;North Pacific Ocean;Océan Pacifique Nord;Nordpazifik;Océano Pacífico Nor
 
 PROV993;Artic Ocean;Océan Arctique;Arktischer Ozean;Océano Ártico;;;;;;;;;x
 PROV994;Lakes;Lacs;Seen;Lagos;;;;;;;;;x
+
+
+PROV1000;Celestún;Celestún;Celestún;Celestún;;;;;;;;;x
+PROV1001;Hunucmá;Hunucmá;Hunucmá;Hunucmá;;;;;;;;;x
+PROV1002;Mérida;Mérida;Mérida;Mérida;;;;;;;;;x
+PROV1003;Motul;Motul;Motul;Motul;;;;;;;;;x
+PROV1004;Dzilam;Dzilam;Dzilam;Dzilam;;;;;;;;;x
+PROV1005;Tizimín;Tizimín;Tizimín;Tizimín;;;;;;;;;x
+PROV1006;Valladolid;Valladolid;Valladolid;Valladolid;;;;;;;;;x
+PROV1007;Tinum;Tinum;Tinum;Tinum;;;;;;;;;x
+PROV1008;Izamal;Izamal;Izamal;Izamal;;;;;;;;;x
+PROV1009;Tecoh;Tecoh;Tecoh;Tecoh;;;;;;;;;x
+PROV1010;Maxcanú;Maxcanú;Maxcanú;Maxcanú;;;;;;;;;x
+PROV1011;Ticul;Ticul;Ticul;Ticul;;;;;;;;;x
+PROV1012;Tekax;Tekax;Tekax;Tekax;;;;;;;;;x
+PROV1013;Sotuta;Sotuta;Sotuta;Sotuta;;;;;;;;;x

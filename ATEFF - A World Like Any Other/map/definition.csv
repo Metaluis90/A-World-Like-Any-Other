@@ -81,62 +81,62 @@ province;red;green;blue;x;x
 80;175;51;21;Pampa del Asador;x
 81;194;58;58;Moyano;x
 82;198;47;47;Pampa del Setenta;x
-83;0;4;58;Dummy83;x
-84;0;4;59;Dummy84;x
-85;0;4;60;Dummy85;x
-86;172;236;224;Strait of Magallanes;x
-87;186;244;249;Bahia Desengano;x
-88;172;181;183;Whiteside Channel;x
-89;201;203;204;Beagle Channnel;x
-90;0;122;153;Strait of Magallanes;x
-91;0;165;206;Strait of Magallanes;x
-92;177;199;204;Beagle Channel;x
-93;255;229;229;Drakes Pass;x
-94;101;185;206;Strait of Magallanes;x
-95;162;177;181;Otway Sound;x
-96;224;244;249;Skyring Sound;x
-97;170;229;229;Cape Hornos;x
-98;155;188;188;Strait of Magallanes;x
-99;144;161;165;Beagle Channel;x
-100;174;226;255;Strait of La Maire;x
-101;163;188;188;Mar Argentino;x
-102;112;226;255;Coast of Tierra del Fuego;x
-103;147;186;186;Coast of Malvinas;x
-104;201;188;188;Coast of Malvinas;x
-105;126;186;186;Coast of Patagonia;x
-106;89;183;183;Coast of Deseado;x
-107;126;223;186;Mar Argentino;x
-108;159;186;186;Gulf of San Jorge;x
-109;0;4;84;Dummy109;x
-110;0;4;85;Dummy110;x
-111;0;4;86;Dummy111;x
-112;0;4;87;Dummy112;x
-113;0;4;88;Dummy113;x
-114;0;4;89;Dummy114;x
-115;0;4;90;Dummy115;x
-116;0;4;91;Dummy116;x
-117;0;4;92;Dummy117;x
-118;0;4;93;Dummy118;x
-119;0;4;94;Dummy119;x
-120;0;4;95;Dummy120;x
-121;0;4;96;Dummy121;x
-122;0;4;97;Dummy122;x
-123;0;4;98;Dummy123;x
-124;0;4;99;Dummy124;x
-125;0;4;100;Dummy125;x
-126;0;4;101;Dummy126;x
-127;0;4;102;Dummy127;x
-128;0;4;103;Dummy128;x
-129;0;4;104;Dummy129;x
-130;0;4;105;Dummy130;x
-131;0;4;106;Dummy131;x
-132;0;4;107;Dummy132;x
-133;0;4;108;Dummy133;x
-134;0;4;109;Dummy134;x
-135;0;4;110;Dummy135;x
-136;0;4;111;Dummy136;x
-137;0;4;112;Dummy137;x
-138;0;4;113;Dummy138;x
+83;163;67;70;Mayer;x
+84;255;66;63;Chalia;x
+85;255;91;102;Pastos Blancos;x
+86;255;104;10;Viedma;x
+87;186;78;7;Alsina;x
+88;219;96;8;Conesa;x
+89;219;124;57;San Antonio;x
+90;216;146;99;Sierra Grande;x
+91;214;116;51;Gualicho;x
+92;145;77;34;Somuncura;x
+93;198;105;47;Sierra Colorada;x
+94;196;82;19;Valcheta;x
+95;153;62;6;Mitre;x
+96;232;124;78;Choele Choel;x
+97;232;145;109;Zorrilla;x
+98;234;88;25;Pichi Mahuida;x
+99;244;88;25;Bariloche;x
+100;242;122;75;Ñorquinco;x
+101;239;136;76;Pilcaniyeu;x
+102;242;127;82;Jacobacci;x
+103;242;98;62;Maquinchao;x
+104;239;101;35;Roca;x
+105;237;134;109;Mexia;x
+106;237;131;83;Catriel;x
+107;239;76;35;El Cuy;x
+108;237;191;26;Neuquen;x
+109;234;160;0;Confluencia;x
+110;234;201;0;Picun Leufu;x
+111;175;149;0;Collon Cura;x
+112;247;232;121;Lacar;x
+113;216;199;69;Nahuel Huapi;x #Los Lagos
+114;196;159;21;Añelo;x
+115;255;199;69;Pehuenches;x
+116;209;209;0;Zapala;x
+117;239;239;0;Catan Lil;x
+118;244;215;26;Huiliches;x
+119;216;188;6;Alumine;x
+120;234;198;0;Picunches;x
+121;232;206;78;Loncopue;x
+122;216;181;26;Ñorquin;x
+123;0;4;98;Dummy123;x #Chos Malal
+124;0;4;99;Dummy124;x #Minas
+125;232;159;36;Adela;x
+126;229;145;11;Hucal;x
+127;229;179;98;Duval;x
+128;226;164;63;Curaco;x
+129;224;170;51;Casa de Piedra;x
+130;224;180;109;Guatrache;x
+131;216;174;106;Lihuel Calel;x
+132;226;162;65;Utracan;x
+133;232;192;140;Santa Rosa;x
+134;181;139;39;Pico;x
+135;239;183;52;Loventue;x
+136;237;199;111;Chalileo;x
+137;234;179;51;Limay Mahuida;x
+138;234;166;18;Puelen;x
 139;0;4;114;Dummy139;x
 140;0;4;115;Dummy140;x
 141;0;4;116;Dummy141;x
@@ -173,7 +173,7 @@ province;red;green;blue;x;x
 172;230;216;255;Puyehue Lake;x
 173;231;219;255;Ranco Lake;x
 174;184;185;242;Palena Lake;x ##
-175;0;4;150;Dummy175;x
+175;229;214;255;Yulton Lake;x
 176;0;4;151;Dummy176;x
 177;0;4;152;Dummy177;x
 178;0;4;153;Dummy178;x
@@ -898,29 +898,29 @@ province;red;green;blue;x;x
 897;0;7;104;Dummy897;x
 898;0;7;105;Dummy898;x
 899;0;7;106;Dummy899;x
-900;0;7;107;Dummy900;x
-901;0;7;108;Dummy901;x
-902;0;7;109;Dummy902;x
-903;0;7;110;Dummy903;x
-904;0;7;111;Dummy904;x
-905;0;7;112;Dummy905;x
-906;0;7;113;Dummy906;x
-907;0;7;114;Dummy907;x
-908;0;7;115;Dummy908;x
-909;0;7;116;Dummy909;x
-910;0;7;117;Dummy910;x
-911;0;7;118;Dummy911;x
-912;0;7;119;Dummy912;x
-913;0;7;120;Dummy913;x
-914;0;7;121;Dummy914;x
-915;0;7;122;Dummy915;x
-916;0;7;123;Dummy916;x
-917;0;7;124;Dummy917;x
-918;0;7;125;Dummy918;x
-919;0;7;126;Dummy919;x
-920;0;7;127;Dummy920;x
-921;0;7;128;Dummy921;x
-922;0;7;129;Dummy922;x
+900;172;236;224;Strait of Magallanes;x
+901;186;244;249;Bahia Desengano;x
+902;172;181;183;Whiteside Channel;x
+903;201;203;204;Beagle Channnel;x
+904;0;122;153;Strait of Magallanes;x
+905;0;165;206;Strait of Magallanes;x
+906;177;199;204;Beagle Channel;x
+907;255;229;229;Drakes Pass;x
+908;101;185;206;Strait of Magallanes;x
+909;162;177;181;Otway Sound;x
+910;224;244;249;Skyring Sound;x
+911;170;229;229;Cape Hornos;x
+912;155;188;188;Strait of Magallanes;x
+913;144;161;165;Beagle Channel;x
+914;174;226;255;Strait of La Maire;x
+915;163;188;188;Mar Argentino;x
+916;112;226;255;Coast of Tierra del Fuego;x
+917;147;186;186;Coast of Malvinas;x
+918;201;188;188;Coast of Malvinas;x
+919;126;186;186;Coast of Patagonia;x
+920;89;183;183;Coast of Deseado;x
+921;126;223;186;Mar Argentino;x
+922;159;186;186;Gulf of San Jorge;x
 923;0;7;130;Dummy923;x
 924;0;7;131;Dummy924;x
 925;0;7;132;Dummy925;x

@@ -24,11 +24,11 @@ seasons = "seasons.txt"
 #Lakes & Artic #3
 	sea_zones = { 993 994 }
 	
-#Strait of Magallanes  #4
-	sea_zones = { 87 108 }
+#Strait of Magallanes & Patagonian Seas #4
+	sea_zones = { 900 922 }
 	
 #South American Lakes	
-	sea_zones = { 149 153 }
+	sea_zones = { 149 175 }
 
 ocean_region = {	
 	sea_zones = { 1 2 4 } # Atlantic -Pacific Ocean
