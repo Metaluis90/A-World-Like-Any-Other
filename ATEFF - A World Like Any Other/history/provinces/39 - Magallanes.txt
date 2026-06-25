@@ -1,0 +1,16 @@
+# County Title
+title = c_magallanes
+
+# Settlements
+max_settlements = 2
+
+b_isla_santa_ines_MG = tribal
+#	b_isla_clarence_MG = temple
+
+# Misc
+culture = kawesqar  
+religion = xoon 
+
+#History
+
+#	2666.1.1 = { b_isla_santa_ines_MG = castle } #in case we don't want it to be tribal in 2666

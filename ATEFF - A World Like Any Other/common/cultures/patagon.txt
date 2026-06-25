@@ -179,7 +179,7 @@ patagon = {
 		
 		modifier = default_culture_modifier
 	}
-	australino = {
+	australino = { #Chilean culture from the southermost point of Chile (excluding tierra del fuego) up to Aysén
 		graphical_cultures = { southerngfx }
 		
 

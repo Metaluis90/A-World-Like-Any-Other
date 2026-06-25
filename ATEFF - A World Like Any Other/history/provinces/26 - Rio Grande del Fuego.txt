@@ -1,0 +1,29 @@
+# County Title
+title = c_rio_grande_del_fuego
+
+# Settlements
+max_settlements = 4
+
+b_tolhuin_TF = tribal
+	#			b_rio_grande_TF = city	
+	#			b_san_pablo_TF = temple
+	#			b_cullen_TF = castle
+	#			b_yehuin_TF = temple
+	#			b_castillo_TF = castle
+	#			b_san_justo_TF = temple
+
+# Misc
+culture = fueguino 
+religion = xoon
+
+#History
+
+2666.1.1 = { religion = catholic } #placeholder; in case that we want to convert the King of el Fuego t
+2666.1.1 = { culture = fueguino} #placeholder; in case that we want to convert the King of el Fuego to the Fueguino culture
+
+
+2666.1.1 = { b_tolhuin_TF = castle } #in case we don't want it to be tribal anymore
+2666.1.1 = { b_rio_grande_TF = city }
+2666.1.1 = { b_san_justo_TF = temple }
+
+ 

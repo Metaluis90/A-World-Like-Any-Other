@@ -1,0 +1,27 @@
+# County Title
+title = c_ushuaia
+
+# Settlements
+max_settlements = 4
+
+b_ushuaia_TF = tribal
+#	b_puerto_almanza_TF = city
+#	b_paso_garibaldi_TF  = temple
+#	b_comandante_portillo_TF  = castle
+#	b_puerto_remolino_TF = city
+#	b_bahia_tethis_TF = temple
+#	b_palacios_TF = castle
+
+# Misc
+culture = fueguino 
+religion = xoon
+
+#History
+
+2666.1.1 = { religion = catholic } #placeholder; in case that we want to convert the King of el Fuego t
+2666.1.1 = { culture = fueguino} #placeholder; in case that we want to convert the King of el Fuego to the Fueguino culture
+
+
+2666.1.1 = { b_ushuaia_TF = castle } #in case we don't want it to be tribal anymore
+2666.1.1 = { b_paso_garibaldi_TF = temple }
+

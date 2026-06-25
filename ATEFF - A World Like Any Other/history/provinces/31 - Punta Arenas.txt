@@ -1,0 +1,21 @@
+# County Title
+title = c_punta_arenas
+
+# Settlements
+max_settlements = 5
+
+b_punta_arenas_MG = castle
+#	b_cabo_negro_MG = city
+b_rio_seco_MG = temple
+#	b_bulnes_MG = castle
+#	b_ancon_sin_salida_MG = temple
+#	b_ankle_MG = temple
+#	b_garganta_alta_MG = castle
+
+# Misc
+culture = australino 
+religion = catholic #placeholder
+
+#History
+
+2666.1.1 = { b_cabo_negro_MG = city }

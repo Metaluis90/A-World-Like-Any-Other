@@ -1,0 +1,17 @@
+# County Title
+title = c_dawson
+
+# Settlements
+max_settlements = 2
+
+b_puerto_harris_MG = castle
+#	b_almirante_schroeders_MG = temmple
+
+
+# Misc
+culture = kawesqar 
+religion = xoon 
+
+#History
+
+2666.1.1 = { b_almirante_schroeders_MG = temple }

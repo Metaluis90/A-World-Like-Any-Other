@@ -3,7 +3,95 @@ e_patagonia = {
 	color2 = { 255 255 255 }
 	
 	capital = 23 # placeholder
-
+	
+	k_magallanes = {
+		color = { 0 0 0 }
+		color2 = { 255 255 255 }
+		
+		capital = 31 #c_punta_arenas
+		
+		d_magallanes = { 
+			color = { 0 0 0 }
+			color2 = { 255 255 255 }
+			
+			c_punta_arenas = { #31
+				color = { 0 0 0 }
+				color2 = { 255 255 255 }
+				
+				b_punta_arenas_MG = {}
+				b_cabo_negro_MG = {}
+				b_rio_seco_MG = {}
+				b_bulnes_MG = {}
+				b_ancon_sin_salida_MG = {}
+				b_ankle_MG = {}
+				b_garganta_alta_MG = {}
+			}
+			c_dawson = { #20
+				color = { 0 0 0 }
+				color2 = { 255 255 255 }
+				
+				b_puerto_harris_MG = {}
+				b_almirante_schroeders_MG = {}
+				b_dawson_MG = {}
+				b_wickham_MG = {}
+				b_san_grandoni_MG = {}
+				b_don_bosco_MG = {}
+				b_rossana_MG = {}
+			}
+			
+			c_riesco = { # 32
+				color = { 0 0 0 }
+				color2 = { 255 255 255 }
+				
+				b_riesco_MG = {}
+				b_eva_MG = {}
+				b_el_trebol_MG = {}
+				b_san_carlos_MG = {}
+				b_el_salto_MG = {}
+				b_santa_rosa_de_lima_MG = {}
+				b_rio_leon_MG = {}
+			}
+			
+			c_laguna_blanca = { #33
+				color = { 0 0 0 }
+				color2 = { 255 255 255 }
+				
+				b_rio_verde_MG = {}
+				b_villa_tehuelches_MG = {}
+				b_san_braulio_MG = {}
+				b_punta_isabela_MG = {}
+				b_rayon_cifuentes_MG = {}
+				b_rio_blanco_MG = {}
+				b_las_vacas_MG = {}
+			}
+			
+			c_san_gregorio = { #34
+				color = { 0 0 0 }
+				color2 = { 255 255 255 }
+					
+				b_san_gregorio_MG = {}
+				b_puerto_zenteno_MG = {}
+				b_punta_delgada_MG = {}
+				b_punta_dungeness_MG = {}
+				b_los_coipos_MG = {}
+				b_campo_la_avena_MG = {}
+				b_campenaike_MG = {}
+			}
+			c_magallanes = { # 39
+				color = { 0 0 0 }
+				color2 = { 255 255 255 }
+				
+				b_isla_santa_ines_MG = {}
+				b_isla_clarence_MG = {}
+				b_isla_carlos_tercero_MG = {}
+				b_isla_recalada_MG = {}
+				b_isla_week_MG = {}
+				b_isla_carlos_MG = {}
+				b_isla_grafton_MG = {}
+			}
+		}
+	}
+		
 	k_tierra_del_fuego = {
 		color = { 255 61 90 }
 		color2 = { 255 255 255 }
@@ -13,6 +101,8 @@ e_patagonia = {
 		d_isla_del_fuego = {	
 			color = { 170 60 90 }
 			color2 = { 255 255 255 }
+			
+			selknam = "Ona-sin"
 			
 			capital = 25 #c_ushaia
 			
@@ -26,7 +116,7 @@ e_patagonia = {
 				b_comandante_portillo_TF  = {}
 				b_puerto_remolino_TF = {}
 				b_bahia_tethis_TF = {}
-
+				b_palacios_TF = {}
 			
 			}
 			
@@ -60,6 +150,8 @@ e_patagonia = {
 				color = { 198 55 113}
 				color2 = { 255 255 255 }
 				
+				fueguino = "Finisterra"
+				
 				b_san_juan_salvamento_TF = {}
 				b_piedrabuena_TF = {}
 				b_puerto_parry_TF = {}
@@ -75,10 +167,14 @@ e_patagonia = {
 			color2 = { 255 255 255 }
 			
 			capital = 23 # c_navarino
+			
+			selknam = "Yahga"
 		
 			c_navarino = { #23
 				color = { 239 67 90 }
 				color2 = { 255 255 255 }
+				
+				selknam = "Leuaia"
 				
 				b_navarino_TF = {}
 				b_puerto_williams_TF = {}
@@ -93,22 +189,27 @@ e_patagonia = {
 				color = { 237 31 65 }
 				color2 = { 255 255 255 }
 				
-				b_cabo_de_hornos_TF = {}
-				b_wollaston_TF = {}
+				selknam = "Ilalumaala"
+				
+				b_cabo_de_hornos_TF = {
+					selknam = "Yeskumaala"
+				}
+				b_wollaston_TF = {
+					selknam = "Yëškū́šin"
+				}
 				b_hermite_TF = {}
 				b_isla_hoste_TF = {}
 				b_falso_cabo_TF = {}
 				b_isla_deceit_TF = {}
 				b_isla_grevy_TF = {}
 			
-			#	b_puerto_harris_TF = {}
-			#	b_almirante_schroeders_TF = {}
-			#	b_dawson_TF = {}
-			#	b_wickham_TF = {}
+
 			}
 			c_agostini = { #22
 				color = { 237 31 85 }
 				color2 = { 255 255 255 }
+				
+				selknam = "Inalumaala"
 				
 				b_agostini_TF = {}
 				b_yendegaia_TF = {}
@@ -120,12 +221,14 @@ e_patagonia = {
 			}
 		}
 	}
-	
+
 	k_malvinas = { #loc as Falkand to any british or european culture
 		color = { 175 28 42 }
 		color2 = { 255 255 255 }
 		
 		capital =  29 # c_isla_soledad
+		
+		falklander = "Falkland Islands"
 	
 		d_malvinas = { #one-duchy kingdom
 			color = { 173 69 79 }
@@ -133,20 +236,41 @@ e_patagonia = {
 			
 			capital = 29 #c_isla_soledad
 			
+			falklander = "Falklands"
+			
 			c_isla_soledad = { #29
 				color = { 175 57 42 }
 				color2 = { 255 255 255 }
 				
-				b_puerto_argentino_MV = { #loc as Stanley to any british culture 
+				falklander = "East Falkland"
+				
+				b_puerto_argentino_MV = {
+					falklander = "Port Stanley"
+					#fueguino = "Puerto Argentino"
 				}
-				b_monte_agradable_MV = { #mount pleasant
+				b_monte_agradable_MV = {
+					falklander = "Mount Pleasant"
+					#fueguino = "Monte Agradable"
 				}
-				b_puerto_soledad_MV = { #port louis
+				b_puerto_soledad_MV = {
+					falklander = "Port Louis"
+					#fueguino = "Puerto Soledad"
 				}
-				b_san_carlos_MV = {}
-				b_puerto_johnson_MV = {}
-				b_salvador_MV = {}
-				b_escampado_verde_MV = { # Green Patch
+				b_san_carlos_MV = {
+					#falklander = "San Carlos"
+					#fueguino = "San Carlos"
+				}
+				b_puerto_johnson_MV = {
+					falklander = "Johnson's Harbour"
+					#fueguino = "Puerto Johnson"
+				}
+				b_salvador_MV = {
+					#falklander = "Salvador"
+					#fueguino = "Salvador"
+				}
+				b_escampado_verde_MV = {
+					falklander = "Green Patch"
+					#fueguino = "Campo Verde"
 				}
 			}
 			
@@ -154,19 +278,39 @@ e_patagonia = {
 				color = { 244 97 78 }
 				color2 = { 255 255 255 }
 				
+				fueguino = "Rincón del Toro"
 				
 				b_darwin_MV = {}
-				b_goose_MV = {}
-				b_port_king_MV = {}
-				b_north_arm_MV = {}
-				b_egg_harbour_MV = {}
-				b_arroyo_walker_MV = {}
+				b_goose_MV = {
+				#	falklander = "Goose Green"
+					fueguino = "Prado del Ganso"
+				}
+
+				b_port_king_MV = {
+					fueguino = "Puerto King"
+				}
+
+				b_north_arm_MV = {
+					fueguino = "Brazo Norte"
+				}
+
+				b_egg_harbour_MV = {
+					fueguino = "Puerto Huevo"
+				}
+
+				b_arroyo_walker_MV = {
+					falklander = "Walker Creek"
+				#	fueguino = "Arroyo Walker"
+				}
+
 				b_lively_MV = {}
 			}
 			c_gran_malvina = { #28
 				color = { 247 66 40 }
 				color2 = { 255 255 255 }
 
+				falklander = "West Falkland"	
+				
 				b_howard_MV = {}
 				b_albemarle_MV = {}
 				b_chartres_MV = {}

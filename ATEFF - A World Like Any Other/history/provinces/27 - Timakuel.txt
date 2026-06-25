@@ -1,0 +1,28 @@
+# County Title
+title = c_timakuel
+
+# Settlements
+max_settlements = 4
+
+b_cameron_TF = tribal
+	#			b_porvenir_TF  = temple
+	#			b_cerro_sombrero_TF = castle
+	#			b_munizaga_TF = castle
+	#			b_san_martin_TF = temple
+	#			b_caleta_rosario_TF = city
+	#			b_kovacic_TF = castle
+	
+
+# Misc
+culture = selknam #placeholder
+religion = xoon #placeholder
+
+#History
+
+2666.1.1 = { religion = catholic } #placeholder; in case that we want to convert the King of el Fuego t
+2666.1.1 = { culture = fueguino} #placeholder; in case that we want to convert the King of el Fuego to the Fueguino culture
+
+
+2666.1.1 = { b_cameron_TF = castle } #in case we don't want it to be tribal anymore
+2666.1.1 = { b_porvenir_TF  = temple }
+
