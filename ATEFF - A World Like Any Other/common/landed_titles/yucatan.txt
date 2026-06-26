@@ -8,15 +8,15 @@ e_yucatan = {
 		color={ 72 134 78 }
 		color2={ 255 255 255 }
 		
-		capital = 3 #c_merida
+		capital = 1002 #c_merida
 		
 		d_merida = {
 			color={ 72 134 180 }
 			color2={ 255 255 255 }
 
-			capital = 3 # c_merida
+			capital = 1002 # c_merida
 			
-			c_merida = { #3
+			c_merida = { #1002
 				color={ 82 127 80 }
 				color2={ 255 255 255 }
 	
@@ -69,7 +69,7 @@ e_yucatan = {
 			#		quichean = "Che' Luul"
 			#		cholano = "Che' Luul"
 			}
-			c_motul = {  #4
+			c_motul = {  #1003
 				color={ 91 127 0 }
 				color2={ 255 255 255 }
 			
@@ -112,7 +112,7 @@ e_yucatan = {
 				b_muxupip_YU = {}
 
 			}
-			c_tecoh = { #10
+			c_tecoh = { #1009
 				color = { 30 104 78 }
 				color2 = { 255 255 255 }
 			
@@ -140,7 +140,7 @@ e_yucatan = {
 				b_timucuy_YU = {}	
 				b_abala_YU = {}
 			}			
-			c_hunucma = { # 2
+			c_hunucma = { # 1001
 				color={ 0 19 127 }
 				color2={ 255 255 255 }
 				
@@ -186,7 +186,7 @@ e_yucatan = {
 				}
 								
 			}			
-			c_celestun = { #1
+			c_celestun = { #1000
 				color={ 0 178 178 }
 				color2 = { 255 255 255 }
 				
@@ -212,7 +212,7 @@ e_yucatan = {
 			
 			capital = 9 #c_izamal
  		
-			c_izamal = { #9
+			c_izamal = { #1008
 				color = { 30 46 68 }
 				color2 = { 255 255 255 }
 				
@@ -239,7 +239,7 @@ e_yucatan = {
 				b_hoctun_YU = {}
 				b_tunkas_YU = {}
 			}
-			c_sotuta ={ #14
+			c_sotuta ={ #1013
 				color = { 30 46 155 }
 				color2 = { 255 255 255 }
 				
@@ -267,7 +267,7 @@ e_yucatan = {
 				b_mama_YU = {}
 			}			
 			
-			c_dzilam = { #5
+			c_dzilam = { #1004
 				color={ 120 115 125 }
 				color2={ 255 255 255 }
 
@@ -318,7 +318,7 @@ e_yucatan = {
 			capital = 7 # c_valladolid
 
 			
-			c_tinum = { # 8
+			c_tinum = { # 1007
 				color={ 82 124 185 }
 				color2={ 255 255 255 }
 	
@@ -346,7 +346,7 @@ e_yucatan = {
 				b_cuncumil_YU = {}
 			}
 
-			c_valladolid = { #7
+			c_valladolid = { #1006
 				color={ 151 131 144 }
 				color2={ 255 255 255 }
 	
@@ -370,7 +370,7 @@ e_yucatan = {
 				}
 			}
 			
-			c_tizimin = { #6
+			c_tizimin = { #1005
 				color={ 38 127 0 }
 				color2={ 255 255 255 }
 
@@ -449,7 +449,7 @@ e_yucatan = {
 			short_name=yes
 			
 
-			c_tekax = { # 13
+			c_tekax = { # 1002
 				color={ 12 140 195 }
 				color2={ 255 255 255 }
 				
@@ -464,7 +464,7 @@ e_yucatan = {
 
 			}
 
-			c_ticul = { #12
+			c_ticul = { #1011
 				color={ 87 85 219 }
 				color2={ 255 255 255 }
 				
