@@ -13,8 +13,8 @@ b_rio_seco_MG = temple
 #	b_garganta_alta_MG = castle
 
 # Misc
-culture = australino 
-religion = catholic #placeholder
+culture=magallanico
+religion=catholic
 
 #History
 

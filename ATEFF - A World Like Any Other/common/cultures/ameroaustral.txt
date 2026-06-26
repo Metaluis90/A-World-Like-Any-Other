@@ -1,71 +1,87 @@
-###ÄNSI
-
+##############################
+### Amero Austral Cultures ###
+##############################
 ameroaustral = {
 	graphical_cultures = { norsegfx westerngfx }
-	
-	mapuche = { 
+
+	mapuche = {
 		graphical_cultures = { mesoamericangfx }
-		
 		color = { 0.1 0.7 0.4 }
-		
+
 		male_names = {
-			Alhue Anganamon Ankatu Antucau Antulaf Antumanque Aukan Ayun
-			Butapichon
-			Camilo Catriel Caucaman Celestino Ceferino
-			Eluney
-			Felipe
-			Galvarino
-			Hueicha Huenchullan
-			José Juan
-			Lancuyen Lauchoique Lautaro Licanhuala Lihuel Linkoyan
-			Mainque Melipangi Millalhuan
-			Nahuel Nahuelquin Nangoniel Nehuen Ngürü
+			Aarón Abel Abelardo Abelino Abercio Abraham Absalón Abundio Adalberto Adalio Adán Adelio Adolfo Adrián Adriano Agripino Agustín Alan Alberto Aldo Alejandro Alejo Álex Alexander Alexis Alfonso Alfredo Alhue Alonso Álvaro Amadeo Amador Amalio Amancio Amaro Américo Amós Anacleto Anastasio Andrés Andrónico Anganamón Ángel Aníbal Aniceto Ankatu Anselmo Antenor Antonio Antucau Antumanque Aparicio Apolinar Apolonio Aquiles Archibaldo Ariel Ariosto Arístides Armando Arnaldo Arsenio Arturo Asprenato Asterio Astolfo Atanasio Augusto Aukan Aureliano Aurelio Avelino Ayun
+			Baldomero Baldovino Balduino Baltasar Baltazar Bartolo Bartolomé Basilio Bastián Bautista Beda Belarmino Belisario Benancio Benedicto Benigno Benito Benjamín Bernabé Bernardino Bernardo Bienvenido Blas Blasco Bonifacio Boris Borja Braulio Brígido Bruno Buenaventura Bulmaro Butapichon
+			Calixto Camilo Cándido Canuto Cardenio Carlos Carmelo Carmen Casiano Casimiro Cástulo Catriel Caucaman Caupolicán Cayetano Ceferino Celadiano Celedonio Celso César Cesáreo Cesarión Christopher Ciriaco Cirilo Claudio Clemente Cleofás Clodomiro Clorindo Clotario Conrado Constantino Cornelio Cosme Crescenciano Crescencio Crescente Crisóstomo Crispín Crispiniano Cristián Cristóbal Cristofer Cristopher Custodio
+			Dagoberto Dalmiro Dámaso Damián Daniel Danilo Dante Darío David Delfín Delfino Delmiro Demetrio Desiderio Diego Dimas Dionisio Domingo Doroteo Dositeo
+			Edelmiro Edgardo Edmundo Eduardo Efraín Efrén Egidio Eladio Eleuterio Elías Eliécer Eliodoro Eliseo Elmo Eloy Eluney Elvino Elvis Emanuel Emeterio Emiliano Emilio Emmanuel Enrique Epifanio Erasmo Eriberto Eric Erick Erik Ermindo Ernesto Estanislao Esteban Eudoro Eufemio Eugenio Eulalio Eulogio Eurico Eusebio Eustaquio Eustasio Evaristo Exequiel Expedito Ezequiel
+			Fabián Fabio Fabricio Facundo Fandila Faustino Federico Feliciano Felipe Félix Fermín Fernando Fidel Filomeno Flavio Florencio Florentino Fortún Fortunato Francisco Franco Fridolin Froilán Fructuoso Fruela Fulgencio
+			Gabino Gabriel Gael Galvarino García Gaspar Gastón Gavino Gelasio Genaro Genesio Gerardo Germán Gerónimo Gerson Gervasio Gil Gilberto Ginés Glorialdo Glorio Godofredo Gonzalo Gregorio Guillermo Gumersindo Gustavo
+			Haroldo Héctor Heladio Heliodoro Heráclito Hércules Heriberto Hermenegildo Hermes Hernán Higinio Hilario Hipólito Homero Honorio Horacio Hormisdas Huberto Hueicha Hugo Humberto
+			Ignacio Ildefonso Inocencio Íñigo Ireneo Isaac Isaías Isidro Ismael Israel Iván Ivo
+			Jacinto Jacobo Jaime Januario Javier Jean Jenaro Jeremías Jerónimo Jesús Joaquín Job Joel Jonathan Jorge José "José Antonio" "José Francisco" "José Joaquín" "José Luis" "José Manuel" "José María" "José Miguel" "José Plácido" "José Toribio" "José Victorino" Josué Juan "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Felipe" "Juan José" "Juan Pablo" Jovino Jovito Julián Julio "Julio César" Justiniano Junípero
+			Ladislao Lancuyen Laurentino Lautaro Lázaro Leandro León Leonardo Leoncio Leonel Leónidas Leopoldo Leovigildo Lidio Lincoyán Lindor Lionel Lisandro Lisardo Lorenzo Lotario Lucas Luciano Lucio Luis Lupercio
+			Macario Mainque Malaquías Mamerto Manuel Marcelo Marcial Marciano Marco "Marco Antonio" Marcos Margarito Mariano Mario Martín Mateo Matías Matteo Mauricio Mauro Max Maximiliano Máximo Mayolo Medardo Melchor Melipangi Melitón Melquíades Metodio Miguel "Miguel Ángel" Misael Modesto Moisés
+			Nahuel Nangoniel Napoleón Narciso Nazareno Nazario Neftalí Nehemías Nehuen Nelson Nemesio Nepomuceno Néstor Nicanor Nicasio Nicodemo Nicolás Nicomedes Noé Norberto
 			Ñamku
-			Paiquereu Pelantaro
-			Quillen 
-			Raiquen Rimü
-			Tahiel Tayül
-			Weychafe
-			Yaco
+			Octavio Odlanier Odón Olayo Olegario Oliver Oliverio Omar Onésimo Onofre Orestes Orlando Orozimbo Óscar Osvaldo Otón
+			Pablo Pafnucio Pamaquio Pancracio Pantaleón Paolo Pascasio Pascual Patricio Patrocinio Paulo Pedro Pelantaro Pelayo Pericles Petronilo Pío Plácido Plutarco Policarpo Ponciano Porfirio Primitivo Procopio Próspero Prudencio
+			Quillen
+			Rafael Raimundo Raiquén Ramiro Ramón Ranulfo Raúl Raymundo Recaredo Refugio Reimundo Reinaldo Remigio Renato René Reymundo Ricardo Rigoberto Rito Roberto Robinson Robustiano Rociel Rodrigo Rogelio Rolando Román Romelio Romualdo Rómulo Ronaldo Roque Rosalino Rosamel Rosauro Rosendo Rubén Rufino Rumelio Ruperto Rutilio
+			Sabas Salomón Salvador Samuel Sancho Sandalio Sandro Santiago Santino Santos Saturnino Saúl Sebastián Segundo Serafín Sergio Servando Serviliano Severiano Severino Severo Silvestre Silvio Simeón Simón "Simón Pedro" Simplicio Sindulfo Sinforoso Sixto Sofanor Sótero
+			Tadeo Tahiel Tancredo Telésforo Telmo Temístocles Teodeberto Teodoro Teodosio Teódulo Teófilo Terencio Teudolo Thiago Tiberio Tiburcio Timoleón Timoteo Tito Tobías Tomás Torcuato Toribio Tristán Tucapel Tulio
+			Uberlindo Ulises Urbano Urbicio Uriel Uvaldo
+			Valentín Valentino Valerio Vasco Venancio Venustiano Vicente Víctor Victorino Vinicio Virgilio Vladimiro
+			Waldemar Walterio Washington Wenceslao Weychafe Wilfredo Willibaldo
+			Xavier Ximeno
+			Yaco Yanino Yerko
+			Zacarías Zenón Zósimo
 		}
-		
 		female_names = {
-			Ailin Amancay Aneley Antumalen Ayilen Ayinko
-			Chiwaiad
-			Darelen
-			Ellangechi Epulewfu
-			Guacolda
-			Huanel Huilen
-			Ilwen Inara
-			Kelleñu Komalen Kuyenray
-			Lilen Lihuen Llacolen Llanca Llankuray
-			Mailen Mariwal Mawunko Mayela Melian Millaray
-			Pairo Pire
+			Aneley Amancay Antumalen Ayelén Ayinko Abelina Abigail Abril Adela Adelia Adolfina Adoración Adriana Ágata Agatha Agripina Águeda Agustina Ailén Alba Alejandra Álex Alexandra Alicia Alma Almendra Alondra Amalia Amanda Amapola Amara Ámbar Amelia Amparo Ana Anabel Anacleta Anaís Anastasia Andrea Ángela Angélica Angelina Angustia Antonia Anunciación Anunciata Apolonia Aracely Ariel Armanda Astolfa Asunción Áurea Aurora Avelina Ayelén
+			Bárbara Basilia Beatriz Begoña Belén Bendición Berna Bernarda Bernardita Berta Bertina Bianca Bienvenida Blanca Bonifacia Brígida
+			Camelia Camila Candela Candelaria Cándida Canuta Carla Carlota Carmela Carmen Carminda Carola Carolina Casilda Catalina Cecilia Celadiana Celedonia Celeste Celia Celsa Cesárea Chiwaiad Cindy Cintia Ciriaca Clara Clarisa Claudia Clementina Clodomira Clorinda Clotilde Concepción Constanza Consuelo Crescencia Cristina Cruz Cynthia
+			Dafne Dámaris Dánae Daniela Débora Deidamía Delfina Delia Delicia Denise Denisse Diana Digna Dionisia Dominga Domitila Dora Dorila Doris Dorotea Dulce
+			Edelmira Edith Eduviges Eladia Elcira Elda Elena Eliana Elisa Elisabeth Elizabeth Ellangechi Eloísa Elsa Elvira Ema Emilia Emiliana Emma Encarnación Enedina Engracia Enriqueta Epifanía Erica Erilda Ernestina Escolástica Esmeralda Esmérita Esmirna Esperanza Estefanía Estela Esther Estrella Estudemia Eudocia Eudomira Eudosia Eufemia Eufrasia Eugenia Eulalia Eulogia Eutolia Eva Evangelina Evelina Evelyn
+			Fabiana Fabiola Facunda Fátima Felicia Felicidad Felicinda Fernanda Filomena Flor Florencia Florentina Francisca Fresia Frida Fridolina Fulgencia
+			Gabriela Gael Gema Génesis Genoveva Gertrudis Gervasia Gladys Gloria Gracia Graciela Gregoria Griselda Guacolda Guadalupe Gúdula Guillermina Gumersinda
+			Helena Helga Heliodora Herlinda Hermelinda Hermenegilda Herminia Hipólita Honoria Honorina Hortensia Huenchula Huenchur Huilén
+			Ignacia Ilwen Ilwenray Inara Inés Íngrid Irene Irina Iris Irma Isabel Isaura Isidora Isolina Ivette Ivonne
+			Jacinta Jacqueline Javiera Jazmín Jennifer Jessica Jocelyn Josefa Josefina Jovina Jovita Juana Judith Julia Juliana Julieta Justina
+			Karen Karina Karla Karolina Katalina Kuyenray
+			Laura Leonarda Leonila Leonor Leticia Leyla Lía Licarayén Lidia Lihuén Lilén Liliana Linda Lisa Lissette Livia Llacolén Llanca Llankuray Lorena Loreto Lourdes Lucía Luciana Lucila Lucrecia Ludivina Luisa Luna Luz
+			Mabel Macarena Magali Magaly Magdalena Maia Maida Mailen Maite Mandina Manuela Marcela Marcelina Marciana Márgara Margarita María "María Ana" "María Belén" "María Constanza" "María Eugenia" "María Inés" "María Elena" "María José" "María Luisa" "María Magdalena" "María Paz" "María Salomé" "María Teresa" Mariana Marianela Maribel Marina Marisela Marisol Mariwal Marlen Marta Martina Martirio Matilda Matilde Maura Mauricia Mayola Mayra Mayte Melania Melanie Melany Mercedes Mía Milagros Millaray Minerva Mirabel Miranda Míriam Mirna Modesta Mónica Monserrat Montserrat Morticia Muriel Myriam
+			Nadia Nancy Naomi Narcisa Natalia Natividad Nelly Nicanora Nicasia Nicolasa Nieves Noelia Noemí Nora Norma
+			Obdulia Octavia Ofelia Olga Olivia
+			Palmira Paloma Pamela Paola Pascuala Patricia Patrocinia Paula Paulina Penelope Perpetua Petronila Pía Pilar Primitiva Priscilla Purificación
 			Quimey
-			Rayen Raymilla Raynanku Relmutray Rosa
-			Sakiñ Sayen Suya
-			Wüñelfe
-			Yaima Yanara Yerimeni
+			Rafaela Raquel Rayén Raymilla Rebeca Regina Relmutray Renata Rigoberta Rita Roberta Robustiana Rocío Romelia Romina Rosa Rosalba Rosalía Rosalina Rosario Rosaura Roxana Rumelia Ruth
+			Sabina Sabrina Salomé Sandalia Sandra Sara Sayen Selena Serafina Sigrid Silvia Sinforosa Sirena Sofía Sol Solange Soledad Sonia Sulinda Susana
+			Tamara Tania Tatiana Tecla Telésfora Teodocia Teodora Teolinda Teresa Tránsito Trinidad Tula
+			Uberlinda Urania Urraca Úrsula
+			Valentina Valeria Vanessa Varinia Verónica Victoria Violante Violeta Virginia Viviana
+			Xaviera Ximena
+			Yaima Yanara Yasna Yolanda
+			Zenobia Zita Zoila Zunilda
 		}
-		
+
 		founder_named_dynasties = no
-		
+
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 0
 		father_name_chance = 0
-		
+
 		pat_grm_name_chance = 25
 		mat_grm_name_chance = 25
 		mother_name_chance = 0
-		
+
 		modifier = default_culture_modifier
 	}
 
-	aonikenk = { 
+	aonikenk = {
 		graphical_cultures = { mesoamericangfx }
-		
+
 		color = { 0.2 0.7 0.35 }
-		
+
 		male_names = {
 			Alhue Anganamon Ankatu Antucau Antulaf Antumanque Aukan Ayun
 			Butapichon
@@ -86,7 +102,6 @@ ameroaustral = {
 			Weychafe
 			Yaco
 		}
-		
 		female_names = {
 			Ailin Amancay Aneley Antumalen Ayilen Ayinko
 			Chiwaiad Cogocha
@@ -105,105 +120,17 @@ ameroaustral = {
 			Wüñelfe
 			Yaima Yanara Yerimeni
 		}
-		
+
 		founder_named_dynasties = no
-		
+
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 0
 		father_name_chance = 0
-		
+
 		pat_grm_name_chance = 25
 		mat_grm_name_chance = 25
 		mother_name_chance = 0
-		
-		modifier = default_culture_modifier
-	}
-	selknam = {
-		graphical_cultures = { arabicgfx mesoamericangfx }
 
-		color = { 0.4 0.4 0.4 }
-
-		male_names = {
-			Ahnikin Alaken Alekatem Alexpoot Amek Aneki Anik "Atelén"
-			Chalshoat 
-			Hala Halemink Hatah
-			Ishtohn
-			Kapriel Kaukais Kautempklh Kauxia Kenós Kelal Keyuk "Kostelén" Kuanyip 
-			Minquiol "Maiyén"
-			Paachek Paciek "Paynén" Puppup
-			Schilchan Sixiol Shishkolh
-			Tael "Táiyin" Tenenisk
-			Yehuun Yonolpe 
-			"Warquirión" Wengull 
-		}
-		female_names = { 
-			"Aluxán" "Anián" "Aynkán" "Atelén"
-			Halemink Hayin "Hema'ny"
-			Kiepja "Kostelén" Kuanyip 
-			"Laswáix"
-			Minquiol Maiyén
-			"Paynén"
-			Sixiol
-			"Te-al" "Táix"
-			"Warquirión"
-		}			
-
-
-		founder_named_dynasties = no
-
-		pat_grf_name_chance = 25
-		mat_grf_name_chance = 0
-		father_name_chance = 25
-		
-		pat_grm_name_chance = 0
-		mat_grm_name_chance = 25
-		mother_name_chance = 25
-		
-		modifier = default_culture_modifier
-	}
-	kawesqar = {
-		graphical_cultures = { arabicgfx mesoamericangfx }
-
-		color = { 0.48 0.62 0.83 }
-
-		male_names = {
-			Ailké Alberto
-			C'akuol Carlos
-			Chamalo Charkush
-			Elleparu Enokoué
-			José Julio
-			Kieshka
-			Leum
-			Óscar
-			Peteyem
-			Terwa
-		}
-		female_names = { 
-			Aiksté Atáp
-			Celina
-			Estér
-			Fressia
-			Gabriela
-			Jérawr
-			K'eotcok Kun'hek Kuolet
-			Margarita
-			Nóus
-			Paáksa
-			Verónica
-			Yokcushlu
-		}			
-
-		seafarer=yes
-		founder_named_dynasties = no
-
-		pat_grf_name_chance = 25
-		mat_grf_name_chance = 0
-		father_name_chance = 25
-		
-		pat_grm_name_chance = 0
-		mat_grm_name_chance = 25
-		mother_name_chance = 25
-		
 		modifier = default_culture_modifier
 	}
 }

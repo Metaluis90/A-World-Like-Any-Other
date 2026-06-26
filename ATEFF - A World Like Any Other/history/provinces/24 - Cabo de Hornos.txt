@@ -9,14 +9,12 @@ b_cabo_de_hornos_TF = tribal
 #b_hermite_TF = temple
 #b_falso_cabo_TF = temple
 
-
 # Misc
-culture = selknam #placeholder
-religion = xoon
+culture=fueguino
+religion=catholic
 
 #History
 
 #in case we don't want it to be tribal anymore:
 	#2666..1.1 = { b_cabo_de_hornos_TF = castle }
 	#2666.1.1 = { b_falso_cabo_TF = temple }
-

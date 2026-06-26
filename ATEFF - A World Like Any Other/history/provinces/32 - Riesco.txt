@@ -13,8 +13,8 @@ b_riesco_MG = castle
 #	b_rio_leon_MG = castle
 
 # Misc
-culture = australino 
-religion = catholic #placeholder
+culture=magallanico
+religion=catholic
 
 #History
 

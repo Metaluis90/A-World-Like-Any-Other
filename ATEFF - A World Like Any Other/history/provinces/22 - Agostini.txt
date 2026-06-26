@@ -9,8 +9,8 @@ b_agostini_TF = tribal
 #				b_errazuriz_TF = city
 
 # Misc
-culture = selknam 
-religion = xoon 
+culture=fueguino
+religion=catholic
 
 #History
 
@@ -20,4 +20,3 @@ religion = xoon
 #in case we don't want it to be tribal anymore:
 	#2666.1.1 = { b_agostini_TF = castle }
 	#2666.1.1 = { b_yendegaia_TF = temple }
-

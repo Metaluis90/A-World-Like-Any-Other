@@ -9,8 +9,8 @@ b_puerto_harris_MG = castle
 
 
 # Misc
-culture = kawesqar 
-religion = xoon 
+culture=fueguino
+religion=catholic
 
 #History
 
