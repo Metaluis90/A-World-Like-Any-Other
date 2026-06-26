@@ -13,15 +13,13 @@ b_ushuaia_TF = tribal
 #	b_palacios_TF = castle
 
 # Misc
-culture = fueguino 
-religion = xoon
+culture=fueguino
+religion=catholic
 
 #History
 
 2666.1.1 = { religion = catholic } #placeholder; in case that we want to convert the King of el Fuego t
 2666.1.1 = { culture = fueguino} #placeholder; in case that we want to convert the King of el Fuego to the Fueguino culture
 
-
 2666.1.1 = { b_ushuaia_TF = castle } #in case we don't want it to be tribal anymore
 2666.1.1 = { b_paso_garibaldi_TF = temple }
-

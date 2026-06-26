@@ -1,23 +1,26 @@
-e_patagonia = {
+#################
+### Patagonia ###
+#################
+e_patagonia = { # Patagonia
 	color = { 255 31 39 }
 	color2 = { 255 255 255 }
-	
-	capital = 23 # placeholder
-	
-	k_magallanes = {
+
+	capital = 31 # c_punta_arenas / Punta Arenas
+
+	k_magallanes = { # Magallanes
 		color = { 0 0 0 }
 		color2 = { 255 255 255 }
-		
-		capital = 31 #c_punta_arenas
-		
-		d_magallanes = { 
+
+		capital = 31 # c_punta_arenas / Punta Arenas
+
+		d_magallanes = { # Magallanes
 			color = { 0 0 0 }
 			color2 = { 255 255 255 }
-			
-			c_punta_arenas = { #31
+
+			c_punta_arenas = { # 31 / Punta Arenas
 				color = { 0 0 0 }
 				color2 = { 255 255 255 }
-				
+
 				b_punta_arenas_MG = {}
 				b_cabo_negro_MG = {}
 				b_rio_seco_MG = {}
@@ -26,10 +29,10 @@ e_patagonia = {
 				b_ankle_MG = {}
 				b_garganta_alta_MG = {}
 			}
-			c_dawson = { #20
+			c_dawson = { # 20 / Isla Dawson
 				color = { 0 0 0 }
 				color2 = { 255 255 255 }
-				
+
 				b_puerto_harris_MG = {}
 				b_almirante_schroeders_MG = {}
 				b_dawson_MG = {}
@@ -38,11 +41,10 @@ e_patagonia = {
 				b_don_bosco_MG = {}
 				b_rossana_MG = {}
 			}
-			
-			c_riesco = { # 32
+			c_riesco = { # 32 / Isla Riesco
 				color = { 0 0 0 }
 				color2 = { 255 255 255 }
-				
+
 				b_riesco_MG = {}
 				b_eva_MG = {}
 				b_el_trebol_MG = {}
@@ -51,11 +53,10 @@ e_patagonia = {
 				b_santa_rosa_de_lima_MG = {}
 				b_rio_leon_MG = {}
 			}
-			
-			c_laguna_blanca = { #33
+			c_laguna_blanca = { # 33 / Laguna Blanca
 				color = { 0 0 0 }
 				color2 = { 255 255 255 }
-				
+
 				b_rio_verde_MG = {}
 				b_villa_tehuelches_MG = {}
 				b_san_braulio_MG = {}
@@ -64,11 +65,10 @@ e_patagonia = {
 				b_rio_blanco_MG = {}
 				b_las_vacas_MG = {}
 			}
-			
-			c_san_gregorio = { #34
+			c_san_gregorio = { # 34 / San Gregorio
 				color = { 0 0 0 }
 				color2 = { 255 255 255 }
-					
+
 				b_san_gregorio_MG = {}
 				b_puerto_zenteno_MG = {}
 				b_punta_delgada_MG = {}
@@ -77,10 +77,10 @@ e_patagonia = {
 				b_campo_la_avena_MG = {}
 				b_campenaike_MG = {}
 			}
-			c_magallanes = { # 39
+			c_magallanes = { # 39 / Magallanes
 				color = { 0 0 0 }
 				color2 = { 255 255 255 }
-				
+
 				b_isla_santa_ines_MG = {}
 				b_isla_clarence_MG = {}
 				b_isla_carlos_tercero_MG = {}
@@ -91,25 +91,22 @@ e_patagonia = {
 			}
 		}
 	}
-		
-	k_tierra_del_fuego = {
+	k_tierra_del_fuego = { # Tierra del Fuego
 		color = { 255 61 90 }
 		color2 = { 255 255 255 }
-		
-		capital = 25 # c_ushaia
-		
-		d_isla_del_fuego = {	
+
+		capital = 25 # c_ushuaia / Ushuaia
+
+		d_isla_del_fuego = {
 			color = { 170 60 90 }
 			color2 = { 255 255 255 }
-			
-			selknam = "Ona-sin"
-			
-			capital = 25 #c_ushaia
-			
-			c_ushuaia = { #23
-				color = {  168 55 85 }
+
+			capital = 25 # c_ushuaia / Ushuaia
+
+			c_ushuaia = { # 25 / Ushuaia
+				color = { 168 55 85 }
 				color2 = { 255 255 255 }
-				
+
 				b_ushuaia_TF = {}
 				b_puerto_almanza_TF = {}
 				b_paso_garibaldi_TF  = {}
@@ -117,13 +114,11 @@ e_patagonia = {
 				b_puerto_remolino_TF = {}
 				b_bahia_tethis_TF = {}
 				b_palacios_TF = {}
-			
 			}
-			
-			c_rio_grande_del_fuego = { #26
+			c_rio_grande_del_fuego = { # 26 / Rio Grande del Fuego
 				color = { 234 75 117 }
 				color2 = { 255 255 255 }
-				
+
 				b_rio_grande_TF = {}
 				b_tolhuin_TF = {}
 				b_san_pablo_TF = {}
@@ -132,11 +127,10 @@ e_patagonia = {
 				b_castillo_TF = {}
 				b_san_justo_TF = {}
 			}
-			
-			c_timakuel = { #27
+			c_porvenir = { # 27 / Porvenir
 				color = { 196 64 99 }
 				color2 = { 255 255 255 }
-				
+
 				b_cameron_TF = {}
 				b_porvenir_TF  = {}
 				b_cerro_sombrero_TF = {}
@@ -144,14 +138,13 @@ e_patagonia = {
 				b_san_martin_TF = {}
 				b_caleta_rosario_TF = {}
 				b_kovacic_TF = {}
-			#	b_puerto_yartou_TF = {}
-			}	
-			c_isla_de_los_estados = { #21
+			}
+			c_isla_de_los_estados = { # 21 / Isla de los Estados
 				color = { 198 55 113}
 				color2 = { 255 255 255 }
-				
-				fueguino = "Finisterra"
-				
+
+				fueguino="Finisterra"
+
 				b_san_juan_salvamento_TF = {}
 				b_piedrabuena_TF = {}
 				b_puerto_parry_TF = {}
@@ -159,23 +152,18 @@ e_patagonia = {
 				b_le_maire_TF = {}
 				b_alferez_gomez_TF = {}
 				b_isla_de_los_estados_TF = {}
-			}	
+			}
 		}
-		
-		d_yaganes = { 
+		d_yaganes = {
 			color = { 240 30 90 }
 			color2 = { 255 255 255 }
-			
-			capital = 23 # c_navarino
-			
-			selknam = "Yahga"
-		
-			c_navarino = { #23
+
+			capital = 23 # c_navarino / Isla Navarino
+
+			c_navarino = { # 23 / Isla Navarino
 				color = { 239 67 90 }
 				color2 = { 255 255 255 }
-				
-				selknam = "Leuaia"
-				
+
 				b_navarino_TF = {}
 				b_puerto_williams_TF = {}
 				b_mejillones_TF = {}
@@ -184,66 +172,54 @@ e_patagonia = {
 				b_lennox_TF = {}
 				b_laguna_roja_TF = {}
 			}
-			
-			c_hornos = { #24
+			c_hornos = { # 24 / Cabo de Hornos
 				color = { 237 31 65 }
 				color2 = { 255 255 255 }
-				
-				selknam = "Ilalumaala"
-				
-				b_cabo_de_hornos_TF = {
-					selknam = "Yeskumaala"
-				}
-				b_wollaston_TF = {
-					selknam = "Yëškū́šin"
-				}
+
+				b_cabo_de_hornos_TF = {}
+				b_wollaston_TF = {}
 				b_hermite_TF = {}
 				b_isla_hoste_TF = {}
 				b_falso_cabo_TF = {}
 				b_isla_deceit_TF = {}
 				b_isla_grevy_TF = {}
-			
-
 			}
-			c_agostini = { #22
+			c_agostini = { # 22 / Parque Agostini
 				color = { 237 31 85 }
 				color2 = { 255 255 255 }
-				
-				selknam = "Inalumaala"
-				
+
 				b_agostini_TF = {}
 				b_yendegaia_TF = {}
 				b_errazuriz_TF = {}
-				b_monte_darwin_TF = {}				
+				b_monte_darwin_TF = {}
 				b_isla_london_TF = {}
 				b_isla_gordon_TF = {}
 				b_isla_stewart_TF = {}
 			}
 		}
 	}
-
-	k_malvinas = { #loc as Falkand to any british or european culture
+	k_malvinas = { # Islas Malvinas
 		color = { 175 28 42 }
 		color2 = { 255 255 255 }
-		
-		capital =  29 # c_isla_soledad
-		
-		falklander = "Falkland Islands"
-	
-		d_malvinas = { #one-duchy kingdom
+
+		capital = 29 # c_isla_soledad / Isla Soledad
+
+		falklander="Falkland Islands"
+
+		d_malvinas = {
 			color = { 173 69 79 }
 			color2 = { 255 255 255 }
-			
-			capital = 29 #c_isla_soledad
-			
+
+			capital = 29 # c_isla_soledad / Isla Soledad
+
 			falklander = "Falklands"
-			
-			c_isla_soledad = { #29
+
+			c_isla_soledad = { # 29 / Isla Soledad
 				color = { 175 57 42 }
 				color2 = { 255 255 255 }
-				
+
 				falklander = "East Falkland"
-				
+
 				b_puerto_argentino_MV = {
 					falklander = "Port Stanley"
 					#fueguino = "Puerto Argentino"
@@ -273,44 +249,38 @@ e_patagonia = {
 					#fueguino = "Campo Verde"
 				}
 			}
-			
-			c_lafonia = { #30 #Rincon del Toro
+			c_lafonia = { #30 / Rincon del Toro
 				color = { 244 97 78 }
 				color2 = { 255 255 255 }
-				
+
 				fueguino = "Rincón del Toro"
-				
+
 				b_darwin_MV = {}
 				b_goose_MV = {
 				#	falklander = "Goose Green"
 					fueguino = "Prado del Ganso"
 				}
-
 				b_port_king_MV = {
 					fueguino = "Puerto King"
 				}
-
 				b_north_arm_MV = {
 					fueguino = "Brazo Norte"
 				}
-
 				b_egg_harbour_MV = {
 					fueguino = "Puerto Huevo"
 				}
-
 				b_arroyo_walker_MV = {
 					falklander = "Walker Creek"
 				#	fueguino = "Arroyo Walker"
 				}
-
 				b_lively_MV = {}
 			}
-			c_gran_malvina = { #28
+			c_gran_malvina = { # 28 / Gran Malvina
 				color = { 247 66 40 }
 				color2 = { 255 255 255 }
 
-				falklander = "West Falkland"	
-				
+				falklander = "West Falkland"
+
 				b_howard_MV = {}
 				b_albemarle_MV = {}
 				b_chartres_MV = {}
@@ -321,318 +291,299 @@ e_patagonia = {
 			}
 		}
 	}
-k_santa_cruz = { # Santa Cruz
-    color = { 105 133 166 }
-    color2 = { 255 255 255 }
+	k_santa_cruz_patagonia = { # Santa Cruz de la Patagonia
+		color = { 105 133 166 }
+		color2 = { 255 255 255 }
 
-    capital = 47 # Puerto Santa Cruz
+		capital = 42 # c_gallegos / Rio Gallegos
 
-    d_glaciares = {
-        color = { 98 135 178 }
-        color2 = { 255 255 255 }
+		d_glaciares = { # Glaciares
+			color = { 98 135 178 }
+			color2 = { 255 255 255 }
 
-        capital = 43 # Calafate
+			capital = 43 # c_calafate / El Calafate
 
-        c_calafate = {
-            color = { 103 140 183 }
-            color2 = { 255 255 255 }
+			c_calafate = { # 43 / El Calafate
+				color = { 103 140 183 }
+				color2 = { 255 255 255 }
 
-            b_el_calafate_SC = { }
-            b_bandera_SC = { }
-            b_nibepo_aike_SC = { }
-            b_alice_SC = { }
-            b_rio_bote_SC = { }
-            b_charles_fuhr_SC = { }
-            b_quien_sabe_SC = { }
-        } # end of c_calafate
+				b_el_calafate_SC = {}
+				b_bandera_SC = {}
+				b_nibepo_aike_SC = {}
+				b_alice_SC = {}
+				b_rio_bote_SC = {}
+				b_charles_fuhr_SC = {}
+				b_quien_sabe_SC = {}
+			}
+			c_chalten = {
+				color = { 91 128 171 }
+				color2 = { 255 255 255 }
 
-        c_chalten = {
-            color = { 91 128 171 }
-            color2 = { 255 255 255 }
+				b_chalten = {}
+				b_chalten_2 = {}
+				b_chalten_3 = {}
+				b_chalten_4 = {}
+				b_chalten_5 = {}
+				b_chalten_6 = {}
+				b_chalten_7 = {}
+			}
+			c_leona = {
+				color = { 111 145 185 }
+				color2 = { 255 255 255 }
 
-            b_chalten = { }
-            b_chalten_2 = { }
-            b_chalten_3 = { }
-            b_chalten_4 = { }
-            b_chalten_5 = { }
-            b_chalten_6 = { }
-            b_chalten_7 = { }
-        } # end of c_chalten
+				b_leona = { }
+				b_leona_2 = { }
+				b_leona_3 = { }
+				b_leona_4 = { }
+				b_leona_5 = { }
+				b_leona_6 = { }
+				b_leona_7 = { }
+			}
+		}
+		d_aike = {
+			color = { 112 140 171 }
+			color2 = { 255 255 255 }
 
-        c_leona = {
-            color = { 111 145 185 }
-            color2 = { 255 255 255 }
+			capital = 42 # c_gallegos / Rio Gallegos
 
-            b_leona = { }
-            b_leona_2 = { }
-            b_leona_3 = { }
-            b_leona_4 = { }
-            b_leona_5 = { }
-            b_leona_6 = { }
-            b_leona_7 = { }
-        } # end of c_leona
-    } # end of d_glaciares
+			c_carbonera = {
+				color = { 116 144 176 }
+				color2 = { 255 255 255 }
 
-    d_aike = {
-        color = { 112 140 171 }
-        color2 = { 255 255 255 }
+				b_carbonera = { }
+				b_carbonera_2 = { }
+				b_carbonera_3 = { }
+				b_carbonera_4 = { }
+				b_carbonera_5 = { }
+				b_carbonera_6 = { }
+				b_carbonera_7 = { }
+			}
+			c_pelque = {
+				color = { 105 134 166 }
+				color2 = { 255 255 255 }
 
-        capital = 42 # Gallegos
+				b_pelque = { }
+				b_pelque_2 = { }
+				b_pelque_3 = { }
+				b_pelque_4 = { }
+				b_pelque_5 = { }
+				b_pelque_6 = { }
+				b_pelque_7 = { }
+			}
+			c_guer_aike = {
+				color = { 121 149 180 }
+				color2 = { 255 255 255 }
 
-        c_carbonera = {
-            color = { 116 144 176 }
-            color2 = { 255 255 255 }
+				b_guer_aike = { }
+				b_guer_aike_2 = { }
+				b_guer_aike_3 = { }
+				b_guer_aike_4 = { }
+				b_guer_aike_5 = { }
+				b_guer_aike_6 = { }
+				b_guer_aike_7 = { }
+			}
+			c_gallegos = {
+				color = { 109 138 170 }
+				color2 = { 255 255 255 }
 
-            b_carbonera = { }
-            b_carbonera_2 = { }
-            b_carbonera_3 = { }
-            b_carbonera_4 = { }
-            b_carbonera_5 = { }
-            b_carbonera_6 = { }
-            b_carbonera_7 = { }
-        } # end of c_carbonera
+				b_gallegos = { }
+				b_gallegos_2 = { }
+				b_gallegos_3 = { }
+				b_gallegos_4 = { }
+				b_gallegos_5 = { }
+				b_gallegos_6 = { }
+				b_gallegos_7 = { }
+			}
 
-        c_pelque = {
-            color = { 105 134 166 }
-            color2 = { 255 255 255 }
+			c_santa_cruz = {
+				color = { 128 154 184 }
+				color2 = { 255 255 255 }
 
-            b_pelque = { }
-            b_pelque_2 = { }
-            b_pelque_3 = { }
-            b_pelque_4 = { }
-            b_pelque_5 = { }
-            b_pelque_6 = { }
-            b_pelque_7 = { }
-        } # end of c_pelque
+				b_santa_cruz = { }
+				b_santa_cruz_2 = { }
+				b_santa_cruz_3 = { }
+				b_santa_cruz_4 = { }
+				b_santa_cruz_5 = { }
+				b_santa_cruz_6 = { }
+				b_santa_cruz_7 = { }
+			}
+		}
+		d_deseado = {
+			color = { 94 126 159 }
+			color2 = { 255 255 255 }
 
-        c_guer_aike = {
-            color = { 121 149 180 }
-            color2 = { 255 255 255 }
+			capital = 49 # Puerto Deseado
 
-            b_guer_aike = { }
-            b_guer_aike_2 = { }
-            b_guer_aike_3 = { }
-            b_guer_aike_4 = { }
-            b_guer_aike_5 = { }
-            b_guer_aike_6 = { }
-            b_guer_aike_7 = { }
-        } # end of c_guer_aike
+			c_deseado = {
+				color = { 97 130 164 }
+				color2 = { 255 255 255 }
 
-        c_gallegos = {
-            color = { 109 138 170 }
-            color2 = { 255 255 255 }
+				b_deseado = { }
+				b_deseado_2 = { }
+				b_deseado_3 = { }
+				b_deseado_4 = { }
+				b_deseado_5 = { }
+				b_deseado_6 = { }
+				b_deseado_7 = { }
+			}
+			c_san_julian = {
+				color = { 88 120 154 }
+				color2 = { 255 255 255 }
 
-            b_gallegos = { }
-            b_gallegos_2 = { }
-            b_gallegos_3 = { }
-            b_gallegos_4 = { }
-            b_gallegos_5 = { }
-            b_gallegos_6 = { }
-            b_gallegos_7 = { }
-        } # end of c_gallegos
+				b_san_julian = { }
+				b_san_julian_2 = { }
+				b_san_julian_3 = { }
+				b_san_julian_4 = { }
+				b_san_julian_5 = { }
+				b_san_julian_6 = { }
+				b_san_julian_7 = { }
+			}
+			c_olivia = {
+				color = { 103 134 166 }
+				color2 = { 255 255 255 }
 
-        c_santa_cruz = {
-            color = { 128 154 184 }
-            color2 = { 255 255 255 }
+				b_olivia = { }
+				b_olivia_2 = { }
+				b_olivia_3 = { }
+				b_olivia_4 = { }
+				b_olivia_5 = { }
+				b_olivia_6 = { }
+				b_olivia_7 = { }
+			}
+			c_laura = {
+				color = { 83 115 149 }
+				color2 = { 255 255 255 }
 
-            b_santa_cruz = { }
-            b_santa_cruz_2 = { }
-            b_santa_cruz_3 = { }
-            b_santa_cruz_4 = { }
-            b_santa_cruz_5 = { }
-            b_santa_cruz_6 = { }
-            b_santa_cruz_7 = { }
-        } # end of c_santa_cruz
-    } # end of d_aike
+				b_laura = { }
+				b_laura_2 = { }
+				b_laura_3 = { }
+				b_laura_4 = { }
+				b_laura_5 = { }
+				b_laura_6 = { }
+				b_laura_7 = { }
+			}
+			c_bosques_petrificados = {
+				color = { 109 138 169 }
+				color2 = { 255 255 255 }
 
-    d_deseado = {
-        color = { 94 126 159 }
-        color2 = { 255 255 255 }
+				b_bosques_petrificados = { }
+				b_bosques_petrificados_2 = { }
+				b_bosques_petrificados_3 = { }
+				b_bosques_petrificados_4 = { }
+				b_bosques_petrificados_5 = { }
+				b_bosques_petrificados_6 = { }
+				b_bosques_petrificados_7 = { }
+			}
+		}
+		d_gregores = {
+			color = { 118 147 176 }
+			color2 = { 255 255 255 }
 
-        capital = 49 # Puerto Deseado
+			capital = 54 # Gregores
 
-        c_deseado = {
-            color = { 97 130 164 }
-            color2 = { 255 255 255 }
+			c_gregores = {
+				color = { 122 151 181 }
+				color2 = { 255 255 255 }
 
-            b_deseado = { }
-            b_deseado_2 = { }
-            b_deseado_3 = { }
-            b_deseado_4 = { }
-            b_deseado_5 = { }
-            b_deseado_6 = { }
-            b_deseado_7 = { }
-        } # end of c_deseado
+				b_gregores = { }
+				b_gregores_2 = { }
+				b_gregores_3 = { }
+				b_gregores_4 = { }
+				b_gregores_5 = { }
+				b_gregores_6 = { }
+				b_gregores_7 = { }
+			}
+			c_cordon_alto = {
+				color = { 112 142 173 }
+				color2 = { 255 255 255 }
 
-        c_san_julian = {
-            color = { 88 120 154 }
-            color2 = { 255 255 255 }
+				b_cordon_alto = { }
+				b_cordon_alto_2 = { }
+				b_cordon_alto_3 = { }
+				b_cordon_alto_4 = { }
+				b_cordon_alto_5 = { }
+				b_cordon_alto_6 = { }
+				b_cordon_alto_7 = { }
+			}
+			c_pedrero = {
+				color = { 127 156 185 }
+				color2 = { 255 255 255 }
 
-            b_san_julian = { }
-            b_san_julian_2 = { }
-            b_san_julian_3 = { }
-            b_san_julian_4 = { }
-            b_san_julian_5 = { }
-            b_san_julian_6 = { }
-            b_san_julian_7 = { }
-        } # end of c_san_julian
+				b_pedrero = { }
+				b_pedrero_2 = { }
+				b_pedrero_3 = { }
+				b_pedrero_4 = { }
+				b_pedrero_5 = { }
+				b_pedrero_6 = { }
+				b_pedrero_7 = { }
+			}
+			c_moyano = {
+				color = { 106 136 168 }
+				color2 = { 255 255 255 }
 
-        c_olivia = {
-            color = { 103 134 166 }
-            color2 = { 255 255 255 }
+				b_moyano = { }
+				b_moyano_2 = { }
+				b_moyano_3 = { }
+				b_moyano_4 = { }
+				b_moyano_5 = { }
+				b_moyano_6 = { }
+				b_moyano_7 = { }
+			}
+			c_pampa_del_setenta = {
+				color = { 132 160 188 }
+				color2 = { 255 255 255 }
 
-            b_olivia = { }
-            b_olivia_2 = { }
-            b_olivia_3 = { }
-            b_olivia_4 = { }
-            b_olivia_5 = { }
-            b_olivia_6 = { }
-            b_olivia_7 = { }
-        } # end of c_olivia
+				b_pampa_del_setenta = { }
+				b_pampa_del_setenta_2 = { }
+				b_pampa_del_setenta_3 = { }
+				b_pampa_del_setenta_4 = { }
+				b_pampa_del_setenta_5 = { }
+				b_pampa_del_setenta_6 = { }
+				b_pampa_del_setenta_7 = { }
+			}
+		}
+		d_moreno = {
+			color = { 86 116 152 }
+			color2 = { 255 255 255 }
 
-        c_laura = {
-            color = { 83 115 149 }
-            color2 = { 255 255 255 }
+			capital = 53 # Perito Moreno
 
-            b_laura = { }
-            b_laura_2 = { }
-            b_laura_3 = { }
-            b_laura_4 = { }
-            b_laura_5 = { }
-            b_laura_6 = { }
-            b_laura_7 = { }
-        } # end of c_laura
+			c_perito_moreno = {
+				color = { 90 121 157 }
+				color2 = { 255 255 255 }
 
-        c_bosques_petrificados = {
-            color = { 109 138 169 }
-            color2 = { 255 255 255 }
+				b_perito_moreno = { }
+				b_perito_moreno_2 = { }
+				b_perito_moreno_3 = { }
+				b_perito_moreno_4 = { }
+				b_perito_moreno_5 = { }
+				b_perito_moreno_6 = { }
+				b_perito_moreno_7 = { }
+			}
+			c_pampa_del_asador = {
+				color = { 81 112 148 }
+				color2 = { 255 255 255 }
 
-            b_bosques_petrificados = { }
-            b_bosques_petrificados_2 = { }
-            b_bosques_petrificados_3 = { }
-            b_bosques_petrificados_4 = { }
-            b_bosques_petrificados_5 = { }
-            b_bosques_petrificados_6 = { }
-            b_bosques_petrificados_7 = { }
-        } # end of c_bosques_petrificados
-    } # end of d_deseado
+				b_pampa_del_asador = { }
+				b_pampa_del_asador_2 = { }
+				b_pampa_del_asador_3 = { }
+				b_pampa_del_asador_4 = { }
+				b_pampa_del_asador_5 = { }
+				b_pampa_del_asador_6 = { }
+				b_pampa_del_asador_7 = { }
+			}
+			c_cardiel = {
+				color = { 96 127 162 }
+				color2 = { 255 255 255 }
 
-    d_gregores = {
-        color = { 118 147 176 }
-        color2 = { 255 255 255 }
-
-        capital = 54 # Gregores
-
-        c_gregores = {
-            color = { 122 151 181 }
-            color2 = { 255 255 255 }
-
-            b_gregores = { }
-            b_gregores_2 = { }
-            b_gregores_3 = { }
-            b_gregores_4 = { }
-            b_gregores_5 = { }
-            b_gregores_6 = { }
-            b_gregores_7 = { }
-        } # end of c_gregores
-
-        c_cordon_alto = {
-            color = { 112 142 173 }
-            color2 = { 255 255 255 }
-
-            b_cordon_alto = { }
-            b_cordon_alto_2 = { }
-            b_cordon_alto_3 = { }
-            b_cordon_alto_4 = { }
-            b_cordon_alto_5 = { }
-            b_cordon_alto_6 = { }
-            b_cordon_alto_7 = { }
-        } # end of c_cordon_alto
-
-        c_pedrero = {
-            color = { 127 156 185 }
-            color2 = { 255 255 255 }
-
-            b_pedrero = { }
-            b_pedrero_2 = { }
-            b_pedrero_3 = { }
-            b_pedrero_4 = { }
-            b_pedrero_5 = { }
-            b_pedrero_6 = { }
-            b_pedrero_7 = { }
-        } # end of c_pedrero
-
-        c_moyano = {
-            color = { 106 136 168 }
-            color2 = { 255 255 255 }
-
-            b_moyano = { }
-            b_moyano_2 = { }
-            b_moyano_3 = { }
-            b_moyano_4 = { }
-            b_moyano_5 = { }
-            b_moyano_6 = { }
-            b_moyano_7 = { }
-        } # end of c_moyano
-
-        c_pampa_del_setenta = {
-            color = { 132 160 188 }
-            color2 = { 255 255 255 }
-
-            b_pampa_del_setenta = { }
-            b_pampa_del_setenta_2 = { }
-            b_pampa_del_setenta_3 = { }
-            b_pampa_del_setenta_4 = { }
-            b_pampa_del_setenta_5 = { }
-            b_pampa_del_setenta_6 = { }
-            b_pampa_del_setenta_7 = { }
-        } # end of c_pampa_del_setenta
-    } # end of d_gregores
-
-    d_moreno = {
-        color = { 86 116 152 }
-        color2 = { 255 255 255 }
-
-        capital = 53 # Perito Moreno
-
-        c_perito_moreno = {
-            color = { 90 121 157 }
-            color2 = { 255 255 255 }
-
-            b_perito_moreno = { }
-            b_perito_moreno_2 = { }
-            b_perito_moreno_3 = { }
-            b_perito_moreno_4 = { }
-            b_perito_moreno_5 = { }
-            b_perito_moreno_6 = { }
-            b_perito_moreno_7 = { }
-        } # end of c_perito_moreno
-
-        c_pampa_del_asador = {
-            color = { 81 112 148 }
-            color2 = { 255 255 255 }
-
-            b_pampa_del_asador = { }
-            b_pampa_del_asador_2 = { }
-            b_pampa_del_asador_3 = { }
-            b_pampa_del_asador_4 = { }
-            b_pampa_del_asador_5 = { }
-            b_pampa_del_asador_6 = { }
-            b_pampa_del_asador_7 = { }
-        } # end of c_pampa_del_asador
-
-        c_cardiel = {
-            color = { 96 127 162 }
-            color2 = { 255 255 255 }
-
-            b_cardiel = { }
-            b_cardiel_2 = { }
-            b_cardiel_3 = { }
-            b_cardiel_4 = { }
-            b_cardiel_5 = { }
-            b_cardiel_6 = { }
-            b_cardiel_7 = { }
-        } # end of c_cardiel
-    } # end of d_moreno
-} # end of k_santa_cruz	
+				b_cardiel = { }
+				b_cardiel_2 = { }
+				b_cardiel_3 = { }
+				b_cardiel_4 = { }
+				b_cardiel_5 = { }
+				b_cardiel_6 = { }
+				b_cardiel_7 = { }
+			}
+		}
+	}
 }

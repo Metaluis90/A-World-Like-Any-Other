@@ -8,8 +8,8 @@ b_isla_santa_ines_MG = tribal
 #	b_isla_clarence_MG = temple
 
 # Misc
-culture = kawesqar  
-religion = xoon 
+culture=magallanico
+religion=catholic
 
 #History
 

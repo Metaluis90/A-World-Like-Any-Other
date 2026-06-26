@@ -13,8 +13,8 @@ b_rio_verde_MG = castle
 #	b_las_vacas_MG = city
 
 # Misc
-culture = australino  #placeholder
-religion = catholic #placeholder
+culture=magallanico
+religion=catholic
 
 #History
 

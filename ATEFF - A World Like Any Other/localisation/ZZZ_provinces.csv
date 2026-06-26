@@ -1,13 +1,7 @@
-###ÄNSI
-#CODE;ENGLISH;FRENCH;GERMAN;SPANISH;;;;;;;;;x
-
-PROV9;Leleque;Leleque;Leleque;Leleque;;;;;;;;;x
-PROV10;Cushamen;Cushamen;Cushamen;Cushamen;;;;;;;;;x
-PROV11;Futaleufú;Futaleufú;Futaleufú;Futaleufú;;;;;;;;;x
-PROV12;Languiñeo;Languiñeo;Languiñeo;Languiñeo;;;;;;;;;x
-PROV13;Carrenleufú;Carrenleufú;Carrenleufú;Carrenleufú;;;;;;;;;x
-PROV14;Vintter;Vintter;Vintter;Vintter;;;;;;;;;x
-PROV15;Sacanana;Sacanana;Sacanana;Sacanana;;;;;;;;;x
+########################################
+### A World Like Any Other Provinces ###
+########################################
+PROV15;North Atlantic Ocean;Océan Atlantique Nord;Nordatlantik;Océano Atlántico Norte;;;;;;;;;x
 PROV16;Meseta del Colorado;Meseta del Colorado;Colorado-Hochebene;Meseta del Colorado;;;;;;;;;x
 PROV17;Bosques Petrificados;Forêts Pétrifiées;Versteinerte Wälder;Bosques Petrificados;;;;;;;;;x
 PROV18;Laura;Laura;Laura;Laura;;;;;;;;;x
@@ -16,10 +10,10 @@ PROV20;Dawson;Dawson;Dawson;Dawson;;;;;;;;;x
 PROV21;Staten Island;Île des États;Staateninsel;Isla de los Estados;;;;;;;;;x
 PROV22;Agostini;Agostini;Agostini;Agostini;;;;;;;;;x
 PROV23;Navarino;Navarino;Navarino;Navarino;;;;;;;;;x
-PROV24;Hornos;Hornos;Hornos;Hornos;;;;;;;;;x
+PROV24;Cabo de Hornos;Cabo de Hornos;Cabo de Hornos;Cabo de Hornos;;;;;;;;;x
 PROV25;Ushuaia;Ushuaia;Ushuaia;Ushuaia;;;;;;;;;x
 PROV26;Rio Grande;Rio Grande;Rio Grande;;;;;;;;;;x
-PROV27;Timakuel;Timakuel;Timakuel;Timakuel;;;;;;;;;x
+PROV27;Porvenir;Porvenir;Porvenir;Porvenir;;;;;;;;;x
 PROV28;Gran Malvina;Grande Malouine;Westfalkland;Gran Malvina;;;;;;;;;x
 PROV29;Soledad;Île Soledad;Ostfalkland;Soledad;;;;;;;;;x
 PROV30;Lafonia;Lafonie;Lafonia;Lafonia;;;;;;;;;x

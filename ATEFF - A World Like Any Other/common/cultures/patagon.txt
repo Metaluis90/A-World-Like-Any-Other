@@ -1,15 +1,151 @@
-###ÄNSI
-
+########################
+### Patagón Cultures ###
+########################
 patagon = {
-	graphical_cultures = { italiangfx westerngfx }
-	
-	fueguino = { #Culturally argentinian/chilean people from tierra de fuego; could also be westernized indigenous people from Patagonia
-		
-		graphical_cultures = { italiangfx } #placeholder; we should create a custom culture using whatever ethinicity + clothes from cold enviroments (vanilla finland)
-		
-		color = {0.96 0.82 0.55} #placeholder
+	graphical_cultures = { southerngfx westerngfx }
 
-		male_names = { #We should standarize names to allow easy conversion like Edmundo_Edmund and such
+	magallanico = {
+		graphical_cultures = { magallanicogfx southerngfx }
+		color = { 1.0 0.45 0.5 }
+
+		male_names = {
+			Aarón Abraham Adrián Agustín Alan Alberto Alejandro Álex Alexander Alexis Alfonso Alfredo Alonso Álvaro Amaro Américo Andrés Andrónico Ángel Angelo Aníbal Antonio Ariel Armando Arturo Augusto Axel
+			Bairon Baltasar Baltazar Bastián Bayron Benjamín Bernardo Boris Borja Branko Brayan Brian Bruno Bryan Byron
+			Camilo Carlos Caupolicán Cedomil César Christian Christopher Claudio Clemente Cristián Cristóbal Cristofer Cristopher
+			Damián Daniel Danilo Dante Darío David Davor Demian Diego Dilan Domingo Dylan
+			Edgar Eduardo Eithan Elías Emanuel Emiliano Emilio Emmanuel Enrique Eric Erick Erik Ernesto Esteban
+			Fabián Facundo Federico Felipe Félix Fernando Francisco "Francisco Antonio" "Francisco Javier" Franco
+			Gabriel Gael Galvarino Gaspar Gastón Gerald Gerardo Germán Gonzalo Guillermo Gustavo
+			Héctor Hernán Hugo Humberto
+			Ian Ignacio Iker Iñaki Isaac Isaías Ismael Iván
+			Jacobo Jaime Javier Jean Jeremías Jeremy Jesús Joaquín Joel Johan Jonathan Jordan Jorge "Jorge Alberto" "Jorge Alejandro" "Jorge Antonio" "Jorge Arturo" "Jorge Carlos" "Jorge Francisco" "Jorge Javier" "Jorge Joaquín" "Jorge José" "Jorge Juan" "Jorge Luis" "Jorge Manuel" "Jorge Miguel" "Jorge Pablo" "Jorge Pedro" José "José Alberto" "José Alejandro" "José Antonio" "José Arturo" "José Carlos" "José Francisco" "José Javier" "José Joaquín" "José Juan" "José Luis" "José Manuel" "José Miguel" "José Pablo" "José Pedro" Josué Juan "Juan Alberto" "Juan Alejandro" "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Francisco" "Juan Gabriel" "Juan Javier" "Juan Joaquín" "Juan José" "Juan Luis" "Juan Manuel" "Juan Martín" "Juan Pablo" "Juan Pedro" Julián Julio
+			Kevin
+			Lautaro Leandro León Leonardo Leonel Liam Lionel Lorenzo Lucas Luciano Luis Lukas
+			Manuel Marcelo Marco Marcos Mario Marko Martín Mateo Mathías Matías Matteo Mauricio Mauro Max Maximiliano Máximo Miguel "Miguel Ángel" Milovan Moisés
+			Nahuel Neftalí Neven Nicolás Noah
+			Oliver Omar Orlando Óscar
+			Pablo "Pablo Pedro" Paolo Pascual Patricio Paulo Pedro "Pedro Pablo" Pelantaro
+			Radomiro Rafael Raimundo Ramón Raúl Renato René Ricardo Richard Roberto Rodolfo Rodrigo Román Rubén
+			Salvador Samuel Santiago Santino Sebastián Sergio Simón
+			Thiago Thomas Tobías Tomás
+			Valentín Valentino Vicente Víctor Vladimiro Vlado
+			William
+			Xavier
+			Yerko
+		}
+		female_names = {
+			Abigail Adriana Ágata Agatha Agustina Alba Alejandra Álex Alexandra Alicia Allison Alma Almendra Alondra Amalia Amanda Amara Amaral Amaya Ámbar Amelia Amparo Amy Ana "Ana Carolina" "Ana Isabel" "Ana Lía" "Ana Lucía" "Ana María" "Ana Paula" "Ana Rosa" "Ana Sofía" "Ana Victoria" Anabel Anahís Anaís Anastasia Andrea Ángela Angélica Antonella Antonia Aracely Ariel Ashley Aurora Ayelén Aylin
+			Bárbara Beatriz Belén Bernarda Blanca
+			Camila Carla Carmela Carmen Carolina Catalina Cecilia Celeste Clara Claudia Clementina Colomba Constanza Consuelo Cristina
+			Dafne Dámaris Dánae Daniela Denise Denisse Diana Dominga Dominique
+			Elena Elisa Elisabeth Elizabeth Eloísa Ema Emilia Emily Emma Erica Erika Esmeralda Esperanza Estefanía Eva Evelyn
+			Fabiana Fabiola Facunda Fernanda Fiorella Flor Florencia Francisca
+			Gabriela Gael Génesis Geraldine Gloria Gracia
+			Helena
+			Ignacia Inés Irene Iris Isabel Isabella Isidora
+			Jacinta Javiera Jazmín Jennifer Jessica Jimena Jocelyn Josefa Josefina Jovanka Juana Julia Juliana Julieta
+			Karen Karina Karla Karolina Katalina Kiara Krishna
+			Laura Lenka Leonor Leticia Leyla Lía Lisa Lissette Lorena Loreto Lourdes Lucía Luciana Lucila Luisa Luna Luz
+			Mabel Macarena Madeleine Magdalena Maia Maida Maite Manuela Marcela Margarita María "María Alejandra" "María Ana" "María Antonia" "María Angélica" "María Belén" "María Carmen" "María Constanza" "María Elena" "María Fernanda" "María Francisca" "María Gracia" "María Inés" "María Isabel" "María Lucía" "María Luisa" "María Magdalena" "María Paula" "María Paz" "María Pía" "María Teresa" "María Victoria" Mariana Mariela Marisol Marlen Marta Martina Matilda Matilde Maura Mayra Mayte Melanie Melany Mía Michelle Millaray Mónica Monserrat Montserrat
+			Nadia Naomi Natalia Nevena Nicole Noelia Noemí
+			Olga Olivia
+			Paloma Pamela Paola Pascal Pascuala Patricia Paula Paulina Paz Penelope Pía Pilar Priscilla
+			Rafaela Ramona Raquel Rayén Rebeca Renata Rocío Romina Rosa Rosario
+			Samantha Sandra Sara Sayen Scarlett Selena Silvia Sofía Sol Solange Soledad Stephanie Susana
+			Tamara Tatiana Teodora Teresa Thiare Tonka Trinidad
+			Valentina Valeria Vanessa Verónica Vesna Victoria Violeta Viviana
+			Xaviera Ximena
+			Yasna
+			Zoe
+		}
+		from_dynasty_prefix = "de "
+		male_patronym = "hijo de "
+		female_patronym = "hija de "
+		prefix = yes
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+	galenso = {
+		graphical_cultures = { celticgfx }
+		color = { 0.74 0.03 0.16 }
+
+		male_names = {
+			Adam Alpin Alwin Alen Alan Alastair Alexander Andrew Angus Archibald Arthur Arran Aulay
+			Beathan Brian Brice Bryan
+			Cailean Calum Carbrey Colban Colin Conall Conan David Dermid Donald Douglas Duff Dugald Duncan
+			Edgar Edward Edwin Eric Evander Ewan Eugene
+			Farquhar Fergus Fingal Finn Findlay Frang Francis
+			Gavin Gilbert Gilbride Gilchrist Gillespie Gilpatrick Gilroy Giric Gregory Glenn Godfrey Gregor
+			Hamish Hector Henry Hugo Huw Hugh
+			Iain Indulf Iwan James Jacob John
+			Kenneth Kentigern
+			Lachlan_Roland Laurence Lennon Lewis Llwyd Lloyd Llywelyn Lewis Luis Lewis Lulach
+			Macbeth Magnus Malcolm Maldoven Maldred Malise Malmure Maoilios Marcas Marcus Matad Matthew Michael Mihangel Miguel Morgan Muir Mungo Murdoch Murray
+			Neil Nigel Ninian
+			Oscar Owen Oliver Owain
+			Patrick Paul Peter Philip
+			Ricardo Richard Robert Roderick Ronald Rory Roderick Ross Roy Rhys
+			Shaw Simon Somerled Stephan
+			Tadhg Tadg Talore Tegid Thomas Torquil Torkel
+			Uhtred Uisdean Walan
+			Victor Vincent
+			Walter William
+		}
+		female_names = {
+			Ada Affraic Agnes Aileen Alice Anna Annabella Aufrica
+			Barabal Barbara Beileag Beitris Beathoc Beatrice Bride Brigit
+			Catriona Catherine Cecilia Christina
+			Deirdre Derilla Dervorgilla Donada Donella
+			Edith Edna Eithne Effie Eilionoir Eleanor Eimhir Emer Eithne Ela Eleanor Ellen Elspeth Elizabeth Eluned Eva
+			Fenella Fingola Finnguala Flora Forflissa
+			Galiena Glenna Gormelia Gormflaith Gruoch
+			Helen
+			Innes Iona Isabel Isla Isobel
+			Jean Joan Julia
+			Kenna Kentigerna Kirstin
+			Lillias Lillian Lorna
+			Malmure Mair Maria Maisie Malina Margaret Mariota Marjory Mary Martha Marthoc Maud Matilda Maura Mirren Murron Mor Morag Morna Moyna Mona Muriel Murron Mwyni Myfanwy
+			Nuala
+			Orabilia
+			Peigi
+			Rhonda Rodina Ronalda Ros
+			Saundra Sheena Shona Sholto Slaine Sorcha
+			Una
+		}
+		dukes_called_kings = yes
+
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+		male_patronym = "ap "
+		female_patronym = "ferch "
+		prefix = yes
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		seafarer = yes
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	fueguino = {
+		graphical_cultures = { magallanicogfx }
+		color = { 0.96 0.82 0.55 }
+
+		male_names = {
 		Alfredo Ariel Arturo Asencio
 		Bruno
 		Carlos Ceferino
@@ -60,15 +196,9 @@ patagon = {
 		
 		modifier = default_culture_modifier
 	}
-	
-
-
-	desertico = { #Who are these guys anyway?
-		
+	desertico = {
 		graphical_cultures = { italiangfx }
-		
-
-		color = {0.96 0.82 0.55}
+		color = { 0.96 0.82 0.55 }
 
 		male_names = {
 		Alfredo Ariel Arturo Asencio
@@ -179,72 +309,4 @@ patagon = {
 		
 		modifier = default_culture_modifier
 	}
-	australino = { #Chilean culture from the southermost point of Chile (excluding tierra del fuego) up to Aysén
-		graphical_cultures = { southerngfx }
-		
-
-		color = {0.66 0.7 0.36}
-
-		male_names = {
-			Agustin Alberto Alfredo Alonso Andres "Antolín"
-			Benjamin
-			Camilo Carlos Cristian Cristobal Cristofer
-			Daniel Danilo David Diego Domingo
-			Eduardo Elias Emilio Ernesto Esteban
-			Fabian Federico Felipe Fernando Francisco
-			Gabriel German Gonzalo Gustavo
-			Hector Hernan Humberto Hugo
-			Ignacio Ivan
-			Jaime Javier Joaquin Jorge Jose Juan Julio
-			Lautaro Larry Lucas Luis
-			Manuel Marcelo Mario Martin Mateo Matias Mauricio
-			Nahuel Nicolas
-			Oscar
-			Pablo Patricio Paul Pedro
-			Rafael Ramon Raul Ricardo Roberto Rodrigo
-			Salvador Sebastian Sergio Simon
-		    Teudolio Tomas
-			Vicente Victor
-			Zacarias		
-		}
-
-		female_names = {
-			Ana Andrea Antonia
-			Barbara Beatriz Belen Blanca
-			Camila Carolina Catalina Claudia Cristina Constanza
-			Dalia Daniela
-			Elena Elizabeth Emilia Erica Eugenia
-			Fernanda Francisca Florencia
-			Gabriela Gladys Gloria
-			Helen 
-			Ilda Ingrid Isabel
-			Javiera Jeanette Josefa Julieta
-			Karina Karla
-			Lorena Loreto Lucila Luisa
-			Magdalena Marcela Maria Maria_Constanza Maria_Jose Maria_Luisa Mariana Martina Miriam
-			Natalia Nilda
-			Olivia 
-			Pamela Patricia Paula Paulina Pilar
-			Renata Rocio Romina Rosalba
-			Sandra Silvia Sofia Susana
-			Tamara Teresa
-			Valentina Valeria Veronica Violeta Vivian
-			Ximena
-		}
-
-		from_dynasty_prefix = "de "
-		male_patronym = "hijo de "
-		female_patronym = "hija de "
-		prefix = yes
-	
-		pat_grf_name_chance = 45
-		mat_grf_name_chance = 15
-		father_name_chance = 30
-		
-		pat_grm_name_chance = 40
-		mat_grm_name_chance = 10
-		mother_name_chance = 40
-		
-		modifier = default_culture_modifier
-	}
-}		
+}

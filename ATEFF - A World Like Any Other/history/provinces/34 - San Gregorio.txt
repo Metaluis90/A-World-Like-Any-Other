@@ -12,10 +12,9 @@ b_san_gregorio_MG = castle
 #	b_campo_la_avena_MG = city
 #	b_campenaike_MG = castle
 
-
 # Misc
-culture = australino  #placeholder
-religion = catholic #placeholder
+culture=magallanico
+religion=catholic
 
 #History
 
