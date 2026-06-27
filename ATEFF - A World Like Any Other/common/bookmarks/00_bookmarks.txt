@@ -1,18 +1,18 @@
 bookmark_2369 = {
-	name="BOOKMARK_2369"
-	desc="BOOKMARK_2369_DESC"
-	date="2369.10.12"
-
+    name = "BOOKMARK_2369"
+    desc = "BOOKMARK_2369_DESC"
+    date = 2369.11.19
+	
 	era = yes						## Will be shown on Era screen.
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 
-	selectable_character = {
-		id = 1
+    selectable_character = {
+		id = 1 # Diego Bartales
 		age = 18
 		name = ERA_CHAR_NAME_FRANCISCO
 		title = c_merida
 		title_name = MERIDA
-
+		
 		character = {
 			female = no
 			dna="aaafh0bace0"
@@ -26,14 +26,14 @@ bookmark_2369 = {
 }
 
 bookmark_2666 = {
-	name="BOOKMARK_2666"
-	desc="BOOKMARK_2666_DESC"
-	date="2666.7.4"
-
+    name = "BOOKMARK_2666"
+    desc = "BOOKMARK_2666_DESC"
+    date = 2666.7.4
+	
 	era = yes						## Will be shown on Era screen.
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 
-	selectable_character = {
+    selectable_character = {
 		id = 2 # Francisco
 		age = 18
 		name = ERA_CHAR_NAME_FRANCISCO
