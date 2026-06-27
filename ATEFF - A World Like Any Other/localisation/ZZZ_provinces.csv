@@ -170,19 +170,29 @@ PROV214;Temuco;;;;;;;;;;;;;x
 PROV215;Lautaro;;;;;;;;;;;;;x
 PROV216;Toltén;;;;;;;;;;;;;x
 PROV217;Villarrica;;;;;;;;;;;;;x
-PROV218;Biobío;;;;;;;;;;;;;x
-PROV219;Los Ángeles;;;;;;;;;;;;;x
-PROV220;Concepción;;;;;;;;;;;;;x
-PROV221;Arauco;;;;;;;;;;;;;x
-PROV222;Lonquimay;;;;;;;;;;;;;x
-PROV223;Itata;;;;;;;;;;;;;x
-PROV224;Punilla;;;;;;;;;;;;;x
-PROV225;Diguillín;;;;;;;;;;;;;x
-PROV226;Cauquenes;;;;;;;;;;;;;x
-PROV227;Linares;;;;;;;;;;;;;x
-PROV228;Curepto;;;;;;;;;;;;;x
-PROV229;Talca;;;;;;;;;;;;;x
-PROV230;Curicó;;;;;;;;;;;;;x
+PROV218;Tucapel;Tucapel;Tucapel;Tucapel;;;;;;;;;x
+PROV219;Los Ángeles;Los Ángeles;Los Ángeles;Los Ángeles;;;;;;;;;x
+PROV220;Concepción;Concepción;Concepción;Concepción;;;;;;;;;x
+PROV221;Arauco;Arauco;Arauco;Arauco;;;;;;;;;x
+PROV222;Lonquimay;Lonquimay;Lonquimay;Lonquimay;;;;;;;;;x
+PROV223;Itata;Itata;Itata;Itata;;;;;;;;;x
+PROV224;Punilla;Punilla;Punilla;Punilla;;;;;;;;;x
+PROV225;Diguillín;Diguillín;Diguillín;Diguillín;;;;;;;;;x
+PROV226;Cauquenes;Cauquenes;Cauquenes;Cauquenes;;;;;;;;;x
+PROV227;Linares;Linares;Linares;Linares;;;;;;;;;x
+PROV228;Isla Mocha;Île Mocha;Mocha-Insel;Isla Mocha;;;;;;;;;x
+PROV229;Talca;Talca;Talca;Talca;;;;;;;;;x
+PROV230;Curicó;Curicó;Curicó;Curicó;;;;;;;;;x
+PROV231;Cachapoal;Cachapoal;Cachapoal;Cachapoal;;;;;;;;;x
+PROV232;Colchagua;Colchagua;Colchagua;Colchagua;;;;;;;;;x
+PROV233;Pichilemu;Pichilemu;Pichilemu;Pichilemu;;;;;;;;;x
+PROV234;Santiago;Santiago;Santiago;Santiago;;;;;;;;;x
+PROV235;Melipilla;Melipilla;Melipilla;Melipilla;;;;;;;;;x
+PROV236;Chacabuco;Chacabuco;Chacabuco;Chacabuco;;;;;;;;;x
+PROV237;Maipo;Maipo;Maipo;Maipo;;;;;;;;;x
+PROV238;Santa María;Île Santa María;Santa-María-Insel;Santa María;;;;;;;;;x
+
+
 
 PROV900;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
 PROV901;Bahía Desengaño;Baie Desengaño;Bucht Desengaño;Bahía Desengaño;;;;;;;;;x
