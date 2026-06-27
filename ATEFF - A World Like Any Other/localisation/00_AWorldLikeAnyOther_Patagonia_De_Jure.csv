@@ -71,6 +71,14 @@ b_isla_grafton_MG;Isla Grafton;;;;;;;;;;;;;x
 ### Kingdom of Santa Cruz de la Patagonia ###
 k_santa_cruz_patagonia;Santa Cruz de la Patagonia;;;;;;;;;;;;;x
 k_santa_cruz_patagonia_adj;Santacruceño;;;;;;;;;;;;;x
+d_baguales;Baguales;;;;;;;;;;;;;x
+d_baguales_adj;Bagualeño;;;;;;;;;;;;;x
+c_calafate;Calafate;;;;;;;;;;;;;x
+c_calafate_adj;Calafateño;;;;;;;;;;;;;x
+c_chalten;Chaltén;;;;;;;;;;;;;x
+c_chalten_adj;Chaltenense;;;;;;;;;;;;;x
+c_leona;Leona;;;;;;;;;;;;;x
+c_leona_adj;Leonesa;;;;;;;;;;;;;x
 b_el_chalten_SC;El Chaltén;El Chaltén;El Chaltén;El Chaltén;;;;;;;;;x
 b_kaike_aike_SC;Kaike Aike;Kaike Aike;Kaike Aike;Kaike Aike;;;;;;;;;x
 b_san_martin_SC;San Martín;San Martin;San Martin;San Martín;;;;;;;;;x
