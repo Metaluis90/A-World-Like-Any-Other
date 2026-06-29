@@ -28,7 +28,7 @@ seasons = "seasons.txt"
 	sea_zones = { 900 922 }
 	
 #South American Lakes	
-	sea_zones = { 149 175 }
+	sea_zones = { 800 827 }
 
 ocean_region = {	
 	sea_zones = { 1 2 4 } # Atlantic -Pacific Ocean

@@ -1,7 +1,13 @@
 ########################################
 ### A World Like Any Other Provinces ###
 ########################################
-PROV15;North Atlantic Ocean;Océan Atlantique Nord;Nordatlantik;Océano Atlántico Norte;;;;;;;;;x
+PROV9;Leleque;Leleque;Leleque;Leleque;;;;;;;;;x
+PROV10;Cushamen;Cushamen;Cushamen;Cushamen;;;;;;;;;x
+PROV11;Futaleufú;Futaleufú;Futaleufú;Futaleufú;;;;;;;;;x
+PROV12;Languiñeo;Languiñeo;Languiñeo;Languiñeo;;;;;;;;;x
+PROV13;Carrenleufú;Carrenleufú;Carrenleufú;Carrenleufú;;;;;;;;;x
+PROV14;Vintter;Vintter;Vintter;Vintter;;;;;;;;;x
+PROV15;Sacanana;Sacanana;Sacanana;Sacanana;;;;;;;;;x
 PROV16;Meseta del Colorado;Meseta del Colorado;Colorado-Hochebene;Meseta del Colorado;;;;;;;;;x
 PROV17;Bosques Petrificados;Forêts Pétrifiées;Versteinerte Wälder;Bosques Petrificados;;;;;;;;;x
 PROV18;Laura;Laura;Laura;Laura;;;;;;;;;x
@@ -126,32 +132,7 @@ PROV136;Chalileo;Chalileo;Chalileo;Chalileo;;;;;;;;;x
 PROV137;Limay Mahuida;Limay Mahuida;Limay Mahuida;Limay Mahuida;;;;;;;;;x
 PROV138;Puelén;Puelén;Puelén;Puelén;;;;;;;;;x
 
-PROV149;Fagnano Lake;Lac Fagnano;Fagnano-See;Lago Fagnano;;;;;;;;;x
-PROV150;Yehuin Lake;Lac Yehuin;Yehuin-See;Lago Yehuin;;;;;;;;;x
-PROV151;White Lake;Lac Blanc;Weißer See;Lago Blanco;;;;;;;;;x
-PROV152;Ofhidro Lake;Lac Ofhidro;Ofhidro-See;Lago Ofhidro;;;;;;;;;x
-PROV153;White Lagoon;Lagune Blanche;Weiße Lagune;Laguna Blanca;;;;;;;;;x
-PROV154;San Martín Lake;Lac San Martín;San-Martín-See;Lago San Martín;;;;;;;;;x
-PROV155;Nansen Lake;Lac Nansen;Nansen-See;Lago Nansen;;;;;;;;;x
-PROV156;Cardiel Lake;Lac Cardiel;Cardiel-See;Lago Cardiel;;;;;;;;;x
-PROV157;Carrera Lake;Lac Carrera;Carrera-See;Lago Carrera;;;;;;;;;x
-PROV158;Pueyrredón Lake;Lac Pueyrredón;Pueyrredón-See;Lago Pueyrredón;;;;;;;;;x
-PROV159;Viedma Lake;Lac Viedma;Viedma-See;Lago Viedma;;;;;;;;;x
-PROV160;Argentino Lake;Lac Argentino;Argentino-See;Lago Argentino;;;;;;;;;x
-PROV161;Argentino Lake;Lac Argentino;Argentino-See;Lago Argentino;;;;;;;;;x
-PROV162;Grey Lake;Lac Grey;Grey-See;Lago Grey;;;;;;;;;x
-PROV163;Toro Lake;Lac Toro;Toro-See;Lago Toro;;;;;;;;;x
-PROV164;Plata-Fontana Lake;Lac Plata-Fontana;Plata-Fontana-See;Lago Plata-Fontana;;;;;;;;;x
-PROV165;Rosselot Lake;Lac Rosselot;Rosselot-See;Lago Rosselot;;;;;;;;;x
-PROV166;Colhue-Huapi Lake;Lac Colhue-Huapi;Colhue-Huapi-See;Lago Colhué Huapi;;;;;;;;;x
-PROV167;Musters Lake;Lac Musters;Musters-See;Lago Musters;;;;;;;;;x
-PROV168;Yelcho Lake;Lac Yelcho;Yelcho-See;Lago Yelcho;;;;;;;;;x
-PROV169;Llanquihue Lake;Lac Llanquihue;Llanquihue-See;Lago Llanquihue;;;;;;;;;x
-PROV170;Todos Los Santos Lake;Lac Todos los Santos;Todos-los-Santos-See;Lago Todos los Santos;;;;;;;;;x
-PROV171;Rupanco Lake;Lac Rupanco;Rupanco-See;Lago Rupanco;;;;;;;;;x
-PROV172;Puyehue Lake;Lac Puyehue;Puyehue-See;Lago Puyehue;;;;;;;;;x
-PROV173;Ranco Lake;Lac Ranco;Ranco-See;Lago Ranco;;;;;;;;;x
-PROV174;Palena Lake;Lac Palena;Palena-See;Lago Palena;;;;;;;;;x
+
 
 PROV201;Ancud;Ancud;Ancud;Ancud;;;;;;;;;x
 PROV202;Chiloé;Chiloé;Chiloé;Chiloé;;;;;;;;;x
@@ -191,6 +172,34 @@ PROV235;Melipilla;Melipilla;Melipilla;Melipilla;;;;;;;;;x
 PROV236;Chacabuco;Chacabuco;Chacabuco;Chacabuco;;;;;;;;;x
 PROV237;Maipo;Maipo;Maipo;Maipo;;;;;;;;;x
 PROV238;Santa María;Île Santa María;Santa-María-Insel;Santa María;;;;;;;;;x
+
+PROV800;Fagnano Lake;Lac Fagnano;Fagnano-See;Lago Fagnano;;;;;;;;;x
+PROV801;Yehuin Lake;Lac Yehuin;Yehuin-See;Lago Yehuin;;;;;;;;;x
+PROV802;White Lake;Lac Blanc;Weißer See;Lago Blanco;;;;;;;;;x
+PROV803;Ofhidro Lake;Lac Ofhidro;Ofhidro-See;Lago Ofhidro;;;;;;;;;x
+PROV804;White Lagoon;Lagune Blanche;Weiße Lagune;Laguna Blanca;;;;;;;;;x
+PROV805;San Martín Lake;Lac San Martín;San-Martín-See;Lago San Martín;;;;;;;;;x
+PROV806;Nansen Lake;Lac Nansen;Nansen-See;Lago Nansen;;;;;;;;;x
+PROV807;Cardiel Lake;Lac Cardiel;Cardiel-See;Lago Cardiel;;;;;;;;;x
+PROV808;Carrera-Buenos Aires Lake;Lac Carrera-Buenos Aires;Carrera-Buenos Aires-See;Lago Carrera-Buenos Aires;;;;;;;;;x
+PROV809;Cochrane-Pueyrredón Lake;Lac Cochrane-Pueyrredón;Cochrane-Pueyrredón-See;Lago Cochrane-Pueyrredón;;;;;;;;;x
+PROV810;Viedma Lake;Lac Viedma;Viedma-See;Lago Viedma;;;;;;;;;x
+PROV811;Argentine Lake;Lac Argentin;Argentinischer See;Lago Argentino;;;;;;;;;x
+PROV812;Argentine Lake;Lac Argentin;Argentinischer See;Lago Argentino;;;;;;;;;x
+PROV813;Grey Lake;Lac Grey;Grey-See;Lago Grey;;;;;;;;;x
+PROV814;Toro Lake;Lac Toro;Toro-See;Lago Toro;;;;;;;;;x
+PROV815;Plata-Fontana Lake;Lac Plata-Fontana;Plata-Fontana-See;Lago Plata-Fontana;;;;;;;;;x
+PROV816;Rosselot Lake;Lac Rosselot;Rosselot-See;Lago Rosselot;;;;;;;;;x
+PROV817;Colhue-Huapi Lake;Lac Colhue-Huapi;Colhue-Huapi-See;Lago Colhué Huapi;;;;;;;;;x
+PROV818;Musters Lake;Lac Musters;Musters-See;Lago Musters;;;;;;;;;x
+PROV819;Yelcho Lake;Lac Yelcho;Yelcho-See;Lago Yelcho;;;;;;;;;x
+PROV820;Llanquihue Lake;Lac Llanquihue;Llanquihue-See;Lago Llanquihue;;;;;;;;;x
+PROV821;Todos Los Santos Lake;Lac Todos los Santos;Todos-los-Santos-See;Lago Todos los Santos;;;;;;;;;x
+PROV822;Rupanco Lake;Lac Rupanco;Rupanco-See;Lago Rupanco;;;;;;;;;x
+PROV823;Puyehue Lake;Lac Puyehue;Puyehue-See;Lago Puyehue;;;;;;;;;x
+PROV824;Ranco Lake;Lac Ranco;Ranco-See;Lago Ranco;;;;;;;;;x
+PROV825;Palena Lake;Lac Palena;Palena-See;Lago Palena;;;;;;;;;x
+PROV826;Yulton Lake;Lac Yulton;Yulton-See;Lago Yulton;;;;;;;;;x
 
 
 

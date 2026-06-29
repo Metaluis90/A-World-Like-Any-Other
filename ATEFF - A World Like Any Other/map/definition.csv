@@ -137,43 +137,43 @@ province;red;green;blue;x;x
 136;237;199;111;Chalileo;x
 137;234;179;51;Limay Mahuida;x
 138;234;166;18;Puelen;x
-139;0;4;114;Dummy139;x
-140;0;4;115;Dummy140;x
-141;0;4;116;Dummy141;x
-142;0;4;117;Dummy142;x
-143;0;4;118;Dummy143;x
-144;0;4;119;Dummy144;x
-145;0;4;120;Dummy145;x
-146;0;4;121;Dummy146;x
-147;0;4;122;Dummy147;x
-148;0;4;123;Dummy148;x
-149;255;253;252;Fagnano Lake;x
-150;225;221;252;Yehuin Lake;x
-151;255;221;252;Blanco Lake;x
-152;228;221;252;Ofhidro Lake;x
-153;201;244;249;Blanca Lagoon;x
-154;229;61;255;San Martin Lake;x
-155;248;204;255;Nansen Lake;x
-156;237;127;255;Cardiel Lake;x
-157;244;173;255;Carrera Lake;x
-158;244;165;255;Pueyrredon Lake;x
-159;242;173;255;Viedma Lake;x
-160;204;232;255;Argentino Lake;x
-161;198;229;255;Argentino Lake;x
-162;255;221;209;Grey Lake;x
-163;255;221;182;El Toro Lake;x
-164;255;204;255;Plata-Fontana Lake;x
-165;216;183;255;Rosselot Lake;x
-166;215;204;255;Colhue-Huapi Lake;x
-167;228;211;255;Musters Lake;x
-168;211;198;255;Yelcho Lake;x
-169;232;204;255;Llanquihue Lake;x
-170;200;198;255;Todos Los Santos Lake;x
-171;222;214;255;Rupanco Lake;x
-172;230;216;255;Puyehue Lake;x
-173;231;219;255;Ranco Lake;x
-174;184;185;242;Palena Lake;x ##
-175;229;214;255;Yulton Lake;x
+139;39;63;17;Malargue;x
+140;123;198;53;Llancanelo;x
+141;98;158;42;Payun;x
+142;0;4;117;San Rafael;x
+143;248;232;99;Tunuyan;x
+144;199;229;50;Lujan;x
+145;128;255;99;Mendoza;x
+146;65;173;38;Guaymallen;x
+147;167;255;99;Uspallata;x
+148;163;188;73;Lavalle;x
+149;137;42;219;Dummy149;x
+150;24;198;76;Dummy150;x
+151;211;93;45;Dummy151;x
+152;58;166;233;Dummy152;x
+153;190;27;144;Dummy153;x
+154;82;240;113;Dummy154;x
+155;236;151;39;Dummy155;x
+156;44;78;201;Dummy156;x
+157;169;222;61;Dummy157;x
+158;255;87;132;Dummy158;x
+159;103;35;188;Dummy159;x
+160;17;214;205;Dummy160;x
+161;226;64;94;Dummy161;x
+162;71;129;245;Dummy162;x
+163;194;238;28;Dummy163;x
+164;132;54;167;Dummy164;x
+165;249;183;73;Dummy165;x
+166;38;201;142;Dummy166;x
+167;215;105;230;Dummy167;x
+168;91;246;52;Dummy168;x
+169;163;72;25;Dummy169;x
+170;54;118;216;Dummy170;x
+171;232;41;171;Dummy171;x
+172;119;209;88;Dummy172;x
+173;203;156;247;Dummy173;x
+174;33;179;192;Dummy174;x
+175;244;96;36;Dummy175;x
 176;0;4;151;Dummy176;x
 177;0;4;152;Dummy177;x
 178;0;4;153;Dummy178;x
@@ -237,13 +237,13 @@ province;red;green;blue;x;x
 236;219;46;72;Chacabuco;x
 237;237;26;57;Maipo;x
 238;216;119;148;Isla Santa Maria;x
-239;0;4;214;Dummy239;x
-240;0;4;215;Dummy240;x
-241;0;4;216;Dummy241;x
-242;0;4;217;Dummy242;x
-243;0;4;218;Dummy243;x
-244;0;4;219;Dummy244;x
-245;0;4;220;Dummy245;x
+239;198;37;61;Petorca;x
+240;190;0;32;Quillota;x
+241;216;0;32;Valparaiso;x
+242;216;43;69;San Antonio;x
+243;153;29;47;Aconcagua;x
+244;153;16;37;Masatierra;x
+245;206;22;53;Masafuera;x
 246;0;4;221;Dummy246;x
 247;0;4;222;Dummy247;x
 248;0;4;223;Dummy248;x
@@ -798,33 +798,33 @@ province;red;green;blue;x;x
 797;0;7;4;Dummy797;x
 798;0;7;5;Dummy798;x
 799;0;7;6;Dummy799;x
-800;0;7;7;Dummy800;x
-801;0;7;8;Dummy801;x
-802;0;7;9;Dummy802;x
-803;0;7;10;Dummy803;x
-804;0;7;11;Dummy804;x
-805;0;7;12;Dummy805;x
-806;0;7;13;Dummy806;x
-807;0;7;14;Dummy807;x
-808;0;7;15;Dummy808;x
-809;0;7;16;Dummy809;x
-810;0;7;17;Dummy810;x
-811;0;7;18;Dummy811;x
-812;0;7;19;Dummy812;x
-813;0;7;20;Dummy813;x
-814;0;7;21;Dummy814;x
-815;0;7;22;Dummy815;x
-816;0;7;23;Dummy816;x
-817;0;7;24;Dummy817;x
-818;0;7;25;Dummy818;x
-819;0;7;26;Dummy819;x
-820;0;7;27;Dummy820;x
-821;0;7;28;Dummy821;x
-822;0;7;29;Dummy822;x
-823;0;7;30;Dummy823;x
-824;0;7;31;Dummy824;x
-825;0;7;32;Dummy825;x
-826;0;7;33;Dummy826;x
+800;255;253;252;Fagnano Lake;x
+801;225;221;252;Yehuin Lake;x
+802;255;221;252;Blanco Lake;x
+803;228;221;252;Ofhidro Lake;x
+804;201;244;249;Blanca Lagoon;x
+805;229;61;255;San Martin Lake;x
+806;248;204;255;Nansen Lake;x
+807;237;127;255;Cardiel Lake;x
+808;244;173;255;Carrera Lake;x
+809;244;165;255;Pueyrredon Lake;x
+810;242;173;255;Viedma Lake;x
+811;204;232;255;Argentino Lake;x
+812;198;229;255;Argentino Lake;x
+813;255;221;209;Grey Lake;x
+814;255;221;182;El Toro Lake;x
+815;255;204;255;Plata-Fontana Lake;x
+816;216;183;255;Rosselot Lake;x
+817;215;204;255;Colhue-Huapi Lake;x
+818;228;211;255;Musters Lake;x
+819;211;198;255;Yelcho Lake;x
+820;232;204;255;Llanquihue Lake;x
+821;200;198;255;Todos Los Santos Lake;x
+822;222;214;255;Rupanco Lake;x
+823;230;216;255;Puyehue Lake;x
+824;231;219;255;Ranco Lake;x
+825;184;185;242;Palena Lake;x ##
+826;229;214;255;Yulton Lake;x
 827;0;7;34;Dummy827;x
 828;0;7;35;Dummy828;x
 829;0;7;36;Dummy829;x
