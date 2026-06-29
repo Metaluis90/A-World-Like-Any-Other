@@ -1043,7 +1043,7 @@ character_event = {
 	prisoner = no
 
 	trigger = {
-		is_catholic_trigger = yes	]
+		is_catholic_trigger = yes
 		#todo Perhaps make this event compatible with Sagrado Corazon/Vernacular religions or even with all Christians;
 	}
 
