@@ -236,7 +236,7 @@ province;red;green;blue;x;x
 235;151;31;48;Melipilla;x
 236;219;46;72;Chacabuco;x
 237;237;26;57;Maipo;x
-238;216;119;148;Dummy238;x
+238;153;16;132;Desventuradas;x
 239;198;37;61;Petorca;x
 240;190;0;32;Quillota;x
 241;216;0;32;Valparaiso;x
@@ -260,9 +260,9 @@ province;red;green;blue;x;x
 259;198;47;168;Huara;x
 260;234;58;113;Arica;x
 261;234;0;113;Parinacota;x
-262;0;4;237;Dummy262;x
-263;0;4;238;Dummy263;x
-264;0;4;239;Dummy264;x
+262;182;16;37;Salas y Gomez;x
+263;182;55;37;Pascua;x
+264;18;1;7;Dummy264;x
 265;0;4;240;Dummy265;x
 266;0;4;241;Dummy266;x
 267;0;4;242;Dummy267;x
