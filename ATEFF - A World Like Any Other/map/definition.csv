@@ -152,12 +152,12 @@ province;red;green;blue;x;x
 151;181;216;52;Atuel;x
 152;159;158;42;San Rafael;x
 153;185;234;49;Alvear;x
-154;82;240;113;Dummy154;x
-155;236;151;39;Dummy155;x
-156;44;78;201;Dummy156;x
-157;169;222;61;Dummy157;x
-158;255;87;132;Dummy158;x
-159;103;35;188;Dummy159;x
+154;116;173;97;Bajo Retamo;x
+155;143;216;71;Conlara;x
+156;35;122;57;Nogoli;x
+157;102;130;63;San Luis;x
+158;148;188;92;Pedernera;x #Alt. Comechingones
+159;47;167;78;Dupuy;x
 160;17;214;205;Dummy160;x
 161;226;64;94;Dummy161;x
 162;71;129;245;Dummy162;x
@@ -220,13 +220,13 @@ province;red;green;blue;x;x
 219;229;0;61;Los Angeles;x
 220;145;15;50;Concepcion;x
 221;196;27;72;Arauco;x
-222;247;54;102;Lonquimay;x
+222;247;54;102;Lonquimay;x ###Desaparecer
 223;237;18;58;Itata;x #Ñuble
 224;237;111;134;Punilla;x
 225;237;73;103;Diguillin;x
 226;178;73;103;Cauquenes;x
 227;229;80;115;Linares;x
-228;219;92;130;Isla Mocha;x
+228;219;92;130;Dummy228;x
 229;229;55;107;Talca;x
 230;224;31;111;Curico;x
 231;229;20;34;Cachapoal;x
@@ -236,7 +236,7 @@ province;red;green;blue;x;x
 235;151;31;48;Melipilla;x
 236;219;46;72;Chacabuco;x
 237;237;26;57;Maipo;x
-238;216;119;148;Isla Santa Maria;x
+238;216;119;148;Dummy238;x
 239;198;37;61;Petorca;x
 240;190;0;32;Quillota;x
 241;216;0;32;Valparaiso;x
@@ -244,22 +244,22 @@ province;red;green;blue;x;x
 243;153;29;47;Aconcagua;x
 244;153;16;37;Masatierra;x
 245;206;22;53;Masafuera;x
-246;0;4;221;Dummy246;x
-247;0;4;222;Dummy247;x
-248;0;4;223;Dummy248;x
-249;0;4;224;Dummy249;x
-250;0;4;225;Dummy250;x
-251;0;4;226;Dummy251;x
-252;0;4;227;Dummy252;x
-253;0;4;228;Dummy253;x
-254;0;4;229;Dummy254;x
-255;0;4;230;Dummy255;x
-256;0;4;231;Dummy256;x
-257;0;4;232;Dummy257;x
-258;0;4;233;Dummy258;x
-259;0;4;234;Dummy259;x
-260;0;4;235;Dummy260;x
-261;0;4;236;Dummy261;x
+246;173;38;80;Choapa;x
+247;206;0;65;Limari;x
+248;137;23;59;Elqui;x
+249;168;0;53;Coquimbo;x
+250;143;0;101;Huasco;x
+251;143;0;159;Copiapo;x
+252;143;0;78;Chañaral;x
+253;194;0;120;Antofagasta;x
+254;255;48;179;Atacama;x
+255;160;0;120;Loa;x
+256;194;70;120;Tocopilla;x
+257;201;0;159;Tamarugal;x
+258;224;87;178;Iquique;x
+259;198;47;168;Huara;x
+260;234;58;113;Arica;x
+261;234;0;113;Parinacota;x
 262;0;4;237;Dummy262;x
 263;0;4;238;Dummy263;x
 264;0;4;239;Dummy264;x
