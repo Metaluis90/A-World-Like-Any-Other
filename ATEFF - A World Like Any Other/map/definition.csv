@@ -1,12 +1,12 @@
 province;red;green;blue;x;x
-1;13;222;9;Dummy1;x
-2;133;184;135;Dummy2;x
-3;182;12;84;Dummy3;x
-4;79;142;35;Dummy4;x
-5;12;18;18;Dummy5;x
-6;191;248;196;Dummy6;x
-7;181;13;9;Dummy7;x
-8;185;13;0;Dummy8;x
+1;227;234;14;Jujuy;x
+2;181;232;53;Calilegua;x
+3;186;219;13;Santa Barbara;x
+4;144;168;10;Yunga;x
+5;217;213;15;Tumbaya;x
+6;189;182;13;Humahuaca;x
+7;191;198;109;Cochinoca;x
+8;201;219;13;Susques;x
 9;188;47;62;Leleque;x
 10;255;15;19;Cushamen;x
 11;255;43;64;Futaleufu;x
@@ -158,45 +158,45 @@ province;red;green;blue;x;x
 157;102;130;63;San Luis;x
 158;148;188;92;Pedernera;x #Alt. Comechingones
 159;47;167;78;Dupuy;x
-160;17;214;205;Dummy160;x
-161;226;64;94;Dummy161;x
-162;71;129;245;Dummy162;x
-163;194;238;28;Dummy163;x
-164;132;54;167;Dummy164;x
-165;249;183;73;Dummy165;x
-166;38;201;142;Dummy166;x
-167;215;105;230;Dummy167;x
-168;91;246;52;Dummy168;x
-169;163;72;25;Dummy169;x
-170;54;118;216;Dummy170;x
-171;232;41;171;Dummy171;x
-172;119;209;88;Dummy172;x
-173;203;156;247;Dummy173;x
-174;33;179;192;Dummy174;x
-175;244;96;36;Dummy175;x
-176;0;4;151;Dummy176;x
-177;0;4;152;Dummy177;x
-178;0;4;153;Dummy178;x
-179;0;4;154;Dummy179;x
-180;0;4;155;Dummy180;x
-181;0;4;156;Dummy181;x
-182;0;4;157;Dummy182;x
-183;0;4;158;Dummy183;x
-184;0;4;159;Dummy184;x
-185;0;4;160;Dummy185;x
-186;0;4;161;Dummy186;x
-187;0;4;162;Dummy187;x
-188;0;4;163;Dummy188;x
-189;0;4;164;Dummy189;x
-190;0;4;165;Dummy190;x
-191;0;4;166;Dummy191;x
-192;0;4;167;Dummy192;x
-193;0;4;168;Dummy193;x
-194;0;4;169;Dummy194;x
-195;0;4;170;Dummy195;x
-196;0;4;171;Dummy196;x
-197;0;4;172;Dummy197;x
-198;0;4;173;Dummy198;x
+160;62;168;38;Calingasta;x
+161;45;211;8;Sarmiento;x
+162;156;247;136;Ullum;x
+163;35;167;6;San Juan;x
+164;114;204;93;Caucete;x
+165;96;165;53;Jachal;x
+166;44;206;8;Iglesia;x
+167;37;81;37;Chepes;x
+168;74;84;74;Chamical;x
+169;0;86;6;La Rioja;x
+170;32;163;36;Famatina;x
+171;29;112;34;Vinchinas;x
+172;77;107;7;Tinogasta;x
+173;58;84;0;Antofagasta de la Sierra;x
+174;115;142;52;Belen;x
+175;119;165;11;Santa Maria;x
+176;100;119;55;Andalgala;x
+177;62;86;6;Catamarca;x
+178;99;137;9;Ancasti;x
+179;143;198;13;Ambato;x
+180;216;255;0;Sali;x
+181;209;239;55;Tucuman;x
+182;201;216;88;Burruyacu;x
+183;206;192;41;Aconquija;x
+184;153;173;41;Tafi;x
+185;156;216;99;Cayafate;x
+186;152;216;93;Rosario de la Frontera;x
+187;193;216;171;Guachipas;x
+188;87;135;43;Cachalqui;x
+189;128;204;12;Lerma;x
+190;130;196;25;Poma;x
+191;112;219;13;Salta;x
+192;120;234;14;Puna;x
+193;125;168;82;Metan;x
+194;105;188;37;Anta;x
+195;150;216;113;Rivadavia;x
+196;117;188;69;Tartagal;x
+197;140;216;69;Oran;x
+198;118;229;47;Iruya;x
 199;0;4;174;Dummy199;x
 200;0;4;175;Dummy200;x
 201;86;46;0;Ancud;x

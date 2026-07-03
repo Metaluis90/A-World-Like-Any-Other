@@ -1,6 +1,14 @@
 ########################################
 ### A World Like Any Other Provinces ###
 ########################################
+PROV1;Jujuy;Jujuy;Jujuy;Jujuy;;;;;;;;;x
+PROV2;Calilegua;Calilegua;Calilegua;Calilegua;;;;;;;;;x
+PROV3;Santa Bárbara;Santa Bárbara;Santa Bárbara;Santa Bárbara;;;;;;;;;x
+PROV4;Yunga;Yunga;Yunga;Yunga;;;;;;;;;x
+PROV5;Tumbaya;Tumbaya;Tumbaya;Tumbaya;;;;;;;;;x
+PROV6;Humahuaca;Humahuaca;Humahuaca;Humahuaca;;;;;;;;;x
+PROV7;Cochinoca;Cochinoca;Cochinoca;Cochinoca;;;;;;;;;x
+PROV8;Susques;Susques;Susques;Susques;;;;;;;;;x
 PROV9;Leleque;Leleque;Leleque;Leleque;;;;;;;;;x
 PROV10;Cushamen;Cushamen;Cushamen;Cushamen;;;;;;;;;x
 PROV11;Futaleufú;Futaleufú;Futaleufú;Futaleufú;;;;;;;;;x
@@ -152,6 +160,45 @@ PROV156;Nogolí;Nogolí;Nogolí;Nogolí;;;;;;;;;x
 PROV157;San Luis;San Luis;San Luis;San Luis;;;;;;;;;x
 PROV158;Pedernera;Pedernera;Pedernera;Pedernera;;;;;;;;;x
 PROV159;Dupuy;Dupuy;Dupuy;Dupuy;;;;;;;;;x
+PROV160;Calingasta;Calingasta;Calingasta;Calingasta;;;;;;;;;x
+PROV161;Sarmiento;Sarmiento;Sarmiento;Sarmiento;;;;;;;;;x
+PROV162;Ullum;Ullum;Ullum;Ullum;;;;;;;;;x
+PROV163;San Juan;San Juan;San Juan;San Juan;;;;;;;;;x
+PROV164;Caucete;Caucete;Caucete;Caucete;;;;;;;;;x
+PROV165;Jáchal;Jáchal;Jáchal;Jáchal;;;;;;;;;x
+PROV166;Iglesia;Iglesia;Iglesia;Iglesia;;;;;;;;;x
+PROV167;Chepes;Chepes;Chepes;Chepes;;;;;;;;;x
+PROV168;Chamical;Chamical;Chamical;Chamical;;;;;;;;;x
+PROV169;La Rioja;La Rioja;La Rioja;La Rioja;;;;;;;;;x
+PROV170;Famatina;Famatina;Famatina;Famatina;;;;;;;;;x
+PROV171;Vinchinas;Vinchinas;Vinchinas;Vinchinas;;;;;;;;;x
+PROV172;Tinogasta;Tinogasta;Tinogasta;Tinogasta;;;;;;;;;x
+PROV173;Antofagasta de la Sierra;Antofagasta de la Sierra;Antofagasta de la Sierra;Antofagasta de la Sierra;;;;;;;;;x
+PROV174;Belén;Belén;Belén;Belén;;;;;;;;;x
+PROV175;Santa María;Santa María;Santa María;Santa María;;;;;;;;;x
+PROV176;Andalgalá;Andalgalá;Andalgalá;Andalgalá;;;;;;;;;x
+PROV177;Catamarca;Catamarca;Catamarca;Catamarca;;;;;;;;;x
+PROV178;Ancasti;Ancasti;Ancasti;Ancasti;;;;;;;;;x
+PROV179;Ambato;Ambato;Ambato;Ambato;;;;;;;;;x
+PROV180;Salí;Salí;Salí;Salí;;;;;;;;;x
+PROV181;Tucumán;Tucumán;Tucumán;Tucumán;;;;;;;;;x
+PROV182;Burruyacú;Burruyacú;Burruyacú;Burruyacú;;;;;;;;;x
+PROV183;Aconquija;Aconquija;Aconquija;Aconquija;;;;;;;;;x
+PROV184;Tafí;Tafí;Tafí;Tafí;;;;;;;;;x
+PROV185;Cafayate;Cafayate;Cafayate;Cafayate;;;;;;;;;x
+PROV186;Rosario de la Frontera;Rosario de la Frontera;Rosario de la Frontera;Rosario de la Frontera;;;;;;;;;x
+PROV187;Guachipas;Guachipas;Guachipas;Guachipas;;;;;;;;;x
+PROV188;Cachi;Cachi;Cachi;Cachi;;;;;;;;;x
+PROV189;Lerma;Lerma;Lerma;Lerma;;;;;;;;;x
+PROV190;La Poma;La Poma;La Poma;La Poma;;;;;;;;;x
+PROV191;Salta;Salta;Salta;Salta;;;;;;;;;x
+PROV192;Puna;Puna;Puna;Puna;;;;;;;;;x
+PROV193;Metán;Metán;Metán;Metán;;;;;;;;;x
+PROV194;Anta;Anta;Anta;Anta;;;;;;;;;x
+PROV195;Rivadavia;Rivadavia;Rivadavia;Rivadavia;;;;;;;;;x
+PROV196;Tartagal;Tartagal;Tartagal;Tartagal;;;;;;;;;x
+PROV197;Orán;Orán;Orán;Orán;;;;;;;;;x
+PROV198;Iruya;Iruya;Iruya;Iruya;;;;;;;;;x
 
 PROV201;Ancud;Ancud;Ancud;Ancud;;;;;;;;;x
 PROV202;Chiloé;Chiloé;Chiloé;Chiloé;;;;;;;;;x
