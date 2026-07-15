@@ -450,14 +450,14 @@ PROV801;Yehuin Lake;Lac Yehuin;Yehuin-See;Lago Yehuin;;;;;;;;;x
 PROV802;White Lake;Lac Blanc;Weißer See;Lago Blanco;;;;;;;;;x
 PROV803;Ofhidro Lake;Lac Ofhidro;Ofhidro-See;Lago Ofhidro;;;;;;;;;x
 PROV804;White Lagoon;Lagune Blanche;Weiße Lagune;Laguna Blanca;;;;;;;;;x
-PROV805;San Martín Lake;Lac San Martín;San-Martín-See;Lago San Martín;;;;;;;;;x
+#PROV805;Briceño-Cisnes-Salto Lake;;;;;;;;;;;;x
 PROV806;Nansen Lake;Lac Nansen;Nansen-See;Lago Nansen;;;;;;;;;x
 PROV807;Cardiel Lake;Lac Cardiel;Cardiel-See;Lago Cardiel;;;;;;;;;x
 PROV808;Carrera-Buenos Aires Lake;Lac Carrera-Buenos Aires;Carrera-Buenos Aires-See;Lago Carrera-Buenos Aires;;;;;;;;;x
 PROV809;Cochrane-Pueyrredón Lake;Lac Cochrane-Pueyrredón;Cochrane-Pueyrredón-See;Lago Cochrane-Pueyrredón;;;;;;;;;x
 PROV810;Viedma Lake;Lac Viedma;Viedma-See;Lago Viedma;;;;;;;;;x
 PROV811;Argentine Lake;Lac Argentin;Argentinischer See;Lago Argentino;;;;;;;;;x
-PROV812;Argentine Lake;Lac Argentin;Argentinischer See;Lago Argentino;;;;;;;;;x
+#PROV812;Argentine Lake;Lac Argentin;Argentinischer See;Lago Argentino;;;;;;;;;x
 PROV813;Grey Lake;Lac Grey;Grey-See;Lago Grey;;;;;;;;;x
 PROV814;Toro Lake;Lac Toro;Toro-See;Lago Toro;;;;;;;;;x
 PROV815;Plata-Fontana Lake;Lac Plata-Fontana;Plata-Fontana-See;Lago Plata-Fontana;;;;;;;;;x
