@@ -445,7 +445,7 @@ province;red;green;blue;x;x
 445;29;70;165;Maldonado;x
 446;24;69;204;Lavalleja;x
 447;44;66;165;Rocha;x
-448;34;54;142;Chuy;x
+448;34;54;142;Puimayen;x
 449;12;53;158;Treintaytres;x
 450;28;56;127;Merin;x
 451;40;71;155;Melo;x
@@ -463,77 +463,77 @@ province;red;green;blue;x;x
 463;5;80;173;Salto;x
 464;14;56;135;Arapey;x
 465;18;64;155;Artigas;x
-466;19;43;163;San Jose;x
-467;0;5;186;Dummy467;x
-468;0;5;187;Dummy468;x
-469;0;5;188;Dummy469;x
-470;0;5;189;Dummy470;x
-471;0;5;190;Dummy471;x
-472;0;5;191;Dummy472;x
-473;0;5;192;Dummy473;x
-474;0;5;193;Dummy474;x
-475;0;5;194;Dummy475;x
-476;0;5;195;Dummy476;x
-477;0;5;196;Dummy477;x
-478;0;5;197;Dummy478;x
-479;0;5;198;Dummy479;x
-480;0;5;199;Dummy480;x
-481;0;5;200;Dummy481;x
-482;0;5;201;Dummy482;x
-483;0;5;202;Dummy483;x
-484;0;5;203;Dummy484;x
-485;0;5;204;Dummy485;x
-486;0;5;205;Dummy486;x
-487;0;5;206;Dummy487;x
-488;0;5;207;Dummy488;x
-489;0;5;208;Dummy489;x
-490;0;5;209;Dummy490;x
-491;0;5;210;Dummy491;x
-492;0;5;211;Dummy492;x
-493;0;5;212;Dummy493;x
-494;0;5;213;Dummy494;x
-495;0;5;214;Dummy495;x
-496;0;5;215;Dummy496;x
-497;0;5;216;Dummy497;x
-498;0;5;217;Dummy498;x
-499;0;5;218;Dummy499;x
-500;0;5;219;Dummy500;x
-501;0;5;220;Dummy501;x
-502;0;5;221;Dummy502;x
-503;0;5;222;Dummy503;x
-504;0;5;223;Dummy504;x
-505;0;5;224;Dummy505;x
-506;0;5;225;Dummy506;x
-507;0;5;226;Dummy507;x
-508;0;5;227;Dummy508;x
-509;0;5;228;Dummy509;x
-510;0;5;229;Dummy510;x
-511;0;5;230;Dummy511;x
-512;0;5;231;Dummy512;x
-513;0;5;232;Dummy513;x
-514;0;5;233;Dummy514;x
-515;0;5;234;Dummy515;x
-516;0;5;235;Dummy516;x
-517;0;5;236;Dummy517;x
-518;0;5;237;Dummy518;x
-519;0;5;238;Dummy519;x
-520;0;5;239;Dummy520;x
-521;0;5;240;Dummy521;x
-522;0;5;241;Dummy522;x
-523;0;5;242;Dummy523;x
-524;0;5;243;Dummy524;x
-525;0;5;244;Dummy525;x
-526;0;5;245;Dummy526;x
-527;0;5;246;Dummy527;x
-528;0;5;247;Dummy528;x
-529;0;5;248;Dummy529;x
-530;0;5;249;Dummy530;x
-531;0;5;250;Dummy531;x
-532;0;5;251;Dummy532;x
-533;0;5;252;Dummy533;x
-534;0;5;253;Dummy534;x
-535;0;5;254;Dummy535;x
-536;0;5;255;Dummy536;x
+466;54;71;165;San Jose;x
+467;34;62;183;Lascano;x
+468;10;42;130;Vichadero;x
+469;25;64;193;Noblia;x
+470;15;50;127;Caraguata;X
+471;247;208;81;Chui;x
+472;226;191;74;Rio Grande;x
+473;224;173;4;Sao Jose do Norte;x
+474;244;199;83;Jaguarao;x
+475;255;227;71;Herval;x
+476;255;239;73;Piratini;x
+477;216;168;56;Capao do Leao;x
+478;224;190;103;Pelotas;x
+479;255;205;81;Cangucu;x
+480;229;191;52;Camaqua;x
+481;216;179;30;Feliciano;x
+482;229;179;0;Tapes;x
+483;255;190;50;Mostardas;x
+484;255;224;73;Guaiba;x
+485;255;216;0;Porto Alegre;x
+486;255;234;142;Viamao;x
+487;255;216;97;Canoas;x
+488;229;194;66;Sao Leopoldo;x
+489;255;215;43;Novo Hamburgo;x
+490;188;153;28;Taquara;x
+491;255;204;104;Pinhal;x
+492;255;185;82;Osorio;x
+493;226;170;38;Torres;x
+494;229;181;50;Caraa;x
+495;247;214;84;Sao Francisco de Paula;x
+496;244;203;53;Canela;x
+497;234;193;28;Caixas do Sul;x
+498;204;168;24;Bento Goncalves;x
+499;247;221;132;Bom Jesus;x
+500;248;209;43;Vacaria;x
+501;219;188;87;Guapore;x
+502;226;183;27;Lajeado;x
+503;239;197;28;Montenegro;x
+504;242;196;29;Estrela;x
+505;226;183;58;Santa Cruz do Sul;x
+506;224;184;38;Sao Jeronimo;x
+507;204;157;28;Cachoeira do Sul;x
+508;255;205;51;Acegua;x
+509;234;220;28;Bage;x
+510;217;181;50;Dom Pedrito;x
+511;232;216;164;Sao Gabriel;x
+512;232;198;88;Rosario do Sul;x
+513;234;190;32;Santana do Livramento;x
+514;249;213;62;Quarai;x
+515;228;175;17;Uruguaiana;x
+516;188;142;15;Alegrete;x
+517;234;177;18;Itaqui;x
+518;224;194;42;Macaramba;x
+519;224;211;148;Manoel Viana;x
+520;234;215;117;Sao Borja;x
+521;221;179;82;Cacequi;x
+522;204;178;93;Santa Maria;x
+523;217;173;81;Restinga Seca;x
+524;234;195;53;Jaguari;x
+525;239;190;91;Santiago;x
+526;255;202;28;Santo Angelo;x
+527;217;178;61;Xavier;x
+528;234;179;39;Santa Rosa;x
+529;255;203;99;Tres Passos;x
+530;247;217;108;Ijui;x
+531;244;202;48;Cruz Alta;x
+532;229;200;105;Soledade;x
+533;232;186;23;Passo Fundo;x
+534;198;169;63;Westphalen;x
+535;239;204;76;Echerim;x
+536;255;217;81;Sananduva;x
 537;0;6;0;Dummy537;x
 538;0;6;1;Dummy538;x
 539;0;6;2;Dummy539;x
