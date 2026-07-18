@@ -1,14 +1,14 @@
 ########################################
 ### A World Like Any Other Provinces ###
 ########################################
-PROV1;Jujuy;Jujuy;Jujuy;Jujuy;;;;;;;;;x
-PROV2;Calilegua;Calilegua;Calilegua;Calilegua;;;;;;;;;x
-PROV3;Santa Bárbara;Santa Bárbara;Santa Bárbara;Santa Bárbara;;;;;;;;;x
-PROV4;Yunga;Yunga;Yunga;Yunga;;;;;;;;;x
-PROV5;Tumbaya;Tumbaya;Tumbaya;Tumbaya;;;;;;;;;x
-PROV6;Humahuaca;Humahuaca;Humahuaca;Humahuaca;;;;;;;;;x
-PROV7;Cochinoca;Cochinoca;Cochinoca;Cochinoca;;;;;;;;;x
-PROV8;Susques;Susques;Susques;Susques;;;;;;;;;x
+#PROV1;Jujuy;Jujuy;Jujuy;Jujuy;;;;;;;;;x
+#PROV2;Calilegua;Calilegua;Calilegua;Calilegua;;;;;;;;;x
+#PROV3;Santa Bárbara;Santa Bárbara;Santa Bárbara;Santa Bárbara;;;;;;;;;x
+#PROV4;Yunga;Yunga;Yunga;Yunga;;;;;;;;;x
+#PROV5;Tumbaya;Tumbaya;Tumbaya;Tumbaya;;;;;;;;;x
+PROV6;Chaitén;Chaitén;Chaitén;Chaitén;;;;;;;;;x
+PROV7;Alerces;Alerces;Alerces;Alerces;;;;;;;;;x
+PROV8;Epuyén;Epuyén;Epuyén;Epuyén;;;;;;;;;x
 PROV9;Leleque;Leleque;Leleque;Leleque;;;;;;;;;x
 PROV10;Cushamen;Cushamen;Cushamen;Cushamen;;;;;;;;;x
 PROV11;Futaleufú;Futaleufú;Futaleufú;Futaleufú;;;;;;;;;x
@@ -254,7 +254,7 @@ PROV251;Copiapó;Copiapó;Copiapó;Copiapó;;;;;;;;;x
 PROV252;Chañaral;Chañaral;Chañaral;Chañaral;;;;;;;;;x
 PROV253;Antofagasta;Antofagasta;Antofagasta;Antofagasta;;;;;;;;;x
 PROV254;Atacama;Atacama;Atacama;Atacama;;;;;;;;;x
-PROV255;Loa;Loa;Loa;Loa;;;;;;;;;x
+PROV255;Calama;Calama;Calama;Calama;;;;;;;;;x
 PROV256;Tocopilla;Tocopilla;Tocopilla;Tocopilla;;;;;;;;;x
 PROV257;Tamarugal;Tamarugal;Tamarugal;Tamarugal;;;;;;;;;x
 PROV258;Iquique;Iquique;Iquique;Iquique;;;;;;;;;x
@@ -267,187 +267,206 @@ PROV264;Huascaltino;Huascaltino;Huascaltino;Huascaltino;;;;;;;;;x
 PROV265;Ojos del Salado;Ojos del Salado;Ojos del Salado;Ojos del Salado;;;;;;;;;x
 PROV267;Caldera;Caldera;Caldera;Caldera;;;;;;;;;x
 PROV268;Atacama Desert;Désert d'Atacama;Atacamawüste;Desierto de Atacama;;;;;;;;;x
-PROV273;Patagones;Patagones;Patagones;Patagones;;;;;;;;;x
-PROV274;San Blas;San Blas;San Blas;San Blas;;;;;;;;;x
-PROV275;Villarino;Villarino;Villarino;Villarino;;;;;;;;;x
-PROV276;Médanos;Médanos;Médanos;Médanos;;;;;;;;;x
-PROV277;Bahía Blanca;Bahía Blanca;Bahía Blanca;Bahía Blanca;;;;;;;;;x
-PROV278;Punta Alta;Punta Alta;Punta Alta;Punta Alta;;;;;;;;;x
-PROV279;Dorrego;Dorrego;Dorrego;Dorrego;;;;;;;;;x
-PROV280;Necochea;Necochea;Necochea;Necochea;;;;;;;;;x
-PROV281;Lobería;Lobería;Lobería;Lobería;;;;;;;;;x
-PROV282;Mar del Plata;Mar del Plata;Mar del Plata;Mar del Plata;;;;;;;;;x
-PROV283;Gesell;Gesell;Gesell;Gesell;;;;;;;;;x
-PROV284;Madariaga;Madariaga;Madariaga;Madariaga;;;;;;;;;x
-PROV285;Tuyú;Tuyú;Tuyú;Tuyú;;;;;;;;;x
-PROV286;Dolores;Dolores;Dolores;Dolores;;;;;;;;;x
-PROV287;Punta Indio;Punta Indio;Punta Indio;Punta Indio;;;;;;;;;x
-PROV288;La Plata;La Plata;La Plata;La Plata;;;;;;;;;x
-PROV289;Quilmes;Quilmes;Quilmes;Quilmes;;;;;;;;;x
-PROV290;La Matanza;La Matanza;La Matanza;La Matanza;;;;;;;;;x
-PROV291;Cañuelas;Cañuelas;Cañuelas;Cañuelas;;;;;;;;;x
-PROV292;Pilar;Pilar;Pilar;Pilar;;;;;;;;;x
-PROV293;Morón;Morón;Morón;Morón;;;;;;;;;x
-PROV294;Buenos Aires;Buenos Aires;Buenos Aires;Buenos Aires;;;;;;;;;x
-PROV295;Tigre;Tigre;Tigre;Tigre;;;;;;;;;x
-PROV296;Campana;Campana;Campana;Campana;;;;;;;;;x
-PROV297;Zárate;Zárate;Zárate;Zárate;;;;;;;;;x
-PROV298;Ramallo;Ramallo;Ramallo;Ramallo;;;;;;;;;x
-PROV299;Pergamino;Pergamino;Pergamino;Pergamino;;;;;;;;;x
-PROV300;Areco;Areco;Areco;Areco;;;;;;;;;x
-PROV301;Luján;Luján;Luján;Luján;;;;;;;;;x
-PROV302;Chivilcoy;Chivilcoy;Chivilcoy;Chivilcoy;;;;;;;;;x
-PROV303;Chacabuco;Chacabuco;Chacabuco;Chacabuco;;;;;;;;;x
-PROV304;Junín;Junín;Junín;Junín;;;;;;;;;x
-PROV305;Lincoln;Lincoln;Lincoln;Lincoln;;;;;;;;;x
-PROV306;Villegas;Villegas;Villegas;Villegas;;;;;;;;;x
-PROV307;Trenque Lauquen;Trenque Lauquen;Trenque Lauquen;Trenque Lauquen;;;;;;;;;x
-PROV308;Alsina;Alsina;Alsina;Alsina;;;;;;;;;x
-PROV309;Guaminí;Guaminí;Guaminí;Guaminí;;;;;;;;;x
-PROV310;Daireaux;Daireaux;Daireaux;Daireaux;;;;;;;;;x
-PROV311;Pehuajó;Pehuajó;Pehuajó;Pehuajó;;;;;;;;;x
-PROV312;Bragado;Bragado;Bragado;Bragado;;;;;;;;;x
-PROV313;Saladillo;Saladillo;Saladillo;Saladillo;;;;;;;;;x
-PROV314;Belgrano;Belgrano;Belgrano;Belgrano;;;;;;;;;x
-PROV315;Lobos;Lobos;Lobos;Lobos;;;;;;;;;x
-PROV316;Brandsen;Brandsen;Brandsen;Brandsen;;;;;;;;;x
-PROV317;Chascomús;Chascomús;Chascomús;Chascomús;;;;;;;;;x
-PROV318;Ayacucho;Ayacucho;Ayacucho;Ayacucho;;;;;;;;;x
-PROV319;Castelli;Castelli;Castelli;Castelli;;;;;;;;;x
-PROV320;Balcarce;Balcarce;Balcarce;Balcarce;;;;;;;;;x
-PROV321;Tandil;Tandil;Tandil;Tandil;;;;;;;;;x
-PROV322;Tapalqué;Tapalqué;Tapalqué;Tapalqué;;;;;;;;;x
-PROV323;Olavarría;Olavarría;Olavarría;Olavarría;;;;;;;;;x
-PROV324;Laprida;Laprida;Laprida;Laprida;;;;;;;;;x
-PROV325;Saavedra;Saavedra;Saavedra;Saavedra;;;;;;;;;x
-PROV326;Puan;Puan;Puan;Puan;;;;;;;;;x
-PROV327;Ibicuy;Ibicuy;Ibicuy;Ibicuy;;;;;;;;;x
-PROV328;Lechiguanas;Lechiguanas;Lechiguanas;Lechiguanas;;;;;;;;;x
-PROV329;Gualeguaychú;Gualeguaychú;Gualeguaychú;Gualeguaychú;;;;;;;;;x
-PROV330;Gualeguay;Gualeguay;Gualeguay;Gualeguay;;;;;;;;;x
-PROV331;Victoria;Victoria;Victoria;Victoria;;;;;;;;;x
-PROV332;Paraná;Paraná;Paraná;Paraná;;;;;;;;;x
-PROV333;Nogoyá;Nogoyá;Nogoyá;Nogoyá;;;;;;;;;x
-PROV334;Uruguay;Uruguay;Uruguay;Uruguay;;;;;;;;;x
-PROV335;Villaguay;Villaguay;Villaguay;Villaguay;;;;;;;;;x
-PROV336;La Paz;La Paz;La Paz;La Paz;;;;;;;;;x
-PROV337;Federal;Federal;Federal;Federal;;;;;;;;;x
-PROV338;Concordia;Concordia;Concordia;Concordia;;;;;;;;;x
-PROV339;Sauce;Sauce;Sauce;Sauce;;;;;;;;;x
-PROV340;Curuzú Cuatiá;Curuzú Cuatiá;Curuzú Cuatiá;Curuzú Cuatiá;;;;;;;;;x
-PROV341;Goya;Goya;Goya;Goya;;;;;;;;;x
-PROV342;Mercedes;Mercedes;Mercedes;Mercedes;;;;;;;;;x
-PROV343;Miriñay;Miriñay;Miriñay;Miriñay;;;;;;;;;x
-PROV344;Aguapey;Aguapey;Aguapey;Aguapey;;;;;;;;;x
-PROV345;Ituzaingó;Ituzaingó;Ituzaingó;Ituzaingó;;;;;;;;;x
-PROV346;Mburucuyá;Mburucuyá;Mburucuyá;Mburucuyá;;;;;;;;;x
-PROV347;Bella Vista;Bella Vista;Bella Vista;Bella Vista;;;;;;;;;x
-PROV348;Corrientes;Corrientes;Corrientes;Corrientes;;;;;;;;;x
-PROV349;Palmar;Palmar;Palmar;Palmar;;;;;;;;;x
-PROV350;Itatí;Itatí;Itatí;Itatí;;;;;;;;;x
-PROV351;Posadas;Posadas;Posadas;Posadas;;;;;;;;;x
-PROV352;Itacuará;Itacuará;Itacuará;Itacuará;;;;;;;;;x
-PROV353;Oberá;Oberá;Oberá;Oberá;;;;;;;;;x
-PROV354;San Ignacio;San Ignacio;San Ignacio;San Ignacio;;;;;;;;;x
-PROV355;Cainguás;Cainguás;Cainguás;Cainguás;;;;;;;;;x
-PROV356;Guaraní;Guaraní;Guaraní;Guaraní;;;;;;;;;x
-PROV357;Yabotí;Yabotí;Yabotí;Yabotí;;;;;;;;;x
-PROV358;Montecarlo;Montecarlo;Montecarlo;Montecarlo;;;;;;;;;x
-PROV359;San Antonio;San Antonio;San Antonio;San Antonio;;;;;;;;;x
-PROV360;Iguazú;Iguazú;Iguazú;Iguazú;;;;;;;;;x
-PROV361;Huidobro;Huidobro;Huidobro;Huidobro;;;;;;;;;x
-PROV362;Río Cuarto;Río Cuarto;Río Cuarto;Río Cuarto;;;;;;;;;x
-PROV363;Celman;Celman;Celman;Celman;;;;;;;;;x
-PROV364;Marcos;Marcos;Marcos;Marcos;;;;;;;;;x
-PROV365;María;María;María;María;;;;;;;;;x
-PROV366;Tercero Arriba;Tercero Arriba;Tercero Arriba;Tercero Arriba;;;;;;;;;x
-PROV367;Calamuchita;Calamuchita;Calamuchita;Calamuchita;;;;;;;;;x
-PROV368;Achala;Achala;Achala;Achala;;;;;;;;;x
-PROV369;Mina;Mina;Mina;Mina;;;;;;;;;x
-PROV370;Cruz del Eje;Cruz del Eje;Cruz del Eje;Cruz del Eje;;;;;;;;;x
-PROV371;Tulumba;Tulumba;Tulumba;Tulumba;;;;;;;;;x
-PROV372;Punilla;Punilla;Punilla;Punilla;;;;;;;;;x
-PROV373;Santa María;Santa María;Santa María;Santa María;;;;;;;;;x
-PROV374;Córdoba;Córdoba;Córdoba;Córdoba;;;;;;;;;x
-PROV375;Jesús María;Jesús María;Jesús María;Jesús María;;;;;;;;;x
-PROV376;Río Segundo;Río Segundo;Río Segundo;Río Segundo;;;;;;;;;x
-PROV377;Río Primero;Río Primero;Río Primero;Río Primero;;;;;;;;;x
-PROV378;Mar Chiquita;Mar Chiquita;Mar Chiquita;Mar Chiquita;;;;;;;;;x
-PROV379;Laboulaye;Laboulaye;Laboulaye;Laboulaye;;;;;;;;;x
-PROV380;Totoral;Totoral;Totoral;Totoral;;;;;;;;;x
-PROV381;Sobremonte;Sobremonte;Sobremonte;Sobremonte;;;;;;;;;x
-PROV382;Pocho;Pocho;Pocho;Pocho;;;;;;;;;x
-PROV383;Bermejo;Bermejo;Bermejo;Bermejo;;;;;;;;;x
-PROV384;Patiño;Patiño;Patiño;Patiño;;;;;;;;;x
-PROV385;Pilagás;Pilagás;Pilagás;Pilagás;;;;;;;;;x
-PROV386;Pirané;Pirané;Pirané;Pirané;;;;;;;;;x
-PROV387;Pilcomayo;Pilcomayo;Pilcomayo;Pilcomayo;;;;;;;;;x
-PROV388;Formosa;Formosa;Formosa;Formosa;;;;;;;;;x
-PROV389;Otumpa;Otumpa;Otumpa;Otumpa;;;;;;;;;x
-PROV390;Güemes;Güemes;Güemes;Güemes;;;;;;;;;x
-PROV391;Brown;Brown;Brown;Brown;;;;;;;;;x
-PROV392;Leonesa;Leonesa;Leonesa;Leonesa;;;;;;;;;x
-PROV393;Cangui;Cangui;Cangui;Cangui;;;;;;;;;x
-PROV394;Tapenagá;Tapenagá;Tapenagá;Tapenagá;;;;;;;;;x
-PROV395;Fontana;Fontana;Fontana;Fontana;;;;;;;;;x
-PROV396;Resistencia;;;;;;;;;;;;x
-PROV397;Boquerón;Boquerón;Boquerón;Boquerón;;;;;;;;;x
-PROV398;Copo;Copo;Copo;Copo;;;;;;;;;x
-PROV399;Alberdi;Alberdi;Alberdi;Alberdi;;;;;;;;;x
-PROV400;Moreno;Moreno;Moreno;Moreno;;;;;;;;;x
-PROV401;Pellegrini;Pellegrini;Pellegrini;Pellegrini;;;;;;;;;x
-PROV402;Figueroa;Figueroa;Figueroa;Figueroa;;;;;;;;;x
-PROV403;Taboada;Taboada;Taboada;Taboada;;;;;;;;;x
-PROV404;Malibrán;Malibrán;Malibrán;Malibrán;;;;;;;;;x
-PROV405;Salavina;Salavina;Salavina;Salavina;;;;;;;;;x
-PROV406;Ambargasta;Ambargasta;Ambargasta;Ambargasta;;;;;;;;;x
-PROV407;Choya;Choya;Choya;Choya;;;;;;;;;x
-PROV408;Silípica;Silípica;Silípica;Silípica;;;;;;;;;x
-PROV409;Guasayán;Guasayán;Guasayán;Guasayán;;;;;;;;;x
-PROV410;Santiago del Estero;Santiago del Estero;Santiago del Estero;Santiago del Estero;;;;;;;;;x
-PROV411;Banda;Banda;Banda;Banda;;;;;;;;;x
-PROV412;Impenetrable Wilderness;Désert impénétrable;Undurchdringliche Wildnis;Desierto Impenetrable;;;;;;;;;x
-PROV413;López;López;López;López;;;;;;;;;x
-PROV414;Constitución;Constitución;Constitución;Constitución;;;;;;;;;x
-PROV415;Caseros;Caseros;Caseros;Caseros;;;;;;;;;x
-PROV416;San Lorenzo;San Lorenzo;San Lorenzo;San Lorenzo;;;;;;;;;x
-PROV417;Rosario;Rosario;Rosario;Rosario;;;;;;;;;x
-PROV418;Iriondo;Iriondo;Iriondo;Iriondo;;;;;;;;;x
-PROV419;Sastre;Sastre;Sastre;Sastre;;;;;;;;;x
-PROV420;Rafaela;Rafaela;Rafaela;Rafaela;;;;;;;;;x
-PROV421;Colonias;Colonias;Colonias;Colonias;;;;;;;;;x
-PROV422;Santa Fe;Santa Fe;Santa Fe;Santa Fe;;;;;;;;;x
-PROV423;Garay;Garay;Garay;Garay;;;;;;;;;x
-PROV424;San Cristóbal;San Cristóbal;San Cristóbal;San Cristóbal;;;;;;;;;x
-PROV425;Vera;Vera;Vera;Vera;;;;;;;;;x
-PROV426;Obligado;Obligado;Obligado;Obligado;;;;;;;;;x
-PROV427;Montevideo;Montevideo;Montevideo;Montevideo;;;;;;;;;x
-PROV428;Atlántida;Atlántida;Atlántida;Atlántida;;;;;;;;;x
-PROV429;Piedra;Piedra;Piedra;Piedra;;;;;;;;;x
-PROV430;Plata;Plata;Plata;Plata;;;;;;;;;x
-PROV431;Canelones;Canelones;Canelones;Canelones;;;;;;;;;x
-PROV432;Maldonado;Maldonado;Maldonado;Maldonado;;;;;;;;;x
-PROV433;Lavalleja;Lavalleja;Lavalleja;Lavalleja;;;;;;;;;x
-PROV434;Rocha;Rocha;Rocha;Rocha;;;;;;;;;x
-PROV435;Chuy;Chuy;Chuy;Chuy;;;;;;;;;x
-PROV436;Treintaytrés;Treintaytrés;Treintaytrés;Treintaytrés;;;;;;;;;x
-PROV437;Merín;Merín;Merín;Merín;;;;;;;;;x
-PROV438;Melo;Melo;Melo;Melo;;;;;;;;;x
-PROV439;Rivera;Rivera;Rivera;Rivera;;;;;;;;;x
-PROV440;Tacuarembó;Tacuarembó;Tacuarembó;Tacuarembó;;;;;;;;;x
-PROV441;Durazno;Durazno;Durazno;Durazno;;;;;;;;;x
-PROV442;Florida;Florida;Florida;Florida;;;;;;;;;x
-PROV443;Flores;Flores;Flores;Flores;;;;;;;;;x
-PROV444;Colonia;Colonia;Colonia;Colonia;;;;;;;;;x
-PROV445;Carmelo;Carmelo;Carmelo;Carmelo;;;;;;;;;x
-PROV446;Soriano;Soriano;Soriano;Soriano;;;;;;;;;x
-PROV447;Río Negro;Río Negro;Río Negro;Río Negro;;;;;;;;;x
-PROV448;Paysandú;Paysandú;Paysandú;Paysandú;;;;;;;;;x
-PROV449;Daymán;Daymán;Daymán;Daymán;;;;;;;;;x
-PROV450;Salto;Salto;Salto;Salto;;;;;;;;;x
-PROV451;Arapey;Arapey;Arapey;Arapey;;;;;;;;;x
-PROV452;Artigas;Artigas;Artigas;Artigas;;;;;;;;;x
-PROV453;San José;San José;San José;San José;;;;;;;;;x
+PROV269;Pissis;Pissis;Pissis;Pissis;;;;;;;;;x
+PROV270;Llullaillaco;Llullaillaco;Llullaillaco;Llullaillaco;;;;;;;;;x
+PROV271;Taltal;Taltal;Taltal;Taltal;;;;;;;;;x
+PROV272;Paposo;Paposo;Paposo;Paposo;;;;;;;;;x
+PROV273;Jama;Jama;Jama;Jama;;;;;;;;;x
+PROV274;Arizaro;Arizaro;Arizaro;Arizaro;;;;;;;;;x
+PROV275;Yavi;Yavi;Yavi;Yavi;;;;;;;;;x
+PROV276;Santa Catalina;Santa Catalina;Santa Catalina;Santa Catalina;;;;;;;;;x
+PROV277;Jujuy;Jujuy;Jujuy;Jujuy;;;;;;;;;x
+PROV278;Calilegua;Calilegua;Calilegua;Calilegua;;;;;;;;;x
+PROV279;Santa Bárbara;Santa Bárbara;Santa Bárbara;Santa Bárbara;;;;;;;;;x
+PROV280;Yunga;Yunga;Yunga;Yunga;;;;;;;;;x
+PROV281;Tumbaya;Tumbaya;Tumbaya;Tumbaya;;;;;;;;;x
+PROV282;Humahuaca;Humahuaca;Humahuaca;Humahuaca;;;;;;;;;x
+PROV283;Cochinoca;Cochinoca;Cochinoca;Cochinoca;;;;;;;;;x
+PROV284;Susques;Susques;Susques;Susques;;;;;;;;;x
+PROV285;Patagones;Patagones;Patagones;Patagones;;;;;;;;;x
+PROV286;San Blas;San Blas;San Blas;San Blas;;;;;;;;;x
+PROV287;Villarino;Villarino;Villarino;Villarino;;;;;;;;;x
+PROV288;Médanos;Médanos;Médanos;Médanos;;;;;;;;;x
+PROV289;Bahía Blanca;Bahía Blanca;Bahía Blanca;Bahía Blanca;;;;;;;;;x
+PROV290;Punta Alta;Punta Alta;Punta Alta;Punta Alta;;;;;;;;;x
+PROV291;Dorrego;Dorrego;Dorrego;Dorrego;;;;;;;;;x
+PROV292;Necochea;Necochea;Necochea;Necochea;;;;;;;;;x
+PROV293;Lobería;Lobería;Lobería;Lobería;;;;;;;;;x
+PROV294;Mar del Plata;Mar del Plata;Mar del Plata;Mar del Plata;;;;;;;;;x
+PROV295;Gesell;Gesell;Gesell;Gesell;;;;;;;;;x
+PROV296;Madariaga;Madariaga;Madariaga;Madariaga;;;;;;;;;x
+PROV297;Tuyú;Tuyú;Tuyú;Tuyú;;;;;;;;;x
+PROV298;Dolores;Dolores;Dolores;Dolores;;;;;;;;;x
+PROV299;Punta Indio;Punta Indio;Punta Indio;Punta Indio;;;;;;;;;x
+PROV300;La Plata;La Plata;La Plata;La Plata;;;;;;;;;x
+PROV301;Quilmes;Quilmes;Quilmes;Quilmes;;;;;;;;;x
+PROV302;La Matanza;La Matanza;La Matanza;La Matanza;;;;;;;;;x
+PROV303;Cañuelas;Cañuelas;Cañuelas;Cañuelas;;;;;;;;;x
+PROV304;Pilar;Pilar;Pilar;Pilar;;;;;;;;;x
+PROV305;Morón;Morón;Morón;Morón;;;;;;;;;x
+PROV306;Buenos Aires;Buenos Aires;Buenos Aires;Buenos Aires;;;;;;;;;x
+PROV307;Tigre;Tigre;Tigre;Tigre;;;;;;;;;x
+PROV308;Campana;Campana;Campana;Campana;;;;;;;;;x
+PROV309;Zárate;Zárate;Zárate;Zárate;;;;;;;;;x
+PROV310;Ramallo;Ramallo;Ramallo;Ramallo;;;;;;;;;x
+PROV311;Pergamino;Pergamino;Pergamino;Pergamino;;;;;;;;;x
+PROV312;Areco;Areco;Areco;Areco;;;;;;;;;x
+PROV313;Luján;Luján;Luján;Luján;;;;;;;;;x
+PROV314;Chivilcoy;Chivilcoy;Chivilcoy;Chivilcoy;;;;;;;;;x
+PROV315;Chacabuco;Chacabuco;Chacabuco;Chacabuco;;;;;;;;;x
+PROV316;Junín;Junín;Junín;Junín;;;;;;;;;x
+PROV317;Lincoln;Lincoln;Lincoln;Lincoln;;;;;;;;;x
+PROV318;Villegas;Villegas;Villegas;Villegas;;;;;;;;;x
+PROV319;Trenque Lauquen;Trenque Lauquen;Trenque Lauquen;Trenque Lauquen;;;;;;;;;x
+PROV320;Alsina;Alsina;Alsina;Alsina;;;;;;;;;x
+PROV321;Guaminí;Guaminí;Guaminí;Guaminí;;;;;;;;;x
+PROV322;Daireaux;Daireaux;Daireaux;Daireaux;;;;;;;;;x
+PROV323;Pehuajó;Pehuajó;Pehuajó;Pehuajó;;;;;;;;;x
+PROV324;Bragado;Bragado;Bragado;Bragado;;;;;;;;;x
+PROV325;Saladillo;Saladillo;Saladillo;Saladillo;;;;;;;;;x
+PROV326;Belgrano;Belgrano;Belgrano;Belgrano;;;;;;;;;x
+PROV327;Lobos;Lobos;Lobos;Lobos;;;;;;;;;x
+PROV328;Brandsen;Brandsen;Brandsen;Brandsen;;;;;;;;;x
+PROV329;Chascomús;Chascomús;Chascomús;Chascomús;;;;;;;;;x
+PROV330;Ayacucho;Ayacucho;Ayacucho;Ayacucho;;;;;;;;;x
+PROV331;Castelli;Castelli;Castelli;Castelli;;;;;;;;;x
+PROV332;Balcarce;Balcarce;Balcarce;Balcarce;;;;;;;;;x
+PROV333;Tandil;Tandil;Tandil;Tandil;;;;;;;;;x
+PROV334;Tapalqué;Tapalqué;Tapalqué;Tapalqué;;;;;;;;;x
+PROV335;Olavarría;Olavarría;Olavarría;Olavarría;;;;;;;;;x
+PROV336;Laprida;Laprida;Laprida;Laprida;;;;;;;;;x
+PROV337;Saavedra;Saavedra;Saavedra;Saavedra;;;;;;;;;x
+PROV338;Puan;Puan;Puan;Puan;;;;;;;;;x
+PROV339;Ibicuy;Ibicuy;Ibicuy;Ibicuy;;;;;;;;;x
+PROV340;Lechiguanas;Lechiguanas;Lechiguanas;Lechiguanas;;;;;;;;;x
+PROV341;Gualeguaychú;Gualeguaychú;Gualeguaychú;Gualeguaychú;;;;;;;;;x
+PROV342;Gualeguay;Gualeguay;Gualeguay;Gualeguay;;;;;;;;;x
+PROV343;Victoria;Victoria;Victoria;Victoria;;;;;;;;;x
+PROV344;Paraná;Paraná;Paraná;Paraná;;;;;;;;;x
+PROV345;Nogoyá;Nogoyá;Nogoyá;Nogoyá;;;;;;;;;x
+PROV346;Uruguay;Uruguay;Uruguay;Uruguay;;;;;;;;;x
+PROV347;Villaguay;Villaguay;Villaguay;Villaguay;;;;;;;;;x
+PROV348;La Paz;La Paz;La Paz;La Paz;;;;;;;;;x
+PROV349;Federal;Federal;Federal;Federal;;;;;;;;;x
+PROV350;Concordia;Concordia;Concordia;Concordia;;;;;;;;;x
+PROV351;Sauce;Sauce;Sauce;Sauce;;;;;;;;;x
+PROV352;Curuzú Cuatiá;Curuzú Cuatiá;Curuzú Cuatiá;Curuzú Cuatiá;;;;;;;;;x
+PROV353;Goya;Goya;Goya;Goya;;;;;;;;;x
+PROV354;Mercedes;Mercedes;Mercedes;Mercedes;;;;;;;;;x
+PROV355;Miriñay;Miriñay;Miriñay;Miriñay;;;;;;;;;x
+PROV356;Aguapey;Aguapey;Aguapey;Aguapey;;;;;;;;;x
+PROV357;Ituzaingó;Ituzaingó;Ituzaingó;Ituzaingó;;;;;;;;;x
+PROV358;Mburucuyá;Mburucuyá;Mburucuyá;Mburucuyá;;;;;;;;;x
+PROV359;Bella Vista;Bella Vista;Bella Vista;Bella Vista;;;;;;;;;x
+PROV360;Corrientes;Corrientes;Corrientes;Corrientes;;;;;;;;;x
+PROV361;Palmar;Palmar;Palmar;Palmar;;;;;;;;;x
+PROV362;Itatí;Itatí;Itatí;Itatí;;;;;;;;;x
+PROV363;Posadas;Posadas;Posadas;Posadas;;;;;;;;;x
+PROV364;Itacuará;Itacuará;Itacuará;Itacuará;;;;;;;;;x
+PROV365;Oberá;Oberá;Oberá;Oberá;;;;;;;;;x
+PROV366;San Ignacio;San Ignacio;San Ignacio;San Ignacio;;;;;;;;;x
+PROV367;Cainguás;Cainguás;Cainguás;Cainguás;;;;;;;;;x
+PROV368;Guaraní;Guaraní;Guaraní;Guaraní;;;;;;;;;x
+PROV369;Yabotí;Yabotí;Yabotí;Yabotí;;;;;;;;;x
+PROV370;Montecarlo;Montecarlo;Montecarlo;Montecarlo;;;;;;;;;x
+PROV371;San Antonio;San Antonio;San Antonio;San Antonio;;;;;;;;;x
+PROV372;Iguazú;Iguazú;Iguazú;Iguazú;;;;;;;;;x
+PROV373;Huidobro;Huidobro;Huidobro;Huidobro;;;;;;;;;x
+PROV374;Río Cuarto;Río Cuarto;Río Cuarto;Río Cuarto;;;;;;;;;x
+PROV375;Celman;Celman;Celman;Celman;;;;;;;;;x
+PROV376;Marcos;Marcos;Marcos;Marcos;;;;;;;;;x
+PROV377;María;María;María;María;;;;;;;;;x
+PROV378;Tercero Arriba;Tercero Arriba;Tercero Arriba;Tercero Arriba;;;;;;;;;x
+PROV379;Calamuchita;Calamuchita;Calamuchita;Calamuchita;;;;;;;;;x
+PROV380;Achala;Achala;Achala;Achala;;;;;;;;;x
+PROV381;Mina;Mina;Mina;Mina;;;;;;;;;x
+PROV382;Cruz del Eje;Cruz del Eje;Cruz del Eje;Cruz del Eje;;;;;;;;;x
+PROV383;Tulumba;Tulumba;Tulumba;Tulumba;;;;;;;;;x
+PROV384;Punilla;Punilla;Punilla;Punilla;;;;;;;;;x
+PROV385;Santa María;Santa María;Santa María;Santa María;;;;;;;;;x
+PROV386;Córdoba;Córdoba;Córdoba;Córdoba;;;;;;;;;x
+PROV387;Jesús María;Jesús María;Jesús María;Jesús María;;;;;;;;;x
+PROV388;Río Segundo;Río Segundo;Río Segundo;Río Segundo;;;;;;;;;x
+PROV389;Río Primero;Río Primero;Río Primero;Río Primero;;;;;;;;;x
+PROV390;Mar Chiquita;Mar Chiquita;Mar Chiquita;Mar Chiquita;;;;;;;;;x
+PROV391;Laboulaye;Laboulaye;Laboulaye;Laboulaye;;;;;;;;;x
+PROV392;Totoral;Totoral;Totoral;Totoral;;;;;;;;;x
+PROV393;Sobremonte;Sobremonte;Sobremonte;Sobremonte;;;;;;;;;x
+PROV394;Pocho;Pocho;Pocho;Pocho;;;;;;;;;x
+PROV395;Bermejo;Bermejo;Bermejo;Bermejo;;;;;;;;;x
+PROV396;Patiño;Patiño;Patiño;Patiño;;;;;;;;;x
+PROV397;Pilagás;Pilagás;Pilagás;Pilagás;;;;;;;;;x
+PROV398;Pirané;Pirané;Pirané;Pirané;;;;;;;;;x
+PROV399;Pilcomayo;Pilcomayo;Pilcomayo;Pilcomayo;;;;;;;;;x
+PROV400;Formosa;Formosa;Formosa;Formosa;;;;;;;;;x
+PROV401;Otumpa;Otumpa;Otumpa;Otumpa;;;;;;;;;x
+PROV402;Güemes;Güemes;Güemes;Güemes;;;;;;;;;x
+PROV403;Brown;Brown;Brown;Brown;;;;;;;;;x
+PROV404;Leonesa;Leonesa;Leonesa;Leonesa;;;;;;;;;x
+PROV405;Cangui;Cangui;Cangui;Cangui;;;;;;;;;x
+PROV406;Tapenagá;Tapenagá;Tapenagá;Tapenagá;;;;;;;;;x
+PROV407;Fontana;Fontana;Fontana;Fontana;;;;;;;;;x
+PROV408;Resistencia;Resistencia;Resistencia;Resistencia;;;;;;;;;x
+PROV409;Boquerón;Boquerón;Boquerón;Boquerón;;;;;;;;;x
+PROV410;Copo;Copo;Copo;Copo;;;;;;;;;x
+PROV411;Alberdi;Alberdi;Alberdi;Alberdi;;;;;;;;;x
+PROV412;Moreno;Moreno;Moreno;Moreno;;;;;;;;;x
+PROV413;Pellegrini;Pellegrini;Pellegrini;Pellegrini;;;;;;;;;x
+PROV414;Figueroa;Figueroa;Figueroa;Figueroa;;;;;;;;;x
+PROV415;Taboada;Taboada;Taboada;Taboada;;;;;;;;;x
+PROV416;Malibrán;Malibrán;Malibrán;Malibrán;;;;;;;;;x
+PROV417;Salavina;Salavina;Salavina;Salavina;;;;;;;;;x
+PROV418;Ambargasta;Ambargasta;Ambargasta;Ambargasta;;;;;;;;;x
+PROV419;Choya;Choya;Choya;Choya;;;;;;;;;x
+PROV420;Silípica;Silípica;Silípica;Silípica;;;;;;;;;x
+PROV421;Guasayán;Guasayán;Guasayán;Guasayán;;;;;;;;;x
+PROV422;Santiago del Estero;Santiago del Estero;Santiago del Estero;Santiago del Estero;;;;;;;;;x
+PROV423;Banda;Banda;Banda;Banda;;;;;;;;;x
+PROV424;Impenetrable Wilderness;Désert impénétrable;Undurchdringliche Wildnis;Desierto Impenetrable;;;;;;;;;x
+PROV425;López;López;López;López;;;;;;;;;x
+PROV426;Constitución;Constitución;Constitución;Constitución;;;;;;;;;x
+PROV427;Caseros;Caseros;Caseros;Caseros;;;;;;;;;x
+PROV428;San Lorenzo;San Lorenzo;San Lorenzo;San Lorenzo;;;;;;;;;x
+PROV429;Rosario;Rosario;Rosario;Rosario;;;;;;;;;x
+PROV430;Iriondo;Iriondo;Iriondo;Iriondo;;;;;;;;;x
+PROV431;Sastre;Sastre;Sastre;Sastre;;;;;;;;;x
+PROV432;Rafaela;Rafaela;Rafaela;Rafaela;;;;;;;;;x
+PROV433;Colonias;Colonias;Colonias;Colonias;;;;;;;;;x
+PROV434;Santa Fe;Santa Fe;Santa Fe;Santa Fe;;;;;;;;;x
+PROV435;Garay;Garay;Garay;Garay;;;;;;;;;x
+PROV436;San Cristóbal;San Cristóbal;San Cristóbal;San Cristóbal;;;;;;;;;x
+PROV437;Vera;Vera;Vera;Vera;;;;;;;;;x
+PROV438;Obligado;Obligado;Obligado;Obligado;;;;;;;;;x
+PROV439;Montevideo;Montevideo;Montevideo;Montevideo;;;;;;;;;x
+PROV440;Atlántida;Atlántida;Atlántida;Atlántida;;;;;;;;;x
+PROV441;Piedra;Piedra;Piedra;Piedra;;;;;;;;;x
+PROV442;Plata;Plata;Plata;Plata;;;;;;;;;x
+PROV443;Canelones;Canelones;Canelones;Canelones;;;;;;;;;x
+PROV444;Maldonado;Maldonado;Maldonado;Maldonado;;;;;;;;;x
+PROV445;Lavalleja;Lavalleja;Lavalleja;Lavalleja;;;;;;;;;x
+PROV446;Rocha;Rocha;Rocha;Rocha;;;;;;;;;x
+PROV447;Chuy;Chuy;Chuy;Chuy;;;;;;;;;x
+PROV448;Treintaytrés;Treintaytrés;Treintaytrés;Treintaytrés;;;;;;;;;x
+PROV449;Merín;Merín;Merín;Merín;;;;;;;;;x
+PROV450;Melo;Melo;Melo;Melo;;;;;;;;;x
+PROV451;Rivera;Rivera;Rivera;Rivera;;;;;;;;;x
+PROV452;Tacuarembó;Tacuarembó;Tacuarembó;Tacuarembó;;;;;;;;;x
+PROV453;Durazno;Durazno;Durazno;Durazno;;;;;;;;;x
+PROV454;Florida;Florida;Florida;Florida;;;;;;;;;x
+PROV455;Flores;Flores;Flores;Flores;;;;;;;;;x
+PROV456;Colonia;Colonia;Colonia;Colonia;;;;;;;;;x
+PROV457;Carmelo;Carmelo;Carmelo;Carmelo;;;;;;;;;x
+PROV458;Soriano;Soriano;Soriano;Soriano;;;;;;;;;x
+PROV459;Río Negro;Río Negro;Río Negro;Río Negro;;;;;;;;;x
+PROV460;Paysandú;Paysandú;Paysandú;Paysandú;;;;;;;;;x
+PROV461;Daymán;Daymán;Daymán;Daymán;;;;;;;;;x
+PROV462;Salto;Salto;Salto;Salto;;;;;;;;;x
+PROV463;Arapey;Arapey;Arapey;Arapey;;;;;;;;;x
+PROV464;Artigas;Artigas;Artigas;Artigas;;;;;;;;;x
+PROV465;San José;San José;San José;San José;;;;;;;;;x
+
+
+
 
 PROV800;Fagnano Lake;Lac Fagnano;Fagnano-See;Lago Fagnano;;;;;;;;;x
 PROV801;Yehuin Lake;Lac Yehuin;Yehuin-See;Lago Yehuin;;;;;;;;;x
