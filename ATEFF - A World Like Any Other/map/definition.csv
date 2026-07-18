@@ -255,215 +255,215 @@ province;red;green;blue;x;x
 254;255;48;179;Atacama;x
 255;194;70;120;Calama;x
 256;193;42;105;Tocopilla;x
-257;201;0;159;Tamarugal;x
-258;224;87;178;Iquique;x
-259;198;47;168;Huara;x
-260;234;58;113;Arica;x
-261;234;0;113;Parinacota;x
-262;182;16;37;Salas y Gomez;x
-263;182;55;37;Pascua;x
-264;206;88;157;Huascaltino;x
-265;144;41;158;Ojos del Salado;x
-267;163;52;188;Caldera;x
-268;192;192;192;Atacama Desert;x
-269;104;145;10;Pissis;x
-270;193;71;128;Lullaillaco;x
-271;234;68;173;Taltal;x
-272;232;116;189;Paposo;x
-273;255;96;197;Jama;x
-274;168;232;109;Arizaro;x
-275;226;239;76;Yavi;x
-276;211;229;13;Santa Catalina;x
-277;227;234;14;Jujuy;x
-278;181;232;53;Calilegua;x
-279;186;219;13;Santa Barbara;x
-280;144;168;10;Yunga;x
-281;217;213;15;Tumbaya;x
-282;189;182;13;Humahuaca;x
-283;191;198;109;Cochinoca;x
-284;201;219;13;Susques;x
-285;113;137;209;Patagones;x
-286;97;125;226;San Blas;x
-287;144;156;150;Villarino;x
-288;97;178;178;Medanos;x
-289;17;175;175;Bahia Blanca;x
-290;0;204;236;Punta Alta;x
-291;45;149;173;Dorrego;x
-292;69;189;216;Necochea;x
-293;52;197;229;Loberia;x
-294;55;178;206;Mar del Plata;x
-295;103;197;219;Gesell;x
-296;173;202;216;Madariaga;x
-297;66;167;214;Tuyu;x
-298;31;154;211;Dolores;x
-299;25;147;255;Punta Indio;x
-300;55;118;173;La Plata;x
-301;43;198;198;Quilmes;x
-302;118;193;193;La Matanza;x
-303;0;196;209;Cañuelas;x
-304;124;255;255;Pilar;x
-305;134;239;239;Moron;x
-306;163;255;255;Buenos Aires;x
-307;18;158;158;Tigre;x
-308;0;255;254;Campana;x
-309;111;168;168;Zarate;x
-310;132;255;255;Ramallo;x
-311;0;226;244;Pergamino;x
-312;0;234;234;Areco;x
-313;28;180;204;Lujan;x
-314;70;206;206;Chivilcoy;x
-315;76;224;236;Chacabuco;x
-316;105;228;216;Junin;x
-317;0;204;204;Lincoln;x
-318;96;255;255;Villegas;x
-319;81;214;255;Trenque Lauquen;x
-320;90;135;173;Alsina;x
-321;138;190;216;Guamini;x
-322;112;115;224;Daireaux;x
-323;24;214;224;Pehuajo;x
-324;71;211;211;Bragado;x
-325;35;160;188;Saladillo;x
-326;73;149;255;Belgrano;x
-327;67;165;155;Lobos;x
-328;53;106;153;Brandsen;x
-329;22;128;226;Chascomus;x
-330;38;173;204;Ayacucho;x
-331;34;167;229;Castelli;x
-332;85;163;181;Balcarce;x
-333;21;130;219;Tandil;x
-334;65;211;225;Tapalque;x
-335;109;221;255;Olavarria;x
-336;71;215;255;Laprida;x
-337;112;166;211;Saavedra;x
-338;104;154;196;Puan;x
-339;0;238;238;Ibicuy;x
-340;0;220;220;Lechiguanas;x
-341;83;198;209;Gualeguaychu;x
-342;0;236;221;Gualeguay;x
-343;0;213;230;Victoria;x
-344;119;255;255;Parana;x
-345;140;255;255;Nogoya;x
-346;60;235;235;Uruguay;x
-347;56;255;232;Villaguay;x
-348;96;242;227;La Paz;x
-349;132;255;240;Federal;x
-350;100;215;215;Concordia;x
-351;0;181;141;Sauce;x
-352;0;229;175;Curuzu Cuaitia;x
-353;50;195;162;Goya;x
-354;41;216;172;Mercedes;x
-355;0;240;205;Miriñay;x
-356;62;239;213;Aguapey;x
-357;0;240;180;Ituzaingo;x
-358;41;206;192;Mburucuya;x
-359;74;239;198;Bella Vista;x
-360;0;240;180;Corrientes;x
-361;81;236;200;Palmar;x
-362;0;196;147;Itati;x
-363;52;122;145;Posadas;x
-364;35;134;147;Itacuara;x
-365;59;203;159;Obera;x
-366;50;176;190;San Ignacio;x
-367;47;182;239;Cainguas;x
-368;98;197;239;Guarani;x
-369;25;97;142;Yaboti;x
-370;60;130;173;Montecarlo;x
-371;69;134;198;San Antonio;x
-372;31;120;178;Iguazu;x
-373;101;145;31;Huidobro;x
-374;135;183;56;Rio Cuarto;x
-375;121;168;47;Celman;x
-376;41;153;85;Marcos;x
-377;57;145;20;Maria;x
-378;51;159;43;Tercero Arriba;x
-379;97;158;44;Calamuchita;x
-380;111;198;73;Achala;x
-381;98;198;55;Mina;x
-382;109;158;0;Cruz del Eje;x
-383;75;137;39;Tulumba;x
-384;113;124;61;Punillas;x
-385;80;181;34;Santa Maria;x
-386;38;127;0;Cordoba;x
-387;80;181;34;Jesus Maria;x
-388;38;127;58;Rio Segundo;x
-389;77;124;70;Rio Primero;x
-390;45;150;43;Mar Chiquita;x
-391;121;168;47;Laboulaye;x
-392;63;145;29;Totoral;x
-393;114;168;48;Sobremonte;x
-394;131;196;102;Pocho;x
-395;120;255;43;Bermejo;x
-396;170;255;71;Patiño;x
-397;194;247;59;Pilagas;x
-398;180;229;55;Pirane;x
-399;213;255;109;Pilcomayo;x
-400;182;255;47;Formosa;x
-401;101;226;70;Otumpa;x
-402;101;219;8;Güemes;x
-403;108;229;9;Brown;x
-404;76;255;78;Leonesa;x
-405;151;255;16;Cangui;x
-406;149;255;104;Tapenagá;x
-407;76;255;101;Fontana;x
-408;61;206;78;Resistencia;x
-409;137;196;104;Boqueron;x
-410;113;198;28;Copo;x
-411;121;211;31;Alberdi;x
-412;121;236;89;Moreno;x
-413;127;204;61;Pellegrini;x
-414;149;224;114;Figueroa;x
-415;58;244;78;Taboada;x
-416;170;255;28;Malibran;x
-417;151;224;24;Salavina;x
-418;158;216;32;Ambagasta;x
-419;150;226;18;Choya;x
-420;151;198;69;Silipica;x
-421;151;247;34;Guayasan;x
-422;151;255;0;Santiago del Estero;x
-423;166;224;53;Banda;x
-424;118;168;89;Bosque Impenetrable;x
-425;33;184;255;Lopez;x
-426;68;199;255;Constitucion;x
-427;57;172;239;Caseros;x
-428;86;193;255;San Lorenzo;x
-429;68;186;255;Rosario;x
-430;33;195;255;Iriondo;x
-431;20;176;255;Sastre;x
-432;22;181;255;Rafaela;x
-433;79;202;255;Colonias;x
-434;25;144;255;Santa Fe;x
-435;50;149;255;Garay;x
-436;48;217;255;San Cristobal;x
-437;0;148;255;Vera;x
-438;56;165;255;Obligado;x
-439;0;56;168;Montevideo;x
-440;10;81;181;Atlantida;x
-441;15;33;153;Piedra;x
-442;22;40;132;Plata;x
-443;13;25;163;Canelones;x
-444;29;70;165;Maldonado;x
-445;24;69;204;Lavalleja;x
-446;44;66;165;Rocha;x
-447;34;54;142;Chuy;x
-448;12;53;158;Treintaytres;x
-449;28;56;127;Merin;x
-450;40;71;155;Melo;x
-451;9;37;122;Rivera;x
-452;13;44;114;Tacuarembo;x
-453;18;30;165;Durazno;x
-454;15;52;188;Florida;x
-455;24;36;150;Flores;x
-456;34;80;165;Colonia;x
-457;14;58;135;Carmelo;x
-458;13;77;188;Soriano;x
-459;34;65;191;Rio Negro;x
-460;11;54;140;Paysandu;x
-461;4;70;150;Dayman;x
-462;5;80;173;Salto;x
-463;14;56;135;Arapey;x
-464;18;64;155;Artigas;x
-465;19;43;163;San Jose;x
-466;0;5;185;Dummy466;x
+257;160;0;120;Ollague;x
+258;201;0;159;Tamarugal;x
+259;224;87;178;Iquique;x
+260;198;47;168;Huara;x
+261;234;58;113;Arica;x
+262;234;0;113;Parinacota;x
+263;182;16;37;Salas y Gomez;x
+264;182;55;37;Pascua;x
+265;206;88;157;Huascaltino;x
+266;144;41;158;Ojos del Salado;x
+268;163;52;188;Caldera;x
+269;192;192;192;Atacama Desert;x
+270;104;145;10;Pissis;x
+271;193;71;128;Lullaillaco;x
+272;234;68;173;Taltal;x
+273;232;116;189;Mejillones;x
+274;255;96;197;Jama;x
+275;168;232;109;Arizaro;x
+276;226;239;76;Yavi;x
+277;211;229;13;Santa Catalina;x
+278;227;234;14;Jujuy;x
+279;181;232;53;Calilegua;x
+280;186;219;13;Santa Barbara;x
+281;144;168;10;Yunga;x
+282;217;213;15;Tumbaya;x
+283;189;182;13;Humahuaca;x
+284;191;198;109;Cochinoca;x
+285;201;219;13;Susques;x
+286;113;137;209;Patagones;x
+287;97;125;226;San Blas;x
+288;144;156;150;Villarino;x
+289;97;178;178;Medanos;x
+290;17;175;175;Bahia Blanca;x
+291;0;204;236;Punta Alta;x
+292;45;149;173;Dorrego;x
+293;69;189;216;Necochea;x
+294;52;197;229;Loberia;x
+295;55;178;206;Mar del Plata;x
+296;103;197;219;Gesell;x
+297;173;202;216;Madariaga;x
+298;66;167;214;Tuyu;x
+299;31;154;211;Dolores;x
+300;25;147;255;Punta Indio;x
+301;55;118;173;La Plata;x
+302;43;198;198;Quilmes;x
+303;118;193;193;La Matanza;x
+304;0;196;209;Cañuelas;x
+305;124;255;255;Pilar;x
+306;134;239;239;Moron;x
+307;163;255;255;Buenos Aires;x
+308;18;158;158;Tigre;x
+309;0;255;254;Campana;x
+310;111;168;168;Zarate;x
+311;132;255;255;Ramallo;x
+312;0;226;244;Pergamino;x
+313;0;234;234;Areco;x
+314;28;180;204;Lujan;x
+315;70;206;206;Chivilcoy;x
+316;76;224;236;Chacabuco;x
+317;105;228;216;Junin;x
+318;0;204;204;Lincoln;x
+319;96;255;255;Villegas;x
+320;81;214;255;Trenque Lauquen;x
+321;90;135;173;Alsina;x
+322;138;190;216;Guamini;x
+323;112;115;224;Daireaux;x
+324;24;214;224;Pehuajo;x
+325;71;211;211;Bragado;x
+326;35;160;188;Saladillo;x
+327;73;149;255;Belgrano;x
+328;67;165;155;Lobos;x
+329;53;106;153;Brandsen;x
+330;22;128;226;Chascomus;x
+331;38;173;204;Ayacucho;x
+332;34;167;229;Castelli;x
+333;85;163;181;Balcarce;x
+334;21;130;219;Tandil;x
+335;65;211;225;Tapalque;x
+336;109;221;255;Olavarria;x
+337;71;215;255;Laprida;x
+338;112;166;211;Saavedra;x
+339;104;154;196;Puan;x
+340;0;238;238;Ibicuy;x
+341;0;220;220;Lechiguanas;x
+342;83;198;209;Gualeguaychu;x
+343;0;236;221;Gualeguay;x
+344;0;213;230;Victoria;x
+345;119;255;255;Parana;x
+346;140;255;255;Nogoya;x
+347;60;235;235;Uruguay;x
+348;56;255;232;Villaguay;x
+349;96;242;227;La Paz;x
+350;132;255;240;Federal;x
+351;100;215;215;Concordia;x
+352;0;181;141;Sauce;x
+353;0;229;175;Curuzu Cuaitia;x
+354;50;195;162;Goya;x
+355;41;216;172;Mercedes;x
+356;0;240;205;Miriñay;x
+357;62;239;213;Aguapey;x
+358;0;240;180;Ituzaingo;x
+359;41;206;192;Mburucuya;x
+360;74;239;198;Bella Vista;x
+361;0;240;180;Corrientes;x
+362;81;236;200;Palmar;x
+363;0;196;147;Itati;x
+364;52;122;145;Posadas;x
+365;35;134;147;Itacuara;x
+366;59;203;159;Obera;x
+367;50;176;190;San Ignacio;x
+368;47;182;239;Cainguas;x
+369;98;197;239;Guarani;x
+370;25;97;142;Yaboti;x
+371;60;130;173;Montecarlo;x
+372;69;134;198;San Antonio;x
+373;31;120;178;Iguazu;x
+374;101;145;31;Huidobro;x
+375;135;183;56;Rio Cuarto;x
+376;121;168;47;Celman;x
+377;41;153;85;Marcos;x
+378;57;145;20;Maria;x
+379;51;159;43;Tercero Arriba;x
+380;97;158;44;Calamuchita;x
+381;111;198;73;Achala;x
+382;98;198;55;Mina;x
+383;109;158;0;Cruz del Eje;x
+384;75;137;39;Tulumba;x
+385;113;124;61;Punillas;x
+386;80;181;34;Santa Maria;x
+387;38;127;0;Cordoba;x
+388;80;181;34;Jesus Maria;x
+389;38;127;58;Rio Segundo;x
+390;77;124;70;Rio Primero;x
+391;45;150;43;Mar Chiquita;x
+392;121;168;47;Laboulaye;x
+393;63;145;29;Totoral;x
+394;114;168;48;Sobremonte;x
+395;131;196;102;Pocho;x
+396;120;255;43;Bermejo;x
+397;170;255;71;Patiño;x
+398;194;247;59;Pilagas;x
+399;180;229;55;Pirane;x
+400;213;255;109;Pilcomayo;x
+401;182;255;47;Formosa;x
+402;101;226;70;Otumpa;x
+403;101;219;8;Güemes;x
+404;108;229;9;Brown;x
+405;76;255;78;Leonesa;x
+406;151;255;16;Cangui;x
+407;149;255;104;Tapenagá;x
+408;76;255;101;Fontana;x
+409;61;206;78;Resistencia;x
+410;137;196;104;Boqueron;x
+411;113;198;28;Copo;x
+412;121;211;31;Alberdi;x
+413;121;236;89;Moreno;x
+414;127;204;61;Pellegrini;x
+415;149;224;114;Figueroa;x
+416;58;244;78;Taboada;x
+417;170;255;28;Malibran;x
+418;151;224;24;Salavina;x
+419;158;216;32;Ambagasta;x
+420;150;226;18;Choya;x
+421;151;198;69;Silipica;x
+422;151;247;34;Guayasan;x
+423;151;255;0;Santiago del Estero;x
+424;166;224;53;Banda;x
+425;118;168;89;Bosque Impenetrable;x
+426;33;184;255;Lopez;x
+427;68;199;255;Constitucion;x
+428;57;172;239;Caseros;x
+429;86;193;255;San Lorenzo;x
+430;68;186;255;Rosario;x
+431;33;195;255;Iriondo;x
+432;20;176;255;Sastre;x
+433;22;181;255;Rafaela;x
+434;79;202;255;Colonias;x
+435;25;144;255;Santa Fe;x
+436;50;149;255;Garay;x
+437;48;217;255;San Cristobal;x
+438;0;148;255;Vera;x
+439;56;165;255;Obligado;x
+440;0;56;168;Montevideo;x
+441;10;81;181;Atlantida;x
+442;15;33;153;Piedra;x
+443;22;40;132;Plata;x
+444;13;25;163;Canelones;x
+445;29;70;165;Maldonado;x
+446;24;69;204;Lavalleja;x
+447;44;66;165;Rocha;x
+448;34;54;142;Chuy;x
+449;12;53;158;Treintaytres;x
+450;28;56;127;Merin;x
+451;40;71;155;Melo;x
+452;9;37;122;Rivera;x
+453;13;44;114;Tacuarembo;x
+454;18;30;165;Durazno;x
+455;15;52;188;Florida;x
+456;24;36;150;Flores;x
+457;34;80;165;Colonia;x
+458;14;58;135;Carmelo;x
+459;13;77;188;Soriano;x
+460;34;65;191;Rio Negro;x
+461;11;54;140;Paysandu;x
+462;4;70;150;Dayman;x
+463;5;80;173;Salto;x
+464;14;56;135;Arapey;x
+465;18;64;155;Artigas;x
+466;19;43;163;San Jose;x
 467;0;5;186;Dummy467;x
 468;0;5;187;Dummy468;x
 469;0;5;188;Dummy469;x
