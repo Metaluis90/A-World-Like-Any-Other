@@ -28,7 +28,7 @@ NDefines = {
 		RELEASE_PRISONER_PIETY = 5,
 		USURP_TITLE_PRESTIGE_MULT = 0.25, 												-- Multiplier on Creation Prestige
 
-		DEMESNE_BASE_MAX_SIZE = 1.0,													-- Base Max Demesne Size
+		DEMESNE_BASE_MAX_SIZE = 2.0,													-- Base Max Demesne Size
 		DEMESNE_MAX_SIZE_BARON_MULT = 1.0, 												-- Extra Max Demesne Size from the ruler's rank
 		DEMESNE_MAX_SIZE_COUNT_MULT = 1.0, 												-- Extra Max Demesne Size from the ruler's rank
 		DEMESNE_MAX_SIZE_DUKE_MULT = 1.0,												-- Extra Max Demesne Size from the ruler's rank
