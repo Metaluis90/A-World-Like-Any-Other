@@ -1,0 +1,9 @@
+# Synods are driven entirely by on_actions. No event in this system uses MTTH.
+
+# Character scope
+on_yearly_pulse = {
+	events = {
+		synodal_synod.0001 # Test whether the Presiding Prelate begins preparations
+		synodal_synod.0002 # Conclude a preparation phase whose marker has expired
+	}
+}

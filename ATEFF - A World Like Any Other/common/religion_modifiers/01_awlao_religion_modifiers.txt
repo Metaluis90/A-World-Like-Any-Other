@@ -1,0 +1,26 @@
+# Moral-authority effects from the quality of a completed General Synod.
+
+synodal_triumphal_synod = {
+	authority = 6
+	years = 15
+}
+
+synodal_harmonious_synod = {
+	authority = 4
+	years = 15
+}
+
+synodal_contentious_synod = {
+	authority = 2
+	years = 10
+}
+
+synodal_deadlocked_synod = {
+	authority = -2
+	years = 7
+}
+
+synodal_scandalous_synod = {
+	authority = -5
+	years = 15
+}

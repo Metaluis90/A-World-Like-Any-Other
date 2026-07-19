@@ -1,0 +1,43 @@
+# Hidden cycle markers
+synodal_synod_recently_held = {
+}
+
+synodal_synod_preparation = {
+}
+
+# Public policy and result modifiers
+synodal_defense_policy = {
+	land_morale = 0.10
+	levy_reinforce_rate = 0.10
+	church_opinion = 5
+}
+
+synodal_missionary_policy = {
+	learning = 1
+	church_opinion = 5
+}
+
+synodal_missionary_mandate = {
+	learning = 3
+	monthly_character_piety = 0.10
+}
+
+synodal_moral_reform_policy = {
+	church_opinion = 10
+	monthly_character_piety = 0.10
+}
+
+synodal_reformed_clergy = {
+	learning = 1
+	monthly_character_piety = 0.20
+}
+
+synodal_prelate_confirmed = {
+	diplomacy = 1
+	monthly_character_piety = 0.25
+}
+
+synodal_synod_manipulator = {
+	church_opinion = -15
+	diplomacy = -1
+}

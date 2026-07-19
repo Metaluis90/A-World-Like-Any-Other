@@ -95,3 +95,24 @@ has_religion_head_excommunication = {
 		religion = evangelical
 	}
 }
+
+#Synodal Synod triggers
+# Shared eligibility rules for the first General Synod implementation.
+
+synodal_synod_eligible_secular_ruler_trigger = {
+	religion = synodal
+	is_landed = yes
+	independent = yes
+	is_theocracy = no
+	higher_real_tier_than = COUNT
+	prisoner = no
+	is_incapable = no
+}
+
+synodal_synod_eligible_bishop_trigger = {
+	religion = synodal
+	is_landed = yes
+	is_theocracy = yes
+	prisoner = no
+	is_incapable = no
+}

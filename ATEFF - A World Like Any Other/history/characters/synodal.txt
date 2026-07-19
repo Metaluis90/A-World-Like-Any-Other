@@ -1,0 +1,26 @@
+# Reserved AWLAO Synodal character range: 9100000-9100099
+
+9100000 = {
+	name = "Esteban"
+	religion = synodal
+	culture = centralino
+	government = theocracy_government
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 12
+
+	trait = mastermind_theologian
+	trait = diligent
+	trait = temperate
+	trait = content
+
+	2318.4.23 = {
+		birth = yes
+	}
+	2410.1.1 = {
+		death = yes
+	}
+}

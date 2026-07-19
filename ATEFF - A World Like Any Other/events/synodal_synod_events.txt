@@ -1,0 +1,1136 @@
+namespace = synodal_synod
+
+# ---------------------------------------------------------------------------
+# General Synod cycle
+# ---------------------------------------------------------------------------
+# The See merely convenes and proclaims. Secular rulers influence their own
+# bishops; they never cast direct votes. Future holy-campaign targets belong
+# in milestone two, once their landed-title keys exist:
+#   # k_argentina / k_bolivia / k_peru / k_colombia / k_venezuela
+
+# Annual hidden test: earliest first Synod is 2381, twelve years after start.
+character_event = {
+	id = synodal_synod.0001
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_landed_title = d_synodal
+		religion = synodal
+		year = 2381
+		NOT = { has_global_flag = synodal_synod_preparation }
+		234 = {
+			NOT = { has_province_modifier = synodal_synod_recently_held }
+		}
+	}
+
+	immediate = {
+		random = {
+			chance = 35
+			character_event = {
+				id = synodal_synod.0010
+				days = 1
+			}
+		}
+	}
+}
+
+# ---------------------------------------------------------------------------
+# Convening, episcopal votes, and results
+# ---------------------------------------------------------------------------
+
+# The bishops assemble and cast practical, trait-weighted votes.
+character_event = {
+	id = synodal_synod.0100
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_landed_title = d_synodal
+		religion = synodal
+		has_global_flag = synodal_synod_preparation
+	}
+
+	immediate = {
+		any_independent_ruler = {
+			limit = {
+				religion = synodal
+				is_landed = yes
+			}
+
+			if = {
+				limit = {
+					job_spiritual = {
+						religion = synodal
+						prisoner = no
+						is_incapable = no
+					}
+				}
+				job_spiritual = {
+					synodal_cast_bishop_vote_effect = yes
+				}
+			}
+
+			any_realm_character = {
+				limit = {
+					synodal_synod_eligible_bishop_trigger = yes
+					NOT = { has_job_title = job_spiritual }
+					NOT = { has_landed_title = d_synodal }
+				}
+				synodal_cast_bishop_vote_effect = yes
+			}
+		}
+
+		# The convener has one modest institutional preference, not a veto.
+		if = {
+			limit = { trait = content }
+			d_synodal = {
+				change_variable = {
+					which = synodal_agenda_continuity_score
+					value = 1
+				}
+			}
+		}
+		if = {
+			limit = { learning = 12 }
+			d_synodal = {
+				change_variable = {
+					which = synodal_agenda_moral_reform_score
+					value = 1
+				}
+			}
+		}
+
+		character_event = {
+			id = synodal_synod.0110
+			days = 1
+		}
+	}
+}
+
+# Select an agenda by weighted support, then judge the quality of the Synod.
+character_event = {
+	id = synodal_synod.0110
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_landed_title = d_synodal
+		religion = synodal
+		has_global_flag = synodal_synod_preparation
+	}
+
+	immediate = {
+		random_list = {
+			10 = {
+				mult_modifier = {
+					factor = 1.5
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_defense_score
+							value >= 4
+						}
+					}
+				}
+				mult_modifier = {
+					factor = 2
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_defense_score
+							value >= 8
+						}
+					}
+				}
+				mult_modifier = {
+					factor = 2
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_defense_score
+							value >= 12
+						}
+					}
+				}
+				set_global_flag = synodal_agenda_defense
+			}
+			10 = {
+				mult_modifier = {
+					factor = 1.5
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_missions_score
+							value >= 4
+						}
+					}
+				}
+				mult_modifier = {
+					factor = 2
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_missions_score
+							value >= 8
+						}
+					}
+				}
+				mult_modifier = {
+					factor = 2
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_missions_score
+							value >= 12
+						}
+					}
+				}
+				set_global_flag = synodal_agenda_missions
+			}
+			10 = {
+				mult_modifier = {
+					factor = 1.5
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_moral_reform_score
+							value >= 4
+						}
+					}
+				}
+				mult_modifier = {
+					factor = 2
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_moral_reform_score
+							value >= 8
+						}
+					}
+				}
+				mult_modifier = {
+					factor = 2
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_moral_reform_score
+							value >= 12
+						}
+					}
+				}
+				set_global_flag = synodal_agenda_moral_reform
+			}
+			10 = {
+				mult_modifier = {
+					factor = 1.5
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_continuity_score
+							value >= 4
+						}
+					}
+				}
+				mult_modifier = {
+					factor = 2
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_continuity_score
+							value >= 8
+						}
+					}
+				}
+				mult_modifier = {
+					factor = 2
+					d_synodal = {
+						check_variable = {
+							which = synodal_agenda_continuity_score
+							value >= 12
+						}
+					}
+				}
+				set_global_flag = synodal_agenda_continuity
+			}
+		}
+
+		if = {
+			limit = { has_global_flag = synodal_scandal_exposed }
+			set_global_flag = synodal_synod_scandalous
+		}
+		else = {
+			random_list = {
+				1 = {
+					trigger = {
+						d_synodal = {
+							check_variable = {
+								which = synodal_secular_participation
+								value >= 3
+							}
+							check_variable = {
+								which = synodal_bishop_attendance
+								value >= 4
+							}
+						}
+					}
+					mult_modifier = {
+						factor = 2
+						OR = {
+							trait = zealous
+							trait = diligent
+							trait = just
+						}
+					}
+					set_global_flag = synodal_synod_triumphal
+				}
+				6 = {
+					trigger = {
+						d_synodal = {
+							check_variable = {
+								which = synodal_bishop_attendance
+								value >= 2
+							}
+						}
+					}
+					mult_modifier = {
+						factor = 2
+						d_synodal = {
+							check_variable = {
+								which = synodal_secular_participation
+								value >= 2
+							}
+						}
+					}
+					set_global_flag = synodal_synod_harmonious
+				}
+				5 = {
+					mult_modifier = {
+						factor = 2
+						d_synodal = {
+							check_variable = {
+								which = synodal_secular_participation
+								value >= 1
+							}
+						}
+					}
+					set_global_flag = synodal_synod_contentious
+				}
+				2 = {
+					mult_modifier = {
+						factor = 4
+						OR = {
+							d_synodal = {
+								NOT = {
+									check_variable = {
+										which = synodal_secular_participation
+										value >= 1
+									}
+								}
+							}
+							d_synodal = {
+								NOT = {
+									check_variable = {
+										which = synodal_bishop_attendance
+										value >= 2
+									}
+								}
+							}
+						}
+					}
+					set_global_flag = synodal_synod_deadlocked
+				}
+			}
+		}
+
+		# Moral authority records the collective result.
+		if = {
+			limit = { has_global_flag = synodal_synod_triumphal }
+			synodal = {
+				religion_authority = {
+					name = synodal_triumphal_synod
+					years = 15
+				}
+			}
+			prestige = 200
+			piety = 200
+		}
+		else_if = {
+			limit = { has_global_flag = synodal_synod_harmonious }
+			synodal = {
+				religion_authority = {
+					name = synodal_harmonious_synod
+					years = 15
+				}
+			}
+			prestige = 100
+			piety = 100
+		}
+		else_if = {
+			limit = { has_global_flag = synodal_synod_contentious }
+			synodal = {
+				religion_authority = {
+					name = synodal_contentious_synod
+					years = 10
+				}
+			}
+			prestige = 50
+			piety = 50
+		}
+		else_if = {
+			limit = { has_global_flag = synodal_synod_deadlocked }
+			synodal = {
+				religion_authority = {
+					name = synodal_deadlocked_synod
+					years = 7
+				}
+			}
+			prestige = -50
+		}
+		else = {
+			synodal = {
+				religion_authority = {
+					name = synodal_scandalous_synod
+					years = 15
+				}
+			}
+			prestige = -150
+			piety = -100
+		}
+
+		# Enact the selected non-war agenda unless the Synod failed outright.
+		if = {
+			limit = {
+				NOR = {
+					has_global_flag = synodal_synod_deadlocked
+					has_global_flag = synodal_synod_scandalous
+				}
+			}
+
+			if = {
+				limit = { has_global_flag = synodal_agenda_defense }
+				any_independent_ruler = {
+					limit = {
+						synodal_synod_eligible_secular_ruler_trigger = yes
+					}
+					if = {
+						limit = { ROOT = { has_global_flag = synodal_synod_triumphal } }
+						add_character_modifier = {
+							name = synodal_defense_policy
+							years = 12
+						}
+					}
+					else_if = {
+						limit = { ROOT = { has_global_flag = synodal_synod_harmonious } }
+						add_character_modifier = {
+							name = synodal_defense_policy
+							years = 10
+						}
+					}
+					else = {
+						add_character_modifier = {
+							name = synodal_defense_policy
+							years = 5
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { has_global_flag = synodal_agenda_missions }
+				any_independent_ruler = {
+					limit = {
+						synodal_synod_eligible_secular_ruler_trigger = yes
+					}
+					add_character_modifier = {
+						name = synodal_missionary_policy
+						years = 8
+					}
+					if = {
+						limit = {
+							job_spiritual = {
+								religion = synodal
+							}
+						}
+						job_spiritual = {
+							add_character_modifier = {
+								name = synodal_missionary_mandate
+								years = 8
+							}
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { has_global_flag = synodal_agenda_moral_reform }
+				any_independent_ruler = {
+					limit = {
+						religion = synodal
+						is_landed = yes
+					}
+					if = {
+						limit = { is_theocracy = no }
+						add_character_modifier = {
+							name = synodal_moral_reform_policy
+							years = 8
+						}
+					}
+					any_realm_character = {
+						limit = {
+							synodal_synod_eligible_bishop_trigger = yes
+						}
+						add_character_modifier = {
+							name = synodal_reformed_clergy
+							years = 8
+						}
+					}
+				}
+			}
+			else = {
+				add_character_modifier = {
+					name = synodal_prelate_confirmed
+					years = 10
+				}
+			}
+		}
+
+		# Exposed patrons and coercive rulers bear the ecclesiastical backlash.
+		if = {
+			limit = { has_global_flag = synodal_synod_scandalous }
+			any_independent_ruler = {
+				limit = {
+					religion = synodal
+					has_character_flag = synodal_synod_manipulated
+				}
+				add_character_modifier = {
+					name = synodal_synod_manipulator
+					years = 10
+				}
+			}
+		}
+
+		# A deadlock is revisited sooner; all other outcomes impose 12 quiet years.
+		234 = {
+			if = {
+				limit = { ROOT = { has_global_flag = synodal_synod_deadlocked } }
+				add_province_modifier = {
+					name = synodal_synod_recently_held
+					years = 7
+					hidden = yes
+				}
+			}
+			else = {
+				add_province_modifier = {
+					name = synodal_synod_recently_held
+					years = 12
+					hidden = yes
+				}
+			}
+			remove_province_modifier = synodal_synod_preparation
+		}
+
+		set_global_flag = synodal_synod_ever_held
+		clr_global_flag = synodal_synod_preparation
+		clr_global_flag = synodal_scandal_exposed
+
+		# Notify the Prelate and every major Synodal ruler.
+		character_event = {
+			id = synodal_synod.0200
+			days = 1
+		}
+		any_independent_ruler = {
+			limit = {
+				synodal_synod_eligible_secular_ruler_trigger = yes
+			}
+			character_event = {
+				id = synodal_synod.0200
+				days = 2
+			}
+		}
+
+		# Per-character preparation flags never survive into the next cycle.
+		any_independent_ruler = {
+			limit = { religion = synodal }
+			clr_character_flag = synodal_synod_participated
+			clr_character_flag = synodal_synod_influencing
+			clr_character_flag = synodal_synod_manipulated
+			clr_character_flag = synodal_influence_pious
+			clr_character_flag = synodal_influence_patronage
+			clr_character_flag = synodal_influence_pressure
+			clr_character_flag = synodal_influence_coercion
+		}
+	}
+}
+
+# Public conclusion. Result and agenda flags remain until the next Synod begins.
+character_event = {
+	id = synodal_synod.0200
+	title = EVTNAME_synodal_synod_0200
+	desc = {
+		text = EVTDESC_synodal_synod_0200_TRIUMPHAL
+		trigger = { has_global_flag = synodal_synod_triumphal }
+	}
+	desc = {
+		text = EVTDESC_synodal_synod_0200_HARMONIOUS
+		trigger = { has_global_flag = synodal_synod_harmonious }
+	}
+	desc = {
+		text = EVTDESC_synodal_synod_0200_CONTENTIOUS
+		trigger = { has_global_flag = synodal_synod_contentious }
+	}
+	desc = {
+		text = EVTDESC_synodal_synod_0200_DEADLOCKED
+		trigger = { has_global_flag = synodal_synod_deadlocked }
+	}
+	desc = {
+		text = EVTDESC_synodal_synod_0200_SCANDALOUS
+		trigger = { has_global_flag = synodal_synod_scandalous }
+	}
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+
+	option = {
+		name = {
+			text = EVTOPTA_synodal_synod_0200_DEADLOCK
+			trigger = { has_global_flag = synodal_synod_deadlocked }
+		}
+		name = {
+			text = EVTOPTA_synodal_synod_0200_DEFENSE
+			trigger = {
+				has_global_flag = synodal_agenda_defense
+				NOT = { has_global_flag = synodal_synod_deadlocked }
+			}
+		}
+		name = {
+			text = EVTOPTA_synodal_synod_0200_MISSIONS
+			trigger = {
+				has_global_flag = synodal_agenda_missions
+				NOT = { has_global_flag = synodal_synod_deadlocked }
+			}
+		}
+		name = {
+			text = EVTOPTA_synodal_synod_0200_REFORM
+			trigger = {
+				has_global_flag = synodal_agenda_moral_reform
+				NOT = { has_global_flag = synodal_synod_deadlocked }
+			}
+		}
+		name = {
+			text = EVTOPTA_synodal_synod_0200_CONTINUITY
+			trigger = {
+				has_global_flag = synodal_agenda_continuity
+				NOT = { has_global_flag = synodal_synod_deadlocked }
+			}
+		}
+	}
+}
+
+# Annual hidden test: the nine-month preparation marker has expired.
+character_event = {
+	id = synodal_synod.0002
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_landed_title = d_synodal
+		religion = synodal
+		has_global_flag = synodal_synod_preparation
+		234 = {
+			NOT = { has_province_modifier = synodal_synod_preparation }
+		}
+	}
+
+	immediate = {
+		character_event = {
+			id = synodal_synod.0100
+			days = 1
+		}
+	}
+}
+
+# The Presiding Prelate opens preparation.
+character_event = {
+	id = synodal_synod.0010
+	title = EVTNAME_synodal_synod_0010
+	desc = EVTDESC_synodal_synod_0010
+	picture = GFX_evt_cathedral
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = synodal_synod_preparation
+
+		# Clear the previous Synod's public record.
+		clr_global_flag = synodal_agenda_defense
+		clr_global_flag = synodal_agenda_missions
+		clr_global_flag = synodal_agenda_moral_reform
+		clr_global_flag = synodal_agenda_continuity
+		clr_global_flag = synodal_synod_triumphal
+		clr_global_flag = synodal_synod_harmonious
+		clr_global_flag = synodal_synod_contentious
+		clr_global_flag = synodal_synod_deadlocked
+		clr_global_flag = synodal_synod_scandalous
+		clr_global_flag = synodal_scandal_exposed
+
+		d_synodal = {
+			set_variable = {
+				which = synodal_agenda_defense_score
+				value = 2
+			}
+			set_variable = {
+				which = synodal_agenda_missions_score
+				value = 2
+			}
+			set_variable = {
+				which = synodal_agenda_moral_reform_score
+				value = 2
+			}
+			set_variable = {
+				which = synodal_agenda_continuity_score
+				value = 3
+			}
+			set_variable = {
+				which = synodal_secular_participation
+				value = 0
+			}
+			set_variable = {
+				which = synodal_bishop_attendance
+				value = 1
+			}
+		}
+
+		234 = {
+			add_province_modifier = {
+				name = synodal_synod_preparation
+				months = 9
+				hidden = yes
+			}
+		}
+
+		any_independent_ruler = {
+			limit = {
+				synodal_synod_eligible_secular_ruler_trigger = yes
+			}
+			character_event = {
+				id = synodal_synod.0020
+				days = 5
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_synodal_synod_0010
+		piety = 50
+	}
+}
+
+# Major secular rulers are invited to influence their own bishops.
+character_event = {
+	id = synodal_synod.0020
+	title = EVTNAME_synodal_synod_0020
+	desc = EVTDESC_synodal_synod_0020
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+
+	trigger = {
+		synodal_synod_eligible_secular_ruler_trigger = yes
+		has_global_flag = synodal_synod_preparation
+		NOT = { has_character_flag = synodal_synod_participated }
+	}
+
+	option = {
+		name = EVTOPTA_synodal_synod_0020
+		set_character_flag = synodal_synod_influencing
+		character_event = { id = synodal_synod.0030 }
+
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 1.5
+				OR = {
+					trait = zealous
+					trait = ambitious
+					trait = greedy
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTB_synodal_synod_0020
+		set_character_flag = synodal_synod_participated
+		piety = 5
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				trait = content
+			}
+		}
+	}
+}
+
+# Choose a method of influence. Costs and scandal risks are paid here.
+character_event = {
+	id = synodal_synod.0030
+	title = EVTNAME_synodal_synod_0030
+	desc = EVTDESC_synodal_synod_0030
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+
+	trigger = {
+		synodal_synod_eligible_secular_ruler_trigger = yes
+		has_global_flag = synodal_synod_preparation
+		NOT = { has_character_flag = synodal_synod_participated }
+	}
+
+	option = {
+		name = EVTOPTA_synodal_synod_0030
+		trigger = { piety = 100 }
+		piety = -100
+		set_character_flag = synodal_influence_pious
+		character_event = { id = synodal_synod.0040 }
+
+		ai_chance = {
+			factor = 35
+			modifier = {
+				factor = 2
+				OR = {
+					trait = zealous
+					trait = theologian
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTB_synodal_synod_0030
+		trigger = { wealth = 75 }
+		wealth = -75
+		set_character_flag = synodal_influence_patronage
+		set_character_flag = synodal_synod_manipulated
+		random = {
+			chance = 10
+			set_global_flag = synodal_scandal_exposed
+		}
+		character_event = { id = synodal_synod.0040 }
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+			modifier = {
+				factor = 1.5
+				trait = charitable
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTC_synodal_synod_0030
+		trigger = { prestige = 100 }
+		prestige = -100
+		set_character_flag = synodal_influence_pressure
+		set_character_flag = synodal_synod_manipulated
+		any_vassal = {
+			limit = {
+				religion = synodal
+				is_theocracy = yes
+			}
+			opinion = {
+				name = synodal_politically_pressured
+				who = ROOT
+				years = 5
+			}
+		}
+		random = {
+			chance = 20
+			set_global_flag = synodal_scandal_exposed
+		}
+		character_event = { id = synodal_synod.0040 }
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 2
+				OR = {
+					trait = ambitious
+					trait = proud
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTD_synodal_synod_0030
+		trigger = {
+			prestige = 150
+			OR = {
+				intrigue = 10
+				real_tier = KING
+				real_tier = EMPEROR
+			}
+		}
+		prestige = -150
+		set_character_flag = synodal_influence_coercion
+		set_character_flag = synodal_synod_manipulated
+		any_vassal = {
+			limit = {
+				religion = synodal
+				is_theocracy = yes
+			}
+			opinion = {
+				name = synodal_coerced_by_ruler
+				who = ROOT
+				years = 10
+			}
+		}
+		random = {
+			chance = 40
+			set_global_flag = synodal_scandal_exposed
+		}
+		character_event = { id = synodal_synod.0040 }
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				OR = {
+					trait = cruel
+					trait = arbitrary
+				}
+			}
+			modifier = {
+				factor = 0.25
+				OR = {
+					trait = just
+					trait = kind
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTE_synodal_synod_0030
+		clr_character_flag = synodal_synod_influencing
+		set_character_flag = synodal_synod_participated
+
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 2
+				trait = content
+			}
+		}
+	}
+}
+
+# Choose the agenda to recommend to the ruler's bishops.
+character_event = {
+	id = synodal_synod.0040
+	title = EVTNAME_synodal_synod_0040
+	desc = EVTDESC_synodal_synod_0040
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+
+	trigger = {
+		synodal_synod_eligible_secular_ruler_trigger = yes
+		has_global_flag = synodal_synod_preparation
+		has_character_flag = synodal_synod_influencing
+	}
+
+	option = {
+		name = EVTOPTA_synodal_synod_0040
+		d_synodal = {
+			change_variable = {
+				which = synodal_agenda_defense_score
+				value = 1
+			}
+			change_variable = {
+				which = synodal_secular_participation
+				value = 1
+			}
+			if = {
+				limit = { ROOT = { real_tier = KING } }
+				change_variable = { which = synodal_agenda_defense_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { real_tier = EMPEROR } }
+				change_variable = { which = synodal_agenda_defense_score value = 2 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_pious } }
+				change_variable = { which = synodal_agenda_defense_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_patronage } }
+				change_variable = { which = synodal_agenda_defense_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_pressure } }
+				change_variable = { which = synodal_agenda_defense_score value = 2 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_coercion } }
+				change_variable = { which = synodal_agenda_defense_score value = 3 }
+			}
+		}
+		set_character_flag = synodal_synod_participated
+		clr_character_flag = synodal_synod_influencing
+
+		ai_chance = {
+			factor = 25
+			modifier = { factor = 2 trait = zealous }
+			modifier = { factor = 1.5 trait = brave }
+		}
+	}
+
+	option = {
+		name = EVTOPTB_synodal_synod_0040
+		d_synodal = {
+			change_variable = {
+				which = synodal_agenda_missions_score
+				value = 1
+			}
+			change_variable = {
+				which = synodal_secular_participation
+				value = 1
+			}
+			if = {
+				limit = { ROOT = { real_tier = KING } }
+				change_variable = { which = synodal_agenda_missions_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { real_tier = EMPEROR } }
+				change_variable = { which = synodal_agenda_missions_score value = 2 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_pious } }
+				change_variable = { which = synodal_agenda_missions_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_patronage } }
+				change_variable = { which = synodal_agenda_missions_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_pressure } }
+				change_variable = { which = synodal_agenda_missions_score value = 2 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_coercion } }
+				change_variable = { which = synodal_agenda_missions_score value = 3 }
+			}
+		}
+		set_character_flag = synodal_synod_participated
+		clr_character_flag = synodal_synod_influencing
+
+		ai_chance = {
+			factor = 25
+			modifier = { factor = 2 trait = zealous }
+			modifier = { factor = 1.5 learning = 10 }
+		}
+	}
+
+	option = {
+		name = EVTOPTC_synodal_synod_0040
+		d_synodal = {
+			change_variable = {
+				which = synodal_agenda_moral_reform_score
+				value = 1
+			}
+			change_variable = {
+				which = synodal_secular_participation
+				value = 1
+			}
+			if = {
+				limit = { ROOT = { real_tier = KING } }
+				change_variable = { which = synodal_agenda_moral_reform_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { real_tier = EMPEROR } }
+				change_variable = { which = synodal_agenda_moral_reform_score value = 2 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_pious } }
+				change_variable = { which = synodal_agenda_moral_reform_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_patronage } }
+				change_variable = { which = synodal_agenda_moral_reform_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_pressure } }
+				change_variable = { which = synodal_agenda_moral_reform_score value = 2 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_coercion } }
+				change_variable = { which = synodal_agenda_moral_reform_score value = 3 }
+			}
+		}
+		set_character_flag = synodal_synod_participated
+		clr_character_flag = synodal_synod_influencing
+
+		ai_chance = {
+			factor = 25
+			modifier = { factor = 2 trait = just }
+			modifier = { factor = 2 trait = diligent }
+			modifier = { factor = 1.5 learning = 12 }
+		}
+	}
+
+	option = {
+		name = EVTOPTD_synodal_synod_0040
+		d_synodal = {
+			change_variable = {
+				which = synodal_agenda_continuity_score
+				value = 1
+			}
+			change_variable = {
+				which = synodal_secular_participation
+				value = 1
+			}
+			if = {
+				limit = { ROOT = { real_tier = KING } }
+				change_variable = { which = synodal_agenda_continuity_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { real_tier = EMPEROR } }
+				change_variable = { which = synodal_agenda_continuity_score value = 2 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_pious } }
+				change_variable = { which = synodal_agenda_continuity_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_patronage } }
+				change_variable = { which = synodal_agenda_continuity_score value = 1 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_pressure } }
+				change_variable = { which = synodal_agenda_continuity_score value = 2 }
+			}
+			if = {
+				limit = { ROOT = { has_character_flag = synodal_influence_coercion } }
+				change_variable = { which = synodal_agenda_continuity_score value = 3 }
+			}
+		}
+		set_character_flag = synodal_synod_participated
+		clr_character_flag = synodal_synod_influencing
+
+		ai_chance = {
+			factor = 25
+			modifier = { factor = 2 trait = content }
+			modifier = { factor = 2 culture_group = chileno }
+			modifier = {
+				factor = 1.5
+				capital_scope = {
+					province_id = 234
+				}
+			}
+		}
+	}
+
+	after = {
+		clr_character_flag = synodal_influence_pious
+		clr_character_flag = synodal_influence_patronage
+		clr_character_flag = synodal_influence_pressure
+		clr_character_flag = synodal_influence_coercion
+	}
+}

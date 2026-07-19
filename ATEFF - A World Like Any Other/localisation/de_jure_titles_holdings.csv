@@ -1,6 +1,10 @@
 ###ÄNSI
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 
+#Religious Titles
+d_synodal;Synodal See;Synodal See;Synodal See;;Sede Sinodal;;;;;;;;;x
+d_synodal_adj;Synodal;Synodal;Synodal;;Sinodal;;;;;;;;;x
+
 #Mexico
 e_yucatan;Yucatán;Yucatán;Yucatán;Yucatán;;;;;;;;;x
 e_yucatan_adj;Yucatanense;Yucatanense;Yucatanense;Yucatanense;;;;;;;;;x

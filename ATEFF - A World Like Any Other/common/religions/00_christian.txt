@@ -1932,8 +1932,6 @@ christian = {
 		color = { 0.8 0.8 0.6 }
 		
 		crusade_name = CRUSADE
-		use_new_crusade = yes
-		crusade_cb = new_crusade
 		scripture_name = THE_BIBLE
 		priest_title = PRIEST
 		
@@ -1949,13 +1947,11 @@ christian = {
 			
 		#autocephaly = yes
 		#pentarchy = yes
-		investiture = yes
-		can_have_antipopes = yes
+		# Crusades and investiture are intentionally disabled in milestone one.
+		# Holy campaigns will require explicit General Synod authorization.
 		can_excommunicate = yes
 		can_grant_divorce = yes
-		can_grant_invasion_cb = invasion
 		can_grant_claim = yes
-		can_call_crusade = yes
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
 		allow_rivermovement = yes

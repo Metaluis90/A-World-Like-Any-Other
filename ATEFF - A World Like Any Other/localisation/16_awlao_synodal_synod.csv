@@ -1,0 +1,76 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+# Decision
+prepare_general_synod;Prepare for the General Synod;;;;;;;;;;;;;x
+prepare_general_synod_desc;Consult your bishops and try to shape the agenda of the coming General Synod. Secular rulers influence their clergy but do not vote in the assembly.;;;;;;;;;;;;;x
+prepare_general_synod_confirm;I will speak with my bishops.;;;;;;;;;;;;;x
+prepare_general_synod_tooltip;Choose a method of influence and recommend an agenda to your bishops. Rank and the chosen method determine the strength of your influence.;;;;;;;;;;;;;x
+
+# Preparation events
+EVTNAME_synodal_synod_0010;Preparations for a General Synod;;;;;;;;;;;;;x
+EVTDESC_synodal_synod_0010;Letters sealed by the Synodal Chancery have gone out from [d_synodal.Holder.Location.GetName]. The bishops are summoned to prayer, consultation, and common judgment. As Presiding Prelate, I must arrange their assembly and faithfully proclaim whatever the fathers decide.;;;;;;;;;;;;;x
+EVTOPTA_synodal_synod_0010;Let the churches prepare their delegates.;;;;;;;;;;;;;x
+
+EVTNAME_synodal_synod_0020;The Bishops Have Been Summoned;;;;;;;;;;;;;x
+EVTDESC_synodal_synod_0020;The Synodal Chancery announces that a General Synod will soon assemble at [d_synodal.Holder.Location.GetName]. I possess no vote in the council of bishops, but my own prelates will listen if I petition, persuade, patronize, or pressure them.;;;;;;;;;;;;;x
+EVTOPTA_synodal_synod_0020;I will consult my bishops.;;;;;;;;;;;;;x
+EVTOPTB_synodal_synod_0020;The fathers must judge without my interference.;;;;;;;;;;;;;x
+
+EVTNAME_synodal_synod_0030;Influencing the Fathers;;;;;;;;;;;;;x
+EVTDESC_synodal_synod_0030;My bishops prepare their petitions and arguments. I may appeal to conscience, fund the journey and works of the Church, invoke the needs of the realm, or compel obedience. The more worldly methods carry a greater danger of scandal.;;;;;;;;;;;;;x
+EVTOPTA_synodal_synod_0030;Persuade them with pious argument.;;;;;;;;;;;;;x
+EVTOPTB_synodal_synod_0030;Provide generous patronage for their work.;;;;;;;;;;;;;x
+EVTOPTC_synodal_synod_0030;Remind them of political realities.;;;;;;;;;;;;;x
+EVTOPTD_synodal_synod_0030;Their obedience will be assured.;;;;;;;;;;;;;x
+EVTOPTE_synodal_synod_0030;On reflection, I shall do nothing.;;;;;;;;;;;;;x
+
+EVTNAME_synodal_synod_0040;A Petition to the General Synod;;;;;;;;;;;;;x
+EVTDESC_synodal_synod_0040;My clergy ask what cause they should commend to the assembled fathers. They remain free to judge, but a clear petition from their ruler will carry weight in their deliberations.;;;;;;;;;;;;;x
+EVTOPTA_synodal_synod_0040;Defend the faithful and their homes.;;;;;;;;;;;;;x
+EVTOPTB_synodal_synod_0040;Send missions to the scattered churches.;;;;;;;;;;;;;x
+EVTOPTC_synodal_synod_0040;Reform the discipline of the clergy.;;;;;;;;;;;;;x
+EVTOPTD_synodal_synod_0040;Confirm [d_synodal.Holder.Location.GetName] and the present Prelate.;;;;;;;;;;;;;x
+
+# Conclusion
+EVTNAME_synodal_synod_0200;The General Synod Concludes;;;;;;;;;;;;;x
+EVTDESC_synodal_synod_0200_TRIUMPHAL;With extraordinary attendance and a clear common judgment, the fathers rise together in prayer. The Presiding Prelate proclaims their decree to the churches, and the faithful acclaim a triumph of unity.;;;;;;;;;;;;;x
+EVTDESC_synodal_synod_0200_HARMONIOUS;After prayer and measured debate, the bishops reach a broad agreement. The Presiding Prelate proclaims the decision of the fathers, and the churches receive it in peace.;;;;;;;;;;;;;x
+EVTDESC_synodal_synod_0200_CONTENTIOUS;The bishops reach a decision only after sharp debate and close votes. The Presiding Prelate proclaims the judgment of the assembly, though several churches record their reservations.;;;;;;;;;;;;;x
+EVTDESC_synodal_synod_0200_DEADLOCKED;The petitions cannot be reconciled and no stable majority forms. The fathers adjourn without an effective decree, while the Synodal Chancery quietly prepares for an earlier return to council.;;;;;;;;;;;;;x
+EVTDESC_synodal_synod_0200_SCANDALOUS;Evidence of gifts, threats, and worldly interference overshadows the deliberations. Whatever the merits of the adopted petition, the churches speak more of scandal than unity.;;;;;;;;;;;;;x
+EVTOPTA_synodal_synod_0200_DEADLOCK;The churches must prepare to meet again.;;;;;;;;;;;;;x
+EVTOPTA_synodal_synod_0200_DEFENSE;The Synod has judged that the faithful must be defended.;;;;;;;;;;;;;x
+EVTOPTA_synodal_synod_0200_MISSIONS;The Synod sends new missions to the scattered faithful.;;;;;;;;;;;;;x
+EVTOPTA_synodal_synod_0200_REFORM;The Synod commands a reform of clerical discipline.;;;;;;;;;;;;;x
+EVTOPTA_synodal_synod_0200_CONTINUITY;The Synod confirms [d_synodal.Holder.Location.GetName] and the Presiding Prelate.;;;;;;;;;;;;;x
+
+# Event modifiers
+synodal_synod_recently_held;Recent General Synod;;;;;;;;;;;;;x
+synodal_synod_recently_held_desc;The churches will not be summoned to another ordinary General Synod until this cooldown expires.;;;;;;;;;;;;;x
+synodal_synod_preparation;General Synod in Preparation;;;;;;;;;;;;;x
+synodal_synod_preparation_desc;Delegates and petitions are being prepared for the coming General Synod.;;;;;;;;;;;;;x
+synodal_defense_policy;Defense of the Faithful;;;;;;;;;;;;;x
+synodal_defense_policy_desc;The General Synod has urged rulers and bishops to protect threatened Synodal communities.;;;;;;;;;;;;;x
+synodal_missionary_policy;Synodal Missionary Priority;;;;;;;;;;;;;x
+synodal_missionary_policy_desc;The General Synod has made the support of missions a priority for the churches.;;;;;;;;;;;;;x
+synodal_missionary_mandate;Mandate to the Missions;;;;;;;;;;;;;x
+synodal_missionary_mandate_desc;This chaplain has received the Synod's mandate to strengthen scattered churches and preach the faith.;;;;;;;;;;;;;x
+synodal_moral_reform_policy;Synodal Clerical Reform;;;;;;;;;;;;;x
+synodal_moral_reform_policy_desc;The ruler publicly supports the General Synod's decrees on clerical discipline.;;;;;;;;;;;;;x
+synodal_reformed_clergy;Renewed Clerical Discipline;;;;;;;;;;;;;x
+synodal_reformed_clergy_desc;This bishop has accepted the Synod's call to learning, virtue, and discipline.;;;;;;;;;;;;;x
+synodal_prelate_confirmed;Confirmed by the General Synod;;;;;;;;;;;;;x
+synodal_prelate_confirmed_desc;The assembled bishops have confirmed this Presiding Prelate and [d_synodal.Holder.Location.GetName]'s place as the current Synodal seat.;;;;;;;;;;;;;x
+synodal_synod_manipulator;Exposed Synodal Manipulator;;;;;;;;;;;;;x
+synodal_synod_manipulator_desc;This ruler's worldly interference in the General Synod became a public scandal.;;;;;;;;;;;;;x
+
+# Opinion modifiers
+synodal_politically_pressured;Politically Pressured Me;;;;;;;;;;;;;x
+synodal_coerced_by_ruler;Coerced My Synodal Delegation;;;;;;;;;;;;;x
+
+# Moral-authority entries
+synodal_triumphal_synod;Triumphal General Synod;;;;;;;;;;;;;x
+synodal_harmonious_synod;Harmonious General Synod;;;;;;;;;;;;;x
+synodal_contentious_synod;Contentious General Synod;;;;;;;;;;;;;x
+synodal_deadlocked_synod;Deadlocked General Synod;;;;;;;;;;;;;x
+synodal_scandalous_synod;Scandalous General Synod;;;;;;;;;;;;;x

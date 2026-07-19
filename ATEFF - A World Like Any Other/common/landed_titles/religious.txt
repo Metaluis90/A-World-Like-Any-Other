@@ -1,0 +1,25 @@
+
+d_synodal = {
+
+	color={ 255 249 198 }
+	color2={ 220 220 0 }
+
+	capital = 234 # Santiago; current seat of the General Synod
+
+	title = "PRESIDING_PRELATE"
+	foa = "PRINCE_BISHOP_FOA"
+	location_ruler_title = yes
+	short_name = yes
+
+	# The See is a single landless religious head for engine interactions.
+	# Its holder convenes and executes the General Synod; he is not a pope.
+	landless = yes
+
+	controls_religion = synodal
+	religion = synodal
+
+	primary = yes
+	assimilate = no 
+
+	dynasty_title_names = no
+}

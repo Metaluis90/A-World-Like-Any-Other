@@ -45,3 +45,104 @@ select_nearby_christian_religion_source_effect = {
 		}
 	}
 }
+
+# Cast one practical episcopal vote. The caller is a landed Synodal bishop
+# or the court chaplain of a major Synodal ruler.
+synodal_cast_bishop_vote_effect = {
+	d_synodal = {
+		change_variable = {
+			which = synodal_bishop_attendance
+			value = 1
+		}
+	}
+
+	random_list = {
+		10 = {
+			mult_modifier = {
+				factor = 3
+				trait = zealous
+			}
+			mult_modifier = {
+				factor = 2
+				trait = brave
+			}
+			mult_modifier = {
+				factor = 1.5
+				trait = craven
+			}
+			d_synodal = {
+				change_variable = {
+					which = synodal_agenda_defense_score
+					value = 1
+				}
+			}
+		}
+		10 = {
+			mult_modifier = {
+				factor = 2
+				learning = 12
+			}
+			mult_modifier = {
+				factor = 1.5
+				trait = zealous
+			}
+			mult_modifier = {
+				factor = 1.5
+				trait = charitable
+			}
+			d_synodal = {
+				change_variable = {
+					which = synodal_agenda_missions_score
+					value = 1
+				}
+			}
+		}
+		10 = {
+			mult_modifier = {
+				factor = 3
+				learning = 14
+			}
+			mult_modifier = {
+				factor = 2
+				OR = {
+					trait = diligent
+					trait = temperate
+					trait = just
+				}
+			}
+			mult_modifier = {
+				factor = 0.5
+				OR = {
+					trait = greedy
+					trait = cynical
+				}
+			}
+			d_synodal = {
+				change_variable = {
+					which = synodal_agenda_moral_reform_score
+					value = 1
+				}
+			}
+		}
+		10 = {
+			mult_modifier = {
+				factor = 3
+				trait = content
+			}
+			mult_modifier = {
+				factor = 1.5
+				trait = humble
+			}
+			mult_modifier = {
+				factor = 0.5
+				trait = ambitious
+			}
+			d_synodal = {
+				change_variable = {
+					which = synodal_agenda_continuity_score
+					value = 1
+				}
+			}
+		}
+	}
+}

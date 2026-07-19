@@ -1,0 +1,47 @@
+religion_decisions = {
+
+	prepare_general_synod = {
+		is_high_prio = yes
+
+		potential = {
+			synodal_synod_eligible_secular_ruler_trigger = yes
+			has_global_flag = synodal_synod_preparation
+			NOT = { has_character_flag = synodal_synod_participated }
+			NOT = { has_character_flag = synodal_synod_influencing }
+		}
+
+		allow = {
+			d_synodal = {
+				has_holder = yes
+				holder_scope = {
+					religion = synodal
+				}
+			}
+		}
+
+		effect = {
+			set_character_flag = synodal_synod_influencing
+			character_event = { id = synodal_synod.0030 }
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				OR = {
+					trait = zealous
+					trait = ambitious
+					trait = greedy
+				}
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+		}
+	}
+}

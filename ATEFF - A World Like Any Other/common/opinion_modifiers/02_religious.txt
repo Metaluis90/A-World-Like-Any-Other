@@ -1,0 +1,11 @@
+#Synodal modifiers for religious leaders
+
+synodal_politically_pressured = {
+	opinion = -10
+	years = 5
+}
+
+synodal_coerced_by_ruler = {
+	opinion = -25
+	years = 10
+}
