@@ -234,6 +234,10 @@ e_the_south = {
 				b_canoas = {}
 				b_triunfo = {}
 				b_portao = {}
+				b_canoas_1 = {}
+				b_canoas_2 = {}
+				b_canoas_3 = {}
+				b_canoas_4 = {}
 			}
 			c_sao_jeronimo = { # 506 - Sao Jeronimo
 				color={ 224 184 38 }
@@ -257,6 +261,10 @@ e_the_south = {
 				b_sao_leopoldo = {}
 				b_scharlau = {}
 				b_feitoria = {}
+				b_sao_leopoldo_1 = {}
+				b_sao_leopoldo_2 = {}
+				b_sao_leopoldo_3 = {}
+				b_sao_leopoldo_4 = {}
 			}
 			c_novo_hamburgo = { # 489 - Novo Hamburgo
 				color={ 255 215 43 }
@@ -278,25 +286,17 @@ e_the_south = {
 				b_taquara_2 = {}
 				b_parobe = {}
 			}
-			c_canela = { # 496 - Canela
-				color={ 244 203 53 }
-				color2={ 255 255 255 }
-
-				holy_site = evangelical
-				holy_site = mucker
-
-				b_canela = {}
-				b_gramado = {}
-				b_caracol = {}
-				b_varzea_do_cedro = {}
-				b_itaimbezinho = {}
-			}
 			c_montenegro = { # 503 - Montenegro
 				color={ 239 197 28 }
 				color2={ 255 255 255 }
 
 				b_montenegro = {}
 				b_sao_sebastiao_do_cai = {}
+				b_montenegro_1 = {}
+				b_montenegro_2 = {}
+				b_montenegro_3 = {}
+				b_montenegro_4 = {}
+				b_montenegro_5 = {}
 			}
 		}
 
@@ -390,6 +390,19 @@ e_the_south = {
 				b_tuiuti = {}
 				b_vale_dos_pinhedos = {}
 				b_vespasiano_correa = {}
+			}
+			c_canela = { # 496 - Canela
+				color={ 244 203 53 }
+				color2={ 255 255 255 }
+
+				holy_site = evangelical
+				holy_site = mucker
+
+				b_canela = {}
+				b_gramado = {}
+				b_caracol = {}
+				b_varzea_do_cedro = {}
+				b_itaimbezinho = {}
 			}
 			c_bom_jesus = { # 499 - Bom Jesus
 				color={ 247 221 132 }

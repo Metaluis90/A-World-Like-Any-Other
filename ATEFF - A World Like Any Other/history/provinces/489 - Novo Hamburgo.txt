@@ -2,7 +2,11 @@
 title = c_novo_hamburgo
 
 # Settlements
-max_settlements = 2
+max_settlements = 4
+
+b_novo_hamburgo = castle
+b_sapiranga = city
+b_estancia_velha = temple
 
 # Misc
 culture = gaucho_rg

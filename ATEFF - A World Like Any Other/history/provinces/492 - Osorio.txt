@@ -2,7 +2,10 @@
 title = c_osorio
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
+
+b_osorio = castle
+b_tramandai = city
 
 # Misc
 culture = gaucho_rg

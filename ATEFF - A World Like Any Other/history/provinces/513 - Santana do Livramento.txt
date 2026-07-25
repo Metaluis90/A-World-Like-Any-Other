@@ -2,7 +2,10 @@
 title = c_santana_do_livramento
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
+
+b_santana_do_livramento = castle
+b_ibirapuita_2 = city
 
 # Misc
 culture = gaucho_rg

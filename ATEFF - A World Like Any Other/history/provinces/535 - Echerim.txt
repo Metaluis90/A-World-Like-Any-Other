@@ -2,7 +2,11 @@
 title = c_erechim
 
 # Settlements
-max_settlements = 2
+max_settlements = 4
+
+b_erechim = castle
+b_getulio_vargas = city
+b_marcelino_ramos = temple
 
 # Misc
 culture = gaucho_rg

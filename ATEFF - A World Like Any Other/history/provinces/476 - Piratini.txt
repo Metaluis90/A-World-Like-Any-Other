@@ -4,6 +4,8 @@ title = c_piratini
 # Settlements
 max_settlements = 2
 
+b_piratini = castle
+
 # Misc
 culture = gaucho_rg
 religion = farrapo

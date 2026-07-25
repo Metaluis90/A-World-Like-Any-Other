@@ -2,7 +2,10 @@
 title = c_alegrete
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
+
+b_alegrete = castle
+b_cavera = city
 
 # Misc
 culture = gaucho_rg

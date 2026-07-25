@@ -4,6 +4,8 @@ title = c_jaguari
 # Settlements
 max_settlements = 2
 
+b_jaguari = castle
+
 # Misc
 culture = gaucho_rg
 religion = farrapo

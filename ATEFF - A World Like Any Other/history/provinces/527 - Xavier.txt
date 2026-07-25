@@ -4,6 +4,8 @@ title = c_porto_xavier
 # Settlements
 max_settlements = 2
 
+b_porto_xavier = castle
+
 # Misc
 culture = gaucho_rg
 religion = farrapo

@@ -4,6 +4,8 @@ title = c_sao_jose_do_norte
 # Settlements
 max_settlements = 2
 
+b_sao_jose_do_norte = castle
+
 # Misc
 culture = gaucho_rg
 religion = farrapo

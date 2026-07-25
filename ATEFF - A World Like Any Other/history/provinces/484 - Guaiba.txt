@@ -2,7 +2,10 @@
 title = c_guaiba
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
+
+b_guaiba = castle
+b_eldorado_do_sul = city
 
 # Misc
 culture = gaucho_rg

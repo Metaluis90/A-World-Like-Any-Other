@@ -2,7 +2,10 @@
 title = c_itaqui
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
+
+b_itaqui = castle
+b_tapurai = city
 
 # Misc
 culture = gaucho_rg

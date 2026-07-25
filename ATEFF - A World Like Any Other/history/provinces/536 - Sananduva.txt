@@ -4,6 +4,8 @@ title = c_sananduva
 # Settlements
 max_settlements = 2
 
+b_sananduva = castle
+
 # Misc
 culture = gaucho_rg
 religion = farrapo

@@ -2,7 +2,11 @@
 title = c_passo_fundo
 
 # Settlements
-max_settlements = 2
+max_settlements = 4
+
+b_passo_fundo = castle
+b_marau = city
+b_tapejara = temple
 
 # Misc
 culture = gaucho_rg

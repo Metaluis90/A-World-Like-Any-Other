@@ -2,11 +2,13 @@
 title = c_uruguaiana
 
 # Settlements
-max_settlements = 2
+max_settlements = 4
 
 b_uruguaiana = castle
 #	b_barra_do_quarai = temmple
 
+
+b_plano_alto = city
 
 # Misc
 culture=gaucho_rg

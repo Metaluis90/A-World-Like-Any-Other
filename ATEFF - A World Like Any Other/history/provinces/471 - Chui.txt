@@ -2,7 +2,7 @@
 title = c_chui
 
 # Settlements
-max_settlements = 2
+max_settlements = 1
 
 b_chui = castle
 

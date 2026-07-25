@@ -2,7 +2,10 @@
 title = c_vacaria
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
+
+b_vacaria = castle
+b_sao_jose_dos_ausentes = city
 
 # Misc
 culture = gaucho_rg

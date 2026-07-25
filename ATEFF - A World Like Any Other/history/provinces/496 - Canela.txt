@@ -2,7 +2,10 @@
 title = c_canela
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
+
+b_canela = castle
+b_gramado = city
 
 # Misc
 culture = gaucho_rg

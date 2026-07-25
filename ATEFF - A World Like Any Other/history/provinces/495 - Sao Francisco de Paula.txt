@@ -4,6 +4,8 @@ title = c_sao_francisco_de_paula
 # Settlements
 max_settlements = 2
 
+b_sao_francisco_de_paula = castle
+
 # Misc
 culture = gaucho_rg
 religion = farrapo

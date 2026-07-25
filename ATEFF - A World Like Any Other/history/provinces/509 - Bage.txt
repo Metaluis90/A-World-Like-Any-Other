@@ -2,7 +2,11 @@
 title = c_bage
 
 # Settlements
-max_settlements = 2
+max_settlements = 4
+
+b_bage = castle
+b_pedras_altas = city
+b_lavras_do_sul_2 = temple
 
 # Misc
 culture = gaucho_rg

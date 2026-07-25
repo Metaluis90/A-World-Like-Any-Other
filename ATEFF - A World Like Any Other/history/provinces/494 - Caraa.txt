@@ -2,7 +2,9 @@
 title = c_caraa
 
 # Settlements
-max_settlements = 2
+max_settlements = 1
+
+b_caraa = castle
 
 # Misc
 culture = gaucho_rg
