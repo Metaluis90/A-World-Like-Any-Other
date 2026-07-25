@@ -899,3 +899,18 @@ execution_method = {
 		}
 	}
 }
+
+execution_method = {
+	death = death_execution_degolation
+
+	weight_multiplier = { 
+		factor = 400
+	}
+
+	trigger = {
+		OR = {
+			religion = farrapo
+			culture = gaucho_rg
+		}
+	 }
+}
