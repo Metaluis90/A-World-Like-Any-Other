@@ -1,0 +1,9 @@
+# County Title
+title = c_capao_do_leao
+
+# Settlements
+max_settlements = 2
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

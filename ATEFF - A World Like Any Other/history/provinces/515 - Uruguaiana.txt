@@ -1,0 +1,17 @@
+# County Title
+title = c_uruguaiana
+
+# Settlements
+max_settlements = 2
+
+b_uruguaiana = castle
+#	b_barra_do_quarai = temmple
+
+
+# Misc
+culture=gaucho_rg
+religion=farrapo
+
+#History
+
+2666.1.1 = { b_barra_do_quarai = temple }

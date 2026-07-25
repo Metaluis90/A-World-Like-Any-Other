@@ -1,0 +1,9 @@
+# County Title
+title = c_passo_fundo
+
+# Settlements
+max_settlements = 2
+
+# Misc
+culture = gaucho_rg
+religion = farrapo
