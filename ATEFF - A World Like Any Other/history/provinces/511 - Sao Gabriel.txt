@@ -1,0 +1,12 @@
+# County Title
+title = c_sao_gabriel
+
+# Settlements
+max_settlements = 3
+
+b_sao_gabriel = castle
+b_santa_margarida_do_sul = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

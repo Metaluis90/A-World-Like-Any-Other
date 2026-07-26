@@ -1,0 +1,12 @@
+# County Title
+title = c_sao_borja
+
+# Settlements
+max_settlements = 3
+
+b_sao_borja = castle
+b_nhu_pora = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

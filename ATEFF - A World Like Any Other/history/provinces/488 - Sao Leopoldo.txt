@@ -1,0 +1,13 @@
+# County Title
+title = c_sao_leopoldo
+
+# Settlements
+max_settlements = 4
+
+b_sao_leopoldo = castle
+b_scharlau = city
+b_feitoria = temple
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

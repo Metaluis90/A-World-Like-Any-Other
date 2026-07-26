@@ -1,0 +1,12 @@
+# County Title
+title = c_camaqua
+
+# Settlements
+max_settlements = 3
+
+b_camaqua = castle
+b_arambare = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

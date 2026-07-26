@@ -1,0 +1,12 @@
+# County Title
+title = c_cachoeira_do_sul
+
+# Settlements
+max_settlements = 3
+
+b_cachoeira_do_sul = castle
+b_jacui = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

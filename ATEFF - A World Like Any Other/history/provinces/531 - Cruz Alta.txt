@@ -1,0 +1,12 @@
+# County Title
+title = c_cruz_alta
+
+# Settlements
+max_settlements = 3
+
+b_cruz_alta = castle
+b_tupancireta = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

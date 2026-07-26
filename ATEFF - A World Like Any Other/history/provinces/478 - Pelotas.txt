@@ -1,0 +1,14 @@
+# County Title
+title = c_pelotas
+
+# Settlements
+max_settlements = 5
+
+b_pelotas = castle
+b_sao_lourenco_do_sul = city
+b_turucu = temple
+b_arroio_do_padre_2 = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

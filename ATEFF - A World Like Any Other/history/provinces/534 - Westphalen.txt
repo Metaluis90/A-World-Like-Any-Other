@@ -1,0 +1,12 @@
+# County Title
+title = c_frederico_westphalen
+
+# Settlements
+max_settlements = 3
+
+b_frederico_westphalen = castle
+b_alpestre = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

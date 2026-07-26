@@ -1,0 +1,12 @@
+# County Title
+title = c_taquara
+
+# Settlements
+max_settlements = 3
+
+b_taquara = castle
+b_taquara_2 = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

@@ -1,0 +1,11 @@
+# County Title
+title = c_mostardas
+
+# Settlements
+max_settlements = 2
+
+b_mostardas = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

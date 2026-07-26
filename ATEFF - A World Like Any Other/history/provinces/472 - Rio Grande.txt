@@ -1,0 +1,13 @@
+# County Title
+title = c_rio_grande
+
+# Settlements
+max_settlements = 4
+
+b_rio_grande = castle
+b_cassino = city
+b_quinta = temple
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

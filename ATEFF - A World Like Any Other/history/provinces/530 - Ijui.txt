@@ -1,0 +1,12 @@
+# County Title
+title = c_ijui
+
+# Settlements
+max_settlements = 3
+
+b_ijui = castle
+b_panambi = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

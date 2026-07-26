@@ -1,0 +1,11 @@
+# County Title
+title = c_caraa
+
+# Settlements
+max_settlements = 1
+
+b_caraa = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

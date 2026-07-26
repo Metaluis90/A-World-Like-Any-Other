@@ -1,0 +1,15 @@
+# County Title
+title = c_porto_alegre
+
+# Settlements
+max_settlements = 6
+
+b_piratini_palace = castle
+b_jacui_delta = city
+b_igreja_matriz = temple
+b_ipanema_2 = city
+b_gravatai = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

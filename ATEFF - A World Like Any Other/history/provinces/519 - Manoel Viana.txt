@@ -1,0 +1,11 @@
+# County Title
+title = c_manoel_viana
+
+# Settlements
+max_settlements = 1
+
+b_manoel_viana = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

@@ -1,0 +1,561 @@
+################################################
+### A World Like Any Other The South De Jure ###
+################################################
+e_the_south;The South;;;;;;;;;;;;;x
+k_rio_grande_do_sul;Rio Grande do Sul;;;;;;;;;;;;;x
+k_rio_grande_do_sul_adj;Rio Grande do Sul;;;;;;;;;;;;;x
+d_litoral_lagunar;Litoral Lagunar;;;;;;;;;;;;;x
+d_litoral_lagunar_adj;Litoral Lagunar;;;;;;;;;;;;;x
+c_chui;Chui;;;;;;;;;;;;;x
+c_chui_adj;Chui;;;;;;;;;;;;;x
+b_chui;Chui;;;;;;;;;;;;;x
+c_rio_grande;Rio Grande;;;;;;;;;;;;;x
+c_rio_grande_adj;Rio Grande;;;;;;;;;;;;;x
+b_rio_grande;Rio Grande;;;;;;;;;;;;;x
+b_cassino;Cassino;;;;;;;;;;;;;x
+b_quinta;Quinta;;;;;;;;;;;;;x
+b_ilha_dos_marinheiros;Ilha Dos Marinheiros;;;;;;;;;;;;;x
+b_estreito;Estreito;;;;;;;;;;;;;x
+b_ponta_dos_pescadores;Ponta Dos Pescadores;;;;;;;;;;;;;x
+c_sao_jose_do_norte;Sao Jose do Norte;;;;;;;;;;;;;x
+c_sao_jose_do_norte_adj;Sao Jose do Norte;;;;;;;;;;;;;x
+b_sao_jose_do_norte;Sao Jose Do Norte;;;;;;;;;;;;;x
+c_capao_do_leao;Capao do Leao;;;;;;;;;;;;;x
+c_capao_do_leao_adj;Capao do Leao;;;;;;;;;;;;;x
+b_capao_do_leao;Capao Do Leao;;;;;;;;;;;;;x
+c_pelotas;Pelotas;;;;;;;;;;;;;x
+c_pelotas_adj;Pelotas;;;;;;;;;;;;;x
+b_pelotas;Pelotas;;;;;;;;;;;;;x
+b_sao_lourenco_do_sul;Sao Lourenco Do Sul;;;;;;;;;;;;;x
+b_turucu;Turucu;;;;;;;;;;;;;x
+b_arroio_do_padre_2;Arroio Do Padre 2;;;;;;;;;;;;;x
+b_povo_novo;Povo Novo;;;;;;;;;;;;;x
+b_santa_izabel_do_sul;Santa Izabel Do Sul;;;;;;;;;;;;;x
+c_cangucu;Cangucu;;;;;;;;;;;;;x
+c_cangucu_adj;Cangucu;;;;;;;;;;;;;x
+b_cangucu;Cangucu;;;;;;;;;;;;;x
+d_tapes;Tapes;;;;;;;;;;;;;x
+d_tapes_adj;Tapes;;;;;;;;;;;;;x
+c_jaguarao;Jaguarao;;;;;;;;;;;;;x
+c_jaguarao_adj;Jaguarao;;;;;;;;;;;;;x
+b_jaguarao;Jaguarao;;;;;;;;;;;;;x
+b_arroio_grande;Arroio Grande;;;;;;;;;;;;;x
+b_passo_do_centuriao;Passo Do Centuriao;;;;;;;;;;;;;x
+b_coxilha_do_lageado;Coxilha Do Lageado;;;;;;;;;;;;;x
+b_cerro_chato;Cerro Chato;;;;;;;;;;;;;x
+b_mingote;Mingote;;;;;;;;;;;;;x
+c_herval;Herval;;;;;;;;;;;;;x
+c_herval_adj;Herval;;;;;;;;;;;;;x
+b_herval;Herval;;;;;;;;;;;;;x
+c_piratini;Piratini;;;;;;;;;;;;;x
+c_piratini_adj;Piratini;;;;;;;;;;;;;x
+b_piratini;Piratini;;;;;;;;;;;;;x
+b_pinheiro_machado;Pinheiro Machado;;;;;;;;;;;;;x
+b_torrinhas_2;Torrinhas 2;;;;;;;;;;;;;x
+b_arroio_da_solidao;Arroio Da Solidao;;;;;;;;;;;;;x
+b_morro_redondo;Morro Redondo;;;;;;;;;;;;;x
+b_arroio_do_padre;Arroio Do Padre;;;;;;;;;;;;;x
+d_costa_doce;Costa Doce;;;;;;;;;;;;;x
+d_costa_doce_adj;Costa Doce;;;;;;;;;;;;;x
+c_camaqua;Camaqua;;;;;;;;;;;;;x
+c_camaqua_adj;Camaqua;;;;;;;;;;;;;x
+b_camaqua;Camaqua;;;;;;;;;;;;;x
+b_arambare;Arambare;;;;;;;;;;;;;x
+b_chuvisca;Chuvisca;;;;;;;;;;;;;x
+b_cerro_grande_do_sul;Cerro Grande Do Sul;;;;;;;;;;;;;x
+b_amaral_ferrador;Amaral Ferrador;;;;;;;;;;;;;x
+c_dom_feliciano;Feliciano;;;;;;;;;;;;;x
+c_dom_feliciano_adj;Feliciano;;;;;;;;;;;;;x
+b_dom_feliciano;Dom Feliciano;;;;;;;;;;;;;x
+c_tapes;Tapes;;;;;;;;;;;;;x
+c_tapes_adj;Tapes;;;;;;;;;;;;;x
+b_tapes;Tapes;;;;;;;;;;;;;x
+c_mostardas;Mostardas;;;;;;;;;;;;;x
+c_mostardas_adj;Mostardas;;;;;;;;;;;;;x
+b_mostardas;Mostardas;;;;;;;;;;;;;x
+b_farol_da_solidao;Farol Da Solidao;;;;;;;;;;;;;x
+b_tavares;Tavares;;;;;;;;;;;;;x
+b_capao_comprido;Capao Comprido;;;;;;;;;;;;;x
+b_bojuru;Bojuru;;;;;;;;;;;;;x
+b_povos;Povos;;;;;;;;;;;;;x
+b_bacupari;Bacupari;;;;;;;;;;;;;x
+d_porto_alegre;Porto Alegre;;;;;;;;;;;;;x
+d_porto_alegre_adj;Porto Alegre;;;;;;;;;;;;;x
+c_guaiba;Guaiba;;;;;;;;;;;;;x
+c_guaiba_adj;Guaiba;;;;;;;;;;;;;x
+b_guaiba;Guaiba;;;;;;;;;;;;;x
+b_eldorado_do_sul;Eldorado Do Sul;;;;;;;;;;;;;x
+b_barra_do_ribeiro;Barra Do Ribeiro;;;;;;;;;;;;;x
+b_charqueadas;Charqueadas;;;;;;;;;;;;;x
+b_douradilho;Douradilho;;;;;;;;;;;;;x
+b_arroio_dos_ratos;Arroio Dos Ratos;;;;;;;;;;;;;x
+b_marina_pimentel;Marina Pimentel;;;;;;;;;;;;;x
+c_porto_alegre;Porto Alegre;;;;;;;;;;;;;x
+c_porto_alegre_adj;Porto Alegre;;;;;;;;;;;;;x
+b_piratini_palace;Piratini Palace;;;;;;;;;;;;;x
+b_jacui_delta;Jacui Delta;;;;;;;;;;;;;x
+b_igreja_matriz;Igreja Matriz;;;;;;;;;;;;;x
+b_ipanema_2;Ipanema 2;;;;;;;;;;;;;x
+b_gravatai;Gravatai;;;;;;;;;;;;;x
+b_partenon;Partenon;;;;;;;;;;;;;x
+b_rubem_berta;Rubem Berta;;;;;;;;;;;;;x
+c_viamao;Viamao;;;;;;;;;;;;;x
+c_viamao_adj;Viamao;;;;;;;;;;;;;x
+b_viamao;Viamao;;;;;;;;;;;;;x
+b_santo_antonio_da_patrulha;Santo Antonio Da Patrulha;;;;;;;;;;;;;x
+b_alvorada;Alvorada;;;;;;;;;;;;;x
+b_itapua;Itapua;;;;;;;;;;;;;x
+b_aguas_claras;Aguas Claras;;;;;;;;;;;;;x
+b_capivari_do_sul;Capivari Do Sul;;;;;;;;;;;;;x
+b_miraguaia;Miraguaia;;;;;;;;;;;;;x
+c_canoas;Canoas;;;;;;;;;;;;;x
+c_canoas_adj;Canoas;;;;;;;;;;;;;x
+b_canoas;Canoas;;;;;;;;;;;;;x
+b_triunfo;Triunfo;;;;;;;;;;;;;x
+b_portao;Portao;;;;;;;;;;;;;x
+c_sao_jeronimo;Sao Jeronimo;;;;;;;;;;;;;x
+c_sao_jeronimo_adj;Sao Jeronimo;;;;;;;;;;;;;x
+b_sao_jeronimo;Sao Jeronimo;;;;;;;;;;;;;x
+b_minas_do_leao;Minas Do Leao;;;;;;;;;;;;;x
+d_vale_dos_sinos;Vale dos Sinos;;;;;;;;;;;;;x
+d_vale_dos_sinos_adj;Vale dos Sinos;;;;;;;;;;;;;x
+c_sao_leopoldo;Sao Leopoldo;;;;;;;;;;;;;x
+c_sao_leopoldo_adj;Sao Leopoldo;;;;;;;;;;;;;x
+b_sao_leopoldo;Sao Leopoldo;;;;;;;;;;;;;x
+b_scharlau;Scharlau;;;;;;;;;;;;;x
+b_feitoria;Feitoria;;;;;;;;;;;;;x
+c_novo_hamburgo;Novo Hamburgo;;;;;;;;;;;;;x
+c_novo_hamburgo_adj;Novo Hamburgo;;;;;;;;;;;;;x
+b_novo_hamburgo;Novo Hamburgo;;;;;;;;;;;;;x
+b_sapiranga;Sapiranga;;;;;;;;;;;;;x
+b_estancia_velha;Estancia Velha;;;;;;;;;;;;;x
+b_nova_hartz;Nova Hartz;;;;;;;;;;;;;x
+b_morro_reuter;Morro Reuter;;;;;;;;;;;;;x
+c_taquara;Taquara;;;;;;;;;;;;;x
+c_taquara_adj;Taquara;;;;;;;;;;;;;x
+b_taquara;Taquara;;;;;;;;;;;;;x
+b_taquara_2;Taquara 2;;;;;;;;;;;;;x
+b_parobe;Parobe;;;;;;;;;;;;;x
+c_canela;Canela;;;;;;;;;;;;;x
+c_canela_adj;Canela;;;;;;;;;;;;;x
+b_canela;Canela;;;;;;;;;;;;;x
+b_gramado;Gramado;;;;;;;;;;;;;x
+b_caracol;Caracol;;;;;;;;;;;;;x
+b_varzea_do_cedro;Varzea Do Cedro;;;;;;;;;;;;;x
+b_itaimbezinho;Itaimbezinho;;;;;;;;;;;;;x
+c_montenegro;Montenegro;;;;;;;;;;;;;x
+c_montenegro_adj;Montenegro;;;;;;;;;;;;;x
+b_montenegro;Montenegro;;;;;;;;;;;;;x
+b_sao_sebastiao_do_cai;Sao Sebastiao Do Cai;;;;;;;;;;;;;x
+d_litoral_norte;Litoral Norte;;;;;;;;;;;;;x
+d_litoral_norte_adj;Litoral Norte;;;;;;;;;;;;;x
+c_pinhal;Pinhal;;;;;;;;;;;;;x
+c_pinhal_adj;Pinhal;;;;;;;;;;;;;x
+b_balneario_pinhal;Balneario Pinhal;;;;;;;;;;;;;x
+b_cidreira;Cidreira;;;;;;;;;;;;;x
+b_quintao;Quintao;;;;;;;;;;;;;x
+c_osorio;Osorio;;;;;;;;;;;;;x
+c_osorio_adj;Osorio;;;;;;;;;;;;;x
+b_osorio;Osorio;;;;;;;;;;;;;x
+b_tramandai;Tramandai;;;;;;;;;;;;;x
+b_palmares_do_sul;Palmares Do Sul;;;;;;;;;;;;;x
+b_albatroz;Albatroz;;;;;;;;;;;;;x
+c_torres;Torres;;;;;;;;;;;;;x
+c_torres_adj;Torres;;;;;;;;;;;;;x
+b_torres;Torres;;;;;;;;;;;;;x
+b_capao_da_canoa;Capao Da Canoa;;;;;;;;;;;;;x
+b_xangri_la;Xangri La;;;;;;;;;;;;;x
+b_arroio_do_sal;Arroio Do Sal;;;;;;;;;;;;;x
+b_terra_de_areia;Terra De Areia;;;;;;;;;;;;;x
+b_rondinha;Rondinha;;;;;;;;;;;;;x
+b_capao_novo;Capao Novo;;;;;;;;;;;;;x
+c_caraa;Caraa;;;;;;;;;;;;;x
+c_caraa_adj;Caraa;;;;;;;;;;;;;x
+b_caraa;Caraa;;;;;;;;;;;;;x
+d_campos_de_vacaria;Campos de Vacaria;;;;;;;;;;;;;x
+d_campos_de_vacaria_adj;Campos de Vacaria;;;;;;;;;;;;;x
+c_sao_francisco_de_paula;Sao Francisco de Paula;;;;;;;;;;;;;x
+c_sao_francisco_de_paula_adj;Sao Francisco de Paula;;;;;;;;;;;;;x
+b_sao_francisco_de_paula;Sao Francisco De Paula;;;;;;;;;;;;;x
+c_caxias_do_sul;Caixas do Sul;;;;;;;;;;;;;x
+c_caxias_do_sul_adj;Caixas do Sul;;;;;;;;;;;;;x
+b_chateau_lacave;Chateau Lacave;;;;;;;;;;;;;x
+b_santa_teresa_cathedral;Santa Teresa Cathedral;;;;;;;;;;;;;x
+b_flores_da_cunha;Flores Da Cunha;;;;;;;;;;;;;x
+b_farroupilha;Farroupilha;;;;;;;;;;;;;x
+b_sao_marcos;Sao Marcos;;;;;;;;;;;;;x
+b_nova_sardenha;Nova Sardenha;;;;;;;;;;;;;x
+b_otavio_rocha;Otavio Rocha;;;;;;;;;;;;;x
+c_bento_goncalves;Bento Goncalves;;;;;;;;;;;;;x
+c_bento_goncalves_adj;Bento Goncalves;;;;;;;;;;;;;x
+b_bento_goncalves;Bento Goncalves;;;;;;;;;;;;;x
+b_garibaldi;Garibaldi;;;;;;;;;;;;;x
+b_veranopolis;Veranopolis;;;;;;;;;;;;;x
+b_carlos_barbosa;Carlos Barbosa;;;;;;;;;;;;;x
+b_tuiuti;Tuiuti;;;;;;;;;;;;;x
+b_vale_dos_pinhedos;Vale Dos Pinhedos;;;;;;;;;;;;;x
+b_vespasiano_correa;Vespasiano Correa;;;;;;;;;;;;;x
+c_bom_jesus;Bom Jesus;;;;;;;;;;;;;x
+c_bom_jesus_adj;Bom Jesus;;;;;;;;;;;;;x
+b_bom_jesus;Bom Jesus;;;;;;;;;;;;;x
+c_vacaria;Vacaria;;;;;;;;;;;;;x
+c_vacaria_adj;Vacaria;;;;;;;;;;;;;x
+b_vacaria;Vacaria;;;;;;;;;;;;;x
+b_sao_jose_dos_ausentes;Sao Jose Dos Ausentes;;;;;;;;;;;;;x
+b_cambara_do_sul;Cambara Do Sul;;;;;;;;;;;;;x
+b_campestre_da_serra;Campestre Da Serra;;;;;;;;;;;;;x
+b_lagoa_vermelha;Lagoa Vermelha;;;;;;;;;;;;;x
+b_muitos_capoes;Muitos Capoes;;;;;;;;;;;;;x
+c_guapore;Guapore;;;;;;;;;;;;;x
+c_guapore_adj;Guapore;;;;;;;;;;;;;x
+b_guapore;Guapore;;;;;;;;;;;;;x
+d_vale_do_rio_pardo;Vale do Rio Pardo;;;;;;;;;;;;;x
+d_vale_do_rio_pardo_adj;Vale do Rio Pardo;;;;;;;;;;;;;x
+c_lajeado;Lajeado;;;;;;;;;;;;;x
+c_lajeado_adj;Lajeado;;;;;;;;;;;;;x
+b_lageado;Lageado;;;;;;;;;;;;;x
+b_teutonia;Teutonia;;;;;;;;;;;;;x
+b_venancio_aires;Venancio Aires;;;;;;;;;;;;;x
+b_monte_alverne;Monte Alverne;;;;;;;;;;;;;x
+b_arroio_do_meio;Arroio Do Meio;;;;;;;;;;;;;x
+b_bom_retiro_do_sul;Bom Retiro Do Sul;;;;;;;;;;;;;x
+b_encantado;Encantado;;;;;;;;;;;;;x
+c_estrela;Estrela;;;;;;;;;;;;;x
+c_estrela_adj;Estrela;;;;;;;;;;;;;x
+b_estrela;Estrela;;;;;;;;;;;;;x
+c_santa_cruz_do_sul;Santa Cruz do Sul;;;;;;;;;;;;;x
+c_santa_cruz_do_sul_adj;Santa Cruz do Sul;;;;;;;;;;;;;x
+b_santa_cruz_do_sul;Santa Cruz Do Sul;;;;;;;;;;;;;x
+b_candelaria;Candelaria;;;;;;;;;;;;;x
+b_passo_do_sobrado;Passo Do Sobrado;;;;;;;;;;;;;x
+b_venancio_aires_2;Venancio Aires 2;;;;;;;;;;;;;x
+b_vale_do_sol;Vale Do Sol;;;;;;;;;;;;;x
+b_sinimbu;Sinimbu;;;;;;;;;;;;;x
+b_herveiras;Herveiras;;;;;;;;;;;;;x
+c_cachoeira_do_sul;Cachoeira do Sul;;;;;;;;;;;;;x
+c_cachoeira_do_sul_adj;Cachoeira do Sul;;;;;;;;;;;;;x
+b_cachoeira_do_sul;Cachoeira Do Sul;;;;;;;;;;;;;x
+b_jacui;Jacui;;;;;;;;;;;;;x
+b_capane;Capane;;;;;;;;;;;;;x
+b_barro_vermelho;Barro Vermelho;;;;;;;;;;;;;x
+b_irui;Irui;;;;;;;;;;;;;x
+b_jazidas;Jazidas;;;;;;;;;;;;;x
+b_novo_cabrais;Novo Cabrais;;;;;;;;;;;;;x
+d_boca_do_monte;Boca do Monte;;;;;;;;;;;;;x
+d_boca_do_monte_adj;Boca do Monte;;;;;;;;;;;;;x
+c_cacequi;Cacequi;;;;;;;;;;;;;x
+c_cacequi_adj;Cacequi;;;;;;;;;;;;;x
+b_cacequi;Cacequi;;;;;;;;;;;;;x
+c_santa_maria;Santa Maria;;;;;;;;;;;;;x
+c_santa_maria_adj;Santa Maria;;;;;;;;;;;;;x
+b_santa_maria;Santa Maria;;;;;;;;;;;;;x
+b_basilica_nossa_senhora_medianeira;Basilica Nossa Senhora Medianeira;;;;;;;;;;;;;x
+b_boca_do_monte;Boca Do Monte;;;;;;;;;;;;;x
+b_camobi;Camobi;;;;;;;;;;;;;x
+b_itaara;Itaara;;;;;;;;;;;;;x
+b_sao_pedro_do_sul;Sao Pedro Do Sul;;;;;;;;;;;;;x
+c_restinga_seca;Restinga Seca;;;;;;;;;;;;;x
+c_restinga_seca_adj;Restinga Seca;;;;;;;;;;;;;x
+b_restinga_seca;Restinga Seca;;;;;;;;;;;;;x
+b_sao_joao_do_polesine;Sao Joao Do Polesine;;;;;;;;;;;;;x
+c_jaguari;Jaguari;;;;;;;;;;;;;x
+c_jaguari_adj;Jaguari;;;;;;;;;;;;;x
+b_jaguari;Jaguari;;;;;;;;;;;;;x
+c_santiago;Santiago;;;;;;;;;;;;;x
+c_santiago_adj;Santiago;;;;;;;;;;;;;x
+b_santiago_do_boqueirao;Santiago Do Boqueirao;;;;;;;;;;;;;x
+b_sao_vicente_do_sul;Sao Vicente Do Sul;;;;;;;;;;;;;x
+b_sao_francisco_de_assis;Sao Francisco De Assis;;;;;;;;;;;;;x
+b_nova_esperanca_do_sul;Nova Esperanca Do Sul;;;;;;;;;;;;;x
+b_capao_do_cipo;Capao Do Cipo;;;;;;;;;;;;;x
+b_santo_izidro;Santo Izidro;;;;;;;;;;;;;x
+d_campanha;Campanha;;;;;;;;;;;;;x
+d_campanha_adj;Campanha;;;;;;;;;;;;;x
+c_acegua;Acegua;;;;;;;;;;;;;x
+c_acegua_adj;Acegua;;;;;;;;;;;;;x
+b_acegua;Acegua;;;;;;;;;;;;;x
+c_bage;Bage;;;;;;;;;;;;;x
+c_bage_adj;Bage;;;;;;;;;;;;;x
+b_bage;Bage;;;;;;;;;;;;;x
+b_pedras_altas;Pedras Altas;;;;;;;;;;;;;x
+b_lavras_do_sul_2;Lavras Do Sul 2;;;;;;;;;;;;;x
+b_hulha_negra;Hulha Negra;;;;;;;;;;;;;x
+b_candiota;Candiota;;;;;;;;;;;;;x
+b_torquato_severo;Torquato Severo;;;;;;;;;;;;;x
+c_dom_pedrito;Dom Pedrito;;;;;;;;;;;;;x
+c_dom_pedrito_adj;Dom Pedrito;;;;;;;;;;;;;x
+b_dom_pedrito;Dom Pedrito;;;;;;;;;;;;;x
+c_sao_gabriel;Sao Gabriel;;;;;;;;;;;;;x
+c_sao_gabriel_adj;Sao Gabriel;;;;;;;;;;;;;x
+b_sao_gabriel;Sao Gabriel;;;;;;;;;;;;;x
+b_santa_margarida_do_sul;Santa Margarida Do Sul;;;;;;;;;;;;;x
+b_caiboate;Caiboate;;;;;;;;;;;;;x
+b_vacacai;Vacacai;;;;;;;;;;;;;x
+b_tiaraju;Tiaraju;;;;;;;;;;;;;x
+b_lavras_do_sul;Lavras Do Sul;;;;;;;;;;;;;x
+b_caraimbazinho;Caraimbazinho;;;;;;;;;;;;;x
+c_rosario_do_sul;Rosario do Sul;;;;;;;;;;;;;x
+c_rosario_do_sul_adj;Rosario do Sul;;;;;;;;;;;;;x
+b_rosario_do_sul;Rosario Do Sul;;;;;;;;;;;;;x
+b_guara;Guara;;;;;;;;;;;;;x
+b_azevedo_sodre;Azevedo Sodre;;;;;;;;;;;;;x
+b_umbu;Umbu;;;;;;;;;;;;;x
+b_saica;Saica;;;;;;;;;;;;;x
+b_curral_das_pedras;Curral Das Pedras;;;;;;;;;;;;;x
+c_santana_do_livramento;Santana do Livramento;;;;;;;;;;;;;x
+c_santana_do_livramento_adj;Santana do Livramento;;;;;;;;;;;;;x
+b_santana_do_livramento;Santana Do Livramento;;;;;;;;;;;;;x
+b_ibirapuita_2;Ibirapuita 2;;;;;;;;;;;;;x
+b_masoller;Masoller;;;;;;;;;;;;;x
+b_passo_dos_guedes;Passo Dos Guedes;;;;;;;;;;;;;x
+b_estancia_do_cerrito;Estancia Do Cerrito;;;;;;;;;;;;;x
+b_tres_vendas;Tres Vendas;;;;;;;;;;;;;x
+b_arroio_do_cambeta;Arroio Do Cambeta;;;;;;;;;;;;;x
+c_quarai;Quarai;;;;;;;;;;;;;x
+c_quarai_adj;Quarai;;;;;;;;;;;;;x
+b_quarai;Quarai;;;;;;;;;;;;;x
+c_uruguaiana;Uruguaiana;;;;;;;;;;;;;x
+c_uruguaiana_adj;Uruguaiana;;;;;;;;;;;;;x
+b_uruguaiana;Uruguaiana;;;;;;;;;;;;;x
+b_barra_do_quarai;Barra Do Quarai;;;;;;;;;;;;;x
+b_plano_alto;Plano Alto;;;;;;;;;;;;;x
+b_passo_da_cruz;Passo Da Cruz;;;;;;;;;;;;;x
+b_vertentes;Vertentes;;;;;;;;;;;;;x
+b_arroio_touro_passo;Arroio Touro Passo;;;;;;;;;;;;;x
+b_arroio_camoatim;Arroio Camoatim;;;;;;;;;;;;;x
+c_alegrete;Alegrete;;;;;;;;;;;;;x
+c_alegrete_adj;Alegrete;;;;;;;;;;;;;x
+b_alegrete;Alegrete;;;;;;;;;;;;;x
+b_cavera;Cavera;;;;;;;;;;;;;x
+b_ibirapuita;Ibirapuita;;;;;;;;;;;;;x
+b_passo_novo;Passo Novo;;;;;;;;;;;;;x
+b_harmonia;Harmonia;;;;;;;;;;;;;x
+b_vertentes_2;Vertentes 2;;;;;;;;;;;;;x
+c_itaqui;Itaqui;;;;;;;;;;;;;x
+c_itaqui_adj;Itaqui;;;;;;;;;;;;;x
+b_itaqui;Itaqui;;;;;;;;;;;;;x
+b_tapurai;Tapurai;;;;;;;;;;;;;x
+b_borore;Borore;;;;;;;;;;;;;x
+b_pintado;Pintado;;;;;;;;;;;;;x
+b_ibicui;Ibicui;;;;;;;;;;;;;x
+b_itao;Itao;;;;;;;;;;;;;x
+c_macambara;Macaramba;;;;;;;;;;;;;x
+c_macambara_adj;Macaramba;;;;;;;;;;;;;x
+b_macambara;Macambara;;;;;;;;;;;;;x
+c_manoel_viana;Manoel Viana;;;;;;;;;;;;;x
+c_manoel_viana_adj;Manoel Viana;;;;;;;;;;;;;x
+b_manoel_viana;Manoel Viana;;;;;;;;;;;;;x
+c_sao_borja;Sao Borja;;;;;;;;;;;;;x
+c_sao_borja_adj;Sao Borja;;;;;;;;;;;;;x
+b_sao_borja;Sao Borja;;;;;;;;;;;;;x
+b_nhu_pora;Nhu Pora;;;;;;;;;;;;;x
+b_icamaqua;Icamaqua;;;;;;;;;;;;;x
+b_coudelaria;Coudelaria;;;;;;;;;;;;;x
+b_itacurubi;Itacurubi;;;;;;;;;;;;;x
+b_sambura;Sambura;;;;;;;;;;;;;x
+b_unistalda;Unistalda;;;;;;;;;;;;;x
+d_missoes;Missões;;;;;;;;;;;;;x
+d_missoes_adj;Missões;;;;;;;;;;;;;x
+c_santo_angelo;Santo Angelo;;;;;;;;;;;;;x
+c_santo_angelo_adj;Santo Angelo;;;;;;;;;;;;;x
+b_santo_angelo;Santo Angelo;;;;;;;;;;;;;x
+b_sao_miguel_arcanjo;Sao Miguel Arcanjo;;;;;;;;;;;;;x
+b_girua;Girua;;;;;;;;;;;;;x
+b_passo_burmann;Passo Burmann;;;;;;;;;;;;;x
+b_mato_queimado;Mato Queimado;;;;;;;;;;;;;x
+b_eugenio_de_castro;Eugenio De Castro;;;;;;;;;;;;;x
+b_catuipe;Catuipe;;;;;;;;;;;;;x
+c_porto_xavier;Xavier;;;;;;;;;;;;;x
+c_porto_xavier_adj;Xavier;;;;;;;;;;;;;x
+b_porto_xavier;Porto Xavier;;;;;;;;;;;;;x
+b_sao_nicolau;Sao Nicolau;;;;;;;;;;;;;x
+b_porto_lucena;Porto Lucena;;;;;;;;;;;;;x
+c_santa_rosa;Santa Rosa;;;;;;;;;;;;;x
+c_santa_rosa_adj;Santa Rosa;;;;;;;;;;;;;x
+b_santa_rosa;Santa Rosa;;;;;;;;;;;;;x
+b_salto_do_yucuma;Salto Do Yucuma;;;;;;;;;;;;;x
+b_horizontina;Horizontina;;;;;;;;;;;;;x
+b_tuparendi;Tuparendi;;;;;;;;;;;;;x
+b_candido_godoi;Candido Godoi;;;;;;;;;;;;;x
+b_crissiumal;Crissiumal;;;;;;;;;;;;;x
+b_consolata;Consolata;;;;;;;;;;;;;x
+c_tres_passos;Tres Passos;;;;;;;;;;;;;x
+c_tres_passos_adj;Tres Passos;;;;;;;;;;;;;x
+b_tres_passos;Tres Passos;;;;;;;;;;;;;x
+c_ijui;Ijui;;;;;;;;;;;;;x
+c_ijui_adj;Ijui;;;;;;;;;;;;;x
+b_ijui;Ijui;;;;;;;;;;;;;x
+b_panambi;Panambi;;;;;;;;;;;;;x
+b_augusto_pestana;Augusto Pestana;;;;;;;;;;;;;x
+b_porongas;Porongas;;;;;;;;;;;;;x
+b_nova_ramada;Nova Ramada;;;;;;;;;;;;;x
+b_chiapetta;Chiapetta;;;;;;;;;;;;;x
+b_ajuricaba;Ajuricaba;;;;;;;;;;;;;x
+c_cruz_alta;Cruz Alta;;;;;;;;;;;;;x
+c_cruz_alta_adj;Cruz Alta;;;;;;;;;;;;;x
+b_cruz_alta;Cruz Alta;;;;;;;;;;;;;x
+b_tupancireta;Tupancireta;;;;;;;;;;;;;x
+b_julio_de_castilhos;Julio De Castilhos;;;;;;;;;;;;;x
+b_ibiruba;Ibiruba;;;;;;;;;;;;;x
+b_boa_vista_do_incra;Boa Vista Do Incra;;;;;;;;;;;;;x
+b_fortaleza_dos_valos;Fortaleza Dos Valos;;;;;;;;;;;;;x
+b_salto_do_jacui;Salto Do Jacui;;;;;;;;;;;;;x
+d_alto_uruguai;Alto Uruguai;;;;;;;;;;;;;x
+d_alto_uruguai_adj;Alto Uruguai;;;;;;;;;;;;;x
+c_soledade;Soledade;;;;;;;;;;;;;x
+c_soledade_adj;Soledade;;;;;;;;;;;;;x
+b_soledade_4;Soledade 4;;;;;;;;;;;;;x
+b_espumoso;Espumoso;;;;;;;;;;;;;x
+b_fontoura_xavier;Fontoura Xavier;;;;;;;;;;;;;x
+b_barros_cassal;Barros Cassal;;;;;;;;;;;;;x
+b_volta_alegre;Volta Alegre;;;;;;;;;;;;;x
+b_tio_hugo;Tio Hugo;;;;;;;;;;;;;x
+b_itapuca;Itapuca;;;;;;;;;;;;;x
+c_passo_fundo;Passo Fundo;;;;;;;;;;;;;x
+c_passo_fundo_adj;Passo Fundo;;;;;;;;;;;;;x
+b_passo_fundo;Passo Fundo;;;;;;;;;;;;;x
+b_marau;Marau;;;;;;;;;;;;;x
+b_tapejara;Tapejara;;;;;;;;;;;;;x
+b_tapejara_2;Tapejara 2;;;;;;;;;;;;;x
+b_mato_castelhano;Mato Castelhano;;;;;;;;;;;;;x
+b_nova_alvorada;Nova Alvorada;;;;;;;;;;;;;x
+c_frederico_westphalen;Westphalen;;;;;;;;;;;;;x
+c_frederico_westphalen_adj;Westphalen;;;;;;;;;;;;;x
+b_frederico_westphalen;Frederico Westphalen;;;;;;;;;;;;;x
+b_alpestre;Alpestre;;;;;;;;;;;;;x
+b_seberi;Seberi;;;;;;;;;;;;;x
+b_nonoai;Nonoai;;;;;;;;;;;;;x
+b_ametista_do_sul;Ametista Do Sul;;;;;;;;;;;;;x
+b_irai;Irai;;;;;;;;;;;;;x
+b_tenente_portela;Tenente Portela;;;;;;;;;;;;;x
+c_erechim;Echerim;;;;;;;;;;;;;x
+c_erechim_adj;Echerim;;;;;;;;;;;;;x
+b_erechim;Erechim;;;;;;;;;;;;;x
+b_getulio_vargas;Getulio Vargas;;;;;;;;;;;;;x
+b_marcelino_ramos;Marcelino Ramos;;;;;;;;;;;;;x
+b_rio_toldo;Rio Toldo;;;;;;;;;;;;;x
+b_sao_valentim;Sao Valentim;;;;;;;;;;;;;x
+b_sao_joao_da_urtiga;Sao Joao Da Urtiga;;;;;;;;;;;;;x
+b_aurea;Aurea;;;;;;;;;;;;;x
+c_sananduva;Sananduva;;;;;;;;;;;;;x
+c_sananduva_adj;Sananduva;;;;;;;;;;;;;x
+b_sananduva;Sananduva;;;;;;;;;;;;;x
+### Placeholder Baronies ###
+b_canoas_1;Canoas 1;;;;;;;;;;;;;x
+b_canoas_2;Canoas 2;;;;;;;;;;;;;x
+b_canoas_3;Canoas 3;;;;;;;;;;;;;x
+b_canoas_4;Canoas 4;;;;;;;;;;;;;x
+b_sao_leopoldo_1;Sao Leopoldo 1;;;;;;;;;;;;;x
+b_sao_leopoldo_2;Sao Leopoldo 2;;;;;;;;;;;;;x
+b_sao_leopoldo_3;Sao Leopoldo 3;;;;;;;;;;;;;x
+b_sao_leopoldo_4;Sao Leopoldo 4;;;;;;;;;;;;;x
+b_montenegro_1;Montenegro 1;;;;;;;;;;;;;x
+b_montenegro_2;Montenegro 2;;;;;;;;;;;;;x
+b_montenegro_3;Montenegro 3;;;;;;;;;;;;;x
+b_montenegro_4;Montenegro 4;;;;;;;;;;;;;x
+b_montenegro_5;Montenegro 5;;;;;;;;;;;;;x
+b_chui_1;Chui 1;;;;;;;;;;;;;x
+b_chui_2;Chui 2;;;;;;;;;;;;;x
+b_chui_3;Chui 3;;;;;;;;;;;;;x
+b_chui_4;Chui 4;;;;;;;;;;;;;x
+b_chui_5;Chui 5;;;;;;;;;;;;;x
+b_sao_jose_do_norte_1;Sao Jose do Norte 1;;;;;;;;;;;;;x
+b_sao_jose_do_norte_2;Sao Jose do Norte 2;;;;;;;;;;;;;x
+b_sao_jose_do_norte_3;Sao Jose do Norte 3;;;;;;;;;;;;;x
+b_sao_jose_do_norte_4;Sao Jose do Norte 4;;;;;;;;;;;;;x
+b_sao_jose_do_norte_5;Sao Jose do Norte 5;;;;;;;;;;;;;x
+b_capao_do_leao_1;Capao do Leao 1;;;;;;;;;;;;;x
+b_capao_do_leao_2;Capao do Leao 2;;;;;;;;;;;;;x
+b_capao_do_leao_3;Capao do Leao 3;;;;;;;;;;;;;x
+b_capao_do_leao_4;Capao do Leao 4;;;;;;;;;;;;;x
+b_capao_do_leao_5;Capao do Leao 5;;;;;;;;;;;;;x
+b_cangucu_1;Cangucu 1;;;;;;;;;;;;;x
+b_cangucu_2;Cangucu 2;;;;;;;;;;;;;x
+b_cangucu_3;Cangucu 3;;;;;;;;;;;;;x
+b_cangucu_4;Cangucu 4;;;;;;;;;;;;;x
+b_cangucu_5;Cangucu 5;;;;;;;;;;;;;x
+b_herval_1;Herval 1;;;;;;;;;;;;;x
+b_herval_2;Herval 2;;;;;;;;;;;;;x
+b_herval_3;Herval 3;;;;;;;;;;;;;x
+b_herval_4;Herval 4;;;;;;;;;;;;;x
+b_herval_5;Herval 5;;;;;;;;;;;;;x
+b_dom_feliciano_1;Dom Feliciano 1;;;;;;;;;;;;;x
+b_dom_feliciano_2;Dom Feliciano 2;;;;;;;;;;;;;x
+b_dom_feliciano_3;Dom Feliciano 3;;;;;;;;;;;;;x
+b_dom_feliciano_4;Dom Feliciano 4;;;;;;;;;;;;;x
+b_dom_feliciano_5;Dom Feliciano 5;;;;;;;;;;;;;x
+b_tapes_1;Tapes 1;;;;;;;;;;;;;x
+b_tapes_2;Tapes 2;;;;;;;;;;;;;x
+b_tapes_3;Tapes 3;;;;;;;;;;;;;x
+b_tapes_4;Tapes 4;;;;;;;;;;;;;x
+b_tapes_5;Tapes 5;;;;;;;;;;;;;x
+b_caraa_1;Caraa 1;;;;;;;;;;;;;x
+b_caraa_2;Caraa 2;;;;;;;;;;;;;x
+b_caraa_3;Caraa 3;;;;;;;;;;;;;x
+b_caraa_4;Caraa 4;;;;;;;;;;;;;x
+b_caraa_5;Caraa 5;;;;;;;;;;;;;x
+b_sao_francisco_de_paula_1;Sao Francisco de Paula 1;;;;;;;;;;;;;x
+b_sao_francisco_de_paula_2;Sao Francisco de Paula 2;;;;;;;;;;;;;x
+b_sao_francisco_de_paula_3;Sao Francisco de Paula 3;;;;;;;;;;;;;x
+b_sao_francisco_de_paula_4;Sao Francisco de Paula 4;;;;;;;;;;;;;x
+b_sao_francisco_de_paula_5;Sao Francisco de Paula 5;;;;;;;;;;;;;x
+b_bom_jesus_1;Bom Jesus 1;;;;;;;;;;;;;x
+b_bom_jesus_2;Bom Jesus 2;;;;;;;;;;;;;x
+b_bom_jesus_3;Bom Jesus 3;;;;;;;;;;;;;x
+b_bom_jesus_4;Bom Jesus 4;;;;;;;;;;;;;x
+b_bom_jesus_5;Bom Jesus 5;;;;;;;;;;;;;x
+b_guapore_1;Guapore 1;;;;;;;;;;;;;x
+b_guapore_2;Guapore 2;;;;;;;;;;;;;x
+b_guapore_3;Guapore 3;;;;;;;;;;;;;x
+b_guapore_4;Guapore 4;;;;;;;;;;;;;x
+b_guapore_5;Guapore 5;;;;;;;;;;;;;x
+b_estrela_1;Estrela 1;;;;;;;;;;;;;x
+b_estrela_2;Estrela 2;;;;;;;;;;;;;x
+b_estrela_3;Estrela 3;;;;;;;;;;;;;x
+b_estrela_4;Estrela 4;;;;;;;;;;;;;x
+b_estrela_5;Estrela 5;;;;;;;;;;;;;x
+b_cacequi_1;Cacequi 1;;;;;;;;;;;;;x
+b_cacequi_2;Cacequi 2;;;;;;;;;;;;;x
+b_cacequi_3;Cacequi 3;;;;;;;;;;;;;x
+b_cacequi_4;Cacequi 4;;;;;;;;;;;;;x
+b_cacequi_5;Cacequi 5;;;;;;;;;;;;;x
+b_jaguari_1;Jaguari 1;;;;;;;;;;;;;x
+b_jaguari_2;Jaguari 2;;;;;;;;;;;;;x
+b_jaguari_3;Jaguari 3;;;;;;;;;;;;;x
+b_jaguari_4;Jaguari 4;;;;;;;;;;;;;x
+b_jaguari_5;Jaguari 5;;;;;;;;;;;;;x
+b_acegua_1;Acegua 1;;;;;;;;;;;;;x
+b_acegua_2;Acegua 2;;;;;;;;;;;;;x
+b_acegua_3;Acegua 3;;;;;;;;;;;;;x
+b_acegua_4;Acegua 4;;;;;;;;;;;;;x
+b_acegua_5;Acegua 5;;;;;;;;;;;;;x
+b_dom_pedrito_1;Dom Pedrito 1;;;;;;;;;;;;;x
+b_dom_pedrito_2;Dom Pedrito 2;;;;;;;;;;;;;x
+b_dom_pedrito_3;Dom Pedrito 3;;;;;;;;;;;;;x
+b_dom_pedrito_4;Dom Pedrito 4;;;;;;;;;;;;;x
+b_dom_pedrito_5;Dom Pedrito 5;;;;;;;;;;;;;x
+b_quarai_1;Quarai 1;;;;;;;;;;;;;x
+b_quarai_2;Quarai 2;;;;;;;;;;;;;x
+b_quarai_3;Quarai 3;;;;;;;;;;;;;x
+b_quarai_4;Quarai 4;;;;;;;;;;;;;x
+b_quarai_5;Quarai 5;;;;;;;;;;;;;x
+b_macambara_1;Macambara 1;;;;;;;;;;;;;x
+b_macambara_2;Macambara 2;;;;;;;;;;;;;x
+b_macambara_3;Macambara 3;;;;;;;;;;;;;x
+b_macambara_4;Macambara 4;;;;;;;;;;;;;x
+b_macambara_5;Macambara 5;;;;;;;;;;;;;x
+b_manoel_viana_1;Manoel Viana 1;;;;;;;;;;;;;x
+b_manoel_viana_2;Manoel Viana 2;;;;;;;;;;;;;x
+b_manoel_viana_3;Manoel Viana 3;;;;;;;;;;;;;x
+b_manoel_viana_4;Manoel Viana 4;;;;;;;;;;;;;x
+b_manoel_viana_5;Manoel Viana 5;;;;;;;;;;;;;x
+b_tres_passos_1;Tres Passos 1;;;;;;;;;;;;;x
+b_tres_passos_2;Tres Passos 2;;;;;;;;;;;;;x
+b_tres_passos_3;Tres Passos 3;;;;;;;;;;;;;x
+b_tres_passos_4;Tres Passos 4;;;;;;;;;;;;;x
+b_tres_passos_5;Tres Passos 5;;;;;;;;;;;;;x
+b_sananduva_1;Sananduva 1;;;;;;;;;;;;;x
+b_sananduva_2;Sananduva 2;;;;;;;;;;;;;x
+b_sananduva_3;Sananduva 3;;;;;;;;;;;;;x
+b_sananduva_4;Sananduva 4;;;;;;;;;;;;;x
+b_sananduva_5;Sananduva 5;;;;;;;;;;;;;x

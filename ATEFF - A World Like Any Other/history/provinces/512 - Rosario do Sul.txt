@@ -1,0 +1,12 @@
+# County Title
+title = c_rosario_do_sul
+
+# Settlements
+max_settlements = 3
+
+b_rosario_do_sul = castle
+b_guara = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

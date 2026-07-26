@@ -1,0 +1,12 @@
+# County Title
+title = c_estrela
+
+# Settlements
+max_settlements = 3
+
+b_estrela = castle
+b_estrela_1 = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

@@ -1,0 +1,12 @@
+# County Title
+title = c_dom_pedrito
+
+# Settlements
+max_settlements = 3
+
+b_dom_pedrito = castle
+b_dom_pedrito_1 = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

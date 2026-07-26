@@ -1,0 +1,11 @@
+# County Title
+title = c_dom_feliciano
+
+# Settlements
+max_settlements = 2
+
+b_dom_feliciano = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

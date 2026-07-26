@@ -1,0 +1,14 @@
+# County Title
+title = c_canoas
+
+# Settlements
+max_settlements = 5
+
+b_canoas = castle
+b_triunfo = city
+b_portao = temple
+b_canoas_1 = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

@@ -1,0 +1,11 @@
+# County Title
+title = c_bom_jesus
+
+# Settlements
+max_settlements = 2
+
+b_bom_jesus = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

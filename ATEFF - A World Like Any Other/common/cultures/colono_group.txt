@@ -1,0 +1,343 @@
+
+colono_group = {
+	graphical_cultures = { germangfx westerngfx }
+
+	hunsruckisch = {
+		graphical_cultures = { germangfx }
+		
+		color = { 0.45 0.45 0.45 }
+		
+		male_names = {
+			Adalberto_Albert Adalhardo Adão_Adam Ademario_Adémar Adolfo_Adolf Alarico_Alaric Alberico_Aubrey Albrechto_Albert Aldrico_Aldric Aloisio_Louis Amadeu_Amadeus Amalrico_Amalric Andre_Andrew Anselmo_Anselm Arnoldo_Arnold Arnulfo_Arnulf Augustino_Augustine
+			Baldarico_Baldric Baldomario Balduinio_Baldwin Berengo_Berengar Bernardo_Bernard Bertoldo_Berthold Bucardo_Bouchard
+			Christophenio_Christopher Cristhian
+			Dietero_Dieter Dietmario_Dietmar Dietepoldo_Dietpold Dietrico_Thierry Diogo Dimas
+			Eberhardo_Everard Ekeberto_Egbert Emelrico_Aymeric Edmundo_Emund Emanuel Erico_Erik Ernesto_Ernest 
+			Fernando_Ferdinand Filisberto_Filibert Folkardo Franz_Francis Frederico_Frederick
+			George Geraldo_Gerard Gerlaco_Gerlach Gilberto_Gilbert Gottfried_Godfrey Gotthard Gottschalk_Gottschalk Gotzelo Guntram Gunzelin_Günther Günther_Günther
+			Hans_Hans Henrique_Henry Herisberto_Herbert Herman Hugo_Hugh Humberto_Humbert
+			Jaco_Jacob João_John "João Pedro"
+			Karlo_Charles Kasparo_Caspar Kaike Kléber
+			Lamberto_Lambert Landolfo_Landolf Leopoldo_Leopold Lineu Liudolfo_Ludolf Lothario_Lothair Ludwigio_Louis
+			Magnus_Magnus Manegold Manfred_Manfred Markward_Markward Martin_Martin Matthias_Matthew Meinhard Miguel_Michael 
+			Nikolau_Nicholas Norberto_Norbert 
+			Otto Olavo
+			Pedro_Peter Philipi_Philip Paulo 
+			Rainer Rogerio Roberto Reinaldo
+			Siegefredo_Siegfried Simão_Simon Stefanio_Stephen
+			Theodorico_Thierry Thomas_Thomas 
+			Ulrico_Ulrich 
+			Viktor_Victor 
+			Wagner Waldemiro_Vladimir Walter Werner_Werner Wolfgang
+		}
+		female_names = {
+			Adelberga Adelchisa Adelgrima Adelperga Altruda_Adeltrudis Amalasuintha Amalberga Amalfrida Ansa_Ansa Anselberga Anselperga Ansiappa Astrid Areagne Aurona 
+			Berta
+			Chlotsuintha_Chlothsind Cotani Cunigunda_Kunigunde Clotilde_Clotilde Cecilia Celia
+			Desiderata Ereleuva Erelieva Elena_Helen
+			Frida
+			Gaatha Gaila Gaitelgrima Gambara Geila Gemma Gertrude Gerperga_Gerberga Giseltrude_Gisela Giso Glismoda Gudeliva Gundeperga Guntrud_Gudrun
+			Hannah Heidi Helchen Hermelinda_Herlinda Hunila Imma_Emma 
+			Kriemhilda Karol Karoline Kamilla_Camille
+			Liutberga Liutperga Liutpirca Larissa Lania Laura Livia
+			Maria_Maria Marozia Menia Mariana Magda Maísa Manuela_Manuella Marcela Margarida Marlene
+			Norma
+			Paula Pilitrud Poliana
+			Rodelinda Rosamunda Rotrude Rodriga
+			Serenahilt_Serhilda Sichelgaita Sunigilda Sunilda Swanahild_Swanahild Theodarada Theodelinda Theodorada Theodota Theuderada Thiudigotho Uta_Ute
+			Vadamerca Valdamerca Walderada Wilgefortis Wisigarda
+		}
+		
+		from_dynasty_prefix = "fun "
+		male_patronym = "sohn"
+		female_patronym = "dochter"
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	
+	pomerisch = {
+		graphical_cultures = { trueoccitangfx occitangfx }
+		
+		color = { 0.4 0.6 0.4 }
+		
+		male_names = {
+			Adalberto_Albert Adalhardo Adão_Adam Ademario_Adémar Adolfo_Adolf Alarico_Alaric Alberico_Aubrey Albrechto_Albert Aldrico_Aldric Aloisio_Louis Amadeu_Amadeus Amalrico_Amalric Andre_Andrew Anselmo_Anselm Arnoldo_Arnold Arnulfo_Arnulf Augustino_Augustine
+			Baldarico_Baldric Baldomario Balduinio_Baldwin Berengo_Berengar Bernardo_Bernard Bertoldo_Berthold Bucardo_Bouchard
+			Christophenio_Christopher Cristhian
+			Dietero_Dieter Dietmario_Dietmar Dietepoldo_Dietpold Dietrico_Thierry Diogo Dimas
+			Eberhardo_Everard Ekeberto_Egbert Emelrico_Aymeric Edmundo_Emund Emanuel Erico_Erik Ernesto_Ernest 
+			Fernando_Ferdinand Filisberto_Filibert Folkardo Francisco_Francis Frederico_Frederick
+			George Geraldo_Gerard Gerlaco_Gerlach Gilberto_Gilbert Gottfried_Godfrey Gotthard Gottschalk_Gottschalk Gotzelo Guntram Gunzelin_Günther Günther_Günther
+			Hans_Hans Henrique_Henry Herisberto_Herbert Hugo_Hugh Humberto_Humbert
+			Jaco_Jacob João_John "João Pedro"
+			Karlo_Charles Kasparo_Caspar Kaike
+			Lamberto_Lambert Landolfo_Landolf Leopoldo_Leopold Liudolfo_Ludolf Lothario_Lothair Ludwigio_Louis
+			Magnus_Magnus Manegold Manfred_Manfred Markward_Markward Martin_Martin Matthias_Matthew Meinhard Miguel_Michael 
+			Nikolau_Nicholas Norberto_Norbert 
+			Otto Olavo
+			Pedro_Peter Philipi_Philip Paulo 
+			Rogerio Roberto Reinaldo
+			Siegefredo_Siegfried Simão_Simon Stefanio_Stephen
+			Theodorico_Thierry Thomas_Thomas 
+			Ulrico_Ulrich 
+			Viktor_Victor 
+			Waldemiro_Vladimir Walter Werner_Werner Wolfgang
+		}
+		female_names = {
+			Adelberga Adelchisa Adelgrima Adelperga Altruda_Adeltrudis Amalasuintha Amalberga Amalfrida Ansa_Ansa Anselberga Anselperga Ansiappa Areagne Aurona 
+			Chlotsuintha_Chlothsind Cotani Cunigunda_Kunigunde Clotilde_Clotilde Cecilia Celia
+			Desiderata Ereleuva Erelieva Elena_Helen
+			Gaatha Gaila Gaitelgrima Gambara Geila Gemma Gertrude Gerperga_Gerberga Giseltrude_Gisela Giso Glismoda Gudeliva Gundeperga Guntrud_Gudrun
+			Helchen Hermelinda_Herlinda Hunila Imma_Emma 
+			Kriemhilda Karol Karoline Kamilla_Camille
+			Liutberga Liutperga Liutpirca Larissa Lania Laura Livia
+			Maria_Maria Marozia Menia Mariana Magda Maísa Manuela_Manuella Marcela Margarida
+			Paula Pilitrud Poliana
+			Rodelinda Rosamunda Rotrude Rodriga
+			Serenahilt_Serhilda Sichelgaita Sunigilda Sunilda Swanahild_Swanahild Theodarada Theodelinda Theodorada Theodota Theuderada Thiudigotho Uta_Ute
+			Vadamerca Valdamerca Walderada Wilgefortis Wisigarda
+		}
+		
+		from_dynasty_prefix = "fon "
+		male_patronym = "son"
+		female_patronym = "fan"
+		grammar_transform = french
+
+		modifier = default_culture_modifier
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+	}
+	
+	talian = {
+		graphical_cultures = { italiangfx }
+		
+		color = { 0.75 0.7 0.2 }
+		
+		male_names = {
+			Abramo_Abraham Achilles_Achiles Adão_Adam Ado André_Andrew Aldo Alfredo_Alfred Antonio_Anthony Antón_Anthony Angelo_Angel Augusto_Augustus
+			Batista Benjamim_Benjamin Bendito_Benedict Beto_Robert Bieito Biel_Gabriel Bonifácio_Boniface Brais Breixo Breno
+			Caetano_Cajetan Carlos_Charles Carlo_Charles Cecilio Claudio_Claudius Cândido César_Caesar
+			Damião_Damian Dario Davi Demetrio_Demetrius Dinis_Dionysus Deogo_James Domingos_Dominic Domenico_Dominic Donato_Donatus Duarte
+			Edmundo_Edmund Eduardo_Edward Emilio_Aemilius Ennio Érico_Eric Estêvão_Stephen Enzo Ernesto_Ernest Eugênio_Eugene 
+			Fabian_Fabian Fausto_Faustin Felipe_Philip Fernando_Ferdinand Flávio_Flavius Francesco_Francis Francisco_Francis
+			Gabriel_Gabriel Gastão_Gaston Garibaldi Giovanni_John Giuseppe_Joseph Gonçalo_Gonzalo Graciano_Gratian Guga
+			Hélder Henrique_Henry Hugo Humberto
+			Inácio_Ignatius Isabel_Elizabeth Italo Itamar Ivo
+			Jerônimo João_John Joaquim_Joachim José_Joseph Jorge_George Júlio_Julius "Júlio César"
+			Leandro_Leander Léo_Leon Lipe_Philip Lúcio_Lucius Luigi_Louis Luiz_Louis
+			Marcelo_Marcellus Márcio Marcos_Mark Mário_Marius Mateus_Matthew Mauricio_Maurice
+			Narciso Natanael_Nathaniel Nicolau_Nicholas Nilton
+			Olavo Ovídio_Ovid Oscar_Oscar
+			Pascoal_Pascal Paolo_Paulus Paulo_Paul Pedro_Peter Pietro_Peter Pio
+			Quim
+			Rafael_Raphael Raimundo_Raymond Raul_Ralph Reinaldo_Ronald Remigio Renato Rodolfo_Rudolph Rodrigo_Roderick
+			Sergio_Sergius Severino_Severin Silvio_Silvius Simão_Simon
+			Tadeu_Thaddeus Tiago_James Timoteo_Timothy Tomas_Thomas Tonho_Anthony
+			Ulisses_Ulysses
+			Valentim_Valentine Valeriano_Valerian Valerio_Valerius Veríssimo Victorino_Victor Vinícius Virgilio_Virgil Vitor_Victor
+			Xavier_Xavier
+			Zé_Joseph
+		}
+		
+		female_names = {
+			Ada Amélia_Amelia Angélica Ana_Anne Andréa_Andrea 
+			Bárbara_Barbara Benigna Bianca Brenda Bruna
+			Carmo Catarina_Catherine Catina Cecília_Cecilia Cláudia Cristiane 
+			Danielle Denise
+			Elisabete_Elizabeth Eloísa_Heloise Eugênia_Eugenia Eulália Eva_Eve
+			Fatimá_Fatima Feliciana Felicidade Flávia_Flavia 
+			Gabrielle_Gabriele Giovanna 
+			Hermínia Helena_Helen
+			Ingrid Isabela_Elizabeth Isabel_Elizabeth Iris
+			Jacinta Joana_Joan Joaquima Josefa_Josephine Jovita
+			Leocádia Leonor_Eleanor Leticia Lía Lídia Lígia Lílian_Lillian Lúcia_Lucy Luisa_Louise Lurdes Luzia Lygia 
+			Madalena_magdalene Márcia Margarida_margaret Maria_Mary Marina Micaela_Michelle Môca_Monica
+			Nathália_Natalie Noela 
+			Ofélia_Ophelia Olalla Olívia_Olivia
+			Paolla Priscila Pia
+			Rafaela Raquel_Rachel Rebeca_Rebecca Rê Rosa_Rose
+			Sabrina Sara_Sarah Sofia_Sophia 
+			Teresa_Theresa
+			Úrsula_Ursula
+			Verônica_Veronica Vi
+		}
+		
+		from_dynasty_prefix = "di "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	
+	rutenio = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.2 0.4 0.1 }
+		
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew
+			Bartosz_Bartolomeus Bezprym Boguchwal Bogumil Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj 
+			Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+			Eustachy_Eustace 
+			Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon 
+			Henryk_Henry 
+			Imram Izbor 
+			Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George 
+			Karol_Charles Kazimierz_Casimir Konrad_Konrad Krystyn_Christian Krzeslaw 
+			Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj 
+			Nadbor Niezamysl 
+			Odon_Otto 
+			Pawel_Paul Pelka Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor 
+			Sambor Sedziej Sedzimir Sieciech Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav Szczesny_Felix 
+			Tomasz_Thomas Trojden Twardomir 
+			Usciech 
+			Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Vojtech Wojuta Wszebor_Vsebor 
+			Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna 
+			Beata Bozena 
+			Danuta Dobrawa Dobronega 
+			Elzbieta_Elizabeth Eufemia_Euphemia Eufrozyna_Euphrosyne Ewa_Eva 
+			Gertruda_Gertrude Grzymislawa
+			Helena_Helen 
+			Jadwiga_Hedwig Jolanta_Yolanda Judyta_Judith 
+			Katarzyna_Catherine Kazimiera Kenna Kinga_Kunigunde Konstancja_Constance Krystyna_Christina Kunegunda_Kunigunde 
+			Lucja_Lucia Ludmila_Liudmila 
+			Magdalena_Magdalena Malgorzata Maria_Maria Matylda_Matilda Milena 
+			Nadzieja Nawoja 
+			Pechna 
+			Rycheza_Richeza Ryksa 
+			Salomea Samboja Scholastyka_Scholastica Smiechna Stanislawa Swietoslawa 
+			Wislawa Wojslawa_Vojslava Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "oski"
+		female_patronym = "oska"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier		
+	}
+
+	# A shared South Brazilian culture formed from the region's settler traditions.
+	colono = {
+		graphical_cultures = { germangfx italiangfx westernslavicgfx westerngfx }
+
+		color = { 0.55 0.35 0.2 }
+
+		male_names = {
+			Adalberto_Albert Adalhardo Adão_Adam Ademario_Adémar Adolfo_Adolf Alarico_Alaric Alberico_Aubrey Albrechto_Albert Aldrico_Aldric Aloisio_Louis Amadeu_Amadeus Amalrico_Amalric Andre_Andrew Anselmo_Anselm Arnoldo_Arnold Arnulfo_Arnulf Augustino_Augustine
+			Baldarico_Baldric Baldomario Balduinio_Baldwin Berengo_Berengar Bernardo_Bernard Bertoldo_Berthold Bucardo_Bouchard
+			Christophenio_Christopher Cristhian
+			Dietero_Dieter Dietmario_Dietmar Dietepoldo_Dietpold Dietrico_Thierry Diogo Dimas
+			Eberhardo_Everard Ekeberto_Egbert Emelrico_Aymeric Edmundo_Emund Emanuel Erico_Erik Ernesto_Ernest
+			Fernando_Ferdinand Filisberto_Filibert Folkardo Franz_Francis Francisco_Francis Frederico_Frederick
+			George Geraldo_Gerard Gerlaco_Gerlach Gilberto_Gilbert Gottfried_Godfrey Gotthard Gottschalk_Gottschalk Gotzelo Guntram Gunzelin_Günther Günther_Günther
+			Hans_Hans Henrique_Henry Herisberto_Herbert Herman Hugo_Hugh Humberto_Humbert
+			Jaco_Jacob João_John "João Pedro"
+			Karlo_Charles Kasparo_Caspar Kaike Kléber
+			Lamberto_Lambert Landolfo_Landolf Leopoldo_Leopold Lineu Liudolfo_Ludolf Lothario_Lothair Ludwigio_Louis
+			Magnus_Magnus Manegold Manfred_Manfred Markward_Markward Martin_Martin Matthias_Matthew Meinhard Miguel_Michael
+			Nikolau_Nicholas Norberto_Norbert
+			Otto Olavo
+			Pedro_Peter Philipi_Philip Paulo
+			Rainer Rogerio Roberto Reinaldo
+			Sambor Sedziej Sedzimir Sieciech Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav Szczesny_Felix
+			Siegefredo_Siegfried Simão_Simon Stefanio_Stephen
+			Tadeu_Thaddeus Tiago_James Timoteo_Timothy Tomas_Thomas Tonho_Anthony Theodorico_Thierry Thomas_Thomas Trojden Twardomir
+			Usciech Ulrico_Ulrich
+			Valentim_Valentine Valeriano_Valerian Valerio_Valerius Veríssimo Victorino_Victor Vitor_Victor
+			Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence Wagner Waldemiro_Vladimir Walter Werner_Werner Wolfgang Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Vojtech Wojuta Wszebor_Vsebor
+			Xavier Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat Zygmunt_Sigmund
+			Abramo_Abraham Achilles_Achiles Ado André_Andrew Aldo Alfredo_Alfred Antonio_Anthony Antón_Anthony Angelo_Angel Augusto_Augustus
+			Batista Benjamim_Benjamin Bendito_Benedict Beto_Robert Bieito Biel_Gabriel Bonifácio_Boniface Brais Breixo Breno
+			Caetano_Cajetan Carlos_Charles Carlo_Charles Cecilio Claudio_Claudius Cândido César_Caesar
+			Damião_Damian Dario Davi Demetrio_Demetrius Dinis_Dionysus Deogo_James Domingos_Dominic Domenico_Dominic Donato_Donatus Duarte
+			Edmundo_Edmund Eduardo_Edward Emilio_Aemilius Ennio Érico_Eric Estêvão_Stephen Enzo Ernesto_Ernest Eugênio_Eugene
+			Fabian_Fabian Fausto_Faustin Felipe_Philip Fernando_Ferdinand Flávio_Flavius Francesco_Francis Francisco_Francis
+			Gabriel_Gabriel Gastão_Gaston Garibaldi Giovanni_John Giuseppe_Joseph Gonçalo_Gonzalo Graciano_Gratian Guga
+			Hélder Henrique_Henry Hugo Humberto Inácio_Ignatius Isabel_Elizabeth Italo Itamar Ivo
+			Jerônimo João_John Joaquim_Joachim José_Joseph Jorge_George Júlio_Julius "Júlio César"
+			Leandro_Leander Léo_Leon Lipe_Philip Lúcio_Lucius Luigi_Louis Luiz_Louis
+			Marcelo_Marcellus Márcio Marcos_Mark Mário_Marius Mateus_Matthew Mauricio_Maurice
+			Narciso Natanael_Nathaniel Nicolau_Nicholas Nilton
+			Olavo Ovídio_Ovid Oscar_Oscar
+			Pascoal_Pascal Paolo_Paulus Paulo_Paul Pedro_Peter Pietro_Peter Pio Quim
+			Rafael_Raphael Raimundo_Raymond Raul_Ralph Reinaldo_Ronald Remigio Renato Rodolfo_Rudolph Rodrigo_Roderick Sergio_Sergius Severino_Severin Silvio_Silvius
+			Tadeu_Thaddeus Tiago_James Timoteo_Timothy Tomas_Thomas Tonho_Anthony
+			Ulisses_Ulysses Xavier_Xavier Zé_Joseph
+		}
+
+		female_names = {
+			Adelberga Adelchisa Adelgrima Adelperga Altruda_Adeltrudis Amalasuintha Amalberga Amalfrida Ansa_Ansa Anselberga Anselperga Ansiappa Astrid Areagne Aurona
+			Berta
+			Chlotsuintha_Chlothsind Cotani Cunigunda_Kunigunde Clotilde_Clotilde Cecilia Celia
+			Desiderata Ereleuva Erelieva Elena_Helen
+			Frida Gaatha Gaila Gaitelgrima Gambara Geila Gemma Gertrude Gerperga_Gerberga Giseltrude_Gisela Giso Glismoda Gudeliva Gundeperga Guntrud_Gudrun
+			Hannah Heidi Helchen Hermelinda_Herlinda Hunila Imma_Emma
+			Kriemhilda Karol Karoline Kamilla_Camille
+			Liutberga Liutperga Liutpirca Larissa Lania Laura Livia
+			Maria_Maria Marozia Menia Mariana Magda Maísa Manuela_Manuella Marcela Margarida Marlene Norma
+			Paula Pilitrud Poliana
+			Rodelinda Rosamunda Rotrude Rodriga
+			Serenahilt_Serhilda Sichelgaita Sunigilda Sunilda Swanahild_Swanahild Theodarada Theodelinda Theodorada Theodota Theuderada Thiudigotho Uta_Ute
+			Vadamerca Valdamerca Walderada Wilgefortis Wisigarda
+			Ada Amélia_Amelia Angélica Ana_Anne Andréa_Andrea Bárbara_Barbara Benigna Bianca Brenda Bruna
+			Carmo Catarina_Catherine Catina Cecília_Cecilia Cláudia Cristiane Danielle Denise
+			Elisabete_Elizabeth Eloísa_Heloise Eugênia_Eugenia Eulália Eva_Eve Fatimá_Fatima Feliciana Felicidade Flávia_Flavia
+			Gabrielle_Gabriele Giovanna Hermínia Helena_Helen Ingrid Isabela_Elizabeth Isabel_Elizabeth Iris
+			Jacinta Joana_Joan Joaquima Josefa_Josephine Jovita Leocádia Leonor_Eleanor Leticia Lía Lídia Lígia Lílian_Lillian Lúcia_Lucy Luisa_Louise Lurdes Luzia Lygia
+			Madalena_magdalene Márcia Margarida_margaret Maria_Mary Marina Micaela_Michelle Môca_Monica Nathália_Natalie Noela Ofélia_Ophelia Olalla Olívia_Olivia
+			Paolla Priscila Pia Rafaela Raquel_Rachel Rebeca_Rebecca Rê Rosa_Rose Sabrina Sara_Sarah Sofia_Sophia Teresa_Theresa Úrsula_Ursula Verônica_Veronica Vi
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
+
+		pat_grf_name_chance = 35
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+
+		pat_grm_name_chance = 35
+		mat_grm_name_chance = 15
+		mother_name_chance = 30
+
+		modifier = default_culture_modifier
+	}
+}

@@ -1,0 +1,12 @@
+# County Title
+title = c_santiago
+
+# Settlements
+max_settlements = 3
+
+b_santiago_do_boqueirao = castle
+b_sao_vicente_do_sul = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

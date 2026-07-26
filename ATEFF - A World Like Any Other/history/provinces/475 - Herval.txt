@@ -1,0 +1,11 @@
+# County Title
+title = c_herval
+
+# Settlements
+max_settlements = 1
+
+b_herval = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

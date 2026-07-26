@@ -1,0 +1,11 @@
+# County Title
+title = c_restinga_seca
+
+# Settlements
+max_settlements = 2
+
+b_restinga_seca = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

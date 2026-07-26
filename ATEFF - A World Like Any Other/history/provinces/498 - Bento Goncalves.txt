@@ -1,0 +1,13 @@
+# County Title
+title = c_bento_goncalves
+
+# Settlements
+max_settlements = 4
+
+b_bento_goncalves = castle
+b_garibaldi = city
+b_veranopolis = temple
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

@@ -1,0 +1,14 @@
+# County Title
+title = c_caxias_do_sul
+
+# Settlements
+max_settlements = 5
+
+b_chateau_lacave = castle
+b_santa_teresa_cathedral = city
+b_flores_da_cunha = temple
+b_farroupilha = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

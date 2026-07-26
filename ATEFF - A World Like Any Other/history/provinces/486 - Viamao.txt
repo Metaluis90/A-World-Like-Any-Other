@@ -1,0 +1,13 @@
+# County Title
+title = c_viamao
+
+# Settlements
+max_settlements = 4
+
+b_viamao = castle
+b_santo_antonio_da_patrulha = city
+b_alvorada = temple
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

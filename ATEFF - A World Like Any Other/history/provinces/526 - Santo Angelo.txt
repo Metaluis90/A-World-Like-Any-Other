@@ -1,0 +1,12 @@
+# County Title
+title = c_santo_angelo
+
+# Settlements
+max_settlements = 3
+
+b_santo_angelo = castle
+b_sao_miguel_arcanjo = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

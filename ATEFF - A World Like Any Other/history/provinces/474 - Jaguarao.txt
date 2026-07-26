@@ -1,0 +1,11 @@
+# County Title
+title = c_jaguarao
+
+# Settlements
+max_settlements = 2
+
+b_jaguarao = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

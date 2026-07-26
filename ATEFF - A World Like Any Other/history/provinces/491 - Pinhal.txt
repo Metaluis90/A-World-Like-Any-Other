@@ -1,0 +1,11 @@
+# County Title
+title = c_pinhal
+
+# Settlements
+max_settlements = 2
+
+b_balneario_pinhal = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

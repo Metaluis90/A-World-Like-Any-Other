@@ -1,0 +1,11 @@
+# County Title
+title = c_acegua
+
+# Settlements
+max_settlements = 1
+
+b_acegua = castle
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

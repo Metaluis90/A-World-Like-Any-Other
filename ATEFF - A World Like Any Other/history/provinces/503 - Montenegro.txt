@@ -1,0 +1,12 @@
+# County Title
+title = c_montenegro
+
+# Settlements
+max_settlements = 3
+
+b_montenegro = castle
+b_sao_sebastiao_do_cai = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo

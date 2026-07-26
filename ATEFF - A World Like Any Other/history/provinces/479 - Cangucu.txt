@@ -1,0 +1,12 @@
+# County Title
+title = c_cangucu
+
+# Settlements
+max_settlements = 3
+
+b_cangucu = castle
+b_cangucu_1 = city
+
+# Misc
+culture = gaucho_rg
+religion = farrapo
