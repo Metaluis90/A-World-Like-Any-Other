@@ -1,0 +1,41 @@
+#########################################
+### A World Like Any Other Bloodlines ###
+#########################################
+### Chile Bloodlines ###
+bloodline_la_espada_de_santiago = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 5
+	chileno_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_lion
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_corazon_de_dragon = {
+	monthly_character_prestige = 0.25
+	monthly_character_piety = 0.1
+	martial = 1
+	combat_rating = 5
+	catholic_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_lion
+	flags = {
+		historical_bloodline
+	}
+}
+bloodline_el_as_de_espadas = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 5
+	chileno_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_lion
+	flags = {
+		historical_bloodline
+	}
+}
