@@ -586,11 +586,11 @@ e_the_south = {
 				color2={ 255 255 255 }
 
 				b_dom_pedrito = {}
-				b_dom_pedrito_1 = {}
-				b_dom_pedrito_2 = {}
-				b_dom_pedrito_3 = {}
-				b_dom_pedrito_4 = {}
-				b_dom_pedrito_5 = {}
+				b_getulio_vargas_dom_pedrito = {}
+				b_sao_gregorio = {}
+				b_ponche_verde = {}
+				b_santa_terezinha = {}
+				b_sagrada_face = {}
 			}
 			c_sao_gabriel = { # 511 - Sao Gabriel
 				color={ 232 216 164 }
@@ -672,27 +672,27 @@ e_the_south = {
 				b_ibicui = {}
 				b_itao = {}
 			}
-			c_macambara = { # 518 - Macaramba
+			c_macambara = { # 518 - Macambara
 				color={ 224 194 42 }
 				color2={ 255 255 255 }
 
 				b_macambara = {}
-				b_macambara_1 = {}
-				b_macambara_2 = {}
-				b_macambara_3 = {}
-				b_macambara_4 = {}
-				b_macambara_5 = {}
+				b_encruzilhada = {}
+				b_sao_donato = {}
+				b_povinho = {}
+				b_campo_dos_portela = {}
+				b_passo_do_goulart = {}
 			}
 			c_manoel_viana = { # 519 - Manoel Viana
 				color={ 224 211 148 }
 				color2={ 255 255 255 }
 
 				b_manoel_viana = {}
-				b_manoel_viana_1 = {}
-				b_manoel_viana_2 = {}
-				b_manoel_viana_3 = {}
-				b_manoel_viana_4 = {}
-				b_manoel_viana_5 = {}
+				b_piraju = {}
+				b_barragem_do_itu = {}
+				b_santa_maria_do_ibicui = {}
+				b_lageado_manoel_viana = {}
+				b_caraguatai = {}
 			}
 			c_sao_borja = { # 520 - Sao Borja
 				color={ 234 215 117 }

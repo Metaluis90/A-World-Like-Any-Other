@@ -8,4 +8,4 @@ b_manoel_viana = castle
 
 # Misc
 culture = gaucho_rg
-religion = farrapo
+religion = vargist

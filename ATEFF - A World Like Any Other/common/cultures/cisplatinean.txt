@@ -161,7 +161,7 @@ cisplatinean = {
 			Gabriel Gael Galileu Gaspar Gastão Genésio Geraldo Germano Gervasio Gianluca Gilberto Gilmar Giovani Giuseppe Glauco Godofredo Gonçalo Graciano Gregório_Gregory Gualter García Guilherme_William Gustavo
 			Heitor Hélio Hélder Heliodoro Henrique_Enrique Hermano Herberto Hermenegildo Hermínio Hilário Hipolito Horácio Hugo Humberto
 			Ian_Yan Iago_Yago Ícaro Igor Inácio Isaac Isaías Isidoro Ítalo Itamar Ivandro Ivan Ivo
-			Jaime Jair Jefferson Jeremias Jerônimo João_John "João Vitor" "João Pedro" "João Miguel" Joaquim Joel Jonas Jorge_George José_Josué Jonathan Júlio Juliano Júnior
+			Jaime Jair Jefferson Jeremias Jerônimo João_John "João Vitor" "João Pedro" "João Miguel" Joaquim Joel Jonas Jorge_George José_Josué Jonathan Júlio Juliano Júnior Juvenal
 			Kauan Kaique_Caique Kelvin Kevin Kennedy Kléber
 			Laerte Lauro Lázaro Leandro Leonardo Leonel Leopoldo Lineu Lisandro Lívio Logan Lourenço_Lorenzo Luan Lucas_Lucca Luciano Lúcio Luigi Luís_Luiz
 			Macário Magnus Malvino Manoel_Manuel Marcelino Marcelo Márcio Marcos_Mark Mário Martin Mateus_Matheus Matias Mauro Maurício Maurílio Maximiliano Micael Miguel Milton Murilo
@@ -179,7 +179,7 @@ cisplatinean = {
 		}
 		female_names = {
 			Abelita Abigail Adriana Adelaide Adele Ágata_Agatha Agda Agnes Alba Alésia Alice_Alicia Aline Ana_Anna Anabela Anastasia Andréia Andressa Ângela Angélica Antonella Amália_Amélie Amanda Amélia "Ana Clara" "Ana Julia" Ambrósia Ariane Alexandra
-			Bárbara Basilissa Beatriz_Beatrice Belmira Betina Bella Benedicta_Benedita Berengária Bernadete Bernarda Bertha Bianca Branca Brena Brenda Brígida_Bridget Brunilde Bruna Bonifácia 
+			Bárbara Basilissa Beatriz_Beatrice Belmira Betina Bella Benedicta_Benedita Berengária Bernadete Bernarda Bertha Bianca Bibiane Branca Brena Brenda Brígida_Bridget Brunilde Bruna Bonifácia 
 			Caetana Caia Candace Cândida Carina Carla Carlinda Carmélia Cármen Carmine Camila_Camille Carol Carolina_Caroline Cassandra Cássia Catarina_Catarine Cecília Celeste Célia Cíntia Charlotte Chloe_Khloe Cláudia Clara Clarice Cristina Cinderela Cirila Clélia Clementina 
 			Dafne Daiane Daniela_Danielle Daisi_Daisy Dalma Darcília Débora Delfina Delma Demétria Denise Desidéria Diamantina Diane Dionísia Dolores Domitila Dominica Donatela_Donatella Dora Doroteia_Dorothea 
 			Edite_Edith Edna Eduarda Emília Elaine Eleanor Elena Eleonora Eliana Elisa Élia Elisabete_Elizabeth Elisângela Ellen Eloá Eloísa Elsa Elvira Emanuela_Emanuelly Emma Esmeralda Ester_Esther Estela Érica Eva Evelyn Eudora Estefânia
@@ -215,5 +215,7 @@ cisplatinean = {
 		mother_name_chance = 5
 		
 		modifier = default_culture_modifier
+
+		allow_looting = yes
 	}
 }

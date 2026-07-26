@@ -2,6 +2,7 @@
 ### A World Like Any Other Dynasties ###
 ########################################
 ### Chileno Dynasties ###
+### 	 1 - 500      ###
 1 = {
 	name="Balmaceda"
 	culture="centralino"
@@ -186,5 +187,37 @@
 	name="placeholder"
 	culture="centralino"
 	religion="synodal"
+	used_for_random=no
+}
+### Argentino Dynasties ###
+### 	 501 - 1000     ###
+
+### Southern Brazilian Dynasties ###
+### 	 	1001 - 1500     	 ###
+1001 = {
+	name="Terra"
+	culture="gaucho_rg"
+	religion="farrapo"
+	used_for_random=no
+}
+
+1002 = {
+	name="Missioneiro"
+	culture="gaucho_rg"
+	religion="farrapo"
+	used_for_random=no
+}
+
+1003 = {
+	name="Cambará"
+	culture="gaucho_rg"
+	religion="farrapo"
+	used_for_random=no
+}
+
+1004 = {
+	name="Amaral"
+	culture="gaucho_rg"
+	religion="vargist"
 	used_for_random=no
 }

@@ -339,8 +339,8 @@ b_borore;Borore;;;;;;;;;;;;;x
 b_pintado;Pintado;;;;;;;;;;;;;x
 b_ibicui;Ibicui;;;;;;;;;;;;;x
 b_itao;Itao;;;;;;;;;;;;;x
-c_macambara;Macaramba;;;;;;;;;;;;;x
-c_macambara_adj;Macaramba;;;;;;;;;;;;;x
+c_macambara;Macambara;;;;;;;;;;;;;x
+c_macambara_adj;Macambara;;;;;;;;;;;;;x
 b_macambara;Macambara;;;;;;;;;;;;;x
 c_manoel_viana;Manoel Viana;;;;;;;;;;;;;x
 c_manoel_viana_adj;Manoel Viana;;;;;;;;;;;;;x
@@ -529,26 +529,26 @@ b_acegua_2;Acegua 2;;;;;;;;;;;;;x
 b_acegua_3;Acegua 3;;;;;;;;;;;;;x
 b_acegua_4;Acegua 4;;;;;;;;;;;;;x
 b_acegua_5;Acegua 5;;;;;;;;;;;;;x
-b_dom_pedrito_1;Dom Pedrito 1;;;;;;;;;;;;;x
-b_dom_pedrito_2;Dom Pedrito 2;;;;;;;;;;;;;x
-b_dom_pedrito_3;Dom Pedrito 3;;;;;;;;;;;;;x
-b_dom_pedrito_4;Dom Pedrito 4;;;;;;;;;;;;;x
-b_dom_pedrito_5;Dom Pedrito 5;;;;;;;;;;;;;x
+b_getulio_vargas_dom_pedrito;Getulio Vargas;;;;;;;;;;;;;x
+b_sao_gregorio;Sao Gregorio;;;;;;;;;;;;;x
+b_ponche_verde;Ponche Verde;;;;;;;;;;;;;x
+b_santa_terezinha;Santa Terezinha;;;;;;;;;;;;;x
+b_sagrada_face;Sagrada Face;;;;;;;;;;;;;x
 b_quarai_1;Quarai 1;;;;;;;;;;;;;x
 b_quarai_2;Quarai 2;;;;;;;;;;;;;x
 b_quarai_3;Quarai 3;;;;;;;;;;;;;x
 b_quarai_4;Quarai 4;;;;;;;;;;;;;x
 b_quarai_5;Quarai 5;;;;;;;;;;;;;x
-b_macambara_1;Macambara 1;;;;;;;;;;;;;x
-b_macambara_2;Macambara 2;;;;;;;;;;;;;x
-b_macambara_3;Macambara 3;;;;;;;;;;;;;x
-b_macambara_4;Macambara 4;;;;;;;;;;;;;x
-b_macambara_5;Macambara 5;;;;;;;;;;;;;x
-b_manoel_viana_1;Manoel Viana 1;;;;;;;;;;;;;x
-b_manoel_viana_2;Manoel Viana 2;;;;;;;;;;;;;x
-b_manoel_viana_3;Manoel Viana 3;;;;;;;;;;;;;x
-b_manoel_viana_4;Manoel Viana 4;;;;;;;;;;;;;x
-b_manoel_viana_5;Manoel Viana 5;;;;;;;;;;;;;x
+b_encruzilhada;Encruzilhada;;;;;;;;;;;;;x
+b_sao_donato;Sao Donato;;;;;;;;;;;;;x
+b_povinho;Povinho;;;;;;;;;;;;;x
+b_campo_dos_portela;Campo Dos Portela;;;;;;;;;;;;;x
+b_passo_do_goulart;Passo Do Goulart;;;;;;;;;;;;;x
+b_piraju;Piraju;;;;;;;;;;;;;x
+b_barragem_do_itu;Barragem Do Itu;;;;;;;;;;;;;x
+b_santa_maria_do_ibicui;Santa Maria Do Ibicui;;;;;;;;;;;;;x
+b_lageado_manoel_viana;Lageado;;;;;;;;;;;;;x
+b_caraguatai;Caraguatai;;;;;;;;;;;;;x
 b_tres_passos_1;Tres Passos 1;;;;;;;;;;;;;x
 b_tres_passos_2;Tres Passos 2;;;;;;;;;;;;;x
 b_tres_passos_3;Tres Passos 3;;;;;;;;;;;;;x

@@ -8,4 +8,4 @@ b_macambara = castle
 
 # Misc
 culture = gaucho_rg
-religion = farrapo
+religion = vargist

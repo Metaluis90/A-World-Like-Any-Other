@@ -9,4 +9,4 @@ b_nhu_pora = city
 
 # Misc
 culture = gaucho_rg
-religion = farrapo
+religion = vargist

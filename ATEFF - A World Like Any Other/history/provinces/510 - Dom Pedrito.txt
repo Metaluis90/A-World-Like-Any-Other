@@ -5,7 +5,7 @@ title = c_dom_pedrito
 max_settlements = 3
 
 b_dom_pedrito = castle
-b_dom_pedrito_1 = city
+b_getulio_vargas_dom_pedrito = city
 
 # Misc
 culture = gaucho_rg

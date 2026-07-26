@@ -1,0 +1,234 @@
+### Duchy of Campanha ###
+
+#Original Holder of Alegrete, Quarai and Uruguaiana
+1500 = {
+	name = "Ana"
+	dynasty = 1001 #Terra
+	female = yes
+	culture = gaucho_rg
+	religion = farrapo
+	martial = 3
+	diplomacy = 6
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+
+	trait = fortune_builder
+	trait = fair
+	trait = diligent
+	trait = temperate
+	trait = kind
+	trait = lustful
+	
+	disallow_random_traits = yes
+
+	2305.3.15 = {
+		birth = yes
+	}
+	2367.1.1 = {
+		death = yes
+	}
+}
+
+1501 = {
+	name = "Pedro"
+	dynasty = 1002 #Missioneiro
+	culture = guarani
+	religion = synodal
+	martial = 10
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+
+	trait = tough_soldier
+	trait = brave
+	trait = diligent
+	trait = temperate
+	trait = just
+	trait = erudite
+	trait = lustful
+
+	disallow_random_traits = yes
+
+	2301.9.7 = {
+		birth = yes
+	}
+	2328.5.14 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+1502 = {
+	name = "Pedro"
+	dynasty = 1001 #Terra
+	culture = gaucho_rg
+	religion = farrapo
+
+	father = 1501
+	mother = 1500
+
+	martial = 9
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+
+	trait = bastard
+	trait = tough_soldier
+	trait = brave
+	trait = diligent
+	trait = just
+
+	2328.6.20 = {
+		birth = yes
+	}
+	2375.1.1={
+		death = yes
+	}
+}
+
+1503 = {
+	name = "Juvenal"
+	dynasty = 1001 #Terra
+	culture = gaucho_rg
+	religion = farrapo
+
+	father = 1502
+
+	martial = 5
+	diplomacy = 7
+	stewardship = 8
+	intrigue = 4
+	learning = 6
+
+	trait = fortune_builder
+	trait = diligent
+
+	2348.11.2 = {
+		birth = yes
+	}
+}
+
+1504 = {
+	name = "Bibiane"
+	dynasty = 1001 #Terra
+	culture = gaucho_rg
+	religion = farrapo
+
+	female = yes
+
+	father = 1502
+
+	martial = 5
+	diplomacy = 9
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+
+	trait = charismatic_negotiator
+	trait = proud
+	trait = kind
+	trait = brave
+	trait = quick
+	trait = diligent
+	trait = fair
+	trait = groomed
+
+	disallow_random_traits = yes
+
+	2350.5.14 = {
+		birth = yes
+	}
+
+	2368.9.12 = {
+		add_spouse = 1505
+		effect = {
+			add_lover = 1505
+		}
+	}
+	2390.3.15 = {
+		death = yes
+	}
+}
+
+#Duke of Campanha
+1505 = {
+	name = "Rodrigo"
+	dynasty = 1003 #Cambara
+	culture = gaucho_rg
+	religion = farrapo
+
+	martial = 12
+	diplomacy = 6
+	stewardship = 3
+	intrigue = 7
+	learning = 4
+
+	trait = skilled_tactician
+	trait = ambitious
+	trait = adventurer
+	trait = poet
+	trait = hedonist
+	trait = proud
+	trait = lustful
+	trait = gregarious
+	trait = duelist
+	trait = brave
+
+	disallow_random_traits = yes
+
+	2340.8.28 = {
+		birth = yes
+	}
+
+	2368.9.12 = {
+		add_spouse = 1504
+		effect = {
+			add_lover = 1504
+		}
+	}
+
+	2373.3.15 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1506 #Ricardo Amaral
+		}
+	}
+}
+
+1506 = {
+	name = "Ricardo"
+	dynasty = 1004 #Amaral
+	culture = gaucho_rg
+	religion = vargist
+
+	martial = 10
+	diplomacy = 5
+	stewardship = 4
+	intrigue = 10
+	learning = 3
+
+	trait = skilled_tactician
+	trait = deceitful
+	trait = wroth
+	trait = proud
+	trait = ambitious
+	trait = envious
+
+	disallow_random_traits = yes
+
+	2342.2.20 = {
+		birth = yes
+	}
+	2368.9.12 = {
+		effect = {
+			add_rival = 1505 #Rodrigo Cambara
+		}
+	}
+	2393.3.15 = {
+		death = yes
+	}
+}

@@ -1,1462 +1,1462 @@
-#######################
-### House Balmaceda ###
-#######################
-1 = {
-	name="Benjamín Alonso" # Benjamín Alonso Balmaceda el Bacán, King of Chile.
-	dynasty=1
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="strong"
-
-	disallow_random_traits=yes
-
-	2278.7.19 = {
-		birth="2278.7.19"
-	}
-	2294.7.19 = {
-		add_trait="brilliant_strategist"
-		add_trait="experimenter"
-		add_trait="organizer"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="ambitious"
-		add_trait="zealous"
-		add_trait="duelist"
-		add_trait="strategist"
-		effect = {
-			add_artifact=sangreroja
-		}
-	}
-	2299.4.1 = {
-		add_spouse=2 # María Teresa Vicuña la Colorina
-		effect = {
-			add_friend=9 # Miguel Andrés Grove el León de la Muerte
-			add_friend=25 # Alfredo Arturo Leigh
-			add_friend=37 # Prieto
-			add_lover=2 # María Teresa Vicuña la Colorina
-		}
-	}
-	2300.2.12 = {
-		give_nickname=nick_el_bacan
-	}
-	2324.5.12 = {
-		effect = {
-			add_friend=3 # Diego Leonardo el León de Santiago
-			add_friend=4 # Inés Natalia Balmaceda la Leona de Santiago
-		}
-	}
-	2326.9.18 = {
-		add_trait="depressed"
-		death = {
-			death_reason=death_duel # Slain in a duel by Miguel Andrés Grove.
-			killer=9 # Miguel Andrés Grove el León de la Muerte.
-		}
-	}
-}
-2 = {
-	name="María Teresa" # María Teresa Vicuña la Colorina, wife of Benjamín Alonso Balmaceda el Bacán.
-	dynasty=2
-	female=yes
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-
-	2278.7.13 = {
-		birth="2278.7.13"
-	}
-	2294.7.13 = {
-		add_trait="grey_eminence"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="kind"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="honest"
-		add_trait="ambitious"
-		add_trait="zealous"
-		add_trait="erudite"
-		add_trait="groomed"
-		add_trait="socializer"
-		add_trait="poet"
-	}
-	2299.4.1 = {
-		effect = {
-			add_rival=10 # Javiera Ignacia Carrera la Quintrala
-		}
-	}
-	2300.2.12 = {
-		give_nickname=nick_la_colorina
-	}
-	2324.5.12 = {
-		effect = {
-			add_friend=3 # Diego Leonardo el León de Santiago
-			add_friend=4 # Inés Natalia Balmaceda la Leona de Santiago
-		}
-	}
-	2326.9.18 = {
-		add_trait="depressed"
-		death = {
-			death_reason=death_murder # Murdered by Javiera Ignacia Carrera.
-			killer=10 # Javiera Ignacia Carrera la Quintrala.
-		}
-	}
-}
-### Issue of Benjamín Alonso Balmaceda el Bacán ###
-3 = {
-	name="Diego Leonardo" # Diego Leonardo el León de Santiago, Duke of Maule.
-	dynasty=1
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-	add_trait="strong"
-
-	disallow_random_traits=yes
-
-	father=1 # Benjamín Alonso Balmaceda el Bacán
-	mother=2 # María Teresa Vicuña la Colorina
-
-	2300.4.17 = {
-		birth="2300.4.17"
-	}
-	2316.4.17 = {
-		add_trait="brilliant_strategist"
-		add_trait="cavalry_leader"
-		add_trait="organizer"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="kind"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="zealous"
-		add_trait="erudite"
-		add_trait="duelist"
-		add_trait="strategist"
-		add_trait="poet"
-	}
-	2324.5.12 = {
-		give_nickname=nick_el_leon_de_santiago
-	}
-	2326.9.18 = {
-		death = {
-			death_reason=death_execution # Slain in a duel by Miguel Andrés Grove.
-			killer=9 # Miguel Andrés Grove el León de la Muerte.
-		}
-	}
-}
-4 = {
-	name="Inés Catalina" # Inés Catalina Balmaceda la Leona de Santiago, wife of Benjamín Adrián Baquedano la Espada de Santiago.
-	dynasty=1
-	female=yes
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="strong"
-
-	disallow_random_traits=yes
-
-	father=1 # Benjamín Alonso Balmaceda el Bacán
-	mother=2 # María Teresa Vicuña la Colorina
-
-	2302.2.10 = {
-		birth="2302.2.10"
-	}
-	2318.2.10 = {
-		add_trait="brilliant_strategist"
-		add_trait="aggressive_leader"
-		add_trait="organizer"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="temperate"
-		add_trait="wroth"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="zealous"
-		add_trait="duelist"
-		effect = {
-			add_friend=14 # Camila Ignacia Grove
-		}
-	}
-	2324.5.12 = {
-		give_nickname=nick_la_leona_de_santiago
-	}
-	2369.9.11 = {
-		death="2369.9.11"
-	}
-}
-### Issue of Diego Leonardo Balmaceda el León de Santiago ###
-5 = {
-	name="Benjamín Leandro" # Benjamín Leandro Balmaceda.
-	dynasty=1
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-	add_trait="strong"
-
-	father=3 # Diego Leonardo Balmaceda el León de Santiago
-
-	2320.3.13 = {
-		birth="2320.3.13"
-	}
-	2326.9.18 = {
-		death = {
-			death_reason=death_murder # Murdered by Javiera Ignacia Carrera.
-			killer=10 # Javiera Ignacia Carrera la Quintrala.
-		}
-	}
-}
-6 = {
-	name="Diego Valentín" # Diego Valentín Balmaceda.
-	dynasty=1
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-	add_trait="strong"
-
-	father=3 # Diego Leonardo Balmaceda el León de Santiago
-
-	2322.11.13 = {
-		birth="2322.11.13"
-	}
-	2326.9.18 = {
-		death = {
-			death_reason=death_murder # Murdered by Javiera Ignacia Carrera.
-			killer=10 # Javiera Ignacia Carrera la Quintrala.
-		}
-	}
-}
-7 = {
-	name="Santiago Alonso" # Santiago Alonso Balmaceda.
-	dynasty=1
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-	add_trait="strong"
-
-	father=3 # Diego Leonardo Balmaceda el León de Santiago
-
-	2324.7.25 = {
-		birth="2324.7.25"
-	}
-	2326.9.18 = {
-		death = {
-			death_reason=death_murder # Murdered by Javiera Ignacia Carrera.
-			killer=10 # Javiera Ignacia Carrera la Quintrala.
-		}
-	}
-}
-8 = {
-	name="José Manuel" # José Manuel Balmaceda.
-	dynasty=1
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-	add_trait="strong"
-
-	father=3 # Diego Leonardo Balmaceda el León de Santiago
-
-	2326.3.19 = {
-		birth="2326.3.19"
-	}
-	2326.9.18 = {
-		death = {
-			death_reason=death_murder # Murdered by Javiera Ignacia Carrera.
-			killer=10 # Javiera Ignacia Carrera la Quintrala.
-		}
-	}
-}
-###################
-### House Grove ###
-###################
-9 = {
-	name="Miguel Andrés" # Miguel Andrés Grove el León de la Muerte, King of Santiago.
-	dynasty=3
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="strong"
-
-	disallow_random_traits=yes
-
-	2278.7.6 = {
-		birth="2278.7.6"
-	}
-	2294.7.6 = {
-		add_trait="brilliant_strategist"
-		add_trait="cavalry_leader"
-		add_trait="trickster"
-		add_trait="organizer"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="temperate"
-		add_trait="wroth"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="ambitious"
-		add_trait="cynical"
-		add_trait="duelist"
-		add_trait="strategist"
-	}
-	2324.5.12 = {
-		add_trait="envious"
-	}
-	2326.9.18 = {
-		give_nickname=nick_el_leon_de_la_muerte
-	}
-	2330.4.17 = {
-		death = {
-			death_reason=death_duel # Slain by Benjamín Adrián Baquedano.
-			killer=17 # Benjamín Adrián Baquedano la Espada de Santiago.
-		}
-	}
-}
-10 = {
-	name="Javiera Ignacia" # Javiera Ignacia Carrera la Quintrala, wife of Miguel Andrés Grove el León de la Muerte.
-	dynasty=4
-	female=yes
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-
-	2278.3.1 = {
-		birth="2278.3.1"
-	}
-	2294.3.1 = {
-		add_trait="elusive_shadow"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="arbitrary"
-		add_trait="deceitful"
-		add_trait="gregarious"
-		add_trait="ambitious"
-		add_trait="cynical"
-		add_trait="groomed"
-		add_trait="schemer"
-		add_trait="impaler"
-		add_trait="poet"
-	}
-	2324.5.12 = {
-		add_trait="envious"
-	}
-	2326.9.18 = {
-		give_nickname=nick_la_quintrala
-	}
-	2330.4.17 = {
-		death = {
-			death_reason=death_execution_beheading # Beheaded by Inés Catalina Balmaceda.
-			killer=4 # Inés Catalina Balmaceda la Leona de Santiago.
-		}
-	}
-}
-### Issue of Miguel Andrés Grove el León de la Muerte ###
-11 = {
-	name="Manuel Javier" # Manuel Javier Grove.
-	dynasty=3
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-	add_trait="strong"
-
-	disallow_random_traits=yes
-
-	father=9 # Miguel Andrés Grove el León de la Muerte
-	mother=10 # Javiera Ignacia Carrera la Quintrala
-
-	2300.2.25 = {
-		birth="2300.2.25"
-	}
-	2316.2.25 = {
-		add_trait="brilliant_strategist"
-		add_trait="cavalry_leader"
-		add_trait="organizer"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="temperate"
-		add_trait="wroth"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="zealous"
-		add_trait="duelist"
-		add_trait="poet"
-	}
-	2330.4.17 = {
-		death = {
-			death_reason=death_duel_battle # Slain by Benjamín Adrián Baquedano.
-			killer=17 # Benjamín Adrián Baquedano la Espada de Santiago.
-		}
-	}
-}
-12 = {
-	name="Guillermo Carlos" # Guillermo Carlos Grove.
-	dynasty=3
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="strong"
-
-	disallow_random_traits=yes
-
-	father=9 # Miguel Andrés Grove el León de la Muerte
-	mother=10 # Javiera Ignacia Carrera la Quintrala
-
-	2302.6.26 = {
-		birth="2302.6.26"
-	}
-	2318.6.26 = {
-		add_trait="skilled_tactician"
-		add_trait="unyielding_leader"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="zealous"
-		add_trait="duelist"
-	}
-	2330.4.17 = {
-		death = {
-			death_reason=death_duel_battle # Slain by Inés Catalina Balmaceda.
-			killer=4 # Inés Catalina Balmaceda la Leona de Santiago.
-		}
-	}
-}
-13 = {
-	name="Gabriel Alejandro" # Gabriel Alejandro Grove.
-	dynasty=3
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="strong"
-
-	disallow_random_traits=yes
-
-	father=9 # Miguel Andrés Grove el León de la Muerte
-	mother=10 # Javiera Ignacia Carrera la Quintrala
-
-	2304.2.11 = {
-		birth="2304.2.11"
-	}
-	2320.2.11 = {
-		add_trait="skilled_tactician"
-		add_trait="unyielding_leader"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="zealous"
-		add_trait="duelist"
-	}
-	2330.4.17 = {
-		death = {
-			death_reason=death_duel_battle # Slain by Inés Catalina Balmaceda.
-			killer=4 # Inés Catalina Balmaceda la Leona de Santiago.
-		}
-	}
-}
-14 = {
-	name="Camila Ignacia" # Camila Ignacia Grove, lover of Benjamín Adrián Balmaceda la Espada de Santiago.
-	dynasty=3
-	female=yes
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-
-	father=9 # Miguel Andrés Grove el León de la Muerte
-	mother=10 # Javiera Ignacia Carrera la Quintrala
-
-	2306.4.28 = {
-		birth="2306.4.28"
-	}
-	2322.4.28 = {
-		add_trait="elusive_shadow"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="proud"
-		add_trait="lustful"
-		add_trait="gregarious"
-		add_trait="groomed"
-		add_trait="erudite"
-		add_trait="seductress"
-		add_trait="scholar"
-		add_trait="poet"
-	}
-}
-#######################
-### House Baquedano ###
-#######################
-15 = {
-	name="Benjamín Santiago" # Benjamín Santiago Baquedano el Bravo, captain of Los Dragones de Santiago.
-	dynasty=5
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="strong"
-
-	disallow_random_traits=yes
-
-	2289.4.20 = {
-		birth="2289.4.20"
-	}
-	2305.4.20 = {
-		add_trait="brilliant_strategist"
-		add_trait="experimenter"
-		add_trait="organizer"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="ambitious"
-		add_trait="zealous"
-		add_trait="duelist"
-		add_trait="strategist"
-	}
-	2311.12.1 = {
-		add_spouse=16 # Carmen Pilar Serrano
-		effect = {
-			add_friend=3 # Diego Leonardo el León de Santiago
-			add_friend=4 # Inés Catalina Balmaceda la Leona de Santiago
-			add_lover=16 # Carmen Pilar Serrano
-		}
-	}
-	2329.9.5 = {
-		give_nickname=nick_el_bravo
-		death = {
-			death_reason=death_duel # Slain by Miguel Andrés Grove.
-			killer=9 # Miguel Andrés Grove el León de la Muerte.
-		}
-	}
-}
-16 = {
-	name="Carmen Pilar" # Carmen Pilar Serrano, wife of Benjamín Santiago Baquedano el Bravo.
-	dynasty=6
-	female=yes
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-
-	2289.11.4 = {
-		birth="2289.11.4"
-	}
-	2305.11.4 = {
-		add_trait="elusive_shadow"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="mystic"
-		add_trait="poet"
-	}
-	2349.3.17 = {
-		death="2349.3.17"
-	}
-}
-### Issue of Benjamín Santiago Baquedano el Bravo ###
-17 = {
-	name="Benjamín Adrián" # Benjamín Adrián Baquedano la Espada de Santiago, King of Chile.
-	dynasty=5
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="strong"
-
-	disallow_random_traits=yes
-
-	father=15 # Benjamín Santiago Baquedano el Bravo
-	mother=16 # Carmen Pilar Serrano
-
-	2312.1.1 = {
-		birth="2312.1.1"
-	}
-	2328.1.1 = {
-		add_trait="brilliant_strategist"
-		add_trait="experimenter"
-		add_trait="organizer"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="ambitious"
-		add_trait="zealous"
-		add_trait="duelist"
-		add_trait="strategist"
-	}
-	2329.9.5 = {
-		add_spouse=4 # Inés Natalia Balmaceda la Leona de Santiago
-		effect = {
-			add_rival=9 # Miguel Andrés Grove el León de la Muerte.
-			add_lover=4 # Inés Natalia Balmaceda la Leona de Santiago
-		}
-	}
-	2330.4.17 = {
-		give_nickname=nick_la_espada_de_santiago
-		create_bloodline = {
-			type = bloodline_la_espada_de_santiago
-			has_dlc = "Holy Fury"
-		}
-		effect = {
-			add_artifact=sangreroja
-			add_artifact=cizana
-		}
-	}
-	2368.5.14 = {
-		add_trait="crusader"
-	}
-	2369.10.11 = {
-		death="2369.10.11"
-	}
-}
-### Issue of Benjamín Adrián Baquedano la Espada de Santiago ###
-# By his wife Inés Natalia Balmaceda la Leona de Santiago.
-18 = {
-	name="Diego Leonardo" # Diego Leonardo Baquedano Corazón de Dragón, King of Chile
-	dynasty=5
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="strong"
-
-	disallow_random_traits=yes
-
-	father=17 # Benjamín Adrián Baquedano la Espada de Santiago
-	mohter=4 # Inés Natalia Balmaceda la Leona de Santiago
-
-	2330.9.8 = {
-		birth="2330.9.8"
-	}
-	2346.9.8 = {
-		add_trait="brilliant_strategist"
-		add_trait="organizer"
-		add_trait="siege_leader"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="zealous"
-		add_trait="duelist"
-		add_trait="strategist"
-	}
-	2368.5.14 = {
-		add_trait="crusader"
-		give_nickname=nick_corazon_de_dragon
-		create_bloodline = {
-			type = bloodline_corazon_de_dragon
-			has_dlc = "Holy Fury"
-		}
-	}
-}
-# By his lover Camila Ignacia Grove.
-19 = {
-	name="Diego Antonio" # Diego Antonio Grove.
-	dynasty=3
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-	add_trait="strong"
-	add_trait="bastard"
-
-	disallow_random_traits=yes
-
-	father=17 # Benjamín Adrián Baquedano la Espada de Santiago
-	mother=14 # Camila Ignacia Grove
-
-	2331.10.27 = {
-		birth="2331.10.27"
-	}
-	2347.10.27 = {
-		add_trait="skilled_tactician"
-		add_trait="heavy_infantry_leader"
-		add_trait="organizer"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="wroth"
-		add_trait="proud"
-		add_trait="gregarious"
-		add_trait="groomed"
-		add_trait="duelist"
-		add_trait="poet"
-	}
-}
-20 = {
-	name="Andrea Millaray" Andrea Millaray Grove.
-	dynasty=3
-	female=yes
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-
-	religion="synodal"
-	culture="centralino"
-
-	add_trait="fair"
-	add_trait="bastard"
-
-	father=17 # Benjamín Adrián Baquedano la Espada de Santiago
-	mother=14 # Camila Ignacia Grove
-
-	2333.3.28 = {
-		birth="2333.3.28"
-	}
-	2349.3.28 = {
-		add_trait="intricate_webweaver"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="proud"
-		add_trait="gregarious"
-		add_trait="groomed"
-		add_trait="poet"
-	}
-}
-### Issue of Diego Leonardo Baquedano Corazón de Dragón ###
-21 = {
-	name="Severiano"
-	dynasty=7
-}
-22 = {
+# #######################
+# ### House Balmaceda ###
+# #######################
+# 1 = {
+# 	name="Benjamín Alonso" # Benjamín Alonso Balmaceda el Bacán, King of Chile.
+# 	dynasty=1
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="strong"
+
+# 	disallow_random_traits=yes
+
+# 	2278.7.19 = {
+# 		birth="2278.7.19"
+# 	}
+# 	2294.7.19 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="experimenter"
+# 		add_trait="organizer"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="temperate"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="ambitious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 		add_trait="strategist"
+# 		effect = {
+# 			add_artifact=sangreroja
+# 		}
+# 	}
+# 	2299.4.1 = {
+# 		add_spouse=2 # María Teresa Vicuña la Colorina
+# 		effect = {
+# 			add_friend=9 # Miguel Andrés Grove el León de la Muerte
+# 			add_friend=25 # Alfredo Arturo Leigh
+# 			add_friend=37 # Prieto
+# 			add_lover=2 # María Teresa Vicuña la Colorina
+# 		}
+# 	}
+# 	2300.2.12 = {
+# 		give_nickname=nick_el_bacan
+# 	}
+# 	2324.5.12 = {
+# 		effect = {
+# 			add_friend=3 # Diego Leonardo el León de Santiago
+# 			add_friend=4 # Inés Natalia Balmaceda la Leona de Santiago
+# 		}
+# 	}
+# 	2326.9.18 = {
+# 		add_trait="depressed"
+# 		death = {
+# 			death_reason=death_duel # Slain in a duel by Miguel Andrés Grove.
+# 			killer=9 # Miguel Andrés Grove el León de la Muerte.
+# 		}
+# 	}
+# }
+# 2 = {
+# 	name="María Teresa" # María Teresa Vicuña la Colorina, wife of Benjamín Alonso Balmaceda el Bacán.
+# 	dynasty=2
+# 	female=yes
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+
+# 	2278.7.13 = {
+# 		birth="2278.7.13"
+# 	}
+# 	2294.7.13 = {
+# 		add_trait="grey_eminence"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="kind"
+# 		add_trait="temperate"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="honest"
+# 		add_trait="ambitious"
+# 		add_trait="zealous"
+# 		add_trait="erudite"
+# 		add_trait="groomed"
+# 		add_trait="socializer"
+# 		add_trait="poet"
+# 	}
+# 	2299.4.1 = {
+# 		effect = {
+# 			add_rival=10 # Javiera Ignacia Carrera la Quintrala
+# 		}
+# 	}
+# 	2300.2.12 = {
+# 		give_nickname=nick_la_colorina
+# 	}
+# 	2324.5.12 = {
+# 		effect = {
+# 			add_friend=3 # Diego Leonardo el León de Santiago
+# 			add_friend=4 # Inés Natalia Balmaceda la Leona de Santiago
+# 		}
+# 	}
+# 	2326.9.18 = {
+# 		add_trait="depressed"
+# 		death = {
+# 			death_reason=death_murder # Murdered by Javiera Ignacia Carrera.
+# 			killer=10 # Javiera Ignacia Carrera la Quintrala.
+# 		}
+# 	}
+# }
+# ### Issue of Benjamín Alonso Balmaceda el Bacán ###
+# 3 = {
+# 	name="Diego Leonardo" # Diego Leonardo el León de Santiago, Duke of Maule.
+# 	dynasty=1
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+# 	add_trait="strong"
+
+# 	disallow_random_traits=yes
+
+# 	father=1 # Benjamín Alonso Balmaceda el Bacán
+# 	mother=2 # María Teresa Vicuña la Colorina
+
+# 	2300.4.17 = {
+# 		birth="2300.4.17"
+# 	}
+# 	2316.4.17 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="cavalry_leader"
+# 		add_trait="organizer"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="kind"
+# 		add_trait="temperate"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="zealous"
+# 		add_trait="erudite"
+# 		add_trait="duelist"
+# 		add_trait="strategist"
+# 		add_trait="poet"
+# 	}
+# 	2324.5.12 = {
+# 		give_nickname=nick_el_leon_de_santiago
+# 	}
+# 	2326.9.18 = {
+# 		death = {
+# 			death_reason=death_execution # Slain in a duel by Miguel Andrés Grove.
+# 			killer=9 # Miguel Andrés Grove el León de la Muerte.
+# 		}
+# 	}
+# }
+# 4 = {
+# 	name="Inés Catalina" # Inés Catalina Balmaceda la Leona de Santiago, wife of Benjamín Adrián Baquedano la Espada de Santiago.
+# 	dynasty=1
+# 	female=yes
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="strong"
+
+# 	disallow_random_traits=yes
+
+# 	father=1 # Benjamín Alonso Balmaceda el Bacán
+# 	mother=2 # María Teresa Vicuña la Colorina
+
+# 	2302.2.10 = {
+# 		birth="2302.2.10"
+# 	}
+# 	2318.2.10 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="aggressive_leader"
+# 		add_trait="organizer"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="temperate"
+# 		add_trait="wroth"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 		effect = {
+# 			add_friend=14 # Camila Ignacia Grove
+# 		}
+# 	}
+# 	2324.5.12 = {
+# 		give_nickname=nick_la_leona_de_santiago
+# 	}
+# 	2369.9.11 = {
+# 		death="2369.9.11"
+# 	}
+# }
+# ### Issue of Diego Leonardo Balmaceda el León de Santiago ###
+# 5 = {
+# 	name="Benjamín Leandro" # Benjamín Leandro Balmaceda.
+# 	dynasty=1
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+# 	add_trait="strong"
+
+# 	father=3 # Diego Leonardo Balmaceda el León de Santiago
+
+# 	2320.3.13 = {
+# 		birth="2320.3.13"
+# 	}
+# 	2326.9.18 = {
+# 		death = {
+# 			death_reason=death_murder # Murdered by Javiera Ignacia Carrera.
+# 			killer=10 # Javiera Ignacia Carrera la Quintrala.
+# 		}
+# 	}
+# }
+# 6 = {
+# 	name="Diego Valentín" # Diego Valentín Balmaceda.
+# 	dynasty=1
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+# 	add_trait="strong"
+
+# 	father=3 # Diego Leonardo Balmaceda el León de Santiago
+
+# 	2322.11.13 = {
+# 		birth="2322.11.13"
+# 	}
+# 	2326.9.18 = {
+# 		death = {
+# 			death_reason=death_murder # Murdered by Javiera Ignacia Carrera.
+# 			killer=10 # Javiera Ignacia Carrera la Quintrala.
+# 		}
+# 	}
+# }
+# 7 = {
+# 	name="Santiago Alonso" # Santiago Alonso Balmaceda.
+# 	dynasty=1
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+# 	add_trait="strong"
+
+# 	father=3 # Diego Leonardo Balmaceda el León de Santiago
+
+# 	2324.7.25 = {
+# 		birth="2324.7.25"
+# 	}
+# 	2326.9.18 = {
+# 		death = {
+# 			death_reason=death_murder # Murdered by Javiera Ignacia Carrera.
+# 			killer=10 # Javiera Ignacia Carrera la Quintrala.
+# 		}
+# 	}
+# }
+# 8 = {
+# 	name="José Manuel" # José Manuel Balmaceda.
+# 	dynasty=1
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+# 	add_trait="strong"
+
+# 	father=3 # Diego Leonardo Balmaceda el León de Santiago
+
+# 	2326.3.19 = {
+# 		birth="2326.3.19"
+# 	}
+# 	2326.9.18 = {
+# 		death = {
+# 			death_reason=death_murder # Murdered by Javiera Ignacia Carrera.
+# 			killer=10 # Javiera Ignacia Carrera la Quintrala.
+# 		}
+# 	}
+# }
+# ###################
+# ### House Grove ###
+# ###################
+# 9 = {
+# 	name="Miguel Andrés" # Miguel Andrés Grove el León de la Muerte, King of Santiago.
+# 	dynasty=3
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="strong"
+
+# 	disallow_random_traits=yes
+
+# 	2278.7.6 = {
+# 		birth="2278.7.6"
+# 	}
+# 	2294.7.6 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="cavalry_leader"
+# 		add_trait="trickster"
+# 		add_trait="organizer"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="temperate"
+# 		add_trait="wroth"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="ambitious"
+# 		add_trait="cynical"
+# 		add_trait="duelist"
+# 		add_trait="strategist"
+# 	}
+# 	2324.5.12 = {
+# 		add_trait="envious"
+# 	}
+# 	2326.9.18 = {
+# 		give_nickname=nick_el_leon_de_la_muerte
+# 	}
+# 	2330.4.17 = {
+# 		death = {
+# 			death_reason=death_duel # Slain by Benjamín Adrián Baquedano.
+# 			killer=17 # Benjamín Adrián Baquedano la Espada de Santiago.
+# 		}
+# 	}
+# }
+# 10 = {
+# 	name="Javiera Ignacia" # Javiera Ignacia Carrera la Quintrala, wife of Miguel Andrés Grove el León de la Muerte.
+# 	dynasty=4
+# 	female=yes
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+
+# 	2278.3.1 = {
+# 		birth="2278.3.1"
+# 	}
+# 	2294.3.1 = {
+# 		add_trait="elusive_shadow"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="temperate"
+# 		add_trait="proud"
+# 		add_trait="arbitrary"
+# 		add_trait="deceitful"
+# 		add_trait="gregarious"
+# 		add_trait="ambitious"
+# 		add_trait="cynical"
+# 		add_trait="groomed"
+# 		add_trait="schemer"
+# 		add_trait="impaler"
+# 		add_trait="poet"
+# 	}
+# 	2324.5.12 = {
+# 		add_trait="envious"
+# 	}
+# 	2326.9.18 = {
+# 		give_nickname=nick_la_quintrala
+# 	}
+# 	2330.4.17 = {
+# 		death = {
+# 			death_reason=death_execution_beheading # Beheaded by Inés Catalina Balmaceda.
+# 			killer=4 # Inés Catalina Balmaceda la Leona de Santiago.
+# 		}
+# 	}
+# }
+# ### Issue of Miguel Andrés Grove el León de la Muerte ###
+# 11 = {
+# 	name="Manuel Javier" # Manuel Javier Grove.
+# 	dynasty=3
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+# 	add_trait="strong"
+
+# 	disallow_random_traits=yes
+
+# 	father=9 # Miguel Andrés Grove el León de la Muerte
+# 	mother=10 # Javiera Ignacia Carrera la Quintrala
+
+# 	2300.2.25 = {
+# 		birth="2300.2.25"
+# 	}
+# 	2316.2.25 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="cavalry_leader"
+# 		add_trait="organizer"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="temperate"
+# 		add_trait="wroth"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 		add_trait="poet"
+# 	}
+# 	2330.4.17 = {
+# 		death = {
+# 			death_reason=death_duel_battle # Slain by Benjamín Adrián Baquedano.
+# 			killer=17 # Benjamín Adrián Baquedano la Espada de Santiago.
+# 		}
+# 	}
+# }
+# 12 = {
+# 	name="Guillermo Carlos" # Guillermo Carlos Grove.
+# 	dynasty=3
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="strong"
+
+# 	disallow_random_traits=yes
+
+# 	father=9 # Miguel Andrés Grove el León de la Muerte
+# 	mother=10 # Javiera Ignacia Carrera la Quintrala
+
+# 	2302.6.26 = {
+# 		birth="2302.6.26"
+# 	}
+# 	2318.6.26 = {
+# 		add_trait="skilled_tactician"
+# 		add_trait="unyielding_leader"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 	}
+# 	2330.4.17 = {
+# 		death = {
+# 			death_reason=death_duel_battle # Slain by Inés Catalina Balmaceda.
+# 			killer=4 # Inés Catalina Balmaceda la Leona de Santiago.
+# 		}
+# 	}
+# }
+# 13 = {
+# 	name="Gabriel Alejandro" # Gabriel Alejandro Grove.
+# 	dynasty=3
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="strong"
+
+# 	disallow_random_traits=yes
+
+# 	father=9 # Miguel Andrés Grove el León de la Muerte
+# 	mother=10 # Javiera Ignacia Carrera la Quintrala
+
+# 	2304.2.11 = {
+# 		birth="2304.2.11"
+# 	}
+# 	2320.2.11 = {
+# 		add_trait="skilled_tactician"
+# 		add_trait="unyielding_leader"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 	}
+# 	2330.4.17 = {
+# 		death = {
+# 			death_reason=death_duel_battle # Slain by Inés Catalina Balmaceda.
+# 			killer=4 # Inés Catalina Balmaceda la Leona de Santiago.
+# 		}
+# 	}
+# }
+# 14 = {
+# 	name="Camila Ignacia" # Camila Ignacia Grove, lover of Benjamín Adrián Balmaceda la Espada de Santiago.
+# 	dynasty=3
+# 	female=yes
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+
+# 	father=9 # Miguel Andrés Grove el León de la Muerte
+# 	mother=10 # Javiera Ignacia Carrera la Quintrala
+
+# 	2306.4.28 = {
+# 		birth="2306.4.28"
+# 	}
+# 	2322.4.28 = {
+# 		add_trait="elusive_shadow"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="proud"
+# 		add_trait="lustful"
+# 		add_trait="gregarious"
+# 		add_trait="groomed"
+# 		add_trait="erudite"
+# 		add_trait="seductress"
+# 		add_trait="scholar"
+# 		add_trait="poet"
+# 	}
+# }
+# #######################
+# ### House Baquedano ###
+# #######################
+# 15 = {
+# 	name="Benjamín Santiago" # Benjamín Santiago Baquedano el Bravo, captain of Los Dragones de Santiago.
+# 	dynasty=5
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="strong"
+
+# 	disallow_random_traits=yes
+
+# 	2289.4.20 = {
+# 		birth="2289.4.20"
+# 	}
+# 	2305.4.20 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="experimenter"
+# 		add_trait="organizer"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="temperate"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="ambitious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 		add_trait="strategist"
+# 	}
+# 	2311.12.1 = {
+# 		add_spouse=16 # Carmen Pilar Serrano
+# 		effect = {
+# 			add_friend=3 # Diego Leonardo el León de Santiago
+# 			add_friend=4 # Inés Catalina Balmaceda la Leona de Santiago
+# 			add_lover=16 # Carmen Pilar Serrano
+# 		}
+# 	}
+# 	2329.9.5 = {
+# 		give_nickname=nick_el_bravo
+# 		death = {
+# 			death_reason=death_duel # Slain by Miguel Andrés Grove.
+# 			killer=9 # Miguel Andrés Grove el León de la Muerte.
+# 		}
+# 	}
+# }
+# 16 = {
+# 	name="Carmen Pilar" # Carmen Pilar Serrano, wife of Benjamín Santiago Baquedano el Bravo.
+# 	dynasty=6
+# 	female=yes
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+
+# 	2289.11.4 = {
+# 		birth="2289.11.4"
+# 	}
+# 	2305.11.4 = {
+# 		add_trait="elusive_shadow"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="mystic"
+# 		add_trait="poet"
+# 	}
+# 	2349.3.17 = {
+# 		death="2349.3.17"
+# 	}
+# }
+# ### Issue of Benjamín Santiago Baquedano el Bravo ###
+# 17 = {
+# 	name="Benjamín Adrián" # Benjamín Adrián Baquedano la Espada de Santiago, King of Chile.
+# 	dynasty=5
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="strong"
+
+# 	disallow_random_traits=yes
+
+# 	father=15 # Benjamín Santiago Baquedano el Bravo
+# 	mother=16 # Carmen Pilar Serrano
+
+# 	2312.1.1 = {
+# 		birth="2312.1.1"
+# 	}
+# 	2328.1.1 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="experimenter"
+# 		add_trait="organizer"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="temperate"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="ambitious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 		add_trait="strategist"
+# 	}
+# 	2329.9.5 = {
+# 		add_spouse=4 # Inés Natalia Balmaceda la Leona de Santiago
+# 		effect = {
+# 			add_rival=9 # Miguel Andrés Grove el León de la Muerte.
+# 			add_lover=4 # Inés Natalia Balmaceda la Leona de Santiago
+# 		}
+# 	}
+# 	2330.4.17 = {
+# 		give_nickname=nick_la_espada_de_santiago
+# 		create_bloodline = {
+# 			type = bloodline_la_espada_de_santiago
+# 			has_dlc = "Holy Fury"
+# 		}
+# 		effect = {
+# 			add_artifact=sangreroja
+# 			add_artifact=cizana
+# 		}
+# 	}
+# 	2368.5.14 = {
+# 		add_trait="crusader"
+# 	}
+# 	2369.10.11 = {
+# 		death="2369.10.11"
+# 	}
+# }
+# ### Issue of Benjamín Adrián Baquedano la Espada de Santiago ###
+# # By his wife Inés Natalia Balmaceda la Leona de Santiago.
+# 18 = {
+# 	name="Diego Leonardo" # Diego Leonardo Baquedano Corazón de Dragón, King of Chile
+# 	dynasty=5
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="strong"
+
+# 	disallow_random_traits=yes
+
+# 	father=17 # Benjamín Adrián Baquedano la Espada de Santiago
+# 	mohter=4 # Inés Natalia Balmaceda la Leona de Santiago
+
+# 	2330.9.8 = {
+# 		birth="2330.9.8"
+# 	}
+# 	2346.9.8 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="organizer"
+# 		add_trait="siege_leader"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="temperate"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 		add_trait="strategist"
+# 	}
+# 	2368.5.14 = {
+# 		add_trait="crusader"
+# 		give_nickname=nick_corazon_de_dragon
+# 		create_bloodline = {
+# 			type = bloodline_corazon_de_dragon
+# 			has_dlc = "Holy Fury"
+# 		}
+# 	}
+# }
+# # By his lover Camila Ignacia Grove.
+# 19 = {
+# 	name="Diego Antonio" # Diego Antonio Grove.
+# 	dynasty=3
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+# 	add_trait="strong"
+# 	add_trait="bastard"
+
+# 	disallow_random_traits=yes
+
+# 	father=17 # Benjamín Adrián Baquedano la Espada de Santiago
+# 	mother=14 # Camila Ignacia Grove
+
+# 	2331.10.27 = {
+# 		birth="2331.10.27"
+# 	}
+# 	2347.10.27 = {
+# 		add_trait="skilled_tactician"
+# 		add_trait="heavy_infantry_leader"
+# 		add_trait="organizer"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="wroth"
+# 		add_trait="proud"
+# 		add_trait="gregarious"
+# 		add_trait="groomed"
+# 		add_trait="duelist"
+# 		add_trait="poet"
+# 	}
+# }
+# 20 = {
+# 	name="Andrea Millaray" Andrea Millaray Grove.
+# 	dynasty=3
+# 	female=yes
+
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
+
+# 	religion="synodal"
+# 	culture="centralino"
+
+# 	add_trait="fair"
+# 	add_trait="bastard"
+
+# 	father=17 # Benjamín Adrián Baquedano la Espada de Santiago
+# 	mother=14 # Camila Ignacia Grove
+
+# 	2333.3.28 = {
+# 		birth="2333.3.28"
+# 	}
+# 	2349.3.28 = {
+# 		add_trait="intricate_webweaver"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="proud"
+# 		add_trait="gregarious"
+# 		add_trait="groomed"
+# 		add_trait="poet"
+# 	}
+# }
+# ### Issue of Diego Leonardo Baquedano Corazón de Dragón ###
+# 21 = {
+# 	name="Severiano"
+# 	dynasty=7
+# }
+# 22 = {
 	
-}
-# By his wife Mónica Alejandra Camiroaga.
-23 = {
-	name="Benjamín Damián" # Benjamín Damián Baquedano.
-	dynasty=5
+# }
+# # By his wife Mónica Alejandra Camiroaga.
+# 23 = {
+# 	name="Benjamín Damián" # Benjamín Damián Baquedano.
+# 	dynasty=5
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
 
-	religion="synodal"
-	culture="centralino"
+# 	religion="synodal"
+# 	culture="centralino"
 
-	add_trait="fair"
-	add_trait="strong"
+# 	add_trait="fair"
+# 	add_trait="strong"
 
-	disallow_random_traits=yes
+# 	disallow_random_traits=yes
 
-	father=18 # Diego Leonardo Baquedano Corazón de Dragón
+# 	father=18 # Diego Leonardo Baquedano Corazón de Dragón
 
-	2353.4.18 = {
-		birth="2353.4.18"
-	}
-	2368.4.18 = {
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="wroth"
-		add_trait="proud"
-		add_trait="lustful"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="zealous"
-		add_trait="duelist"
-		add_trait="falconer"
-		add_trait="poet"
-	}
-	2368.5.14 = {
-		add_trait="crusader"
-	}
-	2369.4.18 = {
-		add_trait="brilliant_strategist"
-		add_trait="cavalry_leader"
-		add_trait="organizer"
-		add_trait="inspiring_leader"
-	}
-}
-### Issue of Benjamín Damián Baquedano ###
-24 = {
-	name="" # Baquedano.
-	dynasty=5
+# 	2353.4.18 = {
+# 		birth="2353.4.18"
+# 	}
+# 	2368.4.18 = {
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="wroth"
+# 		add_trait="proud"
+# 		add_trait="lustful"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 		add_trait="falconer"
+# 		add_trait="poet"
+# 	}
+# 	2368.5.14 = {
+# 		add_trait="crusader"
+# 	}
+# 	2369.4.18 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="cavalry_leader"
+# 		add_trait="organizer"
+# 		add_trait="inspiring_leader"
+# 	}
+# }
+# ### Issue of Benjamín Damián Baquedano ###
+# 24 = {
+# 	name="" # Baquedano.
+# 	dynasty=5
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
 
-	religion="synodal"
-	culture="centralino"
+# 	religion="synodal"
+# 	culture="centralino"
 
-	add_trait="fair"
-	add_trait="strong"
+# 	add_trait="fair"
+# 	add_trait="strong"
 
-	disallow_random_traits=yes
+# 	disallow_random_traits=yes
 
-	father=23 # Benjamín Damián Baquedano
+# 	father=23 # Benjamín Damián Baquedano
 
-	2369
-}
-###################
-### House Leigh ###
-###################
-25 = {
-	name="Alfredo Arturo" # Alfredo Arturo Leigh, Duke and King of Valparaíso.
-	dynasty=8
+# 	2369
+# }
+# ###################
+# ### House Leigh ###
+# ###################
+# 25 = {
+# 	name="Alfredo Arturo" # Alfredo Arturo Leigh, Duke and King of Valparaíso.
+# 	dynasty=8
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
 
-	religion="synodal"
-	culture="centralino"
+# 	religion="synodal"
+# 	culture="centralino"
 
-	add_trait="strong"
+# 	add_trait="strong"
 
-	disallow_random_traits=yes
+# 	disallow_random_traits=yes
 
-	2278.10.26 = {
-		birth="2278.10.26"
-	}
-	2294.10.26 = {
-		add_trait="brilliant_strategist"
-		add_trait="cavalry_leader"
-		add_trait="organizer"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="ambitious"
-		add_trait="zealous"
-		add_trait="duelist"
-		add_trait="strategist"
-	}
-	2330.5.22 = {
-		death = {
-			death_reason=death_duel_battle # Battle of Valparaíso.
-			killer=17 # Benjamín Adrián Baquedano la Espada de Santiago.
-		}
-	}
-}
-26 = {
-	name="Victoria Elena" # Victoria Elena Condell, wife of Alfredo Arturo Leigh.
-	dynasty=9
+# 	2278.10.26 = {
+# 		birth="2278.10.26"
+# 	}
+# 	2294.10.26 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="cavalry_leader"
+# 		add_trait="organizer"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="temperate"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="ambitious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 		add_trait="strategist"
+# 	}
+# 	2330.5.22 = {
+# 		death = {
+# 			death_reason=death_duel_battle # Battle of Valparaíso.
+# 			killer=17 # Benjamín Adrián Baquedano la Espada de Santiago.
+# 		}
+# 	}
+# }
+# 26 = {
+# 	name="Victoria Elena" # Victoria Elena Condell, wife of Alfredo Arturo Leigh.
+# 	dynasty=9
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
 
-	religion="synodal"
-	culture="centralino"
+# 	religion="synodal"
+# 	culture="centralino"
 
-	2278.8.14 = {
-		birth="2278.8.14"
-	}
-	2294.8.14 = {
-		add_trait="charismatic_negotiator"
-		add_trait="diligent"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="zealous"
-	}
-	2341.10.24 = {
-		death="2341.10.24"
-	}
-}
-### Issue of Alfredo Arturo Leigh ###
-27 = {
-	name="Benjamín Alfredo" # Benjamín Alfredo Leigh el Ás de Espadas, Duke and King of Valparaíso
-	dynasty=8
+# 	2278.8.14 = {
+# 		birth="2278.8.14"
+# 	}
+# 	2294.8.14 = {
+# 		add_trait="charismatic_negotiator"
+# 		add_trait="diligent"
+# 		add_trait="temperate"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="zealous"
+# 	}
+# 	2341.10.24 = {
+# 		death="2341.10.24"
+# 	}
+# }
+# ### Issue of Alfredo Arturo Leigh ###
+# 27 = {
+# 	name="Benjamín Alfredo" # Benjamín Alfredo Leigh el Ás de Espadas, Duke and King of Valparaíso
+# 	dynasty=8
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
 
-	religion="synodal"
-	culture="centralino"
+# 	religion="synodal"
+# 	culture="centralino"
 
-	add_trait="strong"
+# 	add_trait="strong"
 
-	disallow_random_traits=yes
+# 	disallow_random_traits=yes
 
-	father=25 # Alfredo Arturo Leigh
-	mother=26 # Victoria Elena Condell
+# 	father=25 # Alfredo Arturo Leigh
+# 	mother=26 # Victoria Elena Condell
 
-	2300.9.19 = {
-		birth="2300.9.19"
-	}
-	2316.9.19 = {
-		add_trait="brilliant_strategist"
-		add_trait="cavalry_leader"
-		add_trait="organizer"
-		add_trait="inspiring_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="just"
-		add_trait="gregarious"
-		add_trait="ambitious"
-		add_trait="zealous"
-		add_trait="duelist"
-		add_trait="strategist"
-	}
-	2330.5.22 = {
-		remove_trait="ambitious"
-		add_trait="one_eyed"
-		give_nickname=nick_el_as_de_espadas
-		create_bloodline = {
-			type = bloodline_el_as_de_espadas
-			has_dlc = "Holy Fury"
-		}
-	}
-	2368.5.14 = {
-		add_trait="crusader"
-	}
-	2369.9.29 = {
-		death="2369.9.29"
-	}
-}
-28 = {
-	name="" # wife of Benjamín Alfredo Leigh el Ás de Espadas.
-	dynasty=10
-	female=yes
+# 	2300.9.19 = {
+# 		birth="2300.9.19"
+# 	}
+# 	2316.9.19 = {
+# 		add_trait="brilliant_strategist"
+# 		add_trait="cavalry_leader"
+# 		add_trait="organizer"
+# 		add_trait="inspiring_leader"
+# 		add_trait="brave"
+# 		add_trait="diligent"
+# 		add_trait="patient"
+# 		add_trait="temperate"
+# 		add_trait="proud"
+# 		add_trait="just"
+# 		add_trait="gregarious"
+# 		add_trait="ambitious"
+# 		add_trait="zealous"
+# 		add_trait="duelist"
+# 		add_trait="strategist"
+# 	}
+# 	2330.5.22 = {
+# 		remove_trait="ambitious"
+# 		add_trait="one_eyed"
+# 		give_nickname=nick_el_as_de_espadas
+# 		create_bloodline = {
+# 			type = bloodline_el_as_de_espadas
+# 			has_dlc = "Holy Fury"
+# 		}
+# 	}
+# 	2368.5.14 = {
+# 		add_trait="crusader"
+# 	}
+# 	2369.9.29 = {
+# 		death="2369.9.29"
+# 	}
+# }
+# 28 = {
+# 	name="" # wife of Benjamín Alfredo Leigh el Ás de Espadas.
+# 	dynasty=10
+# 	female=yes
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
 
-	religion="synodal"
-	culture="centralino"
+# 	religion="synodal"
+# 	culture="centralino"
 
-	2300
-}
-### Issue of Benjamín Alfredo Leigh el Ás de Espadas ###
-29 = {
-	name="Arturo Alejandro" # Arturo Alejandro Leigh, Duke of Valparaíso.
-	dynasty=8
+# 	2300
+# }
+# ### Issue of Benjamín Alfredo Leigh el Ás de Espadas ###
+# 29 = {
+# 	name="Arturo Alejandro" # Arturo Alejandro Leigh, Duke of Valparaíso.
+# 	dynasty=8
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
 
-	religion="synodal"
-	culture="centralino"
+# 	religion="synodal"
+# 	culture="centralino"
 
-	add_trait="strong"
+# 	add_trait="strong"
 
-	disallow_random_traits=yes
+# 	disallow_random_traits=yes
 
-	father=27 # Benjamín Alfredo Leigh el Ás de Espadas
-	mother=28 # 
+# 	father=27 # Benjamín Alfredo Leigh el Ás de Espadas
+# 	mother=28 # 
 
-	2321.4.19 = {
-		birth="2321.4.19"
-	}
-	2337.4.19 = {
+# 	2321.4.19 = {
+# 		birth="2321.4.19"
+# 	}
+# 	2337.4.19 = {
 		
-	}
-}
-30 = {
-	name="" # wife of Arturo Alejandro Leigh.
-	dynasty=11
-	female=yes
+# 	}
+# }
+# 30 = {
+# 	name="" # wife of Arturo Alejandro Leigh.
+# 	dynasty=11
+# 	female=yes
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
 
-	religion="synodal"
-	culture="centralino"
+# 	religion="synodal"
+# 	culture="centralino"
 
-	2321.7.11 = {
-		birth="2321.7.11"
-	}
-}
-### Issue of Arturo Alejandro Leigh ###
-31 = {
+# 	2321.7.11 = {
+# 		birth="2321.7.11"
+# 	}
+# }
+# ### Issue of Arturo Alejandro Leigh ###
+# 31 = {
 	
-}
-32 = {
+# }
+# 32 = {
 	
-}
-### Issue of Benjamín Arturo Leigh ###
-33 = {
+# }
+# ### Issue of Benjamín Arturo Leigh ###
+# 33 = {
 	
-}
-34 = {
+# }
+# 34 = {
 	
-}
-35 = {
+# }
+# 35 = {
 	
-}
-36 = {
+# }
+# 36 = {
 	
-}
-####################
-### House Prieto ###
-####################
-37 = {
-	name="" # Prieto, Duke and King of O'Higgins.
-	dynasty=12
-}
-38 = {
-	name="" # wife of Prieto.
-	dynasty=13
-	female=yes
+# }
+# ####################
+# ### House Prieto ###
+# ####################
+# 37 = {
+# 	name="" # Prieto, Duke and King of O'Higgins.
+# 	dynasty=12
+# }
+# 38 = {
+# 	name="" # wife of Prieto.
+# 	dynasty=13
+# 	female=yes
 
-}
-### Issue of Prieto ###
-39 = {
-	name="" # Prieto, Duke and King of O'Higgins.
-	dynasty=12
-}
-40 = {
-	name="" # wife of Prieto.
-	dynasty=14
-	female=yes
-}
-### Issue of Prieto ###
-41 = {
-	name="" # Prieto, wife of Camiroaga.
-	dynasty=12
-	female=yes
-}
-#######################
-### House Camiroaga ###
-#######################
-42 = {
-	name="" # Camiroaga.
-	dynasty=15
-}
-43 = {
-	name="" # Zabaleta, wife of Camiroaga.
-	dynasty=16
-	female=yes
-}
-### Issue of Camiroaga ###
-44 = {
-	name="" # Camiroaga el Halcón, Duke of O'Higgins.
-	dynasty=15
-}
-45 = {
-	name="" # Portales, wife of Camiroaga.
-	dynasty=17
-}
-### Issue of Camiroaga ###
-46 = {
-	name="" # Camiroaga, Duke of O'Higgins.
-}
-47 = {
-	name="" # Camiroaga la Reina Halcón, wife of Diego Leonardo Baquedano Corazón de Dragón.
-}
-### Issue of Camiroaga ###
-48 = {
+# }
+# ### Issue of Prieto ###
+# 39 = {
+# 	name="" # Prieto, Duke and King of O'Higgins.
+# 	dynasty=12
+# }
+# 40 = {
+# 	name="" # wife of Prieto.
+# 	dynasty=14
+# 	female=yes
+# }
+# ### Issue of Prieto ###
+# 41 = {
+# 	name="" # Prieto, wife of Camiroaga.
+# 	dynasty=12
+# 	female=yes
+# }
+# #######################
+# ### House Camiroaga ###
+# #######################
+# 42 = {
+# 	name="" # Camiroaga.
+# 	dynasty=15
+# }
+# 43 = {
+# 	name="" # Zabaleta, wife of Camiroaga.
+# 	dynasty=16
+# 	female=yes
+# }
+# ### Issue of Camiroaga ###
+# 44 = {
+# 	name="" # Camiroaga el Halcón, Duke of O'Higgins.
+# 	dynasty=15
+# }
+# 45 = {
+# 	name="" # Portales, wife of Camiroaga.
+# 	dynasty=17
+# }
+# ### Issue of Camiroaga ###
+# 46 = {
+# 	name="" # Camiroaga, Duke of O'Higgins.
+# }
+# 47 = {
+# 	name="" # Camiroaga la Reina Halcón, wife of Diego Leonardo Baquedano Corazón de Dragón.
+# }
+# ### Issue of Camiroaga ###
+# 48 = {
 	
-}
-49 = {
+# }
+# 49 = {
 	
-}
-### Issue of Camiroaga ###
-50 = {
-	name=""
-}
-####################
-### House Bulnes ###
-####################
-51 = {
-	name="Benjamín Amaro" # Benjamín Amaro Bulnes el Brígido, King of Biobío.
-	dynasty=18
+# }
+# ### Issue of Camiroaga ###
+# 50 = {
+# 	name=""
+# }
+# ####################
+# ### House Bulnes ###
+# ####################
+# 51 = {
+# 	name="Benjamín Amaro" # Benjamín Amaro Bulnes el Brígido, King of Biobío.
+# 	dynasty=18
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
+# 	diplomacy = 5
+# 	martial = 5
+# 	stewardship = 5
+# 	intrigue = 5
+# 	learning = 5
 
-	religion="synodal"
-	culture="centralino"
+# 	religion="synodal"
+# 	culture="centralino"
 
-	add_trait="strong"
+# 	add_trait="strong"
 
-	disallow_random_traits=yes
+# 	disallow_random_traits=yes
 
-}
-52 = {
-	name="" # wife of Benjamín Amaro Bulnes el Brígido.
-	dynasty=19
-	female=yes
+# }
+# 52 = {
+# 	name="" # wife of Benjamín Amaro Bulnes el Brígido.
+# 	dynasty=19
+# 	female=yes
 
-}
-### Issue of Benjamín Amaro Bulnes el Brígido ###
-53 = {
-	name="" # Álvaro Bulnes, King of Biobío.
-}
-54 = {
-	name="" # Raúl Alberto Bulnes, Prelate of the Synodal Church.
-}
-55 = {
-	name="" # wife of Álvaro Bulnes.
-	dynasty=20
-}
-### Issue of Álvaro Bulnes ###
-56 = {
-	name="" # Bulnes, King of Biobío.
-}
-57 = {
-	name="" # Bulnes, Duke of Araucanía.
-}
-58 = {
-	name="" # Bulnes, Duke of Maule.
-}
-59 = {
-	name="" # Bulnes, Duke of Ñuble.
-}
-60 = {
-	name="" # wife of Bulnes.
-	dynasty=21
-}
-61 = {
-	name="" # wife of Bulnes.
-	dynasty=22
-}
-62 = {
-	name="" # wife of Bulnes.
-	dynasty=23
-}
-63 = {
-	name="" # wife of Bulnes.
-	dynasty=24
-}
-### Issue of Bulnes ###
-64 = {
-	name="" # Bulnes.
-}
-### Issue of Bulnes ###
-65 = {
-	name="" # Bulnes.
-}
-### Issue of Bulnes ###
-66 = {
-	name="" # Bulnes.
-}
-### Issue of Bulnes ###
-67 = {
-	name="" # Bulnes.
-}
-##################
-### House Prat ###
-##################
-68 = {
-	name="" # Prat.
-	dynasty=25
-}
-69 = {
-	name="" # wife of Prat.
-	dynasty=26
-}
-### Issue of Prat ###
-70 = {
-	name="" # Prat.
-	dynasty=25
-}
-71 = {
-	name="" # wife of Prat.
-	dynasty=27
-}
-### Issue of Prat ###
-72 = {
-	name="Felipe Arturo" # Felipe Arturo Prat, Duke of Ñuble.
-	dynasty=25
-}
-####################
-### House Ibáñez ###
-####################
-73 = {
-	name="" # Ibáñez.
-	dynasty=28
-}
-74 = {
-	name="" # wife of Ibáñez.
-	dynasty=29
-	female=yes
-}
-### Issue of Ibáñez ###
-75 = {
-	name="" # Ibáñez el Roto, King of Maule.
-	dynasty=28
+# }
+# ### Issue of Benjamín Amaro Bulnes el Brígido ###
+# 53 = {
+# 	name="" # Álvaro Bulnes, King of Biobío.
+# }
+# 54 = {
+# 	name="" # Raúl Alberto Bulnes, Prelate of the Synodal Church.
+# }
+# 55 = {
+# 	name="" # wife of Álvaro Bulnes.
+# 	dynasty=20
+# }
+# ### Issue of Álvaro Bulnes ###
+# 56 = {
+# 	name="" # Bulnes, King of Biobío.
+# }
+# 57 = {
+# 	name="" # Bulnes, Duke of Araucanía.
+# }
+# 58 = {
+# 	name="" # Bulnes, Duke of Maule.
+# }
+# 59 = {
+# 	name="" # Bulnes, Duke of Ñuble.
+# }
+# 60 = {
+# 	name="" # wife of Bulnes.
+# 	dynasty=21
+# }
+# 61 = {
+# 	name="" # wife of Bulnes.
+# 	dynasty=22
+# }
+# 62 = {
+# 	name="" # wife of Bulnes.
+# 	dynasty=23
+# }
+# 63 = {
+# 	name="" # wife of Bulnes.
+# 	dynasty=24
+# }
+# ### Issue of Bulnes ###
+# 64 = {
+# 	name="" # Bulnes.
+# }
+# ### Issue of Bulnes ###
+# 65 = {
+# 	name="" # Bulnes.
+# }
+# ### Issue of Bulnes ###
+# 66 = {
+# 	name="" # Bulnes.
+# }
+# ### Issue of Bulnes ###
+# 67 = {
+# 	name="" # Bulnes.
+# }
+# ##################
+# ### House Prat ###
+# ##################
+# 68 = {
+# 	name="" # Prat.
+# 	dynasty=25
+# }
+# 69 = {
+# 	name="" # wife of Prat.
+# 	dynasty=26
+# }
+# ### Issue of Prat ###
+# 70 = {
+# 	name="" # Prat.
+# 	dynasty=25
+# }
+# 71 = {
+# 	name="" # wife of Prat.
+# 	dynasty=27
+# }
+# ### Issue of Prat ###
+# 72 = {
+# 	name="Felipe Arturo" # Felipe Arturo Prat, Duke of Ñuble.
+# 	dynasty=25
+# }
+# ####################
+# ### House Ibáñez ###
+# ####################
+# 73 = {
+# 	name="" # Ibáñez.
+# 	dynasty=28
+# }
+# 74 = {
+# 	name="" # wife of Ibáñez.
+# 	dynasty=29
+# 	female=yes
+# }
+# ### Issue of Ibáñez ###
+# 75 = {
+# 	name="" # Ibáñez el Roto, King of Maule.
+# 	dynasty=28
 
-}
-76 = {
-	name="" # wife of Ibáñez el Roto.
-	dynasty=30
-	female=yes
+# }
+# 76 = {
+# 	name="" # wife of Ibáñez el Roto.
+# 	dynasty=30
+# 	female=yes
 
-}
-### Issue of Ibáñez el Roto ###
-77 = {
-	name="" # Ibáñez, King of Maule.
-	dynasty=28
+# }
+# ### Issue of Ibáñez el Roto ###
+# 77 = {
+# 	name="" # Ibáñez, King of Maule.
+# 	dynasty=28
 
-}
-78 = {
-	name="" # wife of Ibáñez.
-	dynasty=31
-	female=yes
+# }
+# 78 = {
+# 	name="" # wife of Ibáñez.
+# 	dynasty=31
+# 	female=yes
 
-}
-### Issue of Ibáñez ###
-79 = {
-	name="" # Ibáñez.
-	dynasty=28
+# }
+# ### Issue of Ibáñez ###
+# 79 = {
+# 	name="" # Ibáñez.
+# 	dynasty=28
 
-}
-80 = {
-	name="" # Ibáñez.
-	dynasty=28
+# }
+# 80 = {
+# 	name="" # Ibáñez.
+# 	dynasty=28
 
-}
-81 = {
-	name="" # Ibáñez.
-	dynasty=28
+# }
+# 81 = {
+# 	name="" # Ibáñez.
+# 	dynasty=28
 
-}
-82 = {
-	name="" # Ibáñez, wife of Felipe Arturo Prat.
-	dynasty=28
-	female=yes
-}
-83 = {
-	name="" # Ibáñez.
-	dynasty=28
-	female=yes
+# }
+# 82 = {
+# 	name="" # Ibáñez, wife of Felipe Arturo Prat.
+# 	dynasty=28
+# 	female=yes
+# }
+# 83 = {
+# 	name="" # Ibáñez.
+# 	dynasty=28
+# 	female=yes
 
-}
+# }
 
-####################
-### House Keller ###
-####################
+# ####################
+# ### House Keller ###
+# ####################
 
-########################
-### House Barrientos ###
-########################
+# ########################
+# ### House Barrientos ###
+# ########################
 
-#####################
-### House Solari? ###
-#####################
+# #####################
+# ### House Solari? ###
+# #####################
 
-####################
-### House Büchi? ###
-####################
+# ####################
+# ### House Büchi? ###
+# ####################
 
-#####################
-### House Lukšić? ###
-#####################
+# #####################
+# ### House Lukšić? ###
+# #####################
 
-####################
-### House Ponce? ###
-####################
+# ####################
+# ### House Ponce? ###
+# ####################
 
-#########################
-### House of Copiapo? ###
-#########################
+# #########################
+# ### House of Copiapo? ###
+# #########################
 
-##########################
-### House of Coquimbo? ###
-##########################
+# ##########################
+# ### House of Coquimbo? ###
+# ##########################
 
-##########################
-### House of Rapa Nui? ###
-##########################
+# ##########################
+# ### House of Rapa Nui? ###
+# ##########################
 
-################################
-### House of Juan Fernandez? ###
-################################
+# ################################
+# ### House of Juan Fernandez? ###
+# ################################
