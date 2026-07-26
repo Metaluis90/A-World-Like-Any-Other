@@ -1,40 +1,40 @@
-bookmark_2369 = {
-    name = "BOOKMARK_2369"
-    desc = "BOOKMARK_2369_DESC"
-    date = 2369.11.19
-	
-	era = yes						## Will be shown on Era screen.
-	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+bookmark_2369 = { # The Feeling Begins.
+	name="BOOKMARK_2369"
+	desc="BOOKMARK_2369_DESC"
+	date="2369.11.19"
 
-    selectable_character = {
-		id = 1 # Diego Bartales
-		age = 18
-		name = ERA_CHAR_NAME_FRANCISCO
-		title = c_merida
-		title_name = MERIDA
-		
+	era=yes
+	custom_start=yes
+
+	selectable_character = {
+		id = 18 # Diego Leonardo Corazón de Dragón Baquedano
+		name = ERA_CHAR_NAME_DIEGO_LEONARDO_BAQUEDANO
+		age = 39
+		title = k_chile
+		title_name = CHILE
+
 		character = {
-			female = no
+			dynasty=5
+			female=no
 			dna="aaafh0bace0"
 			properties="0t00ek0000000000000000000a"
-			religion="cristo_rey"
-			culture="yucatanense"
-			government = feudal_government
-			dynasty=1
+			religion="synodal"
+			culture="centralino"
+			government="feudal_government"
 		}
 	}
 }
 
 bookmark_2666 = {
-    name = "BOOKMARK_2666"
-    desc = "BOOKMARK_2666_DESC"
-    date = 2666.7.4
-	
-	era = yes						## Will be shown on Era screen.
-	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+	name="BOOKMARK_2666"
+	desc="BOOKMARK_2666_DESC"
+	date = 2666.7.4
 
-    selectable_character = {
-		id = 2 # Francisco
+	era=yes						## Will be shown on Era screen.
+	custom_start=yes				## Choosing "Custom Start" will open this bookmark
+
+	selectable_character = {
+		id = 2
 		age = 18
 		name = ERA_CHAR_NAME_FRANCISCO
 		title = c_merida

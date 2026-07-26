@@ -10,7 +10,7 @@ chileno = {
 
 		male_names = {
 			Aarón Abraham Adrián Agustín Alan Alberto Alejandro Álex Alexander Alexis Alfonso Alfredo Alonso Álvaro Amaro Américo Andrés Andrónico Ángel Angelo Aníbal Antonio Ariel Armando Arturo Augusto Axel
-			Bairon Baltasar Baltazar Bastián Bayron Benjamín Bernardo Boris Borja Branko Brayan Brian Bruno Bryan Byron
+			Bairon Baltasar Baltazar Bastián Bayron Benjamín Bernardo Boris Borja Brandon Branko Brayan Brian Bruno Bryan Byron
 			Camilo Carlos Caupolicán Cedomil César Christian Christopher Claudio Clemente Cristián Cristóbal Cristofer Cristopher
 			Damián Daniel Danilo Dante Darío David Davor Demian Diego Dilan Domingo Dylan
 			Edgar Eduardo Eithan Elías Emanuel Emiliano Emilio Emmanuel Enrique Eric Erick Erik Ernesto Esteban
@@ -18,7 +18,7 @@ chileno = {
 			Gabriel Gael Galvarino Gaspar Gastón Gerald Gerardo Germán Gonzalo Guillermo Gustavo
 			Héctor Hernán Hugo Humberto
 			Ian Ignacio Iker Iñaki Isaac Isaías Ismael Iván
-			Jacobo Jaime Javier Jean Jeremías Jeremy Jesús Joaquín Joel Johan Jonathan Jordan Jorge "Jorge Alberto" "Jorge Alejandro" "Jorge Antonio" "Jorge Arturo" "Jorge Carlos" "Jorge Francisco" "Jorge Javier" "Jorge Joaquín" "Jorge José" "Jorge Juan" "Jorge Luis" "Jorge Manuel" "Jorge Miguel" "Jorge Pablo" "Jorge Pedro" José "José Alberto" "José Alejandro" "José Antonio" "José Arturo" "José Carlos" "José Francisco" "José Javier" "José Joaquín" "José Juan" "José Luis" "José Manuel" "José Miguel" "José Pablo" "José Pedro" Josué Juan "Juan Alberto" "Juan Alejandro" "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Francisco" "Juan Gabriel" "Juan Javier" "Juan Joaquín" "Juan José" "Juan Luis" "Juan Manuel" "Juan Martín" "Juan Pablo" "Juan Pedro" Julián Julio
+			Jacobo Jaime Jairo Javier Jean Jeremías Jeremy Jesús Joaquín Joel Johan Jonathan Jordan Jorge "Jorge Alberto" "Jorge Alejandro" "Jorge Antonio" "Jorge Arturo" "Jorge Carlos" "Jorge Francisco" "Jorge Javier" "Jorge Joaquín" "Jorge José" "Jorge Juan" "Jorge Luis" "Jorge Manuel" "Jorge Miguel" "Jorge Pablo" "Jorge Pedro" José "José Alberto" "José Alejandro" "José Antonio" "José Arturo" "José Carlos" "José Francisco" "José Javier" "José Joaquín" "José Juan" "José Luis" "José Manuel" "José Miguel" "José Pablo" "José Pedro" Josué Juan "Juan Alberto" "Juan Alejandro" "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Francisco" "Juan Gabriel" "Juan Javier" "Juan Joaquín" "Juan José" "Juan Luis" "Juan Manuel" "Juan Martín" "Juan Pablo" "Juan Pedro" Julián Julio
 			Kevin
 			Lautaro Leandro León Leonardo Leonel Liam Lionel Lorenzo Lucas Luciano Luis Lukas
 			Manuel Marcelo Marco Marcos Mario Marko Martín Mateo Mathías Matías Matteo Mauricio Mauro Max Maximiliano Máximo Miguel "Miguel Ángel" Milovan Moisés
@@ -37,14 +37,14 @@ chileno = {
 			Abigail Adriana Ágata Agatha Agustina Alba Alejandra Álex Alexandra Alicia Allison Alma Almendra Alondra Amalia Amanda Amara Amaral Amaya Ámbar Amelia Amparo Amy Ana "Ana Carolina" "Ana Isabel" "Ana Lía" "Ana Lucía" "Ana María" "Ana Paula" "Ana Rosa" "Ana Sofía" "Ana Victoria" Anabel Anahís Anaís Anastasia Andrea Ángela Angélica Antonella Antonia Aracely Ariel Ashley Aurora Ayelén Aylin
 			Bárbara Beatriz Belén Bernarda Blanca
 			Camila Carla Carmela Carmen Carolina Catalina Cecilia Celeste Clara Claudia Clementina Colomba Constanza Consuelo Cristina
-			Dafne Dámaris Dánae Daniela Denise Denisse Diana Dominga Dominique
+			Dafne Dámaris Dánae Daniela Débora Deborah Denise Denisse Diana Dominga Dominique
 			Elena Elisa Elisabeth Elizabeth Eloísa Ema Emilia Emily Emma Erica Erika Esmeralda Esperanza Estefanía Eva Evelyn
 			Fabiana Fabiola Facunda Fernanda Fiorella Flor Florencia Francisca
 			Gabriela Gael Génesis Geraldine Gloria Gracia
 			Helena
 			Ignacia Inés Irene Iris Isabel Isabella Isidora
 			Jacinta Javiera Jazmín Jennifer Jessica Jimena Jocelyn Josefa Josefina Jovanka Juana Julia Juliana Julieta
-			Karen Karina Karla Karolina Katalina Kiara Krishna
+			Karen Karina Karla Karolina Katalina Kiara Kimberly Krishna
 			Laura Lenka Leonor Leticia Leyla Lía Lisa Lissette Lorena Loreto Lourdes Lucía Luciana Lucila Luisa Luna Luz
 			Mabel Macarena Madeleine Magdalena Maia Maida Maite Manuela Marcela Margarita María "María Alejandra" "María Ana" "María Antonia" "María Angélica" "María Belén" "María Carmen" "María Constanza" "María Elena" "María Fernanda" "María Francisca" "María Gracia" "María Inés" "María Isabel" "María Lucía" "María Luisa" "María Magdalena" "María Paula" "María Paz" "María Pía" "María Teresa" "María Victoria" Mariana Mariela Marisol Marlen Marta Martina Matilda Matilde Maura Mayra Mayte Melanie Melany Mía Michelle Millaray Mónica Monserrat Montserrat
 			Nadia Naomi Natalia Nevena Nicole Noelia Noemí
@@ -52,7 +52,7 @@ chileno = {
 			Paloma Pamela Paola Pascal Pascuala Patricia Paula Paulina Paz Penelope Pía Pilar Priscilla
 			Rafaela Ramona Raquel Rayén Rebeca Renata Rocío Romina Rosa Rosario
 			Samantha Sandra Sara Sayen Scarlett Selena Silvia Sofía Sol Solange Soledad Stephanie Susana
-			Tamara Tatiana Teodora Teresa Thiare Tonka Trinidad
+			Tamara Tania Tatiana Teodora Teresa Thiare Tonka Trinidad
 			Valentina Valeria Vanessa Verónica Vesna Victoria Violeta Viviana
 			Xaviera Ximena
 			Yasna
@@ -79,7 +79,7 @@ chileno = {
 
 		male_names = {
 			Aarón Abraham Adrián Agustín Alan Alberto Alejandro Álex Alexander Alexis Alfonso Alfredo Alonso Álvaro Amaro Andrés Ángel Angelo Aníbal Antonio Ariel Armando Arturo Augusto Axel
-			Bairon Baltasar Baltazar Bastián Bayron Benjamín Bernardo Borja Brayan Brian Bruno Bryan Byron
+			Bairon Baltasar Baltazar Bastián Bayron Benjamín Bernardo Borja Brandon Brayan Brian Bruno Bryan Byron
 			Camilo Carlos Caupolicán César Christian Christopher Claudio Clemente Cristián Cristóbal Cristofer Cristopher
 			Damián Daniel Danilo Dante Darío David Demian Diego Dilan Domingo Dylan
 			Edgar Eduardo Eithan Elías Emanuel Emiliano Emilio Emmanuel Enrique Eric Erick Erik Ernesto Esteban
@@ -87,7 +87,7 @@ chileno = {
 			Gabriel Gael Galvarino Gaspar Gastón Gerald Gerardo Germán Gonzalo Guillermo Gustavo
 			Héctor Hernán Hugo Humberto
 			Ian Ignacio Iker Iñaki Íñigo Isaac Isaías Ismael Iván
-			Jacobo Jaime Javier Jean Jeremías Jeremy Jesús Joaquín Joel Johan Jonathan Jordan Jorge "Jorge Alberto" "Jorge Alejandro" "Jorge Antonio" "Jorge Arturo" "Jorge Carlos" "Jorge Francisco" "Jorge Javier" "Jorge Joaquín" "Jorge José" "Jorge Juan" "Jorge Luis" "Jorge Manuel" "Jorge Miguel" "Jorge Pablo" "Jorge Pedro" José "José Alberto" "José Alejandro" "José Antonio" "José Arturo" "José Carlos" "José Francisco" "José Javier" "José Joaquín" "José Juan" "José Luis" "José Manuel" "José Miguel" "José Pablo" "José Pedro" Josué Juan "Juan Alberto" "Juan Alejandro" "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Francisco" "Juan Gabriel" "Juan Javier" "Juan Joaquín" "Juan José" "Juan Luis" "Juan Manuel" "Juan Martín" "Juan Pablo" "Juan Pedro" Julián Julio
+			Jacobo Jaime Jairo Javier Jean Jeremías Jeremy Jesús Joaquín Joel Johan Jonathan Jordan Jorge "Jorge Alberto" "Jorge Alejandro" "Jorge Antonio" "Jorge Arturo" "Jorge Carlos" "Jorge Francisco" "Jorge Javier" "Jorge Joaquín" "Jorge José" "Jorge Juan" "Jorge Luis" "Jorge Manuel" "Jorge Miguel" "Jorge Pablo" "Jorge Pedro" José "José Alberto" "José Alejandro" "José Antonio" "José Arturo" "José Carlos" "José Francisco" "José Javier" "José Joaquín" "José Juan" "José Luis" "José Manuel" "José Miguel" "José Pablo" "José Pedro" Josué Juan "Juan Alberto" "Juan Alejandro" "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Francisco" "Juan Gabriel" "Juan Javier" "Juan Joaquín" "Juan José" "Juan Luis" "Juan Manuel" "Juan Martín" "Juan Pablo" "Juan Pedro" Julián Julio
 			Kevin
 			Lautaro Leandro León Leonardo Leonel Liam Lionel Lorenzo Lucas Luciano Luis Lukas
 			Manuel Marcelo Marco Marcos Mariano Mario Marko Martín Mateo Mathías Matías Matteo Mauricio Mauro Max Maximiliano Máximo Miguel "Miguel Ángel" Moisés
@@ -105,14 +105,14 @@ chileno = {
 			Abigail Adriana Ágata Agatha Agustina Alba Alejandra Álex Alexandra Alicia Allison Alma Almendra Alondra Amalia Amanda Amara Amaral Ámbar Amelia Amparo Amy Ana "Ana Carolina" "Ana Isabel" "Ana Lía" "Ana Lucía" "Ana María" "Ana Paula" "Ana Rosa" "Ana Sofía" "Ana Victoria" Anabel Anahís Anaís Anastasia Andrea Ángela Angélica Antonella Antonia Aracely Ariel Ashley Aurora Ayelén Aylin
 			Bárbara Beatriz Belén Bernarda Blanca
 			Camila Carla Carmela Carmen Carolina Catalina Cecilia Celeste Clara Claudia Clementina Colomba Constanza Consuelo Cristina
-			Dafne Dámaris Dánae Daniela Denise Denisse Diana Dominga Dominique
+			Bairon Baltasar Baltazar Bastián Bayron Benjamín Bernardo Borja Brandon Brayan Brian Bruno Bryan Byron
 			Elena Elisa Elisabeth Elizabeth Eloísa Ema Emilia Emily Emma Erica Erika Esmeralda Esperanza Estefanía Eva Evelyn
 			Fabiana Fabiola Facunda Fernanda Fiorella Flor Florencia Francisca
 			Gabriela Gael Génesis Geraldine Gloria Gracia
 			Helena
 			Ignacia Inés Irene Isabel Isabella Isidora
 			Jacinta Javiera Jazmín Jennifer Jessica Jimena Jocelyn Josefa Josefina Juana Julia Juliana Julieta
-			Karen Karina Karla Karolina Katalina Kiara Krishna
+			Karen Karina Karla Karolina Katalina Kiara Kimberly Krishna
 			Laura Leonor Leticia Leyla Lía Lisa Lissette Lorena Loreto Lourdes Lucía Luciana Lucila Luisa Luna Luz
 			Mabel Macarena Madeleine Magdalena Maia Maida Maite Manuela Marcela Margarita María "María Alejandra" "María Ana" "María Antonia" "María Angélica" "María Belén" "María Carmen" "María Constanza" "María Elena" "María Fernanda" "María Francisca" "María Gracia" "María Inés" "María Isabel" "María Lucía" "María Luisa" "María Magdalena" "María Paula" "María Paz" "María Pía" "María Teresa" "María Victoria" Mariana Mariela Marisol Marlen Marta Martina Matilda Matilde Maura Mayra Mayte Melanie Melany Mía Michelle Millaray Mónica Monserrat Montserrat
 			Nadia Naomi Natalia Nicole Noelia Noemí
@@ -120,7 +120,7 @@ chileno = {
 			Paloma Pamela Paola Pascal Pascuala Patricia Paula Paulina Paz Penelope Pía Pilar Priscilla
 			Rafaela Ramona Raquel Rayén Rebeca Renata Rocío Romina Rosa Rosario
 			Samantha Sandra Sara Sayen Scarlett Selena Silvia Sofía Sol Solange Soledad Stephanie Susana
-			Tamara Tatiana Teodora Teresa Thiare Trinidad
+			Tamara Tania Tatiana Teodora Teresa Thiare Trinidad
 			Valentina Valeria Vanessa Verónica Victoria Violeta Viviana
 			Xaviera Ximena
 			Yasna
@@ -155,7 +155,7 @@ chileno = {
 			Gabino Gabriel Gael Galvarino García Gaspar Gastón Gavino Gelasio Genaro Genesio Gerardo Germán Gerónimo Gerson Gervasio Gil Gilberto Ginés Glorialdo Glorio Godofredo Gonzalo Gregorio Guillermo Gumersindo Gustavo
 			Haroldo Héctor Heladio Heliodoro Heráclito Hércules Heriberto Hermenegildo Hermes Hernán Higinio Hilario Hipólito Homero Honorio Horacio Hormisdas Huberto Hugo Humberto
 			Ignacio Ildefonso Inocencio Íñigo Ireneo Isaac Isaías Isidro Ismael Israel Iván Ivo
-			Jacinto Jacobo Jaime Januario Javier Jean Jenaro Jeremías Jerónimo Jesús Joaquín Job Joel Jonathan Jorge José "José Antonio" "José Francisco" "José Joaquín" "José Luis" "José Manuel" "José María" "José Miguel" "José Plácido" "José Toribio" "José Victorino" Josué Juan "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Felipe" "Juan José" "Juan Pablo" Jovino Jovito Julián Julio "Julio César" Justiniano Junípero
+			Jacinto Jacobo Jaime Jairo Januario Javier Jean Jenaro Jeremías Jerónimo Jesús Joaquín Job Joel Jonathan Jorge Jorgelino José "José Antonio" "José Francisco" "José Joaquín" "José Luis" "José Manuel" "José María" "José Miguel" "José Plácido" "José Toribio" "José Victorino" Josué Juan "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Felipe" "Juan José" "Juan Pablo" Jovino Jovito Julián Julio "Julio César" Justiniano Junípero
 			Ladislao Laurentino Lautaro Lázaro Leandro León Leonardo Leoncio Leonel Leónidas Leopoldo Leovigildo Lidio Lindor Lionel Lisandro Lisardo Lorenzo Lotario Lucas Luciano Lucio Luis Lupercio
 			Macario Malaquías Mamerto Manuel Marcelo Marcial Marciano Marco "Marco Antonio" Marcos Margarito Mariano Mario Martín Mateo Matías Matteo Mauricio Mauro Max Maximiliano Máximo Mayolo Medardo Melchor Melitón Melquíades Metodio Miguel "Miguel Ángel" Misael Modesto Moisés
 			Nahuel Napoleón Narciso Nazareno Nazario Neftalí Nehemías Nelson Nemesio Nepomuceno Néstor Nicanor Nicasio Nicodemo Nicolás Nicomedes Noé Norberto
@@ -175,14 +175,14 @@ chileno = {
 			Abelina Abigail Abril Adela Adelia Adolfina Adoración Adriana Ágata Agatha Agripina Águeda Agustina Ailén Alba Alejandra Álex Alexandra Alicia Alma Almendra Alondra Amalia Amanda Amapola Amara Ámbar Amelia Amparo Ana Anabel Anacleta Anaís Anastasia Andrea Ángela Angélica Angelina Angustia Antonia Anunciación Anunciata Apolonia Aracely Ariel Armanda Astolfa Asunción Áurea Aurora Avelina Ayelén
 			Bárbara Basilia Beatriz Begoña Belén Bendición Berna Bernarda Bernardita Berta Bertina Bianca Bienvenida Blanca Bonifacia Brígida
 			Camelia Camila Candela Candelaria Cándida Canuta Carla Carlota Carmela Carmen Carminda Carola Carolina Casilda Catalina Cecilia Celadiana Celedonia Celeste Celia Celsa Cesárea Cindy Cintia Ciriaca Clara Clarisa Claudia Clementina Clodomira Clorinda Clotilde Concepción Constanza Consuelo Crescencia Cristina Cruz Cynthia
-			Dafne Dámaris Dánae Daniela Débora Deidamía Delfina Delia Delicia Denise Denisse Diana Digna Dionisia Dominga Domitila Dora Dorila Doris Dorotea Dulce
+			Dafne Dámaris Dánae Daniela Débora Deborah Deidamía Delfina Delia Delicia Denise Denisse Diana Digna Dionisia Dominga Domitila Dora Dorila Doris Dorotea Dulce
 			Edelmira Edith Eduviges Eladia Elcira Elda Elena Eliana Elisa Elisabeth Elizabeth Eloísa Elsa Elvira Ema Emilia Emiliana Emma Encarnación Enedina Engracia Enriqueta Epifanía Erica Erilda Ernestina Escolástica Esmeralda Esmérita Esmirna Esperanza Estefanía Estela Esther Estrella Estudemia Eudocia Eudomira Eudosia Eufemia Eufrasia Eugenia Eulalia Eulogia Eutolia Eva Evangelina Evelina Evelyn
 			Fabiana Fabiola Facunda Fátima Felicia Felicidad Felicinda Fernanda Filomena Flor Florencia Florentina Francisca Fresia Frida Fridolina Fulgencia
 			Gabriela Gael Gema Génesis Genoveva Gertrudis Gervasia Gladys Gloria Gracia Graciela Gregoria Griselda Guacolda Guadalupe Gúdula Guillermina Gumersinda
 			Helena Helga Heliodora Herlinda Hermelinda Hermenegilda Herminia Hipólita Honoria Honorina Hortensia Huenchula Huenchur
 			Ignacia Inés Íngrid Irene Irina Iris Irma Isabel Isaura Isidora Isolina Ivette Ivonne
-			Jacinta Jacqueline Javiera Jazmín Jennifer Jessica Jocelyn Josefa Josefina Jovina Jovita Juana Judith Julia Juliana Julieta Justina
-			Karen Karina Karla Karolina Katalina
+			Jacinta Jacqueline Javiera Jazmín Jennifer Jessica Jocelyn Jorgelina Josefa Josefina Jovina Jovita Juana Judith Julia Juliana Julieta Justina
+			Karen Karina Karla Karolina Katalina Kimberly
 			Laura Leonarda Leonila Leonor Leticia Leyla Lía Licarayén Lidia Liliana Linda Lisa Lissette Livia Llacolén Lorena Loreto Lourdes Lucía Luciana Lucila Lucrecia Ludivina Luisa Luna Luz
 			Mabel Macarena Magali Magaly Magdalena Maia Maida Maite Mandina Manuela Marcela Marcelina Marciana Márgara Margarita María "María Ana" "María Belén" "María Constanza" "María Eugenia" "María Inés" "María Elena" "María José" "María Luisa" "María Magdalena" "María Paz" "María Salomé" "María Teresa" Mariana Marianela Maribel Marina Marisela Marisol Marlen Marta Martina Martirio Matilda Matilde Maura Mauricia Mayola Mayra Mayte Melania Melanie Melany Mercedes Mía Milagros Millaray Minerva Mirabel Miranda Míriam Mirna Modesta Mónica Monserrat Montserrat Morticia Muriel Myriam
 			Nadia Nancy Naomi Narcisa Natalia Natividad Nelly Nicanora Nicasia Nicolasa Nieves Noelia Noemí Nora Norma
@@ -218,7 +218,7 @@ chileno = {
 
 		male_names = {
 			Aarón Abraham Achim Adalbert Adam Adel Adelbert Adolf Adolfo Adrián Agustín Alan Alaric Alberich Albert Alberto Albin Albrecht Aldebrand Aldred Alejandro Álex Alexander Alexis Alfons Alfonso Alfred Alfredo Alois Alonso Álvaro Alvin Alwin Amalric Amaro Amon André Andreas Andrés Ángel Aníbal Anselm Ansgar Anton Antonio Aribert Ariel Armando Armin Arnd Arndt Arno Arnold Arnulf Arnvid Arthur Artur Arturo Arved Arvid August Augusto Aurick Aurik Axel
-			Baldur Baltasar Baltazar Balthasar Balthazar Bastián Benedict Benedikt Benjamín Benno Bernardo Bernd Bernhard Bertram Bertrand Björn Bodo Boris Borja Bruno Burkhard
+			Baldur Baltasar Baltazar Balthasar Balthazar Bastián Benedict Benedikt Benjamín Benno Bernardo Bernd Bernhard Bertram Bertrand Björn Bodo Boris Borja Brandon Bruno Burkhard
 			Camilo Carlos Carsten Caspar Casper Caupolicán César Christian Christof Christoph Christopher Claudio Claus Clemens Clemente Conrad Cristián Cristóbal Cristofer Cristopher
 			Dagmar Dagobert Damián Daniel Danilo Dante Darío David Demian Detlef Detlev Diederich Diedrich Diego Dieter Diethelm Dietmar Dietrich Dilan Dirk Domingo Dominic Dominik Dylan
 			Eberhard Eckard Eckbert Eckhard Edgar Edmund Eduard Eduardo Egbert Egon Ehren Einar Eitel Ekbert Ekkehard Ekkehart Elhard Elías Emanuel Emil Emiliano Emilio Emmanuel Enrique Erhard Eric Erich Erick Erik Ernesto Ernst Erwin Esteban Eugen Ewald
@@ -226,7 +226,7 @@ chileno = {
 			Gabriel Gael Galvarino Gaspar Gastón Gebhard Georg Gerald Gerard Gerardo Gerd Gerhard Germán Gerret Gonzalo Gottfried Gottlieb Götz Gregor Gunnar Günther Gustav Gustavo
 			Hans Hansel Harald Hartwig Hasso Héctor Heiko Heinrich Heinz Héktor Hellmut Hellmuth Helmut Helmuth Henrik Herbert Hermann Hernán Hilmar Hjalmar Holger Horst Hubert Hugo Humbert
 			Ian Ignacio Iker Immanuel Ingo Iñaki Isaac Isaak Isaías
-			Jacob Jaime Jakob Jan Javier Jean Jens Jeremy Jesús Joachim Joaquín Jochen Joel Johan Johann Johannes Jonathan Jörg Jorge José Josef Joseph Juan Julián Julius Jürgen
+			Jacob Jacobo Jaime Jairo Jakob Jakobo Jan Javier Jean Jens Jeremy Jesús Joachim Joaquín Jochen Joel Johan Johann Johannes Jonathan Jörg Jorge José Josef Joseph Juan Julián Julius Jürgen
 			Kai Karl Karlheinz Karlos Karsten Kaspar Kasper Kevin Klaus Klemens Knut Konrad Konstantin Kristián Kristóbal Kristof Kuno Kurt
 			Lars Lautaro Leandro Leo León Leonard Leonardo Leonel Leonhard Leonhardt Leonhart Leopold Leopoldo Liam Lionel Lorenz Lorenzo Lothar Lucas Luciano Lucius Ludvig Ludwig Luis Luitpold Lukas Luther Luthor Lutz
 			Magnus Manfred Manuel Marc Marcel Marcelo Marco Marcos Marcus Mariano Mario Marius Mark Marko Markos Markus Martín Mateo Mathías Matías Matteo Matthias Mauricio Mauro Max Maximilian Maximiliano Máximo Michael Miguel "Miguel Ángel" Moisés Moritz
@@ -245,14 +245,14 @@ chileno = {
 			Abigail Adriana Ágata Agatha Agustina Alba Alejandra Álex Alexandra Alice Alicia Allison Alma Almendra Alondra Amalia Amalie Amanda Amara Amaral Ámbar Amelia Amparo Amy Ana Anabel Anahís Anaís Anastasia Andrea Ángela Angélica Anja Anna Annegret Annette Antje Antonella Antonia Aracely Ariel Ashley Astrid Ayelén Aylin
 			Bárbara Beatriz Belén Bernarda Bertha Bettina Bianka Birgit Blanca Brigitte Britta
 			Camila Carla Carmela Carmen Carolina Catalina Cecilia Celeste Christina Christine Clara Claudia Colomba Constanza Constanze Consuelo Cristina
-			Dánae Daniela Denise Dominique Dafne Dominga Diana Denisse Dámaris
+			Dafne Dámaris Dánae Daniela Débora Deborah Denise Denisse Diana Dominga Dominique
 			Edith Elda Elena Eliana Elisa Elisabeth Elizabeth Eloísa Elsa Ema Emilia Emily Emma Ena Erica Erika Esmeralda Esperanza Estefanía Esther Eva Evelyn
 			Fabiana Fabiola Facunda Fernanda Fiorella Flor Florencia Francisca Frida Fridolina
 			Gabriela Gabriele Gael Génesis Gisela Gloria Gracia Greta Gretchen Gretel
 			Heidi Heike Helen Helena Helene Helga Henrietta Henrike Hildegard
 			Ignacia Inés Íngrid Irene Irma Isabel Isabella Isidora
 			Jacinta Jacqueline Javiera Jazmín Jennifer Jessica Jimena Jocelyn Johanna Josefa Josefina Juana Judith Julia Juliana Justine
-			Kamila Karen Karina Karla Karlota Karmela Karmen Karola Karolina Katalina Katerina Katja Katrin Kerstin Kiara Kirsten Klara Klaudia Konstanza Konstanze Kristina
+			Kamila Karen Karina Karla Karlota Karmela Karmen Karola Karolina Katalina Katerina Katja Katrin Kerstin Kiara Kimberly Kirsten Klara Klaudia Konstanza Konstanze Krishna Kristina
 			Laura Leonor Leyla Lía Lisa Lorena Loreto Lourdes Lucía Luciana Lucila Luisa Luise Luna Luz
 			Mabel Macarena Madeleine Magdalena Maia Maida Maike Maite Manuela Marcela Margarita María "María Anna" "María Ana" "María Belén" "María Constanze" "María Inés" "María Elena" "María Luisa" "María Paz" "María Teresa" Mariana Mariela Marisol Marlen Marlene Marta Martina Matilda Matilde Maura Mayra Mayte Melanie Melany Mía Michaela Michelle Millaray Mónica Mónika Monserrat Montserrat
 			Nadia Naomi Natalia Nicole Nina Noelia Noemí
@@ -260,7 +260,7 @@ chileno = {
 			Paloma Pamela Paola Pascal Pascuala Patricia Paula Paulina Paz Penelope Pía Pilar Priscilla
 			Rafaela Ramona Raquel Rayén Rebeca Rebecca Renata Rocío Rosa Rosario Ruth
 			Samantha Sandra Sara Scarlett Selena Sigrid Silvia Sofía Soledad Sonia Stephanie Susan Solange Sol Sayen Stefanie Sabine Silke Simone Sonja Silvia
-			Tamara Tanja Tatiana Teodora Teresa Thea Theodora Therese Thiare Trinidad
+			Tamara Tania Tanja Tatiana Teodora Teresa Thea Theodora Therese Thiare Trinidad
 			Ulrike Úrsula
 			Valentina Valeria Valerie Vanessa Verónica Verónika Victoria Viktoria Violeta Viviana Vivianne
 			Waltraud Wilhelmina
@@ -293,7 +293,7 @@ chileno = {
 			Gabino Gabriel Gael Galvarino García Gaspar Gastón Gavino Gelasio Genaro Genesio Gerardo Germán Gerónimo Gerson Gervasio Gil Gilberto Ginés Glorialdo Glorio Godofredo Gonzalo Gregorio Guillermo Gumersindo Gustavo
 			Haroldo Héctor Heladio Heliodoro Heráclito Hércules Heriberto Hermenegildo Hermes Hernán Higinio Hilario Hipólito Homero Honorio Horacio Hormisdas Huberto Hugo Humberto
 			Ignacio Ildefonso Inocencio Íñigo Ireneo Isaac Isaías Isidro Ismael Israel Iván Ivo
-			Jacinto Jacobo Jaime Januario Javier Jean Jenaro Jeremías Jerónimo Jesús Joaquín Job Joel Jonathan Jorge José "José Antonio" "José Francisco" "José Joaquín" "José Luis" "José Manuel" "José María" "José Miguel" "José Plácido" "José Toribio" "José Victorino" Josué Juan "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Felipe" "Juan José" "Juan Pablo" Jovino Jovito Julián Julio "Julio César" Justiniano Junípero
+			Jacinto Jacobo Jaime Jairo Januario Javier Jean Jenaro Jeremías Jerónimo Jesús Joaquín Job Joel Jonathan Jorge Jorgelino José "José Antonio" "José Francisco" "José Joaquín" "José Luis" "José Manuel" "José María" "José Miguel" "José Plácido" "José Toribio" "José Victorino" Josué Juan "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Felipe" "Juan José" "Juan Pablo" Jovino Jovito Julián Julio "Julio César" Justiniano Junípero
 			Ladislao Laurentino Lautaro Lázaro Leandro León Leonardo Leoncio Leonel Leónidas Leopoldo Leovigildo Lidio Lindor Lionel Lisandro Lisardo Lorenzo Lotario Lucas Luciano Lucio Luis Lupercio
 			Macario Malaquías Mamerto Manuel Marcelo Marcial Marciano Marco "Marco Antonio" Marcos Margarito Mariano Mario Martín Mateo Matías Matteo Mauricio Mauro Max Maximiliano Máximo Mayolo Medardo Melchor Melitón Melquíades Metodio Miguel "Miguel Ángel" Misael Modesto Moisés
 			Nahuel Napoleón Narciso Nazareno Nazario Neftalí Nehemías Nelson Nemesio Nepomuceno Néstor Nicanor Nicasio Nicodemo Nicolás Nicomedes Noé Norberto
@@ -313,14 +313,14 @@ chileno = {
 			Abelina Abigail Abril Adela Adelia Adolfina Adoración Adriana Ágata Agatha Agripina Águeda Agustina Ailén Alba Alejandra Álex Alexandra Alicia Alma Almendra Alondra Amalia Amanda Amapola Amara Ámbar Amelia Amparo Ana Anabel Anacleta Anaís Anastasia Andrea Ángela Angélica Angelina Angustia Antonia Anunciación Anunciata Apolonia Aracely Ariel Armanda Astolfa Asunción Áurea Aurora Avelina Ayelén
 			Bárbara Basilia Beatriz Begoña Belén Bendición Berna Bernarda Bernardita Berta Bertina Bianca Bienvenida Blanca Bonifacia Brígida
 			Camelia Camila Candela Candelaria Cándida Canuta Carla Carlota Carmela Carmen Carminda Carola Carolina Casilda Catalina Cecilia Celadiana Celedonia Celeste Celia Celsa Cesárea Cindy Cintia Ciriaca Clara Clarisa Claudia Clementina Clodomira Clorinda Clotilde Concepción Constanza Consuelo Crescencia Cristina Cruz Cynthia
-			Dafne Dámaris Dánae Daniela Débora Deidamía Delfina Delia Delicia Denise Denisse Diana Digna Dionisia Dominga Domitila Dora Dorila Doris Dorotea Dulce
+			Dafne Dámaris Dánae Daniela Débora Deborah Deidamía Delfina Delia Delicia Denise Denisse Diana Digna Dionisia Dominga Domitila Dora Dorila Doris Dorotea Dulce
 			Edelmira Edith Eduviges Eladia Elcira Elda Elena Eliana Elisa Elisabeth Elizabeth Eloísa Elsa Elvira Ema Emilia Emiliana Emma Encarnación Enedina Engracia Enriqueta Epifanía Erica Erilda Ernestina Escolástica Esmeralda Esmérita Esmirna Esperanza Estefanía Estela Esther Estrella Estudemia Eudocia Eudomira Eudosia Eufemia Eufrasia Eugenia Eulalia Eulogia Eutolia Eva Evangelina Evelina Evelyn
 			Fabiana Fabiola Facunda Fátima Felicia Felicidad Felicinda Fernanda Filomena Flor Florencia Florentina Francisca Fresia Frida Fridolina Fulgencia
 			Gabriela Gael Gema Génesis Genoveva Gertrudis Gervasia Gladys Gloria Gracia Graciela Gregoria Griselda Guacolda Guadalupe Gúdula Guillermina Gumersinda
 			Helena Helga Heliodora Herlinda Hermelinda Hermenegilda Herminia Hipólita Honoria Honorina Hortensia Huenchula Huenchur
 			Ignacia Inés Íngrid Irene Irina Iris Irma Isabel Isaura Isidora Isolina Ivette Ivonne
-			Jacinta Jacqueline Javiera Jazmín Jennifer Jessica Jocelyn Josefa Josefina Jovina Jovita Juana Judith Julia Juliana Julieta Justina
-			Karen Karina Karla Karolina Katalina
+			Jacinta Jacqueline Javiera Jazmín Jennifer Jessica Jocelyn Jorgelina Josefa Josefina Jovina Jovita Juana Judith Julia Juliana Julieta Justina
+			Karen Karina Karla Karolina Katalina Kimberly
 			Laura Leonarda Leonila Leonor Leticia Leyla Lía Licarayén Lidia Liliana Linda Lisa Lissette Livia Llacolén Lorena Loreto Lourdes Lucía Luciana Lucila Lucrecia Ludivina Luisa Luna Luz
 			Mabel Macarena Magali Magaly Magdalena Maia Maida Maite Mandina Manuela Marcela Marcelina Marciana Márgara Margarita María "María Ana" "María Belén" "María Constanza" "María Eugenia" "María Inés" "María Elena" "María José" "María Luisa" "María Magdalena" "María Paz" "María Salomé" "María Teresa" Mariana Marianela Maribel Marina Marisela Marisol Marlen Marta Martina Martirio Matilda Matilde Maura Mauricia Mayola Mayra Mayte Melania Melanie Melany Mercedes Mía Milagros Millaray Minerva Mirabel Miranda Míriam Mirna Modesta Mónica Monserrat Montserrat Morticia Muriel Myriam
 			Nadia Nancy Naomi Narcisa Natalia Natividad Nelly Nicanora Nicasia Nicolasa Nieves Noelia Noemí Nora Norma

@@ -1,0 +1,190 @@
+########################################
+### A World Like Any Other Dynasties ###
+########################################
+### Chileno Dynasties ###
+1 = {
+	name="Balmaceda"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+2 = {
+	name="Vicuña"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+3 = {
+	name="Grove"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+4 = {
+	name="Carrera"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+5 = {
+	name="Baquedano"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+6 = {
+	name="Serrano"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+7 = {
+	name="Solnuevo"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+8 = {
+	name="Leigh"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+9 = {
+	name="Condell"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+10 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+11 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+12 = {
+	name="Prieto"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+13 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+14 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+15 = {
+	name="Camiroaga"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+16 = {
+	name="Zabaleta"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+17 = {
+	name="Portales"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+18 = {
+	name="Bulnes"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+19 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+20 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+21 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+22 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+23 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+24 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+25 = {
+	name="Prat"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+26 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+27 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+28 = {
+	name="Ibáñez"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+29 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+30 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}
+31 = {
+	name="placeholder"
+	culture="centralino"
+	religion="synodal"
+	used_for_random=no
+}

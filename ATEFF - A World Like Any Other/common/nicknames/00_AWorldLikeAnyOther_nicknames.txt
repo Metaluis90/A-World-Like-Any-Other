@@ -1,0 +1,19 @@
+########################################
+### A World Like Any Other Nicknames ###
+########################################
+### Chile Lore Nicknames ###
+nick_el_bacan = {}
+nick_la_colorina = {}
+nick_el_leon_de_santiago = {}
+nick_la_leona_de_santiago = {}
+nick_el_leon_de_la_muerte = {}
+nick_la_quintrala = {}
+nick_el_bravo = {}
+nick_la_espada_de_santiago = {}
+nick_corazon_de_dragon = {}
+nick_el_torturador = {}
+nick_el_as_de_espadas = {}
+nick_el_halcon = {}
+nick_la_reina_halcon = {}
+nick_el_brigido = {}
+nick_el_roto = {}

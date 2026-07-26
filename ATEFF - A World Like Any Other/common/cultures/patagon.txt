@@ -10,7 +10,7 @@ patagon = {
 
 		male_names = {
 			Aarón Abraham Adrián Agustín Alan Alberto Alejandro Álex Alexander Alexis Alfonso Alfredo Alonso Álvaro Amaro Américo Andrés Andrónico Ángel Angelo Aníbal Antonio Ariel Armando Arturo Augusto Axel
-			Bairon Baltasar Baltazar Bastián Bayron Benjamín Bernardo Boris Borja Branko Brayan Brian Bruno Bryan Byron
+			Bairon Baltasar Baltazar Bastián Bayron Benjamín Bernardo Boris Borja Brandon Branko Brayan Brian Bruno Bryan Byron
 			Camilo Carlos Caupolicán Cedomil César Christian Christopher Claudio Clemente Cristián Cristóbal Cristofer Cristopher
 			Damián Daniel Danilo Dante Darío David Davor Demian Diego Dilan Domingo Dylan
 			Edgar Eduardo Eithan Elías Emanuel Emiliano Emilio Emmanuel Enrique Eric Erick Erik Ernesto Esteban
@@ -18,7 +18,7 @@ patagon = {
 			Gabriel Gael Galvarino Gaspar Gastón Gerald Gerardo Germán Gonzalo Guillermo Gustavo
 			Héctor Hernán Hugo Humberto
 			Ian Ignacio Iker Iñaki Isaac Isaías Ismael Iván
-			Jacobo Jaime Javier Jean Jeremías Jeremy Jesús Joaquín Joel Johan Jonathan Jordan Jorge "Jorge Alberto" "Jorge Alejandro" "Jorge Antonio" "Jorge Arturo" "Jorge Carlos" "Jorge Francisco" "Jorge Javier" "Jorge Joaquín" "Jorge José" "Jorge Juan" "Jorge Luis" "Jorge Manuel" "Jorge Miguel" "Jorge Pablo" "Jorge Pedro" José "José Alberto" "José Alejandro" "José Antonio" "José Arturo" "José Carlos" "José Francisco" "José Javier" "José Joaquín" "José Juan" "José Luis" "José Manuel" "José Miguel" "José Pablo" "José Pedro" Josué Juan "Juan Alberto" "Juan Alejandro" "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Francisco" "Juan Gabriel" "Juan Javier" "Juan Joaquín" "Juan José" "Juan Luis" "Juan Manuel" "Juan Martín" "Juan Pablo" "Juan Pedro" Julián Julio
+			Jacobo Jaime Jairo Javier Jean Jeremías Jeremy Jesús Joaquín Joel Johan Jonathan Jordan Jorge "Jorge Alberto" "Jorge Alejandro" "Jorge Antonio" "Jorge Arturo" "Jorge Carlos" "Jorge Francisco" "Jorge Javier" "Jorge Joaquín" "Jorge José" "Jorge Juan" "Jorge Luis" "Jorge Manuel" "Jorge Miguel" "Jorge Pablo" "Jorge Pedro" José "José Alberto" "José Alejandro" "José Antonio" "José Arturo" "José Carlos" "José Francisco" "José Javier" "José Joaquín" "José Juan" "José Luis" "José Manuel" "José Miguel" "José Pablo" "José Pedro" Josué Juan "Juan Alberto" "Juan Alejandro" "Juan Antonio" "Juan Bautista" "Juan Carlos" "Juan Francisco" "Juan Gabriel" "Juan Javier" "Juan Joaquín" "Juan José" "Juan Luis" "Juan Manuel" "Juan Martín" "Juan Pablo" "Juan Pedro" Julián Julio
 			Kevin
 			Lautaro Leandro León Leonardo Leonel Liam Lionel Lorenzo Lucas Luciano Luis Lukas
 			Manuel Marcelo Marco Marcos Mario Marko Martín Mateo Mathías Matías Matteo Mauricio Mauro Max Maximiliano Máximo Miguel "Miguel Ángel" Milovan Moisés
@@ -37,14 +37,14 @@ patagon = {
 			Abigail Adriana Ágata Agatha Agustina Alba Alejandra Álex Alexandra Alicia Allison Alma Almendra Alondra Amalia Amanda Amara Amaral Amaya Ámbar Amelia Amparo Amy Ana "Ana Carolina" "Ana Isabel" "Ana Lía" "Ana Lucía" "Ana María" "Ana Paula" "Ana Rosa" "Ana Sofía" "Ana Victoria" Anabel Anahís Anaís Anastasia Andrea Ángela Angélica Antonella Antonia Aracely Ariel Ashley Aurora Ayelén Aylin
 			Bárbara Beatriz Belén Bernarda Blanca
 			Camila Carla Carmela Carmen Carolina Catalina Cecilia Celeste Clara Claudia Clementina Colomba Constanza Consuelo Cristina
-			Dafne Dámaris Dánae Daniela Denise Denisse Diana Dominga Dominique
+			Dafne Dámaris Dánae Daniela Débora Deborah Denise Denisse Diana Dominga Dominique
 			Elena Elisa Elisabeth Elizabeth Eloísa Ema Emilia Emily Emma Erica Erika Esmeralda Esperanza Estefanía Eva Evelyn
 			Fabiana Fabiola Facunda Fernanda Fiorella Flor Florencia Francisca
 			Gabriela Gael Génesis Geraldine Gloria Gracia
 			Helena
 			Ignacia Inés Irene Iris Isabel Isabella Isidora
 			Jacinta Javiera Jazmín Jennifer Jessica Jimena Jocelyn Josefa Josefina Jovanka Juana Julia Juliana Julieta
-			Karen Karina Karla Karolina Katalina Kiara Krishna
+			Karen Karina Karla Karolina Katalina Kiara Kimberly Krishna
 			Laura Lenka Leonor Leticia Leyla Lía Lisa Lissette Lorena Loreto Lourdes Lucía Luciana Lucila Luisa Luna Luz
 			Mabel Macarena Madeleine Magdalena Maia Maida Maite Manuela Marcela Margarita María "María Alejandra" "María Ana" "María Antonia" "María Angélica" "María Belén" "María Carmen" "María Constanza" "María Elena" "María Fernanda" "María Francisca" "María Gracia" "María Inés" "María Isabel" "María Lucía" "María Luisa" "María Magdalena" "María Paula" "María Paz" "María Pía" "María Teresa" "María Victoria" Mariana Mariela Marisol Marlen Marta Martina Matilda Matilde Maura Mayra Mayte Melanie Melany Mía Michelle Millaray Mónica Monserrat Montserrat
 			Nadia Naomi Natalia Nevena Nicole Noelia Noemí
@@ -52,7 +52,7 @@ patagon = {
 			Paloma Pamela Paola Pascal Pascuala Patricia Paula Paulina Paz Penelope Pía Pilar Priscilla
 			Rafaela Ramona Raquel Rayén Rebeca Renata Rocío Romina Rosa Rosario
 			Samantha Sandra Sara Sayen Scarlett Selena Silvia Sofía Sol Solange Soledad Stephanie Susana
-			Tamara Tatiana Teodora Teresa Thiare Tonka Trinidad
+			Tamara Tania Tatiana Teodora Teresa Thiare Tonka Trinidad
 			Valentina Valeria Vanessa Verónica Vesna Victoria Violeta Viviana
 			Xaviera Ximena
 			Yasna
