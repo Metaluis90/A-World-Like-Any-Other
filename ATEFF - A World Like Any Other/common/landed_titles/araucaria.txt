@@ -654,6 +654,8 @@ e_the_south = {
 				color={ 188 142 15 }
 				color2={ 255 255 255 }
 
+				holy_site = farrapo #Where the constitution was signed
+
 				b_alegrete = {}
 				b_cavera = {}
 				b_ibirapuita = {}

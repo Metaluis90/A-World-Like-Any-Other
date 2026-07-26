@@ -116,3 +116,9 @@ synodal_synod_eligible_bishop_trigger = {
 	prisoner = no
 	is_incapable = no
 }
+
+religion_gain_piety_from_feasting = {
+	OR = {
+		religion = farrapo
+	}
+}

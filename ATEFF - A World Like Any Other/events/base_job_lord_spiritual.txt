@@ -334,6 +334,12 @@ character_event = {
 				value = slower
 			}
 		}
+
+		mult_modifier = {
+			factor = 0.5
+			religion = farrapo
+			location = { culture = gaucho_rg } #Gauchos have an easier time converting their own culture to Farrapo
+		}
 	}
 
 	option = {

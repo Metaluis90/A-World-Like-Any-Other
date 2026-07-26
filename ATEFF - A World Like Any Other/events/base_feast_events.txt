@@ -5190,6 +5190,26 @@ character_event = {
 
 		prestige = 10
 
+		if = {
+			limit = { religion_gain_piety_from_feasting = yes }
+
+			if = {
+				limit = { has_character_flag = lavishly_food }
+
+				piety = 15
+			}
+			else_if = {
+				limit = { has_character_flag = medium_food }
+
+				piety = 10
+			}
+			else_if = {
+				limit = { has_character_flag = low_food }
+
+				piety = 5
+			}
+		}
+
 		custom_tooltip = {
 			text = EVTOPTA72110_TOOLTIP
 
