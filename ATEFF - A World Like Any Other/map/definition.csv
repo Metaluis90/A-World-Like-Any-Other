@@ -639,56 +639,56 @@ province;red;green;blue;x;x
 639;20;168;20;Mogi Mirim;x
 640;95;145;95;Sao Joao da Boa Vista;x
 641;83;204;83;Pirassununga;x
-642;107;234;107;Pirassununga;x
+642;107;234;107;Limeira;x
 643;127;186;102;Americana;x
 644;131;198;131;Piracicaba;x
-645;0;6;108;Dummy645;x
-646;0;6;109;Dummy646;x
-647;0;6;110;Dummy647;x
-648;0;6;111;Dummy648;x
-649;0;6;112;Dummy649;x
-650;0;6;113;Dummy650;x
-651;0;6;114;Dummy651;x
-652;0;6;115;Dummy652;x
-653;0;6;116;Dummy653;x
-654;0;6;117;Dummy654;x
-655;0;6;118;Dummy655;x
-656;0;6;119;Dummy656;x
-657;0;6;120;Dummy657;x
-658;0;6;121;Dummy658;x
-659;0;6;122;Dummy659;x
-660;0;6;123;Dummy660;x
-661;0;6;124;Dummy661;x
-662;0;6;125;Dummy662;x
-663;0;6;126;Dummy663;x
-664;0;6;127;Dummy664;x
-665;0;6;128;Dummy665;x
-666;0;6;129;Dummy666;x
-667;0;6;130;Dummy667;x
-668;0;6;131;Dummy668;x
-669;0;6;132;Dummy669;x
-670;0;6;133;Dummy670;x
-671;0;6;134;Dummy671;x
-672;0;6;135;Dummy672;x
-673;0;6;136;Dummy673;x
-674;0;6;137;Dummy674;x
-675;0;6;138;Dummy675;x
-676;0;6;139;Dummy676;x
-677;0;6;140;Dummy677;x
-678;0;6;141;Dummy678;x
-679;0;6;142;Dummy679;x
-680;0;6;143;Dummy680;x
-681;0;6;144;Dummy681;x
-682;0;6;145;Dummy682;x
-683;0;6;146;Dummy683;x
-684;0;6;147;Dummy684;x
-685;0;6;148;Dummy685;x
-686;0;6;149;Dummy686;x
-687;0;6;150;Dummy687;x
-688;0;6;151;Dummy688;x
-689;0;6;152;Dummy689;x
-690;0;6;153;Dummy690;x
-691;0;6;154;Dummy691;x
+645;178;234;178;Rio Claro;x
+646;38;175;57;Sao Carlos;x
+647;137;188;137;Ribeirao Preto;x
+648;55;158;55;Batatais;x
+649;35;211;35;Franco;x
+650;118;226;118;Ituverava;x
+651;69;158;69;Barretos;x
+652;62;216;95;Araraqua;x
+653;119;168;129;Ibitinga;x
+654;129;211;129;Jaboticabal;x
+655;47;242;29;Catanduva;x
+656;56;165;78;Novo Horizonte;x
+657;38;183;22;Rio Preto;x
+658;84;229;27;Olimpia;x
+659;145;232;113;Nova Granada;x
+660;78;234;93;Nhandeara;x
+661;66;183;25;Votuporanga;x
+662;115;209;83;Fernandopolis;x
+663;110;183;102;Auriflama;x
+664;129;234;93;Jales;x
+665;79;211;35;Solteira;x
+666;62;234;28;Aracanguá;x
+667;174;229;27;Andradina;x
+668;132;183;22;Aracatuba;x
+669;158;219;28;Birigui;x
+670;168;255;30;Lins;x
+671;143;204;12;Bauru;x
+672;155;232;74;Jau;x
+673;190;211;143;Botucatu;x
+674;175;209;102;Tauti;x
+675;108;145;27;Itapetininga;x
+676;93;119;62;Piedade;x
+677;145;226;13;Capao Bonito;x
+678;205;226;13;Itapeva;x
+679;170;211;10;Paranapanema;x
+680;147;211;10;Avare;x
+681;191;239;88;Lencois Paulista;x
+682;114;173;20;Marilia;x
+683;197;234;11;Ourinhos;x
+684;150;175;8;Assis;x
+685;170;211;25;Tupa;x
+686;160;247;19;Adamantina;x
+687;128;198;15;Dracena;x
+688;182;204;77;Peixe;x
+689;197;247;34;Rosana;x
+690;217;247;19;Prudente;x
+691;180;229;18;Rancharia;x
 692;0;6;155;Dummy692;x
 693;0;6;156;Dummy693;x
 694;0;6;157;Dummy694;x
