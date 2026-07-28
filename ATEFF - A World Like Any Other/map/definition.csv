@@ -847,7 +847,7 @@ province;red;green;blue;x;x
 847;0;7;54;Dummy847;x
 848;0;7;55;Dummy848;x
 849;0;7;56;Dummy849;x
-850;0;7;57;Dummy850;x
+850;255;0;82;Parana River 1;x
 851;0;7;58;Dummy851;x
 852;0;7;59;Dummy852;x
 853;0;7;60;Dummy853;x
@@ -857,7 +857,7 @@ province;red;green;blue;x;x
 857;0;7;64;Dummy857;x
 858;0;7;65;Dummy858;x
 859;0;7;66;Dummy859;x
-860;0;7;67;Dummy860;x
+860;135;0;45;Tiete River 1;x
 861;0;7;68;Dummy861;x
 862;0;7;69;Dummy862;x
 863;0;7;70;Dummy863;x
@@ -867,9 +867,9 @@ province;red;green;blue;x;x
 867;0;7;74;Dummy867;x
 868;0;7;75;Dummy868;x
 869;0;7;76;Dummy869;x
-870;0;7;77;Dummy870;x
-871;0;7;78;Dummy871;x
-872;0;7;79;Dummy872;x
+870;255;47;132;Rio Negro 1;x
+871;211;40;111;Rio Negro 2;x #Rincon del Bonete
+872;226;226;226;Uruguay River 1;x
 873;0;7;80;Dummy873;x
 874;0;7;81;Dummy874;x
 875;0;7;82;Dummy875;x
