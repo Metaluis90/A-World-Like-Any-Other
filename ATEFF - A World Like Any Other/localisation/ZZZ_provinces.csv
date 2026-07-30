@@ -748,6 +748,9 @@ PROV744;Vitória;Vitória;Vitória;Victoria;;;;;;;;;x
 PROV745;Viana;Viana;Viana;Viana;;;;;;;;;x
 PROV746;Vilavelha;Vila Velha;Vila Velha;Villavieja;;;;;;;;;x
 
+PROV797;Jurumirim Lake;Lac Jurumirim;Jurumirim-See;Lago Jurumirim;;;;;;;;;x
+PROV798;Xavantes Lake;Lac Xavantes;Xavantes-See;Lago Xavantes;;;;;;;;;x
+PROV799;Iguazú Falls;Chutes d’Iguazú;Iguazú-Wasserfälle;Cataratas del Iguazú;;;;;;;;;x
 PROV800;Fagnano Lake;Lac Fagnano;Fagnano-See;Lago Fagnano;;;;;;;;;x
 PROV801;Yehuin Lake;Lac Yehuin;Yehuin-See;Lago Yehuin;;;;;;;;;x
 PROV802;White Lake;Lac Blanc;Weißer See;Lago Blanco;;;;;;;;;x
@@ -775,7 +778,54 @@ PROV823;Puyehue Lake;Lac Puyehue;Puyehue-See;Lago Puyehue;;;;;;;;;x
 PROV824;Ranco Lake;Lac Ranco;Ranco-See;Lago Ranco;;;;;;;;;x
 PROV825;Palena Lake;Lac Palena;Palena-See;Lago Palena;;;;;;;;;x
 PROV826;Yulton Lake;Lac Yulton;Yulton-See;Lago Yulton;;;;;;;;;x
+PROV827;O'Higgins-San Martin Lake;Lac O'Higgins-San Martin;O'Higgins-San Martin-See;Lago O'Higgins-San Martin;;;;;;;;;x
+PROV828;Riñihue Lake;Lac Riñihue;Riñihue-See;Lago Riñihue;;;;;;;;;x
+PROV829;Panguipulli Lake;Lac Panguipulli;Panguipulli-See;Lago Panguipulli;;;;;;;;;x
+PROV830;Calafquén Lake;Lac Calafquén;Calafquén-See;Lago Calafquén;;;;;;;;;x
+PROV831;Villarrica Lake;Lac Villarrica;Villarrica-See;Lago Villarrica;;;;;;;;;x
+PROV832;Colico Lake;Lac Colico;Colico-See;Lago Colico;;;;;;;;;x
+PROV833;Caburgua Lake;Lac Caburgua;Caburgua-See;Lago Caburgua;;;;;;;;;x
+PROV834;Amarga Lake;Lac Amarga;Amarga-See;Lago Amarga;;;;;;;;;x
+PROV835;Casa de Piedra Lake;Lac Casa de Piedra;Casa-de-Piedra-See;Lago Casa de Piedra;;;;;;;;;x
+PROV836;Barreales Lake;Lac Barreales;Barreales-See;Lago Barreales;;;;;;;;;x
+PROV837;Pellegrini Lake;Lac Pellegrini;Pellegrini-See;Lago Pellegrini;;;;;;;;;x
 
+
+PROV848;Paraná Guazú River;Fleuve Paraná Guazú;Paraná-Guazú-Fluss;Río Paraná Guazú;;;;;;;;;x
+PROV849;Paraná River 0;Fleuve Paraná 0;Paraná-Fluss 0;Río Paraná 0;;;;;;;;;x
+PROV850;Paraná River 1;Fleuve Paraná 1;Paraná-Fluss 1;Río Paraná 1;;;;;;;;;x
+PROV851;Paraná River 2;Fleuve Paraná 2;Paraná-Fluss 2;Río Paraná 2;;;;;;;;;x
+PROV852;Paraná River 3;Fleuve Paraná 3;Paraná-Fluss 3;Río Paraná 3;;;;;;;;;x
+PROV853;Paraná River 4;Fleuve Paraná 4;Paraná-Fluss 4;Río Paraná 4;;;;;;;;;x
+PROV854;Paraná River 5;Fleuve Paraná 5;Paraná-Fluss 5;Río Paraná 5;;;;;;;;;x
+PROV855;Paraná River 6;Fleuve Paraná 6;Paraná-Fluss 6;Río Paraná 6;;;;;;;;;x
+PROV856;Paraná River 7;Fleuve Paraná 7;Paraná-Fluss 7;Río Paraná 7;;;;;;;;;x
+PROV857;Paraná River 8;Fleuve Paraná 8;Paraná-Fluss 8;Río Paraná 8;;;;;;;;;x
+PROV858;Paraná River 9;Fleuve Paraná 9;Paraná-Fluss 9;Río Paraná 9;;;;;;;;;x
+PROV859;Paraná River 10;Fleuve Paraná 10;Paraná-Fluss 10;Río Paraná 10;;;;;;;;;x
+PROV860;Tietê River 1;Rivière Tietê 1;Tietê-Fluss 1;Río Tietê 1;;;;;;;;;x
+PROV861;Tietê River 2;Rivière Tietê 2;Tietê-Fluss 2;Río Tietê 2;;;;;;;;;x
+PROV862;Tietê River 3;Rivière Tietê 3;Tietê-Fluss 3;Río Tietê 3;;;;;;;;;x
+PROV863;Tietê River 4;Rivière Tietê 4;Tietê-Fluss 4;Río Tietê 4;;;;;;;;;x
+PROV864;Paranapanema River 1;Rivière Paranapanema 1;Paranapanema-Fluss 1;Río Paranapanema 1;;;;;;;;;x
+PROV865;Paranapanema River 2;Rivière Paranapanema 2;Paranapanema-Fluss 2;Río Paranapanema 2;;;;;;;;;x
+PROV866;Uruguay River 1;Fleuve Uruguay 1;Uruguay-Fluss 1;Río Uruguay 1;;;;;;;;;x
+PROV867;Uruguay River 2;Fleuve Uruguay 2;Uruguay-Fluss 2;Río Uruguay 2;;;;;;;;;x
+PROV868;Uruguay River 3;Fleuve Uruguay 3;Uruguay-Fluss 3;Río Uruguay 3;;;;;;;;;x
+PROV869;Uruguay River 4;Fleuve Uruguay 4;Uruguay-Fluss 4;Río Uruguay 4;;;;;;;;;x
+PROV870;Negro River;Rivière Negro;Negro-Fluss;Río Negro;;;;;;;;;x
+PROV871;Rincon del Bonete;;;;;;;;;;;;x
+PROV872;Inner Río de la Plata;Río de la Plata intérieur;Innerer Río de la Plata;Río de la Plata Interior;;;;;;;;;x
+PROV873;White Bay;Baie Blanche;Weiße Bucht;Bahía Blanca;;;;;;;;;x
+PROV874;Northern Argentine Sea;Mer d'Argentine septentrionale;Nördliches Argentinisches Meer;Mar Argentino Septentrional;;;;;;;;;x
+PROV875;Coast of Mar del Plata;Côte de Mar del Plata;Küste von Mar del Plata;Costa de Mar del Plata;;;;;;;;;x
+PROV876;White Bay;Baie Blanche;Weiße Bucht;Bahía Blanca;;;;;;;;;x
+PROV878;Western Río de la Plata;Río de la Plata occidental;Westlicher Río de la Plata;Río de la Plata Occidental;;;;;;;;;x
+PROV879;Eastern Río de la Plata;Río de la Plata oriental;Östlicher Río de la Plata;Río de la Plata Oriental;;;;;;;;;x
+PROV880;Outer Río de la Plata;Río de la Plata extérieur;Äußerer Río de la Plata;Río de la Plata Exterior;;;;;;;;;x
+PROV881;Bay of Montevideo;Baie de Montevideo;Bucht von Montevideo;Bahía de Montevideo;;;;;;;;;x
+PROV882;Bay of Piriápolis;Baie de Piriápolis;Bucht von Piriápolis;Bahía de Piriápolis;;;;;;;;;x
+PROV883;Cisplatinean Sea;Mer cisplatine;Cisplatinisches Meer;Mar Cisplatino;;;;;;;;;x
 
 
 PROV900;Strait of Magellan;Détroit de Magellan;Magellanstraße;Estrecho de Magallanes;;;;;;;;;x
@@ -799,8 +849,28 @@ PROV917;Coast of the Malvinas;Côte des Malouines;Küste der Malwinen;Costa de las
 PROV918;Coast of the Malvinas;Côte des Malouines;Küste der Malwinen;Costa de las Malvinas;;;;;;;;;x
 PROV919;Coast of Patagonia;Côte de Patagonie;Küste Patagoniens;Costa de la Patagonia;;;;;;;;;x
 PROV920;Coast of Deseado;Côte de Deseado;Küste der Deseado;Costa de Deseado;;;;;;;;;x
-PROV921;Northern Argentine Sea;Mer d'Argentine septentrionale;Nördliches Argentinisches Meer;Mar Argentino Septentrional;;;;;;;;;x
+PROV921;Northern Malvinian Corridor;Corridor malouin septentrional;Nördlicher Malwinenkorridor;Corredor Malvinense Septentrional;;;;;;;;;x
 PROV922;Gulf of Saint George;Golfe Saint-Georges;Sankt-Georgs-Golf;Golfo de San Jorge;;;;;;;;;x
+PROV923;Concepción Channel;Canal de la Conception;Concepción-Kanal;Canal Concepción;;;;;;;;;x
+PROV924;Wide Channel;Canal Wide;Wide-Kanal;Canal Wide;;;;;;;;;x
+PROV925;Messier Channel;Canal Messier;Messier-Kanal;Canal Messier;;;;;;;;;x
+PROV926;Gulf of Penas;Golfe des Peines;Golf von Penas;Golfo de Penas;;;;;;;;;x
+PROV927;Southern Malvinian Corridor;Corridor malouin méridional;Südlicher Malwinenkorridor;Corredor Malvinense Meridional;;;;;;;;;x
+
+
+PROV933;Argentine Negro River 1;Fleuve Negro d'Argentine 1;Argentinischer Río Negro 1;Río Negro de Argentina 1;;;;;;;;;x
+PROV934;Argentine Negro River 2;Fleuve Negro d'Argentine 2;Argentinischer Río Negro 2;Río Negro de Argentina 2;;;;;;;;;x
+PROV935;Argentine Negro River 3;Fleuve Negro d'Argentine 3;Argentinischer Río Negro 3;Río Negro de Argentina 3;;;;;;;;;x
+PROV936;Argentine Negro River 4;Fleuve Negro d'Argentine 4;Argentinischer Río Negro 4;Río Negro de Argentina 4;;;;;;;;;x
+PROV937;Neuquén River;Rivière Neuquén;Neuquén-Fluss;Río Neuquén;;;;;;;;;x
+PROV938;Mexía Lake;Lac Mexía;Mexía-See;Lago Mexía;;;;;;;;;x
+PROV939;Mouth of the Argentine Negro River;Embouchure du Río Negro argentin;Mündung des argentinischen Río Negro;Desembocadura del Río Negro de Argentina;;;;;;;;;x
+PROV940;Unión Bay;Baie Unión;Unión-Bucht;Bahía Unión;;;;;;;;;x
+PROV941;Lagoonal Coast;Littoral lagunaire;Lagunen Küste;Litoral Lagunar;;;;;;;;;x
+PROV942;Southern Patos Lagoon;Lagune des Patos méridionale;Südliche Lagoa dos Patos;Laguna de los Patos Meridional;;;;;;;;;x
+PROV943;Northern Patos Lagoon;Lagune des Patos septentrionale;Nördliche Lagoa dos Patos;Laguna de los Patos Septentrional;;;;;;;;;x
+PROV944;São Gregório Channel;Canal São Gregório;São-Gregório-Kanal;Canal São Gregório;;;;;;;;;x
+
 
 PROV985;North Atlantic Ocean;Océan Atlantique Nord;Nordatlantik;Océano Atlántico Norte;;;;;;;;;x
 PROV986;Caribbean Sea;Mer des Caraïbes;Karibisches Meer;Mar Caribe;;;;;;;;;x

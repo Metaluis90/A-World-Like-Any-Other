@@ -25,18 +25,22 @@ seasons = "seasons.txt"
 	sea_zones = { 993 994 }
 	
 #Strait of Magallanes & Patagonian Seas #4
-	sea_zones = { 900 922 }
+	sea_zones = { 900 940 }
 	
 #South American Lakes #5	
-	sea_zones = { 800 827 }
+	sea_zones = { 797 827 }
 	
-#Parana River #6
-	sea_zones =  { 850 860 }
+#Parana and Tributaries #6
+	sea_zones =  { 849 865 }
 
-#Uruguay River #7
-	sea_zones = { 870 880 }
+#Rio de la Plata & Uruguay River #7
+	sea_zones = { 866 884 }
+	
+#Coast of Brazil #8
+	sea zones = { 941 960 }
+	
 ocean_region = {	
-	sea_zones = { 1 2 4 6 } # Atlantic -Pacific Ocean
+	sea_zones = { 1 2 4 6 7 8 } # Atlantic -Pacific Ocean
 }
 ocean_region = { 
 	sea_zones = { 3 } #Artic Ocean
