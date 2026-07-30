@@ -835,28 +835,28 @@ province;red;green;blue;x;x
 835;154;21;198;Casa de Piedra Lake;x
 836;155;18;165;Barreales Lake;x
 837;128;18;165;Pellegrini Lake;x
-838;0;7;45;Dummy838;x
-839;0;7;46;Dummy839;x
-840;0;7;47;Dummy840;x
-841;0;7;48;Dummy841;x
+838;178;17;17;Sao Simao Lake;x
+839;17;75;145;Mascarenahas do Moraes Lake;x
+840;30;131;255;Furnas Lake;x
+841;19;210;239;Camargos Lake;x
 842;0;7;49;Dummy842;x
 843;0;7;50;Dummy843;x
-844;0;7;51;Dummy844;x
-845;0;7;52;Dummy845;x
-846;0;7;53;Dummy846;x
-847;0;7;54;Dummy847;x
-848;255;20;79;Parana Guazu River;x
-849;255;216;229;Parana River 0;x #Union with Paranaiba and Rio Grande
-850;255;0;82;Parana River 1;x
-851;255;35;108;Parana River 2;x
-852;204;28;87;Parana River 3;x
-853;234;32;100;Parana River 4;x
-854;204;71;115;Parana River 5;x
-855;234;82;132;Parana River 6;x
-856;198;8;66;Parana River 7;x
-857;239;11;84;Parana River 8;x
-858;239;0;131;Parana River 9;x #Itapu Lake
-859;114;6;57;Parana River 10;x
+844;34;28;198;Rio Grande of Brazil 1;x
+845;34;28;194;Rio Grande of Brazil 2;x
+846;181;0;24;Paranaiba River;x
+847;255;20;79;Parana Guazu River;x
+848;255;216;229;Parana River 0;x #Union with Paranaiba and Rio Grande
+849;255;0;82;Parana River 1;x
+850;255;35;108;Parana River 2;x
+851;204;28;87;Parana River 3;x
+852;234;32;100;Parana River 4;x
+853;204;71;115;Parana River 5;x
+854;234;82;132;Parana River 6;x
+855;198;8;66;Parana River 7;x
+856;239;11;84;Parana River 8;x
+857;239;0;131;Parana River 9;x #Itapu Lake
+858;114;6;57;Parana River 10;x
+859;224;24;74;Tiete River 0;x
 860;135;0;45;Tiete River 1;x
 861;193;21;64;Tiete River 2;x
 862;206;10;59;Tiete River 3;x
@@ -869,17 +869,17 @@ province;red;green;blue;x;x
 869;239;0;131;Uruguay River 4;x
 870;255;47;132;Rio Negro 1;x
 871;211;40;111;Rio Negro 2;x #Rincon del Bonete
-872;0;7;56;Inner Rio de la Plata;x
+872;255;224;224;Inner Rio de la Plata;x
 873;247;192;232;Northern Argentine Sea;x
 874;244;156;221;Coast of Mar del Plata;x
 875;206;132;187;Coast of Tuyu;x
 876;249;182;226;Bahia Blanca;x
-877;205;201;209;Bahia de Samborombon;x
+877;255;201;209;Bahia de Samborombon;x
 878;255;178;178;Western Rio de la Plata;x
 879;255;205;163;Eastern Rio de la Plata;x
 880;255;194;165;Outer Rio de la Plata;x
 881;247;165;165;Bay of Montevideo;x
-882219;135;135;Bay of Piriapolis;x
+882;219;135;135;Bay of Piriapolis;x
 883;216;147;147;Cisplatinean Sea;x
 884;0;7;91;Dummy884;x
 885;0;7;92;Dummy885;x
@@ -942,7 +942,7 @@ province;red;green;blue;x;x
 942;239;117;186;Southern Laguna de los Patos;x
 943;237;158;240;Northern Laguna de los Patos;x
 944;237;166;206;Sao Gregorio Channel;x
-945;0;7;152;Dummy945;x
+945;237;109;181;Merin Lake;x
 946;0;7;153;Dummy946;x
 947;0;7;154;Dummy947;x
 948;0;7;155;Dummy948;x

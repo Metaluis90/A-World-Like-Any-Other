@@ -789,20 +789,27 @@ PROV834;Amarga Lake;Lac Amarga;Amarga-See;Lago Amarga;;;;;;;;;x
 PROV835;Casa de Piedra Lake;Lac Casa de Piedra;Casa-de-Piedra-See;Lago Casa de Piedra;;;;;;;;;x
 PROV836;Barreales Lake;Lac Barreales;Barreales-See;Lago Barreales;;;;;;;;;x
 PROV837;Pellegrini Lake;Lac Pellegrini;Pellegrini-See;Lago Pellegrini;;;;;;;;;x
+PROV838;São Simão Lake;Lac São Simão;São-Simão-See;Lago São Simão;;;;;;;;;x
+PROV839;Mascarenhas de Moraes Lake;Lac Mascarenhas de Moraes;Mascarenhas-de-Moraes-See;Lago Mascarenhas de Moraes;;;;;;;;;x
+PROV840;Furnas Lake;Lac Furnas;Furnas-See;Lago Furnas;;;;;;;;;x
 
 
-PROV848;Paraná Guazú River;Fleuve Paraná Guazú;Paraná-Guazú-Fluss;Río Paraná Guazú;;;;;;;;;x
-PROV849;Paraná River 0;Fleuve Paraná 0;Paraná-Fluss 0;Río Paraná 0;;;;;;;;;x
-PROV850;Paraná River 1;Fleuve Paraná 1;Paraná-Fluss 1;Río Paraná 1;;;;;;;;;x
-PROV851;Paraná River 2;Fleuve Paraná 2;Paraná-Fluss 2;Río Paraná 2;;;;;;;;;x
-PROV852;Paraná River 3;Fleuve Paraná 3;Paraná-Fluss 3;Río Paraná 3;;;;;;;;;x
-PROV853;Paraná River 4;Fleuve Paraná 4;Paraná-Fluss 4;Río Paraná 4;;;;;;;;;x
-PROV854;Paraná River 5;Fleuve Paraná 5;Paraná-Fluss 5;Río Paraná 5;;;;;;;;;x
-PROV855;Paraná River 6;Fleuve Paraná 6;Paraná-Fluss 6;Río Paraná 6;;;;;;;;;x
-PROV856;Paraná River 7;Fleuve Paraná 7;Paraná-Fluss 7;Río Paraná 7;;;;;;;;;x
-PROV857;Paraná River 8;Fleuve Paraná 8;Paraná-Fluss 8;Río Paraná 8;;;;;;;;;x
-PROV858;Paraná River 9;Fleuve Paraná 9;Paraná-Fluss 9;Río Paraná 9;;;;;;;;;x
-PROV859;Paraná River 10;Fleuve Paraná 10;Paraná-Fluss 10;Río Paraná 10;;;;;;;;;x
+PROV844;Brazilian Rio Grande 1;Rio Grande du Brésil 1;Brasilianischer Rio Grande 1;Río Grande de Brasil 1;;;;;;;;;x
+PROV845;Brazilian Rio Grande 2;Rio Grande du Brésil 2;Brasilianischer Rio Grande 2;Río Grande de Brasil 2;;;;;;;;;x
+PROV846;Paranaíba River;Rivière Paranaíba;Paranaíba-Fluss;Río Paranaíba;;;;;;;;;x
+PROV847;Paraná Guazú River;Fleuve Paraná Guazú;Paraná-Guazú-Fluss;Río Paraná Guazú;;;;;;;;;x
+PROV848;Paraná River 0;Fleuve Paraná 0;Paraná-Fluss 0;Río Paraná 0;;;;;;;;;x
+PROV849;Paraná River 1;Fleuve Paraná 1;Paraná-Fluss 1;Río Paraná 1;;;;;;;;;x
+PROV850;Paraná River 2;Fleuve Paraná 2;Paraná-Fluss 2;Río Paraná 2;;;;;;;;;x
+PROV851;Paraná River 3;Fleuve Paraná 3;Paraná-Fluss 3;Río Paraná 3;;;;;;;;;x
+PROV852;Paraná River 4;Fleuve Paraná 4;Paraná-Fluss 4;Río Paraná 4;;;;;;;;;x
+PROV853;Paraná River 5;Fleuve Paraná 5;Paraná-Fluss 5;Río Paraná 5;;;;;;;;;x
+PROV854;Paraná River 6;Fleuve Paraná 6;Paraná-Fluss 6;Río Paraná 6;;;;;;;;;x
+PROV855;Paraná River 7;Fleuve Paraná 7;Paraná-Fluss 7;Río Paraná 7;;;;;;;;;x
+PROV856;Paraná River 8;Fleuve Paraná 8;Paraná-Fluss 8;Río Paraná 8;;;;;;;;;x
+PROV857;Paraná River 9;Fleuve Paraná 9;Paraná-Fluss 9;Río Paraná 9;;;;;;;;;x
+PROV858;Paraná River 10;Fleuve Paraná 10;Paraná-Fluss 10;Río Paraná 10;;;;;;;;;x
+PROV859;Tietê River 0;Rivière Tietê 0;Tietê-Fluss 0;Río Tietê 0;;;;;;;;;x
 PROV860;Tietê River 1;Rivière Tietê 1;Tietê-Fluss 1;Río Tietê 1;;;;;;;;;x
 PROV861;Tietê River 2;Rivière Tietê 2;Tietê-Fluss 2;Río Tietê 2;;;;;;;;;x
 PROV862;Tietê River 3;Rivière Tietê 3;Tietê-Fluss 3;Río Tietê 3;;;;;;;;;x
@@ -816,10 +823,11 @@ PROV869;Uruguay River 4;Fleuve Uruguay 4;Uruguay-Fluss 4;Río Uruguay 4;;;;;;;;;x
 PROV870;Negro River;Rivière Negro;Negro-Fluss;Río Negro;;;;;;;;;x
 PROV871;Rincon del Bonete;;;;;;;;;;;;x
 PROV872;Inner Río de la Plata;Río de la Plata intérieur;Innerer Río de la Plata;Río de la Plata Interior;;;;;;;;;x
-PROV873;White Bay;Baie Blanche;Weiße Bucht;Bahía Blanca;;;;;;;;;x
-PROV874;Northern Argentine Sea;Mer d'Argentine septentrionale;Nördliches Argentinisches Meer;Mar Argentino Septentrional;;;;;;;;;x
-PROV875;Coast of Mar del Plata;Côte de Mar del Plata;Küste von Mar del Plata;Costa de Mar del Plata;;;;;;;;;x
+PROV873;Northern Argentine Sea;Mer d'Argentine septentrionale;Nördliches Argentinisches Meer;Mar Argentino Septentrional;;;;;;;;;x
+PROV874;Coast of Mar del Plata;Côte de Mar del Plata;Küste von Mar del Plata;Costa de Mar del Plata;;;;;;;;;x
+PROV875;Coast of Tuyú;Côte de Tuyú;Küste von Tuyú;Costa del Tuyú;;;;;;;;;x
 PROV876;White Bay;Baie Blanche;Weiße Bucht;Bahía Blanca;;;;;;;;;x
+PROV877;Samborombón Bay;Baie de Samborombón;Samborombón-Bucht;Bahía de Samborombón;;;;;;;;;x
 PROV878;Western Río de la Plata;Río de la Plata occidental;Westlicher Río de la Plata;Río de la Plata Occidental;;;;;;;;;x
 PROV879;Eastern Río de la Plata;Río de la Plata oriental;Östlicher Río de la Plata;Río de la Plata Oriental;;;;;;;;;x
 PROV880;Outer Río de la Plata;Río de la Plata extérieur;Äußerer Río de la Plata;Río de la Plata Exterior;;;;;;;;;x
