@@ -1,4 +1,4 @@
-max_provinces = 1025
+max_provinces = 1300
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
@@ -16,28 +16,28 @@ static = "statics"
 seasons = "seasons.txt"
 
 # Atlantic #1
-	sea_zones = {985 987}
+	sea_zones = {995 997}
 
 #Pacific #2	 
-	sea_zones = {988 989 }
+	sea_zones = {998 999 }
 
 #Lakes & Artic #3
 	sea_zones = { 993 994 }
 	
 #Strait of Magallanes & Patagonian Seas #4
-	sea_zones = { 900 940 }
+	sea_zones = { 901 941 }
 	
 #South American Lakes #5	
-	sea_zones = { 797 827 }
+	sea_zones = { 942 992 }
 	
 #Parana and Tributaries #6
-	sea_zones =  { 849 865 }
+	sea_zones =  { 861 882 }
 
 #Rio de la Plata & Uruguay River #7
-	sea_zones = { 866 884 }
+	sea_zones = { 883 900 }
 	
 #Coast of Brazil #8
-	sea zones = { 941 960 }
+	sea_zones = { 1240 1260 }
 	
 ocean_region = {	
 	sea_zones = { 1 2 4 6 7 8 } # Atlantic -Pacific Ocean
