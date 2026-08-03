@@ -1,9 +1,9 @@
 ########################################
 ### A World Like Any Other Provinces ###
 ########################################
-#PROV1;Jujuy;Jujuy;Jujuy;Jujuy;;;;;;;;;x
-#PROV2;Calilegua;Calilegua;Calilegua;Calilegua;;;;;;;;;x
-PROV3;Paraná Delta;Delta du Paraná;Paranádelta;Delta del Paraná;;;;;;;;;x
+PROV1;Paraná Delta;Delta du Paraná;Paraná-Delta;Delta del Paraná;;;;;;;;;x
+PROV2;Río Seco;Río Seco;Río Seco;Río Seco;;;;;;;;;x
+PROV3;Asunza;Asunza;Asunza;Asunza;;;;;;;;;x
 #PROV4;Yunga;Yunga;Yunga;Yunga;;;;;;;;;x
 #PROV5;Tumbaya;Tumbaya;Tumbaya;Tumbaya;;;;;;;;;x
 PROV6;Chaitén;Chaitén;Chaitén;Chaitén;;;;;;;;;x
@@ -417,7 +417,7 @@ PROV413;Moreno;Moreno;Moreno;Moreno;;;;;;;;;x
 PROV414;Pellegrini;Pellegrini;Pellegrini;Pellegrini;;;;;;;;;x
 PROV415;Figueroa;Figueroa;Figueroa;Figueroa;;;;;;;;;x
 PROV416;Taboada;Taboada;Taboada;Taboada;;;;;;;;;x
-PROV417;Malibrán;Malibrán;Malibrán;Malibrán;;;;;;;;;x
+PROV417;Malbrán;Malbrán;Malbrán;Malbrán;;;;;;;;;x
 PROV418;Salavina;Salavina;Salavina;Salavina;;;;;;;;;x
 PROV419;Ambargasta;Ambargasta;Ambargasta;Ambargasta;;;;;;;;;x
 PROV420;Choya;Choya;Choya;Choya;;;;;;;;;x
@@ -874,7 +874,7 @@ PROV870;Paraná River 5;Fleuve Paraná 5;Paraná-Fluss 5;Río Paraná 5;;;;;;;;;x
 PROV871;Paraná River 6;Fleuve Paraná 6;Paraná-Fluss 6;Río Paraná 6;;;;;;;;;x
 PROV872;Paraná River 7;Fleuve Paraná 7;Paraná-Fluss 7;Río Paraná 7;;;;;;;;;x
 PROV873;Paraná River 8;Fleuve Paraná 8;Paraná-Fluss 8;Río Paraná 8;;;;;;;;;x
-PROV874;Paraná River 9;Fleuve Paraná 9;Paraná-Fluss 9;Río Paraná 9;;;;;;;;;x
+PROV874;Itapu Lake;;;;;;;;;;;;x
 PROV875;Paraná River 10;Fleuve Paraná 10;Paraná-Fluss 10;Río Paraná 10;;;;;;;;;x
 PROV876;Tietê River 0;Rivière Tietê 0;Tietê-Fluss 0;Río Tietê 0;;;;;;;;;x
 PROV877;Tietê River 1;Rivière Tietê 1;Tietê-Fluss 1;Río Tietê 1;;;;;;;;;x

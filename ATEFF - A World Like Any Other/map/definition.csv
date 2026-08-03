@@ -1,8 +1,8 @@
 province;red;green;blue;x;x
-1;27;234;114;Dummy1;x
-2;11;132;153;Dummy2;x
-3;3;255;217;Delta Parana;x
-4;71;255;227;Dummy;x #Wilderness
+1;3;255;217;Delta Parana;x
+2;101;183;53;Rio Seco;x
+3;110;204;34;Asunza;x
+4;71;255;227;Dummy4;x #Wilderness
 5;196;15;24;Hornopiren;x
 6;196;74;80;Chaiten;x
 7;255;66;51;Alcerces;x
@@ -211,7 +211,7 @@ province;red;green;blue;x;x
 210;216;117;17;Entrelagos;x
 211;224;61;29;Cochamo;x
 212;221;17;27;Palena;x
-213;224;61;29;Chaiten;x
+213;196;15;24;Chaiten;x
 214;249;37;87;Temuco;x
 215;249;84;123;Malleco;x
 216;240;0;58;Tolten;x
@@ -355,7 +355,7 @@ province;red;green;blue;x;x
 355;41;216;172;Mercedes;x
 356;0;240;205;Miriñay;x
 357;62;239;213;Aguapey;x
-358;0;240;180;Ituzaingo;x
+358;51;240;180;Ituzaingo;x
 359;41;206;192;Mburucuya;x
 360;74;239;198;Bella Vista;x
 361;0;240;180;Corrientes;x
@@ -373,7 +373,7 @@ province;red;green;blue;x;x
 373;31;120;178;Iguazu;x
 374;101;145;31;Huidobro;x
 375;135;183;56;Rio Cuarto;x
-376;121;168;47;Celman;x
+376;42;142;0;Celman;x
 377;41;153;85;Marcos;x
 378;57;145;20;Maria;x
 379;51;159;43;Tercero Arriba;x
@@ -385,7 +385,7 @@ province;red;green;blue;x;x
 385;113;124;61;Punillas;x
 386;80;181;34;Santa Maria;x
 387;38;127;0;Cordoba;x
-388;80;181;34;Jesus Maria;x
+388;113;174;61;Jesus Maria;x
 389;38;127;58;Rio Segundo;x
 390;77;124;70;Rio Primero;x
 391;45;150;43;Mar Chiquita;x
@@ -858,7 +858,7 @@ province;red;green;blue;x;x
 858;65;145;55;Itauna;x
 859;31;132;10;Pedro Leopoldo;x
 860;31;213;10;Belo Horizonte;x
-861;34;28;198;Rio Grande of Brazil 1;x
+861;70;38;255;Rio Grande of Brazil 1;x
 862;34;28;194;Rio Grande of Brazil 2;x
 863;181;0;24;Paranaiba River;x
 864;255;20;79;Parana Guazu River;x
@@ -871,7 +871,7 @@ province;red;green;blue;x;x
 871;234;82;132;Parana River 6;x
 872;198;8;66;Parana River 7;x
 873;239;11;84;Parana River 8;x
-874;239;0;131;Parana River 9;x #Itapu Lake
+874;143;8;70;Itapu Lake;x #Itapu Lake
 875;114;6;57;Parana River 10;x
 876;224;24;74;Tiete River 0;x
 877;135;0;45;Tiete River 1;x
@@ -953,14 +953,14 @@ province;red;green;blue;x;x
 953;255;221;252;Blanco Lake;x
 954;228;221;252;Ofhidro Lake;x
 955;201;244;249;Blanca Lagoon;x
-956;248;93;239;Rio Guaiba;x
+956;28;3;39;Dummy956;x
 957;248;204;255;Nansen Lake;x
 958;237;127;255;Cardiel Lake;x
 959;244;173;255;Carrera-Buenos Aires Lake;x
 960;244;165;255;Cochrane-Pueyrredon Lake;x
 961;242;173;255;Viedma Lake;x
 962;204;232;255;Argentine Lake;x
-963;198;229;255;;x
+963;198;229;255;Dummy963;x
 964;255;221;209;Grey Lake;x
 965;255;221;182;El Toro Lake;x
 966;255;204;255;Plata-Fontana Lake;x
@@ -1237,14 +1237,14 @@ province;red;green;blue;x;x
 1237;197;35;106;Dummy1237;x
 1238;133;46;213;Dummy1238;x
 1239;158;213;106;Dummy1239;x
-1240;237;161;178;Litoral Lagunar;x
+1240;237;161;178;Litoral Lagunar Sur;x
 1241;239;117;186;Southern Laguna de los Patos;x
 1242;237;158;240;Northern Laguna de los Patos;x
 1243;237;166;206;Sao Gregorio Channel;x
 1244;237;109;181;Merin Lake;x
-1245;95;191;197;Dummy1245;x
-1246;34;191;170;Dummy1246;x
-1247;192;125;185;Dummy1247;x
+1245;233;112;239;Rio Guaiba;x
+1246;239;117;117;Litoral Lagunar Centro;x
+1247;183;89;89;Litoral Lagunar Norte;x
 1248;183;81;129;Dummy1248;x
 1249;169;158;195;Dummy1249;x
 1250;159;183;28;Dummy1250;x
