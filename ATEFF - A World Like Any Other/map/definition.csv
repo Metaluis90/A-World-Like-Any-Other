@@ -1109,7 +1109,7 @@ province;red;green;blue;x;x
 1109;127;229;244;Itabuna;x
 1110;24;182;244;Ilheus;x
 1111;65;159;193;Ipau;x
-1112;88;219;224;Gandu;x
+1112;89;219;224;Gandu;x
 1113;100;214;228;Camamu;x
 1114;17;215;228;Valenca;x
 1115;91;167;255;Muritiba;x
@@ -1166,10 +1166,10 @@ province;red;green;blue;x;x
 1166;125;128;216;Cotegipe;x
 1167;134;131;247;Barra;x
 1168;106;104;237;Pilao Arcado;x
-1169;116;132;255;Xique-Xique;x
+1169;93;148;244;Xique-Xique;x
 1170;133;132;255;Casanova;x
 1171;101;138;206;Lencois;x
-1172;143;201;244;Coribe;x
+1172;143;201;217;Coribe;x
 1173;8;36;160;Aracuja;x
 1174;37;76;249;Estancia;x
 1175;84;116;247;Boquim;x
@@ -1182,7 +1182,7 @@ province;red;green;blue;x;x
 1182;23;52;216;As Senhoras;x
 1183;67;96;242;Porto da Folha;x
 1184;36;60;158;Propria;x
-1185;129;101;65;Dummy1185;x
+1185;35;163;255;Paramirim;x #Bahia Prov
 1186;62;114;172;Dummy1186;x
 1187;91;175;123;Dummy1187;x
 1188;50;228;141;Dummy1188;x
