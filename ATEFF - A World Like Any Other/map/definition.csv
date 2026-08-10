@@ -888,57 +888,57 @@ province;red;green;blue;x;x
 888;211;40;111;Rio Negro 2;x #Rincon del Bonete
 889;255;224;224;Inner Rio de la Plata;x
 890;247;192;232;Northern Argentine Sea;x
-891;244;156;221;Coast of Mar del Plata;x
-892;206;132;187;Coast of Tuyu;x
-893;249;182;226;Bahia Blanca;x
-894;255;201;209;Bahia de Samborombon;x
-895;255;178;178;Western Rio de la Plata;x
-896;255;205;163;Eastern Rio de la Plata;x
-897;255;194;165;Outer Rio de la Plata;x
-898;247;165;165;Bay of Montevideo;x
-899;219;135;135;Bay of Piriapolis;x
-900;216;147;147;Cisplatinean Sea;x
-901;186;244;249;Bahia Desengano;x
-902;172;181;183;Whiteside Channel;x
-903;201;203;204;Beagle Channnel;x
-904;0;122;153;Strait of Magallanes;x
-905;0;165;206;Strait of Magallanes;x
-906;177;199;204;Beagle Channel;x
-907;255;229;229;Drakes Pass;x
-908;101;185;206;Strait of Magallanes;x
-909;162;177;181;Otway Sound;x
-910;224;244;249;Skyring Sound;x
-911;170;229;229;Cape Hornos;x
-912;155;188;188;Strait of Magallanes;x
-913;144;161;165;Beagle Channel;x
-914;174;226;255;Strait of La Maire;x
-915;163;188;188;Mar Argentino;x
-916;112;226;255;Coast of Tierra del Fuego;x
-917;147;186;186;Coast of Malvinas;x
-918;201;188;188;Coast of Malvinas;x
-919;126;186;186;Coast of Patagonia;x
-920;89;183;183;Coast of Deseado;x
-921;126;223;186;Northern Malvinian Corridor;x
-922;159;186;186;Gulf of San Jorge;x
-923;172;252;224;Canal Concepcion;x
-924;214;249;233;Canal Wide;x
-925;227;247;244;Canal Mesier;x
-926;198;201;255;Golfo de Penas;x
-927;163;188;217;Southern Malvinian Corridor;x
-928;126;186;181;Chubut Southern Corridor;x
-929;159;186;205;Chubut Central Corridor;x
-930;159;204;180;Chubut Northern Corridor;x
-931;104;209;186;Coast of Chubut;x
-932;128;206;173;Gulf of San Matias;x
-933;127;32;216;Rio Negro de Argentina 1;x
-934;117;59;226;Rio Negro de Argentina 2;x
-935;149;85;228;Rio Negro de Argentina 3;x
-936;116;31;226;Rio Negro de Argentina 4;x
-937;149;85;214;Rio Neuquen;x
-938;95;24;226;Mexia Lake;x
-939;190;221;186;Desembocadura del Rio Negro de Argentina;x
-940;186;174;211;Bahia Union;x
-941;172;236;224;Strait of Magallanes;x
+891;206;132;187;Coast of Tuyu;x
+892;249;182;226;Bahia Blanca;x
+893;255;201;209;Bahia de Samborombon;x
+894;255;178;178;Western Rio de la Plata;x
+895;255;205;163;Eastern Rio de la Plata;x
+896;255;194;165;Outer Rio de la Plata;x
+897;247;165;165;Bay of Montevideo;x
+898;216;147;147;Cisplatinean Sea;x
+899;186;244;249;Bahia Desengano;x
+900;172;181;183;Whiteside Channel;x
+901;201;203;204;Beagle Channnel;x
+902;0;122;153;Strait of Magallanes;x
+903;0;165;206;Strait of Magallanes;x
+904;177;199;204;Beagle Channel;x
+905;255;229;229;Drakes Pass;x
+906;101;185;206;Strait of Magallanes;x
+907;162;177;181;Otway Sound;x
+908;224;244;249;Skyring Sound;x
+909;170;229;229;Cape Hornos;x
+910;155;188;188;Strait of Magallanes;x
+911;144;161;165;Beagle Channel;x
+912;174;226;255;Strait of La Maire;x
+913;163;188;188;Mar Argentino;x
+914;112;226;255;Coast of Tierra del Fuego;x
+915;147;186;186;Coast of Malvinas;x
+916;201;188;188;Coast of Malvinas;x
+917;126;186;186;Coast of Patagonia;x
+918;89;183;183;Coast of Deseado;x
+919;126;223;186;Northern Malvinian Corridor;x
+920;159;186;186;Gulf of San Jorge;x
+921;172;252;224;Canal Concepcion;x
+922;214;249;233;Canal Wide;x
+923;227;247;244;Canal Mesier;x
+924;198;201;255;Golfo de Penas;x
+925;163;188;217;Southern Malvinian Corridor;x
+926;126;186;181;Chubut Southern Corridor;x
+927;159;186;205;Chubut Central Corridor;x
+928;159;204;180;Chubut Northern Corridor;x
+929;104;209;186;Coast of Chubut;x
+930;128;206;173;Gulf of San Matias;x
+931;127;32;216;Rio Negro de Argentina 1;x
+932;117;59;226;Rio Negro de Argentina 2;x
+933;149;85;228;Rio Negro de Argentina 3;x
+934;116;31;226;Rio Negro de Argentina 4;x
+935;149;85;214;Rio Neuquen;x
+936;95;24;226;Mexia Lake;x
+937;190;221;186;Desembocadura del Rio Negro de Argentina;x
+938;186;174;211;Bahia Union;x
+939;172;236;224;Strait of Magallanes;x
+940;125;201;98;Dummy940;x
+941;125;201;98;Dummy941;x
 942;216;44;171;Dummy942;x
 943;37;128;229;Dummy943;x
 944;137;63;86;Tres Marias Lake;x
@@ -1243,31 +1243,31 @@ province;red;green;blue;x;x
 1243;237;166;206;Sao Gregorio Channel;x
 1244;237;109;181;Merin Lake;x
 1245;233;112;239;Rio Guaiba;x
-1246;239;117;117;Litoral Lagunar Centro;x
-1247;183;89;89;Litoral Lagunar Norte;x
-1248;183;81;129;Dummy1248;x
-1249;169;158;195;Dummy1249;x
-1250;159;183;28;Dummy1250;x
-1251;18;58;81;Dummy1251;x
-1252;49;84;108;Dummy1252;x
-1253;53;50;42;Dummy1253;x
-1254;74;230;81;Dummy1254;x
-1255;98;54;97;Dummy1255;x
-1256;9;221;225;Dummy1256;x
-1257;65;80;6;Dummy1257;x
-1258;110;207;238;Dummy1258;x
-1259;148;129;12;Dummy1259;x
-1260;152;245;255;Dummy1260;x
-1261;163;158;141;Dummy1261;x
-1262;175;157;167;Dummy1262;x
-1263;241;191;232;Dummy1263;x
-1264;81;38;237;Dummy1264;x
-1265;160;49;189;Dummy1265;x
-1266;14;57;77;Dummy1266;x
-1267;144;92;129;Dummy1267;x
-1268;199;26;78;Dummy1268;x
-1269;167;163;142;Dummy1269;x
-1270;145;70;6;Dummy1270;x
+1246;183;89;89;Litoral Lagunar Norte;x
+1247;219;76;76;Catarinense Coast;x
+1248;249;87;87;Strait of Florianopolis;x
+1249;247;86;86;Paulista Coast;x
+1250;247;123;123;Southern Fluminense Coast;x
+1251;188;94;94;Bay of Ilha Grande;x
+1252;186;105;85;Bay of Guanabara;x
+1253;247;87;46;Northern Fluminense Coast;x
+1254;239;69;75;Rio Paraiba do Sul 1;x
+1255;240;102;105;Rio Paraiba do Sul 2;x
+1256;239;158;160;Rio Paraiba do Sul 3;x
+1257;240;102;66;Coast of Espirito Santo;x
+1258;255;73;83;Coast of Ilheus;x
+1259;255;96;81;Costa Baiana;x
+1260;204;114;106;Sao Francisco River Delta;x
+1261;234;117;53;Sao Francisco River 1;x
+1262;239;85;28;Sao Francisco River 2;x
+1263;255;92;56;Sao Francisco River 3;x
+1264;239;97;62;Sao Francisco River 4;x
+1265;204;65;30;Eastern Sobradinho Lake;x
+1266;255;85;38;Western Sobradinho Lake;x
+1267;255;128;86;Sao Francisco River 5;x
+1268;255;74;12;Sao Francisco River 6;x
+1269;255;97;25;Sao Francisco River 7;x
+1270;255;56;25;Sao Francisco River 8;x
 1271;88;1;139;Dummy1271;x
 1272;59;107;255;Dummy1272;x
 1273;157;218;252;Dummy1273;x
