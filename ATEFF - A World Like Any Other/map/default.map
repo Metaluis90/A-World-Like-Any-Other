@@ -1,4 +1,4 @@
-max_provinces = 1300
+max_provinces = 1320	
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
@@ -37,7 +37,7 @@ seasons = "seasons.txt"
 	sea_zones = { 883 898 }
 	
 #Coast of Brazil #8
-	sea_zones = { 1240 1270 }
+	sea_zones = { 1287 1320 }
 	
 ocean_region = {	
 	sea_zones = { 1 2 4 6 7 8 } # Atlantic -Pacific Ocean

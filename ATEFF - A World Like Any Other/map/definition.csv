@@ -1202,7 +1202,7 @@ province;red;green;blue;x;x
 1202;119;96;219;Afranio;x
 1203;55;15;255;Ouricuri;x
 1204;85;43;255;Petrolina;x
-1205;107;73;255;Cabrobo;x
+1205;107;73;255;Oroco;x
 1206;113;50;255;Parnamirim;x
 1207;85;89;255;Salgueiro;x
 1208;30;38;255;Petrolandia;x
@@ -1228,46 +1228,46 @@ province;red;green;blue;x;x
 1228;13;13;173;Recife;x
 1229;31;69;247;Agrestina;x
 1230;104;104;255;Antao;x
-1231;175;62;190;Dummy1231;x
-1232;234;205;48;Dummy1232;x
-1233;3;242;91;Dummy1233;x
+1231;70;25;255;Granito;x
+1232;51;28;255;Cabrobo;x
+1233;71;80;255;Itacuruba;x
 1234;74;98;65;Dummy1234;x
 1235;20;208;31;Dummy1235;x
 1236;202;53;199;Dummy1236;x
 1237;197;35;106;Dummy1237;x
 1238;133;46;213;Dummy1238;x
 1239;158;213;106;Dummy1239;x
-1240;237;161;178;Litoral Lagunar Sur;x
-1241;239;117;186;Southern Laguna de los Patos;x
-1242;237;158;240;Northern Laguna de los Patos;x
-1243;237;166;206;Sao Gregorio Channel;x
-1244;237;109;181;Merin Lake;x
-1245;233;112;239;Rio Guaiba;x
-1246;183;89;89;Litoral Lagunar Norte;x
-1247;219;76;76;Catarinense Coast;x
-1248;249;87;87;Strait of Florianopolis;x
-1249;247;86;86;Paulista Coast;x
-1250;247;123;123;Southern Fluminense Coast;x
-1251;188;94;94;Bay of Ilha Grande;x
-1252;186;105;85;Bay of Guanabara;x
-1253;247;87;46;Northern Fluminense Coast;x
-1254;239;69;75;Rio Paraiba do Sul 1;x
-1255;240;102;105;Rio Paraiba do Sul 2;x
-1256;239;158;160;Rio Paraiba do Sul 3;x
-1257;240;102;66;Coast of Espirito Santo;x
-1258;255;73;83;Coast of Ilheus;x
-1259;255;96;81;Costa Baiana;x
-1260;204;114;106;Sao Francisco River Delta;x
-1261;234;117;53;Sao Francisco River 1;x
-1262;239;85;28;Sao Francisco River 2;x
-1263;255;92;56;Sao Francisco River 3;x
-1264;239;97;62;Sao Francisco River 4;x
-1265;204;65;30;Eastern Sobradinho Lake;x
-1266;255;85;38;Western Sobradinho Lake;x
-1267;255;128;86;Sao Francisco River 5;x
-1268;255;74;12;Sao Francisco River 6;x
-1269;255;97;25;Sao Francisco River 7;x
-1270;255;56;25;Sao Francisco River 8;x
+1240;188;184;227;Dummy1240;x
+1241;57;58;145;Dummy1241;x
+1242;187;28;63;Dummy1242;x
+1243;114;231;22;Dummy1243;x
+1244;191;55;7;Dummy1244;x
+1245;85;48;63;Dummy1245;x
+1246;253;154;193;Dummy1246;x
+1247;189;185;95;Dummy1247;x
+1248;86;70;152;Dummy1248;x
+1249;208;74;5;Dummy1249;x
+1250;37;244;168;Dummy1250;x
+1251;151;125;39;Dummy1251;x
+1252;79;193;92;Dummy1252;x
+1253;152;239;131;Dummy1253;x
+1254;213;220;170;Dummy1254;x
+1255;28;67;203;Dummy1255;x
+1256;116;204;197;Dummy1256;x
+1257;72;93;12;Dummy1257;x
+1258;55;182;86;Dummy1258;x
+1259;21;88;97;Dummy1259;x
+1260;140;115;74;Dummy1260;x
+1261;164;39;157;Dummy1261;x
+1262;6;245;179;Dummy1262;x
+1263;21;25;106;Dummy1263;x
+1264;80;93;133;Dummy1264;x
+1265;54;46;208;Dummy1265;x
+1266;32;80;230;Dummy1266;x
+1267;112;72;239;Dummy1267;x
+1268;162;139;54;Dummy1268;x
+1269;37;186;187;Dummy1269;x
+1270;154;237;59;Dummy1270;x
 1271;88;1;139;Dummy1271;x
 1272;59;107;255;Dummy1272;x
 1273;157;218;252;Dummy1273;x
@@ -1284,17 +1284,37 @@ province;red;green;blue;x;x
 1284;145;205;2;Dummy1284;x
 1285;151;205;100;Dummy1285;x
 1286;0;111;107;Dummy1286;x
-1287;175;90;78;Dummy1287;x
-1288;119;206;147;Dummy1288;x
-1289;242;197;164;Dummy1289;x
-1290;248;235;220;Dummy1290;x
-1291;225;249;35;Dummy1291;x
-1292;213;248;236;Dummy1292;x
-1293;185;117;20;Dummy1293;x
-1294;140;141;214;Dummy1294;x
-1295;129;140;110;Dummy1295;x
-1296;123;87;63;Dummy1296;x
-1297;241;177;204;Dummy1297;x
-1298;229;135;110;Dummy1298;x
-1299;211;239;42;Dummy1299;x
-1300;13;214;15;Dummy1300;x
+1287;237;161;178;Litoral Lagunar Sur;x
+1288;239;117;186;Southern Laguna de los Patos;x
+1289;237;158;240;Northern Laguna de los Patos;x
+1290;237;166;206;Sao Gregorio Channel;x
+1291;237;109;181;Merin Lake;x
+1292;233;112;239;Rio Guaiba;x
+1293;183;89;89;Litoral Lagunar Norte;x
+1294;219;76;76;Catarinense Coast;x
+1295;249;87;87;Strait of Florianopolis;x
+1296;247;86;86;Paulista Coast;x
+1297;247;123;123;Southern Fluminense Coast;x
+1298;188;94;94;Bay of Ilha Grande;x
+1299;186;105;85;Bay of Guanabara;x
+1300;247;87;46;Northern Fluminense Coast;x
+1301;239;69;75;Rio Paraiba do Sul 1;x
+1302;240;102;105;Rio Paraiba do Sul 2;x
+1303;239;158;160;Rio Paraiba do Sul 3;x
+1304;240;102;66;Coast of Espirito Santo;x
+1305;255;73;83;Coast of Ilheus;x
+1306;255;96;81;Costa Baiana;x
+1307;204;114;106;Sao Francisco River Delta;x
+1308;234;117;53;Sao Francisco River 1;x
+1309;239;85;28;Sao Francisco River 2;x
+1310;255;92;56;Sao Francisco River 3;x
+1311;239;97;62;Sao Francisco River 4;x
+1312;204;65;30;Eastern Sobradinho Lake;x
+1313;255;85;38;Western Sobradinho Lake;x
+1314;255;128;86;Sao Francisco River 5;x
+1315;255;74;12;Sao Francisco River 6;x
+1316;255;97;25;Sao Francisco River 7;x
+1317;255;56;25;Sao Francisco River 8;x
+1318;73;214;146;Dummy1318;x
+1319;186;52;231;Dummy1319;x
+1320;41;167;118;Dummy1320;x
