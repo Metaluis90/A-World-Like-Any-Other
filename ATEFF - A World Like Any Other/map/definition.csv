@@ -940,7 +940,7 @@ province;red;green;blue;x;x
 940;125;201;98;Dummy940;x
 941;125;201;98;Dummy941;x
 942;216;44;171;Dummy942;x
-943;37;128;229;Dummy943;x
+943;144;219;51;Lagos Portugarios;x
 944;137;63;86;Tres Marias Lake;x
 945;175;17;62;Emborcacao Lake;x
 946;211;21;75;Lago das Brisas;x
@@ -1231,90 +1231,120 @@ province;red;green;blue;x;x
 1231;70;25;255;Granito;x
 1232;51;28;255;Cabrobo;x
 1233;71;80;255;Itacuruba;x
-1234;74;98;65;Dummy1234;x
-1235;20;208;31;Dummy1235;x
-1236;202;53;199;Dummy1236;x
-1237;197;35;106;Dummy1237;x
-1238;133;46;213;Dummy1238;x
-1239;158;213;106;Dummy1239;x
-1240;188;184;227;Dummy1240;x
-1241;57;58;145;Dummy1241;x
-1242;187;28;63;Dummy1242;x
-1243;114;231;22;Dummy1243;x
-1244;191;55;7;Dummy1244;x
-1245;85;48;63;Dummy1245;x
-1246;253;154;193;Dummy1246;x
-1247;189;185;95;Dummy1247;x
-1248;86;70;152;Dummy1248;x
-1249;208;74;5;Dummy1249;x
-1250;37;244;168;Dummy1250;x
-1251;151;125;39;Dummy1251;x
-1252;79;193;92;Dummy1252;x
-1253;152;239;131;Dummy1253;x
-1254;213;220;170;Dummy1254;x
-1255;28;67;203;Dummy1255;x
-1256;116;204;197;Dummy1256;x
-1257;72;93;12;Dummy1257;x
-1258;55;182;86;Dummy1258;x
-1259;21;88;97;Dummy1259;x
-1260;140;115;74;Dummy1260;x
-1261;164;39;157;Dummy1261;x
-1262;6;245;179;Dummy1262;x
-1263;21;25;106;Dummy1263;x
-1264;80;93;133;Dummy1264;x
-1265;54;46;208;Dummy1265;x
-1266;32;80;230;Dummy1266;x
-1267;112;72;239;Dummy1267;x
-1268;162;139;54;Dummy1268;x
-1269;37;186;187;Dummy1269;x
-1270;154;237;59;Dummy1270;x
-1271;88;1;139;Dummy1271;x
-1272;59;107;255;Dummy1272;x
-1273;157;218;252;Dummy1273;x
-1274;116;242;151;Dummy1274;x
-1275;17;21;200;Dummy1275;x
-1276;8;175;247;Dummy1276;x
-1277;43;64;99;Dummy1277;x
-1278;128;179;80;Dummy1278;x
-1279;122;128;67;Dummy1279;x
-1280;30;139;58;Dummy1280;x
-1281;231;161;41;Dummy1281;x
-1282;1;140;48;Dummy1282;x
-1283;227;204;234;Dummy1283;x
-1284;145;205;2;Dummy1284;x
-1285;151;205;100;Dummy1285;x
-1286;0;111;107;Dummy1286;x
-1287;237;161;178;Litoral Lagunar Sur;x
-1288;239;117;186;Southern Laguna de los Patos;x
-1289;237;158;240;Northern Laguna de los Patos;x
-1290;237;166;206;Sao Gregorio Channel;x
-1291;237;109;181;Merin Lake;x
-1292;233;112;239;Rio Guaiba;x
-1293;183;89;89;Litoral Lagunar Norte;x
-1294;219;76;76;Catarinense Coast;x
-1295;249;87;87;Strait of Florianopolis;x
-1296;247;86;86;Paulista Coast;x
-1297;247;123;123;Southern Fluminense Coast;x
-1298;188;94;94;Bay of Ilha Grande;x
-1299;186;105;85;Bay of Guanabara;x
-1300;247;87;46;Northern Fluminense Coast;x
-1301;239;69;75;Rio Paraiba do Sul 1;x
-1302;240;102;105;Rio Paraiba do Sul 2;x
-1303;239;158;160;Rio Paraiba do Sul 3;x
-1304;240;102;66;Coast of Espirito Santo;x
-1305;255;73;83;Coast of Ilheus;x
-1306;255;96;81;Costa Baiana;x
-1307;204;114;106;Sao Francisco River Delta;x
-1308;234;117;53;Sao Francisco River 1;x
-1309;239;85;28;Sao Francisco River 2;x
-1310;255;92;56;Sao Francisco River 3;x
-1311;239;97;62;Sao Francisco River 4;x
-1312;204;65;30;Eastern Sobradinho Lake;x
-1313;255;85;38;Western Sobradinho Lake;x
-1314;255;128;86;Sao Francisco River 5;x
-1315;255;74;12;Sao Francisco River 6;x
-1316;255;97;25;Sao Francisco River 7;x
-1317;255;56;25;Sao Francisco River 8;x
-1318;73;214;146;Dummy1318;x
-1319;186;52;231;Dummy1319;x
-1320;41;167;118;Dummy1320;x
+1234;27;4;194;Pessoa;x
+1235;100;89;191;Alhandra;x
+1236;56;38;193;Bayeux;x
+1237;74;52;239;Mamanguape;x
+1238;130;117;249;Sape;x
+1239;57;41;181;Jacarau;x
+1240;65;53;158;Guarabira;x
+1241;101;82;242;Araruna;x
+1242;65;59;112;Alagoas;x
+1243;24;36;206;Itabaiana;x
+1244;28;31;237;Campina Grande;x
+1245;109;119;255;Umbuzeiro;x
+1246;57;41;181;Cariri;x
+1247;3;15;239;Monteiro;x
+1248;51;62;242;Sume;x
+1249;84;24;224;Cuite;x
+1250;31;12;249;Picui;x
+1251;82;46;244;Santa Luzia;x
+1252;62;47;181;Taperoa;x
+1253;139;83;244;Patos;x
+1254;79;55;239;Texeira;x
+1255;66;7;244;Itaporanga;x
+1256;99;19;247;Pianco;x
+1257;199;173;247;Coremas;x
+1258;102;56;255;Cajazeiras;x
+1259;75;50;255;Sousa;x
+1260;70;13;173;Pombal;x
+1261;63;11;234;Catole de Rocha;x
+1262;21;8;181;Brejo da Cruz;x
+1263;46;20;122;Canguaretama;x
+1264;34;3;205;Natal;x
+1265;62;43;255;Lagoas;x
+1266;96;43;255;Macaiba;x
+1267;66;51;216;Cearamirim;x
+1268;34;3;170;Touros;x
+1269;67;32;219;Camara;x
+1270;180;127;244;Angicos;x
+1271;67;8;244;Tangara;x
+1272;52;22;173;Currais Novos;x
+1273;97;62;239;Serido;x
+1274;74;31;244;Caico;x
+1275;85;82;234;Jucurutu;x
+1276;124;89;244;Santana do Matos;x
+1277;127;82;234;Upanema;x
+1278;107;47;237;Campo Grande;x
+1279;84;14;237;Umarizal;x
+1280;124;67;239;Vieira;x
+1281;113;28;219;Sao Miguel;x
+1282;178;67;239;Pau do Ferros;x
+1283;150;39;219;Caraubas;x
+1284;106;27;154;Mossoro;x
+1285;111;36;204;Assu;x
+1286;147;28;247;Mangue;x
+1287;151;75;244;Macau;x
+1288;237;161;178;Litoral Lagunar Sur;x
+1289;239;117;186;Southern Laguna de los Patos;x
+1290;237;158;240;Northern Laguna de los Patos;x
+1291;237;166;206;Sao Gregorio Channel;x
+1292;237;109;181;Merin Lake;x
+1293;233;112;239;Rio Guaiba;x
+1294;183;89;89;Litoral Lagunar Norte;x
+1295;219;76;76;Catarinense Coast;x
+1296;249;87;87;Strait of Florianopolis;x
+1297;247;86;86;Paulista Coast;x
+1298;247;123;123;Southern Fluminense Coast;x
+1299;188;94;94;Bay of Ilha Grande;x
+1300;186;105;85;Bay of Guanabara;x
+1301;247;87;46;Northern Fluminense Coast;x
+1302;239;69;75;Rio Paraiba do Sul 1;x
+1303;240;102;105;Rio Paraiba do Sul 2;x
+1304;239;158;160;Rio Paraiba do Sul 3;x
+1305;240;102;66;Coast of Espirito Santo;x
+1306;255;73;83;Coast of Ilheus;x
+1307;255;96;81;Costa Baiana;x
+1308;204;114;106;Sao Francisco River Delta;x
+1309;234;117;53;Sao Francisco River 1;x
+1310;239;85;28;Sao Francisco River 2;x
+1311;255;92;56;Sao Francisco River 3;x
+1312;239;97;62;Sao Francisco River 4;x
+1313;204;65;30;Eastern Sobradinho Lake;x
+1314;255;85;38;Western Sobradinho Lake;x
+1315;255;128;86;Sao Francisco River 5;x
+1316;255;74;12;Sao Francisco River 6;x
+1317;255;97;25;Sao Francisco River 7;x
+1318;255;56;25;Sao Francisco River 8;x
+1319;204;167;106;Costa Pernambucana;x
+1320;204;190;106;Costa Portugaria Oriental;x
+1321;204;232;47;Costa Portugaria;x
+1322;221;124;124;Coast of Remedios;x
+1323;224;188;151;Brazilian Atlantic Sea;x
+1324;157;37;224;Dummy1324;x
+1325;236;148;53;Dummy1325;x
+1326;73;112;205;Dummy1326;x
+1327;194;217;84;Dummy1327;x
+1328;19;156;232;Dummy1328;x
+1329;128;75;163;Dummy1329;x
+1330;247;193;116;Dummy1330;x
+1331;56;204;121;Dummy1331;x
+1332;172;91;48;Dummy1332;x
+1333;103;241;69;Dummy1333;x
+1334;225;52;198;Dummy1334;x
+1335;34;126;187;Dummy1335;x
+1336;149;182;213;Dummy1336;x
+1337;81;43;152;Dummy1337;x
+1338;202;118;71;Dummy1338;x
+1339;67;218;239;Dummy1339;x
+1340;181;143;26;Dummy1340;x
+1341;14;97;166;Dummy1341;x
+1342;238;76;109;Dummy1342;x
+1343;119;198;44;Dummy1343;x
+1344;91;162;227;Dummy1344;x
+1345;216;133;185;Dummy1345;x
+1346;48;237;154;Dummy1346;x
+1347;164;58;97;Dummy1347;x
+1348;132;209;176;Dummy1348;x
+1349;252;104;39;Dummy1349;x
+1350;77;186;132;Dummy1350;x

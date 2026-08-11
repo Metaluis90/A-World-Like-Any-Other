@@ -1145,35 +1145,89 @@ PROV1229;Agrestina;Agrestina;Agrestina;Agrestina;;;;;;;;;x
 PROV1230;Antão;Antão;Antão;Antão;;;;;;;;;x
 PROV1231;Granito;Granito;Granito;Granito;;;;;;;;;x
 PROV1232;Cabrobó;Cabrobó;Cabrobó;Cabrobó;;;;;;;;;x
-
-PROV1240;Southern Lagoonal Coast;Littoral lagunaire;Lagunen Küste;Litoral Lagunar Meridional;;;;;;;;;x
-PROV1241;Southern Patos Lagoon;Lagune des Patos méridionale;Südliche Lagoa dos Patos;Laguna de los Patos Meridional;;;;;;;;;x
-PROV1242;Northern Patos Lagoon;Lagune des Patos septentrionale;Nördliche Lagoa dos Patos;Laguna de los Patos Septentrional;;;;;;;;;x
-PROV1243;São Gregório Channel;Canal São Gregório;São-Gregório-Kanal;Canal São Gregório;;;;;;;;;x
-PROV1244;Merín Lake;Lac Merín;Merín-See;Lago Merín;;;;;;;;;x
-PROV1245;Guaíba River;Rivière Guaíba;Guaíba-Fluss;Río Guaíba;;;;;;;;;x
-PROV1246;Northern Lagoonal Coast;Littoral lagunaire septentrional;Nördliche Lagunenküste;Litoral Lagunar Septentrional;;;;;;;;;x
-PROV1247;Catarinense Coast;Côte catarinense;Catarinense-Küste;Costa Catarinense;;;;;;;;;x
-PROV1248;Strait of Florianópolis;Détroit de Florianópolis;Straße von Florianópolis;Estrecho de Florianópolis;;;;;;;;;x
-PROV1249;Paulista Coast;Côte paulista;Paulista-Küste;Costa Paulista;;;;;;;;;x
-PROV1250;Southern Fluminense Coast;Côte fluminense méridionale;Südliche Fluminense-Küste;Costa Fluminense Sur;;;;;;;;;x
-PROV1251;Bay of Ilha Grande;Baie d'Ilha Grande;Bucht von Ilha Grande;Bahía de Ilha Grande;;;;;;;;;x
-PROV1252;Bay of Guanabara;Baie de Guanabara;Bucht von Guanabara;Bahía de Guanabara;;;;;;;;;x
-PROV1253;Northern Fluminense Coast;Côte fluminense septentrionale;Nördliche Fluminense-Küste;Costa Fluminense Norte;;;;;;;;;x
-PROV1254;Paraíba do Sul River 1;Rivière Paraíba do Sul 1;Paraíba-do-Sul-Fluss 1;Río Paraíba do Sul 1;;;;;;;;;x
-PROV1255;Paraíba do Sul River 2;Rivière Paraíba do Sul 2;Paraíba-do-Sul-Fluss 2;Río Paraíba do Sul 2;;;;;;;;;x
-PROV1256;Paraíba do Sul River 3;Rivière Paraíba do Sul 3;Paraíba-do-Sul-Fluss 3;Río Paraíba do Sul 3;;;;;;;;;x
-PROV1257;Coast of Espírito Santo;Côte de l'Espírito Santo;Küste von Espírito Santo;Costa de Espírito Santo;;;;;;;;;x
-PROV1258;Coast of Ilhéus;Côte d'Ilhéus;Küste von Ilhéus;Costa de Ilhéus;;;;;;;;;x
-PROV1259;Bahian Coast;Côte bahianaise;Bahianische Küste;Costa Baiana;;;;;;;;;x
-PROV1260;São Francisco River Delta;Delta du São Francisco;São-Francisco-Delta;Delta del Río São Francisco;;;;;;;;;x
-PROV1261;São Francisco River 1;Fleuve São Francisco 1;São-Francisco-Fluss 1;Río São Francisco 1;;;;;;;;;x
-PROV1262;São Francisco River 2;Fleuve São Francisco 2;São-Francisco-Fluss 2;Río São Francisco 2;;;;;;;;;x
-PROV1263;São Francisco River 3;Fleuve São Francisco 3;São-Francisco-Fluss 3;Río São Francisco 3;;;;;;;;;x
-PROV1264;São Francisco River 4;Fleuve São Francisco 4;São-Francisco-Fluss 4;Río São Francisco 4;;;;;;;;;x
-PROV1265;Eastern Sobradinho Lake;Lac de Sobradinho oriental;Östlicher Sobradinho-See;Lago de Sobradinho Oriental;;;;;;;;;x
-PROV1266;Western Sobradinho Lake;Lac de Sobradinho occidental;Westlicher Sobradinho-See;Lago de Sobradinho Occidental;;;;;;;;;x
-PROV1267;São Francisco River 5;Fleuve São Francisco 5;São-Francisco-Fluss 5;Río São Francisco 5;;;;;;;;;x
-PROV1268;São Francisco River 6;Fleuve São Francisco 6;São-Francisco-Fluss 6;Río São Francisco 6;;;;;;;;;x
-PROV1269;São Francisco River 7;Fleuve São Francisco 7;São-Francisco-Fluss 7;Río São Francisco 7;;;;;;;;;x
-PROV1270;São Francisco River 8;Fleuve São Francisco 8;São-Francisco-Fluss 8;Río São Francisco 8;;;;;;;;;x
+PROV1233;Itacuruba;Itacuruba;Itacuruba;Itacuruba;;;;;;;;;x
+PROV1234;Pessoa;Pessoa;Pessoa;Pessoa;;;;;;;;;x
+PROV1235;Alhandra;Alhandra;Alhandra;Alhandra;;;;;;;;;x
+PROV1236;Bayeux;Bayeux;Bayeux;Bayeux;;;;;;;;;x
+PROV1237;Mamanguape;Mamanguape;Mamanguape;Mamanguape;;;;;;;;;x
+PROV1238;Sapé;Sapé;Sapé;Sapé;;;;;;;;;x
+PROV1239;Jacaraú;Jacaraú;Jacaraú;Jacaraú;;;;;;;;;x
+PROV1240;Guarabira;Guarabira;Guarabira;Guarabira;;;;;;;;;x
+PROV1241;Araruna;Araruna;Araruna;Araruna;;;;;;;;;x
+PROV1242;Alagoas;Alagoas;Alagoas;Alagoas;;;;;;;;;x
+PROV1243;Itabaiana;Itabaiana;Itabaiana;Itabaiana;;;;;;;;;x
+PROV1244;Campina Grande;Campina Grande;Campina Grande;Campina Grande;;;;;;;;;x
+PROV1245;Umbuzeiro;Umbuzeiro;Umbuzeiro;Umbuzeiro;;;;;;;;;x
+PROV1246;Cariri;Cariri;Cariri;Cariri;;;;;;;;;x
+PROV1247;Monteiro;Monteiro;Monteiro;Monteiro;;;;;;;;;x
+PROV1248;Sumé;Sumé;Sumé;Sumé;;;;;;;;;x
+PROV1249;Cuité;Cuité;Cuité;Cuité;;;;;;;;;x
+PROV1250;Picuí;Picuí;Picuí;Picuí;;;;;;;;;x
+PROV1251;Santa Luzia;Santa Luzia;Santa Luzia;Santa Luzia;;;;;;;;;x
+PROV1252;Taperoá;Taperoá;Taperoá;Taperoá;;;;;;;;;x
+PROV1253;Patos;Patos;Patos;Patos;;;;;;;;;x
+PROV1254;Teixeira;Teixeira;Teixeira;Teixeira;;;;;;;;;x
+PROV1255;Itaporanga;Itaporanga;Itaporanga;Itaporanga;;;;;;;;;x
+PROV1256;Piancó;Piancó;Piancó;Piancó;;;;;;;;;x
+PROV1257;Coremas;Coremas;Coremas;Coremas;;;;;;;;;x
+PROV1258;Cajazeiras;Cajazeiras;Cajazeiras;Cajazeiras;;;;;;;;;x
+PROV1259;Sousa;Sousa;Sousa;Sousa;;;;;;;;;x
+PROV1260;Pombal;Pombal;Pombal;Pombal;;;;;;;;;x
+PROV1261;Catolé do Rocha;Catolé do Rocha;Catolé do Rocha;Catolé do Rocha;;;;;;;;;x
+PROV1262;Brejo da Cruz;Brejo da Cruz;Brejo da Cruz;Brejo da Cruz;;;;;;;;;x
+PROV1263;Canguaretama;Canguaretama;Canguaretama;Canguaretama;;;;;;;;;x
+PROV1264;Natal;Natal;Natal;Natal;;;;;;;;;x
+PROV1265;Lagoas;Lagoas;Lagoas;Lagoas;;;;;;;;;x
+PROV1266;Macaíba;Macaíba;Macaíba;Macaíba;;;;;;;;;x
+PROV1267;Ceará-Mirim;Ceará-Mirim;Ceará-Mirim;Ceará-Mirim;;;;;;;;;x
+PROV1268;Touros;Touros;Touros;Touros;;;;;;;;;x
+PROV1269;Câmara;Câmara;Câmara;Câmara;;;;;;;;;x
+PROV1270;Angicos;Angicos;Angicos;Angicos;;;;;;;;;x
+PROV1271;Tangará;Tangará;Tangará;Tangará;;;;;;;;;x
+PROV1272;Currais Novos;Currais Novos;Currais Novos;Currais Novos;;;;;;;;;x
+PROV1273;Seridó;Seridó;Seridó;Seridó;;;;;;;;;x
+PROV1274;Caicó;Caicó;Caicó;Caicó;;;;;;;;;x
+PROV1275;Jucurutu;Jucurutu;Jucurutu;Jucurutu;;;;;;;;;x
+PROV1276;Santana do Matos;Santana do Matos;Santana do Matos;Santana do Matos;;;;;;;;;x
+PROV1277;Upanema;Upanema;Upanema;Upanema;;;;;;;;;x
+PROV1278;Campo Grande;Campo Grande;Campo Grande;Campo Grande;;;;;;;;;x
+PROV1279;Umarizal;Umarizal;Umarizal;Umarizal;;;;;;;;;x
+PROV1280;Vieira;Vieira;Vieira;Vieira;;;;;;;;;x
+PROV1281;São Miguel;São Miguel;São Miguel;São Miguel;;;;;;;;;x
+PROV1282;Pau dos Ferros;Pau dos Ferros;Pau dos Ferros;Pau dos Ferros;;;;;;;;;x
+PROV1283;Caraúbas;Caraúbas;Caraúbas;Caraúbas;;;;;;;;;x
+PROV1284;Mossoró;Mossoró;Mossoró;Mossoró;;;;;;;;;x
+PROV1285;Assú;Assú;Assú;Assú;;;;;;;;;x
+PROV1286;Mangue;Mangue;Mangue;Mangue;;;;;;;;;x
+PROV1287;Macau;Macau;Macau;Macau;;;;;;;;;x
+PROV1288;Southern Lagoonal Coast;Littoral lagunaire;Lagunen Küste;Litoral Lagunar Meridional;;;;;;;;;x
+PROV1289;Southern Patos Lagoon;Lagune des Patos méridionale;Südliche Lagoa dos Patos;Laguna de los Patos Meridional;;;;;;;;;x
+PROV1290;Northern Patos Lagoon;Lagune des Patos septentrionale;Nördliche Lagoa dos Patos;Laguna de los Patos Septentrional;;;;;;;;;x
+PROV1291;São Gregório Channel;Canal São Gregório;São-Gregório-Kanal;Canal São Gregório;;;;;;;;;x
+PROV1292;Merín Lake;Lac Merín;Merín-See;Lago Merín;;;;;;;;;x
+PROV1293;Guaíba River;Rivière Guaíba;Guaíba-Fluss;Río Guaíba;;;;;;;;;x
+PROV1294;Northern Lagoonal Coast;Littoral lagunaire septentrional;Nördliche Lagunenküste;Litoral Lagunar Septentrional;;;;;;;;;x
+PROV1295;Catarinense Coast;Côte catarinense;Catarinense-Küste;Costa Catarinense;;;;;;;;;x
+PROV1296;Strait of Florianópolis;Détroit de Florianópolis;Straße von Florianópolis;Estrecho de Florianópolis;;;;;;;;;x
+PROV1297;Paulista Coast;Côte paulista;Paulista-Küste;Costa Paulista;;;;;;;;;x
+PROV1298;Southern Fluminense Coast;Côte fluminense méridionale;Südliche Fluminense-Küste;Costa Fluminense Sur;;;;;;;;;x
+PROV1299;Bay of Ilha Grande;Baie d'Ilha Grande;Bucht von Ilha Grande;Bahía de Ilha Grande;;;;;;;;;x
+PROV1300;Bay of Guanabara;Baie de Guanabara;Bucht von Guanabara;Bahía de Guanabara;;;;;;;;;x
+PROV1301;Northern Fluminense Coast;Côte fluminense septentrionale;Nördliche Fluminense-Küste;Costa Fluminense Norte;;;;;;;;;x
+PROV1302;Paraíba do Sul River 1;Rivière Paraíba do Sul 1;Paraíba-do-Sul-Fluss 1;Río Paraíba do Sul 1;;;;;;;;;x
+PROV1303;Paraíba do Sul River 2;Rivière Paraíba do Sul 2;Paraíba-do-Sul-Fluss 2;Río Paraíba do Sul 2;;;;;;;;;x
+PROV1304;Paraíba do Sul River 3;Rivière Paraíba do Sul 3;Paraíba-do-Sul-Fluss 3;Río Paraíba do Sul 3;;;;;;;;;x
+PROV1305;Coast of Espírito Santo;Côte de l'Espírito Santo;Küste von Espírito Santo;Costa de Espírito Santo;;;;;;;;;x
+PROV1306;Coast of Ilhéus;Côte d'Ilhéus;Küste von Ilhéus;Costa de Ilhéus;;;;;;;;;x
+PROV1307;Bahian Coast;Côte bahianaise;Bahianische Küste;Costa Baiana;;;;;;;;;x
+PROV1308;São Francisco River Delta;Delta du São Francisco;São-Francisco-Delta;Delta del Río São Francisco;;;;;;;;;x
+PROV1309;São Francisco River 1;Fleuve São Francisco 1;São-Francisco-Fluss 1;Río São Francisco 1;;;;;;;;;x
+PROV1310;São Francisco River 2;Fleuve São Francisco 2;São-Francisco-Fluss 2;Río São Francisco 2;;;;;;;;;x
+PROV1311;São Francisco River 3;Fleuve São Francisco 3;São-Francisco-Fluss 3;Río São Francisco 3;;;;;;;;;x
+PROV1312;São Francisco River 4;Fleuve São Francisco 4;São-Francisco-Fluss 4;Río São Francisco 4;;;;;;;;;x
+PROV1313;Eastern Sobradinho Lake;Lac de Sobradinho oriental;Östlicher Sobradinho-See;Lago de Sobradinho Oriental;;;;;;;;;x
+PROV1314;Western Sobradinho Lake;Lac de Sobradinho occidental;Westlicher Sobradinho-See;Lago de Sobradinho Occidental;;;;;;;;;x
+PROV1315;São Francisco River 5;Fleuve São Francisco 5;São-Francisco-Fluss 5;Río São Francisco 5;;;;;;;;;x
+PROV1316;São Francisco River 6;Fleuve São Francisco 6;São-Francisco-Fluss 6;Río São Francisco 6;;;;;;;;;x
+PROV1317;São Francisco River 7;Fleuve São Francisco 7;São-Francisco-Fluss 7;Río São Francisco 7;;;;;;;;;x
+PROV1318;São Francisco River 8;Fleuve São Francisco 8;São-Francisco-Fluss 8;Río São Francisco 8;;;;;;;;;x
