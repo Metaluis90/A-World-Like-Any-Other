@@ -1,0 +1,423 @@
+e_nordeste = {
+		color = { 0 0 0 }
+		color2 = { 255 255 255 }
+
+		capital = 1264 #placeholder
+
+	k_potiguaria = {
+		color = { 111 52 180 }
+		color2 = { 255 255 255 }
+		
+		capital = 1264
+
+		d_mossoro = {
+			color = { 255 180 127 }
+			color2 = { 255 255 255 }
+			
+			capital = 1284
+
+			c_mossoro = {
+				color = { 106 27 154 }
+				color2 = { 255 255 255 }
+
+				b_mossoro_RGN = {}
+				b_areia_branca_RGN = {}
+				b_barauna_RGN = {}
+				b_serra_do_mel_RGN = {}
+				b_grossos_RGN = {}
+				b_tibau_RGN = {}
+				b_mossoro_7_RGN = {}
+				b_mossoro_8_RGN = {}
+			}
+
+			c_mangue = {
+				color = { 147 28 247 }
+				color2 = { 255 255 255 }
+
+				b_porto_do_mangue_RGN = {}
+				b_pendencias_RGN = {}
+				b_alto_do_rodrigues_RGN = {}
+				b_carnaubais_RGN = {}
+				b_mangue_5_RGN = {}
+				b_mangue_6_RGN = {}
+				b_mangue_7_RGN = {}
+				b_mangue_8_RGN = {}
+			}
+
+			c_macau = {
+				color = { 151 75 244 }
+				color2 = { 255 255 255 }
+
+				b_macau_RGN = {}
+				b_guamare_RGN = {}
+				b_caicara_do_norte_RGN = {}
+				b_sao_bento_do_norte_RGN = {}
+				b_galinhos_RGN = {}
+				b_macau_6_RGN = {}
+				b_macau_7_RGN = {}
+				b_macau_8_RGN = {}
+			}
+		}
+
+		d_campo_grande = {
+			color = { 255 235 127 }
+			color2 = { 255 255 255 }
+			capital = 1278
+
+			c_campo_grande = {
+				color = { 107 47 237 }
+				color2 = { 255 255 255 }
+
+				b_campo_grande_RGN = {}
+				b_janduis_RGN = {}
+				b_messias_targino_RGN = {}
+				b_triunfo_potiguar_RGN = {}
+				b_campo_grande_5_RGN = {}
+				b_campo_grande_6_RGN = {}
+				b_campo_grande_7_RGN = {}
+				b_campo_grande_8_RGN = {}
+			}
+
+			c_caraubas = {
+				color = { 150 39 219 }
+				color2 = { 255 255 255 }
+
+				b_caraubas_RGN = {}
+				b_apodi_RGN = {}
+				b_governador_dix_sept_rosado_RGN = {}
+				b_felipe_guerra_RGN = {}
+				b_caraubas_5_RGN = {}
+				b_caraubas_6_RGN = {}
+				b_caraubas_7_RGN = {}
+				b_caraubas_8_RGN = {}
+			}
+
+			c_upanema = {
+				color = { 127 82 234 }
+				color2 = { 255 255 255 }
+
+				b_upanema_RGN = {}
+				b_parau_RGN = {}
+				b_upanema_3_RGN = {}
+				b_upanema_4_RGN = {}
+				b_upanema_5_RGN = {}
+				b_upanema_6_RGN = {}
+				b_upanema_7_RGN = {}
+				b_upanema_8_RGN = {}
+			}
+
+			c_assu = {
+				color = { 111 36 204 }
+				color2 = { 255 255 255 }
+
+				b_assu_RGN = {}
+				b_ipanguacu_RGN = {}
+				b_itaja_RGN = {}
+				b_assu_4_RGN = {}
+				b_assu_5_RGN = {}
+				b_assu_6_RGN = {}
+				b_assu_7_RGN = {}
+				b_assu_8_RGN = {}
+			}
+
+			c_jucurutu = {
+				color = { 85 82 234 }
+				color2 = { 255 255 255 }
+
+				b_jucurutu_RGN = {}
+				b_sao_rafael_RGN = {}
+				b_jucurutu_3_RGN = {}
+				b_jucurutu_4_RGN = {}
+				b_jucurutu_5_RGN = {}
+				b_jucurutu_6_RGN = {}
+				b_jucurutu_7_RGN = {}
+				b_jucurutu_8_RGN = {}
+			}
+		}
+
+		d_sao_miguel = {
+			color = { 127 255 143 }
+			color2 = { 255 255 255 }
+			capital = 1281
+
+			c_sao_miguel = {
+				color = { 113 28 219 }
+				color2 = { 255 255 255 }
+
+				b_sao_miguel_RGN = {}
+				b_luis_gomes_RGN = {}
+				b_doutor_severiano_RGN = {}
+				b_encanto_RGN = {}
+				b_coronel_joao_pessoa_RGN = {}
+				b_riacho_de_santana_RGN = {}
+				b_venha_ver_RGN = {}
+				b_agua_nova_RGN = {}
+			}
+
+			c_pau_dos_ferros = {
+				color = { 178 67 239 }
+				color2 = { 255 255 255 }
+
+				b_pau_dos_ferros_RGN = {}
+				b_portalegre_RGN = {}
+				b_severiano_melo_RGN = {}
+				b_itau_RGN = {}
+				b_sao_francisco_do_oeste_RGN = {}
+				b_rodolfo_fernandes_RGN = {}
+				b_riacho_da_cruz_RGN = {}
+				b_taboleiro_grande_RGN = {}
+				b_francisco_dantas_RGN = {}
+				b_vicosa_RGN = {}
+			}
+
+			c_vieira = {
+				color = { 124 67 239 }
+				color2 = { 255 255 255 }
+
+				b_marcelino_vieira_RGN = {}
+				b_alexandria_RGN = {}
+				b_tenente_ananias_RGN = {}
+				b_jose_da_penha_RGN = {}
+				b_rafael_fernandes_RGN = {}
+				b_major_sales_RGN = {}
+				b_parana_RGN = {}
+				b_piloes_RGN = {}
+				b_joao_dias_RGN = {}
+			}
+
+			c_umarizal = {
+				color = { 84 14 237 }
+				color2 = { 255 255 255 }
+
+				b_umarizal_RGN = {}
+				b_patu_RGN = {}
+				b_martins_RGN = {}
+				b_antonio_martins_RGN = {}
+				b_almino_afonso_RGN = {}
+				b_serrinha_dos_pintos_RGN = {}
+				b_olho_dagua_do_borges_RGN = {}
+				b_frutuoso_gomes_RGN = {}
+				b_lucrecia_RGN = {}
+				b_rafael_godeiro_RGN = {}
+			}
+		}
+
+		d_serido = {
+			color = { 127 201 255 }
+			color2 = { 255 255 255 }
+			capital = 1273
+
+			c_serido_cruzeta = {
+				color = { 97 62 239 }
+				color2 = { 255 255 255 }
+
+				b_cruzeta_RGN = {}
+				b_parelhas_RGN = {}
+				b_jardim_do_serido_RGN = {}
+				b_equador_RGN = {}
+				b_ouro_branco_RGN = {}
+				b_sao_jose_do_serido_RGN = {}
+				b_santana_do_serido_RGN = {}
+				b_serido_cruzeta_8_RGN = {}
+			}
+
+			c_caico = {
+				color = { 74 31 244 }
+				color2 = { 255 255 255 }
+
+				b_caico_RGN = {}
+				b_jardim_de_piranhas_RGN = {}
+				b_serra_negra_do_norte_RGN = {}
+				b_sao_joao_do_sabugi_RGN = {}
+				b_sao_fernando_RGN = {}
+				b_timbauba_dos_batistas_RGN = {}
+				b_ipueira_RGN = {}
+				b_caico_8_RGN = {}
+			}
+
+			c_currais_novos = {
+				color = { 52 22 173 }
+				color2 = { 255 255 255 }
+
+				b_currais_novos_RGN = {}
+				b_acari_RGN = {}
+				b_florania_RGN = {}
+				b_carnauba_dos_dantas_RGN = {}
+				b_sao_vicente_RGN = {}
+				b_tenente_laurentino_cruz_RGN = {}
+				b_currais_novos_7_RGN = {}
+				b_currais_novos_8_RGN = {}
+			}
+		}
+
+		d_tangara = {
+			color = { 218 255 127 }
+			color2 = { 255 255 255 }
+			capital = 1271
+
+			c_tangara = {
+				color = { 67 8 244 }
+				color2 = { 255 255 255 }
+
+				b_tangara_RGN = {}
+				b_santa_cruz_RGN = {}
+				b_sao_jose_do_campestre_RGN = {}
+				b_campo_redondo_RGN = {}
+				b_sao_tome_RGN = {}
+				b_serra_de_sao_bento_RGN = {}
+				b_sao_bento_do_trairi_RGN = {}
+				b_lajes_pintadas_RGN = {}
+				b_coronel_ezequiel_RGN = {}
+				b_japi_RGN = {}
+				b_jacana_RGN = {}
+				b_sitio_novo_RGN = {}
+				b_lagoa_de_velhos_RGN = {}
+				b_barcelona_RGN = {}
+				b_ruy_barbosa_RGN = {}
+				b_monte_das_gameleiras_RGN = {}
+			}
+
+			c_angicos = {
+				color = { 180 127 244 }
+				color2 = { 255 255 255 }
+
+				b_angicos_RGN = {}
+				b_afonso_bezerra_RGN = {}
+				b_lajes_RGN = {}
+				b_pedro_avelino_RGN = {}
+				b_fernando_pedroza_RGN = {}
+				b_angicos_6_RGN = {}
+				b_angicos_7_RGN = {}
+				b_angicos_8_RGN = {}
+			}
+
+			c_santana_do_matos = {
+				color = { 124 89 244 }
+				color2 = { 255 255 255 }
+
+				b_santana_do_matos_RGN = {}
+				b_lagoa_nova_RGN = {}
+				b_cerro_cora_RGN = {}
+				b_bodo_RGN = {}
+				b_santana_do_matos_5_RGN = {}
+				b_santana_do_matos_6_RGN = {}
+				b_santana_do_matos_7_RGN = {}
+				b_santana_do_matos_8_RGN = {}
+			}
+
+			c_camara = {
+				color = { 67 32 219 }
+				color2 = { 255 255 255 }
+
+				b_joao_camara_RGN = {}
+				b_jandaira_RGN = {}
+				b_bento_fernandes_RGN = {}
+				b_parazinho_RGN = {}
+				b_caicara_do_rio_do_vento_RGN = {}
+				b_jardim_de_angicos_RGN = {}
+				b_pedra_preta_RGN = {}
+				b_camara_8_RGN = {}
+			}
+		}
+
+		d_natal = {
+			color = { 255 127 127 }
+			color2 = { 255 255 255 }
+			capital = 1264
+
+			c_natal = {
+				color = { 34 3 205 }
+				color2 = { 255 255 255 }
+
+				b_natal_RGN = {}
+				b_parnamirim_RGN = {}
+				b_sao_jose_de_mipibu_RGN = {}
+				b_nisia_floresta_RGN = {}
+				b_natal_5_RGN = {}
+				b_natal_6_RGN = {}
+				b_natal_7_RGN = {}
+				b_natal_8_RGN = {}
+			}
+
+			c_macaiba = {
+				color = { 96 43 255 }
+				color2 = { 255 255 255 }
+
+				b_macaiba_RGN = {}
+				b_sao_goncalo_do_amarante_RGN = {}
+				b_monte_alegre_RGN = {}
+				b_sao_paulo_do_potengi_RGN = {}
+				b_ielmo_marinho_RGN = {}
+				b_serra_caiada_RGN = {}
+				b_vera_cruz_RGN = {}
+				b_bom_jesus_RGN = {}
+				b_riachuelo_RGN = {}
+				b_sao_pedro_RGN = {}
+				b_senador_eloi_de_souza_RGN = {}
+				b_santa_maria_RGN = {}
+			}
+
+			c_touros = {
+				color = { 34 3 170 }
+				color2 = { 255 255 255 }
+
+				b_touros_RGN = {}
+				b_maxaranguape_RGN = {}
+				b_sao_miguel_do_gostoso_RGN = {}
+				b_pureza_RGN = {}
+				b_rio_do_fogo_RGN = {}
+				b_pedra_grande_RGN = {}
+				b_touros_7_RGN = {}
+				b_touros_8_RGN = {}
+			}
+
+			c_cearamirim = {
+				color = { 66 51 216 }
+				color2 = { 255 255 255 }
+
+				b_ceara_mirim_RGN = {}
+				b_extremoz_RGN = {}
+				b_poco_branco_RGN = {}
+				b_taipu_RGN = {}
+				b_cearamirim_5_RGN = {}
+				b_cearamirim_6_RGN = {}
+				b_cearamirim_7_RGN = {}
+				b_cearamirim_8_RGN = {}
+			}
+
+			c_lagoas = {
+				color = { 62 43 255 }
+				color2 = { 255 255 255 }
+
+				b_nova_cruz_RGN = {}
+				b_santo_antonio_RGN = {}
+				b_brejinho_RGN = {}
+				b_passa_e_fica_RGN = {}
+				b_boa_saude_RGN = {}
+				b_lagoa_salgada_RGN = {}
+				b_lagoa_de_pedras_RGN = {}
+				b_serrinha_RGN = {}
+				b_lagoa_danta_RGN = {}
+				b_varzea_RGN = {}
+				b_jundia_RGN = {}
+				b_passagem_RGN = {}
+			}
+
+			c_canguaretama = {
+				color = { 46 20 122 }
+				color2 = { 255 255 255 }
+
+				b_canguaretama_RGN = {}
+				b_goianinha_RGN = {}
+				b_tibau_do_sul_RGN = {}
+				b_pedro_velho_RGN = {}
+				b_arez_RGN = {}
+				b_montanhas_RGN = {}
+				b_baia_formosa_RGN = {}
+				b_espirito_santo_RGN = {}
+				b_senador_georgino_avelino_RGN = {}
+				b_vila_flor_RGN = {}
+			}
+		}
+	}
+}
