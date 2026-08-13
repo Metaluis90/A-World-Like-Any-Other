@@ -1654,10 +1654,10 @@ bahiano = {
 	}
 }
 
-atlanticano = { 	
+atlanticano = { #culture group 	
 	graphical_cultures = { muslimgfx }
 
-	recifolindense = {
+	recifolindense = { #descendants of old Recife and Olinda, Recifolindenses live by the Delta of the Capibaribe, Tejipió and Beberibe rivers.
 		graphical_cultures = { muslimgfx }
 
 		color = { 0.61 0.30 0.76 }
@@ -1734,7 +1734,7 @@ atlanticano = {
 		modifier = default_culture_modifier
 	}
 	
-	lagoano = { 	
+  lagoano = { #descendants of Alagoas, the Lagoanos survived the event retreating to the lakes and lagoons that name their land. Stubborn and staunchly conservative
 		graphical_cultures = { muslimgfx }
 
 		color = { 0.74 0.9 0.38 }
@@ -1797,7 +1797,7 @@ atlanticano = {
 		modifier = default_culture_modifier
 	}
 	
-	natalense = {
+	natalense = { # inhabitants of the northern coast of the kingdom of the Brazilian Nordeste
 		graphical_cultures = { muslimgfx }
 
 		color = { 0.23 0.2819 0.76 }
@@ -1926,7 +1926,7 @@ atlanticano = {
 sertanejo_group = {
 	graphical_cultures = { persiangfx muslimgfx }
 	
-	sertanista = {
+	sertanista = { #hardy folk living in the interior of Nordeste and stealing cattle from the more urban population and herding goats and cows while navigating the complex maze-like bushes of the caatinga biome.
 		graphical_cultures = { persiangfx muslimgfx }
 		
 		color = { 0.7 0.0 0.0 }
@@ -1984,7 +1984,7 @@ sertanejo_group = {
 		modifier = default_culture_modifier
 	}
 	
-	seridoense = {
+	seridoense = { # “civilized” sertanejos
 		graphical_cultures = { persiangfx muslimgfx }
 		
 		color = { 0.6 0.2 0.3 }
@@ -2042,7 +2042,7 @@ sertanejo_group = {
 northeastern_native = {
 	graphical_cultures = { mesoamericangfx }
 	
-	karirixoko = {
+	karirixoko = { #remnants of the old cariri confederacy that survived as refugees in Porto Real do Colégio. They are the result of the fusion of many different indigenous groups under the leadership of the Kariri and the Xokó that banded together in order to survive, their uniting factor was the knowledge and reverence of the Ouricuri and its magics.
 		graphical_cultures = { mesoamericangfx }
 		
 		color = { 0.9 0.5 0.1 }
@@ -2099,7 +2099,7 @@ northeastern_native = {
 		modifier = default_culture_modifier
 	}
 	
-	pankararu = {
+	pankararu = { #inhabitants of the bogs of the Agreste under the Tacaratu hills,
 		graphical_cultures = { mesoamericangfx }
 		
 		color = { 0.01 0.65 0.9 }
@@ -2153,7 +2153,7 @@ northeastern_native = {
 		modifier = default_culture_modifier
 	}
 	
-	xukuru = {
+	xukuru = { #descendants of the kari’ri, the silent ones, the Xukuru are the more warlike of the remnants of the Cariri Confederation, called the Barbarian Confederation by their lusitanian foes. Living now on the slopes of the Orurubá hills
 		graphical_cultures = { mesoamericangfx }
 		
 		color = { 0.4 0.8 0.3 }
