@@ -207,7 +207,7 @@ e_nordeste = {
 			color2 = { 255 255 255 }
 			capital = 1273
 
-			c_serido_cruzeta = {
+			c_serido = {
 				color = { 97 62 239 }
 				color2 = { 255 255 255 }
 
@@ -281,12 +281,12 @@ e_nordeste = {
 				color = { 180 127 244 }
 				color2 = { 255 255 255 }
 
+				b_jardim_de_angicos_RGN = {}		
 				b_angicos_RGN = {}
 				b_afonso_bezerra_RGN = {}
 				b_lajes_RGN = {}
 				b_pedro_avelino_RGN = {}
 				b_fernando_pedroza_RGN = {}
-				b_angicos_6_RGN = {}
 				b_angicos_7_RGN = {}
 				b_angicos_8_RGN = {}
 			}
@@ -314,9 +314,8 @@ e_nordeste = {
 				b_bento_fernandes_RGN = {}
 				b_parazinho_RGN = {}
 				b_caicara_do_rio_do_vento_RGN = {}
-				b_jardim_de_angicos_RGN = {}
 				b_pedra_preta_RGN = {}
-				b_camara_8_RGN = {}
+				b_camara_7_RGN = {}
 			}
 		}
 
