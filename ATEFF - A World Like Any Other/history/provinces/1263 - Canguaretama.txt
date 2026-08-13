@@ -1,0 +1,16 @@
+# County Title
+title = c_canguaretama
+
+# Settlements
+max_settlements = 4
+
+b_canguaretama_RGN = castle
+ b_goianinha_RGN = city
+# b_tibau_do_sul_RGN = temple
+# b_baia_formosa_RGN = castle
+
+# Misc
+culture= natalense
+religion= candomble
+
+#History
