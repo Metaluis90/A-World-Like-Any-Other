@@ -1,0 +1,19 @@
+# County Title
+title = c_caraubas
+
+# Settlements
+max_settlements = 3
+
+b_caraubas_RGN = tribal
+# b_apodi_RGN = city
+# b_felipe_guerra_RGN = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_caraubas_RGN = castle }
+	#2666.1.1 = { b_felipe_guerra_RGN = temple }

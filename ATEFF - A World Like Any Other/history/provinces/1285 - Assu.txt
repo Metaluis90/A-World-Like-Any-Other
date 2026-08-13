@@ -1,0 +1,20 @@
+# County Title
+title = c_assu
+
+# Settlements
+max_settlements = 4
+
+b_assu_RGN = tribal
+# b_ipanguacu_RGN = city
+# b_itaja_RGN = temple
+# b_assu_4_RGN = castle
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_assu_RGN = castle }
+	#2666.1.1 = { b_itaja_RGN = temple }

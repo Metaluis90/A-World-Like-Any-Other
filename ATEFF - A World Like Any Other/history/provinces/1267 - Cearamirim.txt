@@ -1,0 +1,18 @@
+# County Title
+title = c_cearamirim
+
+# Settlements
+max_settlements = 5
+
+b_ceara_mirim_RGN = castle
+b_extremoz_RGN = city
+b_taipu_RGN = temple
+# b_poco_branco_RGN = castle
+# b_cearamirim_5_RGN = city
+
+# Misc
+culture= natalense
+religion= candomble
+
+#History
+ 	

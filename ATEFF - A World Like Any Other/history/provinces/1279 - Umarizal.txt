@@ -1,0 +1,19 @@
+# County Title
+title = c_umarizal
+
+# Settlements
+max_settlements = 3
+
+#b_patu_RGN = tribal
+b_umarizal_RGN = tribal
+# b_martins_RGN = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_patu_RGN = castle }
+	#2666.1.1 = { b_umarizal_RGN = city }

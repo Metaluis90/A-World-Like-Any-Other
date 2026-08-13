@@ -1,0 +1,18 @@
+# County Title
+title = c_macaiba
+
+# Settlements
+max_settlements = 6
+
+b_macaiba_RGN = castle
+b_sao_goncalo_do_amarante_RGN = city
+b_sao_paulo_do_potengi_RGN = temple
+# b_monte_alegre_RGN = castle
+# b_vera_cruz_RGN = city
+# b_ielmo_marinho_RGN = temple
+
+# Misc
+culture= natalense
+religion= candomble
+
+#History

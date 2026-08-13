@@ -1,0 +1,17 @@
+# County Title
+title = c_camara
+
+# Settlements
+max_settlements = 4
+
+b_joao_camara_RGN = castle
+# b_jandaira_RGN = city
+# b_bento_fernandes_RGN = temple
+# b_parazinho_RGN = castle
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+

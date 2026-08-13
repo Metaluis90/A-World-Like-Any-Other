@@ -1,0 +1,18 @@
+# County Title
+title = c_mossoro
+
+# Settlements
+max_settlements = 6
+
+b_mossoro_RGN = castñe
+b_areia_branca_RGN = city
+b_barauna_RGN = temple
+# b_tibau_RGN = castle
+# b_grossos_RGN = city
+# b_serra_do_mel_RGN = temple
+
+# Misc
+culture= natalense
+religion= candomble
+
+#History

@@ -1,0 +1,16 @@
+# County Title
+title = c_lagoas
+
+# Settlements
+max_settlements = 4
+
+b_lagoa_salgada_RGN = castle
+#b_santo_antonio_RGN = city
+b_nova_cruz_RGN = temple
+#b_brejinho_RGN = castle
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History

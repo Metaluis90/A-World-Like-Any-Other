@@ -1,0 +1,19 @@
+# County Title
+title = c_campo_grande
+
+# Settlements
+max_settlements = 3
+
+b_campo_grande_RGN = tribal
+# b_janduis_RGN = city
+# b_triunfo_potiguar_RGN = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_campo_grande_RGN = castle }
+	#2666.1.1 = { b_triunfo_potiguar_RGN = temple }

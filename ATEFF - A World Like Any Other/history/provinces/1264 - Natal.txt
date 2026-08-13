@@ -1,0 +1,20 @@
+# County Title
+title = c_natal
+
+# Settlements
+max_settlements = 6
+
+b_natal_RGN = castle
+b_parnamirim_RGN = city
+b_sao_jose_de_mipibu_RGN = temple
+# b_nisia_floresta_RGN = castle
+# b_natal_5_RGN = city
+# b_natal_6_RGN = temple
+# b_natal_7_RGN = castle
+
+# Misc
+culture= natalense
+religion= candomble
+
+#History
+ 

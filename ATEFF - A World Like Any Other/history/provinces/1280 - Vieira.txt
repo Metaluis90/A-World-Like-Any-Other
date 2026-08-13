@@ -1,0 +1,19 @@
+# County Title
+title = c_vieira
+
+# Settlements
+max_settlements = 3
+
+b_alexandria_RGN = tribal
+# b_tenente_ananias_RGN = city
+# b_marcelino_vieira_RGN = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+ 	
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_alexandria_RGN = castle }
+	#2666.1.1 = { b_marcelino_vieira_RGN = temple }

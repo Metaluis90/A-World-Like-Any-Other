@@ -1,0 +1,16 @@
+# County Title
+title = c_angicos
+
+# Settlements
+max_settlements = 4
+
+b_jardim_de_angicos = castle
+b_angicos_RGN = city
+# b_lajes_RGN = city
+# b_pedro_avelino_RGN = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History

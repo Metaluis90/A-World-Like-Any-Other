@@ -1,0 +1,14 @@
+# County Title
+title = c_serido
+
+# Settlements
+max_settlements = 3
+
+b_jardim_do_serido_RGN = tribal
+# b_cruzeta_RGN = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History

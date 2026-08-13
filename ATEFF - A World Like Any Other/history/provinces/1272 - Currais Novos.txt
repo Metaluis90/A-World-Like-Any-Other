@@ -1,0 +1,16 @@
+# County Title
+title = c_currais_novos
+
+# Settlements
+max_settlements = 4
+
+b_currais_novos_RGN = castle
+# b_acari_RGN = city
+# b_florania_RGN = temple
+# b_carnauba_dos_dantas_RGN = castle
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History

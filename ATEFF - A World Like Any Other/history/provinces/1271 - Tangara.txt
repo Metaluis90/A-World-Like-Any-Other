@@ -1,0 +1,16 @@
+# County Title
+title = c_tangara
+
+# Settlements
+max_settlements = 4
+
+b_tangara_RGN = castle
+b_santa_cruz_RGN = temple
+# b_sao_jose_do_campestre_RGN = temple
+# b_sao_tome_RGN = castle
+
+# Misc
+culture=seridoense	
+religion=cicerite
+
+#History

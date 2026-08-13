@@ -1,0 +1,18 @@
+# County Title
+title = c_caico
+
+# Settlements
+max_settlements = 5
+
+b_caico_RGN = tribal
+# b_jardim_de_piranhas_RGN = city
+#b_sao_joao_do_sabugi_RGN = temple
+# b_serra_negra_do_norte_RGN = castle
+# b_sao_fernando_RGN = city
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+

@@ -1,0 +1,16 @@
+# County Title
+title = c_touros
+
+# Settlements
+max_settlements = 4
+
+b_touros_RGN = castle
+#b_sao_miguel_do_gostoso_RGN = city
+b_maxaranguape_RGN = temple
+# b_rio_do_fogo_RGN = castle
+
+# Misc
+culture= natalense
+religion= candomble
+
+#History

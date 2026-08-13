@@ -1,0 +1,15 @@
+# County Title
+title = c_santana_do_matos
+
+# Settlements
+max_settlements = 3
+
+b_santana_do_matos_RGN = tribal
+# b_lagoa_nova_RGN = city
+# b_cerro_cora_RGN = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_jucurutu
+
+# Settlements
+max_settlements = 3
+
+b_jucurutu_RGN = tribal
+# b_sao_rafael_RGN = city
+# b_jucurutu_3_RGN = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History

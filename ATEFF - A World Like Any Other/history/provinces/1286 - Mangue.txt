@@ -1,0 +1,18 @@
+# County Title
+title = c_mangue
+
+# Settlements
+max_settlements = 3
+
+b_porto_do_mangue_RGN = castle
+# b_pendencias_RGN = city
+# b_alto_do_rodrigues_RGN = temple
+
+# Misc
+culture= natalense
+religion= candomble
+
+#History
+
+2666.1.1 = { b_alto_do_rodrigues_RGN = temple }
+# 2666.1.1 = { b_pendencias_RGN = city }

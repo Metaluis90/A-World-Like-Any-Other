@@ -1,0 +1,18 @@
+# County Title
+title = c_macau
+
+# Settlements
+max_settlements = 4
+
+b_macau_RGN = castle
+# b_guamare_RGN = city
+b_caicara_do_norte_RGN = temple
+# b_sao_bento_do_norte_RGN = castle
+
+# Misc
+
+culture= natalense
+religion= candomble
+
+#History
+2666.1.1 = { b_guamare_RGN = city }
