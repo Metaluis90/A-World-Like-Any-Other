@@ -1,0 +1,18 @@
+# County Title
+title = c_mamanguape
+
+# Settlements
+max_settlements = 4
+
+b_mamanguape_PBA = castle
+# b_rio_tinto_PBA = city
+b_marcacao_PBA = temple
+# b_baia_da_traicao_PBA = castle
+
+# Misc
+culture=potiguara
+religion=jurema
+
+#History
+
+#in case we don't want it to be tribal anymore:

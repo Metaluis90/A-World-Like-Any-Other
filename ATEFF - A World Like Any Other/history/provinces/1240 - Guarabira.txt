@@ -1,0 +1,17 @@
+# County Title
+title = c_guarabira
+
+# Settlements
+max_settlements = 5
+
+b_guarabira_PBA = castle
+# b_aracagi_PBA = city
+b_pirpirituba_PBA = temple
+# b_alagoinha_PBA = castle
+# b_mulungu_PBA = city
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History

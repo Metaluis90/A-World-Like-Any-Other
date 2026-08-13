@@ -1,0 +1,17 @@
+# County Title
+title = c_bayeux
+
+# Settlements
+max_settlements = 6
+
+b_bayeux_PBA = castle
+b_santa_rita_PBA = city
+b_lucena_PBA = temple
+# b_bayeux_5_PBA = city
+# b_bayeux_6_PBA = temple
+
+# Misc
+culture=natalense
+religion=cicerite
+
+#History

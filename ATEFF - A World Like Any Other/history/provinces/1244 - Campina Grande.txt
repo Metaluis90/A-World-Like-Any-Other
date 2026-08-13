@@ -1,0 +1,23 @@
+# County Title
+title = c_campina_grande
+
+# Settlements
+max_settlements = 7
+
+b_campina_grande_PBA = castle
+b_queimadas_PBA = city
+b_fagundes_PBA = temple
+# b_puxinana_PBA = castle
+# b_campina_grande_5_PBA = city
+# b_campina_grande_6_PBA = temple
+# b_campina_grande_7_PBA = castle
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_campina_grande_PBA = castle }
+	#2666.1.1 = { b_fagundes_PBA = temple }

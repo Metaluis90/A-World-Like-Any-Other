@@ -1,0 +1,22 @@
+# County Title
+title = c_sousa
+
+# Settlements
+max_settlements = 6
+
+b_sousa_PBA = tribal
+# b_aparecida_PBA = city
+# b_santa_cruz_PBA = temple
+# b_sao_francisco_PBA = castle
+# b_vieiropolis_PBA = city
+# b_lastro_PBA = temple
+
+# Misc
+culture=placeholder
+religion=placeholder
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_sousa_PBA = castle }
+	#2666.1.1 = { b_santa_cruz_PBA = temple }

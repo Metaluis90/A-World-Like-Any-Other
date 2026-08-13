@@ -871,9 +871,9 @@ e_nordeste = {
 
 				b_bayeux_PBA = {}
 				b_santa_rita_PBA = {}
-				b_cabedelo_PBA = {}
 				b_lucena_PBA = {}
-				b_bayeux_5_PBA = {}
+				b_nossa_senhora_do_livramento_PBA = {}
+				b_bebelandia_PBA = {}
 				b_bayeux_6_PBA = {}
 				b_bayeux_7_PBA = {}
 				b_bayeux_8_PBA = {}
@@ -885,12 +885,12 @@ e_nordeste = {
 
 				b_joao_pessoa_PBA = {}
 				b_conde_PBA = {}
-				b_pessoa_3_PBA = {}
-				b_pessoa_4_PBA = {}
-				b_pessoa_5_PBA = {}
-				b_pessoa_6_PBA = {}
-				b_pessoa_7_PBA = {}
-				b_pessoa_8_PBA = {}
+				b_cabedelo_PBA = {}
+				b_cruz_das_armas_PBA = {}
+				b_mangabeira_PBA = {}
+				b_jacuma_PBA = {}
+				b_manaira_PESSOA_PBA = {}
+				b_gramame_PBA = {}
 			}
 
 			c_alhandra = {

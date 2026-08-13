@@ -1,0 +1,20 @@
+# County Title
+title = c_itabaiana
+
+# Settlements
+max_settlements = 4
+
+b_itabaiana_PBA = castle
+# b_inga_PBA = city
+b_mogeiro_PBA = temple
+# b_itatuba_PBA = castle
+
+# Misc
+culture=sertanista
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_itabaiana_PBA = castle }
+	#2666.1.1 = { b_mogeiro_PBA = temple }

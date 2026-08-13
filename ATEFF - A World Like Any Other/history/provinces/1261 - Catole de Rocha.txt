@@ -1,0 +1,21 @@
+# County Title
+title = c_catole_do_rocha
+
+# Settlements
+max_settlements = 4
+
+b_catole_do_rocha_PBA = tribal
+# b_riacho_dos_cavalos_PBA = city
+# b_jerico_PBA = temple
+# b_brejo_dos_santos_PBA = castle
+
+# Misc
+
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_catole_do_rocha_PBA = castle }
+	#2666.1.1 = { b_jerico_PBA = temple }

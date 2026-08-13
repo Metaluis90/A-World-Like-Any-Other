@@ -1,0 +1,20 @@
+# County Title
+title = c_umbuzeiro
+
+# Settlements
+max_settlements = 4
+
+b_umbuzeiro_PBA = castle
+# b_boqueirao_PBA = city
+# b_aroeiras_PBA = temple
+# b_barra_de_santana_PBA = castle
+
+# Misc
+culture=sertanista
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_umbuzeiro_PBA = castle }
+	#2666.1.1 = { b_aroeiras_PBA = temple }

@@ -1,0 +1,16 @@
+# County Title
+title = c_alhandra
+
+# Settlements
+max_settlements = 4
+
+b_alhandra_PBA = castle
+# b_pedras_de_fogo_PBA = city
+# b_caapora_PBA = temple
+# b_pitimbu_PBA = castle
+
+# Misc
+culture=natalense
+religion=cicerite
+
+#History

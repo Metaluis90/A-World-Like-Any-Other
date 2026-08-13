@@ -1,0 +1,18 @@
+# County Title
+title = c_jacarau
+
+# Settlements
+max_settlements = 3
+
+b_jacarau_PBA = tribal
+# b_belem_PBA = city
+# b_caicara_PBA = temple
+
+# Misc
+culture=potiguara
+religion=jurema
+
+
+#History
+
+#in case we don't want it to be tribal anymore:

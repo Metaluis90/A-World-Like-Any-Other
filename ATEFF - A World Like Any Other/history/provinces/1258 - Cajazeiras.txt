@@ -1,0 +1,21 @@
+# County Title
+title = c_cajazeiras
+
+# Settlements
+max_settlements = 5
+
+b_cajazeiras_PBA = tribal
+# b_sao_jose_de_piranhas_PBA = city
+# b_uirauna_PBA = temple
+# b_sao_joao_do_rio_do_peixe_PBA = castle
+# b_bonito_de_santa_fe_PBA = city
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_cajazeiras_PBA = castle }
+	#2666.1.1 = { b_uirauna_PBA = temple }

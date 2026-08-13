@@ -1,0 +1,19 @@
+# County Title
+title = c_brejo_do_cruz
+
+# Settlements
+max_settlements = 3
+
+b_brejo_do_cruz_PBA = tribal
+# b_sao_bento_PBA = city
+# b_sao_jose_do_brejo_do_cruz_PBA = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_brejo_do_cruz_PBA = castle }
+	#2666.1.1 = { b_sao_jose_do_brejo_do_cruz_PBA = temple }

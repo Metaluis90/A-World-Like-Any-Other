@@ -1,0 +1,20 @@
+# County Title
+title = c_solanea
+
+# Settlements
+max_settlements = 4
+
+b_araruna_PBA = castle
+b_solanea_PBA = city
+# b_bananeiras_PBA = temple
+# b_tacima_PBA = castle
+
+# Misc
+culture=placeholder
+religion=placeholder
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_solanea_PBA = castle }
+	#2666.1.1 = { b_bananeiras_PBA = temple }

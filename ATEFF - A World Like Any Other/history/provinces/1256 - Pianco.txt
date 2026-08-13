@@ -1,0 +1,19 @@
+# County Title
+title = c_pianco
+
+# Settlements
+max_settlements = 3
+
+b_pianco_PBA = tribal
+# b_catingueira_PBA = city
+# b_olho_dagua_PBA = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_pianco_PBA = castle }
+	#2666.1.1 = { b_olho_dagua_PBA = temple }

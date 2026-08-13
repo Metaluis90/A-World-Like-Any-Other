@@ -1,0 +1,19 @@
+# County Title
+title = c_alagoas
+
+# Settlements
+max_settlements = 5
+
+b_alagoa_grande_PBA = castle
+# b_esperanca_PBA = city
+b_alagoa_nova_PBA = temple
+# b_areia_PBA = temple
+# b_remigio_PBA = city
+
+# Misc
+culture=sertanista
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:

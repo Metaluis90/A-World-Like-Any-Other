@@ -1,0 +1,20 @@
+# County Title
+title = c_teixeira
+
+# Settlements
+max_settlements = 4
+
+b_teixeira_PBA = tribal
+# b_princesa_isabel_PBA = city
+# b_tavares_PBA = temple
+# b_manaira_PBA = castle
+
+# Misc
+culture= xukuru
+religion= jurema
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_teixeira_PBA = castle }
+	#2666.1.1 = { b_tavares_PBA = temple }

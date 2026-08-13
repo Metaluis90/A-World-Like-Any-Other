@@ -1,0 +1,19 @@
+# County Title
+title = c_santa_luzia
+
+# Settlements
+max_settlements = 3
+
+b_santa_luzia_PBA = tribal
+# b_sao_mamede_PBA = city
+# b_junco_do_serido_PBA = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_santa_luzia_PBA = castle }
+	#2666.1.1 = { b_junco_do_serido_PBA = temple }

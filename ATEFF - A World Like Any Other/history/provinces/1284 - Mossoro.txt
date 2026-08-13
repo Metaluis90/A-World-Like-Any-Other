@@ -4,7 +4,7 @@ title = c_mossoro
 # Settlements
 max_settlements = 6
 
-b_mossoro_RGN = castñe
+b_mossoro_RGN = castle
 b_areia_branca_RGN = city
 b_barauna_RGN = temple
 # b_tibau_RGN = castle

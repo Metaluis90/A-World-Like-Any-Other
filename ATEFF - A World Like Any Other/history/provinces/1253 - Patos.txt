@@ -1,0 +1,22 @@
+# County Title
+title = c_patos
+
+# Settlements
+max_settlements = 6
+
+b_patos_PBA = tribal
+# b_sao_jose_de_espinharas_PBA = city
+# b_santa_terezinha_PBA = temple
+# b_sao_jose_do_bonfim_PBA = castle
+# b_quixaba_PBA = city
+# b_passagem_PBA = temple
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_patos_PBA = castle }
+	#2666.1.1 = { b_santa_terezinha_PBA = temple }

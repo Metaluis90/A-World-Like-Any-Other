@@ -1,0 +1,20 @@
+# County Title
+title = c_itaporanga
+
+# Settlements
+max_settlements = 4
+
+b_itaporanga_PBA = tribal
+# b_conceicao_PBA = city
+# b_santana_de_mangueira_PBA = temple
+# b_ibiara_PBA = castle
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_itaporanga_PBA = castle }
+	#2666.1.1 = { b_santana_de_mangueira_PBA = temple }

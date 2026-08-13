@@ -1,0 +1,16 @@
+# County Title
+title = c_sape
+
+# Settlements
+max_settlements = 4
+
+b_sape_PBA = castle
+# b_mari_PBA = city
+b_cruz_do_espirito_santo_PBA = temple
+# b_caldas_brandao_PBA = castle
+
+# Misc
+culture=seridoense
+religion=cicerite
+
+#History
