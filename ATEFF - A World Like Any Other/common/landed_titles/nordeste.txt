@@ -5,13 +5,13 @@ e_nordeste = {
 		capital = 1264 #placeholder
 
 	k_potiguaria = {
-		color = { 111 52 180 }
+		color = { 103 46 223 }
 		color2 = { 255 255 255 }
 		
 		capital = 1264
 
 		d_mossoro = {
-			color = { 255 180 127 }
+			color = { 135 43 215 }
 			color2 = { 255 255 255 }
 			
 			capital = 1284
@@ -60,7 +60,7 @@ e_nordeste = {
 		}
 
 		d_campo_grande = {
-			color = { 255 235 127 }
+			color = { 116 57 226 }
 			color2 = { 255 255 255 }
 			capital = 1278
 
@@ -136,7 +136,7 @@ e_nordeste = {
 		}
 
 		d_sao_miguel = {
-			color = { 127 255 143 }
+			color = { 125 44 234 }
 			color2 = { 255 255 255 }
 			capital = 1281
 
@@ -208,7 +208,7 @@ e_nordeste = {
 			capital = 1273
 
 			c_serido = {
-				color = { 97 62 239 }
+				color = { 74 38 219 }
 				color2 = { 255 255 255 }
 
 				b_cruzeta_RGN = {}
@@ -256,7 +256,7 @@ e_nordeste = {
 			capital = 1271
 
 			c_tangara = {
-				color = { 67 8 244 }
+				color = { 110 64 238 }
 				color2 = { 255 255 255 }
 
 				b_tangara_RGN = {}
@@ -325,7 +325,7 @@ e_nordeste = {
 			capital = 1264
 
 			c_natal = {
-				color = { 34 3 205 }
+				color = { 56 27 204 }
 				color2 = { 255 255 255 }
 
 				b_natal_RGN = {}
@@ -418,5 +418,496 @@ e_nordeste = {
 				b_vila_flor_RGN = {}
 			}
 		}
+	}
+	k_paraiba = {
+		color = { 91 71 203 }
+		color2 = { 255 255 255 }
+		
+		capital = 1234
+
+		d_sousa = {
+			color = { 255 235 127 }
+			color2 = { 255 255 255 }
+			capital = 1259
+
+			c_cajazeiras = {
+				color = { 102 56 255 }
+				color2 = { 255 255 255 }
+
+				b_cajazeiras_PBA = {}
+				b_sao_jose_de_piranhas_PBA = {}
+				b_uirauna_PBA = {}
+				b_sao_joao_do_rio_do_peixe_PBA = {}
+				b_bonito_de_santa_fe_PBA = {}
+				b_santa_helena_PBA = {}
+				b_triunfo_PBA = {}
+				b_bom_jesus_PBA = {}
+			#	b_cachoeira_dos_indios_PBA = {}
+			#	b_monte_horebe_PBA = {}
+			#	b_poco_de_jose_de_moura_PBA = {}
+			#	b_bernardino_batista_PBA = {}
+			#	b_joca_claudino_PBA = {}
+			#	b_poco_dantas_PBA = {}
+			#	b_marizopolis_PBA = {}
+			}
+
+			c_sousa = {
+				color = { 75 50 255 }
+				color2 = { 255 255 255 }
+
+				b_sousa_PBA = {}
+				b_aparecida_PBA = {}
+				b_santa_cruz_PBA = {}
+				b_sao_francisco_PBA = {}
+				b_vieiropolis_PBA = {}
+				b_lastro_PBA = {}
+				b_sousa_7_PBA = {}
+				b_sousa_8_PBA = {}
+			}
+
+			c_catole_do_rocha = {
+				color = { 63 11 234 }
+				color2 = { 255 255 255 }
+
+				b_catole_do_rocha_PBA = {}
+				b_riacho_dos_cavalos_PBA = {}
+				b_jerico_PBA = {}
+				b_brejo_dos_santos_PBA = {}
+				b_bom_sucesso_PBA = {}
+				b_lagoa_PBA = {}
+				b_mato_grosso_PBA = {}
+			#	b_catole_do_rocha_8_PBA = {}
+			}
+
+			c_brejo_do_cruz = {
+				color = { 21 8 181 }
+				color2 = { 255 255 255 }
+
+				b_brejo_do_cruz_PBA = {}
+				b_sao_bento_PBA = {}
+				b_sao_jose_do_brejo_do_cruz_PBA = {}
+				b_belem_do_brejo_do_cruz_PBA = {}
+				b_brejo_do_cruz_5_PBA = {}
+				b_brejo_do_cruz_6_PBA = {}
+				b_brejo_do_cruz_7_PBA = {}
+				b_brejo_do_cruz_8_PBA = {}
+			}
+
+			c_pombal = {
+				color = { 70 13 173 }
+				color2 = { 255 255 255 }
+
+				b_pombal_PBA = {}
+				b_paulista_PBA = {}
+				b_sao_domingos_PBA = {}
+				b_malta_PBA = {}
+				b_vista_serrana_PBA = {}
+				b_sao_bentinho_PBA = {}
+				b_condado_PBA = {}
+				b_cajazeirinhas_PBA = {}
+			}
+
+			c_coremas = {
+				color = { 199 173 247 }
+				color2 = { 255 255 255 }
+
+				b_coremas_PBA = {}
+				b_aguiar_PBA = {}
+				b_igaracy_PBA = {}
+				b_sao_jose_da_lagoa_tapada_PBA = {}
+				b_nazarezinho_PBA = {}
+				b_carrapateira_PBA = {}
+				b_coremas_7_PBA = {}
+				b_coremas_8_PBA = {}
+			}
+
+		}
+
+		d_pianco = {
+			color = { 127 255 255 }
+			color2 = { 255 255 255 }
+			capital = 1256
+
+			c_itaporanga = {
+				color = { 66 7 244 }
+				color2 = { 255 255 255 }
+
+				b_itaporanga_PBA = {}
+				b_conceicao_PBA = {}
+				b_santana_de_mangueira_PBA = {}
+				b_ibiara_PBA = {}
+				b_diamante_PBA = {}
+				b_boa_ventura_PBA = {}
+				b_pedra_branca_PBA = {}
+			#	b_curral_velho_PBA = {}
+			#	b_serra_grande_PBA = {}
+			#	b_sao_jose_de_caiana_PBA = {}
+			#	b_santa_ines_PBA = {}
+			}
+
+			c_pianco = {
+				color = { 99 19 247 }
+				color2 = { 255 255 255 }
+
+				b_pianco_PBA = {}
+				b_catingueira_PBA = {}
+				b_olho_dagua_PBA = {}
+				b_santana_dos_garrotes_PBA = {}
+				b_emas_PBA = {}
+				b_nova_olinda_PBA = {}
+				b_pianco_7_PBA = {}
+				b_pianco_8_PBA = {}
+			}
+
+			c_patos = {
+				color = { 139 83 244 }
+				color2 = { 255 255 255 }
+
+				b_patos_PBA = {}
+				b_sao_jose_de_espinharas_PBA = {}
+				b_santa_terezinha_PBA = {}
+				b_sao_jose_do_bonfim_PBA = {}
+				b_quixaba_PBA = {}
+				b_passagem_PBA = {}
+				b_cacimba_de_areia_PBA = {}
+				b_areia_de_baraunas_PBA = {}
+			}
+
+			c_teixeira = {
+				color = { 79 55 239 }
+				color2 = { 255 255 255 }
+
+				b_teixeira_PBA = {}
+				b_princesa_isabel_PBA = {}
+				b_tavares_PBA = {}
+				b_manaira_PBA = {}
+				b_agua_branca_PBA = {}
+				b_sao_jose_de_princesa_PBA = {}
+				b_matureia_PBA = {}
+				b_mae_dagua_PBA = {}
+			#	b_imaculada_PBA = {}
+			#	b_juru_PBA = {}
+			}
+
+		}
+
+		d_picui = {
+			color = { 127 255 199 }
+			color2 = { 255 255 255 }
+			capital = 1250
+
+			c_santa_luzia = {
+				color = { 82 46 244 }
+				color2 = { 255 255 255 }
+
+				b_santa_luzia_PBA = {}
+				b_sao_mamede_PBA = {}
+				b_junco_do_serido_PBA = {}
+				b_varzea_PBA = {}
+				b_sao_jose_do_sabugi_PBA = {}
+				b_santa_luzia_6_PBA = {}
+				b_santa_luzia_7_PBA = {}
+				b_santa_luzia_8_PBA = {}
+			}
+
+			c_picui = {
+				color = { 31 12 249 }
+				color2 = { 255 255 255 }
+
+				b_picui_PBA = {}
+				b_pedra_lavrada_PBA = {}
+				b_cubati_PBA = {}
+				b_frei_martinho_PBA = {}
+				b_nova_palmeira_PBA = {}
+				b_sao_vicente_do_serido_PBA = {}
+				b_picui_7_PBA = {}
+				b_picui_8_PBA = {}
+			}
+
+			c_cuite = {
+				color = { 84 24 224 }
+				color2 = { 255 255 255 }
+
+				b_cuite_PBA = {}
+				b_soledade_PBA = {}
+				b_barra_de_santa_rosa_PBA = {}
+				b_pocinhos_PBA = {}
+				b_nova_floresta_PBA = {}
+				b_olivedos_PBA = {}
+				b_algodao_de_jandaira_PBA = {}
+				b_damiao_PBA = {}
+			#	b_sossego_PBA = {}
+			#	b_barauna_PBA = {}
+			}
+
+		}
+
+		d_borborema = {
+			color = { 127 190 134 }
+			color2 = { 255 255 255 }
+			capital = 1247
+
+			c_taperoa = {
+				color = { 62 47 181 }
+				color2 = { 255 255 255 }
+
+				b_taperoa_PBA = {}
+				b_desterro_PBA = {}
+				b_livramento_PBA = {}
+				b_sao_jose_dos_cordeiros_PBA = {}
+				b_cacimbas_PBA = {}
+				b_salgadinho_PBA = {}
+				b_assuncao_PBA = {}
+				b_taperoa_8_PBA = {}
+			}
+
+			c_sume = {
+				color = { 51 62 242 }
+				color2 = { 255 255 255 }
+
+				b_sume_PBA = {}
+				b_serra_branca_PBA = {}
+				b_prata_PBA = {}
+				b_coxixola_PBA = {}
+				b_amparo_PBA = {}
+				b_ouro_velho_PBA = {}
+				b_sume_7_PBA = {}
+				b_sume_8_PBA = {}
+			}
+
+			c_monteiro = {
+				color = { 3 15 239 }
+				color2 = { 255 255 255 }
+
+				b_monteiro_PBA = {}
+				b_sao_sebastiao_do_umbuzeiro_PBA = {}
+				b_sao_joao_do_tigre_PBA = {}
+				b_camalau_PBA = {}
+				b_zabele_PBA = {}
+				b_monteiro_6_PBA = {}
+				b_monteiro_7_PBA = {}
+				b_monteiro_8_PBA = {}
+			}
+
+			c_cariri = {
+				color = { 69 52 226 }
+				color2 = { 255 255 255 }
+
+				b_sao_joao_do_cariri_PBA = {}
+				b_cabaceiras_PBA = {}
+				b_boa_vista_PBA = {}
+				b_gurjao_PBA = {}
+				b_sao_domingos_do_cariri_PBA = {}
+				b_caraubas_PBA = {}
+				b_congo_PBA = {}
+				b_barra_de_sao_miguel_PBA = {}
+				b_santo_andre_PBA = {}
+			#	b_parari_PBA = {}
+			}
+
+		}
+
+		d_solanea = {
+			color = { 255 180 127 }
+			color2 = { 255 255 255 }
+			capital = 1241
+
+			c_solanea = {
+				color = { 101 82 242 }
+				color2 = { 255 255 255 }
+
+				b_solanea_PBA = {}
+				b_araruna_PBA = {}
+				b_bananeiras_PBA = {}
+				b_tacima_PBA = {}
+				b_cacimba_de_dentro_PBA = {}
+				b_dona_ines_PBA = {}
+				b_riachao_PBA = {}
+				b_arara_PBA = {}
+			#	b_serraria_PBA = {}
+			#	b_borborema_PBA = {}
+			#	b_casserengue_PBA = {}
+			}
+
+			c_guarabira = {
+				color = { 65 53 158 }
+				color2 = { 255 255 255 }
+
+				b_guarabira_PBA = {}
+				b_aracagi_PBA = {}
+				b_pirpirituba_PBA = {}
+				b_alagoinha_PBA = {}
+				b_mulungu_PBA = {}
+				b_cuitegi_PBA = {}
+				b_piloezinhos_PBA = {}
+				b_guarabira_8_PBA = {}
+			}
+
+			c_jacarau = {
+				color = { 57 41 181 }
+				color2 = { 255 255 255 }
+
+				b_jacarau_PBA = {}
+				b_belem_PBA = {}
+				b_caicara_PBA = {}
+				b_lagoa_de_dentro_PBA = {}
+				b_pedro_regis_PBA = {}
+				b_logradouro_PBA = {}
+				b_duas_estradas_PBA = {}
+				b_serra_da_raiz_PBA = {}
+				b_curral_de_cima_PBA = {}
+			#	b_sertaozinho_PBA = {}
+			}
+
+		}
+
+		d_campina_grande = {
+			color = { 255 127 127 }
+			color2 = { 255 255 255 }
+			capital = 1244
+
+			c_alagoas = {
+				color = { 65 59 112 }
+				color2 = { 255 255 255 }
+
+				b_alagoa_grande_PBA = {}
+				b_alagoa_nova_PBA = {}
+				b_areia_PBA = {}
+				b_esperanca_PBA = {}
+				b_remigio_PBA = {}
+				b_lagoa_seca_PBA = {}
+				b_massaranduba_PBA = {}
+			#	b_serra_redonda_PBA = {}
+			#	b_areial_PBA = {}
+			#	b_montadas_PBA = {}
+			#	b_sao_sebastiao_de_lagoa_de_roca_PBA = {}
+			#	b_matinhas_PBA = {}
+			#	b_riachao_do_bacamarte_PBA = {}
+			#	b_piloes_PBA = {}
+			}
+
+			c_campina_grande = {
+				color = { 28 31 237 }
+				color2 = { 255 255 255 }
+
+				b_campina_grande_PBA = {}
+				b_queimadas_PBA = {}
+				b_fagundes_PBA = {}
+				b_puxinana_PBA = {}
+				b_campina_grande_5_PBA = {}
+				b_campina_grande_6_PBA = {}
+				b_campina_grande_7_PBA = {}
+				b_campina_grande_8_PBA = {}
+			}
+
+			c_umbuzeiro = {
+				color = { 109 119 255 }
+				color2 = { 255 255 255 }
+
+				b_umbuzeiro_PBA = {}
+				b_boqueirao_PBA = {}
+				b_aroeiras_PBA = {}
+				b_barra_de_santana_PBA = {}
+				b_gado_bravo_PBA = {}
+				b_caturite_PBA = {}
+				b_natuba_PBA = {}
+				b_riacho_de_santo_antonio_PBA = {}
+			#	b_alcantil_PBA = {}
+			#	b_santa_cecilia_PBA = {}
+			}
+
+			c_itabaiana = {
+				color = { 24 36 206 }
+				color2 = { 255 255 255 }
+
+				b_itabaiana_PBA = {}
+				b_inga_PBA = {}
+				b_mogeiro_PBA = {}
+				b_itatuba_PBA = {}
+				b_salgado_de_sao_felix_PBA = {}
+				b_gurinhém_PBA = {}
+				b_juarez_tavora_PBA = {}
+				b_sao_jose_dos_ramos_PBA = {}
+			}
+
+		}
+
+		d_paraiba = {
+			color = { 216 127 255 }
+			color2 = { 255 255 255 }
+			capital = 1234
+
+			c_mamanguape = {
+				color = { 74 52 239 }
+				color2 = { 255 255 255 }
+
+				b_mamanguape_PBA = {}
+				b_rio_tinto_PBA = {}
+				b_marcacao_PBA = {}
+				b_baia_da_traicao_PBA = {}
+				b_mataraca_PBA = {}
+				b_itapororoca_PBA = {}
+				b_cuite_de_mamanguape_PBA = {}
+				b_capim_PBA = {}
+			}
+
+			c_sape = {
+				color = { 130 117 249 }
+				color2 = { 255 255 255 }
+
+				b_sape_PBA = {}
+				b_mari_PBA = {}
+				b_cruz_do_espirito_santo_PBA = {}
+				b_caldas_brandao_PBA = {}
+				b_riachao_do_poco_PBA = {}
+				b_sobrado_PBA = {}
+				b_sape_7_PBA = {}
+				b_sape_8_PBA = {}
+			}
+
+			c_bayeux = {
+				color = { 56 38 193 }
+				color2 = { 255 255 255 }
+
+				b_bayeux_PBA = {}
+				b_santa_rita_PBA = {}
+				b_cabedelo_PBA = {}
+				b_lucena_PBA = {}
+				b_bayeux_5_PBA = {}
+				b_bayeux_6_PBA = {}
+				b_bayeux_7_PBA = {}
+				b_bayeux_8_PBA = {}
+			}
+
+			c_pessoa = {
+				color = { 27 4 194 }
+				color2 = { 255 255 255 }
+
+				b_joao_pessoa_PBA = {}
+				b_conde_PBA = {}
+				b_pessoa_3_PBA = {}
+				b_pessoa_4_PBA = {}
+				b_pessoa_5_PBA = {}
+				b_pessoa_6_PBA = {}
+				b_pessoa_7_PBA = {}
+				b_pessoa_8_PBA = {}
+			}
+
+			c_alhandra = {
+				color = { 100 89 191 }
+				color2 = { 255 255 255 }
+
+				b_alhandra_PBA = {}
+				b_pedras_de_fogo_PBA = {}
+				b_caapora_PBA = {}
+				b_pitimbu_PBA = {}
+				b_juripiranga_PBA = {}
+				b_pilar_PBA = {}
+				b_sao_miguel_de_taipu_PBA = {}
+				b_alhandra_8_PBA = {}
+			}
+
+		}
+
 	}
 }
