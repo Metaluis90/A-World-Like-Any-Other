@@ -1,0 +1,21 @@
+# County Title
+title = c_antao
+
+# Settlements
+max_settlements = 5
+
+b_vitoria_de_santo_antao_PE = tribal
+# b_pombos_PE = city
+# b_cha_grande_PE = temple
+# b_antao_4_PE = castle
+# b_antao_5_PE = city
+
+# Misc
+culture=sertanista
+religion=evangelical
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_vitoria_de_santo_antao_PE = castle }
+	#2666.1.1 = { b_cha_grande_PE = temple }

@@ -1,0 +1,11 @@
+2310.1.1 = {
+	liege = k_pernambuco
+}
+
+2355.5.25 = {
+	liege = d_francisca
+}
+
+2365.5.25 = {
+	liege = k_pernambuco # Remains with Pernambuco after Constantino's rebellion
+}

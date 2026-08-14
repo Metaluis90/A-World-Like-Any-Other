@@ -1,0 +1,23 @@
+# County Title
+title = c_recife
+
+# Settlements
+max_settlements = 7
+
+b_recife_PE = tribal
+# b_olinda_PE = city
+# b_paulista_PE = temple
+# b_jaboatao_dos_guararapes_PE = castle
+# b_camaragibe_PE = city
+# b_abreu_e_lima_PE = temple
+# b_recife_7_PE = castle
+
+# Misc
+culture=recifolindense
+religion=candomble
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_recife_PE = castle }
+	#2666.1.1 = { b_paulista_PE = temple }

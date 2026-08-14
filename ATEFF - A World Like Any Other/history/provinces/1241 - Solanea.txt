@@ -10,8 +10,8 @@ b_solanea_PBA = city
 # b_tacima_PBA = castle
 
 # Misc
-culture=placeholder
-religion=placeholder
+culture=seridoense
+religion=cicerite
 
 #History
 

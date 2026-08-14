@@ -1,0 +1,21 @@
+# County Title
+title = c_tamandare
+
+# Settlements
+max_settlements = 5
+
+b_tamandare_PE = tribal
+# b_rio_formoso_PE = city
+# b_sirinhaem_PE = temple
+# b_barreiros_PE = castle
+# b_sao_jose_da_coroa_grande_PE = city
+
+# Misc
+culture=recifolindense
+religion=candomble
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_tamandare_PE = castle }
+	#2666.1.1 = { b_sirinhaem_PE = temple }

@@ -1,0 +1,12 @@
+2310.1.1 = {
+	liege = k_pernambuco
+}
+
+2362.2.10 = {
+	holder = 3505 # Cassiano Belchior
+}
+
+2365.3.18 = {
+	holder = 3517 # Marco Cavalcanti, Syndic of Recife
+	liege = 0 # Independence of the Republic of Recife
+}

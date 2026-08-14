@@ -1,0 +1,21 @@
+# County Title
+title = c_itamaraca
+
+# Settlements
+max_settlements = 5
+
+b_ilha_de_itamaraca_PE = tribal
+# b_igarassu_PE = city
+# b_itapissuma_PE = temple
+# b_aracoiaba_PE = castle
+# b_itamaraca_5_PE = city
+
+# Misc
+culture=recifolindense
+religion=candomble
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_ilha_de_itamaraca_PE = castle }
+	#2666.1.1 = { b_itapissuma_PE = temple }

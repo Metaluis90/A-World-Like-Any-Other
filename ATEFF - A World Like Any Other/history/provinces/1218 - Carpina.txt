@@ -1,0 +1,22 @@
+# County Title
+title = c_carpina
+
+# Settlements
+max_settlements = 6
+
+b_carpina_PE = tribal
+# b_limoeiro_PE = city
+# b_bom_jardim_PE = temple
+# b_joao_alfredo_PE = castle
+# b_nazare_da_mata_PE = city
+# b_lagoa_do_carro_PE = temple
+
+# Misc
+culture=recifolindense
+religion=candomble
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_carpina_PE = castle }
+	#2666.1.1 = { b_bom_jardim_PE = temple }

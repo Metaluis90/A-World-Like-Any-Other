@@ -1,0 +1,22 @@
+# County Title
+title = c_garanhuns
+
+# Settlements
+max_settlements = 6
+
+b_garanhuns_PE = tribal
+# b_bom_conselho_PE = city
+# b_correntes_PE = temple
+# b_palmeirina_PE = castle
+# b_canhotinho_PE = city
+# b_caetes_PE = temple
+
+# Misc
+culture=sertanista
+religion=evangelical
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_garanhuns_PE = castle }
+	#2666.1.1 = { b_correntes_PE = temple }

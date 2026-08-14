@@ -1,0 +1,22 @@
+# County Title
+title = c_palmares
+
+# Settlements
+max_settlements = 6
+
+b_palmares_PE = tribal
+# b_agua_preta_PE = city
+# b_catende_PE = temple
+# b_maraial_PE = castle
+# b_xexeu_PE = city
+# b_joaquim_nabuco_PE = temple
+
+# Misc
+culture=recifolindense
+religion=candomble
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_palmares_PE = castle }
+	#2666.1.1 = { b_catende_PE = temple }

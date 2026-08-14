@@ -1,0 +1,22 @@
+# County Title
+title = c_petrolina
+
+# Settlements
+max_settlements = 6
+
+b_petrolina_PE = tribal
+# b_petrolina_2_PE = city
+# b_petrolina_3_PE = temple
+# b_petrolina_4_PE = castle
+# b_petrolina_5_PE = city
+# b_petrolina_6_PE = temple
+
+# Misc
+culture=sertanista
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_petrolina_PE = castle }
+	#2666.1.1 = { b_petrolina_3_PE = temple }

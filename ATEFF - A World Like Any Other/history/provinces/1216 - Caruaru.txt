@@ -1,0 +1,23 @@
+# County Title
+title = c_caruaru
+
+# Settlements
+max_settlements = 7
+
+b_caruaru_PE = tribal
+# b_belo_jardim_PE = city
+# b_brejo_da_madre_de_deus_PE = temple
+# b_sao_caetano_PE = castle
+# b_tacaimbo_PE = city
+# b_jatauba_PE = temple
+# b_pocao_PE = castle
+
+# Misc
+culture=sertanista
+religion=evangelical
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_caruaru_PE = castle }
+	#2666.1.1 = { b_brejo_da_madre_de_deus_PE = temple }

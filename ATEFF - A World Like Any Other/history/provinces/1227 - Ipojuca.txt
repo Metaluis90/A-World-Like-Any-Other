@@ -1,0 +1,22 @@
+# County Title
+title = c_ipojuca
+
+# Settlements
+max_settlements = 6
+
+b_ipojuca_PE = tribal
+# b_cabo_de_santo_agostinho_PE = city
+# b_ipojuca_3_PE = temple
+# b_ipojuca_4_PE = castle
+# b_ipojuca_5_PE = city
+# b_ipojuca_6_PE = temple
+
+# Misc
+culture=recifolindense
+religion=candomble
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_ipojuca_PE = castle }
+	#2666.1.1 = { b_ipojuca_3_PE = temple }

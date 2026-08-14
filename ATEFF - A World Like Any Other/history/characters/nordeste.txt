@@ -403,3 +403,256 @@
 }
 
 	### End of the Belchioringian Dynasty ###
+	
+	###  Recife Republic  ###
+	### Cavalcanti Family ###
+3517={
+	name="Marco"
+	dynasty=2 #Cavalcanti
+	dna="0chki0gb0e0"
+	disallow_random_traits=yes
+	properties="wa0baf000000000000000000000000000000"
+	religion=camdomble
+	culture=recifolindense
+	trait=fortune_builder
+	trait=temperate
+	trait=diligent
+	trait=wroth
+	
+	2318.6.12={birth=yes}
+	2340.7.10={add_spouse=3518}
+	2400.1.1={death=yes}
+	#holds d_recife and c_recife
+}
+
+3518={
+	name="Ana Maria" #spouse of Marco Cavalcanti
+	female=yes
+	dynasty=0
+	religion=camdomble
+	culture=recifolindense
+	trait=detached_priest	
+	trait=sympathy_christendom
+	trait=kind
+	
+	2320.9.10={birth=yes}
+	2340.7.10={add_spouse=3517}
+	2400.1.1={death=yes}
+}
+
+3519={
+	name="Lucas"
+	dynasty=2 #Cavalcanti
+	culture=recifolindense
+	religion=camdomble
+	father=3517
+	mother=3518
+	trait=thrifty_clerk
+	2343.5.10={birth=yes}
+	2400.1.1={death=yes}
+}
+	### Albuquerque Family ###
+3520={
+	name="Lúcio"
+	dynasty=3 #Albuquerque
+	culture=salvadorense
+	religion=camdomble
+	trait=skilled_tactician
+	trait=envious
+	trait=diligent
+	trait=stubborn
+	disallow_random_traits=yes
+	diplomacy=5
+	martial=5
+	stewardship=3
+	learning=4
+	intrigue=5
+	2321.4.5={
+		birth=yes
+		culture=recifolindense
+	}
+	2345.2.4={add_spouse=3521}
+	2400.1.1={death=yes}
+	#holder of the City of Olinda
+}
+3521={
+	name="Catarina"
+	female=yes
+	dynasty=0
+	culture=recifolindense
+	religion=camdomble
+	trait=flamboyant_schemer
+	2323.11.23={birth=yes}
+	2345.2.4={add_spouse=3520}
+	2400.1.1={death=yes}
+}
+3522={
+	name="Beatriz"
+	dynasty=3 #Albuquerque
+	female=yes
+	father=3520
+	mother=3521
+	culture=salvadorense
+	religion=camdomble
+	trait=martial_cleric
+	trait=groomed
+	2346.12.25={
+		birth=yes
+		culture=recifolindense
+	}
+	2400.1.1={death=yes}
+}
+
+	### Arraes Family ###
+	
+3523={	
+	name="Camilo"
+	dynasty=4 #Arraes
+	culture=sertanista
+	religion=camdomble
+	disallow_random_traits=yes
+	trait=midas_touched
+	trait=greedy
+	trait=arbitrary
+	trait=content
+	trait=kind
+	2315.12.3={
+		birth=yes
+		culture=recifolindense
+	}
+	2333.3.3={add_spouse=3524	}
+	2400.1.1={death=yes}
+	#holds Suape
+}
+
+3524={
+	name="Marília"
+	dynasty=0
+	female=yes
+	culture=recifolindense
+	religion=camdomble
+	trait=underhanded_rogue
+	2316.2.3={birth=yes	}
+	2333.3.3={add_spouse=3523}
+	2400.1.1={death=yes}
+}
+
+3525={
+	name="Janaina"
+	dynasty=4 #Arraes
+	female=yes
+	father=3523
+	mother=3524
+	culture=sertanista
+	religion=camdomble
+	trait=scholarly_theologian
+	trait=shrewd
+	trait=fair
+	2335.1.1={birth=yes culture=recifolindense}
+	2400.1.1={death=yes}
+}
+
+3526={
+	name="João"
+	dynasty=4 #Arraes
+	father=3523
+	mother=3524
+	culture=recifolindense
+	religion=camdomble
+	trait=tough_soldier
+	trait=ambitious
+	trait=uncouth
+	2339.2.15={birth=yes}
+	2400.1.1={death=yes}
+}
+
+3527={
+	name="Jeremias"
+	dynasty=4 #Arraes
+	father=3523
+	mother=3524
+	culture=recifolindense
+	religion=camdomble
+	trait=thrifty_clerk
+	trait=temperate
+	trait=sturdy
+	2342.7.5={birth=yes}
+	2400.1.1={death=yes}
+}
+
+	### Lira Family ###
+	
+3528={
+	name="Severino"
+	dynasty=5 #Lira
+	culture=recifolindense
+	religion=cicerite
+	trait=grey_eminence
+	trait=gregarious
+	trait=ambitious
+	trait=patient
+	disallow_random_traits=yes
+	2335.5.17={birth=yes}
+	2367.1.1={add_spouse=3529}
+	2400.1.1={death=yes}
+	#holds itamaraca
+}
+
+3529={
+	name="Milena"
+	female=yes
+	dynasty=0
+	culture=sertanista
+	religion=cicerite
+	trait=grey_eminence
+	2341.1.1={birth=yes}
+	2367.1.1={add_spouse=3528}
+	2400.1.1={death=yes}
+}
+
+	### Ferreira Family ###
+	
+3530={
+	name="Lucrécio"
+	dynasty=6 #Ferreira
+	culture=recifolindense
+	religion=evangelical
+	trait=flamboyant_schemer
+	trait=shrewd
+	trait=proud
+	trait=charitable
+	disallow_random_traits=yes
+	
+	2342.1.30={birth=yes}
+	2400.1.1={death=yes}
+	#only patrician to not be landed
+}
+
+	### End of Recife Republic ###
+	
+		### Quelê Family ###
+	
+3531={
+	name="Constantino"
+	dynasty=7 #Quelê
+	dna="bfhcc0faba0"
+	properties="eb0ihk000000000000000000000000000000"
+	culture=sertanista
+	religion=evangelical
+	trait=intricate_webweaver
+	trait=greedy
+	trait=ambitious
+	trait=cynical
+	disallow_random_traits=yes
+	
+	diplomacy=6
+	martial=6
+	stewardship=4
+	intrigue=5
+	learning=3
+	
+	2327.8.25={birth=yes}
+	2352.10.14={add_spouse=3532}
+	2400.1.1={death=yes}
+	#holds duchy of francisca, santa maria da boa vista and petrolina
+}

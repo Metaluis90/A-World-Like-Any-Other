@@ -910,4 +910,544 @@ e_nordeste = {
 		}
 
 	}
+	k_pernambuco = {
+		color = { 190 67 78 }
+		color2 = { 255 255 255 }
+		capital = 1228
+
+		d_ouricuri = {
+			color = { 255 116 130 }
+			color2 = { 255 255 255 }
+			capital = 1203
+
+			c_ouricuri = {
+				color = { 55 15 255 }
+				color2 = { 255 255 255 }
+
+				b_ouricuri_PE = {}
+				b_araripina_PE = {}
+				b_trindade_PE = {}
+				b_ipubi_PE = {}
+				b_santa_filomena_PE = {}
+				b_santa_cruz_PE = {}
+				b_ouricuri_7_PE = {}
+				b_ouricuri_8_PE = {}
+			}
+
+			c_parnamirim = {
+				color = { 113 50 255 }
+				color2 = { 255 255 255 }
+
+				b_parnamirim_PE = {}
+				b_serrita_PE = {}
+				b_cedro_PE = {}
+				b_parnamirim_4_PE = {}
+				b_parnamirim_5_PE = {}
+				b_parnamirim_6_PE = {}
+				b_parnamirim_7_PE = {}
+				b_parnamirim_8_PE = {}
+			}
+
+			c_afranio = {
+				color = { 119 96 219 }
+				color2 = { 255 255 255 }
+
+				b_afranio_PE = {}
+				b_dormentes_PE = {}
+				b_afranio_3_PE = {}
+				b_afranio_4_PE = {}
+				b_afranio_5_PE = {}
+				b_afranio_6_PE = {}
+				b_afranio_7_PE = {}
+				b_afranio_8_PE = {}
+			}
+
+			c_granito = {
+				color = { 70 25 255 }
+				color2 = { 255 255 255 }
+
+				b_granito_PE = {}
+				b_exu_PE = {}
+				b_bodoco_PE = {}
+				b_moreilandia_PE = {}
+				b_granito_5_PE = {}
+				b_granito_6_PE = {}
+				b_granito_7_PE = {}
+				b_granito_8_PE = {}
+			}
+
+		}
+
+		d_francisca = {
+			color = { 255 173 112 }
+			color2 = { 255 255 255 }
+			capital = 1204
+
+			c_petrolina = {
+				color = { 85 43 255 }
+				color2 = { 255 255 255 }
+
+				b_petrolina_PE = {}
+				b_petrolina_2_PE = {}
+				b_petrolina_3_PE = {}
+				b_petrolina_4_PE = {}
+				b_petrolina_5_PE = {}
+				b_petrolina_6_PE = {}
+				b_petrolina_7_PE = {}
+				b_petrolina_8_PE = {}
+			}
+
+			c_oroco = {
+				color = { 107 73 255 }
+				color2 = { 255 255 255 }
+
+				b_oroco_PE = {}
+				b_santa_maria_da_boa_vista_PE = {}
+				b_lagoa_grande_PE = {}
+				b_oroco_4_PE = {}
+				b_oroco_5_PE = {}
+				b_oroco_6_PE = {}
+				b_oroco_7_PE = {}
+				b_oroco_8_PE = {}
+			}
+
+			c_cabrobo = {
+				color = { 51 28 255 }
+				color2 = { 255 255 255 }
+
+				b_cabrobo_PE = {}
+				b_terra_nova_PE = {}
+				b_cabrobo_3_PE = {}
+				b_cabrobo_4_PE = {}
+				b_cabrobo_5_PE = {}
+				b_cabrobo_6_PE = {}
+				b_cabrobo_7_PE = {}
+				b_cabrobo_8_PE = {}
+			}
+
+			c_petrolandia = {
+				color = { 30 38 255 }
+				color2 = { 255 255 255 }
+
+				b_petrolandia_PE = {}
+				b_floresta_PE = {}
+				b_petrolandia_3_PE = {}
+				b_petrolandia_4_PE = {}
+				b_petrolandia_5_PE = {}
+				b_petrolandia_6_PE = {}
+				b_petrolandia_7_PE = {}
+				b_petrolandia_8_PE = {}
+			}
+
+			c_itacuruba = {
+				color = { 71 80 255 }
+				color2 = { 255 255 255 }
+
+				b_itacuruba_PE = {}
+				b_belem_do_sao_francisco_PE = {}
+				b_carnaubeira_da_penha_PE = {}
+				b_itacuruba_4_PE = {}
+				b_itacuruba_5_PE = {}
+				b_itacuruba_6_PE = {}
+				b_itacuruba_7_PE = {}
+				b_itacuruba_8_PE = {}
+			}
+
+		}
+
+		d_pajeu = {
+			color = { 255 230 113 }
+			color2 = { 255 255 255 }
+			capital = 1209
+
+			c_salgueiro = {
+				color = { 85 89 255 }
+				color2 = { 255 255 255 }
+
+				b_salgueiro_PE = {}
+				b_sao_jose_do_belmonte_PE = {}
+				b_mirandiba_PE = {}
+				b_verdejante_PE = {}
+				b_salgueiro_5_PE = {}
+				b_salgueiro_6_PE = {}
+				b_salgueiro_7_PE = {}
+				b_salgueiro_8_PE = {}
+			}
+
+			c_serra_talhada = {
+				color = { 163 166 255 }
+				color2 = { 255 255 255 }
+
+				b_serra_talhada_PE = {}
+				b_triunfo_PE = {}
+				b_flores_PE = {}
+				b_calumbi_PE = {}
+				b_santa_cruz_da_baixa_verde_PE = {}
+				b_serra_talhada_6_PE = {}
+				b_serra_talhada_7_PE = {}
+				b_serra_talhada_8_PE = {}
+			}
+
+			c_ingazeira = {
+				color = { 51 55 183 }
+				color2 = { 255 255 255 }
+
+				b_ingazeira_PE = {}
+				b_afogados_da_ingazeira_PE = {}
+				b_sao_jose_do_egito_PE = {}
+				b_tabira_PE = {}
+				b_itapetim_PE = {}
+				b_tuparetama_PE = {}
+				b_iguaracy_PE = {}
+				b_carnaiba_PE = {}
+				b_quixaba_PE = {}
+				b_santa_terezinha_PE = {}
+				b_brejinho_PE = {}
+				b_solidao_PE = {}
+			}
+
+			c_arcoverde = {
+				color = { 58 4 252 }
+				color2 = { 255 255 255 }
+
+				b_arcoverde_PE = {}
+				b_sertania_PE = {}
+				b_custodia_PE = {}
+				b_betania_PE = {}
+				b_arcoverde_5_PE = {}
+				b_arcoverde_6_PE = {}
+				b_arcoverde_7_PE = {}
+				b_arcoverde_8_PE = {}
+			}
+
+		}
+
+		d_garanhuns = {
+			color = { 203 244 112 }
+			color2 = { 255 255 255 }
+			capital = 1214
+
+			c_inaja = {
+				color = { 122 108 247 }
+				color2 = { 255 255 255 }
+
+				b_inaja_PE = {}
+				b_ibimirim_PE = {}
+				b_tacaratu_PE = {}
+				b_manari_PE = {}
+				b_inaja_5_PE = {}
+				b_inaja_6_PE = {}
+				b_inaja_7_PE = {}
+				b_inaja_8_PE = {}
+			}
+
+			c_venturosa = {
+				color = { 29 4 247 }
+				color2 = { 255 255 255 }
+
+				b_venturosa_PE = {}
+				b_buique_PE = {}
+				b_aguas_belas_PE = {}
+				b_itaiba_PE = {}
+				b_tupanatinga_PE = {}
+				b_pedra_PE = {}
+				b_iati_PE = {}
+				b_venturosa_8_PE = {}
+			}
+
+			c_garanhuns = {
+				color = { 4 39 247 }
+				color2 = { 255 255 255 }
+
+				b_garanhuns_PE = {}
+				b_bom_conselho_PE = {}
+				b_correntes_PE = {}
+				b_palmeirina_PE = {}
+				b_canhotinho_PE = {}
+				b_caetes_PE = {}
+				b_paranatama_PE = {}
+				b_saloa_PE = {}
+				b_terezinha_PE = {}
+				b_brejao_PE = {}
+				b_lagoa_do_ouro_PE = {}
+			}
+
+		}
+
+		d_caruaru = {
+			color = { 120 190 240 }
+			color2 = { 255 255 255 }
+			capital = 1216
+
+
+			c_surubim = {
+				color = { 43 39 247 }
+				color2 = { 255 255 255 }
+
+				b_surubim_PE = {}
+				b_santa_cruz_do_capibaribe_PE = {}
+				b_toritama_PE = {}
+				b_taquaritinga_do_norte_PE = {}
+				b_vertentes_PE = {}
+				b_frei_miguelinho_PE = {}
+				b_santa_maria_do_cambuca_PE = {}
+				b_casinhas_PE = {}
+			}
+
+			c_gravata = {
+				color = { 59 59 145 }
+				color2 = { 255 255 255 }
+
+				b_gravata_PE = {}
+				b_bezerros_PE = {}
+				b_riacho_das_almas_PE = {}
+				b_cumaru_PE = {}
+				b_passira_PE = {}
+				b_gravata_6_PE = {}
+				b_gravata_7_PE = {}
+				b_gravata_8_PE = {}
+			}
+
+			c_agrestina = {
+				color = { 31 69 247 }
+				color2 = { 255 255 255 }
+
+				b_agrestina_PE = {}
+				b_bonito_PE = {}
+				b_cupira_PE = {}
+				b_panelas_PE = {}
+				b_altinho_PE = {}
+				b_sao_joaquim_do_monte_PE = {}
+				b_lagoa_dos_gatos_PE = {}
+				b_ibirajuba_PE = {}
+				b_saire_PE = {}
+				b_barra_de_guabiraba_PE = {}
+			}
+
+			c_caruaru = {
+				color = { 144 166 244 }
+				color2 = { 255 255 255 }
+
+				b_caruaru_PE = {}
+				b_belo_jardim_PE = {}
+				b_brejo_da_madre_de_deus_PE = {}
+				b_sao_caetano_PE = {}
+				b_tacaimbo_PE = {}
+				b_jatauba_PE = {}
+				b_pocao_PE = {}
+				b_caruaru_8_PE = {}
+			}
+
+			c_lajedo = {
+				color = { 48 78 244 }
+				color2 = { 255 255 255 }
+
+				b_lajedo_PE = {}
+				b_pesqueira_PE = {}
+				b_sao_bento_do_una_PE = {}
+				b_sanharo_PE = {}
+				b_capoeiras_PE = {}
+				b_alagoinha_PE = {}
+				b_cachoeirinha_PE = {}
+				b_jupi_PE = {}
+				b_jucati_PE = {}
+				b_calcado_PE = {}
+			}
+
+		}
+
+		d_santo_antao = {
+			color = { 111 230 239 }
+			color2 = { 255 255 255 }
+			capital = 1218
+
+			c_antao = {
+				color = { 104 104 255 }
+				color2 = { 255 255 255 }
+
+				b_vitoria_de_santo_antao_PE = {}
+				b_pombos_PE = {}
+				b_cha_grande_PE = {}
+				b_antao_4_PE = {}
+				b_antao_5_PE = {}
+				b_antao_6_PE = {}
+				b_antao_7_PE = {}
+				b_antao_8_PE = {}
+			}
+			
+			c_paudalho = {
+				color = { 51 39 229 }
+				color2 = { 255 255 255 }
+
+				b_paudalho_PE = {}
+				b_sao_lourenco_da_mata_PE = {}
+				b_moreno_PE = {}
+				b_gloria_do_goita_PE = {}
+				b_feira_nova_PE = {}
+				b_lagoa_de_itaenga_PE = {}
+				b_cha_de_alegria_PE = {}
+				b_tracunhaem_PE = {}
+			}
+
+			c_timbauba = {
+				color = { 14 14 211 }
+				color2 = { 255 255 255 }
+
+				b_timbauba_PE = {}
+				b_vicencia_PE = {}
+				b_ferreiros_PE = {}
+				b_macaparana_PE = {}
+				b_camutanga_PE = {}
+				b_sao_vicente_ferrer_PE = {}
+				b_timbauba_7_PE = {}
+				b_timbauba_8_PE = {}
+			}
+
+			c_carpina = {
+				color = { 54 61 249 }
+				color2 = { 255 255 255 }
+
+				b_carpina_PE = {}
+				b_limoeiro_PE = {}
+				b_bom_jardim_PE = {}
+				b_joao_alfredo_PE = {}
+				b_nazare_da_mata_PE = {}
+				b_lagoa_do_carro_PE = {}
+				b_machados_PE = {}
+				b_orobo_PE = {}
+				b_salgadinho_PE = {}
+				b_buenos_aires_PE = {}
+			}
+
+		}
+
+		d_recife = {
+			color = { 238 119 174 }
+			color2 = { 255 255 255 }
+			capital = 1228
+
+			c_goiana = {
+				color = { 56 45 255 }
+				color2 = { 255 255 255 }
+
+				b_goiana_PE = {}
+				b_itambe_PE = {}
+				b_condado_PE = {}
+				b_alianca_PE = {}
+				b_itaquitinga_PE = {}
+				b_goiana_6_PE = {}
+				b_goiana_7_PE = {}
+				b_goiana_8_PE = {}
+			}
+
+			c_itamaraca = {
+				color = { 105 105 229 }
+				color2 = { 255 255 255 }
+
+				b_ilha_de_itamaraca_PE = {}
+				b_igarassu_PE = {}
+				b_itapissuma_PE = {}
+				b_aracoiaba_PE = {}
+				b_itamaraca_5_PE = {}
+				b_itamaraca_6_PE = {}
+				b_itamaraca_7_PE = {}
+				b_itamaraca_8_PE = {}
+			}
+
+			c_recife = {
+				color = { 13 13 173 }
+				color2 = { 255 255 255 }
+
+				b_recife_PE = {}
+				b_olinda_PE = {}
+				b_paulista_PE = {}
+				b_jaboatao_dos_guararapes_PE = {}
+				b_camaragibe_PE = {}
+				b_abreu_e_lima_PE = {}
+				b_recife_7_PE = {}
+				b_recife_8_PE = {}
+			}
+
+			c_ipojuca = {
+				color = { 71 71 173 }
+				color2 = { 255 255 255 }
+
+				b_ipojuca_PE = {}
+				b_cabo_de_santo_agostinho_PE = {}
+				b_ipojuca_3_PE = {}
+				b_ipojuca_4_PE = {}
+				b_ipojuca_5_PE = {}
+				b_ipojuca_6_PE = {}
+				b_ipojuca_7_PE = {}
+				b_ipojuca_8_PE = {}
+			}
+
+			c_fernando_de_noronha = {
+				color = { 35 35 255 }
+				color2 = { 255 255 255 }
+
+				b_fernando_de_noronha_PE = {}
+				b_fernando_de_noronha_2_PE = {}
+				b_fernando_de_noronha_3_PE = {}
+				b_fernando_de_noronha_4_PE = {}
+				b_fernando_de_noronha_5_PE = {}
+				b_fernando_de_noronha_6_PE = {}
+				b_fernando_de_noronha_7_PE = {}
+				b_fernando_de_noronha_8_PE = {}
+			}
+
+		}
+
+		d_escada = {
+			color = { 112 231 190 }
+			color2 = { 255 255 255 }
+			capital = 1224
+
+			c_tamandare = {
+				color = { 83 101 170 }
+				color2 = { 255 255 255 }
+
+				b_tamandare_PE = {}
+				b_rio_formoso_PE = {}
+				b_sirinhaem_PE = {}
+				b_barreiros_PE = {}
+				b_sao_jose_da_coroa_grande_PE = {}
+				b_tamandare_6_PE = {}
+				b_tamandare_7_PE = {}
+				b_tamandare_8_PE = {}
+			}
+
+			c_palmares = {
+				color = { 87 112 204 }
+				color2 = { 255 255 255 }
+
+				b_palmares_PE = {}
+				b_agua_preta_PE = {}
+				b_catende_PE = {}
+				b_maraial_PE = {}
+				b_xexeu_PE = {}
+				b_joaquim_nabuco_PE = {}
+				b_jaqueira_PE = {}
+				b_sao_benedito_do_sul_PE = {}
+				b_quipapa_PE = {}
+				b_belem_de_maria_PE = {}
+			}
+
+			c_escada = {
+				color = { 4 35 173 }
+				color2 = { 255 255 255 }
+
+				b_escada_PE = {}
+				b_ribeirao_PE = {}
+				b_gameleira_PE = {}
+				b_cortes_PE = {}
+				b_amaraji_PE = {}
+				b_primavera_PE = {}
+				b_escada_7_PE = {}
+				b_escada_8_PE = {}
+			}
+
+		}
+
+	}	
 }

@@ -12,8 +12,8 @@ b_sousa_PBA = tribal
 # b_lastro_PBA = temple
 
 # Misc
-culture=placeholder
-religion=placeholder
+culture=sertanista
+religion=cicerite
 
 #History
 

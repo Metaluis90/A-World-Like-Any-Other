@@ -1,0 +1,7 @@
+2310.1.1 = {
+	liege = k_pernambuco
+}
+
+2365.5.25 = {
+	liege = d_francisca # Joins Constantino Quelê's independent duchy
+}

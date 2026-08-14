@@ -1798,7 +1798,7 @@ atlanticano = { #culture group
 	}
 	
 	natalense = { # inhabitants of the northern coast of the kingdom of the Brazilian Nordeste
-		graphical_cultures = { muslimgfx }
+		graphical_cultures = { nordestegfx muslimgfx }
 
 		color = { 0.23 0.2819 0.76 }
 		

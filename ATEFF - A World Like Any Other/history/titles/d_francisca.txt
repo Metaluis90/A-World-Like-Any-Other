@@ -1,0 +1,11 @@
+2300.1.1 = { # Francisca is already a vassal of Pernambuco under Antônio Carlos
+	liege = k_pernambuco
+}
+
+2355.5.25 = {
+	holder = 3531 # Constantino Quelê
+}
+
+2365.5.25 = {
+	liege = 0 # Independence of Francisca from Pernambuco
+}

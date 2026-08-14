@@ -1,0 +1,19 @@
+# County Title
+title = c_inaja
+
+# Settlements
+max_settlements = 3
+
+b_inaja_PE = tribal
+# b_ibimirim_PE = city
+# b_tacaratu_PE = temple
+
+# Misc
+culture=pankararu
+religion=jurema
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_inaja_PE = castle }
+	#2666.1.1 = { b_tacaratu_PE = temple }

@@ -1,0 +1,21 @@
+# County Title
+title = c_gravata
+
+# Settlements
+max_settlements = 5
+
+b_gravata_PE = tribal
+# b_bezerros_PE = city
+# b_riacho_das_almas_PE = temple
+# b_cumaru_PE = castle
+# b_passira_PE = city
+
+# Misc
+culture=sertanista
+religion=evangelical
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_gravata_PE = castle }
+	#2666.1.1 = { b_riacho_das_almas_PE = temple }

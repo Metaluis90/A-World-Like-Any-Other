@@ -1,0 +1,13 @@
+2300.1.1 = { # placeholder date, check SoA's date
+	holder = 3501 # Antônio Carlos Belchior
+	liege = k_pernambuco
+}
+
+2362.2.10 = {
+	holder = 3505 # Cassiano Belchior
+}
+
+2365.3.18 = {
+	holder = 3517 # Marco Cavalcanti, Syndic of Recife
+	liege = d_recife
+}

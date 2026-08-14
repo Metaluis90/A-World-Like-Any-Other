@@ -1,3 +1,6 @@
 2310.1.1 = {
 	liege = k_potiguaria
 }
+2362.02.10 = {
+	holder = 3504 # Claudio Belchior, former King of Ceará
+}

@@ -1,0 +1,21 @@
+# County Title
+title = c_timbauba
+
+# Settlements
+max_settlements = 5
+
+b_timbauba_PE = tribal
+# b_vicencia_PE = city
+# b_ferreiros_PE = temple
+# b_macaparana_PE = castle
+# b_camutanga_PE = city
+
+# Misc
+culture=recifolindense
+religion=candomble
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_timbauba_PE = castle }
+	#2666.1.1 = { b_ferreiros_PE = temple }

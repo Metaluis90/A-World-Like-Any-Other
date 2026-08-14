@@ -1,0 +1,7 @@
+2300.1.1 = { # placeholder date, check SoA's date
+	holder = 3501 # Antônio Carlos Belchior, founder of the Belchioringian Empire
+}
+
+2362.2.10 = {
+	holder = 3505 # Cassiano Belchior, King of Pernambuco
+}

@@ -1,0 +1,20 @@
+# County Title
+title = c_salgueiro
+
+# Settlements
+max_settlements = 4
+
+b_salgueiro_PE = tribal
+# b_sao_jose_do_belmonte_PE = city
+# b_mirandiba_PE = temple
+# b_verdejante_PE = castle
+
+# Misc
+culture=xukuru
+religion=jurema
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_salgueiro_PE = castle }
+	#2666.1.1 = { b_mirandiba_PE = temple }

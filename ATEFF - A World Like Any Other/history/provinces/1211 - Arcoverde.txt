@@ -1,0 +1,21 @@
+# County Title
+title = c_arcoverde
+
+# Settlements
+max_settlements = 5
+
+b_arcoverde_PE = tribal
+# b_sertania_PE = city
+# b_custodia_PE = temple
+# b_betania_PE = castle
+# b_arcoverde_5_PE = city
+
+# Misc
+culture=sertanista
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_arcoverde_PE = castle }
+	#2666.1.1 = { b_custodia_PE = temple }

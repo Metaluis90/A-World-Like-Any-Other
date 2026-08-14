@@ -1,0 +1,17 @@
+# County Title
+title = c_afranio
+
+# Settlements
+max_settlements = 2
+
+b_afranio_PE = tribal
+# b_dormentes_PE = city
+
+# Misc
+culture=sertanista
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_afranio_PE = castle }

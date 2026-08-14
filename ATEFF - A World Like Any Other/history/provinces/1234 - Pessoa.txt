@@ -6,7 +6,7 @@ max_settlements = 6
 
 b_joao_pessoa_PBA = castle
 b_conde_PBA = city
-b_cabedelo_PBA A = temple
+b_cabedelo_PBA = temple
 # b_cruz_das_armas_PBA= castle
 # b_mangabeira_PBA = city
 # b_manaira_PESSOA_PBA = temple

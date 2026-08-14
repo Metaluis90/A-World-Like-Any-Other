@@ -1,0 +1,21 @@
+# County Title
+title = c_surubim
+
+# Settlements
+max_settlements = 5
+
+b_surubim_PE = tribal
+# b_santa_cruz_do_capibaribe_PE = city
+# b_toritama_PE = temple
+# b_taquaritinga_do_norte_PE = castle
+# b_vertentes_PE = city
+
+# Misc
+culture=sertanista
+religion=evangelical
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_surubim_PE = castle }
+	#2666.1.1 = { b_toritama_PE = temple }

@@ -1,0 +1,21 @@
+# County Title
+title = c_paudalho
+
+# Settlements
+max_settlements = 5
+
+b_paudalho_PE = tribal
+# b_sao_lourenco_da_mata_PE = city
+# b_moreno_PE = temple
+# b_gloria_do_goita_PE = castle
+# b_feira_nova_PE = city
+
+# Misc
+culture=recifolindense
+religion=candomble
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_paudalho_PE = castle }
+	#2666.1.1 = { b_moreno_PE = temple }

@@ -1,0 +1,21 @@
+# County Title
+title = c_agrestina
+
+# Settlements
+max_settlements = 5
+
+b_agrestina_PE = tribal
+# b_bonito_PE = city
+# b_cupira_PE = temple
+# b_panelas_PE = castle
+# b_altinho_PE = city
+
+# Misc
+culture=sertanista
+religion=evangelical
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_agrestina_PE = castle }
+	#2666.1.1 = { b_cupira_PE = temple }

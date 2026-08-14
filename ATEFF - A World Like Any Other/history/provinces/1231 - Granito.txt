@@ -1,0 +1,19 @@
+# County Title
+title = c_granito
+
+# Settlements
+max_settlements = 3
+
+b_granito_PE = tribal
+# b_exu_PE = city
+# b_bodoco_PE = temple
+
+# Misc
+culture=sertanista
+religion=cicerite
+
+#History
+
+#in case we don't want it to be tribal anymore:
+	#2666.1.1 = { b_granito_PE = castle }
+	#2666.1.1 = { b_bodoco_PE = temple }
