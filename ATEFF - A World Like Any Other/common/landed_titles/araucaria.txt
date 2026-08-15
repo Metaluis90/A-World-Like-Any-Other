@@ -13,7 +13,7 @@ e_the_south = {
 		culture = gaucho_rg
 
 		d_litoral_lagunar = {
-			color={ 224 190 103 }
+			color={ 242 218 86 }
 			color2={ 255 255 255 }
 
 			capital = 478 # c_pelotas
@@ -87,7 +87,7 @@ e_the_south = {
 		}
 
 		d_tapes = {
-			color={ 21 224 78 }
+			color={ 250 228 72 }
 			color2={ 255 255 255 }
 
 			capital = 476 # c_piratini
@@ -130,7 +130,7 @@ e_the_south = {
 		}
 
 		d_costa_doce = {
-			color={ 220 80 115 }
+			color={ 237 196 45 }
 			color2={ 255 255 255 }
 
 			capital = 480 # c_camaqua
@@ -182,7 +182,7 @@ e_the_south = {
 		}
 
 		d_porto_alegre = {
-			color={ 118 127 202 }
+			color={ 255 210 34 }
 			color2={ 255 255 255 }
 
 			capital = 485 # c_porto_alegre
@@ -249,7 +249,7 @@ e_the_south = {
 		}
 
 		d_vale_dos_sinos = {
-			color={ 229 194 66 }
+			color={ 222 178 42 }
 			color2={ 255 255 255 }
 
 			capital = 488 # c_sao_leopoldo
@@ -301,7 +301,7 @@ e_the_south = {
 		}
 
 		d_litoral_norte = {
-			color={ 255 185 82 }
+			color={ 249 203 94 }
 			color2={ 255 255 255 }
 
 			capital = 492 # c_osorio
@@ -349,7 +349,7 @@ e_the_south = {
 		}
 
 		d_campos_de_vacaria = {
-			color={ 150 245 209 }
+			color={ 230 215 122 }
 			color2={ 255 255 255 }
 
 			capital = 497 # c_caxias_do_sul
@@ -440,7 +440,7 @@ e_the_south = {
 		}
 
 		d_vale_do_rio_pardo = {
-			color={ 187 39 18 }
+			color={ 211 169 34 }
 			color2={ 255 255 255 }
 
 			capital = 505 # c_santa_cruz_do_sul
@@ -495,7 +495,7 @@ e_the_south = {
 		}
 
 		d_boca_do_monte = {
-			color={ 8 233 212 }
+			color={ 240 225 77 }
 			color2={ 255 255 255 }
 
 			capital = 522 # c_santa_maria
@@ -554,7 +554,7 @@ e_the_south = {
 		}
 
 		d_campanha = {
-			color={ 116 123 118 }
+			color={ 229 187 54 }
 			color2={ 255 255 255 }
 
 			capital = 511 # c_sao_gabriel
@@ -711,7 +711,7 @@ e_the_south = {
 		}
 
 		d_missoes = {
-			color={ 1 102 70 }
+			color={ 247 216 121 }
 			color2={ 255 255 255 }
 
 			capital = 526 # c_santo_angelo
@@ -788,7 +788,7 @@ e_the_south = {
 		}
 
 		d_alto_uruguai = {
-			color={ 242 30 18 }
+			color={ 216 181 27 }
 			color2={ 255 255 255 }
 
 			capital = 533 # c_passo_fundo
