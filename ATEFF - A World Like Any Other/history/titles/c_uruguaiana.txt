@@ -1,8 +1,8 @@
 2335.1.1={
-	holder=1500 #Ana Terra
+	holder=1000 #Ana Terra
 }
 2367.1.1={
-	holder=1502 #Pedro Terra
+	holder=1002 #Pedro Terra
 }
 2368.1.1={
 	liege=d_campanha

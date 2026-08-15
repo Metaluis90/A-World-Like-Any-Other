@@ -1,7 +1,7 @@
 ### Duchy of Campanha ###
 
 #Original Holder of Alegrete, Quarai and Uruguaiana
-1500 = {
+1000 = {
 	name = "Ana"
 	dynasty = 1001 #Terra
 	female = yes
@@ -30,7 +30,7 @@
 	}
 }
 
-1501 = {
+1001 = {
 	name = "Pedro"
 	dynasty = 1002 #Missioneiro
 	culture = guarani
@@ -61,14 +61,14 @@
 	}
 }
 
-1502 = {
+1002 = {
 	name = "Pedro"
 	dynasty = 1001 #Terra
 	culture = gaucho_rg
 	religion = farrapo
 
-	father = 1501
-	mother = 1500
+	father = 1001
+	mother = 1000
 
 	martial = 9
 	diplomacy = 5
@@ -90,13 +90,13 @@
 	}
 }
 
-1503 = {
+1003 = {
 	name = "Juvenal"
 	dynasty = 1001 #Terra
 	culture = gaucho_rg
 	religion = farrapo
 
-	father = 1502
+	father = 1002
 
 	martial = 5
 	diplomacy = 7
@@ -112,7 +112,7 @@
 	}
 }
 
-1504 = {
+1004 = {
 	name = "Bibiane"
 	dynasty = 1001 #Terra
 	culture = gaucho_rg
@@ -120,7 +120,7 @@
 
 	female = yes
 
-	father = 1502
+	father = 1002
 
 	martial = 5
 	diplomacy = 9
@@ -144,9 +144,9 @@
 	}
 
 	2368.9.12 = {
-		add_spouse = 1505
+		add_spouse = 1005
 		effect = {
-			add_lover = 1505
+			add_lover = 1005
 		}
 	}
 	2390.3.15 = {
@@ -155,7 +155,7 @@
 }
 
 #Duke of Campanha
-1505 = {
+1005 = {
 	name = "Rodrigo"
 	dynasty = 1003 #Cambara
 	culture = gaucho_rg
@@ -185,21 +185,21 @@
 	}
 
 	2368.9.12 = {
-		add_spouse = 1504
+		add_spouse = 1004
 		effect = {
-			add_lover = 1504
+			add_lover = 1004
 		}
 	}
 
 	2373.3.15 = {
 		death = {
 			death_reason = death_battle_duel
-			killer = 1506 #Ricardo Amaral
+			killer = 1006 #Ricardo Amaral
 		}
 	}
 }
 
-1506 = {
+1006 = {
 	name = "Ricardo"
 	dynasty = 1004 #Amaral
 	culture = gaucho_rg
@@ -225,7 +225,7 @@
 	}
 	2368.9.12 = {
 		effect = {
-			add_rival = 1505 #Rodrigo Cambara
+			add_rival = 1005 #Rodrigo Cambara
 		}
 	}
 	2393.3.15 = {
