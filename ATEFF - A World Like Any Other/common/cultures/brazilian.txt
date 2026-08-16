@@ -2051,7 +2051,6 @@ cearense = { #culture group
 		modifier = default_culture_modifier
 	}
 }	
-}
 
 sertanejo_group = {
 	graphical_cultures = { persiangfx muslimgfx }
