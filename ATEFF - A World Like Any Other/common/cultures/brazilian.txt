@@ -1859,7 +1859,12 @@ atlanticano = { #culture group
 		
 		modifier = default_culture_modifier
 	}
-	cearense = {
+}
+
+cearense = { #culture group 	
+	graphical_cultures = { muslimgfx }
+	
+	fortalezense = { #Cosmopolitan inhabitans of the coast of Ceará
 		graphical_cultures = { muslimgfx }
 		
 		color = { 0.38 0.45 0.40 }
@@ -1921,6 +1926,131 @@ atlanticano = { #culture group
 		
 		modifier = default_culture_modifier
 	}
+	inhamuense = { #Rural folk of the Cearense hinterlands
+		graphical_cultures = { muslimgfx }
+		
+		color = { 0.38 0.45 0.40 }
+		
+		male_names = {
+			Abelardo Acrísio Adamastor Adelson Aderbal Adolfo Adriano Aécio Afonso Alan Alberto Alfredo Aloysio Alvaro Anastácio André Antero Antônio Artur Augusto Aureliano
+			Beto Breno Bruno
+			Caio Carlos Casimiro Célio César Chico Cid Cláudio Cosme Crisanto
+			Dalton Daniel Danilo Dário Demócrito Denis Derivaldo Descartes Diego Domingos Dudu Durval
+			Edgar Edmar Edmilson Ednilton Edson Eduardo Edvar Elano Eliano Eliéser Emanuel Emerson Euclides Evaldo Expedito
+			Fábio Fausto Felipe Fernando Firmo Flávio Francimar Francisco
+			Geraldo Gilberto Godofredo Guilherme Gustavo
+			Hélder Hélio Hermes Hermínio Hugo Humberto
+			Ildefonso Inácio Irismar Ivan
+			Jerônimo João Jônatas Jorge José Júlio Juracy
+			Lauro Leandro Leo Leonel Levi Lucas Luciano Lúcio Luiz
+			Mansueto Manuel Marcelo Marcos Mário Matehus Maurício Mauro Messias Michel Miguel Milton Murilo
+			Natanael Newton Nildo
+			Osvaldo
+			Paulo Pedro Percival Péricles Pio
+			Rafael Raimundo Raul Ricardo Roberto Rodolfo Romero Rubens
+			Sandro Sebastião Sérgio
+			Tácito Tadeu Talles Thiago Tito Tobias Tomás Tristão
+			Valdecir Valdemar Valdir Virgílio Vitor
+			Waldonis Walter Wellington Wendell Wesley Wilson
+		}
+		female_names = {
+			Aila Alice Amanda Amélia Ana "Ana Maria" Antônia Antonieta Augusta Ângela
+			Beatriz Brena
+			Carolina Claudiana
+			Daiane Denise Duda
+			Emanuela Erika Esther Eugênia
+			Fátima Fernanda Francisca
+			Helena Henriqueta
+			Isabela Isadora Íris
+			Jacinta Jade Janaína Joyce
+			Laura Liana Lorena Lourdes Luiza
+			Magda Marcia Margarida Maria Mariana Marly melissa Mikaele Mônica
+			Naiane Nayane Noemi
+			Patrícia
+			Rachel Rafaele Rebeca Regine
+			Samara Samia Sílvia Simone Socorro
+			Taiana Teresa
+			Valentina Vanessa Vitória Viviane
+			Yasmin Yolanda
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	caririense = { #urban folk of the Cearense southern frontier
+		graphical_cultures = { muslimgfx }
+		
+		color = { 0.38 0.45 0.40 }
+		
+		male_names = {
+			Abelardo Acrísio Adamastor Adelson Aderbal Adolfo Adriano Aécio Afonso Alan Alberto Alfredo Aloysio Alvaro Anastácio André Antero Antônio Artur Augusto Aureliano
+			Beto Breno Bruno
+			Caio Carlos Casimiro Célio César Chico Cid Cláudio Cosme Crisanto
+			Dalton Daniel Danilo Dário Demócrito Denis Derivaldo Descartes Diego Domingos Dudu Durval
+			Edgar Edmar Edmilson Ednilton Edson Eduardo Edvar Elano Eliano Eliéser Emanuel Emerson Euclides Evaldo Expedito
+			Fábio Fausto Felipe Fernando Firmo Flávio Francimar Francisco
+			Geraldo Gilberto Godofredo Guilherme Gustavo
+			Hélder Hélio Hermes Hermínio Hugo Humberto
+			Ildefonso Inácio Irismar Ivan
+			Jerônimo João Jônatas Jorge José Júlio Juracy
+			Lauro Leandro Leo Leonel Levi Lucas Luciano Lúcio Luiz
+			Mansueto Manuel Marcelo Marcos Mário Matehus Maurício Mauro Messias Michel Miguel Milton Murilo
+			Natanael Newton Nildo
+			Osvaldo
+			Paulo Pedro Percival Péricles Pio
+			Rafael Raimundo Raul Ricardo Roberto Rodolfo Romero Rubens
+			Sandro Sebastião Sérgio
+			Tácito Tadeu Talles Thiago Tito Tobias Tomás Tristão
+			Valdecir Valdemar Valdir Virgílio Vitor
+			Waldonis Walter Wellington Wendell Wesley Wilson
+		}
+		female_names = {
+			Aila Alice Amanda Amélia Ana "Ana Maria" Antônia Antonieta Augusta Ângela
+			Beatriz Brena
+			Carolina Claudiana
+			Daiane Denise Duda
+			Emanuela Erika Esther Eugênia
+			Fátima Fernanda Francisca
+			Helena Henriqueta
+			Isabela Isadora Íris
+			Jacinta Jade Janaína Joyce
+			Laura Liana Lorena Lourdes Luiza
+			Magda Marcia Margarida Maria Mariana Marly melissa Mikaele Mônica
+			Naiane Nayane Noemi
+			Patrícia
+			Rachel Rafaele Rebeca Regine
+			Samara Samia Sílvia Simone Socorro
+			Taiana Teresa
+			Valentina Vanessa Vitória Viviane
+			Yasmin Yolanda
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+}	
 }
 
 sertanejo_group = {
@@ -2039,7 +2169,7 @@ sertanejo_group = {
 	}
 }
 
-northeastern_native = {
+northeastern_	 = {
 	graphical_cultures = { mesoamericangfx }
 	
 	karirixoko = { #remnants of the old cariri confederacy that survived as refugees in Porto Real do Colégio. They are the result of the fusion of many different indigenous groups under the leadership of the Kariri and the Xokó that banded together in order to survive, their uniting factor was the knowledge and reverence of the Ouricuri and its magics.
