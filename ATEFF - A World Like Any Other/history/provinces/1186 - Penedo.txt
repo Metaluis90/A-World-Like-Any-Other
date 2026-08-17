@@ -1,6 +1,15 @@
 # County Title
 title = c_penedo
 
+# Settlements
+max_settlements = 4
+
+b_penedo_AL = castle
+
+
 # Misc
+
 culture=karirixoko
 religion=cicerite
+
+# History

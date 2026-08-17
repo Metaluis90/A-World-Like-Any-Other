@@ -1,6 +1,12 @@
+# 1188 - Arapiraca
 # County Title
 title = c_arapiraca
 
+# Settlements
+max_settlements = 5
+
+b_arapiraca_AL = castle
+
 # Misc
-culture=sertanista
-religion=cicerite
+culture = sertanista
+religion = cicerite

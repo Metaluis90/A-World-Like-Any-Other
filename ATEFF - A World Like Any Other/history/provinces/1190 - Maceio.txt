@@ -1,6 +1,12 @@
+# 1190 - Maceio
 # County Title
 title = c_maceio
 
+# Settlements
+max_settlements = 5
+b_maceio_AL = castle
+
 # Misc
-culture=lagoano
-religion=cicerite
+culture = lagoano
+religion = cicerite
+

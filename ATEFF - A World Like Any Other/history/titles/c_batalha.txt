@@ -1,3 +1,30 @@
-2366.7.29={
-	liege=d_arapiraca # During the Lagoano Rebellion, this county is organized under the Duchy of Arapiraca
+#Characters
+# 3501 = Antonio Carlos Belchior, late Emperor of Belchoringia before 2369 bookmark
+# 3505 = Cassiano Belchior, King of Pernambuco in 2369
+# 3509 = Decio Belchior, Duke of Arapiraca and Ipanema in 2369
+# 3540 = Beatriz Costa-Xavier, Countess of Penedo	
+# 3549 = Afonso Melo, King of Alagoas in 2369
+# 3561 = Marcos Boltrinho, Count of Coruripe
+# 3601 = Divanei Sururu-Douca, Count of Batalha
+
+#History 
+
+2300.1.1 = { 
+	liege = k_alagoas #placeholder. Conquests of Antonio Carlos Belchior e_belchioringia
 }
+2341.6.23 = {
+	holder = 3601
+}
+2362.2.10 = {
+	liege = k_alagoas  #Cassiano inherits the Kingdom of Alagoas and all the titles under his father
+}
+#2366.7.29 = {
+#	liege = k_alagoas  # Beginning of the Lagoano Rebellion. 
+#}
+2367.9.16={
+	liege = d_arapiraca # End of the Lagoano Rebellion, Afonso Melo becomes king of Alagoas and Marcos Boltrinho becomes Duke of Arapiraca.
+}
+#2369.3.21={
+#	liege=d_arapiraca # Decio Belchior retakes Arapiraca after defeating Afonso Melo
+#}
+

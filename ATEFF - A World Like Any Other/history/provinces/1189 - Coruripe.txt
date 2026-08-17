@@ -1,6 +1,11 @@
+# 1189 - Coruripe
 # County Title
 title = c_coruripe
 
+# Settlements
+max_settlements = 4
+b_coruripe_AL = castle
+
 # Misc
-culture=lagoano
-religion=cicerite
+culture = lagoano
+religion = cicerite

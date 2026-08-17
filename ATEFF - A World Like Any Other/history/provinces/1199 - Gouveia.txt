@@ -1,6 +1,0 @@
-# County Title
-title = c_gouveia
-
-# Misc
-culture=sertanista
-religion=jurema

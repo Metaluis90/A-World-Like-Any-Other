@@ -1,0 +1,12 @@
+# 1199 - Delmiro
+# County Title
+title = c_delmiro
+
+# Settlements
+max_settlements = 4
+b_delmiro_gouveia_AL = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+

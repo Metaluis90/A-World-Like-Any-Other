@@ -1,3 +1,36 @@
-2366.7.29={
-	liege=d_arapiraca # During the Lagoano Rebellion, this county is organized under the Duchy of Arapiraca
+# Characters:
+# 3501 = Antonio Carlos Belchior, late Emperor of Belchoringia before 2369 bookmark
+# 3505 = Cassiano Belchior, King of Pernambuco in 2369
+# 3509 = Decio Belchior, Duke of Arapiraca and Ipanema in 2369
+# 3549 = Afonso Melo, King of Alagoas in 2369
+# 3561 = Marcos Boltrinho, Count of Coruripe
+# 3616 = Xiko Xukuru-Kariri, Duke of Arapiraca from 2214-2284
+# 3612 = Arani Xukuru-Kariri, Count of Palmeiras dos Indios
+# 3613 = Irapuã Xukuru-Kariri, Duke of Arapiraca from 2284-2303
+# 3614 = Esmael Xukuru-Kariri, Duke of Arapiraca from 2303-2310; Count of Arapiraca, Traipu and Penedo from then on
+
+
+2214.7.6 = {
+	holder = 3616 # Xiko Xukuru-Kariri, earliest recorded Duke of Arapiraca
 }
+
+2284.10.19 = {
+	holder = 3613 # Irapuã Xukuru-Kariri inherits Arapiraca after the death of his father Xiko
+}
+
+2303.6.14 = {
+	holder = 3612 # Arani Xukuru-Kariri inherits Palmeira dos Indios after the death of his father Irapuã
+	liege = d_arapiraca
+}
+2310.1.1 = {
+	liege = d_arapiraca # Arani submits to Antônio Carlos Belchior after the conquest of Arapiraca and retains his county
+}
+
+2341.11.3 = {
+	holder = 3611 # Mana Xukuru-Kariri inherits Palmeira dos Indios after the death of her father Arani
+}
+
+#2366.7.29={ #Mana did not join the Lagoano Rebellion of Melo, but chose to remain neutral.
+	# Marcos, Count of Coruripe, was among the nobles who backed Afonso Melo’s rebellion and was rewarded with the Duchy of Araricapa
+	#liege=d_arapiraca ## He held the title until Décio’s restoration war brought his brief political rise to an end.
+#}

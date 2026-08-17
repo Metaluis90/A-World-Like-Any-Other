@@ -1,6 +1,0 @@
-# County Title
-title = c_tapera
-
-# Misc
-culture=sertanista
-religion=cicerite

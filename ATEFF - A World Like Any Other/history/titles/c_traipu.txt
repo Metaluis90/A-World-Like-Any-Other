@@ -3,10 +3,30 @@
 # 3505 = Cassiano Belchior, King of Pernambuco in 2369
 # 3509 = Decio Belchior, Duke of Arapiraca and Ipanema in 2369
 # 3549 = Afonso Melo, King of Alagoas in 2369
+# 3616 = Xiko Xukuru-Kariri, Duke of Arapiraca from 2214-2284
+# 3613 = Irapuã Xukuru-Kariri, Duke of Arapiraca from 2284-2303
+# 3614 = Esmael Xukuru-Kariri, Duke of Arapiraca from 2303-2310; Count of Arapiraca, Traipu and Penedo from then on
 
-2300.1.1 = {
-	holder = 3501 #Antonio Carlos Belchior
-	liege = e_belchoringia
+2214.7.6 = {
+	holder = 3616 # Xiko Xukuru-Kariri, earliest recorded Duke of Arapiraca
+}
+
+2284.10.19 = {
+	holder = 3613 # Irapuã Xukuru-Kariri inherits Arapiraca after the death of his father Jurema
+}
+
+2303.6.14 = {
+	holder = 3614 # Esmael Xukuru-Kariri inherits Arapiraca after the death of his father Irapuã
+}
+
+2310.1.1 = {
+	liege = e_belchoringia # Antônio Carlos Belchior defeats Ubiratã and ends Xukuru-Kariri rule over Arapiraca
+}
+2316.2.8={ #Death of Esmael. His dynasty is denied of succession and goes to Antonio Carlos
+	holder = 3612
+}
+2316.2.9={ #His dynasty is denied of succession and goes to Antonio Carlos
+	holder = 3501
 }
 2362.2.10 = {
 	holder = 3505 #Cassiano inherits the Kingdom of Alagoas and all the titles under his father

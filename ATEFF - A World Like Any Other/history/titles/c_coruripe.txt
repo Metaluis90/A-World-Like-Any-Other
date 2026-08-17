@@ -1,3 +1,19 @@
+# Characters:
+# 3501 = Antonio Carlos Belchior, late Emperor of Belchoringia before 2369 bookmark
+# 3505 = Cassiano Belchior, King of Pernambuco in 2369
+# 3509 = Decio Belchior, Duke of Arapiraca and Ipanema in 2369
+# 3549 = Afonso Melo, King of Alagoas in 2369
+# 3561 = Marcos Boltrinho, Count of Coruripe
+
+2300.1.1={
+	liege=k_alagoas #conquests of Antonio Carlos Belchior
+}
+2352.9.12 = { 
+	holder=3561
+}
 2366.7.29={
-	liege=d_arapiraca # During the Lagoano Rebellion, this county is organized under the Duchy of Arapiraca
+	liege=d_maceio # Marcos Boltrinho, Count of Coruripe, backed Melo's rebellion
+}
+2369.3.21={
+	liege=d_arapiraca # Decio Belchior retakes Arapiraca after defeating Afonso Melo.
 }

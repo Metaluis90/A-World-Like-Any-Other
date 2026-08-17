@@ -1,6 +1,12 @@
+# 1192 - Maragogi
 # County Title
 title = c_maragogi
 
+# Settlements
+max_settlements = 3
+
+b_maragogi_AL = castle
+
 # Misc
-culture=lagoano
-religion=cicerite
+culture = lagoano
+religion = cicerite

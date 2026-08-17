@@ -11,11 +11,11 @@
 2362.2.10 = {
 	holder = 3505 #Cassiano inherits the Kingdom of Alagoas and all the titles under his father
 }
-2366.7.29 = {
-	liege= 0  # Beginning of the Lagoano Rebellion.
-}
+#2366.7.29 = {
+#	liege= 0  # Beginning of the Lagoano Rebellion.
+#}
 2367.9.16={
-	liege=3549 # End of the Lagoano Rebellion, Afonso Melo becomes king of Alagoas
+	holder=3549 # End of the Lagoano Rebellion, Afonso Melo becomes king of Alagoas
 }
 #2369.3.21={
 #	holder=0 # Afonso Melo loses the Alagoan crown after Decio Belchior's victories; the kingdom is left without a holder

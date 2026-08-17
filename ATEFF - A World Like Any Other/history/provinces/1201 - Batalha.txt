@@ -1,6 +1,14 @@
+# 1201 - Batalha
 # County Title
 title = c_batalha
 
+
+
+# Settlements
+max_settlements = 3
+b_batalha_AL = castle
+
+
 # Misc
-culture=sertanista
-religion=cicerite
+culture = sertanista
+religion = cicerite

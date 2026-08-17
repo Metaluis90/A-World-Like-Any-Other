@@ -10,7 +10,7 @@
 	used_for_random=no
 }
 2 = {
-	name="VicuÃ±a"
+	name="Vicuña"
 	culture="centralino"
 	religion="synodal"
 	used_for_random=no
@@ -219,5 +219,14 @@
 	name="Amaral"
 	culture="gaucho_rg"
 	religion="vargist"
+	used_for_random=no
+}
+
+### Northern Brazilian Dynasties ###
+### 	 	1501 - 2000     	 ###
+2000 = { 
+	name="Xukuru-Kariri"
+	culture="xukuru"
+	religion="jurema"
 	used_for_random=no
 }

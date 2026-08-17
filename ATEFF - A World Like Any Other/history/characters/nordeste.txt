@@ -16,7 +16,7 @@
 	dna="cgjca0j00d0"
 	properties="ej0ehc000000000000000000000000000000"
 	religion=cicerite
-	culture=cearense
+	culture=inhamuense #placeholder formerly cearense but cearense is now a culture group
 	disallow_random_traits=yes
 	trait=brilliant_strategist
 	trait=quick
@@ -55,7 +55,7 @@
 	dynasty=0
 	dna=0ecda0abbe0
 	religion=cicerite
-	culture=cearense
+	culture=inhamuense #placeholder formerly cearense but cearense is now a culture group
 	
 	2298.5.10={birth=yes}
 	2318.12.25={
@@ -196,7 +196,7 @@
 	dna=bbcgh0kacc0
 	religion=candomble
 	culture=natalense
-	trait=fair
+	trait=attractive
 	
 	2336.7.30={birth=yes}
 	2400.1.1={death=yes}
@@ -235,7 +235,7 @@
 	disallow_random_traits=yes
 	trait=brilliant_strategist
 	trait=shrewd
-	trait=fair
+	trait=attractive
 	trait=diligent
 	trait=brave
 	trait=ambitious
@@ -418,7 +418,7 @@
 	dna="0chki0gb0e0"
 	disallow_random_traits=yes
 	properties="wa0baf000000000000000000000000000000"
-	religion=camdomble
+	religion=candomble
 	culture=recifolindense
 	trait=fortune_builder
 	trait=temperate
@@ -435,7 +435,7 @@
 	name="Ana Maria" #spouse of Marco Cavalcanti
 	female=yes
 	dynasty=0
-	religion=camdomble
+	religion=candomble
 	culture=recifolindense
 	trait=detached_priest	
 	trait=sympathy_christendom
@@ -450,7 +450,7 @@
 	name="Lucas"
 	dynasty=2 #Cavalcanti
 	culture=recifolindense
-	religion=camdomble
+	religion=candomble
 	father=3517
 	mother=3518
 	trait=thrifty_clerk
@@ -462,7 +462,7 @@
 	name="Lúcio"
 	dynasty=3 #Albuquerque
 	culture=salvadorense
-	religion=camdomble
+	religion=candomble
 	trait=skilled_tactician
 	trait=envious
 	trait=diligent
@@ -486,7 +486,7 @@
 	female=yes
 	dynasty=0
 	culture=recifolindense
-	religion=camdomble
+	religion=candomble
 	trait=flamboyant_schemer
 	2323.11.23={birth=yes}
 	2345.2.4={add_spouse=3520}
@@ -499,8 +499,8 @@
 	father=3520
 	mother=3521
 	culture=salvadorense
-	religion=camdomble
-	trait=martial_cleric
+	religion=candomble
+	trait=dutiful_cleric
 	trait=groomed
 	2346.12.25={
 		birth=yes
@@ -515,7 +515,7 @@
 	name="Camilo"
 	dynasty=4 #Arraes
 	culture=sertanista
-	religion=camdomble
+	religion=candomble
 	disallow_random_traits=yes
 	trait=midas_touched
 	trait=greedy
@@ -536,7 +536,7 @@
 	dynasty=0
 	female=yes
 	culture=recifolindense
-	religion=camdomble
+	religion=candomble
 	trait=underhanded_rogue
 	2316.2.3={birth=yes	}
 	2333.3.3={add_spouse=3523}
@@ -550,10 +550,10 @@
 	father=3523
 	mother=3524
 	culture=sertanista
-	religion=camdomble
+	religion=candomble
 	trait=scholarly_theologian
 	trait=shrewd
-	trait=fair
+	trait=attractive
 	2335.1.1={birth=yes culture=recifolindense}
 	2400.1.1={death=yes}
 }
@@ -564,7 +564,7 @@
 	father=3523
 	mother=3524
 	culture=recifolindense
-	religion=camdomble
+	religion=candomble
 	trait=tough_soldier
 	trait=ambitious
 	trait=uncouth
@@ -578,7 +578,7 @@
 	father=3523
 	mother=3524
 	culture=recifolindense
-	religion=camdomble
+	religion=candomble
 	trait=thrifty_clerk
 	trait=temperate
 	trait=sturdy
@@ -713,7 +713,7 @@
 	trait=fortune_builder
 	trait=just
 	trait=kind
-	trait=fair
+	trait=attractive
 	trait=quick
 	disallow_random_traits=yes
 	
@@ -744,7 +744,7 @@
 	trait=wroth
 	trait=strong
 	trait=shrewd
-	trait=craven
+	trait=stubborn
 	disallow_random_traits=yes
 	
 	diplomacy=6
@@ -758,3 +758,535 @@
 }
 
 #####3550-3560 reserved of Melo characters
+
+	#### Boltrinho of Cururipe ####
+	
+3561 ={
+	name="Marcos" 
+	dynasty=0 #Boltrinho
+#	dna="bcfih0fa0d0"
+#	properties="ji0f0i0000000000000000000000000000000"
+	female=no
+	culture=lagoano
+	religion=cicerite
+	trait=skilled_tactician
+	trait=patient
+	trait=strong
+	trait=brave
+	trait=ambitious
+	disallow_random_traits=yes
+	
+
+	
+	2323.11.3={birth=yes}
+	2369.3.21={ 
+		effect = {
+			add_weak_claim = c_arapiraca
+			add_claim = d_arapiraca
+		}
+	}
+	2400.1.1={death=yes}
+}
+
+####3562-3570 ### Reserved for Boltrinho Dynasty
+
+	#### Caldas of Santana do Mundaú ####
+	
+3571 = { 
+	name="Jerônimo Heitor" #The most powerful noble to support the Lagoano Rebellion. His wealth, lands, and political influence made him one of the rebellion’s principal pillars.
+	dynasty=0 #Caldas
+#	dna="bcfih0fa0d0"
+#	properties="ji0f0i0000000000000000000000000000000"
+	female=no
+	culture=lagoano
+	religion=cicerite
+	trait=midas_touched
+	trait=gregarious
+	trait=proud
+	trait=brave
+	trait=ambitious
+	disallow_random_traits=yes
+	
+
+	
+	2317.11.3={birth=yes}
+	2400.1.1={death=yes}
+}
+
+#####3572-3580 ### Reserved for Caldas dynsty
+
+	#### Renan of Murici
+3581 = { 
+	name="Carlos" #Among the nobles who backed Afonso Melo’s rebellion against Pernambuco. Though less prominent than the rebellion’s leading magnates, his support helped consolidate Melo’s coalition.
+	dynasty=0 #Renan
+#	dna="bcfih0fa0d0"
+#	properties="ji0f0i0000000000000000000000000000000"
+	female=no
+	culture=lagoano
+	religion=cicerite
+	trait=tough_soldier
+	trait=gregarious
+	trait=brave
+	trait=ambitious
+	trait=envious
+	trait=deceitful
+	disallow_random_traits=yes
+	
+
+	
+	2317.11.3={birth=yes}
+	2400.1.1={death=yes}
+}
+
+#####3572-3590 reserved for Renan dynasty
+
+	#### Pascoal of Maragogi ####
+	
+3591 = {
+	name="Hermes" #One of the Lagoano nobles that didn't back Melo's rebellion. He was imprisoned by Afonso Melo after his succesfull rebellion
+	dynasty=0 #Pascoal
+#	dna="bcfih0fa0d0"
+#	properties="ji0f0i0000000000000000000000000000000"
+	female=no
+	culture=lagoano
+	religion=cicerite
+	trait=mastermind_theologian
+	trait=gregarious
+	trait=poet
+	trait=possessed
+	disallow_random_traits=yes
+	
+
+	
+	2320.11.3={birth=yes}
+	2366.7.29={ 
+		effect = {
+			imprison = 3549 # This actually means that he is imprisoned by rather that he imprison.
+		} 
+	}		
+	2400.1.1={death=yes}
+}
+
+#####3592-3600 reserved for Pascoal dynasty
+
+	#### Sururu-Douca of Batalha ####
+
+3601 = {
+	name="Divanei" #Sertanista noble who opposed the Lagoano rebellion. Was imprisoned by Afonso Melo but released by Décio Belchior after the reconquest of Arapiraca
+	dynasty=0 #Sururu-Douca
+#	dna="bcfih0fa0d0"
+#	properties="ji0f0i0000000000000000000000000000000"
+	female=no
+	culture=sertanista
+	religion=cicerite
+	trait=intricate_webweaver
+	trait=honest 
+	trait=brave
+	trait=stubborn
+	trait=proud
+	trait=patient
+	disallow_random_traits=yes
+	
+	2322.4.23={birth=yes}
+#	2366.7.29={ 
+#		effect = {
+#			imprison = 3549 # This actually means that he is imprisoned by rather that he imprison.
+#		} 
+#	}	
+	2400.1.1={death=yes}
+}
+3602 = {
+	name="Valdemar" #Valdemar, younger son of Divanei, appealed to King Cassiano for aid against Afonso Melo, but the king refused to intervene. He later convinced Décio Belchior to take up the loyalist cause.
+	dynasty=0 #Sururu-Douca
+#	dna="bcfih0fa0d0"
+#	properties="ji0f0i0000000000000000000000000000000"
+	female=no
+	culture=sertanista
+	religion=cicerite
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=brave
+	trait=patient
+	trait=ambitious
+	trait=zealous
+	disallow_random_traits=yes
+	
+	father = 3601
+	
+	diplomacy = 8
+	martial = 8
+	
+	2349.4.23={birth=yes}
+	2366.7.29={
+		effect = {
+			add_friend = 3509 
+		}
+	}
+	2366.7.29 = { employer = 3509 }
+	2400.1.1={death=yes}
+}
+3603 = {
+	name="Anselmo" #Anselmo, eldest son of Divanei, fought against Afonso Melo during the Lagoano Rebellion and was killed in battle defending his family’s cause.
+	dynasty=0 #Sururu-Douca
+#	dna="bcfih0fa0d0"
+#	properties="ji0f0i0000000000000000000000000000000"
+	female=no
+	culture=sertanista
+	religion=cicerite
+	trait=tough_soldier
+	trait=arbitrary
+	trait=brave
+	trait=proud
+	trait=honest
+	trait=zealous
+	disallow_random_traits=yes
+	
+	father = 3601
+	
+	diplomacy = 8
+	martial = 8
+	
+	2345.2.12={birth=yes}
+	2366.7.29={
+		death = {
+			death_reason = death_battle
+			killer = 3549
+		}
+	}
+}
+
+####3604-3610 reserved for Sururu-Douca dynasty
+
+	#### Xukuru-Kariri of Palmeira dos Indios, former Dukes of Arapiraca ####
+
+3611 = {
+	name="Mana" #Mana Xukuru-Kariri. Elder matriarch of the ancient Xukuru-Kariri dynasty, former rulers of Arapiraca before their defeat by Antônio Carlos Belchior.
+	dynasty=2000 #Xukuru-Kariri
+	
+	female=yes
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+	
+	trait=grey_eminence
+	trait=proud
+	trait=patient
+	trait=stubborn
+	trait=ambitious
+	trait=paranoid
+	
+	father = 3612
+	
+	diplomacy=8
+	martial=2
+	stewardship=6
+	intrigue=7
+	learning=5
+	
+	2305.4.17={
+		birth=yes
+	}
+	2316.2.8={
+		effect = {
+			add_weak_claim = d_arapiraca
+		}
+	}
+	3400.1.1 = {death=yes}
+}
+3612 = {
+	name="Arani" #Count of Palmeira dos Indios. Younger son of the Duke of Arapiraca and father of Mana Xukuru-Kariri.
+	dynasty=2000 #Xukuru-Kariri
+	
+	female=no
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+	
+
+	trait=fortune_builder
+	trait=just
+	trait=temperate
+	trait=cynical
+	trait=shy
+	trait=craven
+	
+	father = 3613
+
+		
+	martial=7
+	diplomacy=4
+	intrigue=3
+	stewardship=6
+	learning=4
+	
+	2278.8.9={birth=yes}
+	2341.11.3={	death=yes}	
+
+}
+3613 = {
+	name="Irapuã" #Duke of Arapiraca. Father of Arani Xukuru-Kariri and grandfather of Mana.
+	dynasty=2000 #Xukuru-Kariri
+
+	female=no
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+
+	trait=charismatic_negotiator
+	trait=diligent
+	trait=zealous
+	trait=temperate
+	trait=trusting
+	trait=cruel
+	
+	father = 3616
+	
+	martial=9
+	diplomacy=5
+	intrigue=2
+	stewardship=7
+	learning=5
+
+	2248.2.11={	birth=yes}
+	2303.6.14={	death=yes }
+}
+3614 = {
+	name="Esmael" #Last Xukuru-Kariri Duke of Arapiraca. Elder brother of Arani and uncle of Mana.
+	dynasty=2000 #Xukuru-Kariri
+
+	female=no
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+
+	trait=naive_appeaser
+	trait=gregarious
+	trait=charitable
+	trait=trusting
+	trait=arbitrary
+	trait=slothful
+	
+	father = 3613
+
+	diplomacy=7
+	martial=3
+	intrigue=2
+	stewardship=5
+	learning=4
+
+	2269.5.23={birth=yes}
+	2316.2.8={death=yes}
+}
+3615 = {
+	name="Aruanã" #Younger brother of Irapuã Xukuru-Kariri; great-uncle of Mana.
+	dynasty=2000 #Xukuru-Kariri
+
+	female=no
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+
+	trait=scholarly_theologian
+	trait=content
+	trait=kind
+	trait=celibate
+	trait=erudite
+	trait=frail
+	
+	father = 3616
+
+	diplomacy=5
+	martial=1
+	intrigue=3
+	stewardship=4
+	learning=10
+
+	2254.9.12={
+		birth=yes
+	}
+
+	2328.3.21={
+		death=yes
+	}
+}
+3616 = {
+	name="Xiko" #Duke of Arapiraca. Father of Irapuã and Aruanã Xukuru-Kariri.
+	dynasty=2000 #Xukuru-Kariri
+
+	female=no
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+
+	trait=midas_touched
+	trait=just
+	trait=temperate
+	trait=gregarious
+	trait=content
+	trait=lustful
+
+	diplomacy=6
+	martial=4
+	intrigue=3
+	stewardship=10
+	learning=5
+
+	2214.7.6={ birth=yes}
+	2284.10.19={death=yes}
+}
+3617 = {
+	name="Cizermandi" #Son of Aruanã Xukuru-Kariri; cousin of Irapuã's children.
+	dynasty=2000 #Xukuru-Kariri
+
+	female=no
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+
+	trait=thrifty_clerk
+	trait=kind
+	trait=humble
+	trait=patient
+	trait=envious
+	trait=deceitful
+	
+	father = 3615
+
+	diplomacy=5
+	martial=2
+	intrigue=6
+	stewardship=7
+	learning=5
+
+	2276.6.18={
+		birth=yes
+	}
+
+	2337.8.4={
+		death=yes
+	}
+}
+3618 = {
+	name="Cauã" #Son of Cizermandi Xukuru-Kariri; member of a cadet branch of the old Arapiraca dynasty.
+	dynasty=2000 #Xukuru-Kariri
+
+	female=no
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+
+	trait=elusive_shadow
+	trait=calm
+	trait=cynical
+	trait=greedy
+	trait=shy
+	trait=deceitful
+	
+	father = 3617
+
+	diplomacy=3
+	martial=2
+	intrigue=9
+	stewardship=6
+	learning=5
+
+	2304.3.11={
+		birth=yes
+	}
+	2324.6.12={
+		add_matrilineal_spouse=3611
+	}
+	2378.7.26={
+		death=yes
+	}
+}
+3619 = {
+	name="Aimberê" #Eldest son of Mana and Cauã Xukuru-Kariri; heir of the senior surviving branch of the old rulers of Arapiraca.
+	dynasty=2000 #Xukuru-Kariri
+
+	female=no
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+
+	trait=fortune_builder
+	trait=diligent
+	trait=temperate
+	trait=gregarious
+	trait=envious
+	trait=cynical
+	
+	father = 3618
+	mother = 3611
+
+	diplomacy=6
+	martial=4
+	intrigue=5
+	stewardship=9
+	learning=5
+
+	2326.2.14={
+		birth=yes
+	}
+	2400.1.1 = { death = yes }
+}
+3620 = {
+	name="Moema" #Daughter of Mana and Cauã Xukuru-Kariri; sister of Aimberê and Raoni.
+	dynasty=2000 #Xukuru-Kariri
+
+	female=yes
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+
+	trait=charismatic_negotiator
+	trait=kind
+	trait=gregarious
+	trait=charitable
+	trait=trusting
+	trait=lustful
+
+	father = 3618
+	mother = 3611	
+
+	diplomacy=9
+	martial=1
+	intrigue=4
+	stewardship=5
+	learning=6
+
+	2329.9.3={
+		birth=yes
+	}
+}
+3621 = {
+	name="Raoni" #Youngest son of Mana and Cauã Xukuru-Kariri; brother of Aimberê and Moema.
+	dynasty=2000 #Xukuru-Kariri
+
+	female=no
+	culture=xukuru
+	religion=jurema
+	disallow_random_traits=yes
+
+	trait=tough_soldier
+	trait=brave
+	trait=gregarious
+	trait=arbitrary
+	trait=envious
+	trait=hedonist
+	trait=brawny
+	
+	father = 3618
+	mother = 3611	
+
+	diplomacy=5
+	martial=8
+	intrigue=3
+	stewardship=4
+	learning=3
+
+	2333.5.27={	birth=yes	}
+	2400.1.1 = { death = yes }	
+}
+
+##### 3622-3630 reserved for Xukuru-Kariri Dynasty

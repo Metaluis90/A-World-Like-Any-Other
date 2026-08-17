@@ -1,6 +1,11 @@
+# 1194 - Santana do Mundau
 # County Title
 title = c_santana_do_mundau
 
+# Settlements
+max_settlements = 4
+b_santana_do_mundau_AL = castle
+
 # Misc
-culture=lagoano
-religion=cicerite
+culture = lagoano
+religion = cicerite

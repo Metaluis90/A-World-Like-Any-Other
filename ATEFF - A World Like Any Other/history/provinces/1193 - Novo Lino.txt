@@ -1,6 +1,11 @@
+# 1193 - Novo Lino
 # County Title
 title = c_novo_lino
 
+# Settlements
+max_settlements = 3
+b_novo_lino_AL = castle
+
 # Misc
-culture=lagoano
-religion=cicerite
+culture = lagoano
+religion = cicerite

@@ -1,6 +1,11 @@
+# 1196 - Palmeira dos Indios
 # County Title
 title = c_palmeira_dos_indios
 
+# Settlements
+max_settlements = 4
+b_palmeira_dos_indios_AL = castle
+
 # Misc
-culture=xukuru
-religion=cicerite
+culture = xukuru
+religion = cicerite

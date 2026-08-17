@@ -1,6 +1,13 @@
 # County Title
 title = c_traipu
 
+# Settlements
+max_settlements = 3
+
+b_traipu_AL = castle
+
 # Misc
-culture=karirixoko
-religion=cicerite
+culture = karirixoko
+religion = cicerite
+
+#History

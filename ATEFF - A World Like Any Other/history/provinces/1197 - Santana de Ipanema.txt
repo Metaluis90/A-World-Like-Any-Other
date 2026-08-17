@@ -1,6 +1,11 @@
+# 1197 - Santana de Ipanema
 # County Title
-title = c_santana_de_ipanema
+title = c_santana_do_ipanema
+
+# Settlements
+max_settlements = 4
+b_santana_do_ipanema_AL = castle
 
 # Misc
-culture=sertanista
-religion=cicerite
+culture = sertanista
+religion = cicerite

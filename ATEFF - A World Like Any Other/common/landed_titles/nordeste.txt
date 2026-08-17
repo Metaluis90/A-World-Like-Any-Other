@@ -1460,7 +1460,7 @@ e_nordeste = {
 			color2 = { 255 255 255 }
 			capital = 1197
 
-			c_mata_grande = {
+			c_matagrande = {
 				color = { 66 71 255 }
 				color2 = { 255 255 255 }
 
@@ -1474,7 +1474,7 @@ e_nordeste = {
 				b_mata_grande_8_AL = {}
 			}
 
-			c_gouveia = {
+			c_delmiro = {
 				color = { 105 113 255 }
 				color2 = { 255 255 255 }
 
@@ -1502,7 +1502,7 @@ e_nordeste = {
 				b_santana_do_ipanema_8_AL = {}
 			}
 
-			c_tapera = {
+			c_olivenca = {
 				color = { 71 83 255 }
 				color2 = { 255 255 255 }
 

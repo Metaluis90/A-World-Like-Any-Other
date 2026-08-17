@@ -1,6 +1,12 @@
+# 1191 - Camaragibe
+
 # County Title
 title = c_camaragibe
 
+# Settlements
+max_settlements = 3
+b_passo_de_camaragibe_AL = castle
+
 # Misc
-culture=lagoano
-religion=cicerite
+culture = lagoano
+religion = cicerite
