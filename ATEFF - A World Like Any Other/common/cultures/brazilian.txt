@@ -1864,7 +1864,7 @@ atlanticano = { #culture group
 cearense = { #culture group 	
 	graphical_cultures = { muslimgfx }
 	
-	fortalezense = { #Cosmopolitan inhabitans of the coast of Ceará
+	jangandeiro = { #Cosmopolitan inhabitans of the coast of Ceará
 		graphical_cultures = { muslimgfx }
 		
 		color = { 0.38 0.45 0.40 }
