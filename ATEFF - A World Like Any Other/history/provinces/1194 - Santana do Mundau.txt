@@ -1,0 +1,6 @@
+# County Title
+title = c_santana_do_mundau
+
+# Misc
+culture=lagoano
+religion=cicerite

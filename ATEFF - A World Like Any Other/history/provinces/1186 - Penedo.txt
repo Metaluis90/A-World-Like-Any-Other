@@ -1,0 +1,6 @@
+# County Title
+title = c_penedo
+
+# Misc
+culture=karirixoko
+religion=cicerite

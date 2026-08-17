@@ -1,0 +1,6 @@
+# County Title
+title = c_batalha
+
+# Misc
+culture=sertanista
+religion=cicerite

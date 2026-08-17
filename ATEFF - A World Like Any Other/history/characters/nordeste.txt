@@ -1,4 +1,10 @@
 # ID RANGE: 3501 - 4000
+#############################
+######
+##########Characters in the Nordeste region of Brazil, comprising the kingdoms of Alagoas, Pernambuco, Paraíba, Potiguaria
+######
+#############################
+
 # ###########################
 # ### House Belchioríngio ###
 # ###########################
@@ -656,3 +662,99 @@
 	2400.1.1={death=yes}
 	#holds duchy of francisca, santa maria da boa vista and petrolina
 }
+
+3532={
+	name="Maria Bonita"
+	female=yes
+	dynasty=0 #later change it to an actual dynasty of a neighbor
+	culture=sertanista
+	religion=cicerite
+	trait=detached_priest
+	trait=zealous
+	
+	2335.9.1={birth=yes}
+	2352.10.14={add_spouse=3531}
+	2400.1.1={death=yes}
+}
+
+3533={
+	name="Cristino"
+	dynasty=7
+	dna="00icc0fbba0"
+	properties="eb0i0k000000000000000000000000000000"
+	culture=sertanista
+	religion=evangelical
+	trait=tough_soldier
+	trait=wroth
+	trait=zealous
+	
+	2354.3.15={birth=yes}
+	2400.1.1={death=yes}
+}
+
+#3534-3539 = {} #Reserved for Constantino's Father, Mother and 2 sisters and other family
+
+	#####################################################
+	######## Dynasties of the Kingdom of Alagoas ########
+	########									 ########
+	#####################################################
+
+
+	### Costa-Xaviers of Penedo ###
+	
+3540 ={
+	name="Beatriz"
+	dynasty=8 #Costa-Xavier
+	dna="bcfih0fa0d0"
+	properties="ji0f0i0000000000000000000000000000000"
+	female=yes
+	culture=lagoano
+	religion=cicerite
+	trait=fortune_builder
+	trait=just
+	trait=kind
+	trait=fair
+	trait=quick
+	disallow_random_traits=yes
+	
+	diplomacy=6
+	martial=3
+	stewardship=5
+	intrigue=4
+	learning=4
+	
+	2352.2.15={birth=yes}
+	2400.1.1={death=yes}
+}
+
+##3541-3548 Reserved for Beatriz's family (father, mother, perhaps an uncle and his cousins)
+
+
+	### Melo of Maceió ###
+	
+3549 ={
+	name="Afonso" #Duke of Maceió, sucessfully rebelled against Cassiano of Pernambuco. Currently losing a reclamation war against Cassiano's son, Decio Belchior.
+	dynasty=0 #Melo
+#	dna="bcfih0fa0d0"
+#	properties="ji0f0i0000000000000000000000000000000"
+	female=no
+	culture=lagoano
+	religion=cicerite
+	trait=flamboyant_schemer
+	trait=wroth
+	trait=strong
+	trait=shrewd
+	trait=craven
+	disallow_random_traits=yes
+	
+	diplomacy=6
+	martial=3
+	stewardship=5
+	intrigue=4
+	learning=4
+	
+	2327.7.13={birth=yes}
+	2400.1.1={death=yes}
+}
+
+#####3550-3560 reserved of Melo characters

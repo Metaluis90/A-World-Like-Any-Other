@@ -1,0 +1,3 @@
+2366.7.29={
+	liege=d_maceio # During the Lagoano Rebellion, this county is organized under the Duchy of Maceio
+}

@@ -1449,5 +1449,262 @@ e_nordeste = {
 
 		}
 
-	}	
+	}
+	k_alagoas = {
+		color = { 61 82 245 }
+		color2 = { 255 255 255 }
+		capital = 1190
+
+		d_ipanema = {
+			color = { 72 77 255 }
+			color2 = { 255 255 255 }
+			capital = 1197
+
+			c_mata_grande = {
+				color = { 66 71 255 }
+				color2 = { 255 255 255 }
+
+				b_mata_grande_AL = {}
+				b_inhapi_AL = {}
+				b_canapi_AL = {}
+				b_mata_grande_4_AL = {}
+				b_mata_grande_5_AL = {}
+				b_mata_grande_6_AL = {}
+				b_mata_grande_7_AL = {}
+				b_mata_grande_8_AL = {}
+			}
+
+			c_gouveia = {
+				color = { 105 113 255 }
+				color2 = { 255 255 255 }
+
+				b_delmiro_gouveia_AL = {}
+				b_piranhas_AL = {}
+				b_agua_branca_AL = {}
+				b_olho_dagua_do_casado_AL = {}
+				b_pariconha_AL = {}
+				b_gouveia_6_AL = {}
+				b_gouveia_7_AL = {}
+				b_gouveia_8_AL = {}
+			}
+
+			c_santana_do_ipanema = {
+				color = { 78 28 255 }
+				color2 = { 255 255 255 }
+
+				b_santana_do_ipanema_AL = {}
+				b_senador_rui_palmeira_AL = {}
+				b_dois_riachos_AL = {}
+				b_maravilha_AL = {}
+				b_ouro_branco_AL = {}
+				b_poco_das_trincheiras_AL = {}
+				b_santana_do_ipanema_7_AL = {}
+				b_santana_do_ipanema_8_AL = {}
+			}
+
+			c_tapera = {
+				color = { 71 83 255 }
+				color2 = { 255 255 255 }
+
+				b_sao_jose_da_tapera_AL = {}
+				b_olho_dagua_das_flores_AL = {}
+				b_olivenca_AL = {}
+				b_jacare_dos_homens_AL = {}
+				b_carneiros_AL = {}
+				b_monteiropolis_AL = {}
+				b_tapera_7_AL = {}
+				b_tapera_8_AL = {}
+			}
+
+			c_batalha = {
+				color = { 39 90 255 }
+				color2 = { 255 255 255 }
+
+				b_batalha_AL = {}
+				b_pao_de_acucar_AL = {}
+				b_major_izidoro_AL = {}
+				b_belo_monte_AL = {}
+				b_jaramataia_AL = {}
+				b_palestina_AL = {}
+				b_batalha_7_AL = {}
+				b_batalha_8_AL = {}
+			}
+
+		}
+
+		d_arapiraca = {
+			color = { 47 84 235 }
+			color2 = { 255 255 255 }
+			capital = 1188
+
+			c_palmeira_dos_indios = {
+				color = { 51 88 234 }
+				color2 = { 255 255 255 }
+
+				b_palmeira_dos_indios_AL = {}
+				b_igaci_AL = {}
+				b_maribondo_AL = {}
+				b_quebrangulo_AL = {}
+				b_paulo_jacinto_AL = {}
+				b_cacimbinhas_AL = {}
+				b_estrela_de_alagoas_AL = {}
+				b_minador_do_negrao_AL = {}
+				b_mar_vermelho_AL = {}
+				b_belem_AL = {}
+				b_tanque_darca_AL = {}
+			}
+
+			c_arapiraca = {
+				color = { 56 95 255 }
+				color2 = { 255 255 255 }
+
+				b_arapiraca_AL = {}
+				b_craibas_AL = {}
+				b_limoeiro_de_anadia_AL = {}
+				b_feira_grande_AL = {}
+				b_lagoa_da_canoa_AL = {}
+				b_junqueiro_AL = {}
+				b_coite_do_noia_AL = {}
+				b_taquarana_AL = {}
+				b_sao_sebastiao_AL = {}
+			}
+
+			c_traipu = {
+				color = { 51 86 236 }
+				color2 = { 255 255 255 }
+
+				b_traipu_AL = {}
+				b_girau_do_ponciano_AL = {}
+				b_campo_grande_AL = {}
+				b_olho_dagua_grande_AL = {}
+				b_sao_bras_AL = {}
+				b_traipu_6_AL = {}
+				b_traipu_7_AL = {}
+				b_traipu_8_AL = {}
+			}
+
+			c_penedo = {
+				color = { 40 74 211 }
+				color2 = { 255 255 255 }
+
+				b_penedo_AL = {}
+				b_igreja_nova_AL = {}
+				b_porto_real_do_colegio_AL = {}
+				b_piacabucu_AL = {}
+				b_feliz_deserto_AL = {}
+				b_penedo_6_AL = {}
+				b_penedo_7_AL = {}
+				b_penedo_8_AL = {}
+			}
+
+			c_coruripe = {
+				color = { 35 76 239 }
+				color2 = { 255 255 255 }
+
+				b_coruripe_AL = {}
+				b_sao_miguel_dos_campos_AL = {}
+				b_campo_alegre_AL = {}
+				b_teotonio_vilela_AL = {}
+				b_jequia_da_praia_AL = {}
+				b_roteiro_AL = {}
+				b_anadia_AL = {}
+				b_boca_da_mata_AL = {}
+			}
+
+		}
+
+		d_maceio = {
+			color = { 65 84 245 }
+			color2 = { 255 255 255 }
+			capital = 1190
+
+			c_santana_do_mundau = {
+				color = { 85 83 255 }
+				color2 = { 255 255 255 }
+
+				b_santana_do_mundau_AL = {}
+				b_uniao_dos_palmares_AL = {}
+				b_sao_jose_da_laje_AL = {}
+				b_ibateguara_AL = {}
+				b_vicosa_AL = {}
+				b_cha_preta_AL = {}
+				b_pindoba_AL = {}
+				b_santana_do_mundau_8_AL = {}
+			}
+
+			c_novo_lino = {
+				color = { 73 98 255 }
+				color2 = { 255 255 255 }
+
+				b_novo_lino_AL = {}
+				b_joaquim_gomes_AL = {}
+				b_colonia_leopoldina_AL = {}
+				b_matriz_de_camaragibe_AL = {}
+				b_campestre_AL = {}
+				b_jacuipe_AL = {}
+				b_jundia_AL = {}
+				b_novo_lino_8_AL = {}
+			}
+
+			c_maragogi = {
+				color = { 70 74 255 }
+				color2 = { 255 255 255 }
+
+				b_maragogi_AL = {}
+				b_porto_calvo_AL = {}
+				b_japaratinga_AL = {}
+				b_maragogi_4_AL = {}
+				b_maragogi_5_AL = {}
+				b_maragogi_6_AL = {}
+				b_maragogi_7_AL = {}
+				b_maragogi_8_AL = {}
+			}
+
+			c_camaragibe = {
+				color = { 70 103 234 }
+				color2 = { 255 255 255 }
+
+				b_passo_de_camaragibe_AL = {}
+				b_sao_luis_do_quitunde_AL = {}
+				b_porto_de_pedras_AL = {}
+				b_sao_miguel_dos_milagres_AL = {}
+				b_barra_de_santo_antonio_AL = {}
+				b_camaragibe_6_AL = {}
+				b_camaragibe_7_AL = {}
+				b_camaragibe_8_AL = {}
+			}
+
+			c_murici = {
+				color = { 62 113 255 }
+				color2 = { 255 255 255 }
+
+				b_murici_AL = {}
+				b_atalaia_AL = {}
+				b_capela_AL = {}
+				b_messias_AL = {}
+				b_flexeiras_AL = {}
+				b_branquinha_AL = {}
+				b_cajueiro_AL = {}
+				b_murici_8_AL = {}
+			}
+
+			c_maceio = {
+				color = { 31 30 216 }
+				color2 = { 255 255 255 }
+
+				b_maceio_AL = {}
+				b_rio_largo_AL = {}
+				b_marechal_deodoro_AL = {}
+				b_pilar_AL = {}
+				b_satuba_AL = {}
+				b_barra_de_sao_miguel_AL = {}
+				b_paripueira_AL = {}
+				b_santa_luzia_do_norte_AL = {}
+				b_coqueiro_seco_AL = {}
+			}
+
+		}
+
+	}
+	
 }

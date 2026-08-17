@@ -1,0 +1,6 @@
+# County Title
+title = c_santana_de_ipanema
+
+# Misc
+culture=sertanista
+religion=cicerite

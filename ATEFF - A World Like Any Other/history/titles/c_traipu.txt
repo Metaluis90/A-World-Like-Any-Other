@@ -1,0 +1,21 @@
+# Characters:
+# 3501 = Antonio Carlos Belchior, late Emperor of Belchoringia before 2369 bookmark
+# 3505 = Cassiano Belchior, King of Pernambuco in 2369
+# 3509 = Decio Belchior, Duke of Arapiraca and Ipanema in 2369
+# 3549 = Afonso Melo, King of Alagoas in 2369
+
+2300.1.1 = {
+	holder = 3501 #Antonio Carlos Belchior
+	liege = e_belchoringia
+}
+2362.2.10 = {
+	holder = 3505 #Cassiano inherits the Kingdom of Alagoas and all the titles under his father
+	liege = k_alagoas
+}
+2366.7.29={
+	holder=3549 # Afonso Melo takes the County of Traipu during the Lagoano Rebellion
+}
+2369.3.21={
+	holder=3509 
+	liege = d_arapiraca  # Decio Belchior retakes Traipu as part of his recovery of Arapiraca
+}

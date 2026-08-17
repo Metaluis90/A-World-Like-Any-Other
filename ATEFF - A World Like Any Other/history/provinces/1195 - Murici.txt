@@ -1,0 +1,6 @@
+# County Title
+title = c_murici
+
+# Misc
+culture=lagoano
+religion=cicerite

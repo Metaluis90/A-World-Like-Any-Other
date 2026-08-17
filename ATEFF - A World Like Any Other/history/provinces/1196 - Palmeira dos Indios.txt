@@ -1,0 +1,6 @@
+# County Title
+title = c_palmeira_dos_indios
+
+# Misc
+culture=xukuru
+religion=cicerite

@@ -1,0 +1,6 @@
+# County Title
+title = c_mata_grande
+
+# Misc
+culture=sertanista
+religion=jurema

@@ -1,0 +1,6 @@
+# County Title
+title = c_novo_lino
+
+# Misc
+culture=lagoano
+religion=cicerite

@@ -1,0 +1,6 @@
+# County Title
+title = c_traipu
+
+# Misc
+culture=karirixoko
+religion=cicerite

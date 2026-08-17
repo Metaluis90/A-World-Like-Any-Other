@@ -1,0 +1,6 @@
+# County Title
+title = c_camaragibe
+
+# Misc
+culture=lagoano
+religion=cicerite

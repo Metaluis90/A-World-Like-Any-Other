@@ -1,0 +1,18 @@
+# Characters:
+# 3549 = Afonso Melo
+
+2300.1.1 = {
+	liege = e_belchoringia #Maceió is vassal to the Belchoringian Empire
+}
+2346.3.11={
+	holder=3549 #Somewhere in the past, Afonso Melo becomes Duke of Maceio 
+}
+2362.2.10 = {
+	liege = k_alagoas #Under the partition of the Belchoringian Empire, Cassiano inherits the Kingdom of Pernambuco and Alagoas and all the titles under his father
+}
+2366.7.29 = {
+	liege= 0  # Lagoano Rebellion.
+}
+2367.9.16={
+	liege=k_alagoas # End of the Lagoano Rebellion, Afonso Melo becomes king of Alagoas
+}

@@ -1,0 +1,6 @@
+# County Title
+title = c_maceio
+
+# Misc
+culture=lagoano
+religion=cicerite

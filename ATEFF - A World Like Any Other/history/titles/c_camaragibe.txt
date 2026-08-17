@@ -1,0 +1,7 @@
+# Characters:
+# 3549 = Afonso Melo
+
+2366.7.29={
+	holder=3549 # Camaragibe becomes part of Afonso Melo's personal demesne during the Lagoano Rebellion
+	liege=d_maceio # The county is held directly under Afonso Melo's Duchy of Maceio
+}

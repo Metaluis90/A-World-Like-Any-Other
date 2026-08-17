@@ -1,0 +1,6 @@
+# County Title
+title = c_coruripe
+
+# Misc
+culture=lagoano
+religion=cicerite
