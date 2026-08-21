@@ -1,0 +1,16 @@
+# County Title
+title = c_pinar_del_rio
+
+# Settlemets
+max_settlements = 4
+
+b_pinar_del_rio = castle
+b_consolacion_del_sur = city
+b_san_juan_y_martinez = city
+b_san_luis = temple
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

@@ -1,0 +1,17 @@
+# 2000 - Mantua
+
+# County Title
+title = c_mantua
+
+# Settlemets
+max_settlements = 3
+
+b_mantua = castle
+b_la_fe = temple
+b_cortés = city
+
+# Misc
+culture = cubano_(occidental)
+religion = ####
+
+#History

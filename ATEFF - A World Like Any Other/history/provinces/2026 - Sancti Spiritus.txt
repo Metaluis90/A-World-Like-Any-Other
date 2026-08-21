@@ -1,0 +1,16 @@
+# County Title
+title = c_sancti_spiritus
+
+# Settlemets
+max_settlements = 4
+
+b_sancti_spiritus = castle
+b_guasimal = city
+b_la_vega = temple
+b_las_nuevas = castle
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

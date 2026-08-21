@@ -1,0 +1,15 @@
+# County Title
+title = c_artemisa
+
+# Settlemets
+max_settlements = 3
+
+b_artemisa = castle
+b_güira_de_melena = city
+b_san_cristobal = temple
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

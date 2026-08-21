@@ -1,0 +1,15 @@
+# County Title
+title = c_florencia
+
+# Settlemets
+max_settlements = 3
+
+b_florencia = castle
+b_chambas = city
+b_santo_tomás = temple
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

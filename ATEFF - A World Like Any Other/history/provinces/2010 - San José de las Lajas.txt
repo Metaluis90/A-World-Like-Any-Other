@@ -1,0 +1,16 @@
+# County Title
+title = c_san_josé_de_las_lajas
+
+# Settlemets
+max_settlements = 4
+
+b_san_josé_de_las_lajas = castle
+b_batabanó= city
+b_santa_mónica = temple
+b_bejucal = city
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

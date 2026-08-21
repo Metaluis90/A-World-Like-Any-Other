@@ -1,0 +1,15 @@
+# County Title
+title = c_minas
+
+# Settlemets
+max_settlements = 3
+
+b_minas = castle
+b_lombillo = city
+b_esmeralda = temple
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

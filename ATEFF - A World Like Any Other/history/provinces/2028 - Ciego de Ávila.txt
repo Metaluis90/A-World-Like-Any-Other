@@ -1,0 +1,15 @@
+# County Title
+title = c_ciego_de_ávila
+
+max_settlements = 4
+
+b_ciego_de_avila = castle
+b_baraguá = city
+b_colorado = temple
+b_júcaro = castle
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

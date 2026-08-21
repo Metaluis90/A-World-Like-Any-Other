@@ -1,0 +1,14 @@
+# County Title
+title = c_cayo_coco
+
+# Settlemets
+max_settlements = 2
+
+b_cayo_coco = castle
+b_cayo_guillermo = castle
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

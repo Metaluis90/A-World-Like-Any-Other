@@ -1,0 +1,14 @@
+# County Title
+title = c_jagüey_grande
+
+# Settlemets
+max_settlements = 2
+
+b_jagüey_grande = castle
+b_calimete = city
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

@@ -1,0 +1,11 @@
+# County Title
+title = c_alquizar
+
+max_settlements = 3
+
+b_alquizar = castle
+b_san_antonio_de_los_banos = city
+b_guadalupe = temple
+
+culture = 
+religion = 

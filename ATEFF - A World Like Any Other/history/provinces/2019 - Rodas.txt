@@ -1,0 +1,15 @@
+# County Title
+title = c_rodas
+
+max_settlements = 3
+
+# Settlemets
+b_rodas = castle
+b_lajas = city
+b_cruces = temple
+
+# Misc
+culture = cubano_(central)
+religion = 
+
+#History

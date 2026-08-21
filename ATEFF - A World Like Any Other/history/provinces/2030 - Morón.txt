@@ -1,0 +1,15 @@
+# County Title
+title = c_morón
+
+# Settlemets
+max_settlements = 3
+
+b_morón = castle
+b_miraflores = city
+b_mabella = temple
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

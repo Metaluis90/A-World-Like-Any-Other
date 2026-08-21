@@ -1,0 +1,15 @@
+# County Title
+title = c_remedios
+
+# Settlemets
+max_settlements = 3
+
+b_remedios = castle
+b_caibarién = city
+b_camajuaní = temple
+
+# Misc
+culture = cubano_(central)
+religion = 
+
+#History

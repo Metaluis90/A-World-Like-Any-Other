@@ -1,0 +1,15 @@
+# County Title
+title = c_güines
+
+# Settlemets
+max_settlements = 3
+
+b_güines = castle
+b_melena_del_sur = city
+b_madruga = temple
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

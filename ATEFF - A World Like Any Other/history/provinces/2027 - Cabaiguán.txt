@@ -1,0 +1,15 @@
+# County Title
+title = c_cabaiguán
+
+# Settlemets
+max_settlements = 3
+
+b_cabaiguán = castle
+b_taguasco = city
+b_arroyo_blanco = temple
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

@@ -1,0 +1,14 @@
+# County Title
+title = c_playa_larga
+
+# Settlemets
+max_settlements = 2
+
+b_playa_larga = castle
+b_caleta_buena = city
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

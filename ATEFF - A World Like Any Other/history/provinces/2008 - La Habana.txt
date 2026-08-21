@@ -1,0 +1,19 @@
+# County Title
+title = c_la_habana
+
+# Settlemets
+max_settlements = 7
+
+b_habana_vieja = castle
+b_centro_habana = city
+b_vedado = city
+b_habana_del_este = city
+b_guanabacoa = temple
+b_boyeros = temple
+b_san_miguel = temple
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

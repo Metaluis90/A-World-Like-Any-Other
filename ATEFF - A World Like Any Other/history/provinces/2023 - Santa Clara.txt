@@ -1,0 +1,16 @@
+# County Title
+title = c_santa_clara
+
+# Settlemets
+max_settlements = 4
+
+b_santa_clara = castle
+b_ranchuelo = city
+b_nazareno = temple
+b_placetas = city
+
+# Misc
+culture = cubano_(central)
+religion = 
+
+#History

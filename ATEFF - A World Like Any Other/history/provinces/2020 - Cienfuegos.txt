@@ -1,0 +1,16 @@
+# County Title
+title = c_cienfuegos
+
+# Settlemets
+max_settlements = 4
+
+b_cienfuegos = castle
+b_cumanayagua = city
+b_el_nicho = temple
+b_san_juan = castle
+
+# Misc
+culture = cubano_(central)
+religion = 
+
+#History

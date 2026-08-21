@@ -1,0 +1,15 @@
+# County Title
+title = c_bauta
+
+# Settlemets
+max_settlements = 3
+
+b_bauta = castle
+b_ceiba_del_agua = city
+b_punta_brava = temple
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

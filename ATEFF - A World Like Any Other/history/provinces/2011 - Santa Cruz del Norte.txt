@@ -1,0 +1,15 @@
+# County Title
+title = c_santa_cruz_del_norte
+
+# Settlemets
+max_settlements = 3
+
+b_santa_cruz_del_norte = castle
+b_bainoa = city
+b_san_antonio_del_rio_blanco = temple
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

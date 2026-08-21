@@ -2048,8 +2048,6 @@ province;red;green;blue;x;x
 2048;116;76;19;Guantanamo;x
 2049;100;177;114;Gitmo;x
 2050;127;63;14;Baracoa;x
-98;190;28;Grand Cayman;x #(rcheck)
-121;219;45;Little Cayman;x #(rcheck)
 2051;166;255;169;Hanover;x
 2052;100;203;104;Westmoreland;x
 2053;77;148;80;Saint James;x
@@ -2135,18 +2133,22 @@ province;red;green;blue;x;x
 2133;218;150;24;Aruba;x
 2134;165;121;37;Curacao;x
 2135;233;183;89;Bonaire;x
-2136;204;45;48;Turcas y Caicos;x
-2137;255;128;255;Inagua Grande;x
-2138;147;68;68;Mayaguana;x
-2139;255;0;0;Acklin;x
-2140;97;0;97;Crooked;x
-2141;255;255;145;Isla Larga;x
-2142;150;150;213;San Salvador;x
-2143;255;255;0;Isla del Gato;x
-2144;0;145;145;Gran Exuma;x
-2145;194;249;249;Eleuthera;x
-2146;64;64;135;Nueva Providencia;x
-2147;0;255;0255;Abaco;x
-2148;98;132;98;Gran Bahama;x
-2149;0;183;239;Andros;x
-2150;128;128;64;Williams Island;x
+2136;204;45;48;North Caicos;x
+2137;136;34;36;East Caicos;x
+2138;255;128;255;Inagua Grande;x
+2139;147;68;68;Mayaguana;x
+2140;255;0;0;Acklin;x
+2141;97;0;97;Crooked;x
+2142;255;255;145;Isla Larga;x
+2143;150;150;213;San Salvador;x
+2144;255;255;0;Isla del Gato;x
+2145;0;145;145;Gran Exuma;x
+2146;194;249;249;Eleuthera;x
+2147;64;64;135;Nueva Providencia;x
+2148;0;255;0255;Ábaco;x
+2149;98;132;98;Gran Bahama;x
+2150;0;183;239;Andros;x
+2151;128;128;64;Williams Island;x
+2152;98;190;28;Grand Cayman;x 
+2153;121;219;45;Little Cayman;x 
+2154;103;70;22;Yateras;x

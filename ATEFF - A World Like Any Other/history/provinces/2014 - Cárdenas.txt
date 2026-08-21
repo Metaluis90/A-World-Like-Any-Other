@@ -1,0 +1,17 @@
+# County Title
+title = c_cárdenas
+
+# Settlemets
+max_settlements = 4
+
+b_cárdenas = castle
+b_varadero = city
+b_santa_marta = temple
+b_jovellanos = city
+b_colón = temple
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

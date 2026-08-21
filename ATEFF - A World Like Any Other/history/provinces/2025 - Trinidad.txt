@@ -1,0 +1,15 @@
+# County Title
+title = c_trinidad
+
+# Settlemets
+max_settlements = 3
+
+b_trinidad = castle
+b_casilda = city
+b_san_andrés = temple
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

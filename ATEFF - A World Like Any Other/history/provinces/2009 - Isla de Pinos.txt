@@ -1,0 +1,14 @@
+# County Title
+title = c_isla_de_pinos
+
+# Settlemets
+max_settlements = 2
+
+b_nueva_gerona = castle
+b_santa_fe = temple
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

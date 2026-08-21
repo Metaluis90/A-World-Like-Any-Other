@@ -1,0 +1,15 @@
+# County Title
+title = c_union_de_reyes
+
+# Settlemets
+max_settlements = 3
+
+b_unión_de_reyes = castle
+b_pedro_betancourt = temple
+b_pedroso = city
+
+# Misc
+culture = cubano_(occidental)
+religion =
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_santo_domingo
+
+# Settlemets
+max_settlements = 3
+
+b_santo_domingo = castle
+b_manacas= city
+b_san_pedro_ferran = temple
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

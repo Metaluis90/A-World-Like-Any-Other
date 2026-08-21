@@ -1,0 +1,15 @@
+# County Title
+title = c_abreus
+
+# Settlemets
+max_settlements = 3
+
+b_abreus = castle
+b_yaguaramas = city
+b_san_ignacio = temple
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

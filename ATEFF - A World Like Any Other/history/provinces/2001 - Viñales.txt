@@ -1,0 +1,18 @@
+# 2001 - Viñales
+
+# County Title
+title = c_viñales
+
+# Settlemets
+max_settlements = 4
+
+b_viñales = castle
+b_puerto_esperanza = city
+b_minas_de_matahambre = castle
+b_santa_lucia = temple
+
+# Misc
+culture = cubano_(occidental)
+religion =  
+
+#History

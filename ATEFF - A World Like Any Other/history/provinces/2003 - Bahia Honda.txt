@@ -1,0 +1,15 @@
+# County Title
+title = c_bahia_honda
+
+# Settlemets
+max_settlements = 3
+
+b_bahia_honda = castle
+b_puerto_escondido = city
+b_san_diego= temple
+
+# Misc
+culture = cubano_(occidental)
+religion = 
+
+#History

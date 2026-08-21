@@ -1,0 +1,15 @@
+# County Title
+title = c_sagua_la_grande
+
+# Settlemets
+max_settlements = 3
+
+b_sagua_la_grande = castle
+b_cifuentes = city
+b_el_santo = temple
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History
