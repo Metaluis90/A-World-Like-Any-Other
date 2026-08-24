@@ -1,0 +1,15 @@
+# County Title
+title = c_little_cayman
+
+# Settlemets
+max_settlements = 3
+
+b_blossom_village = castle
+b_south_town = city
+b_west_end = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

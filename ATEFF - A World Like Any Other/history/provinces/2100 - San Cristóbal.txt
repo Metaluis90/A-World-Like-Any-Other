@@ -1,0 +1,15 @@
+# County Title
+title = c_san_cristóbal
+
+# Settlemets
+max_settlements = 3
+
+b_san_cristóbal = castle
+b_bajos_de_haina = city
+b_nigua = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

@@ -1,0 +1,16 @@
+# County Title
+title = c_grand'_anse
+
+# Settlemets
+max_settlements = 4
+
+b_jeremie = castle
+b_corail = city
+b_dame_marie = castle
+b_les_irois = temple
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

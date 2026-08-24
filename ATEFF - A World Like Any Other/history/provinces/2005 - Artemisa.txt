@@ -10,6 +10,6 @@ b_san_cristobal = temple
 
 # Misc
 culture = cubano_(occidental)
-religion = 
+religion = catholic
 
 #History

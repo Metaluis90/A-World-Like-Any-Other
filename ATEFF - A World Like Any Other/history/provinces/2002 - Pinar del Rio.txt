@@ -11,6 +11,6 @@ b_san_luis = temple
 
 # Misc
 culture = cubano_(occidental)
-religion = 
+religion = catholic
 
 #History

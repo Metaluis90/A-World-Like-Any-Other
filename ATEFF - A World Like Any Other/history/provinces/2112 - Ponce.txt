@@ -1,0 +1,16 @@
+# County Title
+title = c_ponce
+
+# Settlemets
+max_settlements = 4
+
+b_ponce = castle
+b_villalba = city
+b_santa_isabel = temple
+b_penuelas = castle
+
+# Misc
+culture = boricua
+religion = catholic
+
+#History

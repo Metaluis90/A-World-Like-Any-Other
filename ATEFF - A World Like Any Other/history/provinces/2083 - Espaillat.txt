@@ -1,0 +1,15 @@
+# County Title
+title = c_espaillat
+
+# Settlemets
+max_settlements = 3
+
+b_moca = castle
+b_jamao_al_norte = city
+b_la_ortega = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

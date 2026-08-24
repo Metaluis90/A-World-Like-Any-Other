@@ -1,0 +1,16 @@
+# County Title
+title = c_nord
+
+# Settlemets
+max_settlements = 4
+
+b_cap_haitien = castle
+b_limbe = city
+b_milot = temple
+b_port_margot = city
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

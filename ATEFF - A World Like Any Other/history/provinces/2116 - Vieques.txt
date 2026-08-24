@@ -1,0 +1,15 @@
+# County Title
+title = c_vieques
+
+# Settlemets
+max_settlements = 3
+
+b_isabel_ii = castle
+b_esperanza = city
+b_la_esperanza = temple
+
+# Misc
+culture = boricua
+religion = catholic
+
+#History

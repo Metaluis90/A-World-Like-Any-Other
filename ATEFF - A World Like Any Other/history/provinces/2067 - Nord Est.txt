@@ -1,0 +1,15 @@
+# County Title
+title = c_nord_est
+
+# Settlemets
+max_settlements = 3
+
+b_fort_liberté = castle
+b_ouanaminthe = city
+b_trou_du_nord = temple
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

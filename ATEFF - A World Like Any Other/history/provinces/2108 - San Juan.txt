@@ -1,0 +1,18 @@
+# County Title
+title = c_san_juan
+
+# Settlemets
+max_settlements = 6
+
+b_san_juan = castle
+b_bayamon = city
+b_guaynabo = temple
+b_carolina = city
+b_trujillo_alto = castle
+b_catano = temple
+
+# Misc
+culture = boricua
+religion = catholic
+
+#History

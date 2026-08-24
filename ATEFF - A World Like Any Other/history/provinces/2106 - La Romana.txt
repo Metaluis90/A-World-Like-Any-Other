@@ -1,0 +1,16 @@
+# County Title
+title = c_la_romana
+
+# Settlemets
+max_settlements = 4
+
+b_la_romana = castle
+b_villa_hermosa = city
+b_benerito = temple
+b_isla_catalina = castle
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

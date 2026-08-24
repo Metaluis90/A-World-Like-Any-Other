@@ -1,0 +1,16 @@
+# County Title
+title = c_nord_ouest
+
+# Settlemets
+max_settlements = 4
+
+b_port_de_paix = castle
+b_beau_champ = city
+b_foache = city
+b_chansolme = temple
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

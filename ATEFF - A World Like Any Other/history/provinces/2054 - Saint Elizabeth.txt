@@ -1,0 +1,15 @@
+# County Title
+title = c_saint_elizabeth
+
+# Settlemets
+max_settlements = 7
+
+b_black_river = castle
+b_santa_cruz_JAM = city
+b_malvern = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

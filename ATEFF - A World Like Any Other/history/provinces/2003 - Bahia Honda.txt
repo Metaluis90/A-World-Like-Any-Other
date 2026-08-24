@@ -10,6 +10,6 @@ b_san_diego= temple
 
 # Misc
 culture = cubano_(occidental)
-religion = 
+religion = catholic
 
 #History

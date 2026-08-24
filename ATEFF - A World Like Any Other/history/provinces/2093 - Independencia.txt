@@ -1,0 +1,15 @@
+# County Title
+title = c_independencia
+
+# Settlemets
+max_settlements = 3
+
+b_jimani = castle
+b_duverge = city
+b_tierra_nueva = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

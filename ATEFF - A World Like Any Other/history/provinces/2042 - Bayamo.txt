@@ -1,0 +1,16 @@
+# County Title
+title = c_bayamo
+
+# Settlemets
+max_settlements = 4
+
+b_bayamo = castle
+b_rio_cauto = city
+b_jiguani = castle
+b_guisa = temple
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

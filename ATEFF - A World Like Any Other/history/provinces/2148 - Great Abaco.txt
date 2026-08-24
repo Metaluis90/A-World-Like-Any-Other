@@ -1,0 +1,15 @@
+# County Title
+title = c_great_abaco
+
+# Settlemets
+max_settlements = 3
+
+b_marsh_harbour = castle
+b_hope_town = city
+b_sandy_point = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

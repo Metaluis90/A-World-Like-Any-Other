@@ -1,0 +1,16 @@
+# County Title
+title = c_sud
+
+# Settlemets
+max_settlements = 3
+
+b_les_cayes = castle
+b_aquin = city
+b_port_salut = temple
+b_cavaillon = temple
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

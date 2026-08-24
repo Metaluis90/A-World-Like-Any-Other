@@ -1,0 +1,16 @@
+# County Title
+title = c_saint_vincent_and_the_grenadines
+
+# Settlemets
+max_settlements = 4
+
+b_kingstown = castle
+b_georgetown = city
+b_port_elizabeth = temple
+b_clifton = castle
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_saint_mary
+
+# Settlemets
+max_settlements = 3
+
+b_port_maria = castle
+b_oracabessa = city
+b_islington = temple
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History

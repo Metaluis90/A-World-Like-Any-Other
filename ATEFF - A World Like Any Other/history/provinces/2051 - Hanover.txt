@@ -1,0 +1,15 @@
+# County Title
+title = c_hanover
+
+# Settlemets
+max_settlements = 3
+
+b_lucea = castle
+b_cascade = city
+b_lucea_east = temple
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History

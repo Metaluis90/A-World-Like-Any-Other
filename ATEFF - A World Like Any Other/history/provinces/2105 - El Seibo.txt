@@ -1,0 +1,15 @@
+# County Title
+title = c_el_seibo
+
+# Settlemets
+max_settlements = 3
+
+b_el_seibo = castle
+b_santa_lucia = city
+b_la_higuera = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

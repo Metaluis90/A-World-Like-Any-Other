@@ -1,0 +1,16 @@
+# County Title
+title = c_saint_kitts_y_nevis
+
+# Settlemets
+max_settlements = 4
+
+b_basseterre = castle
+b_charlestown = city
+b_newcastle = temple
+b_old_road_town = castle
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

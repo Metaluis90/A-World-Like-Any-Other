@@ -1,0 +1,16 @@
+# County Title
+title = c_barahona
+
+# Settlemets
+max_settlements = 4
+
+b_barahona = castle
+b_cabral = city
+b_polo = temple
+b_la_cienaga = castle
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_nippes
+
+# Settlemets
+max_settlements = 3
+
+b_miragoane = castle
+b_anse_a_veau = city
+b_petit_trou_de_nippes = temple
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

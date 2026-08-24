@@ -1,0 +1,15 @@
+# County Title
+title = c_ocoa
+
+# Settlemets
+max_settlements = 3
+
+b_san_jose_de_ocoa = castle
+b_sabana_larga = city
+b_la_cueva = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

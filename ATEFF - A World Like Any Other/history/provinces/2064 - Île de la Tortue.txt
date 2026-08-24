@@ -1,0 +1,15 @@
+# County Title
+title = c_île_de_la_tortue
+
+# Settlemets
+max_settlements = 3
+
+b_trou_basseux = castle
+b_mare_rouge = city
+b_dupuis = temple
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

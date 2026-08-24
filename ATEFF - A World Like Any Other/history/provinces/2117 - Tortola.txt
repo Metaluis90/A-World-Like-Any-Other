@@ -1,0 +1,15 @@
+# County Title
+title = c_tortola
+
+# Settlemets
+max_settlements = 3
+
+b_road_town = castle
+b_west_end = city
+b_cane_garden_bay = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

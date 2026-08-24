@@ -1,0 +1,15 @@
+# County Title
+title = c_north_caicos
+
+# Settlemets
+max_settlements = 3
+
+b_cockburn_town = castle
+b_providenciales = city
+b_five_cays = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

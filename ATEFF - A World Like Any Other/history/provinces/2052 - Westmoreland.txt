@@ -1,0 +1,16 @@
+# County Title
+title = c_westmoreland
+
+# Settlemets
+max_settlements = 4
+
+b_savanna_la_mar = castle
+b_negril = city
+b_darliston = city
+b_grange_hill = temple
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History

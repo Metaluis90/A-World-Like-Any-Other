@@ -1,0 +1,15 @@
+# County Title
+title = c_santa_cruz_del_sur
+
+# Settlemets
+max_settlements = 3
+
+b_santa_cruz_del_sur = castle
+b_contramaestre = city
+b_jimaguayu = castle
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

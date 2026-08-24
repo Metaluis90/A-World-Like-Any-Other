@@ -1,0 +1,15 @@
+# County Title
+title = c_la_altagracia
+
+# Settlemets
+max_settlements = 3
+
+b_higuey = castle
+b_punta_cana = city
+b_san_rafael_del_yuma = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

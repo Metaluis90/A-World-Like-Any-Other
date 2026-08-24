@@ -1,0 +1,16 @@
+# County Title
+title = c_clarendon
+
+# Settlemets
+max_settlements = 4
+
+b_may_pen = castle
+b_chapelton = temple
+b_hayes = city
+b_lionel_town = city
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History

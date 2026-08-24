@@ -1,0 +1,15 @@
+# County Title
+title = c_maria_trinidad_sanchez
+
+# Settlemets
+max_settlements = 3
+
+b_nagua = castle
+b_rio_san_juan = city
+b_la_entrada = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_contramaestre
+
+# Settlemets
+max_settlements = 3
+
+b_contramaestre = castle
+b_baire = castle
+b_palma_soriano = city
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

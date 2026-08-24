@@ -1,0 +1,15 @@
+# County Title
+title = c_guayama
+
+# Settlemets
+max_settlements = 3
+
+b_guayama = castle
+b_salinas = city
+b_cayey = temple
+
+# Misc
+culture = boricua
+religion = catholic
+
+#History

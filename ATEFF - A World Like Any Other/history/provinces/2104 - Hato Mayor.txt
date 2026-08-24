@@ -1,0 +1,15 @@
+# County Title
+title = c_hato_mayor
+
+# Settlemets
+max_settlements = 3
+
+b_hato_mayor_del_rey = castle
+b_el_valle = city
+b_los_haticos = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_carolina
+
+# Settlemets
+max_settlements = 3
+
+b_carolina = castle
+b_loiza = city
+b_ceiba = temple
+
+# Misc
+culture = boricua
+religion = catholic
+
+#History

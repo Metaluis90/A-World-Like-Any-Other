@@ -1,0 +1,15 @@
+# County Title
+title = c_puerto_padre
+
+# Settlemets
+max_settlements = 3
+
+b_puerto_padre = castle
+b_san_manuel = temple
+b_naranjo = city
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_saint_croix
+
+# Settlemets
+max_settlements = 3
+
+b_christiansted = castle
+b_frederiksted = city
+b_kingshill = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

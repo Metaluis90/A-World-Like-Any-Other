@@ -1,0 +1,15 @@
+# County Title
+title = c_baracoa
+
+# Settlemets
+max_settlements = 7
+
+b_baracoa = castle
+b_imias = city
+b_san_ignacio = temple
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

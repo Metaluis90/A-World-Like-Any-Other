@@ -1,0 +1,18 @@
+# County Title
+title = c_santo_domingo
+
+# Settlemets
+max_settlements = 6
+
+b_santo_domingo = castle
+b_santo_domingo_este = city
+b_santo_domingo_norte = castle
+b_santo_domingo_oeste = city
+b_los_alcarrizos = temple
+b_boca_chica = castle
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

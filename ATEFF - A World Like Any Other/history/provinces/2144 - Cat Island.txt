@@ -1,0 +1,15 @@
+# County Title
+title = c_isla_del_gato
+
+# Settlemets
+max_settlements = 3
+
+b_arthurs_town = castle
+b_new_bight = city
+b_old_bight = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

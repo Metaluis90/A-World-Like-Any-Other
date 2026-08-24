@@ -1,0 +1,16 @@
+# County Title
+title = c_saint_thomas
+
+# Settlemets
+max_settlements = 3
+
+b_port_morant = castle
+b_seaforth = city
+b_bath = temple
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History
+

@@ -1,0 +1,16 @@
+# County Title
+title = c_las_tunas
+
+# Settlemets
+max_settlements = 4
+
+b_las_tunas = castle
+b_amancio = city
+b_santa_rosa = temple
+b_guayabal = castle
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

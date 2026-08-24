@@ -1,0 +1,15 @@
+# County Title
+title = c_pedernales
+
+# Settlemets
+max_settlements = 3
+
+b_pedernales = castle
+b_oviedo = city
+b_la_altagracia = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

@@ -1,0 +1,16 @@
+# County Title
+title = c_andros
+
+# Settlemets
+max_settlements = 4
+
+b_andros_town = castle
+b_nicholls_town = city
+b_mangrove_cay = castle
+b_cargill_creek = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

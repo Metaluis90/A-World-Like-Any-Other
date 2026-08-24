@@ -1,0 +1,14 @@
+# County Title
+title = c_great_inagua
+
+# Settlemets
+max_settlements = 2
+
+b_matthew_town = castle
+b_salt_pond = city
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

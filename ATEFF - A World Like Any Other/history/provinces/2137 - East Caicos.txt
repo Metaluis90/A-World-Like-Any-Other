@@ -1,0 +1,15 @@
+# County Title
+title = c_east_caicos
+
+# Settlemets
+max_settlements = 3
+
+b_bottle_creek = castle
+b_whitby = city
+b_blue_hills = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

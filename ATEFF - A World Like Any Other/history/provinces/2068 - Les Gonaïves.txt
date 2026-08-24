@@ -1,0 +1,16 @@
+# County Title
+title = c_les_gonaïves
+
+# Settlemets
+max_settlements = 4
+
+b_gonaïves = castle
+b_ennery = city
+b_dessalines = city
+b_la_chapelle = temple
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

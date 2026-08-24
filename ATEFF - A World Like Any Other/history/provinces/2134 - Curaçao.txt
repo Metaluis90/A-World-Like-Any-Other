@@ -1,0 +1,15 @@
+# County Title
+title = c_curaçao
+
+# Settlemets
+max_settlements = 3
+
+b_willemstad = castle
+b_westpunt = city
+b_tera_cora = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

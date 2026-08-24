@@ -1,0 +1,12 @@
+# County Title
+title = c_manchester
+
+max_settlements = 4
+
+b_mandeville = castle
+b_christiana = city
+b_alligator_pond = temple
+b_newport = city
+
+culture = jamaican
+religion = catholic

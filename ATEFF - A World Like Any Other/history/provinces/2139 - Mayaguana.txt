@@ -1,0 +1,15 @@
+# County Title
+title = c_mayaguana
+
+# Settlemets
+max_settlements = 3
+
+b_abrahams_bay = castle
+b_pirates_well = city
+b_betsy_bay = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

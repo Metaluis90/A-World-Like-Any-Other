@@ -1,0 +1,15 @@
+# County Title
+title = c_centre
+
+# Settlemets
+max_settlements = 3
+
+b_hinche = castle
+b_mirebalais = city
+b_belladere = temple
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

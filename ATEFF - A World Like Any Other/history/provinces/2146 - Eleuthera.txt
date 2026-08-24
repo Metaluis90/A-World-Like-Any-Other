@@ -1,0 +1,15 @@
+# County Title
+title = c_eleuthera
+
+# Settlemets
+max_settlements = 3
+
+b_governors_harbour = castle
+b_spanish_wells = city
+b_palmetto_point = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

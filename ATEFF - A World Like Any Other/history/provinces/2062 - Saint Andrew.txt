@@ -1,0 +1,17 @@
+# County Title
+title = c_saint_andrew
+
+# Settlemets
+max_settlements = 5
+
+b_kingston = castle
+b_stony_hill = city
+b_august_town = temple
+b_mavis_bank = city
+b_gordon_town = castle
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History

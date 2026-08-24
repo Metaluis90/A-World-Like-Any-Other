@@ -1,0 +1,15 @@
+# County Title
+title = c_yateras
+
+# Settlemets
+max_settlements = 3
+
+b_yateras = castle
+b_palmar = city
+b_casimbas = temple
+
+# Misc
+culture = cubano (oriental)
+religion = catholic
+
+#History

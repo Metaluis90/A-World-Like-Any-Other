@@ -1,0 +1,15 @@
+# County Title
+title = c_saint_martin
+
+# Settlemets
+max_settlements = 3
+
+b_marigot = castle
+b_philipsburg = city
+b_grand_case = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

@@ -1,0 +1,18 @@
+# County Title
+title = c_ouest
+
+# Settlemets
+max_settlements = 6
+
+b_port_au_prince = castle
+b_petion_ville = city
+b_croix_des_bouquets = temple
+b_carrefour = city
+b_leogane = temple
+b_delmas = castle
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

@@ -1,0 +1,14 @@
+# County Title
+title = c_bonaire
+
+# Settlemets
+max_settlements = 2
+
+b_kralendijk = castle
+b_antriol = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_san_luis
+
+# Settlemets
+max_settlements = 3
+
+b_san_luis = castle
+b_miranda = city
+b_soledad = temple
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

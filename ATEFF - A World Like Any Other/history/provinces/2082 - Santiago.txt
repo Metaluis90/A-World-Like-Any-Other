@@ -1,0 +1,15 @@
+# County Title
+title = c_santiago
+
+# Settlemets
+max_settlements = 3
+
+b_santiago_de_los_caballeros = castle
+b_tamboril = city
+b_san_jose_de_las_matas = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

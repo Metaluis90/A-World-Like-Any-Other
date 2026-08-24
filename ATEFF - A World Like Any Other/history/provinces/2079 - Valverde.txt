@@ -1,0 +1,15 @@
+# County Title
+title = c_valverde
+
+# Settlemets
+max_settlements = 3
+
+b_mao = castle
+b_esperanza = city
+b_jaibon = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

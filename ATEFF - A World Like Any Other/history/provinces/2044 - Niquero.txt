@@ -1,0 +1,15 @@
+# County Title
+title = c_niquero
+
+# Settlemets
+max_settlements = 3
+
+b_niquero = castle
+b_pilon = city
+b_san_ramon = temple
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_salcedo
+
+# Settlemets
+max_settlements = 3
+
+b_salcedo = castle
+b_villa_tapia = city
+b_san_victor = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# County Title
+title = c_santiago_de_cuba
+
+# Settlemets
+max_settlements = 7
+
+b_santiago_de_cuba = castle
+b_san_juan = city
+b_el_cobre = temple
+b_vega_larga = city
+b_el_cristo = castle
+b_buey_cabon = city
+b_santa_cruz = temple
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

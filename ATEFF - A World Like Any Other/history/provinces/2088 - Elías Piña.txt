@@ -1,0 +1,16 @@
+# County Title
+title = c_elías_piña
+
+# Settlemets
+max_settlements = 4
+
+b_comendador = castle
+b_pedro_santana = city
+b_la_descubierta = temple
+b_jimaní = castle
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

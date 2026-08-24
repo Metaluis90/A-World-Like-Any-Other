@@ -1,0 +1,16 @@
+# County Title
+title = c_corozal
+
+# Settlemets
+max_settlements = 4
+
+b_corozal = castle
+b_toa_alta = city
+b_naranjito = castle
+b_comerio = temple
+
+# Misc
+culture = boricua
+religion = catholic
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_williams_island
+
+# Settlemets
+max_settlements = 3
+
+b_williams_island = castle
+b_south_point = city
+b_north_point = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

@@ -11,6 +11,6 @@ b_candelaria = city
 
 # Misc
 culture = cubano_(occidental)
-religion = 
+religion = catholic
 
 #History

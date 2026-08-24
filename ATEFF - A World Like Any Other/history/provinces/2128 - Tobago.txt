@@ -1,0 +1,15 @@
+# County Title
+title = c_tobago
+
+# Settlemets
+max_settlements = 3
+
+b_scarborough = castle
+b_plymouth = temple
+b_charlotteville = city
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

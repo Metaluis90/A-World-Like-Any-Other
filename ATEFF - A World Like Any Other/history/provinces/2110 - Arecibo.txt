@@ -1,0 +1,15 @@
+# County Title
+title = c_arecibo
+
+# Settlemets
+max_settlements = 3
+
+b_arecibo = castle
+b_hatillo = city
+b_la_muda = temple
+
+# Misc
+culture = boricua
+religion = catholic
+
+#History

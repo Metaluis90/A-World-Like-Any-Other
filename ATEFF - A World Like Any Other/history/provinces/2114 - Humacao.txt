@@ -1,0 +1,16 @@
+# County Title
+title = c_humacao
+
+# Settlemets
+max_settlements = 4
+
+b_humacao = castle
+b_naguabo = city
+b_juncos = castle
+b_san_lorenzo = temple
+
+# Misc
+culture = boricua
+religion = catholic
+
+#History

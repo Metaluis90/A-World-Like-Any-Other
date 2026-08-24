@@ -1,0 +1,15 @@
+# County Title
+title = c_sanchez_ramirez
+
+# Settlemets
+max_settlements = 3
+
+b_cotui = castle
+b_la_mata = city
+b_las_guaranas = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

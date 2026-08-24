@@ -1,0 +1,15 @@
+# County Title
+title = c_san_fernando
+
+# Settlemets
+max_settlements = 3
+
+b_san_fernando = castle
+b_pointe_a_pierre = city
+b_vistabella = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

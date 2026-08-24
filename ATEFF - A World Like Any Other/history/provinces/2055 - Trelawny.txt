@@ -1,0 +1,15 @@
+# County Title
+title = c_trelawny
+
+# Settlemets
+max_settlements = 7
+
+b_falmouth = castle
+b_rio_bueno = city
+b_wakefield = temple
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History

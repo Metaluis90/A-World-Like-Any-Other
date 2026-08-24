@@ -1,0 +1,16 @@
+# County Title
+title = c_holguin
+
+# Settlemets
+max_settlements = 4
+
+b_holguin = castle
+b_gibara = city
+b_san_felipe = temple
+b_maceo = city
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

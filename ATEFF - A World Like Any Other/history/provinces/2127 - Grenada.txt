@@ -1,0 +1,15 @@
+# County Title
+title = c_grenada
+
+# Settlemets
+max_settlements = 3
+
+b_st_georges = castle
+b_grenville = city
+b_gouyave = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

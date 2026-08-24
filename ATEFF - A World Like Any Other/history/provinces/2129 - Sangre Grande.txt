@@ -1,0 +1,16 @@
+# County Title
+title = c_sangre_grande
+
+# Settlemets
+max_settlements = 4
+
+b_sangre_grande = castle
+b_toco = city
+b_guayaguayare = temple
+b_cumuto = castle
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

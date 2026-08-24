@@ -1,0 +1,15 @@
+# County Title
+title = c_moa
+
+# Settlemets
+max_settlements = 3
+
+b_moa = castle
+b_cayo_mambi = castle
+b_mayari = city
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

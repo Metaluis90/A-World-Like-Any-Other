@@ -1,0 +1,15 @@
+# County Title
+title = c_martinique
+
+# Settlemets
+max_settlements = 3
+
+b_fort_de_france = castle
+b_le_lamentin = city
+b_sainte_marie = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

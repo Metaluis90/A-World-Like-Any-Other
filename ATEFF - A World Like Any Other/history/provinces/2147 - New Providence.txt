@@ -1,0 +1,17 @@
+# County Title
+title = c_new_providence
+
+# Settlemets
+max_settlements = 5
+
+b_nassau = castle
+b_gambier = city
+b_fox_hill = castle
+b_adelaide = temple
+b_south_beach = city
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

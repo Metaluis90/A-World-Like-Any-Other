@@ -1,0 +1,16 @@
+# County Title
+title = c_guadeloupe
+
+# Settlemets
+max_settlements = 4
+
+b_basse_terre = castle
+b_pointe_a_pitre = city
+b_sainte_anne = temple
+b_petit_bourg = castle
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

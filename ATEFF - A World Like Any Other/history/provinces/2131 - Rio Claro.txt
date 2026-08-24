@@ -1,0 +1,15 @@
+# County Title
+title = c_rio_claro
+
+# Settlemets
+max_settlements = 3
+
+b_rio_claro = castle
+b_mayaro = city
+b_moruga = temple
+    
+# Misc
+culture = cubano
+religion = catholic
+
+#History

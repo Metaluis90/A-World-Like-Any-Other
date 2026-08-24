@@ -1,0 +1,16 @@
+# County Title
+title = c_monseñor_nouel
+
+# Settlemets
+max_settlements = 4
+
+b_bonao = castle
+b_piedra_blanca = city
+b_jima = temple
+b_la_salvia = castle
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

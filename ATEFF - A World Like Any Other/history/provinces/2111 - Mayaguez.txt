@@ -1,0 +1,15 @@
+# County Title
+title = c_mayaguez
+
+# Settlemets
+max_settlements = 3
+
+b_mayaguez = castle
+b_cabo_rojo = city
+b_san_german = temple
+
+# Misc
+culture = boricua
+religion = catholic
+
+#History

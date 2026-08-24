@@ -1,0 +1,15 @@
+# County Title
+title = c_saint_james
+
+# Settlemets
+max_settlements = 3
+
+b_montego_bay = castle
+b_anchovy = city
+b_reading = temple
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History

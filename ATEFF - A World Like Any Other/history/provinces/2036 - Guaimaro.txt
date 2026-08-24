@@ -1,0 +1,15 @@
+# County Title
+title = c_guaimaro
+
+# Settlemets
+max_settlements = 3
+
+b_guaimaro = castle
+b_nuevitas = city
+b_agramonte = temple
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

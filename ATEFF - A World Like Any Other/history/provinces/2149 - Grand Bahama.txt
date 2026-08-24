@@ -1,0 +1,16 @@
+# County Title
+title = c_gran_bahama
+
+# Settlemets
+max_settlements = 4
+
+b_freeport = castle
+b_west_end = city
+b_pelican_point = temple
+b_hawksbill = castle
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

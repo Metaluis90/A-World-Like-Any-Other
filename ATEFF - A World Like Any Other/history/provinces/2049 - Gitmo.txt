@@ -1,0 +1,15 @@
+# County Title
+title = c_gitmo
+
+# Settlemets
+max_settlements = 3
+
+b_mccalla = castle
+b_medio_cay = city
+b_leeward_point = castle
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

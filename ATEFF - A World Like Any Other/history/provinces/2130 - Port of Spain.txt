@@ -1,0 +1,16 @@
+# County Title
+title = c_port_of_spain
+
+# Settlemets
+max_settlements = 4
+
+b_port_of_spain = castle
+b_chaguanas = city
+b_st_joseph = temple
+b_point_fortin = castle
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

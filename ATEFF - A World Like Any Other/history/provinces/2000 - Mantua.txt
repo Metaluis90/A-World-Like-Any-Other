@@ -12,6 +12,6 @@ b_cortés = city
 
 # Misc
 culture = cubano_(occidental)
-religion = ####
+religion = catholic
 
 #History

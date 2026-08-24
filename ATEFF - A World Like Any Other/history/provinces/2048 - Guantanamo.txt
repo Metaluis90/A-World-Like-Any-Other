@@ -1,0 +1,16 @@
+# County Title
+title = c_guantanamo
+
+# Settlemets
+max_settlements = 4
+
+b_guantanamo = castle
+b_hatibonico = city
+b_bayate = temple
+b_los_canos = castle
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

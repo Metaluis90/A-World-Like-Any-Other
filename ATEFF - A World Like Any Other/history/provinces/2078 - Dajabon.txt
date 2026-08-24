@@ -1,0 +1,15 @@
+# County Title
+title = c_dajabon
+
+# Settlemets
+max_settlements = 3
+
+b_dajabon = castle
+b_loma_de_cabrera = city
+b_el_pino = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

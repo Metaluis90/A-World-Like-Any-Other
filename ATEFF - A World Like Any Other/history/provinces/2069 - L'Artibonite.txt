@@ -1,0 +1,16 @@
+# County Title
+title = c_l'_artibonite
+
+# Settlemets
+max_settlements = 4
+
+b_saint_marc = castle
+b_verrettes = city
+b_la_croix = temple
+b_saint_marc = city
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

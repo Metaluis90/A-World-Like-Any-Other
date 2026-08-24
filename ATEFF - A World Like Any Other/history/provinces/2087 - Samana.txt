@@ -1,0 +1,15 @@
+# County Title
+title = c_samana
+
+# Settlemets
+max_settlements = 3
+
+b_samana = castle
+b_sanchez = city
+b_la_pascuala = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

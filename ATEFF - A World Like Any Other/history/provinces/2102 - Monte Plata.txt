@@ -1,0 +1,16 @@
+# County Title
+title = c_monte_plata
+
+# Settlemets
+max_settlements = 4
+
+b_monte_plata = castle
+b_bayaguana = city
+b_peralvillo = temple
+b_esperalvillo = castle
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

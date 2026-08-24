@@ -1,0 +1,15 @@
+# County Title
+title = c_azua
+
+# Settlemets
+max_settlements = 3
+
+b_azua_de_compostela = castle
+b_pueblo_viejo = city
+b_padre_las_casas = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

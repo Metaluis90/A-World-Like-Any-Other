@@ -1,0 +1,15 @@
+# County Title
+title = c_portland
+
+# Settlemets
+max_settlements = 3
+
+b_port_antonio = castle
+b_hope_bay = city
+b_st_margarets_bay = temple
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History

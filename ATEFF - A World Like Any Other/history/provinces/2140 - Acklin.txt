@@ -1,0 +1,15 @@
+# County Title
+title = c_acklin
+
+# Settlemets
+max_settlements = 3
+
+b_masons_bay = castle
+b_spring_point = city
+b_lovely_bay = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_san_salvador
+
+# Settlemets
+max_settlements = 3
+
+b_cockburn_town = castle
+b_riding_rock = city
+b_united_estates = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

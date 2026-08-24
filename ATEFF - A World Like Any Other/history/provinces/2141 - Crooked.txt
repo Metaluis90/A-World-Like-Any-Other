@@ -1,0 +1,15 @@
+# County Title
+title = c_crooked
+
+# Settlemets
+max_settlements = 3
+
+b_colonel_hill = castle
+b_landrail_point = city
+b_pitts_town = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

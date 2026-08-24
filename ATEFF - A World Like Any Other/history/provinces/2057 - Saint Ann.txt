@@ -1,0 +1,15 @@
+# County Title
+title = c_saint_ann
+
+# Settlemets
+max_settlements = 3
+
+b_saint_anns_bay = castle
+b_claremont = city
+b_moneague = temple
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History

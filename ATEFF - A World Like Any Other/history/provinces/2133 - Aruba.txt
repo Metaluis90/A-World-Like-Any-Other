@@ -1,0 +1,14 @@
+# County Title
+title = c_aruba
+
+# Settlemets
+max_settlements = 2
+
+b_oranjestad = castle
+b_san_nicholas = city
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

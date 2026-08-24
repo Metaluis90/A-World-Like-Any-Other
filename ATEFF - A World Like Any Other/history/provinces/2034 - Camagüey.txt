@@ -1,0 +1,16 @@
+# County Title
+title = c_camagüey
+
+# Settlemets
+max_settlements = 4
+
+b_camagüey = castle
+b_florida = city
+b_san_diego = temple
+b_caonao = castle
+
+# Misc
+culture = cubano_(central)
+religion = catholic
+
+#History

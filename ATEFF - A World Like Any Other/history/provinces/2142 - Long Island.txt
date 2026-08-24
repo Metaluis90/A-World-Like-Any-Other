@@ -1,0 +1,16 @@
+# County Title
+title = c_long_island
+
+# Settlemets
+max_settlements = 4
+
+b_clarence_town = castle
+b_deadmans_cay = city
+b_salt_pond = castle
+b_simms = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

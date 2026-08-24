@@ -1,0 +1,16 @@
+# County Title
+title = c_antigua_y_barbuda
+
+# Settlemets
+max_settlements = 4
+
+b_st_johns = castle
+b_liberta = city
+b_falmouth_ = temple
+b_codrington = castle
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

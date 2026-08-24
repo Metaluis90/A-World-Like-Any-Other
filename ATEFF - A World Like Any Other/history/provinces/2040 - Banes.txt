@@ -1,0 +1,15 @@
+# County Title
+title = c_banes
+
+# Settlemets
+max_settlements = 3
+
+b_banes = castle
+b_antilla = city
+b_san_geronimo = temple
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

@@ -1,0 +1,15 @@
+# County Title
+title = c_saint_lucia
+
+# Settlemets
+max_settlements = 3
+
+b_castries = castle
+b_soufriere = city
+b_micoud = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

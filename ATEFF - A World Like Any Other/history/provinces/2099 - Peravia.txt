@@ -1,0 +1,16 @@
+# County Title
+title = c_peravia
+
+# Settlemets
+max_settlements = 4
+
+b_bani = castle
+b_nizao = city
+b_catalina = temple
+b_matanzas = city
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

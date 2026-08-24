@@ -1,0 +1,16 @@
+# County Title
+title = c_duarte
+
+# Settlemets
+max_settlements = 4
+
+b_san_francisco_de_macoris = castle
+b_castillo = city
+b_las_guaranas = temple
+b_arenoso = castle
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

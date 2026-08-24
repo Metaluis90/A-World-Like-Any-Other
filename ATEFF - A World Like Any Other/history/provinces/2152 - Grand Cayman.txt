@@ -1,0 +1,16 @@
+# County Title
+title = c_grand_cayman
+
+# Settlemets
+max_settlements = 4
+
+b_george_town = castle
+b_west_bay = city
+b_savannah = temple
+b_prospect = castle
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

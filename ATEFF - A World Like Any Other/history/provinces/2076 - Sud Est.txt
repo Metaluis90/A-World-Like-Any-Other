@@ -1,0 +1,15 @@
+# County Title
+title = c_sud_est
+
+# Settlemets
+max_settlements = 3
+
+b_jacmel = castle
+b_marigot = city
+b_thiotte = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

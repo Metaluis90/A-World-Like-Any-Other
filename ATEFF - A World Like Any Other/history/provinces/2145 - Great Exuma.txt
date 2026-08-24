@@ -1,0 +1,16 @@
+# County Title
+title = c_great_exuma
+
+# Settlemets
+max_settlements = 4
+
+b_george_town = castle
+b_rolleville = city
+b_williams_town = temple
+b_black_point = castle
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

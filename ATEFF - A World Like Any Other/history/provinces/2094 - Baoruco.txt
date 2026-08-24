@@ -1,0 +1,15 @@
+# County Title
+title = c_baoruco
+
+# Settlemets
+max_settlements = 3
+
+b_neiba = castle
+b_los_rios = city
+b_el_palmar = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

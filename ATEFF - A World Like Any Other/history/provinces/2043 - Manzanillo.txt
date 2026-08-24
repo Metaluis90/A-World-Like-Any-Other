@@ -1,0 +1,15 @@
+# County Title
+title = c_manzanillo
+
+# Settlemets
+max_settlements = 3
+
+b_manzanillo = castle
+b_la_demajagua = castle
+b_san_geronimo = temple
+
+# Misc
+culture = cubano_(oriental)
+religion = catholic
+
+#History

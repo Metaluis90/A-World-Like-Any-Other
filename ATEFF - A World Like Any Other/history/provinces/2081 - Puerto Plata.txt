@@ -1,0 +1,16 @@
+# County Title
+title = c_puerto_plata
+
+# Settlemets
+max_settlements = 4
+
+b_puerto_plata = castle
+b_cabarete = city
+b_imbert = temple
+b_altamira = castle
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

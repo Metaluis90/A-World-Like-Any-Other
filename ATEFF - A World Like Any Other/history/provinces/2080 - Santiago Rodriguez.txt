@@ -1,0 +1,15 @@
+# County Title
+title = c_santiago_rodriguez
+
+# Settlemets
+max_settlements = 3
+
+b_sabaneta = castle
+b_villa_los_almacigos = city
+b_cruce_de_guayacanes = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

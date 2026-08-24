@@ -1,0 +1,15 @@
+# County Title
+title = c_san_pedro_de_macoris
+
+# Settlemets
+max_settlements = 3
+
+b_san_pedro_de_macoris = castle
+b_consuelo = city
+b_san_jose_de_los_llanos = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

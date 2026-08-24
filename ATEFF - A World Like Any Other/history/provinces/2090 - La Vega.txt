@@ -1,0 +1,15 @@
+# County Title
+title = c_la_vega
+
+# Settlemets
+max_settlements = 3
+
+b_la_vega = castle
+b_constanza = city
+b_ranchito = temple
+
+# Misc
+culture = dominican
+religion = catholic
+
+#History

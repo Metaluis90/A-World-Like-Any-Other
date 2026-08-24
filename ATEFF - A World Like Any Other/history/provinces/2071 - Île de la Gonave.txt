@@ -1,0 +1,15 @@
+# County Title
+title = c_île_de_la_gonave
+
+# Settlemets
+max_settlements = 3
+
+b_anse_a_galets = castle
+b_pointe_a_raquette = city
+b_petite_anse = temple
+
+# Misc
+culture = haitian
+religion = catholic
+
+#History

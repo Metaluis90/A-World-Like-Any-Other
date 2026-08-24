@@ -1,0 +1,15 @@
+# County Title
+title = c_dominica
+
+# Settlemets
+max_settlements = 3
+
+b_roseau = castle
+b_portsmouth = city
+b_castle_bruce = temple
+
+# Misc
+culture = cubano
+religion = catholic
+
+#History

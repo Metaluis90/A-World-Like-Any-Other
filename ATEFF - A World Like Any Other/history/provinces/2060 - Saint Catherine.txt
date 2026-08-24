@@ -1,0 +1,16 @@
+# County Title
+title = c_saint_catherine
+
+# Settlemets
+max_settlements = 4
+
+b_portmore = castle
+b_spanish_town = city
+b_old_harbour = city
+b_ewarton = temple
+
+# Misc
+culture = jamaican
+religion = catholic
+
+#History
