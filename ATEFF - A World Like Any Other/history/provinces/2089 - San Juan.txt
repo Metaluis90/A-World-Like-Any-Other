@@ -1,5 +1,5 @@
 # County Title
-title = c_san_juan
+title = c_san_juan_DR
 
 # Settlemets
 max_settlements = 3

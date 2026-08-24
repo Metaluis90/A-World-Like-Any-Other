@@ -1,5 +1,5 @@
 # County Title
-title = c_la_vega
+title = c_la_vega_DR
 
 # Settlemets
 max_settlements = 3
