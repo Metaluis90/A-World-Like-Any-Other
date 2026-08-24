@@ -1,5 +1,5 @@
 # County Title
-title = c_san_cristóbal
+title = c_san_cristóbal_DR
 
 # Settlemets
 max_settlements = 3

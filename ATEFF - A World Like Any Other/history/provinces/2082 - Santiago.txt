@@ -1,5 +1,5 @@
 # County Title
-title = c_santiago
+title = c_santiago_DR
 
 # Settlemets
 max_settlements = 3
