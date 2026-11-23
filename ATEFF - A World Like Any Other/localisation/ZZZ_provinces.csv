@@ -1111,8 +1111,8 @@ PROV1195;Murici;Murici;Murici;Murici;;;;;;;;;x
 PROV1196;Palmeira dos Índios;Palmeira dos Índios;Palmeira dos Índios;Palmeira dos Índios;;;;;;;;;x
 PROV1197;Santana de Ipanema;Santana de Ipanema;Santana de Ipanema;Santana de Ipanema;;;;;;;;;x
 PROV1198;Mata Grande;Mata Grande;Mata Grande;Mata Grande;;;;;;;;;x
-PROV1199;Gouveia;Gouveia;Gouveia;Gouveia;;;;;;;;;x
-PROV1200;Tapera;Tapera;Tapera;Tapera;;;;;;;;;x
+PROV1199;Delmiro;Delmiro;Delmiro;Delmiro;;;;;;;;;x
+PROV1200;Olivença;Olivença;Olivença;Olivença;;;;;;;;;x
 PROV1201;Batalha;Bataille;Batalha;Batalla;;;;;;;;;x
 PROV1202;Afrânio;Afrânio;Afrânio;Afrânio;;;;;;;;;x
 PROV1203;Ouricuri;Ouricuri;Ouricuri;Ouricuri;;;;;;;;;x
@@ -1153,7 +1153,7 @@ PROV1237;Mamanguape;Mamanguape;Mamanguape;Mamanguape;;;;;;;;;x
 PROV1238;Sapé;Sapé;Sapé;Sapé;;;;;;;;;x
 PROV1239;Jacaraú;Jacaraú;Jacaraú;Jacaraú;;;;;;;;;x
 PROV1240;Guarabira;Guarabira;Guarabira;Guarabira;;;;;;;;;x
-PROV1241;Araruna;Araruna;Araruna;Araruna;;;;;;;;;x
+PROV1241;Solânea;;;Ararunax
 PROV1242;Alagoas;Alagoas;Alagoas;Alagoas;;;;;;;;;x
 PROV1243;Itabaiana;Itabaiana;Itabaiana;Itabaiana;;;;;;;;;x
 PROV1244;Campina Grande;Campina Grande;Campina Grande;Campina Grande;;;;;;;;;x
@@ -1278,8 +1278,43 @@ PROV1362;Chorozinho;Chorozinho;Chorozinho;Chorozinho;;;;;;;;;x
 PROV1363;Baturité;Baturité;Baturité;Baturité;;;;;;;;;x
 PROV1364;Cascavel;Cascavel;Cascavel;Cascavel;;;;;;;;;x
 PROV1365;Tauá;Tauá;Tauá;Tauá;;;;;;;;;x
+<<<<<<< Updated upstream
 PROV1366;Mucambo;Mucambo;Mucambo;Mucambo;;;;;;;;;x
-
+=======
+PROV1366;Mucambo;Mucambo;Mucambo;Mucambo;;;;;;;;;x
+PROV1367;Araioses;Araioses;Araioses;Araioses;;;;;;;;;x
+PROV1368;Chapadinha;Chapadinha;Chapadinha;Chapadinha;;;;;;;;;x
+PROV1369;Codó;Codó;Codó;Codó;;;;;;;;;x
+PROV1370;Cantanhede;Cantanhede;Cantanhede;Cantanhede;;;;;;;;;x
+PROV1371;Cajari;Cajari;Cajari;Cajari;;;;;;;;;x
+PROV1372;Bacabeira;Bacabeira;Bacabeira;Bacabeira;;;;;;;;;x
+PROV1373;Lençóis;Lençóis;Lençóis;Lençóis;;;;;;;;;x
+PROV1374;São Luís;São Luís;São Luís;São Luís;;;;;;;;;x
+PROV1375;Alcântara;Alcântara;Alcântara;Alcântara;;;;;;;;;x
+PROV1376;Pinheiro;Pinheiro;Pinheiro;Pinheiro;;;;;;;;;x
+PROV1377;Bacuri;Bacuri;Bacuri;Bacuri;;;;;;;;;x
+PROV1378;Turiaçu;Turiaçu;Turiaçu;Turiaçu;;;;;;;;;x
+PROV1379;Zé Doca;Zé Doca;Zé Doca;Zé Doca;;;;;;;;;x
+PROV1380;Cururupu;Cururupu;Cururupu;Cururupu;;;;;;;;;x
+PROV1381;Açailândia;Açailândia;Açailândia;Açailândia;;;;;;;;;x
+PROV1382;Santa Luzia;Santa Luzia;Santa Luzia;Santa Luzia;;;;;;;;;x
+PROV1383;Santa Inês;Santa Inês;Santa Inês;Santa Inês;;;;;;;;;x
+PROV1384;Vitorino;Vitorino;Vitorino;Vitorino;;;;;;;;;x
+PROV1385;Bacabal;Bacabal;Bacabal;Bacabal;;;;;;;;;x
+PROV1386;Pedreiras;Pedreiras;Pedreiras;Pedreiras;;;;;;;;;x
+PROV1387;Dutra;Dutra;Dutra;Dutra;;;;;;;;;x
+PROV1388;Caxias;Caxias;Caxias;Caxias;;;;;;;;;x
+PROV1389;Namorada do Sertão;Namorada do Sertão;Namorada do Sertão;Namorada do Sertão;;;;;;;;;x
+PROV1390;Mirador;Mirador;Mirador;Mirador;;;;;;;;;x
+PROV1391;Corda;Corda;Corda;Corda;;;;;;;;;x
+PROV1392;Grajaú;Grajaú;Grajaú;Grajaú;;;;;;;;;x
+PROV1393;Imperatriz;Imperatriz;Imperatriz;Imperatriz;;;;;;;;;x
+PROV1394;Porto Franco;Porto Franco;Porto Franco;Porto Franco;;;;;;;;;x
+PROV1395;Nogueiras;Nogueiras;Nogueiras;Nogueiras;;;;;;;;;x
+PROV1396;Mangabeiras;Mangabeiras;Mangabeiras;Mangabeiras;;;;;;;;;x
+PROV1397;Alto Parnaíba;Alto Parnaíba;Alto Parnaíba;Alto Parnaíba;;;;;;;;;x
+PROV1398;Carolina;Carolina;Carolina;Carolina;;;;;;;;;x
+PROV1399;Neto;Neto;Neto;Neto;;;;;;;;;x
 
 PROV2000;Mantua;Mantua;Mantua;Mantua;;;;;;;;;x
 PROV2001;Viñales;Viñales;Viñales;Viñales;;;;;;;;;x
@@ -1434,3 +1469,36 @@ PROV2147;Abaco;Abaco;Abaco;Ábaco;;;;;;;;;x
 PROV2148;Grand Bahama;Grand Bahama;Grand Bahama;Gran Bahama;;;;;;;;;x
 PROV2149;Andros;Andros;Andros;Andros;;;;;;;;;x
 PROV2150;Williams Island;Île Williams;Williams-Insel;Isla Williams;;;;;;;;;x
+
+
+PROV2160;Pinellas;Pinellas;Pinellas;Pinellas;;;;;;;;;x
+PROV2161;Tampa;Tampa;Tampa;Tampa;;;;;;;;;x
+PROV2162;Hillsborough;Hillsborough;Hillsborough;Hillsborough;;;;;;;;;x
+PROV2163;Manatee;Manatee;Manatee;Manatee;;;;;;;;;x
+PROV2164;Sarasota;Sarasota;Sarasota;Sarasota;;;;;;;;;x
+PROV2165;Charlotte;Charlotte;Charlotte;Charlotte;;;;;;;;;x
+PROV2166;Cape Coral;Cape Coral;Cape Coral;Cape Coral;;;;;;;;;x
+PROV2167;Myers;Myers;Myers;Myers;;;;;;;;;x
+PROV2168;Naples;Naples;Naples;Naples;;;;;;;;;x
+PROV2169;Everglades;Everglades;Everglades;Everglades;;;;;;;;;x
+PROV2170;La Belle;La Belle;La Belle;La Belle;;;;;;;;;x
+PROV2171;Clewiston;Clewiston;Clewiston;Clewiston;;;;;;;;;x
+PROV2172;Belle Glade;Belle Glade;Belle Glade;Belle Glade;;;;;;;;;x
+PROV2173;St. Lucie;St. Lucie;St. Lucie;St. Lucie;;;;;;;;;x
+PROV2174;Stuart;Stuart;Stuart;Stuart;;;;;;;;;x
+PROV2175;Palm Beach;Palm Beach;Palm Beach;Palm Beach;;;;;;;;;x
+PROV2176;Wellington;Wellington;Wellington;Wellington;;;;;;;;;x
+PROV2177;Boca Raton;Boca Raton;Boca Raton;Boca Raton;;;;;;;;;x
+PROV2178;Everglades Marshes;Marais des Everglades;Everglades-Sümpfe;;Pantanos de los Everglades;;;;;;;;;x
+PROV2179;Pembroke;Pembroke;Pembroke;Pembroke;;;;;;;;;x
+PROV2180;Hialeah;Hialeah;Hialeah;Hialeah;;;;;;;;;x
+PROV2181;Doral;Doral;Doral;Doral;;;;;;;;;x
+PROV2182;Miami Beach;Miami Beach;Miami Beach;Miami Beach;;;;;;;;;x
+PROV2183;Miami;Miami;Miami;Miami;;;;;;;;;x
+PROV2184;Palmetto;Palmetto;Palmetto;Palmetto;;;;;;;;;x
+PROV2185;Florida;Florida;Florida;Florida;;;;;;;;;x
+PROV2186;Key Largo;Key Largo;Key Largo;Key Largo;;;;;;;;;x
+PROV2187;Islamorada;Islamorada;Islamorada;Islamorada;;;;;;;;;x
+PROV2188;Marathon;Marathon;Marathon;Marathon;;;;;;;;;x
+PROV2189;Cayo Hueso;Cayo Hueso;Cayo Hueso;Cayo Hueso;;;;;;;;;x
+>>>>>>> Stashed changes
