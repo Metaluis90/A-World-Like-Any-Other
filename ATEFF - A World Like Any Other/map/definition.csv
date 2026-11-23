@@ -1188,7 +1188,7 @@ province;red;green;blue;x;x
 1188;56;95;255;Arapiraca;x
 1189;35;76;239;Coruripe;x
 1190;31;30;216;Maceio;x
-1191;70;103;234;Canaragibe;x
+1191;70;103;234;Camaragibe;x
 1192;70;74;255;Maragogi;x
 1193;73;98;255;Novo Lino;x
 1194;85;83;255;Santana do Mundau;x
@@ -1196,8 +1196,8 @@ province;red;green;blue;x;x
 1196;51;88;234;Palmeira dos Indios;x
 1197;78;28;255;Santana de Ipanema;x
 1198;66;71;255;Mata Grande;x
-1199;105;113;255;Gouveia;x
-1200;71;83;255;Tapera;x
+1199;105;113;255;Delmiro;x
+1200;71;83;255;Olivenca;x
 1201;39;90;255;Batalha;x
 1202;119;96;219;Afranio;x
 1203;55;15;255;Ouricuri;x
@@ -1238,12 +1238,12 @@ province;red;green;blue;x;x
 1238;130;117;249;Sape;x
 1239;57;41;181;Jacarau;x
 1240;65;53;158;Guarabira;x
-1241;101;82;242;Araruna;x
+1241;101;82;242;Solanea;x
 1242;65;59;112;Alagoas;x
 1243;24;36;206;Itabaiana;x
 1244;28;31;237;Campina Grande;x
 1245;109;119;255;Umbuzeiro;x
-1246;57;41;181;Cariri;x
+1246;69;52;226;Cariri;x
 1247;3;15;239;Monteiro;x
 1248;51;62;242;Sume;x
 1249;84;24;224;Cuite;x
@@ -1256,7 +1256,7 @@ province;red;green;blue;x;x
 1256;99;19;247;Pianco;x
 1257;199;173;247;Coremas;x
 1258;102;56;255;Cajazeiras;x
-1259;75;50;255;Sousa;x
+1259;75;20;255;Sousa;x
 1260;70;13;173;Pombal;x
 1261;63;11;234;Catole de Rocha;x
 1262;21;8;181;Brejo da Cruz;x
@@ -1285,6 +1285,7 @@ province;red;green;blue;x;x
 1285;111;36;204;Assu;x
 1286;147;28;247;Mangue;x
 1287;151;75;244;Macau;x
+1288;35;35;255;Fernando de Noronha;x
 1288;237;161;178;Litoral Lagunar Sur;x
 1289;239;117;186;Southern Laguna de los Patos;x
 1290;237;158;240;Northern Laguna de los Patos;x
@@ -1364,6 +1365,7 @@ province;red;green;blue;x;x
 1364;129;57;206;Cascavel;x
 1365;93;36;213;Taua;x
 1366;135;20;173;Mucambo;x
+<<<<<<< Updated upstream
 1367;214;139;175;Dummy1367;x
 1368;53;225;166;Dummy1368;x
 1369;158;102;27;Dummy1369;x
@@ -1398,7 +1400,42 @@ province;red;green;blue;x;x
 1398;205;91;116;Dummy1398;x
 1399;123;174;226;Dummy1399;x
 1400;32;228;151;Dummy1400;x
-1401;189;3;47;Dummy1401;x
+=======
+1367;194;7;105;Araioses;x
+1368;224;11;142;Chapadinha;x
+1369;234;110;189;Codo;x
+1370;204;16;97;Cantanhede;x
+1371;249;19;115;Cajari;x
+1372;255;89;161;Bacabeira;x
+1373;234;7;105;Lencois;x
+1374;244;8;109;São Luís;x
+1375;234;72;142;Alcântara;x
+1376;249;78;115;Pinheiro;x
+1377;229;9;126;Bacuri;x
+1378;226;77;107;Turiaçu;x
+1379;221;46;90;Zé Doca;x
+1380;224;17;101;Maracacume;x
+1381;213;56;92;Acailandia;x
+1382;237;28;70;Buriticupu;x
+1383;239;89;119;Pindare-Mirim;x
+1384;237;55;147;Vitorino;x
+1385;193;19;86;Bacabal;x
+1386;234;23;157;Pedreiras;x
+1387;242;72;208;Dutra;x
+1388;175;51;150;Caxias;x
+1389;247;113;247;Namorada do Sertão;x
+1390;229;11;229;Mirador;x
+1391;247;113;205;Corda;x
+1392;248;10;170;Grajaú;x
+1393;211;10;97;Imperatriz;x
+1394;229;91;137;Porto Franco;x
+1395;165;36;114;Nogueiras;x
+1396;174;91;137;Mangabeiras;x
+1397;173;10;102;Alto Parnaíba;x
+1398;249;12;115;Carolina;x
+1399;178;11;142;Neto;x
+1400;63;46;46;Wilderness of Tiracambu;x
+1401;40;26;26;Wilderness of Alpercatas;x
 1402;12;122;159;Dummy1402;x
 1403;223;214;60;Dummy1403;x
 1404;225;230;245;Dummy1404;x
@@ -2152,3 +2189,42 @@ province;red;green;blue;x;x
 2152;98;190;28;Grand Cayman;x 
 2153;121;219;45;Little Cayman;x 
 2154;103;70;22;Yateras;x
+2155;96;199;231;Dummy2155;x
+2156;248;133;9;Dummy2156;x
+2157;255;90;33;Dummy2157;x
+2158;133;135;82;Dummy2158;x
+2159;45;32;9;Dummy2159;x
+2160;205;221;0;Pinellas;x
+2161;158;152;0;Tampa;x
+2162;226;192;0;Hillsborough;x
+2163;198;211;43;Manatee;x
+2164;154;213;83;Sarasota;x
+2165;150;160;4;Charlotte;x
+2166;172;204;134;Cape Coral;x
+2167;112;204;0;Myers;x
+2168;178;219;76;Naples;x
+2169;218;255;127;Everglades;x
+2170;115;145;5;La Belle;x
+2171;167;155;6;Clewiston;x
+2172;167;201;6;Belle Glade;x
+2173;154;244;4;St. Lucie;x
+2174;154;174;4;Stuart;x
+2175;154;247;4;Palm Beach;x
+2176;94;151;3;Wellington;x
+2177;163;196;109;Boca Raton;x
+2178;36;38;30;Everglade Marshes;x
+2179;194;224;89;Pembroke;x
+2180;193;206;10;Hialeah;x
+2181;96;137;6;Doral;x
+2182;156;204;24;Miami Beach;x
+2183;160;229;11;Miami;x
+2184;138;165;18;Palmetto;x
+2185;226;222;104;Florida;x
+2186;186;224;0;Key Largo;x
+2187;200;221;90;Islamorada;x
+2188;124;173;0;Marathon;x
+2189;160;224;0;Cayo Hueso;x
+2190;173;211;35;Lauderdale;x
+2191;153;204;16;Okeechobee;x
+2192;190;204;6;Calusa;x
+>>>>>>> Stashed changes
