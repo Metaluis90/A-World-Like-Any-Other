@@ -1,0 +1,11 @@
+# 1198 - Mata Grande
+# County Title
+title = c_matagrande
+
+# Settlements
+max_settlements = 3
+b_mata_grande_AL = castle
+
+# Misc
+culture = sertanista
+religion = cicerite

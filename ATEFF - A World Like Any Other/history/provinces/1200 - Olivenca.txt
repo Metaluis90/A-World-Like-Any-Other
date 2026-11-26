@@ -1,0 +1,11 @@
+# 1200 - Olivenca
+# County Title
+title = c_olivenca
+
+# Settlements
+max_settlements = 3
+b_sao_jose_da_tapera_AL = castle
+
+# Misc
+culture = sertanista
+religion = cicerite

@@ -1,0 +1,24 @@
+# Characters:
+# 3501 = Antonio Carlos Belchior, late Emperor of Belchoringia before 2369 bookmark
+# 3505 = Cassiano Belchior, King of Pernambuco in 2369
+# 3509 = Decio Belchior, Duke of Arapiraca and Ipanema in 2369
+# 3549 = Afonso Melo, King of Alagoas in 2369
+
+2300.1.1 = {
+	holder = 3501 #Antonio Carlos Belchior
+	liege = e_belchoringia
+}
+2362.2.10 = {
+	holder = 3505 #Cassiano inherits the Kingdom of Alagoas and all the titles under his father
+	liege = k_alagoas
+}
+2366.7.29={
+	holder=3549 # Afonso Melo seizes the Duchy of Ipanema during the Lagoano Rebellion
+	liege=k_alagoas # Ipanema is placed under Afonso Melo's newly seized Kingdom of Alagoas
+}
+2368.8.18={
+	holder=3509 # Decio Belchior defeats Afonso Melo in battle and recovers the Duchy of Ipanema
+}
+2369.3.21={
+	liege=0 # After Afonso Melo loses the Alagoan crown, Ipanema is no longer subject to Alagoas
+}
