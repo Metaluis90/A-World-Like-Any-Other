@@ -1080,7 +1080,18 @@ oldworld = {
 		icon = 157
 		heresy_icon = 164
 		scripture_name = CARTA_TESTAMENTO
+		priest_title = MINISTER_OF_ORDEM
+		piety_name = ORDEM
 		color = { 0.4 0.78 0.62 }
+
+		# Varguist political theology prizes an orderly, cohesive realm while
+		# regarding autonomous urban oligarchies with suspicion.
+		character_modifier = {
+			liege_opinion = 10
+			vassal_opinion = 5
+			global_revolt_risk = -0.01
+			city_vassal_tax_modifier = -0.10
+		}
 		
 		high_god_name = GOD_VARGAS
 
@@ -1092,6 +1103,13 @@ oldworld = {
 		evil_god_names = {
 			TRIBUNA_DE_IMPRENSA GOD_AIB GOD_PEDRO_DE_TOLEDO GOD_PRESTES GOD_THE_KNIGHT
 		}
+
+		can_excommunicate = yes
+		can_grant_claim = yes
+		rel_head_defense = yes
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
 		
 		parent = farrapo
 	}
@@ -1203,7 +1221,7 @@ oldworld = {
 		religious_clothing_priest = 14
 	
 	}
-	varedesian = { # A greater Sertão
+	varedesian = { # A greater Sertao
 		graphical_culture = muslimgfx
 	
 		icon = 191

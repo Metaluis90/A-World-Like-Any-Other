@@ -1,0 +1,175 @@
+awlao_anointment_lower;anointment;;;;;;;;;;;;;x
+awlao_coronation_lower;coronation;;;;;;;;;;;;;x
+awlao_anointment_title;Anointment;;;;;;;;;;;;;x
+awlao_coronation_title;Coronation;;;;;;;;;;;;;x
+awlao_an_anointment;an Anointment;;;;;;;;;;;;;x
+awlao_a_coronation;a Coronation;;;;;;;;;;;;;x
+awlao_anointed;Anointed;;;;;;;;;;;;;x
+awlao_crowned;Crowned;;;;;;;;;;;;;x
+awlao_anointed_lower;anointed;;;;;;;;;;;;;x
+awlao_crowned_lower;crowned;;;;;;;;;;;;;x
+awlao_anoint;anoint;;;;;;;;;;;;;x
+awlao_crown;crown;;;;;;;;;;;;;x
+awlao_unanointed;Unanointed;;;;;;;;;;;;;x
+awlao_uncrowned;Uncrowned;;;;;;;;;;;;;x
+awlao_unanointed_lower;unanointed;;;;;;;;;;;;;x
+awlao_uncrowned_lower;uncrowned;;;;;;;;;;;;;x
+awlao_ministers_of_ordem;the ministers of Ordem;;;;;;;;;;;;;x
+awlao_the_church;the Church;;;;;;;;;;;;;x
+awlao_the_estado_novo;the Estado Novo;;;;;;;;;;;;;x
+awlao_the_pope;the Pope;;;;;;;;;;;;;x
+awlao_the_religious_head;the religious head;;;;;;;;;;;;;x
+awlao_minister_of_ordem;Minister of Ordem;;;;;;;;;;;;;x
+awlao_prince_bishop;Prince-Bishop;;;;;;;;;;;;;x
+awlao_a_minister_of_ordem;a Minister of Ordem;;;;;;;;;;;;;x
+awlao_a_bishop;a Bishop;;;;;;;;;;;;;x
+string_anointed_by_estado_novo;the Estado Novo;;;;;;;;;;;;;x
+string_anointed_by_minister;a Minister of Ordem;;;;;;;;;;;;;x
+prepare_coronation_ceremony;Organize [Root.GetCoronationRiteWithArticle] Ceremony;;;;;;;;;;;;;x
+prepare_coronation_ceremony_desc;Begin preparations for my [Root.GetCoronationRiteName]. As a [Root.Religion.GetName] [Root.GetTitle], I must be formally recognized by [Root.GetCoronationReligiousBody] to legitimize my right to rule.;;;;;;;;;;;;;x
+alert_coronation_needed_instant;Ruler [Root.GetCoronationUnfinished];;;;;;;;;;;;;x
+alert_coronation_needed_delayed;A [Root.Religion.GetName] ruler who has not been formally [Root.GetCoronationPastParticipleLower] by a notable religious authority will never be fully accepted by [Root.GetHerHis] vassals as legitimate. The longer an adult [Root.Religion.GetName] [Root.GetTitle] delays the rite, the more [Root.GetHerHis] vassals will doubt [Root.GetHerHis] right to rule.;;;;;;;;;;;;;x
+uncrowned_modifier;[GetCoronationUnfinished];;;;;;;;;;;;;x
+uncrowned_modifier_desc;This ruler has not yet been formally [GetCoronationPastParticipleLower], weakening the perceived legitimacy of [GetHerHis] rule.;;;;;;;;;;;;;x
+uncrowned_2;[GetCoronationUnfinished];;;;;;;;;;;;;x
+uncrowned_2_desc;This ruler has delayed [GetHerHis] [GetCoronationRiteName], causing growing doubts about [GetHerHis] legitimacy.;;;;;;;;;;;;;x
+uncrowned_3;[GetCoronationUnfinished];;;;;;;;;;;;;x
+uncrowned_3_desc;This ruler has delayed [GetHerHis] [GetCoronationRiteName] for far too long, gravely undermining [GetHerHis] legitimacy.;;;;;;;;;;;;;x
+uncrowned;[GetCoronationUnfinished];;;;;;;;;;;;;x
+uncrowned_desc;This ruler died before [GetSheHe] could be formally [GetCoronationPastParticipleLower], a most shameful display.;;;;;;;;;;;;;x
+crowned_by_bishop;[GetCoronationPastParticiple] by [GetCoronationOfficiantName];;;;;;;;;;;;;x
+crowned_by_bishop_desc;This ruler was formally [GetCoronationPastParticipleLower] by [GetCoronationOfficiantName]. The rite confirms the ruler's legitimacy before [GetCoronationReligiousBody] and the realm.;;;;;;;;;;;;;x
+crowned_by_pope;[GetCoronationPastParticiple] by [GetCoronationOfficiantName];;;;;;;;;;;;;x
+crowned_by_pope_desc;This ruler was formally [GetCoronationPastParticipleLower] by [GetCoronationOfficiantName], providing the highest religious recognition of the ruler's right to rule.;;;;;;;;;;;;;x
+crowned_by_priest;[GetCoronationPastParticiple] by [GetCoronationLocalOfficiant];;;;;;;;;;;;;x
+crowned_by_priest_desc;This ruler was formally [GetCoronationPastParticipleLower] by a local [Religion.GetPriestTitle], lending religious legitimacy to the ruler's reign.;;;;;;;;;;;;;x
+crowned_by_bishop_rd;[GetCoronationPastParticiple] by [GetCoronationSeniorOfficiant];;;;;;;;;;;;;x
+crowned_by_bishop_rd_desc;This ruler was formally [GetCoronationPastParticipleLower] by a distinguished religious official.;;;;;;;;;;;;;x
+crowned_by_pope_rd;[GetCoronationPastParticiple] by [GetCoronationHeadName];;;;;;;;;;;;;x
+crowned_by_pope_rd_desc;This ruler received the highest available religious recognition of the right to rule.;;;;;;;;;;;;;x
+crowned_by_priest_rd;[GetCoronationPastParticiple] by [GetCoronationLocalOfficiant];;;;;;;;;;;;;x
+crowned_by_priest_rd_desc;This ruler was formally [GetCoronationPastParticipleLower] by a local religious official.;;;;;;;;;;;;;x
+EVTTITLE20200;Preparing for [Root.GetCoronationRiteWithArticle];;;;;;;;;;;;;x
+EVTDESCHF20200;The time has come for me to be formally recognized as [Root.GetTitle] of [Root.PrimaryTitle.GetName]. I will need the support of [Root.GetCoronationReligiousBody], and securing an authoritative officiant may be neither easy nor cheap.;;;;;;;;;;;;;x
+EVTOPTAHF20200;Only [Root.GetCoronationHeadName] is fit to [Root.GetCoronationInfinitive] me!;;;;;;;;;;;;;x
+EVTOPTBHF20200;Send for the most powerful [Root.GetCoronationSeniorOfficiant] in the realm!;;;;;;;;;;;;;x
+EVTOPTCHF20200;Any [Root.Religion.GetPriestTitle] will do.;;;;;;;;;;;;;x
+EVTTOOLTIPHF20201;Write to [Root.GetCoronationHeadName], requesting recognition as [Root.GetTitle] of [Root.PrimaryTitle.GetName].;;;;;;;;;;;;;x
+EVTTOOLTIPBHF20200;Write to the most influential [Root.Religion.GetPriestTitle] in your realm, asking for [Root.GetCoronationRiteWithArticle].;;;;;;;;;;;;;x
+EVTTOOLTIPCHF20200;Write to a local [Root.Religion.GetPriestTitle], asking for [Root.GetCoronationRiteWithArticle]. This is less prestigious but also less likely to bankrupt your realm.;;;;;;;;;;;;;x
+EVTDESCHFA20201;[From.GetFullName] wishes me to [From.GetCoronationInfinitive] [From.GetHerHim] as [From.GetTitle] of [From.PrimaryTitle.GetName]. What shall I ask in return?;;;;;;;;;;;;;x
+EVTDESCHFA20202;I shall be honored to officiate your [Root.GetCoronationRiteName] and await your instructions regarding the ceremony.\n\nYour servant,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20203;I shall be honored to officiate your [Root.GetCoronationRiteName], provided that you make a small donation to [Root.GetCoronationReligiousBody] as a show of devotion.\n\nYour servant,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20204;I shall be honored to officiate your [Root.GetCoronationRiteName], provided that you make a sizable donation to the religious community of [From.Capital.GetName].\n\nYour servant,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20205;I shall be honored to officiate your [Root.GetCoronationRiteName], provided that you make a sizable donation to [Root.GetCoronationReligiousBody].\n\nYour servant,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20208;I shall be honored to officiate your [Root.GetCoronationRiteName], provided that you organize a private feast in my honor.\n\nYour servant,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20209;I shall be honored to officiate your [Root.GetCoronationRiteName], provided that you expand the religious domain of [From.Capital.GetName].\n\nYour servant,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20211;I shall recognize your right to rule as soon as you acknowledge that religious authority is no servant to any king or emperor.\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20212;I shall recognize your right to rule as soon as you donate what is due to [Root.GetCoronationReligiousBody].\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20214;I shall recognize your right to rule once you prove your devotion by bringing a ruler condemned by our faith to justice.\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20233;With the unexpected death of the official meant to perform the rite, [From.GetTitledFirstName] has been forced to postpone [From.GetHerHis] [From.GetCoronationRiteName] indefinitely.;;;;;;;;;;;;;x
+EVTDESCHFA20239;When my guards recover me in the morning, I recall almost nothing of the previous night except a hazy image of [coronation_priest.GetTitledFirstName] performing the rite atop a fountain of wine.;;;;;;;;;;;;;x
+EVTDESCHFA20240;I shall be honored to officiate your [Root.GetCoronationRiteName], provided that you donate [scoped_artifact.GetName] to the religious community.\n\nYour servant,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20241;I shall recognize your right to rule as soon as you donate [scoped_artifact.GetName] to the religious community.\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTOPTAHF20239;Now, on to the official [Root.GetCoronationRiteName]...;;;;;;;;;;;;;x
+EVTOPTBHF20211;Religious head or duke, you are still my vassal.;;;;;;;;;;;;;x
+EVTOPTBHF20214;I will not start a war merely to secure my [Root.GetCoronationRiteName].;;;;;;;;;;;;;x
+EVTOPTCHF20201;I am the religious head! I will demand everything!;;;;;;;;;;;;;x
+EVTDESCHFA20300;Now that I have secured a distinguished [Root.Religion.GetPriestTitle] to officiate my [Root.GetCoronationRiteName], I must decide how much to spend on the accompanying ceremony.;;;;;;;;;;;;;x
+EVTDESCHFA20301;I formally invite you to my court for festivities leading up to my [From.GetCoronationRiteName].\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHFA20302;I formally invite you to my court for festivities leading up to my [From.GetCoronationRiteName].\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCHF20303;[Root.GetTitledFirstName], I will be glad to attend your [Root.GetCoronationRiteName]!;;;;;;;;;;;;;x
+EVTDESCHF20304;[Root.GetTitledFirstName], I regret that I cannot attend your [Root.GetCoronationRiteName].;;;;;;;;;;;;;x
+EVTDESCHFA20305;Only a few days remain before I am formally [Root.GetCoronationPastParticipleLower] before [Root.Religion.GetHighGodName] and my subjects. My court is filling with dignitaries who have come to witness this defining moment of my reign.;;;;;;;;;;;;;x
+EVTDESCHFA20306;Organizing this ceremony has let me meet neighboring rulers. Healthy relations with my peers are vital to the future peace and prosperity of my realm, and [potential_friend.GetTitledFirstName] seems especially trustworthy.;;;;;;;;;;;;;x
+EVTDESCHFA20307;[From.GetTitledFirstName] has spared no expense on the festivities preceding [From.GetHerHis] [From.GetCoronationRiteName]. After speaking together amid the celebrations, I suspect we have much in common.;;;;;;;;;;;;;x
+EVTDESCHFA20314;[coronation_priest.GetTitledFirstName]'s presence for my coming [Root.GetCoronationRiteName] has drawn scholars and theologians to court. Their discussions have given me much to consider.;;;;;;;;;;;;;x
+EVTDESCHFA20315;The night at [From.GetTitledFirstName]'s court took a scholarly turn when our host invited clergy and scholars to discuss theology at the nobles' table.;;;;;;;;;;;;;x
+EVTDESCHFA20316;With so many distinguished guests gathered for my [Root.GetCoronationRiteName], I should entertain them while we wait for the ceremony and perhaps impress the most influential among them.;;;;;;;;;;;;;x
+EVTDESCHFA20321;I can already feel the weight of my new responsibilities. The prospect of finally being formally [Root.GetCoronationPastParticipleLower] as [Root.GetTitle] fills me with renewed purpose.;;;;;;;;;;;;;x
+EVTDESCHFA20322;Amid all these preparations for my [Root.GetCoronationRiteName], I am beginning to understand the importance of my role as [Root.GetTitle]. My people expect great things of me.;;;;;;;;;;;;;x
+EVTDESCHFA20323;Everyone treats me with new respect. I had not realized how important this [Root.GetCoronationRiteName] would be. It is wonderful to be [Root.GetTitle]!;;;;;;;;;;;;;x
+EVTDESCHFA20324;[coronation_priest.GetTitledFirstName] approached me to praise the festivities accompanying my [Root.GetCoronationRiteName] and to say how welcome [coronation_priest.GetSheHe] feels at court.;;;;;;;;;;;;;x
+EVTDESCHFA20325;[coronation_priest.GetTitledFirstName] publicly praised the festivities [From.GetTitledFirstName] organized to accompany [From.GetHerHis] [From.GetCoronationRiteName], making clear that great things are expected of [From.GetHerHim].;;;;;;;;;;;;;x
+EVTDESCHFA20327;Late this evening, [coronation_priest.GetTitledName] spoke to me about the responsibilities I will bear after my [Root.GetCoronationRiteName] as a [Root.Religion.GetName] [Root.GetTitle].;;;;;;;;;;;;;x
+EVTDESCHFA20344;[From.GetTitledFirstName] intervened in my argument with [coronation_priest.GetTitledFirstName] and predictably sided with the officiant of [From.GetHerHis] coming [From.GetCoronationRiteName].;;;;;;;;;;;;;x
+EVTDESCHFA20345;[From.GetTitledFirstName] intervened in my argument with [coronation_priest.GetTitledFirstName] and surprisingly opposed the very official due to perform [From.GetHerHis] [From.GetCoronationRiteName] in only a few days.;;;;;;;;;;;;;x
+EVTDESCHFA20346;A wandering knight has arrived at my court after hearing of my coming [Root.GetCoronationRiteName]. [coronation_knight.GetSheHeCap] wishes to pledge [coronation_knight.GetHerHis] sword to my service.;;;;;;;;;;;;;x
+EVTDESCHFB20346;A wandering knight has arrived at my court after hearing of my coming [Root.GetCoronationRiteName]. [coronation_knight.GetSheHeCap] offers to defend my honor against all offenders.;;;;;;;;;;;;;x
+EVTDESCHFC20346;A wandering knight has arrived at my court after hearing of my coming [Root.GetCoronationRiteName]. [coronation_knight.GetSheHeCap] offers to join my bodyguard and protect my life.;;;;;;;;;;;;;x
+EVTDESCHFA20348;Giving in to my desire for [coronation_knight.GetTitledFirstName] was unwise with the court so full of guests for my coming [Root.GetCoronationRiteName]. Now the palace is ablaze with vicious rumors.;;;;;;;;;;;;;x
+EVTDESCHFA20349;Rumors say [From.GetTitledFirstName] has begun an illicit affair with a wandering knight only days before [From.GetHerHis] sacred [From.GetCoronationRiteName], staining [From.GetHerHis] reputation.;;;;;;;;;;;;;x
+EVTDESCHFA20351;A wandering scholar has arrived after hearing of my coming [Root.GetCoronationRiteName] and asks to place [coronation_scholar.GetHerHis] knowledge at my service.;;;;;;;;;;;;;x
+EVTDESCHFA20352;Everyone praises [From.GetTitledFirstName] and the great [From.GetTitle] [From.GetSheHe] will become. These [From.GetCoronationRiteName] festivities have only made me realize how much I despise [From.GetHerHim].;;;;;;;;;;;;;x
+EVTDESCHFA20353;[From.GetTitledFirstName] has made a scene during tonight's feast. Inviting my old rival to my [Root.GetCoronationRiteName] may have been a mistake.;;;;;;;;;;;;;x
+EVTDESCHFB20355;What sort of [Root.GetTitle] am I to become? I could not even arrange a dignified [Root.GetCoronationRiteName] in peacetime and must undergo the rite in a muddy military encampment.;;;;;;;;;;;;;x
+EVTDESCHFA20356;My vassals resent the secluded arrangements for my [Root.GetCoronationRiteName] and have taken their lack of invitation as a personal slight.;;;;;;;;;;;;;x
+EVTDESCHFA20357;Word has spread that [From.GetTitledFirstName] will hold a secluded [From.GetCoronationRiteName] attended only by [From.GetHerHis] closest advisers.;;;;;;;;;;;;;x
+EVTDESCHFB20357;Word has spread that [From.GetTitledFirstName] will hold a secluded [From.GetCoronationRiteName] in a military tent attended only by [From.GetHerHis] closest advisers.;;;;;;;;;;;;;x
+EVTDESCHFA20358;[coronation_priest.GetTitledFirstName] has publicly criticized the poor hospitality and humble arrangements for my [Root.GetCoronationRiteName].;;;;;;;;;;;;;x
+EVTDESCHFB20358;While complaining about the humble arrangements for my [Root.GetCoronationRiteName], [coronation_priest.GetTitledFirstName] is knocked headfirst into the mud by a passing animal. The hall falls silent.;;;;;;;;;;;;;x
+EVTDESCHFC20358;The envoy sent to perform my [Root.GetCoronationRiteName] has proven insufferable, constantly complaining about the danger and lack of comfort in this wartime camp.;;;;;;;;;;;;;x
+EVTDESCHFA20359;[coronation_priest.GetTitledFirstName] is plainly disappointed with the secluded arrangements my liege made for [From.GetHerHis] [From.GetCoronationRiteName].;;;;;;;;;;;;;x
+EVTDESCHFB20359;[coronation_priest.GetTitledFirstName] refused to travel to the secluded site of my liege's [From.GetCoronationRiteName] and sent an envoy in [coronation_priest.GetHerHis] place.;;;;;;;;;;;;;x
+EVTDESCHFA20360;What will this rite change when almost nobody is here to witness me be formally [Root.GetCoronationPastParticipleLower] as [Root.GetTitle]?;;;;;;;;;;;;;x
+EVTDESCHFA20361;The secluded days before my [Root.GetCoronationRiteName] have given me time to reflect upon my duties as a [Root.Religion.GetName] [Root.GetTitle]. Perhaps I can become a humbler and kinder ruler.;;;;;;;;;;;;;x
+EVTDESCHFA20362;As I count the days until my [Root.GetCoronationRiteName], I cannot help thinking the ceremony could have been grander but for [lazy_treasurer.GetTitledFirstName]'s mismanagement.;;;;;;;;;;;;;x
+EVTDESCHFA20363;[From.GetTitledFirstName] has accused me of mishandling the treasury and preventing a more dignified [From.GetCoronationRiteName].;;;;;;;;;;;;;x
+EVTDESCHFA20369;With the ceremony concluded and the guests returned home, I resume my duties as [Root.GetTitle]. Having been formally [Root.GetCoronationPastParticipleLower], my right to rule now bears the recognition of [Root.GetCoronationReligiousBody].;;;;;;;;;;;;;x
+EVTDESCHFC20370;With the ceremony concluded, [From.GetTitledFirstName] dismissed the guests from the encampment. It is remarkable that the wartime [From.GetCoronationRiteName] was not interrupted by an enemy raid.;;;;;;;;;;;;;x
+EVTDESCHFA20376;The people of [Root.Capital.GetName] grow more restless every year. A [Root.GetTitle] who has not been formally [Root.GetCoronationPastParticipleLower] will not be accepted as legitimate by the faithful.;;;;;;;;;;;;;x
+EVTDESCHFA20377;Month after month, ministers across [Root.PrimaryTitle.GetName] accuse me of wickedness. Until I am formally [Root.GetCoronationPastParticipleLower] as [Root.GetTitle], the clergy will seize every chance to undermine my rule.;;;;;;;;;;;;;x
+EVTDESCHFA20378;I cannot believe my [GetFromRelation] [From.GetFirstName] has still not been formally [From.GetCoronationPastParticipleLower] as [From.GetTitle]. [From.GetHerHisCap] weakness threatens the realm and stains my own name.;;;;;;;;;;;;;x
+EVTDESCHFA20379;My [GetFromRelation] [From.GetFirstName] stormed into my study and berated me for failing to legitimize my rule with a proper [Root.GetCoronationRiteName].;;;;;;;;;;;;;x
+EVTDESCHFA20383;My attempt to distract my [GetFromRelation] from the matter of my pending [Root.GetCoronationRiteName] did not end well.;;;;;;;;;;;;;x
+EVTDESCHFA20384;My liege has not yet been formally [From.GetCoronationPastParticipleLower]. I must explain that this lack of legitimacy is becoming a hindrance to my work as Chancellor of [From.PrimaryTitle.GetName].;;;;;;;;;;;;;x
+EVTDESCHFA20385;My Chancellor warned that my prolonged failure to secure the recognition of [Root.GetCoronationReligiousBody] is seriously damaging the realm's diplomacy.;;;;;;;;;;;;;x
+EVTDESCHFA20386;I can no longer serve a [From.GetTitle] whose rule has not been formally recognized by [From.GetCoronationReligiousBody]. I must make my disapproval plain.;;;;;;;;;;;;;x
+EVTDESCHFA20387;[From.GetTitledFirstName] has refused to remain the chief religious minister of a [Root.GetTitle] whose rule still lacks formal religious recognition.;;;;;;;;;;;;;x
+EVTDESCHFA20388;I still cannot accept how modest and secluded my [Root.GetCoronationRiteName] was. Was such a meager ceremony worthy of a [Root.GetTitle]?;;;;;;;;;;;;;x
+EVTDESCHFA20389;The people of [Root.Capital.GetName] still celebrate my [Root.GetCoronationRiteName] and the formal recognition of my rule, though they are also using the festivities as an excuse to work less.;;;;;;;;;;;;;x
+EVTDESCHFA20390;Word of the lavish celebrations surrounding my [Root.GetCoronationRiteName] has spread across the realm and beyond. My name will be associated with prestige and wealth.;;;;;;;;;;;;;x
+EVTDESCHFA20391;The celebrations surrounding my [Root.GetCoronationRiteName] ended some time ago, but the trade and wealth they brought to [Root.Capital.GetName] still linger.;;;;;;;;;;;;;x
+EVTDESCHFA20392;I still think about [FromFrom.GetTitledFirstName]'s [FromFrom.GetCoronationRiteName]. While my own rite was lonely and miserable, [FromFrom.GetSheHe] staged a spectacle that will be remembered for years.;;;;;;;;;;;;;x
+EVTDESCHFB20392;I still think about [FromFrom.GetTitledFirstName]'s [FromFrom.GetCoronationRiteName]. I remain [Root.GetCoronationUnfinishedLower], while [FromFrom.GetSheHe] already flaunts the recognition won through a magnificent spectacle.;;;;;;;;;;;;;x
+EVTOPTAHF20385;I must arrange my [Root.GetCoronationRiteName] soon...;;;;;;;;;;;;;x
+EVTOPTAHF20387;I must arrange my [Root.GetCoronationRiteName] soon...;;;;;;;;;;;;;x
+EVTOPTCHF20377;A generous donation to the clergy will quiet them.;;;;;;;;;;;;;x
+EVTDESCHFA20408;Since I have forsaken the [From.GetName] faith, I no longer require its religious authorities to recognize my right to rule.;;;;;;;;;;;;;x
+EVTDESCHFB20408;Since I have forsaken the [From.Religion.GetName] faith, I must seek recognition under the rites of the [Root.Religion.GetName] faith.;;;;;;;;;;;;;x
+EVTDESCHFA20409;The sudden conversion of [From.GetTitledFirstName] brought [From.GetHerHis] [From.GetCoronationRiteName] ceremony to an abrupt end.;;;;;;;;;;;;;x
+EVTDESCHFB20300;Now that I have secured a willing [Root.Religion.GetPriestTitle] to officiate my [Root.GetCoronationRiteName], I must decide how much to spend on the accompanying ceremony.;;;;;;;;;;;;;x
+EVTDESCHFB20305;Only a few days remain before I am formally [Root.GetCoronationPastParticipleLower] before [Root.Religion.GetHighGodName] and my subjects. My vassals have gathered to witness this defining moment of my reign.;;;;;;;;;;;;;x
+EVTDESCHFC20305;My [Root.GetCoronationRiteName] draws near. The secluded wait gives me time to reflect upon my future responsibilities as [Root.GetTitle].;;;;;;;;;;;;;x
+EVTDESCHFD20305;My [Root.GetCoronationRiteName] draws near. I can only hope that the appointed day does not fall in the middle of a major battle.;;;;;;;;;;;;;x
+EVTOPTAHF20358;Should a faithful [Root.Religion.GetName] ruler not avoid such excess?;;;;;;;;;;;;;x
+EVTTITLE20366;[coronation_ruler.GetCoronationRiteTitle] of [coronation_ruler.GetTitledFirstName];;;;;;;;;;;;;x
+tooltip_gain_crowned_by_bishop;[Root.GetTitledName] becomes [Root.GetCoronationPastParticiple] by [Root.GetCoronationSeniorOfficiant].;;;;;;;;;;;;;x
+tooltip_gain_crowned_by_pope;[Root.GetTitledName] becomes [Root.GetCoronationPastParticiple] by [Root.GetCoronationHeadName].;;;;;;;;;;;;;x
+tooltip_gain_crowned_by_priest;[Root.GetTitledName] becomes [Root.GetCoronationPastParticiple] by [Root.GetCoronationLocalOfficiant].;;;;;;;;;;;;;x
+begin_coronation_tooltip;Begin preparing for your [Root.GetCoronationRiteName] ceremony.;;;;;;;;;;;;;x
+coronation_canceled;The [Root.GetCoronationRiteName] ceremony will be canceled.;;;;;;;;;;;;;x
+scorned_powerful_theocrats;Other powerful [Root.Religion.GetPriestTitle]s in the realm will be offended if you snub them for a minor official.;;;;;;;;;;;;;x
+scorned_the_pope;By not seeking legitimacy from [Root.GetCoronationHeadName], your choice will offend the religious head.;;;;;;;;;;;;;x
+send_seclcoronation_invitations;Invite only your Council to the private festivities preceding your [Root.GetCoronationRiteName].;;;;;;;;;;;;;x
+tooltip_coronation_depose_excommunicate;Begin a war to depose a ruler condemned by the faith. Upon victory, [From.GetTitledName] will perform your [Root.GetCoronationRiteName].;;;;;;;;;;;;;x
+tooltip_maxed_uncrowned;Remained [Root.GetCoronationUnfinishedLower] after 30 years of rule.;;;;;;;;;;;;;x
+TT_CORONATION_RELIGIOUS_HEAD_POPE;[Root.GetCoronationHeadName] is available to perform the ceremony;;;;;;;;;;;;;x
+TT_CORONATION_VASSAL_PRIEST;A vassal [Root.Religion.GetPriestTitle] or court minister is available to perform the ceremony;;;;;;;;;;;;;x
+TT_NOT_FULFILLING_WAR_CORONATION;Is NOT currently fighting a war promised in exchange for religious recognition;;;;;;;;;;;;;x
+TT_NOT_PREPARING_CORONATION;Is NOT already preparing a [Root.GetCoronationRiteName];;;;;;;;;;;;;x
+TT_NOT_RECENTLY_ASKED_CORONATION;Has NOT recently attempted to organize a [Root.GetCoronationRiteName] [From.GetCoronationTimer];;;;;;;;;;;;;x
+crowned_in_barn;[GetCoronationPastParticiple] in Seclusion;;;;;;;;;;;;;x
+crowned_in_barn_desc;This ruler underwent [GetHerHis] [GetCoronationRiteName] in seclusion without much celebration. The modest rite suggests limited wealth and influence, though some religious officials consider it a sign of humility.;;;;;;;;;;;;;x
+crowned_in_war;Wartime [GetCoronationRiteTitle];;;;;;;;;;;;;x
+crowned_in_war_desc;After prolonged delay, this ruler was forced to undergo [GetHerHis] [GetCoronationRiteName] hurriedly in the middle of a war.;;;;;;;;;;;;;x
+extravagant_coronation;Extravagant [GetCoronationRiteTitle];;;;;;;;;;;;;x
+extravagant_coronation_desc;This ruler's [GetCoronationRiteName] culminated a month of glorious festivities, displaying power and wealth that few will forget.;;;;;;;;;;;;;x
+coronation_peasants_happy_desc;The people of this province are still celebrating the formal recognition of their new monarch.;;;;;;;;;;;;;x
+opinion_coronation_guest;Ceremony Guest;;;;;;;;;;;;;x
+opinion_supposed_to_crown;Expected to perform the [GetCoronationRiteName];;;;;;;;;;;;;x
+opinion_uncrowned_ruler;Still [GetCoronationUnfinished];;;;;;;;;;;;;x
+crowned_by_trigger;Has been formally [GetCoronationPastParticipleLower];;;;;;;;;;;;;x
+EVTDESC_AWLAO_VARGIST_20366;Before the assembled ministers and dignitaries, [coronation_priest.GetTitledFirstName] presents a basin of consecrated oil. I dip my hand into it and hold it aloft while the faithful acclaim me as [coronation_ruler.GetTitle] of [coronation_ruler.PrimaryTitle.GetName], a lawful representative of Ordem.;;;;;;;;;;;;;x
+EVTDESC_AWLAO_VARGIST_20367;Before the assembled ministers and dignitaries, [coronation_priest.GetTitledFirstName] presents a basin of consecrated oil. [coronation_ruler.GetTitledFirstName] dips [coronation_ruler.GetHerHis] hand into it and holds it aloft while the faithful acclaim [coronation_ruler.GetHerHim] as [coronation_ruler.GetTitle] of [coronation_ruler.PrimaryTitle.GetName], a lawful representative of Ordem.;;;;;;;;;;;;;x
+EVTDESC_AWLAO_VARGIST_20368;Word has arrived that [From.GetTitledFirstName] has been anointed through the sacred oil and acclaimed as a lawful representative of Ordem.;;;;;;;;;;;;;x

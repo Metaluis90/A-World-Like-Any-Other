@@ -1,0 +1,46 @@
+decisions = {
+	proclaim_estado_novo = {
+		ai_check_interval = 120
+		is_high_prio = yes
+		only_playable = yes
+
+		potential = {
+			religion = vargist
+			independent = yes
+			real_tier = EMPEROR
+			NOT = { has_landed_title = d_estado_novo }
+			d_estado_novo = { has_holder = yes }
+		}
+
+		allow = {
+			is_adult = yes
+			prisoner = no
+			is_incapable = no
+			war = no
+			prestige = 3000
+			piety = 1500
+			wealth = 500
+		}
+
+		effect = {
+			prestige = -1000
+			piety = -500
+			wealth = -500
+			primary_title = { save_event_target_as = vargist_secular_primary_title }
+			d_estado_novo = {
+				usurp_title = ROOT
+				copy_title_laws = event_target:vargist_secular_primary_title
+			}
+			add_character_modifier = { name = vargist_estado_novo_proclaimed duration = -1 }
+			set_global_flag = vargist_estado_novo_proclaimed
+			character_event = { id = vargist.0200 }
+		}
+
+		ai_will_do = {
+			factor = 0.5
+			modifier = { factor = 2 trait = ambitious }
+			modifier = { factor = 2 trait = zealous }
+			modifier = { factor = 0.5 trait = content }
+		}
+	}
+}

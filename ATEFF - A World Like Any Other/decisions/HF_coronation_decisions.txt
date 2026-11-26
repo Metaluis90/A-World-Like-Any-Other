@@ -10,10 +10,7 @@ decisions = {
 			has_dlc = "Holy Fury"
 			higher_real_tier_than = DUKE
 
-			OR = {
-				religion = catholic
-				religion = fraticelli
-			}
+			uses_coronation = yes
 
 			is_feudal = yes
 			is_landed = yes
@@ -51,6 +48,7 @@ decisions = {
 
 			trigger_if = {
 				limit = {
+					uses_papal_coronation_flavor = yes
 					real_tier = EMPEROR
 					trait = excommunicated
 					has_law = investiture_law_0
@@ -156,11 +154,15 @@ decisions = {
 					rightful_religious_head_scope = {
 						controls_religion = yes
 						block_general_event_trigger = no
+						NOT = { character = ROOT }
 					}
 				}
 
 				trigger_if = {
-					limit = { real_tier = EMPEROR }
+					limit = {
+						real_tier = EMPEROR
+						uses_papal_coronation_flavor = yes
+					}
 
 					has_law = investiture_law_1
 
@@ -175,13 +177,23 @@ decisions = {
 					}
 				}
 				trigger_else = {
-					custom_tooltip = {
-						text = TT_CORONATION_VASSAL_PRIEST
+					OR = {
+						custom_tooltip = {
+							text = TT_CORONATION_VASSAL_PRIEST
 
-						any_realm_lord = {
-							is_theocracy = yes
+							any_realm_lord = {
+								is_theocracy = yes
+								religion = ROOT
+								block_general_event_trigger = no
+							}
+						}
+
+						job_spiritual = {
 							religion = ROOT
+							prisoner = no
+							is_incapable = no
 							block_general_event_trigger = no
+							NOT = { character = ROOT }
 						}
 					}
 				}
@@ -225,10 +237,11 @@ decisions = {
 			mult_modifier = {
 				factor = 0.1
 
+				uses_papal_coronation_flavor = yes
 				real_tier = EMPEROR
 				has_law = investiture_law_0
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value < -80
@@ -239,10 +252,11 @@ decisions = {
 			mult_modifier = {
 				factor = 0.5
 
+				uses_papal_coronation_flavor = yes
 				real_tier = EMPEROR
 				has_law = investiture_law_0
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value < -60
@@ -253,10 +267,11 @@ decisions = {
 			mult_modifier = {
 				factor = 0.6
 
+				uses_papal_coronation_flavor = yes
 				real_tier = EMPEROR
 				has_law = investiture_law_0
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value < -40
@@ -267,10 +282,11 @@ decisions = {
 			mult_modifier = {
 				factor = 0.7
 
+				uses_papal_coronation_flavor = yes
 				real_tier = EMPEROR
 				has_law = investiture_law_0
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value < -20
@@ -281,10 +297,11 @@ decisions = {
 			mult_modifier = {
 				factor = 0.8
 
+				uses_papal_coronation_flavor = yes
 				real_tier = EMPEROR
 				has_law = investiture_law_0
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value < 0
@@ -295,10 +312,11 @@ decisions = {
 			mult_modifier = {
 				factor = 1.5
 
+				uses_papal_coronation_flavor = yes
 				real_tier = EMPEROR
 				has_law = investiture_law_0
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value >= 20
@@ -309,10 +327,11 @@ decisions = {
 			mult_modifier = {
 				factor = 1.5
 
+				uses_papal_coronation_flavor = yes
 				real_tier = EMPEROR
 				has_law = investiture_law_0
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value >= 40
@@ -323,10 +342,11 @@ decisions = {
 			mult_modifier = {
 				factor = 1.5
 
+				uses_papal_coronation_flavor = yes
 				real_tier = EMPEROR
 				has_law = investiture_law_0
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value >= 60
@@ -337,10 +357,11 @@ decisions = {
 			mult_modifier = {
 				factor = 2
 
+				uses_papal_coronation_flavor = yes
 				real_tier = EMPEROR
 				has_law = investiture_law_0
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value >= 80
@@ -351,10 +372,11 @@ decisions = {
 			mult_modifier = {
 				factor = 5
 
+				uses_papal_coronation_flavor = yes
 				real_tier = EMPEROR
 				has_law = investiture_law_0
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value >= 100
@@ -399,7 +421,7 @@ decisions = {
 
 			mult_modifier = {
 				factor = 5
-				religion_head = { vassal_of = ROOT }
+				rightful_religious_head_scope = { vassal_of = ROOT }
 			}
 
 			mult_modifier = {

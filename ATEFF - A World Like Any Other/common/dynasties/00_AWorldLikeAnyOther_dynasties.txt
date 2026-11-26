@@ -221,3 +221,10 @@
 	religion="vargist"
 	used_for_random=no
 }
+
+1005 = {
+	name="Charroux" #Vargas descendants
+	culture="gaucho_rg"
+	religion="vargist"
+	used_for_random=no
+}

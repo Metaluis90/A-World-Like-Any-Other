@@ -1,0 +1,263 @@
+defined_text = {
+	name = GetCoronationRiteName
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_anointment_lower
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_coronation_lower
+	}
+}
+
+defined_text = {
+	name = GetCoronationRiteTitle
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_anointment_title
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_coronation_title
+	}
+}
+
+defined_text = {
+	name = GetCoronationRiteWithArticle
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_an_anointment
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_a_coronation
+	}
+}
+
+defined_text = {
+	name = GetCoronationPastParticiple
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_anointed
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_crowned
+	}
+}
+
+defined_text = {
+	name = GetCoronationPastParticipleLower
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_anointed_lower
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_crowned_lower
+	}
+}
+
+defined_text = {
+	name = GetCoronationInfinitive
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_anoint
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_crown
+	}
+}
+
+defined_text = {
+	name = GetCoronationUnfinished
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_unanointed
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_uncrowned
+	}
+}
+
+defined_text = {
+	name = GetCoronationUnfinishedLower
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_unanointed_lower
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_uncrowned_lower
+	}
+}
+
+defined_text = {
+	name = GetCoronationReligiousBody
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_ministers_of_ordem
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_the_church
+	}
+}
+
+defined_text = {
+	name = GetCoronationHeadName
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_the_estado_novo
+	}
+	text = {
+		trigger = { uses_papal_coronation_flavor = yes }
+		localisation_key = awlao_the_pope
+	}
+	text = {
+		trigger = {
+			NOR = {
+				uses_anointment_terminology = yes
+				uses_papal_coronation_flavor = yes
+			}
+		}
+		localisation_key = awlao_the_religious_head
+	}
+}
+
+defined_text = {
+	name = GetCoronationSeniorOfficiant
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_minister_of_ordem
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_prince_bishop
+	}
+}
+
+defined_text = {
+	name = GetCoronationLocalOfficiant
+	text = {
+		trigger = { uses_anointment_terminology = yes }
+		localisation_key = awlao_a_minister_of_ordem
+	}
+	text = {
+		trigger = { NOT = { uses_anointment_terminology = yes } }
+		localisation_key = awlao_a_bishop
+	}
+}
+
+# Religion-aware officiant name used by the shared coronation traits.
+defined_text = {
+	name = GetCoronationOfficiantName
+	use_first_valid = yes
+
+	text = {
+		trigger = {
+			FROM = {
+				uses_anointment_terminology = yes
+				trait = crowned_by_pope
+			}
+		}
+		localisation_key = string_anointed_by_estado_novo
+	}
+	text = {
+		trigger = {
+			uses_anointment_terminology = yes
+			trait = crowned_by_pope
+		}
+		localisation_key = string_anointed_by_estado_novo
+	}
+	text = {
+		trigger = {
+			NOT = { persistent_event_target:coronation_priest_per = { always = yes } }
+			FROM = {
+				trait = crowned_by_pope
+				is_alive = yes
+			}
+		}
+		localisation_key = string_from_crowned_by_pope_aliveop
+	}
+	text = {
+		trigger = {
+			NOT = { persistent_event_target:coronation_priest_per = { always = yes } }
+			FROM = {
+				trait = crowned_by_bishop
+				is_alive = yes
+			}
+		}
+		localisation_key = string_from_crowned_by_bishop_aliveop
+	}
+	text = {
+		trigger = {
+			NOT = { persistent_event_target:coronation_priest_per = { always = yes } }
+			FROM = {
+				trait = crowned_by_priest
+				is_alive = yes
+			}
+		}
+		localisation_key = string_from_crowned_by_priest_aliveop
+	}
+	text = {
+		trigger = {
+			trait = crowned_by_pope
+			is_alive = yes
+		}
+		localisation_key = string_crowned_by_pope_alive
+	}
+	text = {
+		trigger = {
+			trait = crowned_by_pope
+			is_alive = no
+		}
+		localisation_key = string_crowned_by_pope_dead
+	}
+	text = {
+		trigger = {
+			trait = crowned_by_bishop
+			is_alive = yes
+		}
+		localisation_key = string_crowned_by_bishop_alive
+	}
+	text = {
+		trigger = {
+			uses_anointment_terminology = yes
+			trait = crowned_by_bishop
+			is_alive = no
+		}
+		localisation_key = string_anointed_by_minister
+	}
+	text = {
+		trigger = {
+			trait = crowned_by_bishop
+			is_alive = no
+		}
+		localisation_key = string_crowned_by_bishop_dead
+	}
+	text = {
+		trigger = {
+			trait = crowned_by_priest
+			is_alive = yes
+		}
+		localisation_key = string_crowned_by_priest_alive
+	}
+	text = {
+		trigger = {
+			uses_anointment_terminology = yes
+			trait = crowned_by_priest
+			is_alive = no
+		}
+		localisation_key = string_anointed_by_minister
+	}
+	text = {
+		trigger = {
+			trait = crowned_by_priest
+			is_alive = no
+		}
+		localisation_key = string_crowned_by_priest_dead
+	}
+}

@@ -1521,6 +1521,7 @@ settlement_decisions = {
 			independent = yes
 			is_nomadic = yes
 			is_female = no
+			NOT = { religion = vargist }
 
 			trigger_if = {
 				limit = { ai = no }

@@ -23,3 +23,23 @@ d_synodal = {
 
 	dynasty_title_names = no
 }
+
+# The Estado Novo begins as the landless theocratic organ of Varguism. An
+# emperor may later proclaim its earthly realization and take the title,
+# uniting secular and religious authority.
+d_estado_novo = {
+	color = { 102 199 158 }
+	color2 = { 245 218 90 }
+
+	title = "ESTADO_NOVO"
+	foa = "ESTADO_NOVO_FOA"
+	short_name = yes
+
+	landless = yes
+	controls_religion = vargist
+	religion = vargist
+
+	primary = yes
+	assimilate = no
+	dynasty_title_names = no
+}

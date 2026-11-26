@@ -122,3 +122,25 @@ religion_gain_piety_from_feasting = {
 		religion = farrapo
 	}
 }
+
+# Holy Fury coronation framework. Add a religion here to opt it into the
+# mechanical system; the two profile triggers below only control special
+# terminology and Papal flavor.
+uses_coronation = {
+	OR = {
+		religion = catholic
+		religion = fraticelli
+		religion = vargist
+	}
+}
+
+uses_papal_coronation_flavor = {
+	OR = {
+		religion = catholic
+		religion = fraticelli
+	}
+}
+
+uses_anointment_terminology = {
+	religion = vargist
+}

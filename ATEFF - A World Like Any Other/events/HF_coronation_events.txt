@@ -21,10 +21,11 @@ character_event = {
 			rightful_religious_head_scope = {
 				controls_religion = yes # No antipopes!
 				block_general_event_trigger = no
+				NOT = { character = ROOT }
 			}
 		}
 
-		religion_head = {
+		rightful_religious_head_scope = {
 			show_scope_change = no
 
 			letter_event = {
@@ -46,7 +47,7 @@ character_event = {
 			mult_modifier = {
 				factor = 0.1
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value < -80
@@ -57,7 +58,7 @@ character_event = {
 			mult_modifier = {
 				factor = 0.25
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value < -60
@@ -68,7 +69,7 @@ character_event = {
 			mult_modifier = {
 				factor = 0.5
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value < -40
@@ -79,7 +80,7 @@ character_event = {
 			mult_modifier = {
 				factor = 0.7
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value < -20
@@ -90,7 +91,7 @@ character_event = {
 			mult_modifier = {
 				factor = 0.8
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value < 0
@@ -101,7 +102,7 @@ character_event = {
 			mult_modifier = {
 				factor = 1.25
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value >= 20
@@ -112,7 +113,7 @@ character_event = {
 			mult_modifier = {
 				factor = 1.25
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value >= 40
@@ -123,7 +124,7 @@ character_event = {
 			mult_modifier = {
 				factor = 1.5
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value >= 60
@@ -134,7 +135,7 @@ character_event = {
 			mult_modifier = {
 				factor = 1.75
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value >= 80
@@ -145,7 +146,7 @@ character_event = {
 			mult_modifier = {
 				factor = 2
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						who = ROOT
 						value >= 100
@@ -163,6 +164,7 @@ character_event = {
 
 			OR = {
 				lower_real_tier_than = EMPEROR
+				NOT = { uses_papal_coronation_flavor = yes }
 				has_law = investiture_law_1
 			}
 
@@ -188,13 +190,14 @@ character_event = {
 
 				rightful_religious_head_scope = {
 					controls_religion = yes
+					NOT = { character = ROOT }
 				}
 			}
 
 			custom_tooltip = {
 				text = scorned_the_pope
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						name = opinion_offended
 						who = ROOT
@@ -240,17 +243,29 @@ character_event = {
 		trigger = {
 			OR = {
 				lower_real_tier_than = EMPEROR
+				NOT = { uses_papal_coronation_flavor = yes }
 				has_law = investiture_law_1
 			}
 
-			any_realm_lord = {
-				is_theocracy = yes
-				religion = ROOT
-				lower_real_tier_than = COUNT
-				controls_religion = no
-				is_cardinal = no
-				is_antipope = no
-				block_general_event_trigger = no
+			OR = {
+				any_realm_lord = {
+					is_theocracy = yes
+					religion = ROOT
+					lower_real_tier_than = COUNT
+					controls_religion = no
+					is_cardinal = no
+					is_antipope = no
+					block_general_event_trigger = no
+				}
+
+				job_spiritual = {
+					religion = ROOT
+					prisoner = no
+					is_incapable = no
+					controls_religion = no
+					block_general_event_trigger = no
+					NOT = { character = ROOT }
+				}
 			}
 		}
 
@@ -269,13 +284,14 @@ character_event = {
 
 				rightful_religious_head_scope = {
 					controls_religion = yes
+					NOT = { character = ROOT }
 				}
 			}
 
 			custom_tooltip = {
 				text = scorned_the_pope
 
-				religion_head = {
+				rightful_religious_head_scope = {
 					opinion = {
 						name = opinion_offended
 						who = ROOT
@@ -289,6 +305,7 @@ character_event = {
 			limit = {
 				OR = {
 					lower_real_tier_than = EMPEROR
+					NOT = { uses_papal_coronation_flavor = yes }
 					has_law = investiture_law_1
 				}
 
@@ -334,37 +351,60 @@ character_event = {
 			}
 		}
 
-		random_realm_lord = {
-			show_scope_change = no
-
+		if = {
 			limit = {
-				is_theocracy = yes
-				religion = ROOT
-				lower_real_tier_than = COUNT
-				controls_religion = no
-				is_cardinal = no
-				is_antipope = no
-				block_general_event_trigger = no
-			}
-
-			preferred_limit = {
-				opinion = {
-					who = ROOT
-					value >= 50
+				any_realm_lord = {
+					is_theocracy = yes
+					religion = ROOT
+					lower_real_tier_than = COUNT
+					controls_religion = no
+					is_cardinal = no
+					is_antipope = no
+					block_general_event_trigger = no
 				}
 			}
 
-			preferred_limit = {
-				opinion = {
-					who = ROOT
-					value >= 20
+			random_realm_lord = {
+				show_scope_change = no
+
+				limit = {
+					is_theocracy = yes
+					religion = ROOT
+					lower_real_tier_than = COUNT
+					controls_religion = no
+					is_cardinal = no
+					is_antipope = no
+					block_general_event_trigger = no
+				}
+
+				preferred_limit = {
+					opinion = {
+						who = ROOT
+						value >= 50
+					}
+				}
+
+				preferred_limit = {
+					opinion = {
+						who = ROOT
+						value >= 20
+					}
+				}
+
+				letter_event = {
+					id = HF.20201
+					days = 30
+					random = 5
 				}
 			}
-
-			letter_event = {
-				id = HF.20201
-				days = 30
-				random = 5
+		}
+		else = {
+			job_spiritual = {
+				letter_event = {
+					id = HF.20201
+					days = 30
+					random = 5
+				}
 			}
 		}
 
@@ -431,11 +471,7 @@ letter_event = {
 	trigger = {
 		FROM = {
 			religion = ROOT
-
-			OR = {
-				religion = catholic
-				religion = fraticelli
-			}
+			uses_coronation = yes
 		}
 	}
 
@@ -737,6 +773,8 @@ letter_event = {
 
 			20 = {
 				trigger = {
+					FROM = { uses_papal_coronation_flavor = yes }
+
 					FROM = {
 						any_child = {
 							is_adult = yes
@@ -864,6 +902,8 @@ letter_event = {
 
 			10 = {
 				trigger = {
+					FROM = { uses_papal_coronation_flavor = yes }
+
 					# Check if holy orders exist
 					OR = {
 						is_title_active = d_knights_templar
@@ -1093,6 +1133,7 @@ letter_event = {
 
 			10 = {
 				trigger = {
+					FROM = { uses_papal_coronation_flavor = yes }
 					is_monastic_member_trigger = yes
 					FROM = { is_monastic_member_trigger = no }
 				}
@@ -1413,6 +1454,7 @@ letter_event = {
 
 			30 = {
 				trigger = {
+					uses_papal_coronation_flavor = yes
 					FROM = { has_law = investiture_law_1 }
 				}
 
@@ -1519,11 +1561,9 @@ letter_event = {
 					FROM = { war = no } # Wartime coronation
 
 					# Check if any antipopes are available in the first place
+					uses_papal_coronation_flavor = yes
 					any_independent_ruler = {
-						OR = {
-							religion = catholic
-							religion = fraticelli
-						}
+						uses_papal_coronation_flavor = yes
 
 						rightful_religious_head_scope = {
 							controls_religion = no
@@ -1574,6 +1614,7 @@ letter_event = {
 
 			20 = {
 				trigger = {
+					uses_papal_coronation_flavor = yes
 					FROM = {
 						real_tier = EMPEROR
 
@@ -1916,7 +1957,7 @@ letter_event = {
 			10 = {
 				trigger = {
 					FROM = { war = no } # Wartime coronation
-					religion = catholic # Catholics only
+					uses_papal_coronation_flavor = yes
 
 					OR = {
 						trait = bad_priest_christian
@@ -1961,6 +2002,7 @@ letter_event = {
 
 			5 = {
 				trigger = {
+					uses_papal_coronation_flavor = yes
 					# Check if holy orders exist
 					OR = {
 						is_title_active = d_knights_templar
@@ -2120,6 +2162,7 @@ letter_event = {
 
 			30 = {
 				trigger = {
+					uses_papal_coronation_flavor = yes
 					FROM = {
 						higher_real_tier_than = KING
 						war = no
@@ -2267,12 +2310,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	option = {
 		name = EVTOPTAHF20202
@@ -2317,12 +2355,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	option = {
 		name = EVTOPTAHF20203
@@ -2374,12 +2407,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	option = {
 		name = EVTOPTAHF20204
@@ -2431,12 +2459,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	option = {
 		name = EVTOPTAHF20205
@@ -2492,12 +2515,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	immediate = {
 		random_child = {
@@ -2581,12 +2599,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	immediate = {
 		random_child = {
@@ -2683,12 +2696,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	# Fund AND join the Orgy
 	option = {
@@ -2797,12 +2805,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	option = {
 		name = EVTOPTAHF20209
@@ -2860,12 +2863,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	option = {
 		name = EVTOPTAHF20210
@@ -2916,12 +2914,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	option = {
 		name = EVTOPTAHF20211
@@ -2978,12 +2971,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	option = {
 		name = EVTOPTAHF20212
@@ -3202,12 +3190,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_papal_coronation_flavor = yes }
 
 	option = {
 		name = EVTOPTAHF20213
@@ -3281,12 +3264,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	# Select potential target so that it appears in the tooltip
 	immediate = {
@@ -3615,20 +3593,12 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_papal_coronation_flavor = yes }
 
 	immediate = {
 		random_independent_ruler = {
 			limit = {
-				OR = {
-					religion = catholic
-					religion = fraticelli
-				}
+				uses_papal_coronation_flavor = yes
 
 				rightful_religious_head_scope = {
 					vassal_of = PREV
@@ -3937,12 +3907,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_papal_coronation_flavor = yes }
 
 	option = {
 		name = EVTOPTAHF20216
@@ -4101,12 +4066,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_papal_coronation_flavor = yes }
 
 	immediate = {
 		# Check if there is an available bordering province, in order to limit bordergore
@@ -4692,7 +4652,7 @@ character_event = {
 		clr_character_flag = flag_excommunicated_for_coronation
 		set_character_flag = flag_crowned_by_pope
 
-		religion_head = { # Otherwise the scope would have been lost
+		rightful_religious_head_scope = { # Otherwise the scope would have been lost
 			show_scope_change = no
 
 			save_event_target_as = coronation_priest
@@ -4734,12 +4694,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_papal_coronation_flavor = yes }
 
 	immediate = {
 		if = {
@@ -5655,12 +5610,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_papal_coronation_flavor = yes }
 
 	# Fund AND join the Orgy
 	option = {
@@ -6124,12 +6074,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	immediate = {
 		random_artifact = {
@@ -6208,12 +6153,7 @@ letter_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	immediate = {
 		random_artifact = {
@@ -6322,12 +6262,7 @@ character_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
-	}
+	trigger = { uses_coronation = yes }
 
 	immediate = {
 		save_event_target_as = coronation_ruler
@@ -6835,10 +6770,7 @@ letter_event = {
 	ai = no
 
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
+		uses_coronation = yes
 
 		OR = {
 			has_character_flag = flag_crowned_by_priest
@@ -6863,10 +6795,7 @@ letter_event = {
 	ai = no
 
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
+		uses_coronation = yes
 
 		OR = {
 			has_character_flag = flag_crowned_by_priest
@@ -6917,10 +6846,7 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
+		uses_coronation = yes
 
 		OR = {
 			has_character_flag = flag_crowned_by_priest
@@ -10681,10 +10607,7 @@ character_event = {
 	hide_window = yes
 
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
+		uses_coronation = yes
 
 		OR = {
 			has_character_flag = flag_crowned_by_priest
@@ -11647,9 +11570,15 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	desc = {
+		text = EVTDESC_AWLAO_VARGIST_20366
+		trigger = { uses_anointment_terminology = yes }
+	}
+
+	desc = {
 		text = EVTDESCHFA20366 # Top localization for a Holy Roman Emperor crowned by the Pope (not in a barn)
 		picture = GFX_evt_found_hre
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			OR = {
 				has_landed_title = e_hre
 				has_landed_title = e_francia
@@ -11664,6 +11593,7 @@ character_event = {
 		text = EVTDESCHFB20366 # Localization for any adult Emperor crowned by the Pope (not in a barn)
 		picture = GFX_evt_found_hre
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			real_tier = EMPEROR
 			has_character_flag = flag_crowned_by_pope
 			is_adult = yes
@@ -11680,6 +11610,7 @@ character_event = {
 		text = EVTDESCHFC20366 # Localization for any child Emperor crowned by the Pope (not in a barn)
 		picture = GFX_evt_found_hre
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			real_tier = EMPEROR
 			is_adult = no
 			has_character_flag = flag_crowned_by_pope
@@ -11695,6 +11626,7 @@ character_event = {
 	desc = {
 		text = EVTDESCHFD20366 # Localization for any adult Ruler crowned by the Pope (not in a barn)
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			has_character_flag = flag_crowned_by_pope
 			real_tier = KING
 			is_adult = yes
@@ -11705,6 +11637,7 @@ character_event = {
 	desc = {
 		text = EVTDESCHFE20366 # Localization for any child Ruler crowned by the Pope (not in a barn)
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			has_character_flag = flag_crowned_by_pope
 			real_tier = KING
 			is_adult = no
@@ -11715,6 +11648,7 @@ character_event = {
 	desc = {
 		text = EVTDESCHFF20366 # Localization for any adult ruler crowned by a Bishop or Priest (not in a barn)
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			is_adult = yes
 			war = no
 
@@ -11727,6 +11661,7 @@ character_event = {
 	desc = {
 		text = EVTDESCHFG20366 # Localization for any child ruler crowned by a Bishop or Priest (not in a barn)
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			is_adult = no
 			war = no
 
@@ -11739,6 +11674,7 @@ character_event = {
 	desc = {
 		text = EVTDESCHFH20366 # Localization for any adult ruler crowned by the Pope in a barn
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			has_character_flag = flag_secluded_coronation
 			has_character_flag = flag_crowned_by_pope
 			is_adult = yes
@@ -11748,6 +11684,7 @@ character_event = {
 	desc = {
 		text = EVTDESCHFI20366 # Localization for any child ruler crowned by the Pope in a barn
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			is_adult = no
 			has_character_flag = flag_crowned_by_pope
 			has_character_flag = flag_secluded_coronation
@@ -11757,6 +11694,7 @@ character_event = {
 	desc = {
 		text = EVTDESCHFL20366 # Localization for any ruler crowned by a Bishop or Priest in a barn
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			has_character_flag = flag_secluded_coronation
 			war = no
 			NOT = { has_character_flag = flag_crowned_by_pope }
@@ -11766,6 +11704,7 @@ character_event = {
 		text = EVTDESCHFM20366 # War Coronation description
 		picture = GFX_evt_mounted_combat_day_hf
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			war = yes
 			NOT = { has_character_flag = flag_crowned_by_pope }
 		}
@@ -11775,6 +11714,7 @@ character_event = {
 		text = EVTDESCHFN20366 # War Coronation description
 		picture = GFX_evt_mounted_combat_day_hf
 		trigger = {
+			NOT = { uses_anointment_terminology = yes }
 			war = yes
 			has_character_flag = flag_crowned_by_pope
 		}
@@ -11788,10 +11728,7 @@ character_event = {
 		NOT = { has_character_flag = flag_being_coronated }
 		event_target:coronation_priest = { is_alive = yes } # Check if the priest supposed to be crowning you is still alive
 
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
+		uses_coronation = yes
 
 		OR = {
 			has_character_flag = flag_crowned_by_priest
@@ -12030,10 +11967,16 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	desc = {
+		text = EVTDESC_AWLAO_VARGIST_20367
+		trigger = { FROM = { uses_anointment_terminology = yes } }
+	}
+
+	desc = {
 		text = EVTDESCHFA20367 # Top localization for an Holy Roman Emperor crowned by the Pope (not in a barn).
 		picture = GFX_evt_found_hre
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				OR = {
 					has_landed_title = e_hre
 					has_landed_title = e_francia
@@ -12050,6 +11993,7 @@ character_event = {
 		picture = GFX_evt_found_hre
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				real_tier = EMPEROR
 				has_character_flag = flag_crowned_by_pope
 				is_adult = yes
@@ -12068,6 +12012,7 @@ character_event = {
 		picture = GFX_evt_found_hre
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				is_adult = no
 				real_tier = EMPEROR
 				has_character_flag = flag_crowned_by_pope
@@ -12086,6 +12031,7 @@ character_event = {
 		picture = GFX_evt_a_crowning_ceremony
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				has_character_flag = flag_crowned_by_pope
 				real_tier = KING
 				is_adult = yes
@@ -12099,6 +12045,7 @@ character_event = {
 		picture = GFX_evt_a_crowning_ceremony
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				is_adult = no
 				real_tier = KING
 				has_character_flag = flag_crowned_by_pope
@@ -12112,6 +12059,7 @@ character_event = {
 		picture = GFX_evt_a_crowning_ceremony
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				is_adult = yes
 				war = no
 
@@ -12127,6 +12075,7 @@ character_event = {
 		picture = GFX_evt_a_crowning_ceremony
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				is_adult = no
 				war = no
 				NOR = {
@@ -12141,6 +12090,7 @@ character_event = {
 		picture = GFX_evt_a_crowning_ceremony
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				has_character_flag = flag_secluded_coronation
 				has_character_flag = flag_crowned_by_pope
 				is_adult = yes
@@ -12153,6 +12103,7 @@ character_event = {
 		picture = GFX_evt_a_crowning_ceremony
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				is_adult = no
 				has_character_flag = flag_secluded_coronation
 				has_character_flag = flag_crowned_by_pope
@@ -12165,6 +12116,7 @@ character_event = {
 		picture = GFX_evt_a_crowning_ceremony
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				has_character_flag = flag_secluded_coronation
 				war = no
 				NOT = { has_character_flag = flag_crowned_by_pope }
@@ -12176,6 +12128,7 @@ character_event = {
 		picture = GFX_evt_mounted_combat_day_hf
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				war = yes
 				NOT = { has_character_flag = flag_crowned_by_pope }
 			}
@@ -12186,6 +12139,7 @@ character_event = {
 		picture = GFX_evt_mounted_combat_day_hf
 		trigger = {
 			FROM = {
+				NOT = { uses_anointment_terminology = yes }
 				war = yes
 				has_character_flag = flag_crowned_by_pope
 			}
@@ -12283,13 +12237,24 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	desc = {
+		text = EVTDESC_AWLAO_VARGIST_20368
+		trigger = { FROM = { uses_anointment_terminology = yes } }
+	}
+
+	desc = {
 		text = EVTDESCHFA20368
-		trigger = { war = no }
+		trigger = {
+			war = no
+			FROM = { NOT = { uses_anointment_terminology = yes } }
+		}
 	}
 	desc = {
 		text = EVTDESCHFA20368
 		picture = GFX_evt_mounted_combat_day_hf
-		trigger = { war = yes }
+		trigger = {
+			war = yes
+			FROM = { NOT = { uses_anointment_terminology = yes } }
+		}
 	}
 
 	is_triggered_only = yes
@@ -12585,12 +12550,6 @@ character_event = {
 	immediate = {
 		set_global_flag = flag_crowns_delivered
 
-		k_papacy = {
-			holder_scope = {
-				save_event_target_as = the_pope
-			}
-		}
-
 		any_playable_ruler = {
 			limit = {
 				is_decision_potential = prepare_coronation_ceremony
@@ -12602,14 +12561,31 @@ character_event = {
 				}
 			}
 
+			save_event_target_as = coronation_candidate
+			clear_event_target = coronation_head
+			clear_event_target = bishop
+
+			rightful_religious_head_scope = {
+				if = {
+					limit = {
+						controls_religion = yes
+						NOT = { character = event_target:coronation_candidate }
+					}
+					save_event_target_as = coronation_head
+				}
+			}
+
 			random_list = {
 				# Crowned by Pope
 				# Crowned by Bishop
 				# Crowned by Priest
 
 				10 = {
-					trigger = { # Excommunicated rulers, possessed rulers, or rulers under an Antipope are never assigned Crowned by the Pope
-						rightful_religious_head_scope = { controls_religion = yes }
+					trigger = { # Disqualified rulers and temporal heads are never assigned the religious-head trait
+						rightful_religious_head_scope = {
+							controls_religion = yes
+							NOT = { character = event_target:coronation_candidate }
+						}
 
 						NOR = {
 							trait = excommunicated
@@ -12620,6 +12596,7 @@ character_event = {
 
 					mult_modifier = { # More distant/Less powerful Kingdom less likely to be crowned by the Pope
 						factor = 0.5
+						uses_papal_coronation_flavor = yes
 
 						NOR = {
 							has_landed_title = k_france
@@ -12637,13 +12614,14 @@ character_event = {
 						factor = 0.5
 
 						reverse_opinion = {
-							who = event_target:the_pope
+							who = event_target:coronation_head
 							value < 0
 						}
 					}
 
 					mult_modifier = { # Historically more likely
 						factor = 10
+						uses_papal_coronation_flavor = yes
 
 						OR = {
 							has_landed_title = k_italy
@@ -12653,7 +12631,7 @@ character_event = {
 
 					save_persistent_event_target = {
 						name = coronation_priest_per # Needed to localize the trait properly
-						scope = event_target:the_pope
+						scope = event_target:coronation_head
 					}
 
 					add_trait = crowned_by_pope
@@ -12663,14 +12641,17 @@ character_event = {
 					trigger = {
 						# Checking if Emperor, Bishop Coronation unavailable when without investiture law
 						trigger_if = {
-							limit = { real_tier = EMPEROR }
+							limit = {
+								real_tier = EMPEROR
+								uses_papal_coronation_flavor = yes
+							}
 							has_law = investiture_law_0
 						}
 
 						# Checking if there is an available powerful theocrat
 						any_realm_character = {
 							is_theocracy = yes
-							religion = event_target:the_pope
+							religion = event_target:coronation_candidate
 							controls_religion = no
 
 							OR = {
@@ -12686,7 +12667,10 @@ character_event = {
 						factor = 0.1
 
 						real_tier = EMPEROR
-						rightful_religious_head_scope = { controls_religion = yes }
+						rightful_religious_head_scope = {
+							controls_religion = yes
+							NOT = { character = event_target:coronation_candidate }
+						}
 
 						NOR = {
 							trait = excommunicated
@@ -12697,7 +12681,7 @@ character_event = {
 					random_realm_lord = {
 						limit = {
 							is_theocracy = yes
-							religion = event_target:the_pope
+							religion = event_target:coronation_candidate
 							controls_religion = no
 
 							OR = {
@@ -12722,7 +12706,10 @@ character_event = {
 					trigger = {
 						# Holy Roman Emperors always crowned by somebody important
 						trigger_if = {
-							limit = { real_tier = EMPEROR }
+							limit = {
+								real_tier = EMPEROR
+								uses_papal_coronation_flavor = yes
+							}
 
 							OR = {
 								trait = excommunicated
@@ -12739,7 +12726,7 @@ character_event = {
 								NOT = {
 									any_realm_lord = {
 										is_theocracy = yes
-										religion = event_target:the_pope
+										religion = event_target:coronation_candidate
 										controls_religion = no
 
 										OR = {
@@ -12870,12 +12857,7 @@ character_event = {
 				trigger = {
 					is_married = yes
 
-					spouse = {
-						OR = {
-							religion = catholic
-							religion = fraticelli
-						}
-					}
+					spouse = { uses_coronation = yes }
 				}
 
 				mult_modifier = {
@@ -13115,15 +13097,44 @@ character_event = {
 
 		custom_tooltip = { text = tooltip_bribe_church }
 
-		religion_head = {
-			show_scope_change = no
-
-			transfer_scaled_wealth = {
-				from = ROOT
-				value = 1
-				min = 100
-				max = 100
+		if = {
+			limit = {
+				rightful_religious_head_scope = {
+					controls_religion = yes
+					NOT = { character = ROOT }
+				}
 			}
+
+			rightful_religious_head_scope = {
+				show_scope_change = no
+
+				transfer_scaled_wealth = {
+					from = ROOT
+					value = 1
+					min = 100
+					max = 100
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				job_spiritual = {
+					religion = ROOT
+					NOT = { character = ROOT }
+				}
+			}
+
+			job_spiritual = {
+				transfer_scaled_wealth = {
+					from = ROOT
+					value = 1
+					min = 100
+					max = 100
+				}
+			}
+		}
+		else = {
+			wealth = -100
 		}
 
 		ai_chance = { factor = 50 }
@@ -13924,7 +13935,6 @@ character_event = {
 	hide_window = yes
 
 	only_playable = yes
-	religion_group = christian
 	has_dlc = "Holy Fury"
 
 	trigger = {
@@ -13944,7 +13954,8 @@ character_event = {
 
 		liege = {
 			higher_real_tier_than = DUKE
-			religion_group = christian
+			religion = ROOT
+			uses_coronation = yes
 			in_command = no
 
 			OR = {
@@ -13976,8 +13987,6 @@ character_event = {
 
 	is_triggered_only = yes
 
-	religion_group = christian
-
 	trigger = {
 		independent = no
 		age >= 12
@@ -13985,6 +13994,8 @@ character_event = {
 
 		liege = {
 			higher_real_tier_than = DUKE
+			religion = ROOT
+			uses_coronation = yes
 			is_inaccessible_trigger = no
 
 			OR = {
@@ -14776,21 +14787,11 @@ character_event = {
 
 	desc = {
 		text = EVTDESCHFA20408
-		trigger = {
-			NOR = {
-				religion = fraticelli
-				religion = catholic
-			}
-		}
+		trigger = { NOT = { uses_coronation = yes } }
 	}
 	desc = {
 		text = EVTDESCHFB20408
-		trigger = {
-			OR = {
-				religion = fraticelli
-				religion = catholic
-			}
-		}
+		trigger = { uses_coronation = yes }
 	}
 
 	is_triggered_only = yes
@@ -14811,10 +14812,7 @@ character_event = {
 
 		# Previous religion
 		FROM = {
-			OR = {
-				religion = catholic
-				religion = fraticelli
-			}
+			uses_coronation = yes
 		}
 	}
 
@@ -14831,21 +14829,11 @@ character_event = {
 	option = {
 		name = {
 			text = EVTOPTAHF20408
-			trigger = {
-				NOR = {
-					religion = catholic
-					religion = fraticelli
-				}
-			}
+			trigger = { NOT = { uses_coronation = yes } }
 		}
 		name = {
 			text = I_SEE
-			trigger = {
-				OR = {
-					religion = catholic
-					religion = fraticelli
-				}
-			}
+			trigger = { uses_coronation = yes }
 		}
 
 		hidden_effect = {

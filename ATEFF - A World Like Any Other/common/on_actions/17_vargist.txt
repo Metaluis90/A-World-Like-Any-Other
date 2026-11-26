@@ -1,0 +1,7 @@
+# Vargist morality and Estado Novo status are maintained by a light yearly pulse.
+on_yearly_pulse = {
+	events = {
+		vargist.0001
+		vargist.0002
+	}
+}

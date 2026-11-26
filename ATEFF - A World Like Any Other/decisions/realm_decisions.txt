@@ -3244,6 +3244,7 @@ decisions = {
 			independent = yes
 			is_tribal = yes
 			has_dlc = "The Republic"
+			NOT = { religion = vargist }
 		}
 
 		allow = {

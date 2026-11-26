@@ -1,0 +1,4 @@
+# The original Estado Novo is a theocratic religious headship.
+2360.1.1 = {
+	holder = 1007
+}

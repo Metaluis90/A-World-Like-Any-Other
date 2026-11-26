@@ -1,0 +1,96 @@
+namespace = vargist
+
+# Apply Vargist virtue, sin, and Estado Novo modifiers.
+character_event = {
+	id = vargist.0001
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = { religion = vargist }
+
+	immediate = {
+		remove_character_modifier = vargist_diligent_virtue
+		remove_character_modifier = vargist_just_virtue
+		remove_character_modifier = vargist_charitable_virtue
+		remove_character_modifier = vargist_slothful_sin
+		remove_character_modifier = vargist_greedy_sin
+		remove_character_modifier = vargist_arbitrary_grave_sin
+		remove_character_modifier = vargist_estado_novo_proclaimed
+
+		if = {
+			limit = { trait = diligent }
+			add_character_modifier = { name = vargist_diligent_virtue duration = -1 }
+		}
+		if = {
+			limit = { trait = just }
+			add_character_modifier = { name = vargist_just_virtue duration = -1 }
+		}
+		if = {
+			limit = { trait = charitable }
+			add_character_modifier = { name = vargist_charitable_virtue duration = -1 }
+		}
+		if = {
+			limit = { trait = slothful }
+			add_character_modifier = { name = vargist_slothful_sin duration = -1 }
+		}
+		if = {
+			limit = { trait = greedy }
+			add_character_modifier = { name = vargist_greedy_sin duration = -1 }
+		}
+		if = {
+			limit = { trait = arbitrary }
+			add_character_modifier = { name = vargist_arbitrary_grave_sin duration = -1 }
+		}
+
+		# Once secularized, the headship follows the Estado Novo title and its
+		# imperial holder rather than remaining a one-ruler character bonus.
+		if = {
+			limit = {
+				has_global_flag = vargist_estado_novo_proclaimed
+				has_landed_title = d_estado_novo
+				real_tier = EMPEROR
+			}
+			add_character_modifier = { name = vargist_estado_novo_proclaimed duration = -1 }
+		}
+	}
+}
+
+# Remove religious modifiers after conversion.
+character_event = {
+	id = vargist.0002
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { religion = vargist }
+		OR = {
+			has_character_modifier = vargist_diligent_virtue
+			has_character_modifier = vargist_just_virtue
+			has_character_modifier = vargist_charitable_virtue
+			has_character_modifier = vargist_slothful_sin
+			has_character_modifier = vargist_greedy_sin
+			has_character_modifier = vargist_arbitrary_grave_sin
+			has_character_modifier = vargist_estado_novo_proclaimed
+		}
+	}
+
+	immediate = {
+		remove_character_modifier = vargist_diligent_virtue
+		remove_character_modifier = vargist_just_virtue
+		remove_character_modifier = vargist_charitable_virtue
+		remove_character_modifier = vargist_slothful_sin
+		remove_character_modifier = vargist_greedy_sin
+		remove_character_modifier = vargist_arbitrary_grave_sin
+		remove_character_modifier = vargist_estado_novo_proclaimed
+	}
+}
+
+character_event = {
+	id = vargist.0200
+	desc = EVTDESC_vargist_0200
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+
+	option = { name = EVTOPTA_vargist_0200 }
+}

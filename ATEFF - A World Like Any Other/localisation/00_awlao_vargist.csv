@@ -1,0 +1,26 @@
+d_estado_novo;Estado Novo;;;;;;;;;;;;;x
+d_estado_novo_adj;Estado-Novista;;;;;;;;;;;;;x
+ESTADO_NOVO;Estado Novo;;;;;;;;;;;;;x
+ESTADO_NOVO_FOA;Your Excellency;;;;;;;;;;;;;x
+MINISTER_OF_ORDEM;Minister of Ordem;;;;;;;;;;;;;x
+ORDEM;Ordem;;;;;;;;;;;;;x
+proclaim_estado_novo;Proclaim the Estado Novo on Earth;;;;;;;;;;;;;x
+proclaim_estado_novo_desc;The realm is mighty enough to realize Ordem upon the earth. Secular and religious authority will be united in your person, and you will become the temporal head of the Varguist faith.;;;;;;;;;;;;;x
+EVTDESC_vargist_0200;The promise of the Prophet is no longer merely anticipated. Before the assembled ministers, officers, and people, you proclaim the Estado Novo realized upon the earth. The old separation of sacred direction and secular command ends: both now reside in your person as the supreme representative of Ordem.;;;;;;;;;;;;;x
+EVTOPTA_vargist_0200;Let a new order begin.;;;;;;;;;;;;;x
+vargist_diligent_virtue;Diligence: Varguist Virtue;;;;;;;;;;;;;x
+vargist_diligent_virtue_desc;Varguists honor tireless work in the service of Ordem and Progresso.;;;;;;;;;;;;;x
+vargist_just_virtue;Justice: Varguist Virtue;;;;;;;;;;;;;x
+vargist_just_virtue_desc;Just rule is understood as the natural expression of Ordem.;;;;;;;;;;;;;x
+vargist_charitable_virtue;Charity: Varguist Virtue;;;;;;;;;;;;;x
+vargist_charitable_virtue_desc;Rulers are expected to give alms and provide for the people.;;;;;;;;;;;;;x
+vargist_slothful_sin;Sloth: Varguist Sin;;;;;;;;;;;;;x
+vargist_slothful_sin_desc;Idleness obstructs the ordered progress of society.;;;;;;;;;;;;;x
+vargist_greedy_sin;Greed: Varguist Sin;;;;;;;;;;;;;x
+vargist_greedy_sin_desc;A ruler who hoards wealth rather than giving alms betrays the social duties of office.;;;;;;;;;;;;;x
+vargist_arbitrary_grave_sin;Arbitrariness: Grave Varguist Sin;;;;;;;;;;;;;x
+vargist_arbitrary_grave_sin_desc;Arbitrary rule is a direct assault upon Ordem and gravely discredits a ruler before the faithful.;;;;;;;;;;;;;x
+vargist_estado_novo_proclaimed;Estado Novo Proclaimed;;;;;;;;;;;;;x
+vargist_estado_novo_proclaimed_desc;This ruler has proclaimed Ordem's new earthly kingdom and united secular and religious authority.;;;;;;;;;;;;;x
+CB_NAME_VARGIST_DISMANTLE_MERCHANT_REPUBLIC;Dismantle Merchant Republic;;;;;;;;;;;;;x
+WAR_NAME_VARGIST_DISMANTLE_MERCHANT_REPUBLIC;$ORDER$$FIRST_ADJ$ War to Dismantle the $SECOND_ADJ$ Merchant Republic;;;;;;;;;;;;;x

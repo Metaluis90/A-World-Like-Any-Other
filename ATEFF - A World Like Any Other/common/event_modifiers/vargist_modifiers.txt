@@ -1,0 +1,37 @@
+vargist_diligent_virtue = {
+	monthly_character_piety = 0.20
+	same_religion_opinion = 3
+}
+
+vargist_just_virtue = {
+	monthly_character_piety = 0.20
+	same_religion_opinion = 5
+}
+
+vargist_charitable_virtue = {
+	monthly_character_piety = 0.20
+	church_opinion = 5
+}
+
+vargist_slothful_sin = {
+	monthly_character_piety = -0.20
+	same_religion_opinion = -3
+}
+
+vargist_greedy_sin = {
+	monthly_character_piety = -0.20
+	church_opinion = -5
+}
+
+vargist_arbitrary_grave_sin = {
+	monthly_character_piety = -0.50
+	same_religion_opinion = -15
+	church_opinion = -10
+}
+
+vargist_estado_novo_proclaimed = {
+	vassal_opinion = 10
+	same_religion_opinion = 10
+	monthly_character_prestige = 0.50
+	monthly_character_piety = 0.50
+}
