@@ -1,6 +1,6 @@
-# Reserved AWLAO Synodal character range: 9100000-9100099
+# Reserved AWLAO Synodal character range: 690000-690999
 
-9100000 = {
+690000 = {
 	name = "Esteban"
 	religion = synodal
 	culture = centralino

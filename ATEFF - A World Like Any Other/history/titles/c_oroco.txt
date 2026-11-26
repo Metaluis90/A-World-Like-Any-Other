@@ -4,7 +4,7 @@
 
 
 2355.5.25 = {
-	holder = 3531 # Constantino Quelê
+	holder = 510030 # Constantino Quelê
 }
 2365.5.25 = {
 	liege = 0 # Independence of Francisca from Pernambuco

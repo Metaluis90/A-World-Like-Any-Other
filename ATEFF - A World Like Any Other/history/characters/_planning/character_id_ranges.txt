@@ -1,0 +1,91 @@
+# AWLAO HISTORICAL CHARACTER ID REGISTER
+#
+# One ID per person across the entire map and timeline. The bookmarks at
+# 2369.11.19 and 2666.7.4 draw from the same ranges, including ancestors,
+# intervening generations, and characters who only appear at one start.
+# Use dated character and title history to decide who is alive and who rules
+# at each start. If a person appears at both starts, reuse their existing ID.
+#
+# Allocate by regional roster. Landed characters belong to the roster of
+# their first landed seat. For unlanded characters, use the roster of their
+# home court, family, or main storyline. Keep an assigned ID through changes
+# of title, residence, or culture. Family links can cross regional ranges.
+#
+# NEW REGIONAL IDS (inclusive)
+# Each 10,000-ID region has ten 1,000-ID roster blocks. Record a block here
+# when a roster starts. A growing roster can claim another free block in its
+# region, then draw from the common reserve. Existing IDs stay with their
+# characters if a roster splits. The numbers are project allocations.
+#
+# Northern planning follows the After the End Fan Fork - Aguila o Sol
+# map/geographical_region.txt, including custom_gran_colombia. The labels
+# below group likely additions. Final boundaries can follow AWLAO's map.
+# Regions without listed roster blocks are available for future assignment.
+#
+# 500000-509999  Southern Cone
+#     500000-500999  Chile outside the Patagonia roster (chile.txt)
+#     501000-501999  Patagonia, including Magallanes and Tierra del Fuego (patagonia.txt)
+#     502000-502999  Falklands / Malvinas (falklands.txt)
+#     503000-503999  La Plata (la plata.txt)
+#     504000-504999  Interior (interior (name pending).txt)
+# 510000-519999  Brazil
+#     510000-510999  Nordeste (nordeste.txt, in use 510000-510030)
+#     511000-511999  Rio Grande do Sul (rio_grande_do_sul.txt, in use 511000-511007)
+# 520000-529999  Central Andes (Peru and Bolivia)
+# 530000-539999  Northern South America
+#     530000-530999  Colombia (Cundinamarca, Antioquia, Cauca, and Choco)
+#     531000-531999  Venezuela (Caracas, Zulia, and the Llanos)
+#     532000-532999  Guianas (Guyana, Suriname, and French Guiana)
+#     533000-533999  Ecuador
+# 540000-549999  Caribbean islands (Cuba, Hispaniola, Jamaica, and the Antilles)
+# 550000-559999  Central America (Guatemala and Belize through Panama)
+# 560000-569999  Mexico
+#     560000-560999  Yucatan (yucatan.txt)
+# 570000-579999  Pacific Coast (California, Oregon, and Washington west of the Rockies)
+# 580000-589999  Southwest (Arixo, New Mexico, and Navajoland)
+# 590000-599999  Rockies and Great Basin (Colorado, Deseret, Idaho, and Montana)
+# 600000-609999  Great Plains and inland Texas
+# 610000-619999  Great Lakes and Upper Midwest (Rustlands and Norselands)
+# 620000-629999  Gulf Coast (Louisiana, Florida, and coastal Texas)
+# 630000-639999  Southeast and Appalachia
+# 640000-649999  Northeast (New England, Gotham, and Mid-Atlantic)
+# 650000-659999  Eastern Canada (Quebec City, Maritimes, Newfoundland, and Labrador)
+# 660000-669999  Central Canada (Montreal, Ontario, and Manitoba)
+# 670000-679999  Western Canada and Alaska
+# 680000-689999  Far North and Greenland, if added
+# 690000-739999  Common reserve for new regions and overflow
+#     690000-690999  Synodal prelates (synodal.txt)
+#
+# CK2 ID SIZE
+# The CK2 2.7.1 notes document a fixed crash involving IDs at or above one
+# billion. The AGOT-Fixed-ID mod authors reported a separate numeric trigger
+# issue near one million on CK2 2.8. These reports establish historical
+# compatibility issues. We have no benchmark showing a speed gain from
+# smaller IDs, or a confirmed current engine ceiling. The compact range
+# also avoids the lower IDs still referenced by inherited events and DLC
+# character metadata.
+#
+# EXISTING IDS AND DRAFTS
+#   1-83             Commented Chile drafts. Yucatan drafts also use 1 and 2.
+#                    The 2369 bookmark references Chile draft 18 and the 2666
+#                    bookmark references Yucatan draft 2. Both are currently
+#                    absent from active character history. Give revived drafts
+#                    IDs from their roster and update the matching references.
+#
+# ASSIGNING IDS
+# Use the next unused ID in the roster. Check the full character history and
+# search for references to the number before taking it. Keep retired IDs out
+# of circulation so old references can never point to a different person.
+# When several people work on the same roster, record their batches below so
+# they can work in parallel. Record retired IDs here as well.
+#
+# If a draft or imported character gets a new ID, check family and spouse
+# links, title holders, bookmark selections, and scripted character references.
+# Verify affected characters and titles at both bookmarks.
+#
+# BATCH CLAIMS AND RETIRED IDS
+# Each entry should include the inclusive range, roster, and contributor or
+# branch for a claim, or the reason for retirement.
+#   1000-1007  Retired Rio Grande do Sul IDs, replaced by 511000-511007.
+#   3501-3531  Retired Nordeste IDs, replaced by 510000-510030.
+#   9100000    Retired Synodal ID, replaced by 690000.

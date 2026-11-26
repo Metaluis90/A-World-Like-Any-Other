@@ -1,9 +1,9 @@
-# ID RANGE: 3501 - 4000
+# ID RANGE: 510000 - 510999
 # ###########################
 # ### House Belchioríngio ###
 # ###########################
 
-3501={
+510000={
 	name="Antônio Carlos Belchior" 
 	#Belchior, founder of the Belchioringian Empire
 	dynasty=1 #Belchioríngio
@@ -31,7 +31,7 @@
 		}
 	}
 	2318.12.25={
-		add_spouse=3502
+		add_spouse=510001
 	}
 	2355.10.8={
 		give_nickname=nick_the_great
@@ -43,7 +43,7 @@
 	2362.2.10={death=yes}
 }
 
-3502={
+510001={
 	name="Rafaela" #Belchior's wife
 	female=yes
 	dynasty=0
@@ -53,18 +53,18 @@
 	
 	2298.5.10={birth=yes}
 	2318.12.25={
-		add_spouse=3501
+		add_spouse=510000
 	}
 	2367.1.10={death=yes}
 }
 
-3503={ #Firstborn of Belchior, King of Potiguaria
+510002={ #Firstborn of Belchior, King of Potiguaria
 	name="Celestino"
 	dynasty=1 #Belchioríngio
 	religion=cicerite
 	culture=natalense
-	father=3501
-	mother=3502
+	father=510000
+	mother=510001
 	disallow_random_traits=yes
 	trait=charismatic_negotiator
 	trait=mystic
@@ -79,7 +79,7 @@
 	
 	2325.3.20={birth=yes}
 	2345.1.5={
-		add_spouse=3506
+		add_spouse=510005
 	}
 	2363.3.1={
 		effect = {
@@ -91,15 +91,15 @@
 	2400.1.1={death=yes}
 }
 
-3504={ #Middle Child of Belchior, former King of Ceara, Count of Mossoró
+510003={ #Middle Child of Belchior, former King of Ceara, Count of Mossoró
 	name="Cláudio" 
 	dynasty=1 #Belchioríngio
 	dna="cc0ca0dc0c0"
 	properties="an0bkd000000000000000000000000000000"
 	religion=cicerite
 	culture=cearense
-	father=3501
-	mother=3502
+	father=510000
+	mother=510001
 	disallow_random_traits=yes
 	trait=flamboyant_schemer
 	trait=strong
@@ -113,7 +113,7 @@
 	
 	2330.10.20={birth=yes}
 	2353.2.22={
-		add_spouse=3507
+		add_spouse=510006
 	}
 	2367.1.1={
 		effect = {
@@ -125,15 +125,15 @@
 	2400.1.1={death=yes}
 }
 
-3505={ #Lastborn son of Belchior, King of Pernambuco
+510004={ #Lastborn son of Belchior, King of Pernambuco
 	name="Cassiano"
 	dynasty=1 #Belchioríngio
 	dna="cf0c00000b0"
 	properties="0l0c0b000000000000000000000000000000"
 	religion=cicerite
 	culture=recifolindense
-	father=3501
-	mother=3502
+	father=510000
+	mother=510001
 	disallow_random_traits=yes
 	trait=indulgent_wastrel
 	trait=lustful
@@ -152,7 +152,7 @@
 		birth=yes
 	}
 	2350.1.5={
-		add_spouse=3508
+		add_spouse=510007
 	}
 	2362.2.10={
 		effect = {
@@ -163,7 +163,7 @@
 	2400.1.1={death=yes}
 }
 
-3506={ #Celestino's Wife
+510005={ #Celestino's Wife
 	name="Maria Eduarda" 
 	female=yes
 	dynasty=0
@@ -178,12 +178,12 @@
 		}
 	}
 	2345.1.5={
-		add_spouse=3503
+		add_spouse=510002
 	}
 	2400.1.1={death=yes}
 }
 
-3507={ #Cláudio's Wife
+510006={ #Cláudio's Wife
 	name="Antônia" 
 	female=yes
 	dynasty=0
@@ -196,7 +196,7 @@
 	2400.1.1={death=yes}
 }
 
-3508={ #Cassiano's Wife, deceased
+510007={ #Cassiano's Wife, deceased
 	name="Valentina"
 	female=yes
 	dynasty=0
@@ -206,7 +206,7 @@
 	
 	2334.1.1={birth=yes}
 	2350.1.5={
-		add_spouse=3505
+		add_spouse=510004
 	}
 	2363.10.13={
 		death={
@@ -217,15 +217,15 @@
 
 	##Cassian Line##
 	
-3509={ #Cassiano's heir, Duke of Alagoas
+510008={ #Cassiano's heir, Duke of Alagoas
 	name="Décio"
 	dynasty=1 #Belchioríngio
 	dna="000h00a00c0"
 	properties="0j0elk000000000000000000000000000000"
 	religion=cicerite
 	culture=recifolindense
-	father=3505
-	mother=3508
+	father=510004
+	mother=510007
 	disallow_random_traits=yes
 	trait=brilliant_strategist
 	trait=shrewd
@@ -261,15 +261,15 @@
 
 	##Celestian Line##
 
-3510={
+510009={
 	name="Vitória"
 	female=yes
 	dynasty=1 #Belchioríngio
 	dna=0jjcj0d00e0
 	religion=candomble
 	culture=natalense
-	father=3503
-	mother=3506
+	father=510002
+	mother=510005
 	trait=intricate_webweaver
 	trait=diligent
 	trait=deceitful
@@ -284,15 +284,15 @@
 	2400.1.1={death=yes}
 }
 
-3511={
+510010={
 	name="Bianca"
 	female=yes
 	dynasty=1 #Belchioríngio
 	dna=a0hhi0b0ad0
 	religion=candomble
 	culture=natalense
-	father=3503
-	mother=3506
+	father=510002
+	mother=510005
 	
 	martial=1
 	diplomacy=3
@@ -309,14 +309,14 @@
 	2400.1.1={death=yes}
 }
 
-3512={
+510011={
 	name="Felipe"
 	dynasty=1 #Belchioríngio
 	dna=bifcg0gc0a0
 	religion=candomble
 	culture=natalense
-	father=3503
-	mother=3506
+	father=510002
+	mother=510005
 	
 	martial=2
 	diplomacy=2
@@ -330,15 +330,15 @@
 
 	##Claudian Line##	
 
-3513={
+510012={
 	name="Amanda"
 	female=yes
 	dynasty=1 #Belchioríngio
 	dna=afhjd0jccc0
 	religion=cicerite
 	culture=cearense
-	father=3504
-	mother=3507
+	father=510003
+	mother=510006
 
 	martial=1
 	diplomacy=2
@@ -350,14 +350,14 @@
 	2400.1.1={death=yes}
 }
 
-3514={
+510013={
 	name="Paulo"
 	dynasty=1 #Belchioríngio
 	dna=aihc00iacd0
 	religion=cicerite
 	culture=cearense
-	father=3504
-	mother=3507
+	father=510003
+	mother=510006
 	
 	martial=2
 	diplomacy=4
@@ -371,15 +371,15 @@
 
 	##Cassian Line again##
 
-3515={
+510014={
 	name="Luíza"
 	female=yes
 	dynasty=1 #Belchioríngio
 	dna=00gad0hcb00
 	religion=cicerite
 	culture=recifolindense
-	father=3505
-	mother=3508
+	father=510004
+	mother=510007
 	trait=quick
 	trait=twin #One of the twins of Cassiano and Valentina
 	
@@ -387,14 +387,14 @@
 	2400.1.1={death=yes}
 }
 
-3516={
+510015={
 	name="Eduardo"
 	dynasty=1 #Belchioríngio
 	dna=00gad0hcb00
 	religion=cicerite
 	culture=recifolindense
-	father=3505
-	mother=3508
+	father=510004
+	mother=510007
 	trait=quick
 	trait=twin #One of the twins of Cassiano and Valentian
 	
@@ -406,7 +406,7 @@
 	
 	###  Recife Republic  ###
 	### Cavalcanti Family ###
-3517={
+510016={
 	name="Marco"
 	dynasty=2 #Cavalcanti
 	dna="0chki0gb0e0"
@@ -420,12 +420,12 @@
 	trait=wroth
 	
 	2318.6.12={birth=yes}
-	2340.7.10={add_spouse=3518}
+	2340.7.10={add_spouse=510017}
 	2400.1.1={death=yes}
 	#holds d_recife and c_recife
 }
 
-3518={
+510017={
 	name="Ana Maria" #spouse of Marco Cavalcanti
 	female=yes
 	dynasty=0
@@ -436,23 +436,23 @@
 	trait=kind
 	
 	2320.9.10={birth=yes}
-	2340.7.10={add_spouse=3517}
+	2340.7.10={add_spouse=510016}
 	2400.1.1={death=yes}
 }
 
-3519={
+510018={
 	name="Lucas"
 	dynasty=2 #Cavalcanti
 	culture=recifolindense
 	religion=camdomble
-	father=3517
-	mother=3518
+	father=510016
+	mother=510017
 	trait=thrifty_clerk
 	2343.5.10={birth=yes}
 	2400.1.1={death=yes}
 }
 	### Albuquerque Family ###
-3520={
+510019={
 	name="Lúcio"
 	dynasty=3 #Albuquerque
 	culture=salvadorense
@@ -471,11 +471,11 @@
 		birth=yes
 		culture=recifolindense
 	}
-	2345.2.4={add_spouse=3521}
+	2345.2.4={add_spouse=510020}
 	2400.1.1={death=yes}
 	#holder of the City of Olinda
 }
-3521={
+510020={
 	name="Catarina"
 	female=yes
 	dynasty=0
@@ -483,15 +483,15 @@
 	religion=camdomble
 	trait=flamboyant_schemer
 	2323.11.23={birth=yes}
-	2345.2.4={add_spouse=3520}
+	2345.2.4={add_spouse=510019}
 	2400.1.1={death=yes}
 }
-3522={
+510021={
 	name="Beatriz"
 	dynasty=3 #Albuquerque
 	female=yes
-	father=3520
-	mother=3521
+	father=510019
+	mother=510020
 	culture=salvadorense
 	religion=camdomble
 	trait=martial_cleric
@@ -505,7 +505,7 @@
 
 	### Arraes Family ###
 	
-3523={	
+510022={
 	name="Camilo"
 	dynasty=4 #Arraes
 	culture=sertanista
@@ -520,12 +520,12 @@
 		birth=yes
 		culture=recifolindense
 	}
-	2333.3.3={add_spouse=3524	}
+	2333.3.3={add_spouse=510023	}
 	2400.1.1={death=yes}
 	#holds Suape
 }
 
-3524={
+510023={
 	name="Marília"
 	dynasty=0
 	female=yes
@@ -533,16 +533,16 @@
 	religion=camdomble
 	trait=underhanded_rogue
 	2316.2.3={birth=yes	}
-	2333.3.3={add_spouse=3523}
+	2333.3.3={add_spouse=510022}
 	2400.1.1={death=yes}
 }
 
-3525={
+510024={
 	name="Janaina"
 	dynasty=4 #Arraes
 	female=yes
-	father=3523
-	mother=3524
+	father=510022
+	mother=510023
 	culture=sertanista
 	religion=camdomble
 	trait=scholarly_theologian
@@ -552,11 +552,11 @@
 	2400.1.1={death=yes}
 }
 
-3526={
+510025={
 	name="João"
 	dynasty=4 #Arraes
-	father=3523
-	mother=3524
+	father=510022
+	mother=510023
 	culture=recifolindense
 	religion=camdomble
 	trait=tough_soldier
@@ -566,11 +566,11 @@
 	2400.1.1={death=yes}
 }
 
-3527={
+510026={
 	name="Jeremias"
 	dynasty=4 #Arraes
-	father=3523
-	mother=3524
+	father=510022
+	mother=510023
 	culture=recifolindense
 	religion=camdomble
 	trait=thrifty_clerk
@@ -582,7 +582,7 @@
 
 	### Lira Family ###
 	
-3528={
+510027={
 	name="Severino"
 	dynasty=5 #Lira
 	culture=recifolindense
@@ -593,12 +593,12 @@
 	trait=patient
 	disallow_random_traits=yes
 	2335.5.17={birth=yes}
-	2367.1.1={add_spouse=3529}
+	2367.1.1={add_spouse=510028}
 	2400.1.1={death=yes}
 	#holds itamaraca
 }
 
-3529={
+510028={
 	name="Milena"
 	female=yes
 	dynasty=0
@@ -606,13 +606,13 @@
 	religion=cicerite
 	trait=grey_eminence
 	2341.1.1={birth=yes}
-	2367.1.1={add_spouse=3528}
+	2367.1.1={add_spouse=510027}
 	2400.1.1={death=yes}
 }
 
 	### Ferreira Family ###
 	
-3530={
+510029={
 	name="Lucrécio"
 	dynasty=6 #Ferreira
 	culture=recifolindense
@@ -632,7 +632,7 @@
 	
 		### Quelê Family ###
 	
-3531={
+510030={
 	name="Constantino"
 	dynasty=7 #Quelê
 	dna="bfhcc0faba0"
